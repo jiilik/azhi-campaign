@@ -1,0 +1,5 @@
+build/
+__pycache__/
+*.pyc
+worldgen/output/azhi_map_raw.png
+worldgen/output/azhi_3d_views.png
