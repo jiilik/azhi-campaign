@@ -4,6 +4,12 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-10-20
 
+- **Dragonborn are born polychromatic (Unphased)** and settle into a **monochrome** or **bichrome** form tied to one or two adjacent colours of the five surface dragons. That gives 10 common forms. Blend order is irrelevant, and blends get pigment names (Green + Red = brown). This removes any basis for colour prejudice.
+- **Phasing:** dramatic, traumatic or deadly events can change a dragonborn's form. They keep parts of their personality and most of their memories. There is a penalty to stop exploitation. Players can't return to Unphased; the DM may allow it rarely.
+- **Settling triggers** are left to player backstories.
+- **Power budget:** Unphased (playable, young; may swap some features or feats on a Long Rest) < bichrome (picks features from either colour) < monochrome.
+- **Gold and Silver dragonborn** are super-rare NPCs with no easy player path, but their species definitions should exist.
+- **Triage: Character Backgrounds** is deferred until more lore exists. **Species** is high-priority revise, with design held until the lore discussion is finished.
 - **Triage: Playing the Game** stays unchanged for now. It will be reviewed later for logic or lore inconsistencies introduced by changes to later sections.
 - **Triage: Character Creation.** Revise Step 2 (species → colour choice; languages) and Trinkets. Keep everything else. The revision waits until **Character Origins** is settled, because it depends on those decisions.
 - **SRD intake.** The uploaded PDF is **SRD 5.2.1** (the April 2025 update of 5.2), so attribution names 5.2.1. The markdown comes from **downfallx/dnd-5e-srd-markdown** (commit `1b4b99d`), chosen over Claude's own PDF conversion because it is cleaner. A word-by-word check against the PDF found about 120 of 202,000 words differing (repeated table headers, line-break hyphenation). The PDF stays authoritative.

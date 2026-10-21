@@ -44,7 +44,34 @@ When a PROPOSED item is confirmed or rejected, update its status here and add a 
 - **CANON.** There are **no other sentient species**. Any art or text that shows people shows only dragonborn. The dragons themselves (gods) and non-sentient creatures are the only exceptions.
 - **CANON.** Each colour's dragonborn are descendants or followers of their dragon and generally share its elemental affinity.
 - **CANON. Avoid the "racist dragons" trope.** Differences between colours are **elements in opposition**, not claims of superiority. Do not write NPCs whose defining trait is prejudice against other colours.
-- **PROPOSED.** Affinity comes from **practice and vocation, not blood**. A Red-scaled dragonborn raised in a Blue harbour town is unremarkable.
+- **CANON. Affinity is not inherited.** It comes from the life a dragonborn leads (see *Unphased, Phased and phasing* below). A Red dragonborn raised in a Blue harbour town is unremarkable, and siblings may be different colours. *(This was PROPOSED; it now follows from the phasing lore, 2026-10-20.)*
+
+### Unphased, Phased and phasing
+
+- **CANON.** All dragonborn are **born polychromatic**. Young dragonborn with no settled form are **Unphased**. This mirrors the myth: the young dragons are "of many forms and colours" until each finds what it loves and "their forms become fixed."
+- **CANON.** As they mature, dragonborn **settle into a final form** with an elemental affinity to **one or two** of the five surface dragons (Blue, Green, Red, Black, White):
+  - **Monochrome:** one colour, giving 5 forms.
+  - **Bichrome:** two colours that are **adjacent on the colour wheel**, giving 5 forms, for **10 common forms** in all. Blends are named like mixed paint pigments; for example, Green + Red is **brown**. **Order is irrelevant** (Green + Red is the same form as Red + Green).
+- **CANON.** What triggers settling is **left to players' backstories**. It can be finding a calling (the myth's model), the influence of surroundings, or anything else they invent.
+- **CANON. Phasing:** something dramatic, traumatic or deadly can make a dragonborn **phase** from one form into another. They keep parts of their former personality and most of their memories. Rebirth and reincarnation are strong themes, echoing the myth, in which everything Azhi devoured "springs forth anew." Phasing **carries a penalty** so that players can't exploit it; the penalty is not yet designed.
+- **CANON.** There is **no return to Unphased** within the mechanics. The DM may allow it on rare occasions for narrative reasons.
+- **CANON. Gold and Silver dragonborn** are **super rare**. They are NPCs who can motivate plot, and there is no easy way for players to phase into them. Their species definitions should still exist, in case they become relevant. This fits the myth, in which Gold and Silver "don't take direct interest" in those below.
+- **CANON (game design).** **Power budget: Unphased < bichrome < monochrome.**
+  - **Unphased** characters are playable. They are young and flexible: they may swap some features or feats on a Long Rest. Their total bonuses are lower, to encourage players to find a phase and settle.
+  - **Bichrome** characters choose a couple of features from either parent colour. That choice is their advantage, so their total bonuses sit between Unphased and monochrome, to discourage munchkin builds.
+- **PROPOSED. The wheel's adjacency follows the feeding cycle** below: Blue–Green, Green–Red, Red–Black, Black–White, White–Blue. The forbidden pairs are exactly the **checking (opposition) pairs**, so no dragonborn holds two opposed elements.
+- **PROPOSED. Pigment names** for the bichromes, as placeholders: teal or verdigris (Blue + Green), umber or brown (Green + Red), oxblood (Red + Black), slate (Black + White), glacier (White + Blue).
+- **PROPOSED. Phasing penalty levers:**
+  - The result is set by the event or rolled, not chosen. The SRD *Reincarnate* spell is a model.
+  - A fading penalty, like *Raise Dead*'s, or Exhaustion.
+  - A cost in memories, relationships or proficiencies.
+  - Phasing happens only at the DM's discretion or at death's door.
+- **OPEN.**
+  - Whether a dragonborn's first settling counts as "phasing" (the word may cover only later changes).
+  - Whether Unphased swaps draw only from the colour forms' features or more widely.
+  - What an Unphased dragonborn looks like, and whether it can breathe or resist anything.
+  - The exact phasing penalty.
+  - Whether Gold and Silver can ever be reached by phasing.
 - **PROPOSED.** Each colour's culture has **internal disagreements** that matter more than its external rivalries. Rivalries look like **policy disputes** between neighbours who trade and intermarry, such as water rights or forests versus forges.
 - **PROPOSED. The elemental wheel** (modelled on the Chinese five-phase cycle):
   - Feeding: Blue → Green → Red → Black → White → Blue. Water nourishes life, growth fuels fire, ash becomes ink, records preserve like ice, and ice melts to water.

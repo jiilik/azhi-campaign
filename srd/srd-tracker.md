@@ -36,8 +36,8 @@ One row per section file. Generated at intake (2026-10-20) from `srd/_tools/inde
 | `03-classes/10-sorcerer.md` | Sorcerer | untouched |  |  |
 | `03-classes/11-warlock.md` | Warlock | untouched |  |  |
 | `03-classes/12-wizard.md` | Wizard | untouched |  |  |
-| `04-character-origins/01-character-backgrounds.md` | Character Origins | untouched |  |  |
-| `04-character-origins/02-character-species.md` | Character Species | untouched |  |  |
+| `04-character-origins/01-character-backgrounds.md` | Character Origins | untouched |  | Deferred until more lore is established. |
+| `04-character-origins/02-character-species.md` | Character Species | revise | high | Rewrite the intro (one people, one world; lifespan). Dragonborn → Unphased, monochrome, bichrome, Gold/Silver (bible §3). Delete the other 8 species as playable. Design is on hold for lore. |
 | `05-feats/feats.md` | Feats | untouched |  |  |
 | `06-equipment/01-coins.md` | Equipment | untouched |  |  |
 | `06-equipment/02-weapons.md` | Weapons | untouched |  |  |
