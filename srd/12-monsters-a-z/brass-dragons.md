@@ -1,0 +1,344 @@
+## Brass Dragons
+
+### Brass Dragon Wyrmling
+
+_Medium Dragon (Metallic), Chaotic Good_
+
+**AC** 15 **Initiative** +2 (12) <br>
+**HP** 22 (4d8 + 4) <br>
+**Speed** 30 ft., Burrow 15 ft., Fly 60 ft. <br>
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th>MOD</th>
+      <th>SAVE</th>
+      <th></th>
+      <th></th>
+      <th>MOD</th>
+      <th>SAVE</th>
+      <th></th>
+      <th></th>
+      <th>MOD</th>
+      <th>SAVE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>STR</strong></td>
+      <td>15</td>
+      <td>+2</td>
+      <td>+2</td>
+      <td><strong>DEX</strong></td>
+      <td>10</td>
+      <td>+0</td>
+      <td>+2</td>
+      <td><strong>CON</strong></td>
+      <td>13</td>
+      <td>+1</td>
+      <td>+1</td>
+    </tr>
+    <tr>
+      <td><strong>INT</strong></td>
+      <td>10</td>
+      <td>+0</td>
+      <td>+0</td>
+      <td><strong>WIS</strong></td>
+      <td>11</td>
+      <td>+0</td>
+      <td>+2</td>
+      <td><strong>CHA</strong></td>
+      <td>13</td>
+      <td>+1</td>
+      <td>+1</td>
+    </tr>
+  </tbody>
+</table>
+
+**Skills** Perception +4, Stealth +2<br>
+**Immunities** Fire<br>
+**Senses** Blindsight 10 ft., Darkvision 60 ft.; Passive Perception 14<br>
+**Languages** Draconic<br>
+**CR** 1 (XP 200; PB +2)
+
+#### Actions
+
+<hr>
+
+**_Rend._** _Melee Attack Roll:_ +4, reach 5 ft. _Hit:_ 7 (1d10 + 2) Slashing damage.
+
+**_Fire Breath (Recharge 5–6)._** _Dexterity Saving Throw:_ DC 11, each creature in a 20-foot-long, 5-foot-wide Line. _Failure:_ 14 (4d6) Fire damage. _Success:_ Half damage.
+
+**_Sleep Breath._** _Constitution Saving Throw:_ DC 11, each creature in a 15-foot Cone. _Failure:_ The target has the Incapacitated condition until the end of its next turn, at which point it repeats the save. _Second Failure:_ The target has the Unconscious condition for 1 minute. This effect ends for the target if it takes damage or a creature within 5 feet of it takes an action to wake it.
+
+### Young Brass Dragon
+
+_Large Dragon (Metallic), Chaotic Good_
+
+**AC** 17 **Initiative** +3 (13) <br>
+**HP** 110 (13d10 + 39) <br>
+**Speed** 40 ft., Burrow 20 ft., Fly 80 ft. <br>
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th>MOD</th>
+      <th>SAVE</th>
+      <th></th>
+      <th></th>
+      <th>MOD</th>
+      <th>SAVE</th>
+      <th></th>
+      <th></th>
+      <th>MOD</th>
+      <th>SAVE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>STR</strong></td>
+      <td>19</td>
+      <td>+4</td>
+      <td>+4</td>
+      <td><strong>DEX</strong></td>
+      <td>10</td>
+      <td>+0</td>
+      <td>+3</td>
+      <td><strong>CON</strong></td>
+      <td>17</td>
+      <td>+3</td>
+      <td>+3</td>
+    </tr>
+    <tr>
+      <td><strong>INT</strong></td>
+      <td>12</td>
+      <td>+1</td>
+      <td>+1</td>
+      <td><strong>WIS</strong></td>
+      <td>11</td>
+      <td>+0</td>
+      <td>+3</td>
+      <td><strong>CHA</strong></td>
+      <td>15</td>
+      <td>+2</td>
+      <td>+2</td>
+    </tr>
+  </tbody>
+</table>
+
+**Skills** Perception +6, Persuasion +5, Stealth +3<br>
+**Immunities** Fire<br>
+**Senses** Blindsight 30 ft., Darkvision 120 ft.; Passive Perception 16<br>
+**Languages** Common, Draconic<br>
+**CR** 6 (XP 2,300; PB +3)
+
+#### Actions
+
+<hr>
+
+**_Multiattack._** The dragon makes three Rend attacks. It can replace two attacks with a use of Sleep Breath.
+
+**_Rend._** _Melee Attack Roll:_ +7, reach 10 ft. _Hit:_ 15 (2d10 + 4) Slashing damage.
+
+**_Fire Breath (Recharge 5–6)._** _Dexterity Saving Throw:_ DC 14, each creature in a 40-foot-long, 5-foot-wide Line. _Failure:_ 38 (11d6) Fire damage. _Success:_ Half damage.
+
+**_Sleep Breath._** _Constitution Saving Throw:_ DC 14, each creature in a 30-foot Cone. _Failure:_ The target has the Incapacitated condition until the end of its next turn, at which point it repeats the save. _Second Failure:_ The target has the Unconscious condition for 1 minute. This effect ends for the target if it takes damage or a creature within 5 feet of it takes an action to wake it.
+
+### Adult Brass Dragon
+
+_Huge Dragon (Metallic), Chaotic Good_
+
+**AC** 18 **Initiative** +10 (20) <br>
+**HP** 172 (15d12 + 75) <br>
+**Speed** 40 ft., Burrow 30 ft., Fly 80 ft. <br>
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th>MOD</th>
+      <th>SAVE</th>
+      <th></th>
+      <th></th>
+      <th>MOD</th>
+      <th>SAVE</th>
+      <th></th>
+      <th></th>
+      <th>MOD</th>
+      <th>SAVE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>STR</strong></td>
+      <td>23</td>
+      <td>+6</td>
+      <td>+6</td>
+      <td><strong>DEX</strong></td>
+      <td>10</td>
+      <td>+0</td>
+      <td>+5</td>
+      <td><strong>CON</strong></td>
+      <td>21</td>
+      <td>+5</td>
+      <td>+5</td>
+    </tr>
+    <tr>
+      <td><strong>INT</strong></td>
+      <td>14</td>
+      <td>+2</td>
+      <td>+2</td>
+      <td><strong>WIS</strong></td>
+      <td>13</td>
+      <td>+1</td>
+      <td>+6</td>
+      <td><strong>CHA</strong></td>
+      <td>17</td>
+      <td>+3</td>
+      <td>+3</td>
+    </tr>
+  </tbody>
+</table>
+
+**Skills** History +7, Perception +11, Persuasion +8, Stealth +5<br>
+**Immunities** Fire<br>
+**Senses** Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 21<br>
+**Languages** Common, Draconic<br>
+**CR** 13 (XP 10,000, or 11,500 in lair; PB +5)
+
+#### Traits
+
+<hr>
+
+**_Legendary Resistance (3/Day, or 4/Day in Lair)._** If the dragon fails a saving throw, it can choose to succeed instead.
+
+#### Actions
+
+<hr>
+
+**_Multiattack._** The dragon makes three Rend attacks. It can replace one attack with a use of (A) Sleep Breath or (B) Spellcasting to cast _Scorching Ray_.
+
+**_Rend._** _Melee Attack Roll:_ +11, reach 10 ft. _Hit:_ 17 (2d10 + 6) Slashing damage plus 4 (1d8) Fire damage.
+
+**_Fire Breath (Recharge 5–6)._** _Dexterity Saving Throw:_ DC 18, each creature in a 60-foot-long, 5-foot-wide Line. _Failure:_ 45 (10d8) Fire damage. _Success:_ Half damage.
+
+**_Sleep Breath._** _Constitution Saving Throw:_ DC 18, each creature in a 60-foot Cone. _Failure:_ The target has the Incapacitated condition until the end of its next turn, at which point it repeats the save. _Second Failure:_ The target has the Unconscious condition for 10 minutes. This effect ends for the target if it takes damage or a creature within 5 feet of it takes an action to wake it.
+
+**_Spellcasting._** The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 16): <br>
+&emsp;**At Will:** _Detect Magic_, _Minor Illusion_, _Scorching Ray_, _Shapechange_ (Beast or Humanoid form only, no Temporary Hit Points gained from the spell, and no Concentration or Temporary Hit Points required to maintain the spell), _Speak with Animals_ <br>
+&emsp;**1/Day Each:** _Detect Thoughts_, _Control Weather_
+
+#### Legendary Actions
+
+<hr>
+
+_Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns._
+
+**_Blazing Light._** The dragon uses Spellcasting to cast _Scorching Ray_.
+
+**_Pounce._** The dragon moves up to half its Speed, and it makes one Rend attack.
+
+**_Scorching Sands._** _Dexterity Saving Throw:_ DC 16, one creature the dragon can see within 120 feet. _Failure:_ 27 (6d8) Fire damage, and the target's Speed is halved until the end of its next turn. _Failure or Success:_ The dragon can't take this action again until the start of its next turn.
+
+### Ancient Brass Dragon
+
+_Gargantuan Dragon (Metallic), Chaotic Good_
+
+**AC** 20 **Initiative** +12 (22) <br>
+**HP** 332 (19d20 + 133) <br>
+**Speed** 40 ft., Burrow 40 ft., Fly 80 ft. <br>
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th>MOD</th>
+      <th>SAVE</th>
+      <th></th>
+      <th></th>
+      <th>MOD</th>
+      <th>SAVE</th>
+      <th></th>
+      <th></th>
+      <th>MOD</th>
+      <th>SAVE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>STR</strong></td>
+      <td>27</td>
+      <td>+8</td>
+      <td>+8</td>
+      <td><strong>DEX</strong></td>
+      <td>10</td>
+      <td>+0</td>
+      <td>+6</td>
+      <td><strong>CON</strong></td>
+      <td>25</td>
+      <td>+7</td>
+      <td>+7</td>
+    </tr>
+    <tr>
+      <td><strong>INT</strong></td>
+      <td>16</td>
+      <td>+3</td>
+      <td>+3</td>
+      <td><strong>WIS</strong></td>
+      <td>15</td>
+      <td>+2</td>
+      <td>+8</td>
+      <td><strong>CHA</strong></td>
+      <td>22</td>
+      <td>+6</td>
+      <td>+6</td>
+    </tr>
+  </tbody>
+</table>
+
+**Skills** History +9, Perception +14, Persuasion +12, Stealth +6<br>
+**Immunities** Fire<br>
+**Senses** Blindsight 60 ft., Darkvision 120 ft.; Passive Perception 24<br>
+**Languages** Common, Draconic<br>
+**CR** 20 (XP 25,000, or 33,000 in lair; PB +6)
+
+#### Traits
+
+<hr>
+
+**_Legendary Resistance (4/Day, or 5/Day in Lair)._** If the dragon fails a saving throw, it can choose to succeed instead.
+
+#### Actions
+
+<hr>
+
+**_Multiattack._** The dragon makes three Rend attacks. It can replace one attack with a use of (A) Sleep Breath or (B) Spellcasting to cast _Scorching Ray_ (level 3 version).
+
+**_Rend._** _Melee Attack Roll:_ +14, reach 15 ft. _Hit:_ 19 (2d10 + 8) Slashing damage plus 7 (2d6) Fire damage.
+
+**_Fire Breath (Recharge 5–6)._** _Dexterity Saving Throw:_ DC 21, each creature in a 90-foot-long, 5-foot-wide Line. _Failure:_ 58 (13d8) Fire damage. _Success:_ Half damage.
+
+**_Sleep Breath._** _Constitution Saving Throw:_ DC 21, each creature in a 90-foot Cone. _Failure:_ The target has the Incapacitated condition until the end of its next turn, at which point it repeats the save. _Second Failure:_ The target has the Unconscious condition for 10 minutes. This effect ends for the target if it takes damage or a creature within 5 feet of it takes an action to wake it.
+
+**_Spellcasting._** The dragon casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 20): <br>
+&emsp;**At Will:** _Detect Magic_, _Minor Illusion_, _Scorching Ray_ (level 3 version), _Shapechange_ (Beast or Humanoid form only, no Temporary Hit Points gained from the spell, and no Concentration or Temporary Hit Points required to maintain the spell), _Speak with Animals_ <br>
+&emsp;**1/Day Each:** _Control Weather_, _Detect Thoughts_
+
+#### Legendary Actions
+
+<hr>
+
+_Legendary Action Uses: 3 (4 in Lair). Immediately after another creature's turn, the dragon can expend a use to take one of the following actions. The dragon regains all expended uses at the start of each of its turns._
+
+**_Blazing Light._** The dragon uses Spellcasting to cast _Scorching Ray_ (level 3 version).
+
+**_Pounce._** The dragon moves up to half its Speed, and it makes one Rend attack.
+
+**_Scorching Sands._** _Dexterity Saving Throw:_ DC 20, one creature the dragon can see within 120 feet. _Failure:_ 36 (8d8) Fire damage, and the target's Speed is halved until the end of its next turn. _Failure or Success:_ The dragon can't take this action again until the start of its next turn.
+

@@ -1,0 +1,6678 @@
+[
+ {
+  "file": "01-playing-the-game/01-rhythm-of-play.md",
+  "source": "playing-the-game.md",
+  "lines": [
+   1,
+   14
+  ],
+  "headings": [
+   "Playing the Game",
+   "Rhythm of Play"
+  ]
+ },
+ {
+  "file": "01-playing-the-game/02-the-six-abilities.md",
+  "source": "playing-the-game.md",
+  "lines": [
+   15,
+   177
+  ],
+  "headings": [
+   "The Six Abilities",
+   "Ability Scores",
+   "Ability Modifiers"
+  ]
+ },
+ {
+  "file": "01-playing-the-game/03-d20-tests.md",
+  "source": "playing-the-game.md",
+  "lines": [
+   178,
+   426
+  ],
+  "headings": [
+   "D20 Tests",
+   "Ability Checks",
+   "Ability Modifier",
+   "Proficiency Bonus",
+   "Difficulty Class",
+   "Saving Throws",
+   "Ability Modifier",
+   "Proficiency Bonus",
+   "Difficulty Class",
+   "Attack Rolls",
+   "Ability Modifier",
+   "Proficiency Bonus",
+   "Armor Class",
+   "Rolling 20 or 1",
+   "Advantage/Disadvantage",
+   "Roll Two D20s",
+   "They Don't Stack",
+   "Interactions with Rerolls"
+  ]
+ },
+ {
+  "file": "01-playing-the-game/04-proficiency.md",
+  "source": "playing-the-game.md",
+  "lines": [
+   427,
+   609
+  ],
+  "headings": [
+   "Proficiency",
+   "The Bonus Doesn't Stack",
+   "Skill Proficiencies",
+   "Skill List",
+   "Determining Skills",
+   "Saving Throw Proficiencies",
+   "Equipment Proficiencies"
+  ]
+ },
+ {
+  "file": "01-playing-the-game/05-actions.md",
+  "source": "playing-the-game.md",
+  "lines": [
+   610,
+   698
+  ],
+  "headings": [
+   "Actions",
+   "One Thing at a Time",
+   "Bonus Actions",
+   "Reactions"
+  ]
+ },
+ {
+  "file": "01-playing-the-game/06-social-interaction.md",
+  "source": "playing-the-game.md",
+  "lines": [
+   699,
+   725
+  ],
+  "headings": [
+   "Social Interaction",
+   "Roleplaying",
+   "Ability Checks"
+  ]
+ },
+ {
+  "file": "01-playing-the-game/07-exploration.md",
+  "source": "playing-the-game.md",
+  "lines": [
+   726,
+   870
+  ],
+  "headings": [
+   "Exploration",
+   "Adventuring Equipment",
+   "Vision and Light",
+   "Obscured Areas",
+   "Light",
+   "Special Senses",
+   "Hiding",
+   "Interacting with Objects",
+   "What Is an Object?",
+   "Time-Limited Object Interactions",
+   "Finding Hidden Objects",
+   "Carrying Objects",
+   "Breaking Objects",
+   "Hazards",
+   "Travel",
+   "Travel Pace",
+   "Vehicles"
+  ]
+ },
+ {
+  "file": "01-playing-the-game/08-combat.md",
+  "source": "playing-the-game.md",
+  "lines": [
+   871,
+   1137
+  ],
+  "headings": [
+   "Combat",
+   "The Order of Combat",
+   "Combat Step by Step",
+   "Initiative",
+   "Your Turn",
+   "Ending Combat",
+   "Movement and Position",
+   "Difficult Terrain",
+   "Breaking Up Your Move",
+   "Dropping Prone",
+   "Creature Size",
+   "Moving around Other Creatures",
+   "Making an Attack",
+   "Cover",
+   "Ranged Attacks",
+   "Range",
+   "Ranged Attacks in Close Combat",
+   "Melee Attacks",
+   "Reach",
+   "Opportunity Attacks",
+   "Mounted Combat",
+   "Mounting and Dismounting",
+   "Controlling a Mount",
+   "Falling Off",
+   "Underwater Combat",
+   "Impeded Weapons",
+   "Fire Resistance"
+  ]
+ },
+ {
+  "file": "01-playing-the-game/09-damage-and-healing.md",
+  "source": "playing-the-game.md",
+  "lines": [
+   1138,
+   1269
+  ],
+  "headings": [
+   "Damage and Healing",
+   "Hit Points",
+   "Damage Rolls",
+   "Critical Hits",
+   "Saving Throws and Damage",
+   "Damage against Multiple Targets",
+   "Half Damage",
+   "Damage Types",
+   "Resistance and Vulnerability",
+   "No Stacking",
+   "Order of Application",
+   "Immunity",
+   "Healing",
+   "Dropping to 0 Hit Points",
+   "Instant Death",
+   "Character Demise",
+   "Falling Unconscious",
+   "Death Saving Throws",
+   "Stabilizing a Character",
+   "Temporary Hit Points",
+   "Lose Temporary Hit Points First",
+   "Duration",
+   "They Don't Stack",
+   "They're Not Hit Points or Healing"
+  ]
+ },
+ {
+  "file": "02-character-creation/01-choose-a-character-sheet.md",
+  "source": "character-creation.md",
+  "lines": [
+   1,
+   6
+  ],
+  "headings": [
+   "Character Creation",
+   "Choose a Character Sheet"
+  ]
+ },
+ {
+  "file": "02-character-creation/02-create-your-character.md",
+  "source": "character-creation.md",
+  "lines": [
+   7,
+   648
+  ],
+  "headings": [
+   "Create Your Character",
+   "Step 1: Choose Class",
+   "Write Your Level",
+   "Note Armor Training",
+   "Step 2: Character Origin",
+   "Choose a Background",
+   "Choose Starting Equipment",
+   "Choose a Species",
+   "Imagine Your Past and Present",
+   "Choose Languages",
+   "Step 3: Ability Scores",
+   "Generate Your Scores",
+   "Assign Ability Scores",
+   "Adjust Ability Scores",
+   "Determine Ability Modifiers",
+   "Step 4: Alignment",
+   "The Nine Alignments",
+   "Step 5: Character Creation Details",
+   "Record Class Features",
+   "Fill In Numbers"
+  ]
+ },
+ {
+  "file": "02-character-creation/03-level-advancement.md",
+  "source": "character-creation.md",
+  "lines": [
+   649,
+   832
+  ],
+  "headings": [
+   "Level Advancement",
+   "Gaining a Level",
+   "Tiers of Play",
+   "Tier 1 (Levels 1–4)",
+   "Tier 2 (Levels 5–10)",
+   "Tier 3 (Levels 11–16)",
+   "Tier 4 (Levels 17–20)"
+  ]
+ },
+ {
+  "file": "02-character-creation/04-starting-at-higher-levels.md",
+  "source": "character-creation.md",
+  "lines": [
+   833,
+   884
+  ],
+  "headings": [
+   "Starting at Higher Levels",
+   "Creating Your Character",
+   "Starting Equipment"
+  ]
+ },
+ {
+  "file": "02-character-creation/05-multiclassing.md",
+  "source": "character-creation.md",
+  "lines": [
+   885,
+   1211
+  ],
+  "headings": [
+   "Multiclassing",
+   "Prerequisites",
+   "Experience Points",
+   "Hit Points and Hit Point Dice",
+   "Proficiency Bonus",
+   "Proficiencies",
+   "Class Features",
+   "Armor Class",
+   "Extra Attack",
+   "Spellcasting"
+  ]
+ },
+ {
+  "file": "02-character-creation/06-trinkets.md",
+  "source": "character-creation.md",
+  "lines": [
+   1212,
+   1627
+  ],
+  "headings": [
+   "Trinkets"
+  ]
+ },
+ {
+  "file": "03-classes/01-barbarian.md",
+  "source": "classes.md",
+  "lines": [
+   1,
+   372
+  ],
+  "headings": [
+   "Classes",
+   "Barbarian",
+   "Becoming a Barbarian …",
+   "As a Level 1 Character",
+   "As a Multiclass Character",
+   "Barbarian Class Features",
+   "Level 1: Rage",
+   "Level 1: Unarmored Defense",
+   "Level 1: Weapon Mastery",
+   "Level 2: Danger Sense",
+   "Level 2: Reckless Attack",
+   "Level 3: Barbarian Subclass",
+   "Level 3: Primal Knowledge",
+   "Level 4: Ability Score Improvement",
+   "Level 5: Extra Attack",
+   "Level 5: Fast Movement",
+   "Level 7: Feral Instinct",
+   "Level 7: Instinctive Pounce",
+   "Level 9: Brutal Strike",
+   "Level 11: Relentless Rage",
+   "Level 13: Improved Brutal Strike",
+   "Level 15: Persistent Rage",
+   "Level 17: Improved Brutal Strike",
+   "Level 18: Indomitable Might",
+   "Level 19: Epic Boon",
+   "Level 20: Primal Champion",
+   "Barbarian Subclass: Path of the Berserker",
+   "Level 3: Frenzy",
+   "Level 6: Mindless Rage",
+   "Level 10: Retaliation",
+   "Level 14: Intimidating Presence"
+  ]
+ },
+ {
+  "file": "03-classes/02-bard.md",
+  "source": "classes.md",
+  "lines": [
+   373,
+   1746
+  ],
+  "headings": [
+   "Bard",
+   "Becoming a Bard …",
+   "As a Level 1 Character",
+   "As a Multiclass Character",
+   "Bard Class Features",
+   "Level 1: Bardic Inspiration",
+   "Level 1: Spellcasting",
+   "Level 2: Expertise",
+   "Level 2: Jack of All Trades",
+   "Level 3: Bard Subclass",
+   "Level 4: Ability Score Improvement",
+   "Level 5: Font of Inspiration",
+   "Level 7: Countercharm",
+   "Level 10: Magical Secrets",
+   "Level 18: Superior Inspiration",
+   "Level 19: Epic Boon",
+   "Level 20: Words of Creation",
+   "Bard Spell List",
+   "Cantrips (Level 0 Bard Spells)",
+   "Level 1 Bard Spells",
+   "Level 2 Bard Spells",
+   "Level 3 Bard Spells",
+   "Level 4 Bard Spells",
+   "Level 5 Bard Spells",
+   "Level 6 Bard Spells",
+   "Level 7 Bard Spells",
+   "Level 8 Bard Spells",
+   "Level 9 Bard Spells",
+   "Bard Subclass: College of Lore",
+   "Level 3: Bonus Proficiencies",
+   "Level 3: Cutting Words",
+   "Level 6: Magical Discoveries",
+   "Level 14: Peerless Skill"
+  ]
+ },
+ {
+  "file": "03-classes/03-cleric.md",
+  "source": "classes.md",
+  "lines": [
+   1747,
+   3012
+  ],
+  "headings": [
+   "Cleric",
+   "Becoming a Cleric …",
+   "As a Level 1 Character",
+   "As a Multiclass Character",
+   "Cleric Class Features",
+   "Level 1: Spellcasting",
+   "Level 1: Divine Order",
+   "Level 2: Channel Divinity",
+   "Level 3: Cleric Subclass",
+   "Level 4: Ability Score Improvement",
+   "Level 5: Sear Undead",
+   "Level 7: Blessed Strikes",
+   "Level 10: Divine Intervention",
+   "Level 14: Improved Blessed Strikes",
+   "Level 19: Epic Boon",
+   "Level 20: Greater Divine Intervention",
+   "Cleric Spell List",
+   "Cantrips (Level 0 Cleric Spells)",
+   "Level 1 Cleric Spells",
+   "Level 2 Cleric Spells",
+   "Level 3 Cleric Spells",
+   "Level 4 Cleric Spells",
+   "Level 5 Cleric Spells",
+   "Level 6 Cleric Spells",
+   "Level 7 Cleric Spells",
+   "Level 8 Cleric Spells",
+   "Level 9 Cleric Spells",
+   "Cleric Subclass: Life Domain",
+   "Level 3: Disciple of Life",
+   "Level 3: Life Domain Spells",
+   "Level 3: Preserve Life",
+   "Level 6: Blessed Healer",
+   "Level 17: Supreme Healing"
+  ]
+ },
+ {
+  "file": "03-classes/04-druid.md",
+  "source": "classes.md",
+  "lines": [
+   3013,
+   4578
+  ],
+  "headings": [
+   "Druid",
+   "Becoming a Druid …",
+   "As a Level 1 Character",
+   "As a Multiclass Character",
+   "Druid Class Features",
+   "Level 1: Spellcasting",
+   "Level 1: Druidic",
+   "Level 1: Primal Order",
+   "Level 2: Wild Shape",
+   "Level 2: Wild Companion",
+   "Level 3: Druid Subclass",
+   "Level 4: Ability Score Improvement",
+   "Level 5: Wild Resurgence",
+   "Level 7: Elemental Fury",
+   "Level 15: Improved Elemental Fury",
+   "Level 18: Beast Spells",
+   "Level 19: Epic Boon",
+   "Level 20: Archdruid",
+   "Druid Spell List",
+   "Cantrips (Level 0 Druid Spells)",
+   "Level 1 Druid Spells",
+   "Level 2 Druid Spells",
+   "Level 3 Druid Spells",
+   "Level 4 Druid Spells",
+   "Level 5 Druid Spells",
+   "Level 6 Druid Spells",
+   "Level 7 Druid Spells",
+   "Level 8 Druid Spells",
+   "Level 9 Druid Spells",
+   "Druid Subclass: Circle of the Land",
+   "Level 3: Circle of the Land Spells",
+   "Level 3: Land's Aid",
+   "Level 6: Natural Recovery",
+   "Level 10: Nature's Ward",
+   "Level 14: Nature's Sanctuary"
+  ]
+ },
+ {
+  "file": "03-classes/05-fighter.md",
+  "source": "classes.md",
+  "lines": [
+   4579,
+   4895
+  ],
+  "headings": [
+   "Fighter",
+   "Becoming a Fighter …",
+   "As a Level 1 Character",
+   "As a Multiclass Character",
+   "Fighter Class Features",
+   "Level 1: Fighting Style",
+   "Level 1: Second Wind",
+   "Level 1: Weapon Mastery",
+   "Level 2: Action Surge",
+   "Level 2: Tactical Mind",
+   "Level 3: Fighter Subclass",
+   "Level 4: Ability Score Improvement",
+   "Level 5: Extra Attack",
+   "Level 5: Tactical Shift",
+   "Level 9: Indomitable",
+   "Level 9: Tactical Master",
+   "Level 11: Two Extra Attacks",
+   "Level 13: Studied Attacks",
+   "Level 19: Epic Boon",
+   "Level 20: Three Extra Attacks",
+   "Fighter Subclass: Champion",
+   "Level 3: Improved Critical",
+   "Level 3: Remarkable Athlete",
+   "Level 7: Additional Fighting Style",
+   "Level 10: Heroic Warrior",
+   "Level 15: Superior Critical",
+   "Level 18: Survivor"
+  ]
+ },
+ {
+  "file": "03-classes/06-monk.md",
+  "source": "classes.md",
+  "lines": [
+   4896,
+   5289
+  ],
+  "headings": [
+   "Monk",
+   "Becoming a Monk …",
+   "As a Level 1 Character",
+   "As a Multiclass Character",
+   "Monk Class Features",
+   "Level 1: Martial Arts",
+   "Level 1: Unarmored Defense",
+   "Level 2: Monk's Focus",
+   "Level 2: Unarmored Movement",
+   "Level 2: Uncanny Metabolism",
+   "Level 3: Deflect Attacks",
+   "Level 3: Monk Subclass",
+   "Level 4: Ability Score Improvement",
+   "Level 4: Slow Fall",
+   "Level 5: Extra Attack",
+   "Level 5: Stunning Strike",
+   "Level 6: Empowered Strikes",
+   "Level 7: Evasion",
+   "Level 9: Acrobatic Movement",
+   "Level 10: Heightened Focus",
+   "Level 10: Self-Restoration",
+   "Level 13: Deflect Energy",
+   "Level 14: Disciplined Survivor",
+   "Level 15: Perfect Focus",
+   "Level 18: Superior Defense",
+   "Level 19: Epic Boon",
+   "Level 20: Body and Mind",
+   "Monk Subclass: Warrior of the Open Hand",
+   "Level 3: Open Hand Technique",
+   "Level 6: Wholeness of Body",
+   "Level 11: Fleet Step",
+   "Level 17: Quivering Palm"
+  ]
+ },
+ {
+  "file": "03-classes/07-paladin.md",
+  "source": "classes.md",
+  "lines": [
+   5290,
+   6068
+  ],
+  "headings": [
+   "Paladin",
+   "Becoming a Paladin …",
+   "As a Level 1 Character",
+   "As a Multiclass Character",
+   "Paladin Class Features",
+   "Level 1: Lay On Hands",
+   "Level 1: Spellcasting",
+   "Level 1: Weapon Mastery",
+   "Level 2: Fighting Style",
+   "Level 2: Paladin's Smite",
+   "Level 3: Channel Divinity",
+   "Level 3: Paladin Subclass",
+   "Level 4: Ability Score Improvement",
+   "Level 5: Extra Attack",
+   "Level 5: Faithful Steed",
+   "Level 6: Aura of Protection",
+   "Level 9: Abjure Foes",
+   "Level 10: Aura of Courage",
+   "Level 11: Radiant Strikes",
+   "Level 14: Restoring Touch",
+   "Level 18: Aura Expansion",
+   "Level 19: Epic Boon",
+   "Paladin Spell List",
+   "Level 1 Paladin Spells",
+   "Level 2 Paladin Spells",
+   "Level 3 Paladin Spells",
+   "Level 4 Paladin Spells",
+   "Level 5 Paladin Spells",
+   "Paladin Subclass: Oath of Devotion",
+   "Level 3: Oath of Devotion Spells",
+   "Level 3: Sacred Weapon",
+   "Level 7: Aura of Devotion",
+   "Level 15: Smite of Protection",
+   "Level 20: Holy Nimbus"
+  ]
+ },
+ {
+  "file": "03-classes/08-ranger.md",
+  "source": "classes.md",
+  "lines": [
+   6069,
+   6840
+  ],
+  "headings": [
+   "Ranger",
+   "Becoming a Ranger …",
+   "As a Level 1 Character",
+   "As a Multiclass Character",
+   "Ranger Class Features",
+   "Level 1: Spellcasting",
+   "Level 1: Favored Enemy",
+   "Level 1: Weapon Mastery",
+   "Level 2: Deft Explorer",
+   "Level 2: Fighting Style",
+   "Level 3: Ranger Subclass",
+   "Level 4: Ability Score Improvement",
+   "Level 5: Extra Attack",
+   "Level 6: Roving",
+   "Level 9: Expertise",
+   "Level 10: Tireless",
+   "Level 13: Relentless Hunter",
+   "Level 14: Nature's Veil",
+   "Level 17: Precise Hunter",
+   "Level 18: Feral Senses",
+   "Level 19: Epic Boon",
+   "Level 20: Foe Slayer",
+   "Ranger Spell List",
+   "Level 1 Ranger Spells",
+   "Level 2 Ranger Spells",
+   "Level 3 Ranger Spells",
+   "Level 4 Ranger Spells",
+   "Level 5 Ranger Spells",
+   "Ranger Subclass: Hunter",
+   "Level 3: Hunter's Lore",
+   "Level 3: Hunter's Prey",
+   "Level 7: Defensive Tactics",
+   "Level 11: Superior Hunter's Prey",
+   "Level 15: Superior Hunter's Defense"
+  ]
+ },
+ {
+  "file": "03-classes/09-rogue.md",
+  "source": "classes.md",
+  "lines": [
+   6841,
+   7170
+  ],
+  "headings": [
+   "Rogue",
+   "Becoming a Rogue …",
+   "As a Level 1 Character",
+   "As a Multiclass Character",
+   "Rogue Class Features",
+   "Level 1: Expertise",
+   "Level 1: Sneak Attack",
+   "Level 1: Thieves' Cant",
+   "Level 1: Weapon Mastery",
+   "Level 2: Cunning Action",
+   "Level 3: Rogue Subclass",
+   "Level 3: Steady Aim",
+   "Level 4: Ability Score Improvement",
+   "Level 5: Cunning Strike",
+   "Level 5: Uncanny Dodge",
+   "Level 7: Evasion",
+   "Level 7: Reliable Talent",
+   "Level 11: Improved Cunning Strike",
+   "Level 14: Devious Strikes",
+   "Level 15: Slippery Mind",
+   "Level 18: Elusive",
+   "Level 19: Epic Boon",
+   "Level 20: Stroke of Luck",
+   "Rogue Subclass: Thief",
+   "Level 3: Fast Hands",
+   "Level 3: Second-Story Work",
+   "Level 9: Supreme Sneak",
+   "Level 13: Use Magic Device",
+   "Level 17: Thief's Reflexes"
+  ]
+ },
+ {
+  "file": "03-classes/10-sorcerer.md",
+  "source": "classes.md",
+  "lines": [
+   7171,
+   8689
+  ],
+  "headings": [
+   "Sorcerer",
+   "Becoming a Sorcerer …",
+   "As a Level 1 Character",
+   "As a Multiclass Character",
+   "Sorcerer Class Features",
+   "Level 1: Spellcasting",
+   "Level 1: Innate Sorcery",
+   "Level 2: Font of Magic",
+   "Level 2: Metamagic",
+   "Level 3: Sorcerer Subclass",
+   "Level 4: Ability Score Improvement",
+   "Level 5: Sorcerous Restoration",
+   "Level 7: Sorcery Incarnate",
+   "Level 19: Epic Boon",
+   "Level 20: Arcane Apotheosis",
+   "Metamagic Options",
+   "Careful Spell",
+   "Distant Spell",
+   "Empowered Spell",
+   "Extended Spell",
+   "Heightened Spell",
+   "Quickened Spell",
+   "Seeking Spell",
+   "Subtle Spell",
+   "Transmuted Spell",
+   "Twinned Spell",
+   "Sorcerer Spell List",
+   "Cantrips (Level 0 Sorcerer Spells)",
+   "Level 1 Sorcerer Spells",
+   "Level 2 Sorcerer Spells",
+   "Level 3 Sorcerer Spells",
+   "Level 4 Sorcerer Spells",
+   "Level 5 Sorcerer Spells",
+   "Level 6 Sorcerer Spells",
+   "Level 7 Sorcerer Spells",
+   "Level 8 Sorcerer Spells",
+   "Level 9 Sorcerer Spells",
+   "Sorcerer Subclass: Draconic Sorcery",
+   "Level 3: Draconic Resilience",
+   "Level 3: Draconic Spells",
+   "Level 6: Elemental Affinity",
+   "Level 14: Dragon Wings",
+   "Level 18: Dragon Companion"
+  ]
+ },
+ {
+  "file": "03-classes/11-warlock.md",
+  "source": "classes.md",
+  "lines": [
+   8690,
+   9797
+  ],
+  "headings": [
+   "Warlock",
+   "Becoming a Warlock …",
+   "As a Level 1 Character",
+   "As a Multiclass Character",
+   "Warlock Class Features",
+   "Level 1: Eldritch Invocations",
+   "Level 1: Pact Magic",
+   "Level 2: Magical Cunning",
+   "Level 3: Warlock Subclass",
+   "Level 4: Ability Score Improvement",
+   "Level 9: Contact Patron",
+   "Level 11: Mystic Arcanum",
+   "Level 19: Epic Boon",
+   "Level 20: Eldritch Master",
+   "Eldritch Invocation Options",
+   "Agonizing Blast",
+   "Armor of Shadows",
+   "Ascendant Step",
+   "Devil's Sight",
+   "Devouring Blade",
+   "Eldritch Mind",
+   "Eldritch Smite",
+   "Eldritch Spear",
+   "Fiendish Vigor",
+   "Gaze of Two Minds",
+   "Gift of the Depths",
+   "Gift of the Protectors",
+   "Investment of the Chain Master",
+   "Lessons of the First Ones",
+   "Lifedrinker",
+   "Mask of Many Faces",
+   "Master of Myriad Forms",
+   "Misty Visions",
+   "One with Shadows",
+   "Otherworldly Leap",
+   "Pact of the Blade",
+   "Pact of the Chain",
+   "Pact of the Tome",
+   "Repelling Blast",
+   "Thirsting Blade",
+   "Visions of Distant Realms",
+   "Whispers of the Grave",
+   "Witch Sight",
+   "Warlock Spell List",
+   "Cantrips (Level 0 Warlock Spells)",
+   "Level 1 Warlock Spells",
+   "Level 2 Warlock Spells",
+   "Level 3 Warlock Spells",
+   "Level 4 Warlock Spells",
+   "Level 5 Warlock Spells",
+   "Level 6 Warlock Spells",
+   "Level 7 Warlock Spells",
+   "Level 8 Warlock Spells",
+   "Level 9 Warlock Spells",
+   "Warlock Subclass: Fiend Patron",
+   "Level 3: Dark One's Blessing",
+   "Level 3: Fiend Spells",
+   "Level 6: Dark One's Own Luck",
+   "Level 10: Fiendish Resilience",
+   "Level 14: Hurl Through Hell"
+  ]
+ },
+ {
+  "file": "03-classes/12-wizard.md",
+  "source": "classes.md",
+  "lines": [
+   9798,
+   11546
+  ],
+  "headings": [
+   "Wizard",
+   "Becoming a Wizard …",
+   "As a Level 1 Character",
+   "As a Multiclass Character",
+   "Wizard Class Features",
+   "Level 1: Spellcasting",
+   "Level 1: Ritual Adept",
+   "Level 1: Arcane Recovery",
+   "Level 2: Scholar",
+   "Level 3: Wizard Subclass",
+   "Level 4: Ability Score Improvement",
+   "Level 5: Memorize Spell",
+   "Level 18: Spell Mastery",
+   "Level 19: Epic Boon",
+   "Level 20: Signature Spells",
+   "Wizard Spell List",
+   "Cantrips (Level 0 Wizard Spells)",
+   "Level 1 Wizard Spells",
+   "Level 2 Wizard Spells",
+   "Level 3 Wizard Spells",
+   "Level 4 Wizard Spells",
+   "Level 5 Wizard Spells",
+   "Level 6 Wizard Spells",
+   "Level 7 Wizard Spells",
+   "Level 8 Wizard Spells",
+   "Level 9 Wizard Spells",
+   "Wizard Subclass: Evoker",
+   "Level 3: Evocation Savant",
+   "Level 3: Potent Cantrip",
+   "Level 6: Sculpt Spells",
+   "Level 10: Empowered Evocation",
+   "Level 14: Overchannel"
+  ]
+ },
+ {
+  "file": "04-character-origins/01-character-backgrounds.md",
+  "source": "character-origins.md",
+  "lines": [
+   1,
+   64
+  ],
+  "headings": [
+   "Character Origins",
+   "Character Backgrounds",
+   "Parts of a Background",
+   "Ability Scores",
+   "Feat",
+   "Skill Proficiencies",
+   "Tool Proficiency",
+   "Equipment",
+   "Background Descriptions",
+   "Acolyte",
+   "Criminal",
+   "Sage",
+   "Soldier"
+  ]
+ },
+ {
+  "file": "04-character-origins/02-character-species.md",
+  "source": "character-origins.md",
+  "lines": [
+   65,
+   374
+  ],
+  "headings": [
+   "Character Species",
+   "Parts of a Species",
+   "Creature Type",
+   "Size",
+   "Speed",
+   "Special Traits",
+   "Species Descriptions",
+   "Dragonborn",
+   "Dwarf",
+   "Elf",
+   "Gnome",
+   "Goliath",
+   "Halfling",
+   "Human",
+   "Orc",
+   "Tiefling"
+  ]
+ },
+ {
+  "file": "05-feats/feats.md",
+  "source": "feats.md",
+  "lines": [
+   1,
+   183
+  ],
+  "headings": [
+   "Feats",
+   "Feat Descriptions",
+   "Parts of a Feat",
+   "Origin Feats",
+   "Alert",
+   "Magic Initiate",
+   "Savage Attacker",
+   "Skilled",
+   "General Feats",
+   "Ability Score Improvement",
+   "Grappler",
+   "Fighting Style Feats",
+   "Archery",
+   "Defense",
+   "Great Weapon Fighting",
+   "Two-Weapon Fighting",
+   "Epic Boon Feats",
+   "Boon of Combat Prowess",
+   "Boon of Dimensional Travel",
+   "Boon of Fate",
+   "Boon of Irresistible Offense",
+   "Boon of Spell Recall",
+   "Boon of the Night Spirit",
+   "Boon of Truesight"
+  ]
+ },
+ {
+  "file": "06-equipment/01-coins.md",
+  "source": "equipment.md",
+  "lines": [
+   1,
+   41
+  ],
+  "headings": [
+   "Equipment",
+   "Coins"
+  ]
+ },
+ {
+  "file": "06-equipment/02-weapons.md",
+  "source": "equipment.md",
+  "lines": [
+   42,
+   446
+  ],
+  "headings": [
+   "Weapons",
+   "Weapon Proficiency",
+   "Properties",
+   "Mastery Properties"
+  ]
+ },
+ {
+  "file": "06-equipment/03-armor.md",
+  "source": "equipment.md",
+  "lines": [
+   447,
+   603
+  ],
+  "headings": [
+   "Armor",
+   "Armor Training",
+   "One at a Time"
+  ]
+ },
+ {
+  "file": "06-equipment/04-tools.md",
+  "source": "equipment.md",
+  "lines": [
+   604,
+   763
+  ],
+  "headings": [
+   "Tools",
+   "Tool Proficiency",
+   "Artisan's Tools",
+   "Other Tools"
+  ]
+ },
+ {
+  "file": "06-equipment/05-adventuring-gear.md",
+  "source": "equipment.md",
+  "lines": [
+   764,
+   1681
+  ],
+  "headings": [
+   "Adventuring Gear",
+   "Acid (25 GP)",
+   "Alchemist's Fire (50 GP)",
+   "Ammunition (Varies)",
+   "Antitoxin (50 GP)",
+   "Arcane Focus (Varies)",
+   "Backpack (2 GP)",
+   "Ball Bearings (1 GP)",
+   "Barrel (2 GP)",
+   "Basket (4 SP)",
+   "Bedroll (1 GP)",
+   "Bell (1 GP)",
+   "Blanket (5 SP)",
+   "Block and Tackle (1 GP)",
+   "Book (25 GP)",
+   "Bottle, Glass (2 GP)",
+   "Bucket (5 CP)",
+   "Burglar's Pack (16 GP)",
+   "Caltrops (1 GP)",
+   "Candle (1 CP)",
+   "Case, Crossbow Bolt (1 GP)",
+   "Case, Map or Scroll (1 GP)",
+   "Chain (5 GP)",
+   "Chest (5 GP)",
+   "Climber's Kit (25 GP)",
+   "Clothes, Fine (15 GP)",
+   "Clothes, Traveler's (2 GP)",
+   "Component Pouch (25 GP)",
+   "Costume (5 GP)",
+   "Crowbar (2 GP)",
+   "Diplomat's Pack (39 GP)",
+   "Druidic Focus (Varies)",
+   "Dungeoneer's Pack (12 GP)",
+   "Entertainer's Pack (40 GP)",
+   "Explorer's Pack (10 GP)",
+   "Flask (2 CP)",
+   "Grappling Hook (2 GP)",
+   "Healer's Kit (5 GP)",
+   "Holy Symbol (Varies)",
+   "Holy Water (25 GP)",
+   "Hunting Trap (5 GP)",
+   "Ink (10 GP)",
+   "Ink Pen (2 CP)",
+   "Jug (2 CP)",
+   "Ladder (1 SP)",
+   "Lamp (5 SP)",
+   "Lantern, Bullseye (10 GP)",
+   "Lantern, Hooded (5 GP)",
+   "Lock (10 GP)",
+   "Magnifying Glass (100 GP)",
+   "Manacles (2 GP)",
+   "Map (1 GP)",
+   "Mirror (5 GP)",
+   "Net (1 GP)",
+   "Oil (1 SP)",
+   "Paper (2 SP)",
+   "Parchment (1 SP)",
+   "Perfume (5 GP)",
+   "Poison, Basic (100 GP)",
+   "Pole (5 CP)",
+   "Pot, Iron (2 GP)",
+   "Potion of Healing (50 GP)",
+   "Pouch (5 SP)",
+   "Priest's Pack (33 GP)",
+   "Quiver (1 GP)",
+   "Ram, Portable (4 GP)",
+   "Rations (5 SP)",
+   "Robe (1 GP)",
+   "Rope (1 GP)",
+   "Sack (1 CP)",
+   "Scholar's Pack (40 GP)",
+   "Shovel (2 GP)",
+   "Signal Whistle (5 CP)",
+   "Spell Scroll (Cantrip, 30 GP; Level 1, 50 GP)",
+   "Spikes, Iron (1 GP)",
+   "Spyglass (1,000 GP)",
+   "String (1 SP)",
+   "Tent (2 GP)",
+   "Tinderbox (5 SP)",
+   "Torch (1 CP)",
+   "Vial (1 GP)",
+   "Waterskin (2 SP)"
+  ]
+ },
+ {
+  "file": "06-equipment/06-mounts-and-vehicles.md",
+  "source": "equipment.md",
+  "lines": [
+   1682,
+   1939
+  ],
+  "headings": [
+   "Mounts and Vehicles",
+   "Mounts and Cargo",
+   "Barding",
+   "Saddles",
+   "Large Vehicles",
+   "Speed",
+   "Crew",
+   "Passengers",
+   "Damage Threshold",
+   "Ship Repair"
+  ]
+ },
+ {
+  "file": "06-equipment/07-lifestyle-expenses.md",
+  "source": "equipment.md",
+  "lines": [
+   1940,
+   1975
+  ],
+  "headings": [
+   "Lifestyle Expenses",
+   "Wretched (Free)",
+   "Squalid (1 SP per Day)",
+   "Poor (2 SP per Day)",
+   "Modest (1 GP per Day)",
+   "Comfortable (2 GP per Day)",
+   "Wealthy (4 GP per Day)",
+   "Aristocratic (10 GP per Day)"
+  ]
+ },
+ {
+  "file": "06-equipment/08-food-drink-and-lodging.md",
+  "source": "equipment.md",
+  "lines": [
+   1976,
+   2054
+  ],
+  "headings": [
+   "Food, Drink, and Lodging"
+  ]
+ },
+ {
+  "file": "06-equipment/09-hirelings.md",
+  "source": "equipment.md",
+  "lines": [
+   2055,
+   2083
+  ],
+  "headings": [
+   "Hirelings"
+  ]
+ },
+ {
+  "file": "06-equipment/10-spellcasting.md",
+  "source": "equipment.md",
+  "lines": [
+   2084,
+   2136
+  ],
+  "headings": [
+   "Spellcasting"
+  ]
+ },
+ {
+  "file": "06-equipment/11-magic-items.md",
+  "source": "equipment.md",
+  "lines": [
+   2137,
+   2181
+  ],
+  "headings": [
+   "Magic Items",
+   "Identifying a Magic Item",
+   "Attunement",
+   "Attune during a Short Rest",
+   "No More Than Three Items",
+   "Ending Attunement",
+   "Wearing and Wielding Items",
+   "Multiple Items of the Same Kind",
+   "Paired Items"
+  ]
+ },
+ {
+  "file": "06-equipment/12-crafting-nonmagical-items.md",
+  "source": "equipment.md",
+  "lines": [
+   2182,
+   2203
+  ],
+  "headings": [
+   "Crafting Nonmagical Items",
+   "Tools",
+   "Raw Materials",
+   "Time"
+  ]
+ },
+ {
+  "file": "06-equipment/13-brewing-potions-of-healing.md",
+  "source": "equipment.md",
+  "lines": [
+   2204,
+   2207
+  ],
+  "headings": [
+   "Brewing Potions of Healing"
+  ]
+ },
+ {
+  "file": "06-equipment/14-scribing-spell-scrolls.md",
+  "source": "equipment.md",
+  "lines": [
+   2208,
+   2286
+  ],
+  "headings": [
+   "Scribing Spell Scrolls",
+   "Time and Cost",
+   "Prerequisites for the Scribe",
+   "Cantrips"
+  ]
+ },
+ {
+  "file": "07-spells/01-gaining-spells.md",
+  "source": "spells.md",
+  "lines": [
+   1,
+   70
+  ],
+  "headings": [
+   "Spells",
+   "Gaining Spells",
+   "Preparing Spells",
+   "Always-Prepared Spells"
+  ]
+ },
+ {
+  "file": "07-spells/02-casting-spells.md",
+  "source": "spells.md",
+  "lines": [
+   71,
+   259
+  ],
+  "headings": [
+   "Casting Spells",
+   "Spell Level",
+   "Spell Slots",
+   "Casting without Slots",
+   "Using a Higher-Level Spell Slot",
+   "School of Magic",
+   "Class Spell Lists",
+   "Casting Time",
+   "One Spell with a Spell Slot per Turn",
+   "Reaction and Bonus Action Triggers",
+   "Longer Casting Times",
+   "Range",
+   "Components",
+   "Verbal (V)",
+   "Somatic (S)",
+   "Material (M)",
+   "Duration",
+   "Effects",
+   "Targets",
+   "Saving Throws",
+   "Attack Rolls",
+   "Combining Spell Effects"
+  ]
+ },
+ {
+  "file": "07-spells/spells-00-introduction.md",
+  "source": "spells.md",
+  "lines": [
+   260,
+   261
+  ],
+  "headings": [
+   "Spell Descriptions"
+  ]
+ },
+ {
+  "file": "07-spells/spells-a.md",
+  "source": "spells.md",
+  "lines": [
+   262,
+   687
+  ],
+  "headings": [
+   "Acid Arrow",
+   "Acid Splash",
+   "Aid",
+   "Alarm",
+   "Alter Self",
+   "Animal Friendship",
+   "Animal Messenger",
+   "Animal Shapes",
+   "Animate Dead",
+   "Animate Objects",
+   "Animated Object",
+   "Actions",
+   "Antilife Shell",
+   "Antimagic Field",
+   "Antipathy/Sympathy",
+   "Arcane Eye",
+   "Arcane Hand",
+   "Arcane Lock",
+   "Arcane Sword",
+   "Arcanist's Magic Aura",
+   "Astral Projection",
+   "Augury",
+   "Aura of Life",
+   "Awaken"
+  ]
+ },
+ {
+  "file": "07-spells/spells-b.md",
+  "source": "spells.md",
+  "lines": [
+   688,
+   881
+  ],
+  "headings": [
+   "Bane",
+   "Banishment",
+   "Barkskin",
+   "Beacon of Hope",
+   "Befuddlement",
+   "Bestow Curse",
+   "Black Tentacles",
+   "Blade Barrier",
+   "Bless",
+   "Blight",
+   "Blindness/Deafness",
+   "Blink",
+   "Blur",
+   "Burning Hands"
+  ]
+ },
+ {
+  "file": "07-spells/spells-c.md",
+  "source": "spells.md",
+  "lines": [
+   882,
+   1604
+  ],
+  "headings": [
+   "Call Lightning",
+   "Calm Emotions",
+   "Chain Lightning",
+   "Charm Monster",
+   "Charm Person",
+   "Chill Touch",
+   "Chromatic Orb",
+   "Circle of Death",
+   "Clairvoyance",
+   "Clone",
+   "Cloudkill",
+   "Color Spray",
+   "Command",
+   "Commune",
+   "Commune with Nature",
+   "Comprehend Languages",
+   "Compulsion",
+   "Cone of Cold",
+   "Confusion",
+   "Conjure Animals",
+   "Conjure Celestial",
+   "Conjure Elemental",
+   "Conjure Fey",
+   "Conjure Minor Elementals",
+   "Conjure Woodland Beings",
+   "Contact Other Plane",
+   "Contagion",
+   "Contingency",
+   "Continual Flame",
+   "Control Water",
+   "Control Weather",
+   "Counterspell",
+   "Create Food and Water",
+   "Create or Destroy Water",
+   "Create Undead",
+   "Creation",
+   "Cure Wounds"
+  ]
+ },
+ {
+  "file": "07-spells/spells-d.md",
+  "source": "spells.md",
+  "lines": [
+   1605,
+   2024
+  ],
+  "headings": [
+   "Dancing Lights",
+   "Darkness",
+   "Darkvision",
+   "Daylight",
+   "Death Ward",
+   "Delayed Blast Fireball",
+   "Demiplane",
+   "Detect Evil and Good",
+   "Detect Magic",
+   "Detect Poison and Disease",
+   "Detect Thoughts",
+   "Dimension Door",
+   "Disguise Self",
+   "Disintegrate",
+   "Dispel Evil and Good",
+   "Dispel Magic",
+   "Dissonant Whispers",
+   "Divination",
+   "Divine Favor",
+   "Divine Smite",
+   "Divine Word",
+   "Dominate Beast",
+   "Dominate Monster",
+   "Dominate Person",
+   "Dragon's Breath",
+   "Dream",
+   "Druidcraft"
+  ]
+ },
+ {
+  "file": "07-spells/spells-e.md",
+  "source": "spells.md",
+  "lines": [
+   2025,
+   2197
+  ],
+  "headings": [
+   "Earthquake",
+   "Eldritch Blast",
+   "Elementalism",
+   "Enhance Ability",
+   "Enlarge/Reduce",
+   "Ensnaring Strike",
+   "Entangle",
+   "Enthrall",
+   "Etherealness",
+   "Expeditious Retreat",
+   "Eyebite"
+  ]
+ },
+ {
+  "file": "07-spells/spells-f.md",
+  "source": "spells.md",
+  "lines": [
+   2198,
+   2668
+  ],
+  "headings": [
+   "Fabricate",
+   "Faerie Fire",
+   "Faithful Hound",
+   "False Life",
+   "Fear",
+   "Feather Fall",
+   "Find Familiar",
+   "Find Steed",
+   "Otherworldly Steed",
+   "Traits",
+   "Actions",
+   "Bonus Actions",
+   "Find the Path",
+   "Find Traps",
+   "Finger of Death",
+   "Fireball",
+   "Fire Bolt",
+   "Fire Shield",
+   "Fire Storm",
+   "Flame Blade",
+   "Flame Strike",
+   "Flaming Sphere",
+   "Flesh to Stone",
+   "Floating Disk",
+   "Fly",
+   "Fog Cloud",
+   "Forbiddance",
+   "Forcecage",
+   "Foresight",
+   "Freedom of Movement",
+   "Freezing Sphere"
+  ]
+ },
+ {
+  "file": "07-spells/spells-g.md",
+  "source": "spells.md",
+  "lines": [
+   2669,
+   3013
+  ],
+  "headings": [
+   "Gaseous Form",
+   "Gate",
+   "Geas",
+   "Gentle Repose",
+   "Giant Insect",
+   "Giant Insect",
+   "Traits",
+   "Actions",
+   "Bonus Actions",
+   "Glibness",
+   "Globe of Invulnerability",
+   "Glyph of Warding",
+   "Goodberry",
+   "Grease",
+   "Greater Invisibility",
+   "Greater Restoration",
+   "Guardian of Faith",
+   "Guards and Wards",
+   "Guidance",
+   "Guiding Bolt",
+   "Gust of Wind"
+  ]
+ },
+ {
+  "file": "07-spells/spells-h.md",
+  "source": "spells.md",
+  "lines": [
+   3014,
+   3258
+  ],
+  "headings": [
+   "Hallow",
+   "Hallucinatory Terrain",
+   "Harm",
+   "Haste",
+   "Heal",
+   "Healing Word",
+   "Heat Metal",
+   "Hellish Rebuke",
+   "Heroes' Feast",
+   "Heroism",
+   "Hex",
+   "Hideous Laughter",
+   "Hold Monster",
+   "Hold Person",
+   "Holy Aura",
+   "Hunter's Mark",
+   "Hypnotic Pattern"
+  ]
+ },
+ {
+  "file": "07-spells/spells-i.md",
+  "source": "spells.md",
+  "lines": [
+   3259,
+   3423
+  ],
+  "headings": [
+   "Ice Knife",
+   "Ice Storm",
+   "Identify",
+   "Illusory Script",
+   "Imprisonment",
+   "Incendiary Cloud",
+   "Inflict Wounds",
+   "Insect Plague",
+   "Instant Summons",
+   "Irresistible Dance",
+   "Invisibility"
+  ]
+ },
+ {
+  "file": "07-spells/spells-j.md",
+  "source": "spells.md",
+  "lines": [
+   3424,
+   3436
+  ],
+  "headings": [
+   "Jump"
+  ]
+ },
+ {
+  "file": "07-spells/spells-k.md",
+  "source": "spells.md",
+  "lines": [
+   3437,
+   3452
+  ],
+  "headings": [
+   "Knock"
+  ]
+ },
+ {
+  "file": "07-spells/spells-l.md",
+  "source": "spells.md",
+  "lines": [
+   3453,
+   3573
+  ],
+  "headings": [
+   "Legend Lore",
+   "Lesser Restoration",
+   "Levitate",
+   "Light",
+   "Lightning Bolt",
+   "Locate Animals or Plants",
+   "Locate Creature",
+   "Locate Object",
+   "Longstrider"
+  ]
+ },
+ {
+  "file": "07-spells/spells-m.md",
+  "source": "spells.md",
+  "lines": [
+   3574,
+   3996
+  ],
+  "headings": [
+   "Mage Armor",
+   "Mage Hand",
+   "Magic Circle",
+   "Magic Jar",
+   "Magic Missile",
+   "Magic Mouth",
+   "Magic Weapon",
+   "Magnificent Mansion",
+   "Major Image",
+   "Mass Cure Wounds",
+   "Mass Heal",
+   "Mass Healing Word",
+   "Mass Suggestion",
+   "Maze",
+   "Meld into Stone",
+   "Mending",
+   "Message",
+   "Meteor Swarm",
+   "Mind Blank",
+   "Mind Spike",
+   "Minor Illusion",
+   "Mirage Arcane",
+   "Mirror Image",
+   "Mislead",
+   "Misty Step",
+   "Modify Memory",
+   "Moonbeam",
+   "Move Earth"
+  ]
+ },
+ {
+  "file": "07-spells/spells-n.md",
+  "source": "spells.md",
+  "lines": [
+   3997,
+   4008
+  ],
+  "headings": [
+   "Nondetection"
+  ]
+ },
+ {
+  "file": "07-spells/spells-p.md",
+  "source": "spells.md",
+  "lines": [
+   4009,
+   4470
+  ],
+  "headings": [
+   "Passwall",
+   "Pass without Trace",
+   "Phantasmal Force",
+   "Phantasmal Killer",
+   "Phantom Steed",
+   "Planar Ally",
+   "Planar Binding",
+   "Plane Shift",
+   "Plant Growth",
+   "Poison Spray",
+   "Polymorph",
+   "Power Word Heal",
+   "Power Word Kill",
+   "Power Word Stun",
+   "Prayer of Healing",
+   "Prestidigitation",
+   "Prismatic Spray",
+   "Prismatic Wall",
+   "Private Sanctum",
+   "Produce Flame",
+   "Programmed Illusion",
+   "Project Image",
+   "Protection from Energy",
+   "Protection from Evil and Good",
+   "Protection from Poison",
+   "Purify Food and Drink"
+  ]
+ },
+ {
+  "file": "07-spells/spells-r.md",
+  "source": "spells.md",
+  "lines": [
+   4471,
+   4686
+  ],
+  "headings": [
+   "Raise Dead",
+   "Ray of Enfeeblement",
+   "Ray of Frost",
+   "Regenerate",
+   "Ray of Sickness",
+   "Reincarnate",
+   "Remove Curse",
+   "Resilient Sphere",
+   "Resistance",
+   "Resurrection",
+   "Reverse Gravity",
+   "Revivify",
+   "Rope Trick"
+  ]
+ },
+ {
+  "file": "07-spells/spells-s.md",
+  "source": "spells.md",
+  "lines": [
+   4687,
+   5407
+  ],
+  "headings": [
+   "Sacred Flame",
+   "Sanctuary",
+   "Scorching Ray",
+   "Scrying",
+   "Searing Smite",
+   "Secret Chest",
+   "See Invisibility",
+   "Seeming",
+   "Sending",
+   "Sequester",
+   "Shapechange",
+   "Shatter",
+   "Shield",
+   "Shield of Faith",
+   "Shillelagh",
+   "Shining Smite",
+   "Shocking Grasp",
+   "Silence",
+   "Silent Image",
+   "Simulacrum",
+   "Sleep",
+   "Sleet Storm",
+   "Slow",
+   "Sorcerous Burst",
+   "Spare the Dying",
+   "Speak with Animals",
+   "Speak with Dead",
+   "Speak with Plants",
+   "Spider Climb",
+   "Spike Growth",
+   "Spirit Guardians",
+   "Spiritual Weapon",
+   "Starry Wisp",
+   "Stinking Cloud",
+   "Stone Shape",
+   "Stoneskin",
+   "Storm of Vengeance",
+   "Suggestion",
+   "Summon Dragon",
+   "Draconic Spirit",
+   "Traits",
+   "Actions",
+   "Sunbeam",
+   "Sunburst",
+   "Symbol"
+  ]
+ },
+ {
+  "file": "07-spells/spells-t.md",
+  "source": "spells.md",
+  "lines": [
+   5408,
+   5728
+  ],
+  "headings": [
+   "Telekinesis",
+   "Telepathic Bond",
+   "Teleport",
+   "Teleportation Circle",
+   "Thaumaturgy",
+   "Thunderwave",
+   "Time Stop",
+   "Tiny Hut",
+   "Tongues",
+   "Transport via Plants",
+   "Tree Stride",
+   "True Polymorph",
+   "True Resurrection",
+   "True Seeing",
+   "True Strike",
+   "Tsunami"
+  ]
+ },
+ {
+  "file": "07-spells/spells-u.md",
+  "source": "spells.md",
+  "lines": [
+   5729,
+   5743
+  ],
+  "headings": [
+   "Unseen Servant"
+  ]
+ },
+ {
+  "file": "07-spells/spells-v.md",
+  "source": "spells.md",
+  "lines": [
+   5744,
+   5784
+  ],
+  "headings": [
+   "Vampiric Touch",
+   "Vicious Mockery",
+   "Vitriolic Sphere"
+  ]
+ },
+ {
+  "file": "07-spells/spells-w.md",
+  "source": "spells.md",
+  "lines": [
+   5785,
+   6013
+  ],
+  "headings": [
+   "Wall of Fire",
+   "Wall of Force",
+   "Wall of Ice",
+   "Wall of Stone",
+   "Wall of Thorns",
+   "Warding Bond",
+   "Water Breathing",
+   "Water Walk",
+   "Web",
+   "Weird",
+   "Wind Walk",
+   "Wind Wall",
+   "Wish",
+   "Word of Recall"
+  ]
+ },
+ {
+  "file": "07-spells/spells-z.md",
+  "source": "spells.md",
+  "lines": [
+   6014,
+   6025
+  ],
+  "headings": [
+   "Zone of Truth"
+  ]
+ },
+ {
+  "file": "08-rules-glossary/rules-glossary.md",
+  "source": "rules-glossary.md",
+  "lines": [
+   1,
+   1537
+  ],
+  "headings": [
+   "Rules Glossary",
+   "Glossary Conventions",
+   "Rules Definitions",
+   "Ability Check",
+   "Ability Score and Modifier",
+   "Action",
+   "Advantage",
+   "Adventure",
+   "Alignment",
+   "Ally",
+   "Area of Effect",
+   "Armor Class",
+   "Armor Training",
+   "Attack [Action]",
+   "Attack Roll",
+   "Attitude",
+   "Attunement",
+   "Blinded [Condition]",
+   "Blindsight",
+   "Bloodied",
+   "Bonus Action",
+   "Breaking Objects",
+   "Bright Light",
+   "Burning [Hazard]",
+   "Burrow Speed",
+   "Campaign",
+   "Cantrip",
+   "Carrying Capacity",
+   "Challenge Rating",
+   "Character Sheet",
+   "Charmed [Condition]",
+   "Climbing",
+   "Climb Speed",
+   "Concentration",
+   "Condition",
+   "Cone [Area of Effect]",
+   "Cover",
+   "Crawling",
+   "Creature",
+   "Creature Type",
+   "Critical Hit",
+   "Cube [Area of Effect]",
+   "Curses",
+   "Cylinder [Area of Effect]",
+   "D20 Test",
+   "Damage",
+   "Damage Roll",
+   "Damage Threshold",
+   "Damage Types",
+   "Darkness",
+   "Darkvision",
+   "Dash [Action]",
+   "Dead",
+   "Deafened [Condition]",
+   "Death Saving Throw",
+   "Dehydration [Hazard]",
+   "Difficult Terrain",
+   "Difficulty Class",
+   "Dim Light",
+   "Disadvantage",
+   "Disengage [Action]",
+   "Dodge [Action]",
+   "Emanation [Area of Effect]",
+   "Encounter",
+   "Enemy",
+   "Exhaustion [Condition]",
+   "Experience Points",
+   "Expertise",
+   "Falling [Hazard]",
+   "Flying",
+   "Fly Speed",
+   "Friendly [Attitude]",
+   "Frightened [Condition]",
+   "Grappled [Condition]",
+   "Grappling",
+   "Hazard",
+   "Healing",
+   "Heavily Obscured",
+   "Help [Action]",
+   "Heroic Inspiration",
+   "Hide [Action]",
+   "High Jump",
+   "Hit Point Dice",
+   "Hit Points",
+   "Hostile [Attitude]",
+   "Hover",
+   "Illusions",
+   "Immunity",
+   "Improvised Weapons",
+   "Incapacitated [Condition]",
+   "Indifferent [Attitude]",
+   "Influence [Action]",
+   "Initiative",
+   "Invisible [Condition]",
+   "Jumping",
+   "Knocking Out a Creature",
+   "Lightly Obscured",
+   "Line [Area of Effect]",
+   "Long Jump",
+   "Long Rest",
+   "Magic [Action]",
+   "Magical Effect",
+   "Malnutrition [Hazard]",
+   "Monster",
+   "Nonplayer Character",
+   "Object",
+   "Occupied Space",
+   "Opportunity Attacks",
+   "Paralyzed [Condition]",
+   "Passive Perception",
+   "Per Day",
+   "Petrified [Condition]",
+   "Player Character",
+   "Poisoned [Condition]",
+   "Possession",
+   "Proficiency",
+   "Prone [Condition]",
+   "Reach",
+   "Reaction",
+   "Ready [Action]",
+   "Resistance",
+   "Restrained [Condition]",
+   "Ritual",
+   "Round Down",
+   "Save",
+   "Saving Throw",
+   "Search [Action]",
+   "Shape-Shifting",
+   "Short Rest",
+   "Simultaneous Effects",
+   "Size",
+   "Skill",
+   "Speed",
+   "Spell",
+   "Spell Attack",
+   "Spellcasting Focus",
+   "Sphere [Area of Effect]",
+   "Stable",
+   "Stat Block",
+   "Study [Action]",
+   "Stunned [Condition]",
+   "Suffocation [Hazard]",
+   "Surprise",
+   "Swimming",
+   "Swim Speed",
+   "Target",
+   "Telepathy",
+   "Teleportation",
+   "Temporary Hit Points",
+   "Tremorsense",
+   "Truesight",
+   "Unarmed Strike",
+   "Unconscious [Condition]",
+   "Unoccupied Space",
+   "Utilize [Action]",
+   "Vulnerability",
+   "Weapon",
+   "Weapon Attack"
+  ]
+ },
+ {
+  "file": "09-gameplay-toolbox/01-travel-pace.md",
+  "source": "gameplay-toolbox.md",
+  "lines": [
+   1,
+   141
+  ],
+  "headings": [
+   "Gameplay Toolbox",
+   "Travel Pace",
+   "Good Roads",
+   "Slower Travelers",
+   "Extended Travel",
+   "Special Movement",
+   "Vehicles"
+  ]
+ },
+ {
+  "file": "09-gameplay-toolbox/02-creating-a-background.md",
+  "source": "gameplay-toolbox.md",
+  "lines": [
+   142,
+   172
+  ],
+  "headings": [
+   "Creating a Background",
+   "1: Choose Abilities",
+   "2: Choose a Feat",
+   "3: Choose Skill Proficiencies",
+   "4: Choose a Tool Proficiency",
+   "5: Choose Equipment"
+  ]
+ },
+ {
+  "file": "09-gameplay-toolbox/03-curses-and-magical-contagions.md",
+  "source": "gameplay-toolbox.md",
+  "lines": [
+   173,
+   264
+  ],
+  "headings": [
+   "Curses and Magical Contagions",
+   "Curses",
+   "Bestow Curse",
+   "Cursed Creatures",
+   "Cursed Magic Items",
+   "Narrative Curses",
+   "Environmental Curses",
+   "Magical Contagions",
+   "Rest and Recuperation",
+   "Example Contagions",
+   "Cackle Fever",
+   "Sewer Plague",
+   "Sight Rot"
+  ]
+ },
+ {
+  "file": "09-gameplay-toolbox/04-environmental-effects.md",
+  "source": "gameplay-toolbox.md",
+  "lines": [
+   265,
+   306
+  ],
+  "headings": [
+   "Environmental Effects",
+   "Deep Water",
+   "Extreme Cold",
+   "Extreme Heat",
+   "Frigid Water",
+   "Heavy Precipitation",
+   "High Altitude",
+   "Slippery Ice",
+   "Strong Wind",
+   "Thin Ice"
+  ]
+ },
+ {
+  "file": "09-gameplay-toolbox/05-fear-and-mental-stress.md",
+  "source": "gameplay-toolbox.md",
+  "lines": [
+   307,
+   394
+  ],
+  "headings": [
+   "Fear and Mental Stress",
+   "Fear Effects",
+   "Mental Stress Effects",
+   "Prolonged Effects"
+  ]
+ },
+ {
+  "file": "09-gameplay-toolbox/06-poison.md",
+  "source": "gameplay-toolbox.md",
+  "lines": [
+   395,
+   505
+  ],
+  "headings": [
+   "Poison",
+   "Purchasing Poison",
+   "Harvesting Poison",
+   "Sample Poisons",
+   "Assassin's Blood (150 GP)",
+   "Burnt Othur Fumes (500 GP)",
+   "Crawler Mucus (200 GP)",
+   "Essence of Ether (300 GP)",
+   "Malice (250 GP)",
+   "Midnight Tears (1,500 GP)",
+   "Oil of Taggit (400 GP)",
+   "Pale Tincture (250 GP)",
+   "Purple Worm Poison (2,000 GP)",
+   "Serpent Venom (200 GP)",
+   "Spider's Sting (200 GP)",
+   "Torpor (600 GP)",
+   "Truth Serum (150 GP)",
+   "Wyvern Poison (1,200 GP)"
+  ]
+ },
+ {
+  "file": "09-gameplay-toolbox/07-traps.md",
+  "source": "gameplay-toolbox.md",
+  "lines": [
+   506,
+   797
+  ],
+  "headings": [
+   "Traps",
+   "Parts of a Trap",
+   "Example Traps",
+   "Collapsing Roof",
+   "Falling Net",
+   "Fire-Casting Statue",
+   "Hidden Pit",
+   "Poisoned Darts",
+   "Poisoned Needle",
+   "Rolling Stone",
+   "Spiked Pit"
+  ]
+ },
+ {
+  "file": "09-gameplay-toolbox/08-combat-encounters.md",
+  "source": "gameplay-toolbox.md",
+  "lines": [
+   798,
+   980
+  ],
+  "headings": [
+   "Combat Encounters",
+   "Combat Encounter Difficulty",
+   "Step 1: Choose a Difficulty",
+   "Step 2: Determine Your XP Budget",
+   "Step 3: Spend Your Budget"
+  ]
+ },
+ {
+  "file": "09-gameplay-toolbox/09-troubleshooting.md",
+  "source": "gameplay-toolbox.md",
+  "lines": [
+   981,
+   1007
+  ],
+  "headings": [
+   "Troubleshooting",
+   "Many Creatures",
+   "Adjustments",
+   "CR 0 Creatures",
+   "Number of Stat Blocks",
+   "Powerful Creatures",
+   "Unusual Features"
+  ]
+ },
+ {
+  "file": "10-magic-items/01-magic-item-categories.md",
+  "source": "magic-items.md",
+  "lines": [
+   1,
+   158
+  ],
+  "headings": [
+   "Magic Items",
+   "Magic Item Categories",
+   "Armor",
+   "Potions",
+   "Rings",
+   "Rods",
+   "Scrolls",
+   "Staffs",
+   "Wands",
+   "Weapons",
+   "Wondrous Items"
+  ]
+ },
+ {
+  "file": "10-magic-items/02-magic-item-rules.md",
+  "source": "magic-items.md",
+  "lines": [
+   159,
+   577
+  ],
+  "headings": [
+   "Magic Item Rules",
+   "Magic Item Rarity",
+   "Magic Item Values by Rarity",
+   "Activating a Magic Item",
+   "Command Word",
+   "Consumable Items",
+   "Spells Cast from Items",
+   "Charges",
+   "\"The Next Dawn\"",
+   "Cursed Items",
+   "Magic Item Resilience",
+   "Crafting Magic Items",
+   "Arcana Proficiency",
+   "Tools",
+   "Spells",
+   "Time and Cost",
+   "Sentient Magic Items",
+   "Sentient Magic Item Traits",
+   "Abilities",
+   "Alignment",
+   "Communication",
+   "Senses",
+   "Special Purpose",
+   "Conflict"
+  ]
+ },
+ {
+  "file": "10-magic-items/items-00-introduction.md",
+  "source": "magic-items.md",
+  "lines": [
+   578,
+   583
+  ],
+  "headings": [
+   "Magic Items A–Z"
+  ]
+ },
+ {
+  "file": "10-magic-items/items-a.md",
+  "source": "magic-items.md",
+  "lines": [
+   584,
+   872
+  ],
+  "headings": [
+   "Adamantine Armor",
+   "Ammunition, +1, +2, or +3",
+   "Ammunition of Slaying",
+   "Amulet of Health",
+   "Amulet of Proof against Detection and Location",
+   "Amulet of the Planes",
+   "Animated Shield",
+   "Apparatus of the Crab",
+   "Armor, +1, +2, or +3",
+   "Armor of Invulnerability",
+   "Armor of Resistance",
+   "Armor of Vulnerability",
+   "Arrow-Catching Shield"
+  ]
+ },
+ {
+  "file": "10-magic-items/items-b.md",
+  "source": "magic-items.md",
+  "lines": [
+   873,
+   1262
+  ],
+  "headings": [
+   "Bag of Beans",
+   "Bag of Devouring",
+   "Bag of Holding",
+   "Bag of Tricks",
+   "Bead of Force",
+   "Bead of Nourishment",
+   "Belt of Dwarvenkind",
+   "Belt of Giant Strength",
+   "Berserker Axe",
+   "Boots of Elvenkind",
+   "Boots of Levitation",
+   "Boots of Speed",
+   "Boots of Striding and Springing",
+   "Boots of the Winterlands",
+   "Bowl of Commanding Water Elementals",
+   "Bracers of Archery",
+   "Bracers of Defense",
+   "Brazier of Commanding Fire Elementals",
+   "Brooch of Shielding",
+   "Broom of Flying"
+  ]
+ },
+ {
+  "file": "10-magic-items/items-c.md",
+  "source": "magic-items.md",
+  "lines": [
+   1263,
+   1541
+  ],
+  "headings": [
+   "Candle of Invocation",
+   "Cape of the Mountebank",
+   "Carpet of Flying",
+   "Censer of Controlling Air Elementals",
+   "Chime of Opening",
+   "Circlet of Blasting",
+   "Cloak of Arachnida",
+   "Cloak of Displacement",
+   "Cloak of Elvenkind",
+   "Cloak of Invisibility",
+   "Cloak of Protection",
+   "Cloak of the Bat",
+   "Cloak of the Manta Ray",
+   "Crystal Ball",
+   "Crystal Ball of Mind Reading",
+   "Crystal Ball of Telepathy",
+   "Crystal Ball of True Seeing",
+   "Cube of Force",
+   "Cubic Gate"
+  ]
+ },
+ {
+  "file": "10-magic-items/items-d.md",
+  "source": "magic-items.md",
+  "lines": [
+   1542,
+   1897
+  ],
+  "headings": [
+   "Dagger of Venom",
+   "Dancing Sword",
+   "Decanter of Endless Water",
+   "Deck of Illusions",
+   "Defender",
+   "Demon Armor",
+   "Dimensional Shackles",
+   "Dragon Orb",
+   "Dragon Scale Mail",
+   "Dragon Slayer",
+   "Dust of Disappearance",
+   "Dust of Dryness",
+   "Dust of Sneezing and Choking",
+   "Dwarven Plate",
+   "Dwarven Thrower"
+  ]
+ },
+ {
+  "file": "10-magic-items/items-e.md",
+  "source": "magic-items.md",
+  "lines": [
+   1898,
+   2024
+  ],
+  "headings": [
+   "Efficient Quiver",
+   "Efreeti Bottle",
+   "Elemental Gem",
+   "Elixir of Health",
+   "Elven Chain",
+   "Energy Bow",
+   "Eversmoking Bottle",
+   "Eyes of Charming",
+   "Eyes of Minute Seeing",
+   "Eyes of the Eagle"
+  ]
+ },
+ {
+  "file": "10-magic-items/items-f.md",
+  "source": "magic-items.md",
+  "lines": [
+   2025,
+   2218
+  ],
+  "headings": [
+   "Feather Token",
+   "Figurine of Wondrous Power",
+   "Giant Fly",
+   "Flame Tongue",
+   "Folding Boat",
+   "Frost Brand"
+  ]
+ },
+ {
+  "file": "10-magic-items/items-g.md",
+  "source": "magic-items.md",
+  "lines": [
+   2219,
+   2285
+  ],
+  "headings": [
+   "Gauntlets of Ogre Power",
+   "Gem of Brightness",
+   "Gem of Seeing",
+   "Giant Slayer",
+   "Glamoured Studded Leather",
+   "Gloves of Missile Snaring",
+   "Gloves of Swimming and Climbing",
+   "Gloves of Thievery",
+   "Goggles of Night"
+  ]
+ },
+ {
+  "file": "10-magic-items/items-h.md",
+  "source": "magic-items.md",
+  "lines": [
+   2286,
+   2507
+  ],
+  "headings": [
+   "Hammer of Thunderbolts",
+   "Handy Haversack",
+   "Hat of Disguise",
+   "Hat of Many Spells",
+   "Headband of Intellect",
+   "Helm of Brilliance",
+   "Helm of Comprehending Languages",
+   "Helm of Telepathy",
+   "Helm of Teleportation",
+   "Holy Avenger",
+   "Horn of Blasting",
+   "Horn of Valhalla",
+   "Horseshoes of a Zephyr",
+   "Horseshoes of Speed"
+  ]
+ },
+ {
+  "file": "10-magic-items/items-i.md",
+  "source": "magic-items.md",
+  "lines": [
+   2508,
+   2592
+  ],
+  "headings": [
+   "Immovable Rod",
+   "Instant Fortress",
+   "Ioun Stone",
+   "Iron Bands",
+   "Iron Flask"
+  ]
+ },
+ {
+  "file": "10-magic-items/items-j.md",
+  "source": "magic-items.md",
+  "lines": [
+   2593,
+   2600
+  ],
+  "headings": [
+   "Javelin of Lightning"
+  ]
+ },
+ {
+  "file": "10-magic-items/items-l.md",
+  "source": "magic-items.md",
+  "lines": [
+   2601,
+   2617
+  ],
+  "headings": [
+   "Lantern of Revealing",
+   "Luck Blade"
+  ]
+ },
+ {
+  "file": "10-magic-items/items-m.md",
+  "source": "magic-items.md",
+  "lines": [
+   2618,
+   3026
+  ],
+  "headings": [
+   "Mace of Disruption",
+   "Mace of Smiting",
+   "Mace of Terror",
+   "Mantle of Spell Resistance",
+   "Manual of Bodily Health",
+   "Manual of Gainful Exercise",
+   "Manual of Golems",
+   "Manual of Quickness of Action",
+   "Marvelous Pigments",
+   "Medallion of Thoughts",
+   "Mirror of Life Trapping",
+   "Mithral Armor",
+   "Mysterious Deck",
+   "Avatar of Death",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "10-magic-items/items-n.md",
+  "source": "magic-items.md",
+  "lines": [
+   3027,
+   3098
+  ],
+  "headings": [
+   "Necklace of Adaptation",
+   "Necklace of Fireballs",
+   "Necklace of Prayer Beads",
+   "Nine Lives Stealer"
+  ]
+ },
+ {
+  "file": "10-magic-items/items-o.md",
+  "source": "magic-items.md",
+  "lines": [
+   3099,
+   3134
+  ],
+  "headings": [
+   "Oathbow",
+   "Oil of Etherealness",
+   "Oil of Sharpness",
+   "Oil of Slipperiness"
+  ]
+ },
+ {
+  "file": "10-magic-items/items-p.md",
+  "source": "magic-items.md",
+  "lines": [
+   3135,
+   3468
+  ],
+  "headings": [
+   "Pearl of Power",
+   "Periapt of Health",
+   "Periapt of Proof against Poison",
+   "Periapt of Wound Closure",
+   "Philter of Love",
+   "Pipes of Haunting",
+   "Pipes of the Sewers",
+   "Plate Armor of Etherealness",
+   "Portable Hole",
+   "Potion of Animal Friendship",
+   "Potion of Clairvoyance",
+   "Potion of Climbing",
+   "Potion of Diminution",
+   "Potion of Flying",
+   "Potion of Gaseous Form",
+   "Potion of Giant Strength",
+   "Potion of Growth",
+   "Potions of Healing",
+   "Potion of Heroism",
+   "Potion of Invisibility",
+   "Potion of Invulnerability",
+   "Potion of Longevity",
+   "Potion of Mind Reading",
+   "Potion of Poison",
+   "Potion of Resistance",
+   "Potion of Speed",
+   "Potion of Vitality",
+   "Potion of Water Breathing"
+  ]
+ },
+ {
+  "file": "10-magic-items/items-q.md",
+  "source": "magic-items.md",
+  "lines": [
+   3469,
+   3486
+  ],
+  "headings": [
+   "Quarterstaff of the Acrobat"
+  ]
+ },
+ {
+  "file": "10-magic-items/items-r.md",
+  "source": "magic-items.md",
+  "lines": [
+   3487,
+   4007
+  ],
+  "headings": [
+   "Ring of Animal Influence",
+   "Ring of Djinni Summoning",
+   "Ring of Elemental Command",
+   "Ring of Evasion",
+   "Ring of Feather Falling",
+   "Ring of Free Action",
+   "Ring of Invisibility",
+   "Ring of Jumping",
+   "Ring of Mind Shielding",
+   "Ring of Protection",
+   "Ring of Regeneration",
+   "Ring of Resistance",
+   "Ring of Shooting Stars",
+   "Ring of Spell Storing",
+   "Ring of Spell Turning",
+   "Ring of Swimming",
+   "Ring of Telekinesis",
+   "Ring of the Ram",
+   "Ring of Three Wishes",
+   "Ring of Warmth",
+   "Ring of Water Walking",
+   "Ring of X-ray Vision",
+   "Robe of Eyes",
+   "Robe of Scintillating Colors",
+   "Robe of Stars",
+   "Robe of the Archmagi",
+   "Robe of Useful Items",
+   "Rod of Absorption",
+   "Rod of Alertness",
+   "Rod of Lordly Might",
+   "Rod of Resurrection",
+   "Rod of Rulership",
+   "Rod of Security",
+   "Rope of Climbing",
+   "Rope of Entanglement"
+  ]
+ },
+ {
+  "file": "10-magic-items/items-s.md",
+  "source": "magic-items.md",
+  "lines": [
+   4008,
+   4652
+  ],
+  "headings": [
+   "Scarab of Protection",
+   "Scimitar of Speed",
+   "Sending Stones",
+   "Sentinel Shield",
+   "Shield, +1, +2, or +3",
+   "Shield of Missile Attraction",
+   "Shield of the Cavalier",
+   "Slippers of Spider Climbing",
+   "Sovereign Glue",
+   "Spellguard Shield",
+   "Spell Scroll",
+   "Sphere of Annihilation",
+   "Staff of Charming",
+   "Staff of Fire",
+   "Staff of Frost",
+   "Staff of Healing",
+   "Staff of Power",
+   "Staff of Striking",
+   "Staff of Swarming Insects",
+   "Staff of the Magi",
+   "Staff of the Python",
+   "Staff of the Woodlands",
+   "Staff of Thunder and Lightning",
+   "Staff of Withering",
+   "Stone of Controlling Earth Elementals",
+   "Stone of Good Luck (Luckstone)",
+   "Sun Blade",
+   "Sword of Life Stealing",
+   "Sword of Sharpness",
+   "Sword of Wounding"
+  ]
+ },
+ {
+  "file": "10-magic-items/items-t.md",
+  "source": "magic-items.md",
+  "lines": [
+   4653,
+   4714
+  ],
+  "headings": [
+   "Talisman of Pure Good",
+   "Talisman of the Sphere",
+   "Talisman of Ultimate Evil",
+   "Thunderous Greatclub",
+   "Tome of Clear Thought",
+   "Tome of Leadership and Influence",
+   "Tome of Understanding",
+   "Trident of Fish Command"
+  ]
+ },
+ {
+  "file": "10-magic-items/items-u.md",
+  "source": "magic-items.md",
+  "lines": [
+   4715,
+   4722
+  ],
+  "headings": [
+   "Universal Solvent"
+  ]
+ },
+ {
+  "file": "10-magic-items/items-v.md",
+  "source": "magic-items.md",
+  "lines": [
+   4723,
+   4736
+  ],
+  "headings": [
+   "Vicious Weapon",
+   "Vorpal Sword"
+  ]
+ },
+ {
+  "file": "10-magic-items/items-w.md",
+  "source": "magic-items.md",
+  "lines": [
+   4737,
+   5015
+  ],
+  "headings": [
+   "Wand of Binding",
+   "Wand of Enemy Detection",
+   "Wand of Fear",
+   "Wand of Fireballs",
+   "Wand of Lightning Bolts",
+   "Wand of Magic Detection",
+   "Wand of Magic Missiles",
+   "Wand of Paralysis",
+   "Wand of Polymorph",
+   "Wand of Secrets",
+   "Wand of the War Mage, +1, +2, or +3",
+   "Wand of Web",
+   "Wand of Wonder",
+   "Weapon, +1, +2, or +3",
+   "Weapon of Warning",
+   "Well of Many Worlds",
+   "Wind Fan",
+   "Winged Boots",
+   "Wings of Flying"
+  ]
+ },
+ {
+  "file": "11-monsters/01-stat-block-overview.md",
+  "source": "monsters.md",
+  "lines": [
+   1,
+   22
+  ],
+  "headings": [
+   "Monsters",
+   "Stat Block Overview"
+  ]
+ },
+ {
+  "file": "11-monsters/02-parts-of-a-stat-block.md",
+  "source": "monsters.md",
+  "lines": [
+   23,
+   433
+  ],
+  "headings": [
+   "Parts of a Stat Block",
+   "Size",
+   "Creature Type",
+   "Descriptive Tags",
+   "Alignment",
+   "Armor Class",
+   "Initiative",
+   "Hit Points",
+   "Speed",
+   "Ability Scores",
+   "Skills",
+   "Resistances and Vulnerabilities",
+   "Immunities",
+   "Gear",
+   "Ammunition and Ranged Attacks",
+   "Equipping a Monster with Other Items",
+   "Senses",
+   "Languages",
+   "Telepathy",
+   "Challenge Rating",
+   "Experience Points",
+   "Proficiency Bonus",
+   "Traits",
+   "Actions",
+   "Attack Notation",
+   "Saving Throw Effect Notation",
+   "Damage Notation",
+   "Multiattack",
+   "Spellcasting",
+   "Bonus Action",
+   "Reactions",
+   "Legendary Actions",
+   "Limited Usage"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/00-introduction.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   1,
+   2
+  ],
+  "headings": [
+   "Monsters A–Z"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/aboleth.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   3,
+   105
+  ],
+  "headings": [
+   "Aboleth",
+   "Aboleth",
+   "Traits",
+   "Actions",
+   "Legendary Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/air-elemental.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   106,
+   186
+  ],
+  "headings": [
+   "Air Elemental",
+   "Air Elemental",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/animated-objects.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   187,
+   395
+  ],
+  "headings": [
+   "Animated Objects",
+   "Animated Armor",
+   "Actions",
+   "Animated Flying Sword",
+   "Actions",
+   "Animated Rug of Smothering",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/ankheg.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   396,
+   472
+  ],
+  "headings": [
+   "Ankheg",
+   "Ankheg",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/assassin.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   473,
+   560
+  ],
+  "headings": [
+   "Assassin",
+   "Assassin",
+   "Traits",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/awakened-plants.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   561,
+   700
+  ],
+  "headings": [
+   "Awakened Plants",
+   "Awakened Shrub",
+   "Actions",
+   "Awakened Tree",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/axe-beak.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   701,
+   769
+  ],
+  "headings": [
+   "Axe Beak",
+   "Axe Beak",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/azer.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   770,
+   847
+  ],
+  "headings": [
+   "Azer",
+   "Azer Sentinel",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/balor.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   848,
+   941
+  ],
+  "headings": [
+   "Balor",
+   "Balor",
+   "Traits",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/bandits.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   942,
+   1092
+  ],
+  "headings": [
+   "Bandits",
+   "Bandit",
+   "Actions",
+   "Bandit Captain",
+   "Actions",
+   "Reactions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/barbed-devil.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   1093,
+   1180
+  ],
+  "headings": [
+   "Barbed Devil",
+   "Barbed Devil",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/basilisk.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   1181,
+   1255
+  ],
+  "headings": [
+   "Basilisk",
+   "Basilisk",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/bearded-devil.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   1256,
+   1336
+  ],
+  "headings": [
+   "Bearded Devil",
+   "Bearded Devil",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/behir.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   1337,
+   1420
+  ],
+  "headings": [
+   "Behir",
+   "Behir",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/berserker.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   1421,
+   1496
+  ],
+  "headings": [
+   "Berserker",
+   "Berserker",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/black-dragons.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   1497,
+   1850
+  ],
+  "headings": [
+   "Black Dragons",
+   "Black Dragon Wyrmling",
+   "Traits",
+   "Actions",
+   "Young Black Dragon",
+   "Traits",
+   "Actions",
+   "Adult Black Dragon",
+   "Traits",
+   "Actions",
+   "Legendary Actions",
+   "Ancient Black Dragon",
+   "Traits",
+   "Actions",
+   "Legendary Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/black-pudding.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   1851,
+   1937
+  ],
+  "headings": [
+   "Black Pudding",
+   "Black Pudding",
+   "Traits",
+   "Actions",
+   "Reactions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/blink-dog.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   1938,
+   2013
+  ],
+  "headings": [
+   "Blink Dog",
+   "Blink Dog",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/blue-dragons.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   2014,
+   2351
+  ],
+  "headings": [
+   "Blue Dragons",
+   "Blue Dragon Wyrmling",
+   "Actions",
+   "Young Blue Dragon",
+   "Actions",
+   "Adult Blue Dragon",
+   "Traits",
+   "Actions",
+   "Legendary Actions",
+   "Ancient Blue Dragon",
+   "Traits",
+   "Actions",
+   "Legendary Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/bone-devil.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   2352,
+   2435
+  ],
+  "headings": [
+   "Bone Devil",
+   "Bone Devil",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/brass-dragons.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   2436,
+   2779
+  ],
+  "headings": [
+   "Brass Dragons",
+   "Brass Dragon Wyrmling",
+   "Actions",
+   "Young Brass Dragon",
+   "Actions",
+   "Adult Brass Dragon",
+   "Traits",
+   "Actions",
+   "Legendary Actions",
+   "Ancient Brass Dragon",
+   "Traits",
+   "Actions",
+   "Legendary Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/bronze-dragons.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   2780,
+   3142
+  ],
+  "headings": [
+   "Bronze Dragons",
+   "Bronze Dragon Wyrmling",
+   "Traits",
+   "Actions",
+   "Young Bronze Dragon",
+   "Traits",
+   "Actions",
+   "Adult Bronze Dragon",
+   "Traits",
+   "Actions",
+   "Legendary Actions",
+   "Ancient Bronze Dragon",
+   "Traits",
+   "Actions",
+   "Legendary Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/bugbears.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   3143,
+   3306
+  ],
+  "headings": [
+   "Bugbears",
+   "Bugbear Stalker",
+   "Traits",
+   "Actions",
+   "Bonus Actions",
+   "Bugbear Warrior",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/bulette.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   3307,
+   3386
+  ],
+  "headings": [
+   "Bulette",
+   "Bulette",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/centaur.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   3387,
+   3467
+  ],
+  "headings": [
+   "Centaur",
+   "Centaur Trooper",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/chain-devil.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   3468,
+   3556
+  ],
+  "headings": [
+   "Chain Devil",
+   "Chain Devil",
+   "Traits",
+   "Actions",
+   "Reactions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/chimera.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   3557,
+   3634
+  ],
+  "headings": [
+   "Chimera",
+   "Chimera",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/chuul.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   3635,
+   3717
+  ],
+  "headings": [
+   "Chuul",
+   "Chuul",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/clay-golem.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   3718,
+   3808
+  ],
+  "headings": [
+   "Clay Golem",
+   "Clay Golem",
+   "Traits",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/cloaker.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   3809,
+   3898
+  ],
+  "headings": [
+   "Cloaker",
+   "Cloaker",
+   "Traits",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/cloud-giant.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   3899,
+   3982
+  ],
+  "headings": [
+   "Cloud Giant",
+   "Cloud Giant",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/cockatrice.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   3983,
+   4052
+  ],
+  "headings": [
+   "Cockatrice",
+   "Cockatrice",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/commoner.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   4053,
+   4128
+  ],
+  "headings": [
+   "Commoner",
+   "Commoner",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/copper-dragons.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   4129,
+   4472
+  ],
+  "headings": [
+   "Copper Dragons",
+   "Copper Dragon Wyrmling",
+   "Actions",
+   "Young Copper Dragon",
+   "Actions",
+   "Adult Copper Dragon",
+   "Traits",
+   "Actions",
+   "Legendary Actions",
+   "Ancient Copper Dragon",
+   "Traits",
+   "Actions",
+   "Legendary Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/couatl.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   4473,
+   4561
+  ],
+  "headings": [
+   "Couatl",
+   "Couatl",
+   "Traits",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/crawling-claw.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   4562,
+   4638
+  ],
+  "headings": [
+   "Crawling Claw",
+   "Swarm of Crawling Claws",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/cultists.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   4639,
+   4789
+  ],
+  "headings": [
+   "Cultists",
+   "Cultist",
+   "Actions",
+   "Cultist Fanatic",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/darkmantle.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   4790,
+   4863
+  ],
+  "headings": [
+   "Darkmantle",
+   "Darkmantle",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/death-dog.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   4864,
+   4936
+  ],
+  "headings": [
+   "Death Dog",
+   "Death Dog",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/deva.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   4937,
+   5028
+  ],
+  "headings": [
+   "Deva",
+   "Deva",
+   "Traits",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/djinni.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   5029,
+   5120
+  ],
+  "headings": [
+   "Djinni",
+   "Djinni",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/doppelganger.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   5121,
+   5203
+  ],
+  "headings": [
+   "Doppelganger",
+   "Doppelganger",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/dragon-turtle.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   5204,
+   5285
+  ],
+  "headings": [
+   "Dragon Turtle",
+   "Dragon Turtle",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/dretch.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   5286,
+   5358
+  ],
+  "headings": [
+   "Dretch",
+   "Dretch",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/drider.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   5359,
+   5448
+  ],
+  "headings": [
+   "Drider",
+   "Drider",
+   "Traits",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/druid.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   5449,
+   5528
+  ],
+  "headings": [
+   "Druid",
+   "Druid",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/dryad.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   5529,
+   5620
+  ],
+  "headings": [
+   "Dryad",
+   "Dryad",
+   "Traits",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/earth-elemental.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   5621,
+   5703
+  ],
+  "headings": [
+   "Earth Elemental",
+   "Earth Elemental",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/efreeti.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   5704,
+   5791
+  ],
+  "headings": [
+   "Efreeti",
+   "Efreeti",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/erinyes.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   5792,
+   5883
+  ],
+  "headings": [
+   "Erinyes",
+   "Erinyes",
+   "Traits",
+   "Actions",
+   "Reactions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/ettercap.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   5884,
+   5973
+  ],
+  "headings": [
+   "Ettercap",
+   "Ettercap",
+   "Traits",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/ettin.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   5974,
+   6049
+  ],
+  "headings": [
+   "Ettin",
+   "Ettin",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/fire-elemental.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   6050,
+   6134
+  ],
+  "headings": [
+   "Fire Elemental",
+   "Fire Elemental",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/fire-giant.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   6135,
+   6209
+  ],
+  "headings": [
+   "Fire Giant",
+   "Fire Giant",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/flesh-golem.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   6210,
+   6296
+  ],
+  "headings": [
+   "Flesh Golem",
+   "Flesh Golem",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/frost-giant.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   6297,
+   6377
+  ],
+  "headings": [
+   "Frost Giant",
+   "Frost Giant",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/fungi.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   6378,
+   6517
+  ],
+  "headings": [
+   "Fungi",
+   "Shrieker Fungus",
+   "Reactions",
+   "Violet Fungus",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/gargoyle.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   6518,
+   6596
+  ],
+  "headings": [
+   "Gargoyle",
+   "Gargoyle",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/gelatinous-cube.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   6597,
+   6678
+  ],
+  "headings": [
+   "Gelatinous Cube",
+   "Gelatinous Cube",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/ghast.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   6679,
+   6757
+  ],
+  "headings": [
+   "Ghast",
+   "Ghast",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/ghost.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   6758,
+   6846
+  ],
+  "headings": [
+   "Ghost",
+   "Ghost",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/ghoul.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   6847,
+   6920
+  ],
+  "headings": [
+   "Ghoul",
+   "Ghoul",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/gibbering-mouther.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   6921,
+   7003
+  ],
+  "headings": [
+   "Gibbering Mouther",
+   "Gibbering Mouther",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/glabrezu.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   7004,
+   7091
+  ],
+  "headings": [
+   "Glabrezu",
+   "Glabrezu",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/gladiator.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   7092,
+   7172
+  ],
+  "headings": [
+   "Gladiator",
+   "Gladiator",
+   "Actions",
+   "Reactions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/gnoll.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   7173,
+   7249
+  ],
+  "headings": [
+   "Gnoll",
+   "Gnoll Warrior",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/goblins.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   7250,
+   7488
+  ],
+  "headings": [
+   "Goblins",
+   "Goblin Minion",
+   "Actions",
+   "Bonus Actions",
+   "Goblin Warrior",
+   "Actions",
+   "Bonus Actions",
+   "Goblin Boss",
+   "Actions",
+   "Bonus Actions",
+   "Reactions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/gold-dragons.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   7489,
+   7850
+  ],
+  "headings": [
+   "Gold Dragons",
+   "Gold Dragon Wyrmling",
+   "Traits",
+   "Actions",
+   "Young Gold Dragon",
+   "Traits",
+   "Actions",
+   "Adult Gold Dragon",
+   "Traits",
+   "Actions",
+   "Legendary Actions",
+   "Ancient Gold Dragon",
+   "Traits",
+   "Actions",
+   "Legendary Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/gorgon.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   7851,
+   7929
+  ],
+  "headings": [
+   "Gorgon",
+   "Gorgon",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/gray-ooze.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   7930,
+   8010
+  ],
+  "headings": [
+   "Gray Ooze",
+   "Gray Ooze",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/green-dragons.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   8011,
+   8364
+  ],
+  "headings": [
+   "Green Dragons",
+   "Green Dragon Wyrmling",
+   "Traits",
+   "Actions",
+   "Young Green Dragon",
+   "Traits",
+   "Actions",
+   "Adult Green Dragon",
+   "Traits",
+   "Actions",
+   "Legendary Actions",
+   "Ancient Green Dragon",
+   "Traits",
+   "Actions",
+   "Legendary Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/green-hag.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   8365,
+   8449
+  ],
+  "headings": [
+   "Green Hag",
+   "Green Hag",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/grick.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   8450,
+   8523
+  ],
+  "headings": [
+   "Grick",
+   "Grick",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/griffon.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   8524,
+   8595
+  ],
+  "headings": [
+   "Griffon",
+   "Griffon",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/grimlock.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   8596,
+   8665
+  ],
+  "headings": [
+   "Grimlock",
+   "Grimlock",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/guardian-naga.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   8666,
+   8750
+  ],
+  "headings": [
+   "Guardian Naga",
+   "Guardian Naga",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/guards.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   8751,
+   8894
+  ],
+  "headings": [
+   "Guards",
+   "Guard",
+   "Actions",
+   "Guard Captain",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/half-dragon.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   8895,
+   8981
+  ],
+  "headings": [
+   "Half-Dragon",
+   "Half-Dragon",
+   "Traits",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/harpy.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   8982,
+   9052
+  ],
+  "headings": [
+   "Harpy",
+   "Harpy",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/hell-hound.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   9053,
+   9133
+  ],
+  "headings": [
+   "Hell Hound",
+   "Hell Hound",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/hezrou.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   9134,
+   9222
+  ],
+  "headings": [
+   "Hezrou",
+   "Hezrou",
+   "Traits",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/hill-giant.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   9223,
+   9296
+  ],
+  "headings": [
+   "Hill Giant",
+   "Hill Giant",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/hippogriff.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   9297,
+   9374
+  ],
+  "headings": [
+   "Hippogriff",
+   "Hippogriff",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/hobgoblins.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   9375,
+   9530
+  ],
+  "headings": [
+   "Hobgoblins",
+   "Hobgoblin Warrior",
+   "Traits",
+   "Actions",
+   "Hobgoblin Captain",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/homunculus.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   9531,
+   9606
+  ],
+  "headings": [
+   "Homunculus",
+   "Homunculus",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/horned-devil.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   9607,
+   9691
+  ],
+  "headings": [
+   "Horned Devil",
+   "Horned Devil",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/hydra.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   9692,
+   9774
+  ],
+  "headings": [
+   "Hydra",
+   "Hydra",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/ice-devil.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   9775,
+   9859
+  ],
+  "headings": [
+   "Ice Devil",
+   "Ice Devil",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/imp.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   9860,
+   9941
+  ],
+  "headings": [
+   "Imp",
+   "Imp",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/incubus.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   9942,
+   10030
+  ],
+  "headings": [
+   "Incubus",
+   "Incubus",
+   "Traits",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/invisible-stalker.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   10031,
+   10114
+  ],
+  "headings": [
+   "Invisible Stalker",
+   "Invisible Stalker",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/iron-golem.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   10115,
+   10200
+  ],
+  "headings": [
+   "Iron Golem",
+   "Iron Golem",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/knight.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   10201,
+   10281
+  ],
+  "headings": [
+   "Knight",
+   "Knight",
+   "Actions",
+   "Reactions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/kobold.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   10282,
+   10359
+  ],
+  "headings": [
+   "Kobold",
+   "Kobold Warrior",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/kraken.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   10360,
+   10459
+  ],
+  "headings": [
+   "Kraken",
+   "Kraken",
+   "Traits",
+   "Actions",
+   "Legendary Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/lamia.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   10460,
+   10543
+  ],
+  "headings": [
+   "Lamia",
+   "Lamia",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/lemure.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   10544,
+   10620
+  ],
+  "headings": [
+   "Lemure",
+   "Lemure",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/lich.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   10621,
+   10728
+  ],
+  "headings": [
+   "Lich",
+   "Lich",
+   "Traits",
+   "Actions",
+   "Reactions",
+   "Legendary Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/mages.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   10729,
+   10913
+  ],
+  "headings": [
+   "Mages",
+   "Mage",
+   "Actions",
+   "Bonus Actions",
+   "Reactions",
+   "Archmage",
+   "Traits",
+   "Actions",
+   "Bonus Actions",
+   "Reactions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/magmin.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   10914,
+   10995
+  ],
+  "headings": [
+   "Magmin",
+   "Magmin",
+   "Traits",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/manticore.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   10996,
+   11068
+  ],
+  "headings": [
+   "Manticore",
+   "Manticore",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/marilith.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   11069,
+   11166
+  ],
+  "headings": [
+   "Marilith",
+   "Marilith",
+   "Traits",
+   "Actions",
+   "Bonus Actions",
+   "Reactions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/medusa.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   11167,
+   11244
+  ],
+  "headings": [
+   "Medusa",
+   "Medusa",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/mephits.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   11245,
+   11563
+  ],
+  "headings": [
+   "Mephits",
+   "Dust Mephit",
+   "Traits",
+   "Actions",
+   "Ice Mephit",
+   "Traits",
+   "Actions",
+   "Magma Mephit",
+   "Traits",
+   "Actions",
+   "Steam Mephit",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/merfolk.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   11564,
+   11638
+  ],
+  "headings": [
+   "Merfolk",
+   "Merfolk Skirmisher",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/merrow.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   11639,
+   11719
+  ],
+  "headings": [
+   "Merrow",
+   "Merrow",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/mimic.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   11720,
+   11804
+  ],
+  "headings": [
+   "Mimic",
+   "Mimic",
+   "Traits",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/minotaur-of-baphomet.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   11805,
+   11876
+  ],
+  "headings": [
+   "Minotaur of Baphomet",
+   "Minotaur of Baphomet",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/mummies.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   11877,
+   12059
+  ],
+  "headings": [
+   "Mummies",
+   "Mummy",
+   "Actions",
+   "Mummy Lord",
+   "Traits",
+   "Actions",
+   "Reactions",
+   "Legendary Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/nalfeshnee.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   12060,
+   12155
+  ],
+  "headings": [
+   "Nalfeshnee",
+   "Nalfeshnee",
+   "Traits",
+   "Actions",
+   "Bonus Actions",
+   "Reactions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/night-hag.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   12156,
+   12253
+  ],
+  "headings": [
+   "Night Hag",
+   "Night Hag",
+   "Traits",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/nightmare.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   12254,
+   12333
+  ],
+  "headings": [
+   "Nightmare",
+   "Nightmare",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/noble.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   12334,
+   12410
+  ],
+  "headings": [
+   "Noble",
+   "Noble",
+   "Actions",
+   "Reactions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/ochre-jelly.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   12411,
+   12495
+  ],
+  "headings": [
+   "Ochre Jelly",
+   "Ochre Jelly",
+   "Traits",
+   "Actions",
+   "Reactions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/ogre.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   12496,
+   12567
+  ],
+  "headings": [
+   "Ogre",
+   "Ogre",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/oni.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   12568,
+   12659
+  ],
+  "headings": [
+   "Oni",
+   "Oni",
+   "Traits",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/otyugh.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   12660,
+   12734
+  ],
+  "headings": [
+   "Otyugh",
+   "Otyugh",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/owlbear.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   12735,
+   12806
+  ],
+  "headings": [
+   "Owlbear",
+   "Owlbear",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/pegasus.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   12807,
+   12876
+  ],
+  "headings": [
+   "Pegasus",
+   "Pegasus",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/phase-spider.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   12877,
+   12964
+  ],
+  "headings": [
+   "Phase Spider",
+   "Phase Spider",
+   "Traits",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/pirates.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   12965,
+   13123
+  ],
+  "headings": [
+   "Pirates",
+   "Pirate",
+   "Actions",
+   "Pirate Captain",
+   "Actions",
+   "Bonus Actions",
+   "Reactions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/pit-fiend.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   13124,
+   13215
+  ],
+  "headings": [
+   "Pit Fiend",
+   "Pit Fiend",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/planetar.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   13216,
+   13311
+  ],
+  "headings": [
+   "Planetar",
+   "Planetar",
+   "Traits",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/priests.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   13312,
+   13476
+  ],
+  "headings": [
+   "Priests",
+   "Priest Acolyte",
+   "Actions",
+   "Bonus Actions",
+   "Priest",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/pseudodragon.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   13477,
+   13556
+  ],
+  "headings": [
+   "Pseudodragon",
+   "Pseudodragon",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/purple-worm.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   13557,
+   13642
+  ],
+  "headings": [
+   "Purple Worm",
+   "Purple Worm",
+   "Traits",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/quasit.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   13643,
+   13726
+  ],
+  "headings": [
+   "Quasit",
+   "Quasit",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/rakshasa.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   13727,
+   13814
+  ],
+  "headings": [
+   "Rakshasa",
+   "Rakshasa",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/red-dragons.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   13815,
+   14152
+  ],
+  "headings": [
+   "Red Dragons",
+   "Red Dragon Wyrmling",
+   "Actions",
+   "Young Red Dragon",
+   "Actions",
+   "Adult Red Dragon",
+   "Traits",
+   "Actions",
+   "Legendary Actions",
+   "Ancient Red Dragon",
+   "Traits",
+   "Actions",
+   "Legendary Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/remorhaz.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   14153,
+   14235
+  ],
+  "headings": [
+   "Remorhaz",
+   "Remorhaz",
+   "Traits",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/roc.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   14236,
+   14315
+  ],
+  "headings": [
+   "Roc",
+   "Roc",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/roper.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   14316,
+   14398
+  ],
+  "headings": [
+   "Roper",
+   "Roper",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/rust-monster.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   14399,
+   14485
+  ],
+  "headings": [
+   "Rust Monster",
+   "Rust Monster",
+   "Traits",
+   "Actions",
+   "Reactions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/sahuagin.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   14486,
+   14574
+  ],
+  "headings": [
+   "Sahuagin",
+   "Sahuagin Warrior",
+   "Traits",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/salamander.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   14575,
+   14655
+  ],
+  "headings": [
+   "Salamander",
+   "Salamander",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/satyr.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   14656,
+   14733
+  ],
+  "headings": [
+   "Satyr",
+   "Satyr",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/scout.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   14734,
+   14808
+  ],
+  "headings": [
+   "Scout",
+   "Scout",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/sea-hag.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   14809,
+   14891
+  ],
+  "headings": [
+   "Sea Hag",
+   "Sea Hag",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/shadow.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   14892,
+   14978
+  ],
+  "headings": [
+   "Shadow",
+   "Shadow",
+   "Traits",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/shambling-mound.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   14979,
+   15060
+  ],
+  "headings": [
+   "Shambling Mound",
+   "Shambling Mound",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/shield-guardian.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   15061,
+   15148
+  ],
+  "headings": [
+   "Shield Guardian",
+   "Shield Guardian",
+   "Traits",
+   "Actions",
+   "Reactions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/silver-dragons.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   15149,
+   15494
+  ],
+  "headings": [
+   "Silver Dragons",
+   "Silver Dragon Wyrmling",
+   "Actions",
+   "Young Silver Dragon",
+   "Actions",
+   "Adult Silver Dragon",
+   "Traits",
+   "Actions",
+   "Legendary Actions",
+   "Ancient Silver Dragon",
+   "Traits",
+   "Actions",
+   "Legendary Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/skeletons.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   15495,
+   15708
+  ],
+  "headings": [
+   "Skeletons",
+   "Skeleton",
+   "Actions",
+   "Warhorse Skeleton",
+   "Actions",
+   "Minotaur Skeleton",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/solar.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   15709,
+   15815
+  ],
+  "headings": [
+   "Solar",
+   "Solar",
+   "Traits",
+   "Actions",
+   "Bonus Actions",
+   "Legendary Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/specter.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   15816,
+   15894
+  ],
+  "headings": [
+   "Specter",
+   "Specter",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/sphinxes.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   15895,
+   16175
+  ],
+  "headings": [
+   "Sphinxes",
+   "Sphinx of Wonder",
+   "Traits",
+   "Actions",
+   "Reactions",
+   "Sphinx of Lore",
+   "Traits",
+   "Actions",
+   "Legendary Actions",
+   "Sphinx of Valor",
+   "Traits",
+   "Actions",
+   "Legendary Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/spirit-naga.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   16176,
+   16259
+  ],
+  "headings": [
+   "Spirit Naga",
+   "Spirit Naga",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/sprite.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   16260,
+   16335
+  ],
+  "headings": [
+   "Sprite",
+   "Sprite",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/spy.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   16336,
+   16414
+  ],
+  "headings": [
+   "Spy",
+   "Spy",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/stirge.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   16415,
+   16484
+  ],
+  "headings": [
+   "Stirge",
+   "Stirge",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/stone-giant.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   16485,
+   16564
+  ],
+  "headings": [
+   "Stone Giant",
+   "Stone Giant",
+   "Actions",
+   "Reactions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/stone-golem.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   16565,
+   16652
+  ],
+  "headings": [
+   "Stone Golem",
+   "Stone Golem",
+   "Traits",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/storm-giant.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   16653,
+   16740
+  ],
+  "headings": [
+   "Storm Giant",
+   "Storm Giant",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/succubus.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   16741,
+   16831
+  ],
+  "headings": [
+   "Succubus",
+   "Succubus",
+   "Traits",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/tarrasque.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   16832,
+   16940
+  ],
+  "headings": [
+   "Tarrasque",
+   "Tarrasque",
+   "Traits",
+   "Actions",
+   "Bonus Actions",
+   "Legendary Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/toughs.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   16941,
+   17096
+  ],
+  "headings": [
+   "Toughs",
+   "Tough",
+   "Traits",
+   "Actions",
+   "Tough Boss",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/treant.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   17097,
+   17179
+  ],
+  "headings": [
+   "Treant",
+   "Treant",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/troll.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   17180,
+   17340
+  ],
+  "headings": [
+   "Troll",
+   "Troll",
+   "Traits",
+   "Actions",
+   "Bonus Actions",
+   "Troll Limb",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/unicorn.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   17341,
+   17443
+  ],
+  "headings": [
+   "Unicorn",
+   "Unicorn",
+   "Traits",
+   "Actions",
+   "Bonus Actions",
+   "Legendary Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/vampires.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   17444,
+   17739
+  ],
+  "headings": [
+   "Vampires",
+   "Vampire Familiar",
+   "Traits",
+   "Actions",
+   "Bonus Actions",
+   "Vampire Spawn",
+   "Traits",
+   "Actions",
+   "Bonus Actions",
+   "Vampire",
+   "Traits",
+   "Actions",
+   "Bonus Actions",
+   "Legendary Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/vrock.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   17740,
+   17824
+  ],
+  "headings": [
+   "Vrock",
+   "Vrock",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/warriors.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   17825,
+   17979
+  ],
+  "headings": [
+   "Warriors",
+   "Warrior Infantry",
+   "Traits",
+   "Actions",
+   "Warrior Veteran",
+   "Actions",
+   "Reactions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/water-elemental.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   17980,
+   18062
+  ],
+  "headings": [
+   "Water Elemental",
+   "Water Elemental",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/werebear.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   18063,
+   18145
+  ],
+  "headings": [
+   "Werebear",
+   "Werebear",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/wereboar.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   18146,
+   18228
+  ],
+  "headings": [
+   "Wereboar",
+   "Wereboar",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/wererat.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   18229,
+   18311
+  ],
+  "headings": [
+   "Wererat",
+   "Wererat",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/weretiger.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   18312,
+   18396
+  ],
+  "headings": [
+   "Weretiger",
+   "Weretiger",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/werewolf.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   18397,
+   18485
+  ],
+  "headings": [
+   "Werewolf",
+   "Werewolf",
+   "Traits",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/white-dragons.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   18486,
+   18831
+  ],
+  "headings": [
+   "White Dragons",
+   "White Dragon Wyrmling",
+   "Traits",
+   "Actions",
+   "Young White Dragon",
+   "Traits",
+   "Actions",
+   "Adult White Dragon",
+   "Traits",
+   "Actions",
+   "Legendary Actions",
+   "Ancient White Dragon",
+   "Traits",
+   "Actions",
+   "Legendary Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/wight.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   18832,
+   18917
+  ],
+  "headings": [
+   "Wight",
+   "Wight",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/will-o-wisp.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   18918,
+   19010
+  ],
+  "headings": [
+   "Will-o'-Wisp",
+   "Will-o'-Wisp",
+   "Traits",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/winter-wolf.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   19011,
+   19093
+  ],
+  "headings": [
+   "Winter Wolf",
+   "Winter Wolf",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/worg.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   19094,
+   19166
+  ],
+  "headings": [
+   "Worg",
+   "Worg",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/wraith.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   19167,
+   19251
+  ],
+  "headings": [
+   "Wraith",
+   "Wraith",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/wyvern.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   19252,
+   19325
+  ],
+  "headings": [
+   "Wyvern",
+   "Wyvern",
+   "Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/xorn.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   19326,
+   19414
+  ],
+  "headings": [
+   "Xorn",
+   "Xorn",
+   "Traits",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "12-monsters-a-z/zombies.md",
+  "source": "monsters-A-Z.md",
+  "lines": [
+   19415,
+   19563
+  ],
+  "headings": [
+   "Zombies",
+   "Zombie",
+   "Traits",
+   "Actions",
+   "Ogre Zombie",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/00-introduction.md",
+  "source": "animals.md",
+  "lines": [
+   1,
+   2
+  ],
+  "headings": [
+   "Animals"
+  ]
+ },
+ {
+  "file": "13-animals/allosaurus.md",
+  "source": "animals.md",
+  "lines": [
+   3,
+   72
+  ],
+  "headings": [
+   "Allosaurus",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/ankylosaurus.md",
+  "source": "animals.md",
+  "lines": [
+   73,
+   141
+  ],
+  "headings": [
+   "Ankylosaurus",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/ape.md",
+  "source": "animals.md",
+  "lines": [
+   142,
+   213
+  ],
+  "headings": [
+   "Ape",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/archelon.md",
+  "source": "animals.md",
+  "lines": [
+   214,
+   289
+  ],
+  "headings": [
+   "Archelon",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/baboon.md",
+  "source": "animals.md",
+  "lines": [
+   290,
+   362
+  ],
+  "headings": [
+   "Baboon",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/badger.md",
+  "source": "animals.md",
+  "lines": [
+   363,
+   431
+  ],
+  "headings": [
+   "Badger",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/bat.md",
+  "source": "animals.md",
+  "lines": [
+   432,
+   498
+  ],
+  "headings": [
+   "Bat",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/black-bear.md",
+  "source": "animals.md",
+  "lines": [
+   499,
+   568
+  ],
+  "headings": [
+   "Black Bear",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/blood-hawk.md",
+  "source": "animals.md",
+  "lines": [
+   569,
+   642
+  ],
+  "headings": [
+   "Blood Hawk",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/boar.md",
+  "source": "animals.md",
+  "lines": [
+   643,
+   715
+  ],
+  "headings": [
+   "Boar",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/brown-bear.md",
+  "source": "animals.md",
+  "lines": [
+   716,
+   787
+  ],
+  "headings": [
+   "Brown Bear",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/camel.md",
+  "source": "animals.md",
+  "lines": [
+   788,
+   854
+  ],
+  "headings": [
+   "Camel",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/cat.md",
+  "source": "animals.md",
+  "lines": [
+   855,
+   928
+  ],
+  "headings": [
+   "Cat",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/constrictor-snake.md",
+  "source": "animals.md",
+  "lines": [
+   929,
+   998
+  ],
+  "headings": [
+   "Constrictor Snake",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/crab.md",
+  "source": "animals.md",
+  "lines": [
+   999,
+   1072
+  ],
+  "headings": [
+   "Crab",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/crocodile.md",
+  "source": "animals.md",
+  "lines": [
+   1073,
+   1146
+  ],
+  "headings": [
+   "Crocodile",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/deer.md",
+  "source": "animals.md",
+  "lines": [
+   1147,
+   1220
+  ],
+  "headings": [
+   "Deer",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/dire-wolf.md",
+  "source": "animals.md",
+  "lines": [
+   1221,
+   1294
+  ],
+  "headings": [
+   "Dire Wolf",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/draft-horse.md",
+  "source": "animals.md",
+  "lines": [
+   1295,
+   1361
+  ],
+  "headings": [
+   "Draft Horse",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/eagle.md",
+  "source": "animals.md",
+  "lines": [
+   1362,
+   1429
+  ],
+  "headings": [
+   "Eagle",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/elephant.md",
+  "source": "animals.md",
+  "lines": [
+   1430,
+   1504
+  ],
+  "headings": [
+   "Elephant",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "13-animals/elk.md",
+  "source": "animals.md",
+  "lines": [
+   1505,
+   1572
+  ],
+  "headings": [
+   "Elk",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/flying-snake.md",
+  "source": "animals.md",
+  "lines": [
+   1573,
+   1645
+  ],
+  "headings": [
+   "Flying Snake",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/frog.md",
+  "source": "animals.md",
+  "lines": [
+   1646,
+   1721
+  ],
+  "headings": [
+   "Frog",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/giant-ape.md",
+  "source": "animals.md",
+  "lines": [
+   1722,
+   1799
+  ],
+  "headings": [
+   "Giant Ape",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "13-animals/giant-badger.md",
+  "source": "animals.md",
+  "lines": [
+   1800,
+   1868
+  ],
+  "headings": [
+   "Giant Badger",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/giant-bat.md",
+  "source": "animals.md",
+  "lines": [
+   1869,
+   1935
+  ],
+  "headings": [
+   "Giant Bat",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/giant-boar.md",
+  "source": "animals.md",
+  "lines": [
+   1936,
+   2008
+  ],
+  "headings": [
+   "Giant Boar",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/giant-centipede.md",
+  "source": "animals.md",
+  "lines": [
+   2009,
+   2075
+  ],
+  "headings": [
+   "Giant Centipede",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/giant-constrictor-snake.md",
+  "source": "animals.md",
+  "lines": [
+   2076,
+   2147
+  ],
+  "headings": [
+   "Giant Constrictor Snake",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/giant-crab.md",
+  "source": "animals.md",
+  "lines": [
+   2148,
+   2221
+  ],
+  "headings": [
+   "Giant Crab",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/giant-crocodile.md",
+  "source": "animals.md",
+  "lines": [
+   2222,
+   2299
+  ],
+  "headings": [
+   "Giant Crocodile",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/giant-eagle.md",
+  "source": "animals.md",
+  "lines": [
+   2300,
+   2370
+  ],
+  "headings": [
+   "Giant Eagle",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/giant-elk.md",
+  "source": "animals.md",
+  "lines": [
+   2371,
+   2439
+  ],
+  "headings": [
+   "Giant Elk",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/giant-fire-beetle.md",
+  "source": "animals.md",
+  "lines": [
+   2440,
+   2513
+  ],
+  "headings": [
+   "Giant Fire Beetle",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/giant-frog.md",
+  "source": "animals.md",
+  "lines": [
+   2514,
+   2592
+  ],
+  "headings": [
+   "Giant Frog",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/giant-goat.md",
+  "source": "animals.md",
+  "lines": [
+   2593,
+   2660
+  ],
+  "headings": [
+   "Giant Goat",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/giant-hyena.md",
+  "source": "animals.md",
+  "lines": [
+   2661,
+   2734
+  ],
+  "headings": [
+   "Giant Hyena",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "13-animals/giant-lizard.md",
+  "source": "animals.md",
+  "lines": [
+   2735,
+   2807
+  ],
+  "headings": [
+   "Giant Lizard",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/giant-octopus.md",
+  "source": "animals.md",
+  "lines": [
+   2808,
+   2887
+  ],
+  "headings": [
+   "Giant Octopus",
+   "Traits",
+   "Actions",
+   "Reactions"
+  ]
+ },
+ {
+  "file": "13-animals/giant-owl.md",
+  "source": "animals.md",
+  "lines": [
+   2888,
+   2966
+  ],
+  "headings": [
+   "Giant Owl",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/giant-rat.md",
+  "source": "animals.md",
+  "lines": [
+   2967,
+   3040
+  ],
+  "headings": [
+   "Giant Rat",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/giant-scorpion.md",
+  "source": "animals.md",
+  "lines": [
+   3041,
+   3111
+  ],
+  "headings": [
+   "Giant Scorpion",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/giant-seahorse.md",
+  "source": "animals.md",
+  "lines": [
+   3112,
+   3190
+  ],
+  "headings": [
+   "Giant Seahorse",
+   "Traits",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "13-animals/giant-shark.md",
+  "source": "animals.md",
+  "lines": [
+   3191,
+   3266
+  ],
+  "headings": [
+   "Giant Shark",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/giant-spider.md",
+  "source": "animals.md",
+  "lines": [
+   3267,
+   3344
+  ],
+  "headings": [
+   "Giant Spider",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/giant-toad.md",
+  "source": "animals.md",
+  "lines": [
+   3345,
+   3422
+  ],
+  "headings": [
+   "Giant Toad",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/giant-venomous-snake.md",
+  "source": "animals.md",
+  "lines": [
+   3423,
+   3490
+  ],
+  "headings": [
+   "Giant Venomous Snake",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/giant-vulture.md",
+  "source": "animals.md",
+  "lines": [
+   3491,
+   3565
+  ],
+  "headings": [
+   "Giant Vulture",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/giant-wasp.md",
+  "source": "animals.md",
+  "lines": [
+   3566,
+   3638
+  ],
+  "headings": [
+   "Giant Wasp",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/giant-weasel.md",
+  "source": "animals.md",
+  "lines": [
+   3639,
+   3706
+  ],
+  "headings": [
+   "Giant Weasel",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/giant-wolf-spider.md",
+  "source": "animals.md",
+  "lines": [
+   3707,
+   3780
+  ],
+  "headings": [
+   "Giant Wolf Spider",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/goat.md",
+  "source": "animals.md",
+  "lines": [
+   3781,
+   3848
+  ],
+  "headings": [
+   "Goat",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/hawk.md",
+  "source": "animals.md",
+  "lines": [
+   3849,
+   3916
+  ],
+  "headings": [
+   "Hawk",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/hippopotamus.md",
+  "source": "animals.md",
+  "lines": [
+   3917,
+   3992
+  ],
+  "headings": [
+   "Hippopotamus",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/hunter-shark.md",
+  "source": "animals.md",
+  "lines": [
+   3993,
+   4066
+  ],
+  "headings": [
+   "Hunter Shark",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/hyena.md",
+  "source": "animals.md",
+  "lines": [
+   4067,
+   4140
+  ],
+  "headings": [
+   "Hyena",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/jackal.md",
+  "source": "animals.md",
+  "lines": [
+   4141,
+   4208
+  ],
+  "headings": [
+   "Jackal",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/killer-whale.md",
+  "source": "animals.md",
+  "lines": [
+   4209,
+   4282
+  ],
+  "headings": [
+   "Killer Whale",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/lion.md",
+  "source": "animals.md",
+  "lines": [
+   4283,
+   4362
+  ],
+  "headings": [
+   "Lion",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/lizard.md",
+  "source": "animals.md",
+  "lines": [
+   4363,
+   4435
+  ],
+  "headings": [
+   "Lizard",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/mammoth.md",
+  "source": "animals.md",
+  "lines": [
+   4436,
+   4510
+  ],
+  "headings": [
+   "Mammoth",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "13-animals/mastiff.md",
+  "source": "animals.md",
+  "lines": [
+   4511,
+   4578
+  ],
+  "headings": [
+   "Mastiff",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/mule.md",
+  "source": "animals.md",
+  "lines": [
+   4579,
+   4651
+  ],
+  "headings": [
+   "Mule",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/octopus.md",
+  "source": "animals.md",
+  "lines": [
+   4652,
+   4733
+  ],
+  "headings": [
+   "Octopus",
+   "Traits",
+   "Actions",
+   "Reactions"
+  ]
+ },
+ {
+  "file": "13-animals/owl.md",
+  "source": "animals.md",
+  "lines": [
+   4734,
+   4807
+  ],
+  "headings": [
+   "Owl",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/panther.md",
+  "source": "animals.md",
+  "lines": [
+   4808,
+   4881
+  ],
+  "headings": [
+   "Panther",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "13-animals/piranha.md",
+  "source": "animals.md",
+  "lines": [
+   4882,
+   4954
+  ],
+  "headings": [
+   "Piranha",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/plesiosaurus.md",
+  "source": "animals.md",
+  "lines": [
+   4955,
+   5028
+  ],
+  "headings": [
+   "Plesiosaurus",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/polar-bear.md",
+  "source": "animals.md",
+  "lines": [
+   5029,
+   5099
+  ],
+  "headings": [
+   "Polar Bear",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/pony.md",
+  "source": "animals.md",
+  "lines": [
+   5100,
+   5166
+  ],
+  "headings": [
+   "Pony",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/pteranodon.md",
+  "source": "animals.md",
+  "lines": [
+   5167,
+   5240
+  ],
+  "headings": [
+   "Pteranodon",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/rat.md",
+  "source": "animals.md",
+  "lines": [
+   5241,
+   5314
+  ],
+  "headings": [
+   "Rat",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/raven.md",
+  "source": "animals.md",
+  "lines": [
+   5315,
+   5388
+  ],
+  "headings": [
+   "Raven",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/reef-shark.md",
+  "source": "animals.md",
+  "lines": [
+   5389,
+   5464
+  ],
+  "headings": [
+   "Reef Shark",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/rhinoceros.md",
+  "source": "animals.md",
+  "lines": [
+   5465,
+   5531
+  ],
+  "headings": [
+   "Rhinoceros",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/riding-horse.md",
+  "source": "animals.md",
+  "lines": [
+   5532,
+   5598
+  ],
+  "headings": [
+   "Riding Horse",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/saber-toothed-tiger.md",
+  "source": "animals.md",
+  "lines": [
+   5599,
+   5680
+  ],
+  "headings": [
+   "Saber-Toothed Tiger",
+   "Traits",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "13-animals/scorpion.md",
+  "source": "animals.md",
+  "lines": [
+   5681,
+   5747
+  ],
+  "headings": [
+   "Scorpion",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/seahorse.md",
+  "source": "animals.md",
+  "lines": [
+   5748,
+   5821
+  ],
+  "headings": [
+   "Seahorse",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/spider.md",
+  "source": "animals.md",
+  "lines": [
+   5822,
+   5897
+  ],
+  "headings": [
+   "Spider",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/swarm-of-bats.md",
+  "source": "animals.md",
+  "lines": [
+   5898,
+   5972
+  ],
+  "headings": [
+   "Swarm of Bats",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/swarm-of-insects.md",
+  "source": "animals.md",
+  "lines": [
+   5973,
+   6049
+  ],
+  "headings": [
+   "Swarm of Insects",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/swarm-of-piranhas.md",
+  "source": "animals.md",
+  "lines": [
+   6050,
+   6126
+  ],
+  "headings": [
+   "Swarm of Piranhas",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/swarm-of-rats.md",
+  "source": "animals.md",
+  "lines": [
+   6127,
+   6201
+  ],
+  "headings": [
+   "Swarm of Rats",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/swarm-of-ravens.md",
+  "source": "animals.md",
+  "lines": [
+   6202,
+   6279
+  ],
+  "headings": [
+   "Swarm of Ravens",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/swarm-of-venomous-snakes.md",
+  "source": "animals.md",
+  "lines": [
+   6280,
+   6354
+  ],
+  "headings": [
+   "Swarm of Venomous Snakes",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/tiger.md",
+  "source": "animals.md",
+  "lines": [
+   6355,
+   6428
+  ],
+  "headings": [
+   "Tiger",
+   "Actions",
+   "Bonus Actions"
+  ]
+ },
+ {
+  "file": "13-animals/triceratops.md",
+  "source": "animals.md",
+  "lines": [
+   6429,
+   6497
+  ],
+  "headings": [
+   "Triceratops",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/tyrannosaurus-rex.md",
+  "source": "animals.md",
+  "lines": [
+   6498,
+   6569
+  ],
+  "headings": [
+   "Tyrannosaurus Rex",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/venomous-snake.md",
+  "source": "animals.md",
+  "lines": [
+   6570,
+   6636
+  ],
+  "headings": [
+   "Venomous Snake",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/vulture.md",
+  "source": "animals.md",
+  "lines": [
+   6637,
+   6710
+  ],
+  "headings": [
+   "Vulture",
+   "Traits",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/warhorse.md",
+  "source": "animals.md",
+  "lines": [
+   6711,
+   6777
+  ],
+  "headings": [
+   "Warhorse",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/weasel.md",
+  "source": "animals.md",
+  "lines": [
+   6778,
+   6845
+  ],
+  "headings": [
+   "Weasel",
+   "Actions"
+  ]
+ },
+ {
+  "file": "13-animals/wolf.md",
+  "source": "animals.md",
+  "lines": [
+   6846,
+   6918
+  ],
+  "headings": [
+   "Wolf",
+   "Traits",
+   "Actions"
+  ]
+ }
+]
