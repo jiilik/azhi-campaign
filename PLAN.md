@@ -15,7 +15,7 @@ The goal is a setting-specific derivative of the D&D 5e SRD for the ring-world A
 - [x] Push the initial commit
 - [ ] Create the Claude Project; paste `project-instructions.md` and add the knowledge files it lists
 - [ ] Answer the OPEN questions that block Phase 1:
-  - [ ] SRD version: 5.1 (2014 rules) or 5.2 (2024 rules)?
+  - [x] SRD version: **5.2** (2024 rules)
   - [ ] Is the myth universal truth, or one telling among rivals?
 
 ## Phase 1: SRD intake

@@ -1,6 +1,6 @@
 # Session Primer: read this first
 
-You are helping **Troy** (the author and DM) build **Azhi**, a D&D 5e campaign setting. The world is a ring, the corpse of a self-devouring space dragon. This repo is the project's memory. Chat history does not carry over between sessions; these files do.
+You are helping **Troy** (the author and DM) build **Azhi**, a D&D campaign setting on the 2024 rules (SRD 5.2). The world is a ring, the corpse of a self-devouring space dragon. This repo is the project's memory. Chat history does not carry over between sessions; these files do.
 
 ## Start of every session
 
