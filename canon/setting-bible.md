@@ -72,6 +72,7 @@ When a PROPOSED item is confirmed or rejected, update its status here and add a 
   - What an Unphased dragonborn looks like, and whether it can breathe or resist anything.
   - The exact phasing penalty.
   - Whether Gold and Silver can ever be reached by phasing.
+- **PROPOSED (brainstorm, 2026-10-21).** Character building from personality traits plus an elemental affinity, backgrounds folded into species, and a 36-point budget. See `canon/brainstorm-species.md`. Not yet decided.
 - **PROPOSED.** Each colour's culture has **internal disagreements** that matter more than its external rivalries. Rivalries look like **policy disputes** between neighbours who trade and intermarry, such as water rights or forests versus forges.
 - **PROPOSED. The elemental wheel** (modelled on the Chinese five-phase cycle):
   - Feeding: Blue → Green → Red → Black → White → Blue. Water nourishes life, growth fuels fire, ash becomes ink, records preserve like ice, and ice melts to water.
