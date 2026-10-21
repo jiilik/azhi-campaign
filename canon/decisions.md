@@ -4,6 +4,9 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-10-20
 
+- **SRD intake.** The uploaded PDF is **SRD 5.2.1** (the April 2025 update of 5.2), so attribution names 5.2.1. The markdown comes from **downfallx/dnd-5e-srd-markdown** (commit `1b4b99d`), chosen over Claude's own PDF conversion because it is cleaner. A word-by-word check against the PDF found about 120 of 202,000 words differing (repeated table headers, line-break hyphenation). The PDF stays authoritative.
+- **Quote style:** keep the straight quotes from the imported markdown; don't convert them to the PDF's curly quotes.
+- **SRD file layout:** one file per section; one per class; spells and magic items by first letter; one file per monster group and per animal.
 - **Myth status:** canonical for worldbuilding (it is what really happened), but in-universe some groups have built their own versions of the story.
 - **Rules base: SRD 5.2** (the 2024 core rules, CC BY 4.0).
 - **Git host: GitHub** (`jiilik/azhi-campaign`, private), chosen after considering Codeberg, because Claude's sessions integrate with it directly. Google Drive was tried for snapshots and rejected because of file-size limits.

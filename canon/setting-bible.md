@@ -108,4 +108,4 @@ Numbers assume aspect ratio **R : r = 3 : 1** and **Earth's surface area**. Both
 
 - **CANON.** The game uses the D&D 5e **System Reference Document**, revised section by section into a setting-specific derivative. See `PLAN.md` and `srd/README.md`.
 - **CANON (licence).** The SRD is released under **CC BY 4.0**, so derivative work requires an attribution statement. See `ATTRIBUTION.md`.
-- **CANON.** Rules base: **SRD 5.2** (the 2024 core rules). Don't mix in 2014 / SRD 5.1 rules unless Troy asks.
+- **CANON.** Rules base: **SRD 5.2** (the 2024 core rules), specifically the **5.2.1** release. Don't mix in 2014 / SRD 5.1 rules unless Troy asks.

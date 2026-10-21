@@ -15,15 +15,15 @@ The goal is a setting-specific derivative of the D&D 5e SRD for the ring-world A
 - [x] Push the initial commit
 - [ ] Create the Claude Project; paste `project-instructions.md` and add the knowledge files it lists
 - [ ] Answer the OPEN questions that block Phase 1:
-  - [x] SRD version: **5.2** (2024 rules)
+  - [x] SRD version: **5.2** (2024 rules); the file in hand is **5.2.1**
   - [x] Myth status: canonical for worldbuilding; in-universe, variant tellings exist
 
 ## Phase 1: SRD intake
 
-- [ ] Upload the SRD (PDF or markdown)
-- [ ] Convert it to markdown and split it into one file per section under `srd/` (for example `srd/03-classes/cleric.md`), keeping the original text in the first commit so every later change shows as a diff
-- [ ] Generate `srd/srd-tracker.md`: every section with Status (`untouched` / `keep` / `revise` / `delete` / `new` / `done`), Priority and Notes
-- [ ] Replace the placeholder in `ATTRIBUTION.md` with the SRD's exact CC BY 4.0 statement
+- [x] Upload the SRD (PDF or markdown): SRD 5.2.1 PDF in `srd/_source/`
+- [x] Convert it to markdown and split it into one file per section under `srd/` (for example `srd/03-classes/03-cleric.md`), keeping the original text in the first commit so every later change shows as a diff. Imported from downfallx/dnd-5e-srd-markdown, checked against the PDF.
+- [x] Generate `srd/srd-tracker.md`: every section with Status (`untouched` / `keep` / `revise` / `delete` / `new` / `done`), Priority and Notes
+- [x] Replace the placeholder in `ATTRIBUTION.md` with the SRD's exact CC BY 4.0 statement
 - [ ] **Triage pass (Troy decides):** mark each section keep / revise / delete. Claude proposes a default with a one-line reason per section.
 - [ ] Add planned **new** sections to the tracker (Phase 2c)
 
