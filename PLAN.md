@@ -11,8 +11,8 @@ The goal is a setting-specific derivative of the D&D 5e SRD for the ring-world A
 - [x] Scaffold the repo: primer (`CLAUDE.md`), setting bible, decision log, myth text, worldgen and art code, outputs
 - [x] Player handout with the myth, cover art, map, torus view and dragonborn scenes (Claude Doc; link in `handouts/README.md`)
 - [x] Create the private GitHub repo `jiilik/azhi-campaign`
-- [ ] Install the Claude GitHub App on `jiilik/azhi-campaign` (only that repo) so sessions can push
-- [ ] Push the initial commit
+- [x] Install the Claude GitHub App on `jiilik/azhi-campaign` (only that repo) so sessions can push
+- [x] Push the initial commit
 - [ ] Create the Claude Project; paste `project-instructions.md` and add the knowledge files it lists
 - [ ] Answer the OPEN questions that block Phase 1:
   - [ ] SRD version: 5.1 (2014 rules) or 5.2 (2024 rules)?
