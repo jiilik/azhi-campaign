@@ -24,7 +24,7 @@ The goal is a setting-specific derivative of the D&D 5e SRD for the ring-world A
 - [x] Convert it to markdown and split it into one file per section under `srd/` (for example `srd/03-classes/03-cleric.md`), keeping the original text in the first commit so every later change shows as a diff. Imported from downfallx/dnd-5e-srd-markdown, checked against the PDF.
 - [x] Generate `srd/srd-tracker.md`: every section with Status (`untouched` / `keep` / `revise` / `delete` / `new` / `done`), Priority and Notes
 - [x] Replace the placeholder in `ATTRIBUTION.md` with the SRD's exact CC BY 4.0 statement
-- [ ] **Triage pass (Troy decides):** mark each section keep / revise / delete. Claude proposes a default with a one-line reason per section.
+- [ ] **Triage pass (Troy decides):** *(in progress: Playing the Game and Character Creation done)* mark each section keep / revise / delete. Claude proposes a default with a one-line reason per section.
 - [ ] Add planned **new** sections to the tracker (Phase 2c)
 
 ## Phase 2: Section-by-section revision (the long phase)
@@ -39,6 +39,7 @@ The goal is a setting-specific derivative of the D&D 5e SRD for the ring-world A
 ### 2a. Highest impact first *(proposed order)*
 
 - [ ] **Species → Dragonborn:** seven colour lineages. Elemental affinities follow the wheel of opposition, never a superiority ranking. Breath and resistance per colour, including Gold and Silver (light, radiance?).
+- [ ] **Character Creation** (after Character Origins is settled): revise Step 2 (species → colour choice; rebuild the Standard and Rare Languages tables) and the Trinkets table (swap other-species entries for Azhi flavour). Everything else is kept; see the tracker.
 - [ ] **Remove other species** from character options. Adjust any rule that assumes them (languages, ancestry feats, and so on).
 - [ ] **Backgrounds:** recast for dragonborn-only societies, for example sky-reader (Gold/Silver), archivist (Black), harbour pilot (Blue).
 - [ ] **Classes:** align subclasses with the seven dragons, for example cleric domains, warlock patrons, druid circles and sorcerer origins.

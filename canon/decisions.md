@@ -4,6 +4,8 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-10-20
 
+- **Triage: Playing the Game** stays unchanged for now. It will be reviewed later for logic or lore inconsistencies introduced by changes to later sections.
+- **Triage: Character Creation.** Revise Step 2 (species → colour choice; languages) and Trinkets. Keep everything else. The revision waits until **Character Origins** is settled, because it depends on those decisions.
 - **SRD intake.** The uploaded PDF is **SRD 5.2.1** (the April 2025 update of 5.2), so attribution names 5.2.1. The markdown comes from **downfallx/dnd-5e-srd-markdown** (commit `1b4b99d`), chosen over Claude's own PDF conversion because it is cleaner. A word-by-word check against the PDF found about 120 of 202,000 words differing (repeated table headers, line-break hyphenation). The PDF stays authoritative.
 - **Quote style:** keep the straight quotes from the imported markdown; don't convert them to the PDF's curly quotes.
 - **SRD file layout:** one file per section; one per class; spells and magic items by first letter; one file per monster group and per animal.

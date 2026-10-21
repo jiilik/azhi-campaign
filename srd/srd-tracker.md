@@ -9,21 +9,21 @@ One row per section file. Generated at intake (2026-10-20) from `srd/_tools/inde
 | File | Contents | Status | Priority | Notes |
 |---|---|---|---|---|
 | `00-legal.md` | Legal Information (from the PDF, page 1) | untouched |  |  |
-| `01-playing-the-game/01-rhythm-of-play.md` | Playing the Game | untouched |  |  |
-| `01-playing-the-game/02-the-six-abilities.md` | The Six Abilities | untouched |  |  |
-| `01-playing-the-game/03-d20-tests.md` | D20 Tests | untouched |  |  |
-| `01-playing-the-game/04-proficiency.md` | Proficiency | untouched |  |  |
-| `01-playing-the-game/05-actions.md` | Actions | untouched |  |  |
-| `01-playing-the-game/06-social-interaction.md` | Social Interaction | untouched |  |  |
-| `01-playing-the-game/07-exploration.md` | Exploration | untouched |  |  |
-| `01-playing-the-game/08-combat.md` | Combat | untouched |  |  |
-| `01-playing-the-game/09-damage-and-healing.md` | Damage and Healing | untouched |  |  |
-| `02-character-creation/01-choose-a-character-sheet.md` | Character Creation | untouched |  |  |
-| `02-character-creation/02-create-your-character.md` | Create Your Character | untouched |  |  |
-| `02-character-creation/03-level-advancement.md` | Level Advancement | untouched |  |  |
-| `02-character-creation/04-starting-at-higher-levels.md` | Starting at Higher Levels | untouched |  |  |
-| `02-character-creation/05-multiclassing.md` | Multiclassing | untouched |  |  |
-| `02-character-creation/06-trinkets.md` | Trinkets | untouched |  |  |
+| `01-playing-the-game/01-rhythm-of-play.md` | Playing the Game | keep | low | Unchanged for now. Revisit later for logic/lore inconsistencies caused by changes elsewhere. |
+| `01-playing-the-game/02-the-six-abilities.md` | The Six Abilities | keep | low | Unchanged for now. Revisit later for logic/lore inconsistencies caused by changes elsewhere. |
+| `01-playing-the-game/03-d20-tests.md` | D20 Tests | keep | low | Unchanged for now. Revisit later for logic/lore inconsistencies caused by changes elsewhere. |
+| `01-playing-the-game/04-proficiency.md` | Proficiency | keep | low | Unchanged for now. Revisit later for logic/lore inconsistencies caused by changes elsewhere. |
+| `01-playing-the-game/05-actions.md` | Actions | keep | low | Unchanged for now. Revisit later for logic/lore inconsistencies caused by changes elsewhere. |
+| `01-playing-the-game/06-social-interaction.md` | Social Interaction | keep | low | Unchanged for now. Revisit later for logic/lore inconsistencies caused by changes elsewhere. |
+| `01-playing-the-game/07-exploration.md` | Exploration | keep | low | Unchanged for now. Revisit later for logic/lore inconsistencies caused by changes elsewhere. |
+| `01-playing-the-game/08-combat.md` | Combat | keep | low | Unchanged for now. Revisit later for logic/lore inconsistencies caused by changes elsewhere. |
+| `01-playing-the-game/09-damage-and-healing.md` | Damage and Healing | keep | low | Unchanged for now. Revisit later for logic/lore inconsistencies caused by changes elsewhere. |
+| `02-character-creation/01-choose-a-character-sheet.md` | Character Creation | keep | low |  |
+| `02-character-creation/02-create-your-character.md` | Create Your Character | revise | medium | After Character Origins: Step 2 species list → colours; rebuild Standard/Rare Languages tables. Alignment kept for now (possible later lore question). |
+| `02-character-creation/03-level-advancement.md` | Level Advancement | keep | low |  |
+| `02-character-creation/04-starting-at-higher-levels.md` | Starting at Higher Levels | keep | low | Starting gold/equipment may be revisited during the Equipment and economy work. |
+| `02-character-creation/05-multiclassing.md` | Multiclassing | keep | low |  |
+| `02-character-creation/06-trinkets.md` | Trinkets | revise | low | After Character Origins: replace goblin, human, halfling, gnome, elven and dwarven trinkets with Azhi flavour. |
 | `03-classes/01-barbarian.md` | Classes | untouched |  |  |
 | `03-classes/02-bard.md` | Bard | untouched |  |  |
 | `03-classes/03-cleric.md` | Cleric | untouched |  |  |
