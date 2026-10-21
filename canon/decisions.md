@@ -4,7 +4,7 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-10-20
 
-- **Git host:** avoid GitHub (Microsoft-owned); Codeberg is preferred. Google Drive was tried for snapshots and rejected because of file-size limits.
+- **Git host: GitHub** (`jiilik/azhi-campaign`, private), chosen after considering Codeberg, because Claude's sessions integrate with it directly. Google Drive was tried for snapshots and rejected because of file-size limits.
 - **Project structure:** a git repo plus a Claude Project. Durable state lives in files (`CLAUDE.md`, `PLAN.md`, `canon/`), not in chat history.
 - **Handout story text must match the corrected myth exactly.** Claude had added four scene-break lines to the handout; they were removed. No other changes are allowed.
 - **No ellipsis in the myth's last line.** The ellipsis came from the dramatic voice reading, which smoothed and paused freely. That reading is not canon text.

@@ -12,7 +12,7 @@ Create a Project in Claude (for example, "Azhi Campaign"). Then:
    - `art/STYLE.md`
    - later, `srd/srd-tracker.md`
 
-   Re-upload any of these after it changes, or work from the repo directly once Claude can reach it (see `README.md`), which keeps everything in sync.
+   Re-upload any of these after it changes, or attach the GitHub repo `jiilik/azhi-campaign` to the session, which keeps everything in sync.
 
 ---
 

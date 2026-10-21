@@ -14,7 +14,7 @@ You are helping **Troy** (the author and DM) build **Azhi**, a D&D 5e campaign s
 - Tick the finished items in `PLAN.md`.
 - Add new decisions to `canon/decisions.md` and update `canon/setting-bible.md` to match.
 - Update `srd/srd-tracker.md` if any sections changed.
-- Commit with a clear message, then push if a remote is configured.
+- Commit with a clear message, then push to `origin` (GitHub `jiilik/azhi-campaign`).
 
 ## Standing rules
 

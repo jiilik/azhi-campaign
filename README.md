@@ -9,19 +9,9 @@ A D&D 5e setting on a ring-shaped world, the corpse of Azhi, the philosopher dra
 
 ![The world of Azhi](worldgen/output/azhi_flat_map.png)
 
-## Push to a git host (one time)
+## Repository
 
-Preferred: Codeberg (Troy would rather not use GitHub).
-
-Create an **empty private** repo named `azhi-campaign`, with no README. Then, from inside this folder:
-
-```
-git remote add origin https://codeberg.org/<your-username>/azhi-campaign.git
-git branch -M main
-git push -u origin main
-```
-
-To let Claude push directly, add `codeberg.org` to the allowed domains in Claude's settings (Settings → Capabilities), and give the session a token limited to this repo.
+Hosted privately on GitHub at `jiilik/azhi-campaign`. Claude sessions attach it through the GitHub connection in claude.ai settings, with the Claude GitHub App limited to this one repository. Never paste tokens or passwords into a chat.
 
 ## Claude Project
 
