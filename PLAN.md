@@ -16,7 +16,7 @@ The goal is a setting-specific derivative of the D&D 5e SRD for the ring-world A
 - [ ] Create the Claude Project; paste `project-instructions.md` and add the knowledge files it lists
 - [ ] Answer the OPEN questions that block Phase 1:
   - [x] SRD version: **5.2** (2024 rules)
-  - [ ] Is the myth universal truth, or one telling among rivals?
+  - [x] Myth status: canonical for worldbuilding; in-universe, variant tellings exist
 
 ## Phase 1: SRD intake
 
@@ -54,6 +54,7 @@ The goal is a setting-specific derivative of the D&D 5e SRD for the ring-world A
 ### 2c. New sections *(proposed)*
 
 - [ ] Setting overview and the myth (link to `canon/azhi-myth.md`)
+- [ ] Variant tellings of the myth: who tells which version, and why *(proposed)*
 - [ ] The Seven Dragons: personalities, lairs and current agendas
 - [ ] Gazetteer: the Bite, the Skull, the Lower Jaw and the Maw, the Spine Range, the Inner Sea, the limb ridges, the Tail
 - [ ] Climate, timekeeping and the calendar ("watches", True Dark)

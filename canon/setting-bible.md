@@ -15,7 +15,9 @@ When a PROPOSED item is confirmed or rejected, update its status here and add a 
 - **CANON.** The world is a torus (ring), the corpse of Azhi, the ancient "philosopher" space dragon. Azhi ate itself to death, ouroboros-style. Its jaws remain closed on its own tail.
 - **CANON.** The founding myth is `canon/azhi-myth.md`. It is in-universe scripture, and its wording is fixed.
 - **CANON.** A real torus would collapse into a sphere. Here, Azhi's **spine has infinite stiffness**, which holds the ring's shape. Everything else should feel governed by real physics. The sun–moon cycle is the deliberate exception.
-- **OPEN.** Do people treat the myth as literal history, or as one telling among rivals? It might also be a self-serving version spread by Black's followers. (Author was asked on 2026-10-20; no answer yet.)
+- **CANON.** For worldbuilding, the myth is **true**: it is what actually happened, and the setting is built on it.
+- **CANON.** In-universe, the myth is **not the only telling**. Some groups have built their own versions of the story, so characters may hold differing accounts.
+- **PROPOSED.** Ideas for variant tellings: a version spread by Black's followers that flatters Black's role; Gold and Silver traditions that omit the hunger entirely; a "finish the meal" cult telling that treats Azhi's hunger as holy.
 
 ## 2. The Seven Dragons
 
