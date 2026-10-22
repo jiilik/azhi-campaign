@@ -135,7 +135,7 @@ The target was **16 points** per colour, including the +1 to an ability score (4
 | **Insight** proficiency (reading people across the bargaining table) | Troy | 1.5 |
 | **Navigator's Tools** proficiency | Claude, accepted | 1 |
 | **Small** size: lithe sailors, a contrast with the big Reds | Troy | 0 |
-| +1 to an ability score | Troy (§5) | 4 |
+| +1 to Dexterity or Charisma | Troy (§5, §8) | 4 |
 | **Total** | | **18** |
 
 - **Ribbons:**
@@ -161,7 +161,7 @@ The target was **16 points** per colour, including the +1 to an ability score (4
 | **Survival** proficiency (tracking: hunters, wardens, rangers in dense, overgrown country) | Troy | 1.5 |
 | **Nature** proficiency | Troy | 1.5 |
 | **Herbalism Kit or Poisoner's Kit**, your choice: healer or poisoner, the same plant knowledge used either way | Troy | 1 |
-| +1 to an ability score | Troy (§5) | 4 |
+| +1 to Constitution | Troy (§5, §8) | 4 |
 | **Total** | | **18** |
 
 - **Regeneration, as it stands:** as an action, spend Hit Dice up to your Proficiency Bonus (2 at level 1, 6 by level 17). Roll each and add your Constitution modifier, as on a Short Rest.
@@ -185,7 +185,7 @@ The target was **16 points** per colour, including the +1 to an ability score (4
 | **Two tools** of your choice | Troy | 2 |
 | **Athletics or Intimidation**, your choice | Troy | 1.5 |
 | **Fire resistance** | Troy | 3 (Claude: fire is the most common damage type) |
-| +1 to an ability score | Troy (§5) | 4 |
+| +1 to Strength | Troy (§5, §8) | 4 |
 | **Total** | | **18.5** |
 
 - **Ribbons:**
@@ -207,7 +207,7 @@ The target was **16 points** per colour, including the +1 to an ability score (4
 | **Two skills** from History, Arcana, Religion, Deception and Persuasion | Claude's list; Troy added Religion | 3 |
 | **Scholar's rituals:** cast *Comprehend Languages* and *Identify* as rituals | Claude, Troy liked it | 3 |
 | **Darkvision**, Black's alone | Troy | 3 |
-| +1 to an ability score | Troy (§5) | 4 |
+| +1 to Intelligence or Charisma | Troy (§5, §8) | 4 |
 | **Total** | | **18** |
 
 - Checked in the SRD: *Comprehend Languages* (Action or Ritual) and *Identify* (1 minute or Ritual) are both level 1 rituals. The *Ritual Caster* feat is not in the SRD, so this is our own feature.
@@ -228,7 +228,7 @@ The target was **16 points** per colour, including the +1 to an ability score (4
 | **Help as a Bonus Action** | Claude's idea, Troy loved it | 6 (advantage on demand, every turn) |
 | **Flight:** once per Long Rest, from level 1, a fly speed equal to walking speed for minutes equal to your character level | Troy | 4 |
 | **Medicine** proficiency | Claude, Troy agreed | 1 (Troy: mostly a roleplay skill) |
-| +1 to an ability score | Troy (§5) | 4 |
+| +1 to Wisdom | Troy (§5, §8) | 4 |
 | **Total** | | **17** |
 
 - **Flight, how it got here:** the SRD's *Draconic Flight* (level 5, 10 minutes) → minutes equal to Proficiency Bonus (too much at level 1, too little at level 17) → **minutes equal to character level**: 1 minute at level 1, enough for one fight or one cliff; 20 at level 20.
@@ -255,7 +255,7 @@ Wheel, clockwise: **Blue → Green → Red → Black → White → Blue**. The h
 | **Swamp Walker** (below) | Claude's idea, Troy named and built it | 8 |
 | **Swim speed or climb speed**, your choice | Troy | 2 |
 | **One skill** from Persuasion, Insight, Survival and Nature | Troy | 1.5 |
-| +1 to an ability score | | 4 |
+| +1 to Dexterity or Constitution | Troy (§8) | 4 |
 | **Total** | | **15.5** |
 
 - **Swamp Walker:** you are Amphibious (as Blue), and you move through difficult terrain at full speed. Troy said "hazardous terrain"; Claude priced it as all difficult terrain.
@@ -273,7 +273,7 @@ Wheel, clockwise: **Blue → Green → Red → Black → White → Blue**. The h
 | **Rooted** (below) | Claude, Troy chose it | 8 |
 | **Two skills** from Survival, Nature, Animal Handling and Perception | Troy (added Perception, dropped Athletics) | 3 |
 | **One tool** from Carpenter's Tools, Woodcarver's Tools and Cook's Utensils | Claude, Troy agreed | 1 |
-| +1 to an ability score | | 4 |
+| +1 to Constitution or Strength | Troy (§8) | 4 |
 | **Total** | | **16** |
 
 - **Rooted:** while standing on the ground, you have advantage on saving throws and checks against being pushed, pulled or knocked Prone, and you have **Tremorsense** out to 10 feet. The tremorsense is the strong part, because it finds invisible or hidden creatures close by.
@@ -291,7 +291,7 @@ Wheel, clockwise: **Blue → Green → Red → Black → White → Blue**. The h
 | **Skills** from Intimidation, Arcana and History (two picks) | Troy chose the list | 3 |
 | **One tool:** Tinker's Tools or Alchemist's Supplies | Claude | 1 |
 | **Careful Senses** (below; counts as one of its two ribbons) | Troy | 1 |
-| +1 to an ability score | | 4 |
+| +1 to Strength or Intelligence | Troy (§8) | 4 |
 | **Total** | | **about 16** |
 
 - **Inventive Genius:** once per Long Rest, you rig up a contraption that replicates a level 1 spell from a short, gadgety list. You choose the spell when you make it.
@@ -321,7 +321,7 @@ Wheel, clockwise: **Blue → Green → Red → Black → White → Blue**. The h
 | **Keen Investigator** (below; name is a placeholder) | Claude, shaped by Troy | about 7 |
 | **Two skills** from Investigation, Perception, History and Religion | Troy (added History and Religion, dropped Medicine) | 3 |
 | **One tool:** Calligrapher's Supplies, Thieves' Tools or the Forgery Kit | Claude's list, Troy chose a three-way choice | 1 |
-| +1 to an ability score | | 4 |
+| +1 to Intelligence or Wisdom | Troy (§8) | 4 |
 | **Total** | | **about 15** |
 
 - **Keen Investigator:**
@@ -351,7 +351,7 @@ Wheel, clockwise: **Blue → Green → Red → Black → White → Blue**. The h
 | **Seasoned Traveller** (below) | Claude, shaped by Troy | about 5 |
 | **Two skills** from Insight, Medicine, Survival and Animal Handling | Claude's list; Troy dropped, then restored, Animal Handling | 3 |
 | **One tool:** Cartographer's Tools or Cook's Utensils | Claude, Troy agreed | 1 |
-| +1 to an ability score | | 4 |
+| +1 to Wisdom or Charisma | Troy (§8) | 4 |
 | **Total** | | **about 13** |
 
 - **Seasoned Traveller:**
@@ -367,6 +367,31 @@ Wheel, clockwise: **Blue → Green → Red → Black → White → Blue**. The h
 - **Ribbons:**
   - *(Troy)* **A gaming set of your choice:** the card shark at every inn. Normally a tool proficiency, but kept as a ribbon.
   - Second ribbon **open**.
+
+### Which ability the +1 goes to
+
+*(Troy)* Each form's +1 goes to a **primary ability** linked to that colour, so the bonus has a preferred home. There are six abilities and five colours, so Charisma is shared by two colours. Claude's suggestions, with Troy adding Charisma to Blue:
+
+| Colour | +1 to | Why |
+|---|---|---|
+| Red | Strength | The big craftsmen |
+| Green | Constitution | Takes a beating and keeps going |
+| White | Wisdom | The healers and empathetic ones |
+| Blue | Dexterity **or** Charisma | Lithe sailors who slip free of grapples; traders who talk for a living (Trader's Tongue) |
+| Black | Intelligence **or** Charisma | The scholar and the schemer |
+
+*(Troy)* **Hybrids choose between their parents' abilities, trimmed to two.** Four of the five would otherwise have had three options; only soil already had two.
+
+| Hybrid | +1 to | Dropped |
+|---|---|---|
+| Marsh (Blue–Green) | Dexterity **or** Constitution | Charisma: it's a dexterous skirmisher |
+| Soil (Green–Red) | Constitution **or** Strength | (only two to begin with) |
+| Oxblood (Red–Black) | Strength **or** Intelligence | Charisma. *(Claude)* Its signature skill, Intimidation, uses Charisma; Troy dropped it anyway. |
+| Slate (Black–White) | Intelligence **or** Wisdom | Charisma: clues plus insight |
+| Glacier (White–Blue) | Wisdom **or** Charisma | Dexterity: lived wisdom and diplomacy |
+
+- This ties down only the affinity's +1. The two personality traits each still give a +1 (§5), presumably to any ability. The Unphased have no affinity, so this doesn't apply to them.
+- Gold and Silver are left out for now, since whether they can be reached is still open.
 
 ## 9. Next time
 
