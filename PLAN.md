@@ -38,10 +38,10 @@ The goal is a setting-specific derivative of the D&D 5e SRD for the ring-world A
 
 ### 2a. Highest impact first *(proposed order)*
 
-- [ ] **Species → Dragonborn:** Unphased (young, flexible, weakest), 5 monochrome and 5 bichrome forms (adjacent colours only; bichrome sits between in power), plus rare Gold and Silver definitions for NPCs. Phasing rules with an anti-exploit penalty. Elemental affinities follow the wheel of opposition, never a superiority ranking. See the setting bible, §3. *Lore discussion in progress; don't design until Troy says.* Brainstorm notes: `canon/brainstorm-species.md` (affinities, hybrids and 12 personality traits drafted; next: open ribbons and trait follow-ups).
+- [ ] **Species → Dragonborn:** Unphased (young, flexible, weakest), 5 monochrome and 5 bichrome forms (adjacent colours only; bichrome sits between in power), plus rare Gold and Silver definitions for NPCs. Phasing rules with an anti-exploit penalty. Elemental affinities follow the wheel of opposition, never a superiority ranking. See the setting bible, §3. *Design approved to canon 2026-10-21:* `canon/brainstorm-species.md`. Next: write the SRD Species section from it. Open ribbons, more personality traits and the phasing penalty come later.
 - [ ] **Character Creation** (after Character Origins is settled): revise Step 2 (species → colour choice; rebuild the Standard and Rare Languages tables) and the Trinkets table (swap other-species entries for Azhi flavour). Everything else is kept; see the tracker.
 - [ ] **Remove other species** from character options. Adjust any rule that assumes them (languages, ancestry feats, and so on).
-- [ ] **Backgrounds:** recast for dragonborn-only societies, for example sky-reader (Gold/Silver), archivist (Black), harbour pilot (Blue).
+- [ ] **Backgrounds:** recast for dragonborn-only societies, for example sky-reader (Gold/Silver), archivist (Black), harbour pilot (Blue). *Superseded 2026-10-21: backgrounds are folded into species (traits plus affinity). Revisit what is left of this item when revising Character Origins.*
 - [ ] **Classes:** align subclasses with the seven dragons, for example cleric domains, warlock patrons, druid circles and sorcerer origins.
 - [ ] **Spells:** review light, darkness, time and travel spells against unpredictable day and night and True Dark.
 - [ ] **Equipment and economy:** bone as stone, ichor as oil, light-storing crystals, timekeeping by "watches".

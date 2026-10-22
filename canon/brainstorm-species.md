@@ -1,8 +1,14 @@
-# Brainstorm: Species, Traits and Affinities
+# Species Design: Traits, Affinities and Hybrids
 
-**Status: brainstorming only.** Nothing here is CANON or a logged decision. Everything is PROPOSED until Troy confirms it. Points that came from Troy are marked *(Troy)*; Claude's suggestions are marked *(Claude)*.
+**Status: CANON.** Troy approved this whole design on 2026-10-21 (see `canon/decisions.md`). It is the specification for the SRD Species section.
 
-Source: voice session, 2026-10-21. Design of the Species section is still on hold (see `PLAN.md`, Phase 2a).
+- Items marked **open**, *not confirmed* or *to check*, and §10, remain **OPEN**.
+- Point values are a **tentative** balancing tool and can be redone.
+- Rejected and "not chosen" options are kept for the record. They are not canon.
+- *(Troy)* and *(Claude)* mark where each idea came from.
+- *(Troy)* More ribbons and more personality traits will be added later, for depth.
+
+Source: voice sessions on 2026-10-21. The file keeps its original name so existing links still work.
 
 ---
 
@@ -101,7 +107,7 @@ All four SRD backgrounds (Acolyte, Criminal, Sage, Soldier) give +3 to ability s
 - *(Troy)* On each **Long Rest** they may **swap one trait**. They are trying on personalities as they work out who they are.
 - *(Claude, Troy agreed)* Their three traits total about **30 points**, under the 36 budget, because the daily swap is itself a perk.
 - *(Troy)* They get **+1 from each trait**, and the +1s **may move** when they swap. Troy expects Unphased to be an uncommon pick, chosen only by players who enjoy that daily bookkeeping.
-- Open: which colours' trait lists an Unphased character may draw from (the bible's OPEN question on Unphased swaps).
+- Resolved: there is one shared trait list (§9), so the Unphased draw from it like everyone else.
 
 
 ## 7. Affinities (voice sessions, evening of 2026-10-21)

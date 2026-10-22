@@ -2,6 +2,33 @@
 
 Newest first. One line per decision: what was decided, and why if a reason was given. Add to this log every time the author settles something, and update `canon/setting-bible.md` to match.
 
+## 2026-10-21
+
+- **Species design approved to canon.** Troy approved the whole design worked out in today's voice sessions. The specification is `canon/brainstorm-species.md`; its open items stay OPEN. More ribbons and more personality traits will be added later, for depth.
+- **Character building:** a phased dragonborn takes one **affinity** (5 colours plus 5 hybrids) and two **personality traits**. An **Unphased** dragonborn takes three traits and no affinity, may swap one trait on each Long Rest, and may move those traits' +1s when it does.
+- **Backgrounds are dropped.** Their benefits (ability scores, a feat-sized feature, skills, a tool) are folded into the affinities and traits, so personality matters more than background.
+- **Ability scores:** +1 from each trait and +1 from the affinity (the 2024 +1/+1/+1 pattern). Each affinity's +1 goes to its form's primary ability: Red Str; Green Con; White Wis; Blue Dex or Cha; Black Int or Cha. Each hybrid chooses one of two parent abilities: Marsh Dex or Con; Soil Con or Str; Oxblood Str or Int; Slate Int or Wis; Glacier Wis or Cha.
+- **Balance scale (tentative, can be redone):**
+  - +1 to an ability is 4 points, an Origin feat 8, a skill 1.5, a tool 1, gear 1.
+  - The budget is about 35 per character: about 10 per trait and about 16 per affinity.
+  - The colours landed at 17–18.5 and the hybrids at about 13–16. Troy accepted this, since skills and tools are probably overvalued.
+- **Personality traits:**
+  - one shared list, not tied to colours;
+  - each is a personality rather than a feat;
+  - benefits are situational, never tied to a class;
+  - 12 to start, two per ability.
+- **Affinity rules:**
+  - features fit the elemental wheel;
+  - no combat abilities that a build must be designed around;
+  - swapping belongs only to the Unphased; phased characters are settled;
+  - swim, climb and fly speeds equal walking speed;
+  - every form has two ribbons, worth 0 points.
+- **Darkvision belongs to Black alone.** It is not a dragonborn baseline.
+- **Hybrids** get their own signature feature, not their parents'. Their skill lists avoid each parent's core skills, with Slate's Religion as an exception. Names: Marsh, Soil, Oxblood, Slate and Glacier.
+- **The elemental wheel and its adjacency** (Blue–Green–Red–Black–White) are now canon. They were PROPOSED.
+- **Red's speed** is 35 feet in total; the Goliath's Large Form bonus doesn't stack. **Green's Regeneration** has no cold drawback.
+- **Art:** the colour wheel (`art/cartoon/output/colour_wheel.png`) shows the Unphased as a shifting blend of all five colours.
+
 ## 2026-10-20
 
 - **Dragonborn are born polychromatic (Unphased)** and settle into a **monochrome** or **bichrome** form tied to one or two adjacent colours of the five surface dragons. That gives 10 common forms. Blend order is irrelevant, and blends get pigment names (Green + Red = brown). This removes any basis for colour prejudice.

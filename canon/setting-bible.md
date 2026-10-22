@@ -57,10 +57,10 @@ When a PROPOSED item is confirmed or rejected, update its status here and add a 
 - **CANON.** There is **no return to Unphased** within the mechanics. The DM may allow it on rare occasions for narrative reasons.
 - **CANON. Gold and Silver dragonborn** are **super rare**. They are NPCs who can motivate plot, and there is no easy way for players to phase into them. Their species definitions should still exist, in case they become relevant. Reason (Troy): the Gold and Silver dragons generally don't take direct interest in the activities of those below.
 - **CANON (game design).** **Power budget: Unphased < bichrome < monochrome.**
-  - **Unphased** characters are playable. They are young and flexible: they may swap some features or feats on a Long Rest. Their total bonuses are lower, to encourage players to find a phase and settle.
-  - **Bichrome** characters choose a couple of features from either parent colour. That choice is their advantage, so their total bonuses sit between Unphased and monochrome, to discourage munchkin builds.
-- **PROPOSED. The wheel's adjacency follows the feeding cycle** below: Blue–Green, Green–Red, Red–Black, Black–White, White–Blue. The forbidden pairs are exactly the **checking (opposition) pairs**, so no dragonborn holds two opposed elements.
-- **PROPOSED. Pigment names** for the bichromes, as placeholders: teal or verdigris (Blue + Green), umber or brown (Green + Red), oxblood (Red + Black), slate (Black + White), glacier (White + Blue).
+  - **Unphased** characters are playable. They are young and flexible: they take **three personality traits and no affinity**, and may **swap one trait on each Long Rest** (2026-10-21). Their total bonuses are lower, to encourage players to find a phase and settle.
+  - **Bichrome** characters have **their own signature feature** that blends both parents, plus small picks from each (2026-10-21; this replaces "a couple of features from either parent colour"). Their total sits between Unphased and monochrome, to discourage munchkin builds.
+- **CANON (2026-10-21). The wheel's adjacency follows the feeding cycle** below: Blue–Green, Green–Red, Red–Black, Black–White, White–Blue. The forbidden pairs are exactly the **checking (opposition) pairs**, so no dragonborn holds two opposed elements.
+- **CANON (2026-10-21). Bichrome names:** **Marsh** (Blue + Green, teal), **Soil** (Green + Red, brown/umber), **Oxblood** (Red + Black), **Slate** (Black + White), **Glacier** (White + Blue). The hex colours used in art are working values.
 - **PROPOSED. Phasing penalty levers:**
   - The result is set by the event or rolled, not chosen. The SRD *Reincarnate* spell is a model.
   - A fading penalty, like *Raise Dead*'s, or Exhaustion.
@@ -68,13 +68,21 @@ When a PROPOSED item is confirmed or rejected, update its status here and add a 
   - Phasing happens only at the DM's discretion or at death's door.
 - **OPEN.**
   - Whether a dragonborn's first settling counts as "phasing" (the word may cover only later changes).
-  - Whether Unphased swaps draw only from the colour forms' features or more widely.
-  - What an Unphased dragonborn looks like, and whether it can breathe or resist anything.
+  - What an Unphased dragonborn looks like (the colour-wheel art shows a shifting blend of all five colours), and whether it can breathe or resist anything.
+  - Whether breath weapons are shared by every dragonborn or belong to particular forms.
   - The exact phasing penalty.
   - Whether Gold and Silver can ever be reached by phasing.
-- **PROPOSED (brainstorm, 2026-10-21).** Character building from personality traits plus an elemental affinity, backgrounds folded into species, and a 36-point budget. See `canon/brainstorm-species.md`. Not yet decided.
+- **CANON (2026-10-21). Character building.** The full specification is `canon/brainstorm-species.md`. In short:
+  - A **phased** character takes **one affinity** (one of the 10 forms) and **two personality traits**. An **Unphased** character takes three traits and no affinity.
+  - The 2024 **backgrounds are dropped**. What they gave is folded into the affinities and traits.
+  - **Ability scores:** +1 from each trait and +1 from the affinity. The affinity's +1 goes to the form's primary ability: Red Strength; Green Constitution; White Wisdom; Blue Dexterity or Charisma; Black Intelligence or Charisma; Marsh Dexterity or Constitution; Soil Constitution or Strength; Oxblood Strength or Intelligence; Slate Intelligence or Wisdom; Glacier Wisdom or Charisma.
+  - **Personality traits** come from one shared list, not tied to colours. Each is a personality, not a feat, with a +1 to a fixed ability and a situational benefit that any class can use. There are 12 to start, two per ability; more will be added.
+  - Each form has a **signature** and **two ribbons**: Blue Trader's Tongue and amphibious swimming; Green Regeneration; Red Large; Black Guarded Mind and darkvision; White Help as a Bonus Action and flight; Marsh Swamp Walker; Soil Rooted; Oxblood Inventive Genius; Slate Search or Study as a Bonus Action; Glacier Seasoned Traveller.
+  - **Darkvision belongs to Black alone.**
+  - **Balance** uses a tentative point scale with a budget of about 35. It can be redone.
+  - **OPEN:** several second ribbons, Hyperactive's d12 table and materials cost, and the rest of the list in that file's §10.
 - **PROPOSED.** Each colour's culture has **internal disagreements** that matter more than its external rivalries. Rivalries look like **policy disputes** between neighbours who trade and intermarry, such as water rights or forests versus forges.
-- **PROPOSED. The elemental wheel** (modelled on the Chinese five-phase cycle):
+- **CANON (2026-10-21). The elemental wheel** (modelled on the Chinese five-phase cycle). Affinity features must fit it:
   - Feeding: Blue → Green → Red → Black → White → Blue. Water nourishes life, growth fuels fire, ash becomes ink, records preserve like ice, and ice melts to water.
   - Checking: Blue quenches Red; Red melts White; White's frost kills Green; Green's rot erases Black's records; Black's engineering dams Blue.
 - **PROPOSED.** **Gold and Silver dragonborn** are nomadic **sky-readers** who predict where the sun and moon will wander. Everyone needs them, but they belong nowhere. Philosophically they oppose Black: contentment versus questioning.

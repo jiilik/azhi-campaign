@@ -34,7 +34,7 @@ You are helping **Troy** (the author and DM) build **Azhi**, a D&D campaign sett
 | `PLAN.md` | Phased project plan with a checklist. **Where we are.** |
 | `canon/setting-bible.md` | All setting facts with status tags |
 | `canon/decisions.md` | Dated decision log, newest first |
-| `canon/brainstorm-species.md` | Species brainstorming (traits, affinities, point budget). Nothing in it is decided. |
+| `canon/brainstorm-species.md` | **Species design (CANON, 2026-10-21):** traits, affinities, hybrids, point budget. Spec for the SRD Species section. |
 | `canon/azhi-myth.md` | The myth: exact corrected text. `azhi-myth-corrected.rtf` is authoritative; `-original.rtf` is Troy's upload. |
 | `srd/` | SRD section files and `srd-tracker.md` (Phase 1 onward) |
 | `worldgen/` | Terrain, map projection and 3D torus renderer. See `worldgen/README.md`. |
