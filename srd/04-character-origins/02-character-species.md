@@ -1,310 +1,296 @@
 ## Character Species
 
-When you choose your character's species, you determine whether your character is a human or a member of a fantastical species, such as dragonborn or gnome.
+When you choose your character's species on Azhi, there is only one choice: your character is a dragonborn. What remains to choose is which dragonborn they have become.
 
-The peoples of the multiverse hail from different worlds and include many kinds of sapient life forms. A player character's species is the set of game traits that an adventurer gains from being one of those life forms.
+The dragonborn are the only people of Azhi. They live on the corpse of the great dragon Azhi, beneath the wandering light of the Gold and Silver dragons, and they are the descendants and followers of the seven young dragons of the myth. No other sapient peoples share the world with them.
 
-Some species can trace their origin to a single world, plane of existence, or god, while other species first appeared in multiple realms at once. Whatever a species' genesis, its members have spread across the multiverse and contribute to many different cultures.
+Every dragonborn is born polychromatic, scales shifting through many colours. As they mature, most settle into a form with an elemental affinity to one or two of the five surface dragons: Blue, Green, Red, Black and White. A dragonborn's form isn't inherited; it comes from the life they lead. Siblings may settle into different colours, and a Red dragonborn raised in a Blue harbour town is unremarkable.
 
-Members of most species live for about 80 years, with exceptions noted in the text about the species in "Character Origins." Regardless of life span, members of all species reach physical maturity at about the same age. Your character can be any age that isn't beyond their species' normal life span.
+No colour is greater than another. The colours differ as the elements do, each feeding one neighbour and checking another, and the quarrels between them are disputes over policy, not claims of superiority.
 
-### Parts of a Species
+_Life Span (OPEN)._ How long dragonborn live, and when they reach maturity, isn't yet set.
 
-A species includes the following parts.
+### The Colour Wheel
+
+The five surface colours form a wheel. Each colour feeds the next: water nourishes life, growth fuels fire, ash becomes ink, records preserve like ice, and ice melts to water. Each colour also checks another: Blue quenches Red, Red melts White, White's frost kills Green, Green's rot erases Black's records, and Black's engineering dams Blue.
+
+A dragonborn who settles into one colour has a **monochrome** form. One who settles between two neighbouring colours on the wheel has a **bichrome** form. Opposed colours never blend, so no dragonborn holds two opposed elements.
+
+**The Colour Wheel**
+
+| Form | Colours | Ability Score Increase | Size | Speed |
+|---|---|---|---|---|
+| Blue | Blue | Dexterity or Charisma | Small | 30 feet; Swim 30 feet |
+| Marsh | Blue + Green | Dexterity or Constitution | Medium | 30 feet; Swim or Climb 30 feet |
+| Green | Green | Constitution | Medium | 30 feet; Climb 30 feet |
+| Soil | Green + Red | Constitution or Strength | Medium | 30 feet |
+| Red | Red | Strength | Large | 35 feet |
+| Oxblood | Red + Black | Strength or Intelligence | Medium | 30 feet |
+| Black | Black | Intelligence or Charisma | Medium | 30 feet |
+| Slate | Black + White | Intelligence or Wisdom | Medium | 30 feet |
+| White | White | Wisdom | Medium | 30 feet |
+| Glacier | White + Blue | Wisdom or Charisma | Medium | 30 feet |
+| Unphased | None | None | Medium | 30 feet |
+
+_(OPEN: sizes for the Unphased and the bichrome forms are assumed Medium.)_
+
+### Parts of a Form
+
+A form includes the following parts.
 
 #### Creature Type
 
-A character's species determines the character's creature type, which is described in "Rules Glossary." Every species in "Character Origins" is Humanoid; playable non-Humanoid species appear in other books.
+Every dragonborn is a Humanoid. Creature types are described in "Rules Glossary."
 
 #### Size
 
-Your character's species determines the character's size. Individuals within a species cover a wide range of heights, and some species include such diversity of size that you can choose whether your character is Small or Medium.
+Your character's form determines the character's size. Blue dragonborn are Small and lithe; Red dragonborn are Large.
 
 #### Speed
 
-Your character's species determines the character's Speed.
+Your character's form determines the character's Speed. Any Swim Speed, Climb Speed or Fly Speed a form grants is equal to your Speed.
+
+#### Ability Score Increase
+
+Your form increases one ability score by 1, chosen from those listed. This increase can't raise a score above 20. An Unphased dragonborn has no form and so gains no increase from it.
 
 #### Special Traits
 
-Each species gives a character special traits—unique characteristics based on the species' physiology or magical nature. When you choose a species, your character gets all the special traits listed for it. Some traits involve making a choice from a handful of options.
+Each form gives a character special traits. When you choose a form, your character gets all the special traits listed for it. Some traits involve making a choice from a handful of options.
 
-### Species Descriptions
+#### Ribbons
 
-#### Dragonborn
+Every form also has two ribbons: small knacks and habits with little or no effect on the game. They give your character flavour.
+
+### Unphased
 
 **Creature Type:** Humanoid
-**Size:** Medium (about 5–7 feet tall)
+**Size:** Medium
 **Speed:** 30 feet
 
-As a Dragonborn, you have these special traits.
+You haven't settled into a form yet. Your scales shift through all five colours, and you're still discovering who you are. As an Unphased dragonborn, you have these special traits.
 
-_Draconic Ancestry._ Your lineage stems from a dragon progenitor. Choose the kind of dragon from the Draconic Ancestors table. Your choice affects your Breath Weapon and Damage Resistance traits as well as your appearance.
+_Many Possibilities._ You choose three personality traits instead of two, and you have no form.
 
-**Draconic Ancestors**
+_Trying On Personalities._ When you finish a Long Rest, you can replace one of your personality traits with another one. Your ability scores change to match.
 
-<table>
-  <thead>
-    <tr>
-      <th>Dragon</th>
-      <th>Damage Type</th>
-      <th>Dragon</th>
-      <th>Damage Type</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Black</td>
-      <td>Acid</td>
-      <td>Gold</td>
-      <td>Fire</td>
-    </tr>
-    <tr>
-      <td>Blue</td>
-      <td>Lightning</td>
-      <td>Green</td>
-      <td>Poison</td>
-    </tr>
-    <tr>
-      <td>Brass</td>
-      <td>Fire</td>
-      <td>Red</td>
-      <td>Fire</td>
-    </tr>
-    <tr>
-      <td>Bronze</td>
-      <td>Lightning</td>
-      <td>Silver</td>
-      <td>Cold</td>
-    </tr>
-    <tr>
-      <td>Copper</td>
-      <td>Acid</td>
-      <td>White</td>
-      <td>Cold</td>
-    </tr>
-  </tbody>
-</table>
+_(OPEN: what an Unphased dragonborn can breathe or resist, if anything.)_
 
-_Breath Weapon._ When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).
+### Monochrome Forms
 
-You can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.
+#### Blue
 
-_Damage Resistance._ You have Resistance to the damage type determined by your Draconic Ancestry trait.
-
-_Darkvision._ You have Darkvision with a range of 60 feet.
-
-_Draconic Flight._ When you reach character level 5, you can channel draconic magic to give yourself temporary flight. As a Bonus Action, you sprout spectral wings on your back that last for 10 minutes or until you retract the wings (no action required) or have the Incapacitated condition. During that time, you have a Fly Speed equal to your Speed. Your wings appear to be made of the same energy as your Breath Weapon. Once you use this trait, you can't use it again until you finish a Long Rest.
-
-#### Dwarf
+_Blue dragonborn are the people of the coasts: sailors and pirates, traders and merchants, at home wherever water carries goods._
 
 **Creature Type:** Humanoid
-**Size:** Medium (about 4–5 feet tall)
+**Size:** Small
 **Speed:** 30 feet
+**Ability Score Increase:** Dexterity or Charisma
 
-As a Dwarf, you have these special traits.
+As a Blue dragonborn, you have these special traits.
 
-_Darkvision._ You have Darkvision with a range of 120 feet.
+_Amphibious._ You can breathe air and water, and you have a Swim Speed equal to your Speed.
 
-_Dwarven Resilience._ You have Resistance to Poison damage. You also have Advantage on saving throws you make to avoid or end the Poisoned condition.
+_Slippery._ You have Advantage on ability checks and saving throws you make to escape the Grappled or Restrained condition.
 
-_Dwarven Toughness._ Your Hit Point maximum increases by 1, and it increases by 1 again whenever you gain a level.
+_Trader's Tongue._ When you fail a Charisma check, you can reroll it, and you must use the new roll. Once you use this trait, you can't use it again until you finish a Long Rest.
 
-_Stonecunning._ As a Bonus Action, you gain Tremorsense with a range of 60 feet for 10 minutes. You must be on a stone surface or touching a stone surface to use this Tremorsense. The stone can be natural or worked.
+_Trader's Training._ You have proficiency in the Insight and Persuasion skills and with Navigator's Tools.
 
-You can use this Bonus Action a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.
+_Ribbons._ You always know which way the nearest water lies. _(OPEN: second ribbon.)_
 
-#### Elf
+#### Green
+
+_Green dragonborn take a beating and keep going. They are hunters, wardens and scouts of dense, overgrown country, often found in high places, watching._
 
 **Creature Type:** Humanoid
-**Size:** Medium (about 5–6 feet tall)
+**Size:** Medium
 **Speed:** 30 feet
+**Ability Score Increase:** Constitution
 
-As an Elf, you have these special traits.
+As a Green dragonborn, you have these special traits.
 
-_Darkvision._ You have Darkvision with a range of 60 feet.
+_Climber._ You have a Climb Speed equal to your Speed.
 
-_Elven Lineage._ You are part of a lineage that grants you supernatural abilities. Choose a lineage from the Elven Lineages table. You gain the level 1 benefit of that lineage.
+_Regeneration._ As an action, you can spend Hit Point Dice up to your Proficiency Bonus. For each die spent, roll it and add your Constitution modifier; you regain Hit Points equal to the total.
 
-When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.
+_Green Lore._ You have proficiency in the Nature and Survival skills, and with your choice of the Herbalism Kit or the Poisoner's Kit.
 
-Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage).
+_Ribbons._ By touching a plant, you can tell whether it's safe to eat. _(OPEN: second ribbon.)_
 
-**Elven Lineages**
+#### Red
 
-<table>
-  <thead>
-    <tr>
-      <th>Lineage</th>
-      <th>Level 1</th>
-      <th>Level 3</th>
-      <th>Level 5</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Drow</td>
-      <td>The range of your Darkvision increases to 120 feet. You also know the Dancing Lights cantrip.</td>
-      <td>Faerie Fire</td>
-      <td>Darkness</td>
-    </tr>
-    <tr>
-      <td>High Elf</td>
-      <td>You know the Prestidigitation cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the Wizard spell list.</td>
-      <td>Detect Magic</td>
-      <td>Misty Step</td>
-    </tr>
-    <tr>
-      <td>Wood Elf</td>
-      <td>Your Speed increases to 35 feet. You also know the Druidcraft cantrip.</td>
-      <td>Longstrider</td>
-      <td>Pass without Trace</td>
-    </tr>
-  </tbody>
-</table>
-
-_Fey Ancestry._ You have Advantage on saving throws you make to avoid or end the Charmed condition.
-
-_Keen Senses._ You have proficiency in the Insight, Perception, or Survival skill.
-
-_Trance._ You don't need to sleep, and magic can't put you to sleep. You can finish a Long Rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness.
-
-#### Gnome
+_Red dragonborn are the builders of Azhi: crafters, smiths and industrialists, at home with metal and stone on the volcanic mountains. They are big and hardy, but no one who has seen a Red forge at work mistakes them for brutes._
 
 **Creature Type:** Humanoid
-**Size:** Small (about 3–4 feet tall)
-**Speed:** 30 feet
-
-As a Gnome, you have these special traits.
-
-_Darkvision._ You have Darkvision with a range of 60 feet.
-
-_Gnomish Cunning._ You have Advantage on Intelligence, Wisdom, and Charisma saving throws.
-
-_Gnomish Lineage._ You are part of a lineage that grants you supernatural abilities. Choose one of the following options; whichever one you choose, Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage):
-
-**Forest Gnome.** You know the _Minor Illusion_ cantrip. You also always have the _Speak with Animals_ spell prepared. You can cast it without a spell slot a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest. You can also use any spell slots you have to cast the spell.
-
-**Rock Gnome.** You know the _Mending_ and _Prestidigitation_ cantrips. In addition, you can spend 10 minutes casting _Prestidigitation_ to create a Tiny clockwork device (AC 5, 1 HP), such as a toy, fire starter, or music box. When you create the device, you determine its function by choosing one effect from _Prestidigitation_; the device produces that effect whenever you or another creature takes a Bonus Action to activate it with a touch. If the chosen effect has options within it, you choose one of those options for the device when you create it. For example, if you choose the spell's ignite-extinguish effect, you determine whether the device ignites or extinguishes fire; the device doesn't do both. You can have three such devices in existence at a time, and each falls apart 8 hours after its creation or when you dismantle it with a touch as a Utilize action.
-
-#### Goliath
-
-**Creature Type:** Humanoid
-**Size:** Medium (about 7–8 feet tall)
+**Size:** Large
 **Speed:** 35 feet
+**Ability Score Increase:** Strength
 
-As a Goliath, you have these special traits.
+As a Red dragonborn, you have these special traits.
 
-_Giant Ancestry._ You are descended from Giants. Choose one of the following benefits—a supernatural boon from your ancestry; you can use the chosen benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest:
+_Mighty Frame._ You have Advantage on Strength checks.
 
-**Cloud's Jaunt (Cloud Giant).** As a Bonus Action, you magically teleport up to 30 feet to an unoccupied space you can see.
+_Fire Resistance._ You have Resistance to Fire damage.
 
-**Fire's Burn (Fire Giant).** When you hit a target with an attack roll and deal damage to it, you can also deal 1d10 Fire damage to that target.
+_Maker's Training._ You have proficiency with two tools of your choice, and in your choice of the Athletics or Intimidation skill.
 
-**Frost's Chill (Frost Giant).** When you hit a target with an attack roll and deal damage to it, you can also deal 1d6 Cold damage to that target and reduce its Speed by 10 feet until the start of your next turn.
+_Ribbons._ At a glance, you can judge the quality and origin of anything of value. _(OPEN: second ribbon.)_
 
-**Hill's Tumble (Hill Giant).** When you hit a Large or smaller creature with an attack roll and deal damage to it, you can give that target the Prone condition.
+#### Black
 
-**Stone's Endurance (Stone Giant).** When you take damage, you can take a Reaction to roll 1d12. Add your Constitution modifier to the number rolled and reduce the damage by that total.
-
-**Storm's Thunder (Storm Giant).** When you take damage from a creature within 60 feet of you, you can take a Reaction to deal 1d8 Thunder damage to that creature.
-
-_Large Form._ Starting at character level 5, you can change your size to Large as a Bonus Action if you're in a big enough space. This transformation lasts for 10 minutes or until you end it (no action required). For that duration, you have Advantage on Strength checks, and your Speed increases by 10 feet. Once you use this trait, you can't use it again until you finish a Long Rest.
-
-_Powerful Build._ You have Advantage on any ability check you make to end the Grappled condition. You also count as one size larger when determining your carrying capacity.
-
-#### Halfling
+_Black dragonborn prize knowledge. Some keep it for its own sake, as record keepers, librarians and archaeologists; others use it as leverage, as the Black dragon once sought worshippers. Most live underground._
 
 **Creature Type:** Humanoid
-**Size:** Small (about 2–3 feet tall)
+**Size:** Medium
 **Speed:** 30 feet
+**Ability Score Increase:** Intelligence or Charisma
 
-As a Halfling, you have these special traits.
+As a Black dragonborn, you have these special traits.
 
-_Brave._ You have Advantage on saving throws you make to avoid or end the Frightened condition.
+_Darkvision._ You have Darkvision with a range of 60 feet. _(OPEN: range not yet set.)_ Of all the dragonborn, only Black dragonborn have Darkvision.
 
-_Halfling Nimbleness._ You can move through the space of any creature that is a size larger than you, but you can't stop in the same space.
+_Guarded Mind._ You have Advantage on Intelligence, Wisdom and Charisma saving throws.
 
-_Luck._ When you roll a 1 on the d20 of a D20 Test, you can reroll the die, and you must use the new roll.
+_Scholar's Rituals._ You can cast _Comprehend Languages_ and _Identify_, but only as Rituals.
 
-_Naturally Stealthy._ You can take the Hide action even when you are obscured only by a creature that is at least one size larger than you.
+_Black Lore._ You have proficiency in two of the following skills of your choice: Arcana, Deception, History, Persuasion or Religion.
 
-#### Human
+_Ribbons._ _Bone Reader:_ you can tell whether bone, including the world's own, is natural or worked, and roughly how old it is. From its anatomy, you can also tell where in Azhi's body you are and which way you're facing. _(OPEN: second ribbon.)_
+
+#### White
+
+_White dragonborn are the most empathetic of the colours: healers, storytellers and keepers of oral tradition, who travel from village to village mending what is broken. They live on the cold mountains, and they fly to rise above the chaos below, but they land because they care._
 
 **Creature Type:** Humanoid
-**Size:** Medium (about 4–7 feet tall) or Small (about 2–4 feet tall), chosen when you select this species
+**Size:** Medium
 **Speed:** 30 feet
+**Ability Score Increase:** Wisdom
 
-As a Human, you have these special traits.
+As a White dragonborn, you have these special traits.
 
-_Resourceful._ You gain Heroic Inspiration whenever you finish a Long Rest.
+_Cold Resistance._ You have Resistance to Cold damage.
 
-_Skillful._ You gain proficiency in one skill of your choice.
+_Helping Hand._ You can take the Help action as a Bonus Action.
 
-_Versatile._ You gain an Origin feat of your choice (see "Feats"). Skilled is recommended.
+_Flight._ As a Bonus Action, you can gain a Fly Speed equal to your Speed for a number of minutes equal to your character level. Once you use this trait, you can't use it again until you finish a Long Rest.
 
-#### Orc
+_Healer's Training._ You have proficiency in the Medicine skill.
+
+_Ribbons._ You're very good at memorizing short messages and keeping them, so you can serve as a courier. _(OPEN: second ribbon.)_
+
+### Bichrome Forms
+
+A bichrome dragonborn has settled between two neighbouring colours. The order of the colours doesn't matter: Blue and Green together make the same form, Marsh, either way. A bichrome form has a signature trait of its own rather than either parent's.
+
+#### Marsh (Blue + Green)
+
+_Marsh dragonborn live among mangroves, estuaries and bogs. They are nimble skirmishers who slip through ground that bogs everyone else down._
 
 **Creature Type:** Humanoid
-**Size:** Medium (about 6–7 feet tall)
+**Size:** Medium
 **Speed:** 30 feet
+**Ability Score Increase:** Dexterity or Constitution
 
-As an Orc, you have these special traits.
+As a Marsh dragonborn, you have these special traits.
 
-_Adrenaline Rush._ You can take the Dash action as a Bonus Action. When you do so, you gain a number of Temporary Hit Points equal to your Proficiency Bonus.
+_Swamp Walker._ You can breathe air and water. Difficult Terrain costs you no extra movement. While you're in swamp, mud or shallow water, you have Advantage on Dexterity (Stealth) checks made to hide.
 
-You can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Short or Long Rest.
+_Marsh Folk._ You have your choice of a Swim Speed or a Climb Speed equal to your Speed, and proficiency in one of the following skills of your choice: Insight, Nature, Persuasion or Survival.
 
-_Darkvision._ You have Darkvision with a range of 120 feet.
+_Ribbons._ _Marsh Scent:_ however dirty you get, creatures that rely on smell to find you have Disadvantage on checks to detect you. _(OPEN: second ribbon.)_
 
-_Relentless Endurance._ When you are reduced to 0 Hit Points but not killed outright, you can drop to 1 Hit Point instead. Once you use this trait, you can't do so again until you finish a Long Rest.
+#### Soil (Green + Red)
 
-#### Tiefling
+_Soil dragonborn work the rich ash-fed earth: farmers, woodcutters and fringe-dwelling semi-industrialists, and the occasional hermit. They are burly folk, used to the scythe and the axe._
 
 **Creature Type:** Humanoid
-**Size:** Medium (about 4–7 feet tall) or Small (about 3–4 feet tall), chosen when you select this species
+**Size:** Medium
 **Speed:** 30 feet
+**Ability Score Increase:** Constitution or Strength
 
-As a Tiefling, you have the following special traits.
+As a Soil dragonborn, you have these special traits.
 
-_Darkvision._ You have Darkvision with a range of 60 feet.
+_Rooted._ While you're standing on the ground, you have Advantage on saving throws and ability checks against being pushed, pulled or knocked Prone. You also have Tremorsense with a range of 10 feet.
 
-_Fiendish Legacy._ You are the recipient of a legacy that grants you supernatural abilities. Choose a legacy from the Fiendish Legacies table. You gain the level 1 benefit of the chosen legacy.
+_Soil Folk._ You have proficiency in two of the following skills of your choice: Animal Handling, Nature, Perception or Survival. You also have proficiency with one of the following tools of your choice: Carpenter's Tools, Cook's Utensils or Woodcarver's Tools.
 
-When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.
+_Ribbons._ _Sky Sense:_ you can predict the weather, and when light will come and go, over the next day. _(OPEN: second ribbon.)_
 
-Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy).
+#### Oxblood (Red + Black)
 
-**Fiendish Legacies**
+_Oxblood dragonborn are engineers, inventors and arms dealers, and, with Black's Machiavellian streak, the mad scientists of Azhi._
 
-<table>
-  <thead>
-    <tr>
-      <th>Legacy</th>
-      <th>Level 1</th>
-      <th>Level 3</th>
-      <th>Level 5</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Abyssal</td>
-      <td>You have Resistance to Poison damage. You also know the Poison Spray cantrip.</td>
-      <td>Ray of Sickness</td>
-      <td>Hold Person</td>
-    </tr>
-    <tr>
-      <td>Chthonic</td>
-      <td>You have Resistance to Necrotic damage. You also know the Chill Touch cantrip.</td>
-      <td>False Life</td>
-      <td>Ray of Enfeeblement</td>
-    </tr>
-    <tr>
-      <td>Infernal</td>
-      <td>You have Resistance to Fire damage. You also know the Fire Bolt cantrip.</td>
-      <td>Hellish Rebuke</td>
-      <td>Darkness</td>
-    </tr>
-  </tbody>
-</table>
+**Creature Type:** Humanoid
+**Size:** Medium
+**Speed:** 30 feet
+**Ability Score Increase:** Strength or Intelligence
 
-_Otherworldly Presence._ You know the _Thaumaturgy_ cantrip. When you cast it with this trait, the spell uses the same spellcasting ability you use for your Fiendish Legacy trait.
+As an Oxblood dragonborn, you have these special traits.
+
+_Inventive Genius._ Once per Long Rest, you can rig up a contraption that replicates one of the following level 1 spells, chosen when you make it: _Alarm_, _Feather Fall_ or _Grease_. _(OPEN: how long a contraption takes to build, how it's triggered and what sets its save DC. The spell list will be revisited when spells are reviewed.)_
+
+_Careful Senses._ If you spend 10 minutes examining an object, substance or device with your senses, you have Advantage on checks to work out what it is or how it works.
+
+_Oxblood Training._ You have proficiency in two of the following skills of your choice: Arcana, History or Intimidation. You also have proficiency with your choice of Tinker's Tools or Alchemist's Supplies.
+
+_Ribbons._ Careful Senses counts as one of your ribbons. _(OPEN: second ribbon.)_
+
+#### Slate (Black + White)
+
+_Slate dragonborn put Black's knowledge to work for others. They are investigators and detectives, wandering sages who notice what everyone else misses, though a few turn the same skills to burglary._
+
+**Creature Type:** Humanoid
+**Size:** Medium
+**Speed:** 30 feet
+**Ability Score Increase:** Intelligence or Wisdom
+
+As a Slate dragonborn, you have these special traits.
+
+_Keen Investigator._ You can take the Search or Study action as a Bonus Action. You can also cast _Augury_, _Detect Magic_ and _Find Traps_, but only as Rituals; for you, _Find Traps_ has the Ritual tag. _(OPEN: the name of this trait is a placeholder.)_
+
+_Slate Training._ You have proficiency in two of the following skills of your choice: History, Investigation, Perception or Religion. You also have proficiency with one of the following tools of your choice: Calligrapher's Supplies, Forgery Kit or Thieves' Tools.
+
+_Ribbons._ _Uncanny Timekeeping:_ you always know the exact time, even underground or with no sky to read. _(OPEN: second ribbon.)_
+
+#### Glacier (White + Blue)
+
+_Glacier dragonborn are the great travellers of Azhi: envoys, guides, caravan masters and wandering diplomats, rich in lived wisdom rather than book learning. They show up in town, find the inn and get the best room._
+
+**Creature Type:** Humanoid
+**Size:** Medium
+**Speed:** 30 feet
+**Ability Score Increase:** Wisdom or Charisma
+
+As a Glacier dragonborn, you have these special traits.
+
+_Seasoned Traveller._ You can control any willing Beast at least one size larger than you as a mount, even if it hasn't been trained to accept a rider. You have Advantage on ability checks to drive or steer a vehicle and to keep a mount under control. When you arrive in a settlement, you know its local customs, who's in charge, and a rumour or two.
+
+_Glacier Training._ You have proficiency in two of the following skills of your choice: Animal Handling, Insight, Medicine or Survival. You also have proficiency with your choice of Cartographer's Tools or Cook's Utensils.
+
+_Ribbons._ You have proficiency with one Gaming Set of your choice, and there's a game at every inn. _(OPEN: second ribbon.)_
+
+### Gold and Silver Dragonborn
+
+Gold and Silver dragonborn are extremely rare. The Gold and Silver dragons, who are the sun and moon, generally take no direct interest in the activities of those below, and there is no easy way for a character to settle or phase into either colour. Gold and Silver dragonborn appear as nonplayer characters who can drive a story.
+
+_(OPEN: the Gold and Silver forms are still to be written, and whether a player character can ever reach them.)_
+
+### Settling and Phasing
+
+_Settling._ What makes a young dragonborn settle into a form is left to your character's story: finding a calling, as the young dragons of the myth did, the pull of their surroundings, or anything else you invent.
+
+_Phasing._ Something dramatic, traumatic or deadly can make a dragonborn phase from one form into another. They keep parts of their former personality and most of their memories. Rebirth runs deep on Azhi, where everything the great dragon devoured "springs forth anew." Phasing carries a penalty, so it can't be used for advantage. _(OPEN: the penalty isn't yet designed, nor whether a dragonborn's first settling counts as phasing.)_
+
+_No Return._ Once settled, a dragonborn can't return to being Unphased. The DM may allow it on rare occasions, for the sake of the story.
+
+### Open Items (revision notes; remove before publishing)
+
+Items marked OPEN above are still to be decided, along with these:
+
+- **Starting equipment.** Backgrounds gave a package or 50 GP. The flat 50 GP in "Character Origins" is PROPOSED.
+- **Origin feats.** Nothing in this chapter grants an Origin feat any more, since backgrounds and the Human's _Versatile_ are gone. Decide whether Origin feats still have a route in at level 1.
+- **Breath Weapon.** The SRD dragonborn's Breath Weapon, Damage Resistance choice and Draconic Flight are gone. Decide whether any form, or every dragonborn, gets a breath weapon.
+- **Ritual components.** Rituals still need their material components: _Identify_ needs a pearl worth 100+ GP, and _Augury_ needs divinatory tokens worth 25+ GP. Decide whether Black and Slate ignore them.
+- **Benefit names.** Names such as _Rising Fury_ or _Maker's Training_ are new placeholders, added to match the SRD's format.
+- **Languages.** Still to do in "Character Creation" (Step 2 and the language tables).

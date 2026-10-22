@@ -7,3 +7,7 @@
 To print it, open the doc and export it as PDF or Word.
 
 Scope (decided 2026-10-20): myth and visuals only. Session-zero and rules information goes in the SRD-derived document.
+
+## Draft: Character Origins (for editing)
+
+The revised Character Origins chapter (personality traits and species) is drafted as a Claude Doc for Troy to edit: https://claude.ai/artifact/748nKsQNKgpNLdgZGN6i2Y. The repo files in `srd/04-character-origins/` are the source of truth; sync edits back from the doc.
