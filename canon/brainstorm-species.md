@@ -86,7 +86,7 @@ All four SRD backgrounds (Acolyte, Criminal, Sage, Soldier) give +3 to ability s
 
 ## 5. The budget
 
-- *(Troy)* **Point budget: 36** per character, matching the 2024 average (26 background + about 10 species).
+- *(Troy)* **Point budget: 36** per character (revised to **about 35** after skills were repriced to 1.5; see §7), matching the 2024 average (26 background + about 10 species).
 - *(Claude, Troy agreed)* The split for a phased character:
   - each personality trait is worth about **10**;
   - the **affinity** is worth about **16**, so it is the big piece;
@@ -111,8 +111,8 @@ The target was **16 points** per colour, including the +1 to an ability score (4
 ### Rules that apply to every colour
 
 - *(Troy)* **Skills are priced at 1.5 points**, not 2.
-  - *(Claude, not confirmed)* That lowers each SRD background to about 25 points, so the overall budget in §5 would become about 35.
-- *(Troy)* Each colour gets **two ribbons**: flavourful perks with only a very minor mechanical edge. *(Claude)* Priced at 0 points.
+  - *(Troy agreed, can be redone)* That lowers each SRD background to about 25 points, so the overall budget in §5 is now **about 35**.
+- *(Troy)* Each colour, **and each hybrid**, gets **two ribbons**: flavourful perks with only a very minor mechanical edge. *(Claude)* Priced at 0 points.
 - *(Troy)* Features should **fit the elemental wheel**. Lightning resistance for Blue and poison resistance for Green were rejected for not fitting it.
 - *(Troy)* **Avoid combat abilities you must build a class around**, such as damage abilities or melee-only reactions. If the build doesn't use them, they go to waste.
 - *(Troy)* **Swapping belongs to the Unphased.** Once phased, a character is settled, so phased features aren't swappable.
@@ -167,7 +167,7 @@ The target was **16 points** per colour, including the +1 to an ability score (4
 - **Regeneration, as it stands:** as an action, spend Hit Dice up to your Proficiency Bonus (2 at level 1, 6 by level 17). Roll each and add your Constitution modifier, as on a Short Rest.
   - *(Troy)* No Bloodied requirement and no cap at half hit points: the Hit Dice are the real cost, and spending them mid-fight leaves fewer for Short Rests.
   - *(Troy)* Usable at any time, including out of combat, which lets Green skip the hour-long Short Rest for healing. Troy rejected a once-per-rest limit, to keep it strong and interesting.
-  - *(Claude, not confirmed)* Taking cold damage switches it off until your next turn, so White's frost keeps its check on Green.
+  - *(Troy)* **No cold drawback.** Claude's idea of cold damage switching it off for a turn, troll-style, was scrapped.
   - How it got here: 1 HP for a bonus action → too weak at high levels; HP equal to Proficiency Bonus → a weak trade for an action; one Hit Die → doesn't scale; Hit Dice up to Proficiency Bonus → accepted.
 - **Ribbons:**
   - *(Troy)* By touching a plant, you can tell whether it's safe to eat.
@@ -191,7 +191,7 @@ The target was **16 points** per colour, including the +1 to an ability score (4
 - **Ribbons:**
   - *(Troy, from Claude's idea)* At a glance, you can judge the quality and origin of anything of value.
   - Second ribbon **open**.
-- **To check:** the SRD *Large Form* also gives +10 feet of Speed. If that carries over full-time on top of a 35-foot walk, Red moves 45 feet. The voice session priced the speed as a flat 35, so the +10 probably shouldn't stack.
+- *(Troy)* **Speed is 35 feet in total.** The SRD *Large Form*'s +10 feet does **not** stack; 45 would be too strong.
 - *(Claude)* Being Large already doubles carrying capacity (Str × 30 lb.), so the Goliath's *Powerful Build* isn't needed for that. Its other half is advantage on ending the Grappled condition, which would overlap Blue's Slippery.
 - Not chosen for the last point: crafting twice as fast; a third tool.
 
@@ -212,7 +212,10 @@ The target was **16 points** per colour, including the +1 to an ability score (4
 
 - Checked in the SRD: *Comprehend Languages* (Action or Ritual) and *Identify* (1 minute or Ritual) are both level 1 rituals. The *Ritual Caster* feat is not in the SRD, so this is our own feature.
 - Darkvision range is not set. The SRD standard is 60 feet; Claude's first pass suggested a longer range.
-- **Ribbons:** both **open**. Troy is still thinking.
+- *(Troy)* Most Black dragonborn probably live **underground**, given their darkvision.
+- **Ribbons:**
+  - *(Troy, adapted from Claude's "stone reader")* **Bone Reader:** you can tell whether bone, including the world's own, is natural or worked, and roughly how old it is. From its anatomy you can also tell where in Azhi's body you are and which way you're facing, which makes it underground navigation.
+  - Second ribbon **open**. Not chosen: never forgetting names and ranks, dating documents, knowing what someone is proud of, sensing a held-back secret, deep sense (depth underground).
 - Rejected: a cantrip swappable on a Long Rest (swapping belongs to the Unphased). Not taken: a fixed cantrip (Message, Minor Illusion, Mage Hand); the Tiefling-style legacy spells.
 
 ### White: ice (17 points)
@@ -256,7 +259,10 @@ Wheel, clockwise: **Blue → Green → Red → Black → White → Blue**. The h
 | **Total** | | **15.5** |
 
 - **Swamp Walker:** you are Amphibious (as Blue), and you move through difficult terrain at full speed. Troy said "hazardous terrain"; Claude priced it as all difficult terrain.
-- **To check:** whether Swamp Walker also keeps the first draft's easy hiding in swamp, mud and shallows.
+  - *(Troy)* It keeps the hiding: **Advantage on Dexterity (Stealth) checks to hide while in swamp, mud or shallow water.**
+- **Ribbons:**
+  - *(Troy)* **Marsh Scent:** however dirty you get, creatures that rely on smell to find you have Disadvantage on checks to detect you. A step past a pure ribbon, but narrow enough to stay at 0 points.
+  - Second ribbon **open**. Not chosen: judging murky water's depth; insects don't bite; lying still in mud for an hour.
 
 ### Green–Red: soil (16 points)
 
@@ -271,8 +277,11 @@ Wheel, clockwise: **Blue → Green → Red → Black → White → Blue**. The h
 | **Total** | | **16** |
 
 - **Rooted:** while standing on the ground, you have advantage on saving throws and checks against being pushed, pulled or knocked Prone, and you have **Tremorsense** out to 10 feet. The tremorsense is the strong part, because it finds invisible or hidden creatures close by.
+- **Ribbons:**
+  - *(Troy)* **Sky Sense:** you can predict the weather, and when light will come and go, over the next day. Farming is very hard without a steady day and night, so it matters on Azhi.
+  - Second ribbon **open**. Not chosen: reading soil, a green thumb, the woodcutter's eye.
 
-### Red–Black: oxblood (about 15–16 points)
+### Red–Black: oxblood (about 16 points)
 
 *(Troy)* Engineers, inventors and arms dealers. With Black's Machiavellian streak, also the **mad scientists**.
 
@@ -281,13 +290,17 @@ Wheel, clockwise: **Blue → Green → Red → Black → White → Blue**. The h
 | **Inventive Genius** (below) | Claude, Troy agreed | about 7 (6–8, depending on the list) |
 | **Skills** from Intimidation, Arcana and History (two picks) | Troy chose the list | 3 |
 | **One tool:** Tinker's Tools or Alchemist's Supplies | Claude | 1 |
+| **Careful Senses** (below; counts as one of its two ribbons) | Troy | 1 |
 | +1 to an ability score | | 4 |
-| **Total** | | **about 15** |
+| **Total** | | **about 16** |
 
 - **Inventive Genius:** once per Long Rest, you rig up a contraption that replicates a level 1 spell from a short, gadgety list. You choose the spell when you make it.
   - *(Troy)* **No concentration spells.** Fog Cloud is out.
   - Candidates still in: *Grease*, *Alarm*, *Feather Fall*. None needs concentration (checked).
   - *(Troy)* **Revisit the list in the spells review.** The setting may add spells of its own.
+- **Careful Senses:** if you spend 10 minutes examining an object, substance or device with your senses, you have Advantage on checks to work out what it is or how it works. It's the mad scientist's slow, careful counterpart to Red's quick judging at a glance.
+  - *(Troy)* Priced at 1 point, but **counted as one of Red–Black's two ribbons**, since it is so situational.
+- Second ribbon **open**. Not chosen: tinkerer's ear, steady hands, knowing a material's flash point, telling which workshop made a device.
 - *(Troy)* **Intimidation is the signature skill** here, between Red's physical presence and Black's ominous one. Religion (Black's core) and Athletics (Red's core) are left out.
 - **Firearms check** (SRD tools file):
   - **Tinker's Tools** craft the **Musket and Pistol**.
@@ -299,20 +312,76 @@ Wheel, clockwise: **Blue → Green → Red → Black → White → Blue**. The h
   - *(Claude)* Smith's Tools would give the bullets but lean toward Red's lane.
   - *(Claude)* Gunpowder could become a setting item in the equipment review, perhaps from Red's volcanic sulphur or Black's ash.
 
-### Still to design
+### Black–White: slate (about 15 points)
 
-- **Black–White** (slate)
-- **White–Blue** (glacier)
+*(Troy)* Black's aptitude, tempered by White: knowledge and power used for good, not as ends in themselves. Slate are the **investigators** and detectives, with a strong dash of **Gandalf the Grey**, the wandering sage who notices what others miss. They lean into **knowledge-type intuition** (clues, places, lore), as distinct from glacier's character intuition. Some players may play against type, turning the investigator's skill set into a **cat burglar**.
+
+| Feature | Source | Points |
+|---|---|---|
+| **Keen Investigator** (below; name is a placeholder) | Claude, shaped by Troy | about 7 |
+| **Two skills** from Investigation, Perception, History and Religion | Troy (added History and Religion, dropped Medicine) | 3 |
+| **One tool:** Calligrapher's Supplies, Thieves' Tools or the Forgery Kit | Claude's list, Troy chose a three-way choice | 1 |
+| +1 to an ability score | | 4 |
+| **Total** | | **about 15** |
+
+- **Keen Investigator:**
+  - You can take the **Search or Study action as a Bonus Action**. *(Troy added Study.)* In the SRD, Search covers Insight, Medicine, Perception and Survival, and Study covers Arcana, History, Investigation, Nature and Religion (checked). *(Troy)* It's very useful for seeing through illusions in combat without losing your action.
+  - *(Troy)* Insight **stays in**: a slate who gets Insight from another source can use it this way.
+  - You can cast **Detect Magic**, **Augury** and **Find Traps** as rituals. *(Troy)* Find Traps isn't normally a ritual (SRD: level 2, Action); it's a ritual for this build only. Note that *Detect Magic* needs Concentration, and *Augury*'s omen depends on the DM.
+- *(Claude)* Religion breaks the rule of leaving out a parent's core skill (it was kept off Red–Black's list as Black's). Troy kept it here.
+- Calligrapher's Supplies, as checked in the SRD: their Utilize action writes text that *guards against* forgery. The Forgery Kit mimics handwriting and copies seals.
+- Rejected:
+  - *Tutor*, teaching an ally a skill (Troy went the investigator way);
+  - a once-per-Long-Rest question to the DM (Troy: too subject to the DM's whims);
+  - *Spot the Weakness*;
+  - *Detect Poison and Disease* (not the right theme);
+  - *Identify* (already Black's);
+  - Cartographer's Tools (Blue's side).
+- *(Claude)* No SRD species has anything like this. The nearest is the non-SRD *Observant* feat (2024 version: +1 to Intelligence or Wisdom, a skill or Expertise, Search as a Bonus Action). It isn't in the SRD, so the details are from Claude's knowledge.
+- **Ribbons:**
+  - *(Troy)* **Uncanny Timekeeping:** you always know the exact time, even underground or with no sky to read. That's rare on a world with no steady day and night.
+  - Second ribbon **open**. Not chosen: never forgetting faces, reading handwriting, dating stains, smoke shapes, advice that sticks.
+
+### White–Blue: glacier (about 13 points)
+
+*(Troy)* White's couriers and Blue's merchants combine into the **ultimate traveller**: envoys, guides, wandering diplomats and caravan masters. Their knowledge is **lived wisdom**, not book learning, and they lean into **character intuition**. They show up in town, find the inn and get the best room. They know domesticated animals; the Green–Red farmers know the wild ones.
+
+| Feature | Source | Points |
+|---|---|---|
+| **Seasoned Traveller** (below) | Claude, shaped by Troy | about 5 |
+| **Two skills** from Insight, Medicine, Survival and Animal Handling | Claude's list; Troy dropped, then restored, Animal Handling | 3 |
+| **One tool:** Cartographer's Tools or Cook's Utensils | Claude, Troy agreed | 1 |
+| +1 to an ability score | | 4 |
+| **Total** | | **about 13** |
+
+- **Seasoned Traveller:**
+  - *(Troy)* You can **control any willing Beast at least one size larger than you** as a mount, even if it isn't trained to accept a rider. *(Claude)* The SRD already makes any willing creature one size larger a possible mount, but it can only be *controlled* if trained. This removes the training requirement. Troy picked this over limiting it to domesticated animals, accepting that it edges toward Green–Red's lane.
+  - *(Troy)* **Advantage on checks to drive or steer a vehicle, and to keep a mount under control.** The 2024 SRD has no vehicle proficiency (checked), so this defines the benefit.
+  - *(Troy)* **Heard It on the Road:** in a settlement, you know the local customs, who's in charge, and a rumour or two.
+  - Not chosen: *Tireless Road* (Fast pace with no drawback); *Never Lost*.
+- Persuasion is left off the skill list as Blue's core.
+- Rejected:
+  - *Read the Room* (Troy: too complicated mechanically);
+  - a choice of swim or fly speed (flight stays White's signature; Blue–Green already has a speed choice);
+  - walking easily on ice and snow (not taken).
+- **Ribbons:**
+  - *(Troy)* **A gaming set of your choice:** the card shark at every inn. Normally a tool proficiency, but kept as a ribbon.
+  - Second ribbon **open**.
 
 ## 9. Next time
 
-- Black–White and White–Blue hybrids.
-- Check Red's *Large Form* speed stacking, and Swamp Walker's hiding.
-- Open ribbons: Blue, Green, Red and White each need a second one; Black needs both.
-- Confirm whether cold switches off Green's Regeneration.
-- Confirm the overall budget after the skill repricing (about 35?).
-- Still open:
+- **Open ribbons** (two each for every colour and hybrid):
+  - Colours: a second for Blue, Green, Red, Black and White.
+  - Hybrids: a second for Blue–Green, Green–Red, Red–Black, slate and glacier.
+- **Hybrid spread** is about 13 (glacier) to 16 (Green–Red, Red–Black); the colours are 17–18.5. Glacier may want a small boost.
+- **Name** slate's signature (Keen Investigator is a placeholder).
+- **Still open:**
   - Should breath weapons be shared by every dragonborn, or part of each colour?
   - Darkvision range for Black.
-- Unphased: Troy noted that they pick three traits instead of having any special Unphased features. The trait lists are still to draft.
-- Still open from the bible: bichrome pigment names, Unphased appearance and breath, the phasing penalty, and whether Gold and Silver can be reached.
+  - Pigment names for the hybrids (slate, glacier and so on are working names).
+- **Next big step:** draft the personality trait lists (about 10 points each; §1 and §5).
+- **Unphased:** Troy noted that they pick three traits instead of having special Unphased features.
+- **Revisit later:**
+  - Inventive Genius's spell list, in the spells review.
+  - Gunpowder as a setting item, in the equipment review.
+- **Still open from the bible:** Unphased appearance and breath, the phasing penalty, and whether Gold and Silver can be reached.
