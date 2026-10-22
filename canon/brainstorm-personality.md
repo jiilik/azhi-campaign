@@ -2,7 +2,7 @@
 
 **Status: brainstorming only (PROPOSED).** This is research for reworking the personality traits in `canon/brainstorm-species.md` §9 and `srd/04-character-origins/01-personality-traits.md`. Nothing here changes canon until Troy approves it.
 
-Sources: voice session and research, 2026-10-22.
+Sources: voice sessions and research, 2026-10-22.
 
 ---
 
@@ -127,6 +127,108 @@ This shows which current traits already have a personality behind them.
 - Keep the **+1 per trait**, loosen it, or move it to the affinity?
 - Which **shadow archetypes**, if any, are open to players?
 - Which current traits to keep, reshape or drop (especially Iron Stomach)?
+
+## 8. Second voice session (evening of 2026-10-22)
+
+*(Troy)* **All of this is brainstorming.** Troy worries the system could become too complex, so the canon traits stay as they are until he decides. *(Claude)* One way to test it: build two or three sample characters before committing.
+
+### Merging the longlist
+
+The sixteen everyday archetypes plus the gap archetypes come to about 42. *(Claude)* Merging overlaps leaves **31**. Troy asked for the merge and heard the list, but hasn't approved it.
+
+- **Folded in:**
+  - Daredevil takes in the Thrill-Seeker, the Impulsive one and the Gambler.
+  - Wanderer takes in the Free Spirit; Guardian, the Helper; Keeper, the Loyalist.
+  - Schemer takes in the Cheat; Braggart, the Glory-Seeker; Host, the Peacemaker.
+  - Commander takes in the Foreman; Trickster, the Provocateur.
+- **The 31, by group:**
+
+| Group | Archetypes |
+|---|---|
+| Thinkers | Strategist, Tinkerer, Commander, Fixer |
+| Idealists | Seer, Dreamer, Mentor, Spark |
+| The steady ones | Keeper, Guardian, Host, Perfectionist |
+| Free spirits | Wanderer, Daredevil, Showman, Trickster |
+| Temper | Worrier, Hothead, Brooder, Rock |
+| Shadow types | Schemer, Braggart, Cold Fish, Miser |
+| Outsiders | Cynic, Rebel, Zealot |
+| Vices | Coward, Grudge-Holder, Hedonist, Lazybones |
+
+### Positive and negative traits
+
+*(Claude)* The 31 split roughly three ways:
+
+| Lean | Archetypes |
+|---|---|
+| **Positive** (14) | Strategist, Tinkerer, Commander, Fixer, Seer, Dreamer, Mentor, Spark, Keeper, Guardian, Host, Wanderer, Showman, Rock |
+| **Negative** (12) | Worrier, Hothead, Brooder, Schemer, Braggart, Cold Fish, Miser, Cynic, Coward, Grudge-Holder, Hedonist, Lazybones |
+| **On the fence** (5) | Perfectionist, Daredevil, Trickster, Rebel, Zealot |
+
+- *(Troy)* Every trait should have a **weakness**: if you're too kind, you can be taken advantage of.
+- *(Troy)* Keep positives and negatives **roughly balanced**, though it doesn't have to be even. Fence-sitters either get adjusted so they read clearly one way, or are **split into two traits** with opposite implications.
+  - *(Claude)* Examples: the Zealot becomes the **Devout** (positive) and the **Fanatic** (negative); the Rebel becomes the **Free Thinker** and the **Troublemaker**. Splitting all five would give about 19 positives and 17 negatives.
+- *(Claude)* Several archetypes have natural opposites, such as the Daredevil and the Coward, or the Host and the Miser.
+
+### Proposed structure
+
+- *(Troy)* A phased character takes **one positive trait and one negative trait**.
+- *(Claude, Troy agreed)* An **Unphased** character takes **two positives and one negative**.
+- *(Troy)* The reason is table culture. You can't change a player's personality, but you can cap how much negativity their character projects; a negative player with a negative character "can really just stack up really badly."
+- *(Claude)* The positive trait carries the mechanical upside. The negative trait is the **pull** (§6): the flaw that earns Heroic Inspiration when the player leans into it.
+
+### Exclusions
+
+- *(Troy)* Some traits can't be taken together, because they cancel each other out or stack in a broken way. For example, a character taking both the Free Thinker and the Rebel side would double up.
+- *(Troy)* Show this as an **Exclusion** line on each trait, like a feat's Prerequisite line: "Cannot be taken with A, B or C."
+- *(Claude)* The simple rule behind it: you can't take both halves of a split trait, or both sides of an opposed pair.
+
+### Making negatives worth choosing
+
+- *(Troy)* Negative traits still need a **reason to choose them**, or players will take the best positive and the mildest negative. Drawbacks **mustn't be too large**.
+- *(Claude, Troy agreed)* Give each flaw **its own small silver lining**; for example, the Hothead's temper also makes them hard to push around. Players then pick the flaw they'd enjoy playing. The Heroic Inspiration it earns counts toward its points.
+
+### Points
+
+*(Claude's split, Troy agreed)*
+
+| Character | Affinity | Positive traits | Negative trait | Total |
+|---|---|---|---|---|
+| Phased | ~16 | 1 × ~12 | ~8 | **~36** |
+| Unphased | — | 2 × ~12 | ~8 | **~32** |
+
+- *(Troy)* The Unphased being about 4 points behind is a fair trade for their flexibility.
+- The current canon budget is "about 35" after skills were repriced (`canon/brainstorm-species.md` §7). This split uses 36. The difference is within rounding, but it should be reconciled if the system is adopted.
+
+### Unphased: no staying Unphased forever
+
+- *(Troy)* Some players will want to stay Unphased for the flexibility. So **each time an Unphased character gains a level, they must pass a check or be forced to phase.**
+- *(Claude)* Cautions, not yet decided:
+  - A pure roll could force a phase at a bad moment. A DC that rises each level would make phasing steadily more likely.
+  - Alternatively, the player chooses whether to make the check or give in and phase.
+- **Open:** who picks the new colour, the player or the story.
+
+### Phasing from Unphased: the bridge
+
+- *(Troy)* When an Unphased character phases, they **keep two of their three traits: the negative one and one positive.** They're effectively swapping a positive trait for an elemental affinity, going from about 32 points to about 36.
+- *(Troy)* The character should keep a **bridge** between their Unphased and phased selves. *(Claude)* Phasing then feels like growing up rather than a punishment.
+
+### Suggested colours on each trait
+
+- *(Troy)* Under each trait description, list **suggested colour affinities**, covering both the five colours and the five hybrids. Traits then group naturally into a "canonical build" for each form. For example, someone building a White dragonborn can see which traits line up with White.
+- *(Claude)* This is guidance, not a rule. Any trait still works with any form, which keeps the canon rule that traits aren't tied to colours, much as the core rules suggest ability scores for each class.
+
+### Stray idea: experience traits instead of classes
+
+- *(Troy, just a thought)* Extend the system into classes: instead of advancing in a class, characters gain **experience traits**.
+- *(Claude)* That would be a classless system, like RuneQuest's improvement by doing. Classes hold most of the SRD's balance, so a full replacement would be a huge job. A middle ground: gain an experience trait at the levels where a character would normally take a feat.
+
+### Revised questions for Troy
+
+- Adopt the **one positive, one negative** structure (two positives and one negative for the Unphased)?
+- Which of the 31 archetypes to keep, and how to resolve the fence-sitters?
+- The **forced-phasing check**: a flat check, a rising DC, or the player's choice? Who picks the colour?
+- Reconcile the **36 vs 35** budget, and settle whether the **+1 per trait** stays (§6, idea 4).
+- How the **current twelve traits** carry over (§5).
 
 ## Sources
 
