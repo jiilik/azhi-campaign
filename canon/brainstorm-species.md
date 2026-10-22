@@ -390,10 +390,145 @@ Wheel, clockwise: **Blue → Green → Red → Black → White → Blue**. The h
 | Slate (Black–White) | Intelligence **or** Wisdom | Charisma: clues plus insight |
 | Glacier (White–Blue) | Wisdom **or** Charisma | Dexterity: lived wisdom and diplomacy |
 
-- This ties down only the affinity's +1. The two personality traits each still give a +1 (§5), presumably to any ability. The Unphased have no affinity, so this doesn't apply to them.
+- This covers the affinity's +1. Each personality trait carries its own fixed +1 (§9). The Unphased have no affinity, so this doesn't apply to them.
 - Gold and Silver are left out for now, since whether they can be reached is still open.
 
-## 9. Next time
+## 9. Personality traits (voice session, late evening of 2026-10-21)
+
+### How traits work
+
+- *(Troy)* **One shared list.** Traits are **not tied to colours**; anyone can take any trait. Synergies with other traits and with affinities will come out naturally. *(Claude)* This settles the old question of which lists the Unphased draw from: there is only the one.
+- *(Troy)* Start with **12 traits, two per ability**, so the +1s are spread evenly. Grow to about 20 later.
+- *(Troy)* A trait is a **personality**, not a feat. The name is who you are ("prone to rages"), and the benefit flows from it, worded as clearly as a feat.
+- *(Claude)* Budget: about 10 points per trait. The +1 is 4, leaving **about 6** for the benefit, roughly the size of Savage Attacker or Skilled.
+- *(Troy)* **Flavour first.** Don't chase exact points at the expense of flavour, but every trait needs a **real mechanical benefit**.
+- *(Claude, not confirmed)* Light Sleeper and Heavy Sleeper can't be taken together.
+
+### The twelve
+
+| Ability | Trait | Trait |
+|---|---|---|
+| Strength | Prone to Rages | Reckless |
+| Dexterity | Light Sleeper | Hyperactive |
+| Constitution | Heavy Sleeper | Iron Stomach |
+| Intelligence | The Collector | Quizmaster |
+| Wisdom | The Journalist | The Skeptic |
+| Charisma | Earworm | The Artist |
+
+#### Strength
+
+**Prone to Rages** *(Troy's idea; Claude's wording, Troy approved)*
+- +1 to Strength.
+- While you're Bloodied, you have Advantage on Strength saving throws.
+- Once per turn while you're Bloodied, when you hit with a melee attack, you add your Proficiency Bonus to the damage.
+
+**Reckless** *(Claude, Troy chose it)*
+- +1 to Strength.
+- You have Advantage on Initiative rolls.
+- The first attack roll against you in each combat has Advantage.
+- *(Troy)* Advantage on Initiative is significant. *(Claude)* About 5 points with the drawback, close enough to 6.
+
+Not chosen for Strength:
+- Show-Off (Advantage on Strength checks when watched).
+- *Hard Labourer:* carry as one size larger, plus Advantage on breaking things. Troy noted that with Red it would mean Huge-sized carrying, and Red already has Advantage on Strength checks.
+- *Brawler:* too feat-like, close to the non-SRD *Tavern Brawler*.
+- Stubborn; Competitive.
+- *Bodyguard:* as a Reaction, pull an adjacent ally 5 feet aside. Troy wants it as a **Battle Master maneuver** in the class work.
+
+#### Dexterity
+
+**Light Sleeper** *(Troy's idea: "someone who had too much coffee")*
+- +1 to Dexterity.
+- While you're resting or asleep, you can't be Surprised, and any noise louder than a whisper wakes you.
+- You finish a Long Rest after 4 hours of sleep (like the Elf's *Trance*).
+- Checked in the SRD: there's no surprise round in the 2024 rules. Being Surprised gives Disadvantage on your Initiative roll.
+- *(Troy)* It stays a Dexterity trait, even though alertness could read as Wisdom.
+
+**Hyperactive** *(Troy's idea)*
+- +1 to Dexterity.
+- **Idle hands:** once per day (Long Rest), you make a small object and roll a d12 to see what it is:
+
+| d12 | Result |
+|---|---|
+| 1–4 | A worthless trinket |
+| 5–8 | Something worth a few silver |
+| 9–10 | A small useful item, such as a fishing lure, a whistle or a lockpick |
+| 11 | Something worth a few gold |
+| 12 | Something special (DM's choice) |
+
+- **Busy with your tools:** once per Long Rest, instead of rolling, you can make one item from the Craft list of a tool you're proficient with, worth up to 50 GP. *(Troy)* A hyperactive character uses their tools at every spare moment, and this should be worth something to them.
+  - Checked in the SRD: the Herbalism Kit crafts the *Potion of Healing* (50 GP), as well as Antitoxin, Candles and the Healer's Kit. That ties in with Green's Herbalism Kit and Red's tools.
+- **Open:** fill in the actual d12 items; decide whether the tool crafting costs materials. The SRD's crafting rules normally charge half the item's price.
+
+Not chosen for Dexterity:
+- Jumpy (overlaps Light Sleeper).
+- Light-Fingered; Cautious.
+- *Skittish* and *Flinches*, two reaction ideas. Troy had wanted something for reactions, then went with Hyperactive.
+
+#### Constitution
+
+**Heavy Sleeper** *(Troy's idea, a counterpoint to Light Sleeper)*
+- +1 to Constitution.
+- If you're woken from sleep, you have Disadvantage on attack rolls and ability checks for your first two rounds.
+- When you finish a Long Rest with uninterrupted sleep, you gain Temporary Hit Points equal to your character level.
+- *(Claude, Troy agreed)* Temporary hit points equal to your character level instead of Troy's first idea, Proficiency Bonus, so it scales.
+
+**Iron Stomach** *(Claude's "Glutton", renamed by Troy)*
+- +1 to Constitution.
+- You have Advantage on saving throws against poison or disease that you've eaten or drunk. *(Troy: it's the stomach that's tough, not the blood.)*
+- **Abs of steel:** +1 to AC while you aren't wearing armour. *(Troy's joke idea; Claude made it conditional to fit the budget.)*
+- Dropped: *Forager's Gut* (raw, spoiled or strange food counts as a ration), which made way for the AC.
+- Not added: resistance to getting drunk. Checked: the SRD has no drinking or intoxication rules (Brewer's Supplies can only identify alcohol), so Troy left it out.
+- Not chosen: Stoic; Restless Wanderer; *Hardy Appetite*; extra healing from a meal on a Short Rest (Troy: the theme is surviving what you eat, not eating).
+
+#### Intelligence
+
+**The Collector** *(Troy's idea: someone who indexes everything)*
+- +1 to Intelligence.
+- You have Advantage on checks to find something in a library, archive or collection.
+- You always know what's in your pack, and pulling out any item doesn't take an action.
+- *(Troy)* You notice at once when a rare object is within sight, even hidden among clutter. *(Claude)* This works alongside Red's ribbon: Red judges value, the Collector spots rarity.
+- Dropped: finding things in a tenth of the usual time (Troy).
+
+**Quizmaster** *(Troy's idea)*
+- +1 to Intelligence.
+- Proficiency in one Intelligence skill of your choice: Arcana, History, Investigation, Nature or Religion.
+- **Trivia:** on Intelligence checks to recall lore, you add half your Proficiency Bonus if you aren't already proficient.
+- Rejected: *Pop Quiz*; *Tip of the Tongue* (turn a failed recall into a success).
+
+#### Wisdom
+
+**The Journalist** *(Troy's idea: someone who keeps a diary, not a reporter)*
+- +1 to Wisdom.
+- If you write in your journal before a Long Rest, you gain Heroic Inspiration when it ends. This is the Human's *Resourceful* (checked), with reflection as the price.
+- You can look up any detail you've written down, such as a name, a face or a route, and get it right.
+- *(Troy)* It lets players bring their own note-taking into the character: the player's notes count as the character's knowledge.
+
+**The Skeptic** *(Troy's name; Claude's draft, not discussed in detail)*
+- +1 to Wisdom.
+- Proficiency in Insight.
+- You have Advantage on checks and saving throws to see through illusions, and on Insight checks to tell when someone is lying.
+- *(Claude)* It counters Earworm, whose Disadvantage on Insight it would cancel.
+
+#### Charisma
+
+**Earworm** *(Troy's idea)*
+- +1 to Charisma.
+- Proficiency in Performance. *(Troy)* No affinity offers Performance, so it needs a home.
+- Once per Long Rest, after a performance, up to six creatures who heard it have Disadvantage on Insight checks against you until your next Long Rest.
+- *(Troy)* Seed the tune in the room, then work the room later, while the whole town hums it.
+- *(Claude)* "Until your next Long Rest" replaces Troy's "until the end of the day", since Azhi has no steady day.
+- Replaced: an earlier draft that gave you Advantage on other Charisma checks against them for an hour.
+
+**The Artist** *(Troy's idea; "Artist" rather than "Artisan", since Red is the craftsman)*
+- +1 to Charisma.
+- Proficiency with Painter's Supplies, Calligrapher's Supplies or a musical instrument.
+- If you give someone a piece of your art, or play for them, you have Advantage on your next Charisma check with them. *(Troy added the performance part.)*
+- **Muse:** once per Long Rest, another creature who sees or hears your art gains Heroic Inspiration. *(Troy)* The artist really helps others, and the recipient chooses when to use it.
+- Rejected: an ally regaining a Hit Die (Troy: no); painting-only ideas (Troy: must work for any art form); *Patronage* (free lodging and meals, too light).
+- Not chosen: *Signature Style*; *Artist's Eye*; *Uplifting Work*.
+
+## 10. Next time
 
 - **Open ribbons** (two each for every colour and hybrid):
   - Colours: a second for Blue, Green, Red, Black and White.
@@ -404,9 +539,15 @@ Wheel, clockwise: **Blue → Green → Red → Black → White → Blue**. The h
   - Should breath weapons be shared by every dragonborn, or part of each colour?
   - Darkvision range for Black.
   - Pigment names for the hybrids (slate, glacier and so on are working names).
-- **Next big step:** draft the personality trait lists (about 10 points each; §1 and §5).
+- **Traits:**
+  - Fill in Hyperactive's d12 items, and decide whether its crafting costs materials.
+  - Confirm that Light Sleeper and Heavy Sleeper can't be combined.
+  - Review The Skeptic's wording.
+  - Expand the list toward 20.
+  - Check trait points against the 10-per-trait budget, without losing flavour.
 - **Unphased:** Troy noted that they pick three traits instead of having special Unphased features.
 - **Revisit later:**
   - Inventive Genius's spell list, in the spells review.
+  - *Bodyguard* as a Battle Master maneuver, in the class work.
   - Gunpowder as a setting item, in the equipment review.
 - **Still open from the bible:** Unphased appearance and breath, the phasing penalty, and whether Gold and Silver can be reached.
