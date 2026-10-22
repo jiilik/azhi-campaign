@@ -1,4 +1,4 @@
-"""The dragonborn colour wheel (brainstorm visual, PROPOSED) -> output/colour_wheel.png.
+"""The dragonborn colour wheel (species brainstorm, completed 2026-10-21) -> output/colour_wheel.png.
 
 Five primary forms at the pentagon's corners and five bichrome hybrids between them,
 the Unphased in the blank centre (a polychrome silhouette: every colour, none settled),
@@ -135,7 +135,7 @@ def build():
     o.append(f'<text x="{CX}" y="70" text-anchor="middle" font-family="DejaVu Serif" font-weight="bold" '
              f'font-size="46" fill="#f3e8cf">The Dragonborn Colour Wheel</text>')
     o.append(f'<text x="{CX}" y="106" text-anchor="middle" font-family="DejaVu Serif" font-style="italic" '
-             f'font-size="21" fill="#c9bda3">Brainstorm sketch (PROPOSED): five colours, five blends, the Unphased at the heart</text>')
+             f'font-size="21" fill="#c9bda3">Species brainstorm, completed 21 October 2026: five colours, five blends, the Unphased at the heart</text>')
     o.append('</svg>')
     return ''.join(o)
 
