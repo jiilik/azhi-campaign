@@ -69,6 +69,7 @@ The goal is a setting-specific derivative of the D&D 5e SRD for the ring-world A
 
 ## Phase 3: Consistency pass
 
+- [ ] Run `canon/design-review-checklist.md` against the finished design (it can also be run as a preliminary check at any time)
 - [ ] Build `canon/glossary.md` (proper nouns, terms, colours, spelling)
 - [ ] Run parallel review agents, one per batch of sections, each checking against the setting bible and glossary. Each returns conflicts as `file:line · issue · suggested fix`.
 - [ ] Check cross-references: features named in one section that are defined in another

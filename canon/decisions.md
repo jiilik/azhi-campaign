@@ -2,6 +2,11 @@
 
 Newest first. One line per decision: what was decided, and why if a reason was given. Add to this log every time the author settles something, and update `canon/setting-bible.md` to match.
 
+## 2026-10-23
+
+- **Design review checklist** created (`canon/design-review-checklist.md`). It holds **canon items only**; brainstorm ideas join it once approved. It can be run as a preliminary analysis at any time, and as a final systems check.
+- **Canonical builds** (a form plus traits for each class) are a **review check**, not something written now, because the classes may still change. Once the design is done, every class should have two or three workable builds.
+
 ## 2026-10-21
 
 - **Species design approved to canon.** Troy approved the whole design worked out in today's voice sessions. The specification is `canon/brainstorm-species.md`; its open items stay OPEN. More ribbons and more personality traits will be added later, for depth.
