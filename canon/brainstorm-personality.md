@@ -419,9 +419,18 @@ The **Abilities** column suggests where a stat trait's +1 could go. The **Sugges
   - Every trait gives a +1, so with the affinity's +1 a phased character lands on the usual **+3**, with no extra rule. The Unphased also get +3, from three traits.
   - This is the canon structure again (two traits, each with a +1). What changes is **which traits**: the nineteen positive traits from §10 replace the current twelve. Flaws stay optional and point-neutral.
   - §9's four-group frame (Mind, Heart, Hand, Shadow at about 5 points each) and its stat-trait cap are **set aside**.
-- Still open:
-  - Which ability each of the nineteen raises. Each could suggest one or two abilities.
-  - Whether the Unphased still swap one trait on each Long Rest.
+- *(Troy)* **Ability choices are on hold.** Offering a choice is valuable, since players chasing a high score aren't locked into the same combinations, but the choices come later.
+- *(Troy)* **The Unphased can still swap one trait on each Long Rest, if they want to.**
+
+## 12. Flavour descriptions, one trait at a time (from 2026-10-23)
+
+*(Troy)* Each trait gets a **short, non-mechanical flavour description**, a hook for players choosing a trait. The descriptions may later inform each trait's suggested colours, ability choices and mechanics. The notes under each draft are Claude's seeds for that later work, not part of the text.
+
+### The Strategist (draft)
+
+> You see the whole board. Before the first blow lands, you've counted the exits, weighed your enemies and guessed their next three moves, and you're already thinking about the war after this battle. Others call it overthinking; you call it winning.
+
+- *Seeds (Claude):* suggested colours Black and Oxblood; Intelligence or Wisdom; a benefit that rewards planning ahead (around Initiative, or the first round of a fight).
 
 ## Sources
 
