@@ -337,6 +337,80 @@ The **Abilities** column suggests where a stat trait's +1 could go. The **Sugges
   - for Shadow, its silver lining and pull.
 - Build two or three sample characters to check the complexity (§8).
 
+## 10. Positive traits only: the nineteen (voice session, morning of 2026-10-23)
+
+### Points and flaws
+
+- *(Troy)* We're building a **heroic party of adventurers**, so **points go only to positive traits.**
+- *(Troy)* **Flaws are optional.** A player can take one or not. A flaw is **point-neutral**: its drawback balances its upside, so it sums to zero.
+- **Open:** whether playing a flaw earns Heroic Inspiration, and whether that counts toward the zero. Troy deferred this until the flaws are defined.
+- **Knock-on (Claude):** this doesn't fit §9's frame, where everyone took one Shadow trait and Shadow was worth about 5 points. The four-group frame needs revisiting.
+
+### The list
+
+- *(Troy)* Work from the **sixteen Myers-Briggs-inspired archetypes**, setting the rest of the longlist aside for now.
+- *(Claude)* Four additions from the longlist suit a heroic party: the **Rock**, the **Devout**, the **Glory-Seeker** (later the Braggart) and the **Free Thinker**.
+- *(Troy)* **Naming test:** each name should read like a monarch's epithet with a gender-neutral name, such as "Riley the Reliable". Nouns and adjectives are both fine, as long as it reads clearly. Names that sound modern or like a job get renamed.
+- *(Troy)* These are **working names, about 90% confirmed**, and may be revisited.
+
+### Renames
+
+| Was | Now | Why |
+|---|---|---|
+| Keeper | Reliable, then **Prudent** | *Reliable* (Troy) covered the Keeper and the Perfectionist. It became *Prudent* after the overlap check (below). |
+| Foreman | **Steward** | Sounded like a job and wasn't gender-neutral |
+| Showman | **Magnificent** | Not gender-neutral. *The Dazzling* was rejected (Troy: sounds like a stage magician). |
+| Host | **Generous** | Sounded like a dinner party; a king remembered for open halls |
+| Glory-Seeker | Braggart, then **moved to the flaws** | Troy first kept the honest name *the Braggart* as a positive trait. After the overlap check it moved to the flaws. |
+| Free Thinker | **Unbound** | The Unbowed, the Defiant, the Unyielding and the Liberator were considered. *Unbound* means rejecting rules and norms altogether: a free spirit, roughly chaotic neutral. |
+| Daredevil | **Bold** | Too modern (Troy); as in Charles the Bold |
+| Fixer | **Resourceful** | Sounded like a mob middleman. Troy: may revisit. |
+| Spark | **Curious** | Too cute. *(Troy)* Explores every route in a dungeon, like trying every branch of a video game's decision tree. |
+| Provocateur | **Debater** | Too modern-political. *(Troy)* You could build a politician from it. Shared with 16Personalities' name, which is fine. |
+| Tinkerer | **Theorist** | Sounded lowly. The type is about ideas, not hands-on work (INTP: intuitive). *The Tinker* (a slur in Britain and Ireland, Claude cautioned) and *the Ingenious* were also considered. |
+| Rock | **Rock** (kept) | *(Troy)* Kept |
+
+### Overlap check
+
+| Pair | Outcome |
+|---|---|
+| Magnificent and Braggart | Both want the spotlight. **The Braggart moves to the flaws** (Troy). |
+| Commander and Steward | **Keep both.** *(Troy)* The Commander is a natural party face who dreams up the plans; the Steward is the XO, the second in command who carries out the crazy ideas. |
+| Curious and Wanderer | **Keep both.** *(Troy)* The Wanderer is about external, spatial exploration (new roads and horizons); the Curious wants the secrets inside. |
+| Rock and Reliable | **The Reliable becomes the Prudent.** *(Troy)* The Rock is calm nerves: steady and unflappable, mechanically something like "can't be Surprised". The Prudent has **logical foresight**: it predicts situations by reasoning, not divination, and comes prepared. *(Claude)* The Strategist plans the battle; the Prudent made sure there was rope. |
+| Wanderer and Unbound | **Keep both.** The Wanderer explores the world; the Unbound rejects rules and norms. |
+| Strategist and Theorist | Close, but kept apart: planning versus understanding *(Claude)* |
+
+### The nineteen positive traits (working names)
+
+| Group | Trait | From | In a line |
+|---|---|---|---|
+| Thinkers | the Strategist | INTJ | Always ten moves ahead; plans the battle |
+| | the Theorist | INTP | Pulls ideas apart to understand why they work |
+| | the Commander | ENTJ | Takes charge with a big vision; the party face |
+| | the Debater | ENTP | Loves sparring with ideas and playing devil's advocate |
+| Idealists | the Seer | INFJ | Reads people and senses where things are heading |
+| | the Dreamer | INFP | An idealist with a rich inner world and firm values |
+| | the Mentor | ENFJ | Brings out the best in others |
+| | the Curious | ENFP | Opens every door and explores every route |
+| The steady ones | the Prudent | ISTJ | Foresees by logic and comes prepared |
+| | the Guardian | ISFJ | Looks after everyone |
+| | the Steward | ESTJ | The second in command who makes the plans happen |
+| | the Generous | ESFJ | Open halls: everyone fed and included |
+| Living in the moment | the Resourceful | ISTP | Makes do with whatever's around; cool in a crisis |
+| | the Wanderer | ISFP | New roads and far horizons |
+| | the Bold | ESTP | Leaps first and thrives on risk |
+| | the Magnificent | ESFP | Wins people over by presence; attention follows them |
+| Additions | the Rock | Big Five emotional stability | Calm nerves; unflappable |
+| | the Devout | the Zealot's good side | Faith as a reason to adventure |
+| | the Unbound | the Rebel / Free Thinker | Rejects rules and norms; a free spirit |
+
+**Flaws (optional, point-neutral):** the Braggart joins the flaw longlist (§8, Shadow).
+
+### Next time
+
+- *(Troy)* Explore **each trait's description in more detail, one at a time.** The descriptions will inform the mechanics each trait gets.
+
 ## Sources
 
 - [Facet (psychology), Wikipedia](https://en.wikipedia.org/wiki/Facet_(psychology)): Big Five facets.
