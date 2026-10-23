@@ -230,6 +230,114 @@ The sixteen everyday archetypes plus the gap archetypes come to about 42. *(Clau
 - Reconcile the **36 vs 35** budget, and settle whether the **+1 per trait** stays (§6, idea 4).
 - How the **current twelve traits** carry over (§5).
 
+## 9. Four groups: Mind, Heart, Hand and Shadow (2026-10-22, late evening)
+
+### The frame
+
+- *(Troy)* Trait budget is about **20 points** for a phased character and **about 30** for the Unphased. Two traits per character was an arbitrary choice and isn't locked in.
+- *(Troy)* New frame: **four groups of traits, each worth about 5 points; pick one from each group.** The Unphased get two extra picks.
+- *(Troy)* A cap on stat traits: "can only choose two that boost primary stats."
+- *(Claude, Troy preferred it)* Group by what the trait does at the table. **Mind, Heart and Hand** line up with D&D's exploration, social and combat pillars. **Shadow** is the flaw group.
+  - Everyone gets something in every pillar and **exactly one flaw**.
+  - Colours stay as suggested pairings.
+- Considered and set aside:
+  - Grouping by alignment: "one from each" would force an evil trait and a lawful-and-chaotic clash.
+  - Grouping by elemental colour: it ties traits to colours, though it was very flavourful (an Unphased character takes one trait of every colour).
+
+### The maths *(Claude)*
+
+- 5 points per trait means a trait is either:
+  - a **stat trait**: +1 to an ability (4) plus a ribbon-sized perk (about 1); or
+  - a **knack**: a perk worth about 5, with no stat.
+- **At most two stat traits** (Troy's cap) plus the affinity's +1 gives the usual **+3** to ability scores. Taking a knack instead of a stat trait is an even trade.
+- **Unphased:** 4 + 2 = 6 picks, about 30 points. Up to **three** stat traits, since they have no affinity +1. Their two extra picks come from Mind, Heart or Hand, never a second Shadow.
+- **Shadow traits** are worth about 5. The silver lining plus the Heroic Inspiration earned by playing the flaw make up the value. *(Proposed:)* Shadow traits carry no +1.
+- This replaces the earlier 12/8 split (§8). Phased: 16 + 20 = 36. Unphased: about 30.
+
+### The split *(Claude, first pass)*
+
+There are 31 archetypes in groups of 8, 8, 8 and 7. Shadow can only hold 8 of the 12 negative archetypes, so four of them (Worrier, Cynic, Braggart, Hedonist) move into Mind or Heart and are reframed by their upside. The fence-sitters take their positive reading here; their darker halves could become Shadow traits later.
+
+The **Abilities** column suggests where a stat trait's +1 could go. The **Suggested colours** are guidance only (Troy, §8).
+
+#### Mind: plans, knowledge, noticing (exploration), 8
+
+| Archetype | In a line | Abilities | Suggested colours |
+|---|---|---|---|
+| Strategist | Always ten moves ahead | Int, Wis | Black, Oxblood |
+| Tinkerer | Pulls ideas and things apart to see how they work | Int, Dex | Oxblood, Red |
+| Seer | Reads people and senses where things are heading | Wis, Cha | White, Slate |
+| Dreamer | Idealist with a rich inner world and firm values | Wis, Cha | White, Glacier |
+| Perfectionist | Gets it exactly right, every time | Int, Dex | Red, Black |
+| Keeper | Dutiful and precise; if it's promised, it's done | Int, Wis | Black, Slate |
+| Cautious *(reframed Worrier)* | Expects the worst and plans for it | Wis, Dex | Green, Marsh |
+| Cynic | Believes nothing until shown; sees through lies | Wis, Int | Slate, Black |
+
+#### Heart: people, persuading, caring (social), 8
+
+| Archetype | In a line | Abilities | Suggested colours |
+|---|---|---|---|
+| Mentor | Brings out the best in others | Wis, Cha | White, Slate |
+| Spark | Full of enthusiasm, chasing every new idea | Cha, Dex | Blue, Marsh |
+| Host | Makes sure everyone is fed and included | Cha, Con | Green, Soil |
+| Showman | Loves a crowd and lights up the room | Cha | Blue, Glacier |
+| Trickster | Pranks and provocation, always poking holes | Cha, Dex | Blue, Marsh |
+| Devout *(positive Zealot)* | Unshakable faith, carried gladly | Wis, Cha | White, Black |
+| Glory-Seeker *(reframed Braggart)* | Wants their name in the songs | Cha, Str | Red, Oxblood |
+| Bon Vivant *(reframed Hedonist)* | Lives for good food, good drink and good company | Con, Cha | Blue, Glacier |
+
+#### Hand: nerve, grit, action (combat), 8
+
+| Archetype | In a line | Abilities | Suggested colours |
+|---|---|---|---|
+| Commander | Takes charge without being asked | Str, Cha | Red, Oxblood |
+| Fixer | Cool-headed and handy in a crisis | Dex, Int | Red, Soil |
+| Guardian | Looks after everyone and steps in front of the blow | Con, Str | Green, Soil |
+| Wanderer | A gentle free spirit who can walk forever | Con, Wis | Glacier, White |
+| Daredevil | Bold, quick, thrives on risk | Dex, Str | Blue, Red |
+| Rock | Unflappable; calm in any crisis | Con | White, Soil |
+| Rebel | Won't be pushed around or told what to do | Str, Con | Marsh, Glacier |
+| *(open slot)* | | | |
+
+#### Shadow: the flaw, 7
+
+| Archetype | In a line |
+|---|---|
+| Hothead | Quick to anger |
+| Brooder | Moody; dwells on every loss |
+| Schemer | Always working an angle |
+| Cold Fish | Unmoved by others' feelings |
+| Miser | Can't bear to part with anything |
+| Coward | Runs first, asks later |
+| Grudge-Holder | Never forgives, never forgets |
+| Lazybones | Will do anything to avoid effort |
+
+- *(Claude)* That's 8 Shadow traits and 7 Hand traits, so Hand is the lighter group; its open slot is a placeholder. Moving Hothead from Shadow into Hand (as the current Prone to Rages) would swap which group is lighter.
+- *(Claude)* **Shadow traits carry no suggested colours.** Pairing a flaw with a colour (greedy Blues, cold Whites) drifts toward the "racist dragons" trope that canon rules out.
+- *(Claude)* **Thin spots:**
+  - Hand has little for Dexterity.
+  - Heart leans heavily on Charisma.
+  - Nothing obviously suggests Green or Soil in Mind.
+  - Strength appears in only a few traits.
+
+### How the current twelve land
+
+| Group | Current traits |
+|---|---|
+| Mind | The Collector and The Journalist (Keeper), Quizmaster (Strategist or Keeper), The Skeptic (Cynic), Light Sleeper (Cautious) |
+| Heart | Earworm (Showman), The Artist (Dreamer or Showman) |
+| Hand | Reckless (Daredevil), Hyperactive (Fixer or Tinkerer), Heavy Sleeper (Rock) |
+| Shadow | Prone to Rages (Hothead, if it becomes a flaw) |
+| No home | Iron Stomach (a body, not a personality) |
+
+### Next steps
+
+- Troy to review the split: moves, cuts, merges, and whether Hothead sits in Hand or Shadow.
+- Then draft one trait per group at 5 points, as a test. Each needs:
+  - its ability choices and Exclusion line;
+  - for Shadow, its silver lining and pull.
+- Build two or three sample characters to check the complexity (§8).
+
 ## Sources
 
 - [Facet (psychology), Wikipedia](https://en.wikipedia.org/wiki/Facet_(psychology)): Big Five facets.
