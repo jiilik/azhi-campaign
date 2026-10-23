@@ -286,7 +286,7 @@ The **Abilities** column suggests where a stat trait's +1 could go. The **Sugges
 | Glory-Seeker *(reframed Braggart)* | Wants their name in the songs | Cha, Str | Red, Oxblood |
 | Bon Vivant *(reframed Hedonist)* | Lives for good food, good drink and good company | Con, Cha | Blue, Glacier |
 
-#### Hand: nerve, grit, action (combat), 8
+#### Hand: nerve, grit, action (combat), 7
 
 | Archetype | In a line | Abilities | Suggested colours |
 |---|---|---|---|
@@ -297,9 +297,8 @@ The **Abilities** column suggests where a stat trait's +1 could go. The **Sugges
 | Daredevil | Bold, quick, thrives on risk | Dex, Str | Blue, Red |
 | Rock | Unflappable; calm in any crisis | Con | White, Soil |
 | Rebel | Won't be pushed around or told what to do | Str, Con | Marsh, Glacier |
-| *(open slot)* | | | |
 
-#### Shadow: the flaw, 7
+#### Shadow: the flaw, 8
 
 | Archetype | In a line |
 |---|---|
@@ -312,7 +311,7 @@ The **Abilities** column suggests where a stat trait's +1 could go. The **Sugges
 | Grudge-Holder | Never forgives, never forgets |
 | Lazybones | Will do anything to avoid effort |
 
-- *(Claude)* That's 8 Shadow traits and 7 Hand traits, so Hand is the lighter group; its open slot is a placeholder. Moving Hothead from Shadow into Hand (as the current Prone to Rages) would swap which group is lighter.
+- *(Claude)* That's 8 Shadow traits and 7 Hand traits, so Hand is the lighter group. Moving Hothead from Shadow into Hand (as the current Prone to Rages) would swap which group is lighter.
 - *(Claude)* **Shadow traits carry no suggested colours.** Pairing a flaw with a colour (greedy Blues, cold Whites) drifts toward the "racist dragons" trope that canon rules out.
 - *(Claude)* **Thin spots:**
   - Hand has little for Dexterity.
