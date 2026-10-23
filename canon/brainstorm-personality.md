@@ -411,6 +411,18 @@ The **Abilities** column suggests where a stat trait's +1 could go. The **Sugges
 
 - *(Troy)* Explore **each trait's description in more detail, one at a time.** The descriptions will inform the mechanics each trait gets.
 
+## 11. Back to two traits (2026-10-23, afternoon)
+
+- *(Troy)* **Probably back to two traits per character, for simplicity** (three for the Unphased). It also removes the need for a cap on stat traits ("at most two that boost primary stats").
+- *(Claude)* What follows from that:
+  - Each trait is worth about **10 points**: its +1 to an ability (4) plus a benefit of about 6. Two traits come to about 20, which matches Troy's trait budget. The Unphased's three come to about 30.
+  - Every trait gives a +1, so with the affinity's +1 a phased character lands on the usual **+3**, with no extra rule. The Unphased also get +3, from three traits.
+  - This is the canon structure again (two traits, each with a +1). What changes is **which traits**: the nineteen positive traits from §10 replace the current twelve. Flaws stay optional and point-neutral.
+  - §9's four-group frame (Mind, Heart, Hand, Shadow at about 5 points each) and its stat-trait cap are **set aside**.
+- Still open:
+  - Which ability each of the nineteen raises. Each could suggest one or two abilities.
+  - Whether the Unphased still swap one trait on each Long Rest.
+
 ## Sources
 
 - [Facet (psychology), Wikipedia](https://en.wikipedia.org/wiki/Facet_(psychology)): Big Five facets.
