@@ -67,6 +67,15 @@ Keep the canon order (Blue, Green, Red, Black, White). Keep only the hybrids who
 - Light gives purple honestly, but it loses **brown and grey**, the two hybrids Troy wants to keep. It also makes **yellow**, which would look too much like Gold.
 - *(Claude)* One idea it suggests: a hue wheel (Red, Green, Blue and their blends), with **Black and White as a separate dark–light axis** across it. Thematically, light belongs to Gold and Silver, the sun and moon.
 
+## 4c. Yellow and Grey as earthly Gold and Silver *(Troy)*
+
+- *(Troy)* A yellow close to Gold is fine. Grey is already close to Silver. These could be the **muted, unascended** forms: the **closest earthly equivalents of the heavenly dragons**.
+- *(Claude)* That gives the wheel a pair of mortal echoes of the sun and moon:
+  - **Yellow/Ochre ↔ Gold** (the sun);
+  - **Grey ↔ Silver** (the moon).
+- *(Claude)* **Ochre** may solve brown versus yellow. It's an earth pigment, the yellow-brown of clay and old cave paintings: a muted gold. It fits Red + Green whether you think of the mix as paint (brown) or light (yellow). It also keeps the earthy, farming feel of the old Soil hybrid.
+- *(Claude)* **It could answer an OPEN question** in the setting bible: whether Gold and Silver can ever be reached by phasing. Ochre and Grey could be the rare stepping stones toward them, though still not an easy player path, as canon requires.
+
 ## 5. Questions for Troy
 
 - Is rewriting the elemental feeding and checking cycle acceptable, or must the wheel keep it?
