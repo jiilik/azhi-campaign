@@ -472,6 +472,12 @@ The **Abilities** column suggests where a stat trait's +1 could go. The **Sugges
 
 - *Seeds (Claude):* suggested colours White and Slate; Charisma or Wisdom; a benefit that helps an ally grow or do better at something you're good at. Keep it clear of White's Help as a Bonus Action. The Commander rallies people in the moment; the Mentor improves them over time; the Confidant listens.
 
+### The Curious (draft)
+
+> A locked door is a question, and you've never once left a question alone. You read the margins, pull the lever marked "do not pull", and take the left fork, then come back for the right one. Your companions have learned to count heads before leaving a room.
+
+- *Seeds (Claude):* suggested colours Blue and Marsh; Dexterity or Intelligence; a benefit for finding what's hidden: secret doors, side passages, the thing behind the thing. Keep it clear of Slate's Bonus Action Search. The Theorist asks why; the Curious asks what's in there; the Wanderer asks what's over the next hill.
+
 ## Sources
 
 - [Facet (psychology), Wikipedia](https://en.wikipedia.org/wiki/Facet_(psychology)): Big Five facets.
