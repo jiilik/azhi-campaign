@@ -591,6 +591,13 @@ The **Abilities** column suggests where a stat trait's +1 could go. The **Sugges
   2. Allow +3 as a deliberate perk of focusing.
   3. Bar two traits that raise the same ability. *(This is what the old "+1/+1/+1, no +2" note in `canon/brainstorm-species.md` §5 assumed.)*
 
+## 14. Working doc
+
+*(Troy, 2026-10-23)* All nineteen traits are collected in a Claude Doc for Troy to examine and edit, and to look at later: **[Azhi: Personality Traits (Working Draft)](https://claude.ai/artifact/PpGqNkxw6rXWjHgoXiYtfe)**. For each trait it gives the name (alternates in brackets), the Myers-Briggs code, the description, the abilities, suggested elemental affinities and brief mechanics notes.
+
+- **The doc is now the working copy** for these traits. Troy's edits there may be newer than §12–13 of this file, so read the doc first and sync back.
+- Affinities were rebalanced in the doc, so each colour appears three or four times. For example, the Debater is now Blue and Oxblood (it was Blue and Black).
+
 ## Sources
 
 - [Facet (psychology), Wikipedia](https://en.wikipedia.org/wiki/Facet_(psychology)): Big Five facets.
