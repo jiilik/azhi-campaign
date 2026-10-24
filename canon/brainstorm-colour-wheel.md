@@ -207,6 +207,56 @@ Keep the canon order (Blue, Green, Red, Black, White). Keep only the hybrids who
 - The target is about 15–16. Canon puts bichromes below the five colours, which sit at 17–18.5. So it's **about 5 over**.
 - **Canon conflict:** "Darkvision belongs to Black alone" is canon (decisions, 2026-10-21, and design review check 7). Giving Indigo Darkvision needs Troy's approval to change that, alongside the wider wheel rework.
 
+## 4i. Indigo: the deep lurkers *(Troy's direction, Claude's draft)*
+
+- *(Troy)* **Override: Indigo may have Darkvision.** This is an exception to the canon rule "Darkvision belongs to Black alone". Apply it to canon (and to design review check 7) when the wheel rework is adopted.
+- *(Troy)* **Drop the tinkerer material entirely.** Lean into the lurker in the deeps.
+- *(Troy)* **Charisma is the only ability choice.**
+- *(Troy)* The vibe:
+  - Between Black and Blue: secretive and furtive.
+  - A shadow civilization that stands apart because others can't reach it.
+  - The keepers of dark secrets, who trade in danger.
+  - A mystique like the vampire tropes (flavour only, since there are no other sentient species).
+  - Connections and influence in the port towns are the currency of their clout at home.
+  - They pull levers no one else even knows exist.
+- *(Claude)* Keep it a mystique, not villainy. Their apartness is the policy of a hidden people, never a claim of superiority (no "racist dragons").
+
+> #### Indigo (Blue + Black)
+>
+> _Indigo dragonborn dwell where the sea goes dark, in cities few outsiders have ever seen. They surface in the port towns with quiet smiles and unreadable eyes, dealing in secrets, debts and dangers others prefer not to name, and every favour they win ashore buys standing in the deeps below. There is something of the night about them. Most people never learn which levers an Indigo has pulled; only that something, somewhere, has moved._
+>
+> **Creature Type:** Humanoid
+> **Size:** Medium
+> **Speed:** 30 feet
+> **Ability Score Increase:** Charisma
+>
+> As an Indigo dragonborn, you have these special traits.
+>
+> _Deep-Born._ You can breathe air and water, and you have a Swim Speed equal to your Speed.
+>
+> _Darkvision._ You have Darkvision with a range of 60 feet.
+>
+> _Undertow._ Your people's hidden network reaches every port. Once per Long Rest, while in a coastal settlement, you can call on it to arrange a small favour, such as a message passed, a door left unlocked or a name given. _(OPEN: how much the DM decides.)_
+>
+> _Deep Training._ You have proficiency in one of the following skills of your choice: Deception, Insight, Intimidation or Stealth.
+>
+> _Ribbons._ _(PROPOSED)_ Cold and crushing depths don't trouble you. Strangers tend to lower their voices around you without knowing why.
+
+**Points (Claude):**
+
+| Feature | Points |
+|---|---|
+| +1 to Charisma (single choice) | 4 |
+| Deep-Born (Amphibious and Swim Speed) | 5 |
+| Darkvision | 3 |
+| Undertow | ~3 |
+| One skill | 1.5 |
+| **Total** | **~16.5** |
+
+- That's within the hybrid range. The single ability choice could justify about 1 point more (the same logic as for the traits).
+- **Removed:** Inventive Genius, Careful Senses, the tools (so the firearms route now has no form), Well Travelled, and every reference to ink.
+- **Risk:** Undertow depends on the DM, like the "ask the DM one question" idea Troy rejected for Slate. A firmer version: name a contact in each port town, who owes your people a favour.
+
 ## 5. Questions for Troy
 
 - Is rewriting the elemental feeding and checking cycle acceptable, or must the wheel keep it?
