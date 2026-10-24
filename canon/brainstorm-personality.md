@@ -466,6 +466,12 @@ The **Abilities** column suggests where a stat trait's +1 could go. The **Sugges
 
 - *Seeds (Claude):* suggested colours White and Glacier; Wisdom or Charisma; a benefit for holding firm to your values under pressure. Keep it clear of Black's Guarded Mind (Advantage on mental saving throws).
 
+### The Mentor (draft)
+
+> You see what someone could become long before they do, and you can't help nudging them toward it. Your praise lands like a gift, and even your hard truths somehow land kindly. Half the people you've met are better for knowing you; the other half just haven't noticed yet.
+
+- *Seeds (Claude):* suggested colours White and Slate; Charisma or Wisdom; a benefit that helps an ally grow or do better at something you're good at. Keep it clear of White's Help as a Bonus Action. The Commander rallies people in the moment; the Mentor improves them over time; the Confidant listens.
+
 ## Sources
 
 - [Facet (psychology), Wikipedia](https://en.wikipedia.org/wiki/Facet_(psychology)): Big Five facets.
