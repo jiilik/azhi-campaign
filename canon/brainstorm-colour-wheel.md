@@ -266,6 +266,39 @@ Keep the canon order (Blue, Green, Red, Black, White). Keep only the hybrids who
   - **Etiquette:** strict, unwritten rules that outsiders only half understand.
 - *(Claude)* **A firmer Undertow**, using debt tokens so it depends less on the DM: you begin with a number of favours (pearls) equal to your Proficiency Bonus, and spend one to call on the network for a small service in a port. You earn more through play, and pearls can be traded, given or owed.
 
+## 4k. Pearls, debts and being cast out (voice session, 2026-10-24)
+
+### Currency or resource?
+
+- *(Troy)* A pearl can't be both a **shadow currency** and a **refreshing player resource**. A currency shouldn't refresh; you get it only by doing something and being rewarded, like the soul coins of classic D&D lore. A daily resource is more like Heroic Inspiration or Bardic Inspiration.
+- *(Claude)* One way to split it: the species feature is a plain once-per-rest call on the network, with no pearls involved, and the pearls become a setting currency anyone can earn, trade or owe. Indigo are the people who know best how to spend them.
+
+### Troy's version: borrowing against the deep
+
+- *(Troy)* An Indigo can call on the network **once per day**. If they have no pearl, they **go into debt**: a pearl owed to someone, which can be **called in later**, or settled when someone else gives them a pearl.
+- *(Claude, on limits)* Some limit is needed, or a player could borrow forever.
+- *(Troy)* **The society has debt collectors.** Go too deep and shadowy figures start turning up with demands.
+- *(Troy)* **A called-in debt can't be refused.** Refusing means being **cast out of the society**, or being forced to **phase**.
+- *(Claude's layout)*
+  - **Small debts,** up to your Proficiency Bonus, are normal business.
+  - **Deeper,** and the collectors come calling.
+  - **Refusing** a called debt means you're cast out and lose the network.
+  - Forced phasing is fascinating, but harsh: a whole form lost over one refusal. Being cast out while still Indigo may be sting enough.
+
+### Starting cast out
+
+- *(Troy)* Being cast out can combine with the personality traits. For example, a renegade character (the Unbound) could **start the game already cast out**. The DM should then ask **why** as part of the backstory, which gives the campaign hooks. If it happens during play instead, everyone knows exactly why.
+- *(Claude)* A cast-out Indigo loses Undertow and so falls a few points short. One balance: they know the society from the outside, so they can spot its agents and dodge its collectors.
+
+### Why it matters
+
+- *(Troy)* Needs tinkering to make sure it's **fun to play**. But it gives Indigo a unique flavour: **a form that comes with a faction**, which the others may not have.
+- **Open (Claude):** should any other form get a lighter faction of its own, or should that stay Indigo's alone?
+
+### Next
+
+- *(Troy)* Define the forms not yet designed, **starting with Yellow**. Brown and Grey are already defined (from Soil and Slate), so skip them.
+
 ## 5. Questions for Troy
 
 - Is rewriting the elemental feeding and checking cycle acceptable, or must the wheel keep it?
