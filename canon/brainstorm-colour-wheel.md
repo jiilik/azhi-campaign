@@ -409,6 +409,12 @@ Keep the canon order (Blue, Green, Red, Black, White). Keep only the hybrids who
 
 1. **The free hand needs limits.** A Shield weighs 6 lb and a Dagger 1 lb, so as written the tail could hold a Shield while you wield a two-handed weapon, or wield a second weapon. It could also count as the free hand that spellcasting components and grappling require. Suggested wording: the tail can't wield weapons or Shields. Its use for spellcasting and grappling needs a decision.
 2. **Bonus Action Utilize at level 1 overlaps the Thief rogue's level 3 *Fast Hands*** (Bonus Action Utilize or Magic action). Also, in the 2024 rules drinking a potion is already a Bonus Action, so it's not an example of the benefit.
+1b. **A Shield in the tail? (voice session, checked)** Priced at about 5–6 points, possibly more for the niche that gains most.
+   - A Shield gives +2 AC. The Defense fighting style, a whole feat with a Fighting Style prerequisite, gives +1 AC in armour and was scored 5.
+   - A tail-held Shield would let a two-handed or dual-wielding character keep +2 AC, which removes one of the core trade-offs. The Two-Handed property needs both hands only when you attack.
+   - It's worth almost nothing to characters without Shield training, or who already use one.
+   - Donning or doffing a Shield is a Utilize action, so with the tail's Bonus Action Utilize it would come on and off as a Bonus Action.
+   - It fails design review check 7 (no build-around combat abilities). *(Claude)* Recommend: the tail can't hold weapons or Shields.
 3. **About 2.5 points short** of the colours' 17–18.5. Possible top-ups:
    - Acrobatics proficiency (1.5);
    - Advantage on checks to keep your balance or avoid being knocked Prone (~1.5);
