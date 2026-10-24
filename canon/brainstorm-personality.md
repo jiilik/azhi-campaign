@@ -432,6 +432,12 @@ The **Abilities** column suggests where a stat trait's +1 could go. The **Sugges
 
 - *Seeds (Claude):* suggested colours Black and Oxblood; Intelligence or Wisdom; a benefit that rewards planning ahead (around Initiative, or the first round of a fight).
 
+### The Theorist (draft)
+
+> Everyone else accepts that the spine of the world never bends. You want to know why. You chase an idea down to its bones, take it apart and put it back together a little better, and you'll happily miss supper doing it. A good question keeps you warmer than any fire.
+
+- *Seeds (Claude):* suggested colours Black and Slate; Intelligence; a benefit for working out how something works, or why. Keep it clear of Slate's Bonus Action Study and the old Quizmaster.
+
 ## Sources
 
 - [Facet (psychology), Wikipedia](https://en.wikipedia.org/wiki/Facet_(psychology)): Big Five facets.
