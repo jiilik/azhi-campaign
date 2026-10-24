@@ -503,6 +503,12 @@ The **Abilities** column suggests where a stat trait's +1 could go. The **Sugges
 
 - *Seeds (Claude):* suggested colours Green and Soil; Charisma or Constitution; a benefit from hospitality, such as a shared meal on a rest, or goodwill wherever you've been generous. Keep it clear of Glacier's *Heard It on the Road*.
 
+### The Resourceful (draft)
+
+> You never pack the right thing, and you never need to. A belt buckle becomes a lockpick, a cloak becomes a stretcher, and a hopeless mess becomes something you can work with. When the plan falls apart, you're already rolling up your sleeves.
+
+- *Seeds (Claude):* suggested colours Red and Marsh; Dexterity or Intelligence; a benefit for improvising, such as making do with the wrong tool or a makeshift one. Keep it clear of the Prudent (who packed the right thing) and Oxblood's Inventive Genius.
+
 ## Sources
 
 - [Facet (psychology), Wikipedia](https://en.wikipedia.org/wiki/Facet_(psychology)): Big Five facets.
