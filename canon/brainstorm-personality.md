@@ -452,6 +452,12 @@ The **Abilities** column suggests where a stat trait's +1 could go. The **Sugges
 
 - *Seeds (Claude):* suggested colours Blue and Black; Charisma or Intelligence; a benefit in arguments and negotiations, such as finding the hole in someone's case. Keep it clear of Blue's Trader's Tongue reroll. *(Troy)* You could build a politician from it.
 
+### The Seer (draft)
+
+> You notice the pause before an answer, the glance toward the door, the smile that stops short of the eyes. People tell you things they've told no one else, and you often know how a story ends before it's half told. It isn't magic. You simply pay attention.
+
+- *Seeds (Claude):* suggested colours White and Slate; Wisdom or Charisma; a benefit for reading intentions and sensing where a situation is heading. Intuition about people, not divination: the Prudent foresees by logic, the Seer by reading people. Keep it clear of Glacier's people-reading.
+
 ## Sources
 
 - [Facet (psychology), Wikipedia](https://en.wikipedia.org/wiki/Facet_(psychology)): Big Five facets.
