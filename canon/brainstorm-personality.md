@@ -545,6 +545,52 @@ The **Abilities** column suggests where a stat trait's +1 could go. The **Sugges
 
 - *Seeds (Claude):* suggested colours Marsh and Oxblood; Charisma or Dexterity; a benefit for resisting being commanded, compelled or pressured to conform. Keep it clear of Blue's Slippery (escaping grapples), the Dreamer (holding to values) and Black's Guarded Mind. The Debater argues with the rules; the Unbound ignores them; the Wanderer leaves them behind.
 
+## 13. Ability choices per trait (2026-10-23, evening)
+
+- *(Troy)* There are six abilities, and players shouldn't feel constrained. Someone who wants +2 Wisdom should have more than two traits to choose from. The aim is **about five ways to get each ability**.
+- *(Troy)* With 19 traits, some must offer a choice of two (for example, the Commander raises Charisma or Strength). Two choices on every trait would give about six per ability, so some traits keep a single choice.
+- *(Troy)* A trait with **only one ability choice** could get a **marginally stronger benefit**, since it will be chosen less often. *(Claude)* About 1 point more, roughly 11 instead of 10.
+- *(Claude)* The maths: 19 traits + 11 dual-choice traits = **30 slots = exactly 5 per ability**. That means **11 traits with two choices and 8 with one**.
+
+### First-pass assignment *(Claude)*
+
+| Trait | Ability | Trait | Ability |
+|---|---|---|---|
+| Strategist | Int | Guardian | Con or Str |
+| Theorist | Int | Steward | Int or Con |
+| Commander | Str or Cha | Generous | Cha or Con |
+| Debater | Cha or Int | Resourceful | Dex |
+| Confidant | Wis | Wanderer | Con or Str |
+| Dreamer | Wis | Bold | Str or Dex |
+| Mentor | Cha or Wis | Magnificent | Cha or Dex |
+| Curious | Dex or Int | Rock | Con or Str |
+| Prudent | Wis | Devout | Wis |
+| | | Unbound | Dex |
+
+**Per ability (5 each):**
+
+| Ability | Traits |
+|---|---|
+| Strength | Commander, Guardian, Wanderer, Bold, Rock |
+| Dexterity | Curious, Resourceful, Bold, Magnificent, Unbound |
+| Constitution | Guardian, Steward, Generous, Wanderer, Rock |
+| Intelligence | Strategist, Theorist, Debater, Curious, Steward |
+| Wisdom | Confidant, Dreamer, Mentor, Prudent, Devout |
+| Charisma | Commander, Debater, Mentor, Generous, Magnificent |
+
+**Single-choice traits (8):** Strategist, Theorist (Int); Confidant, Dreamer, Prudent, Devout (Wis); Resourceful, Unbound (Dex).
+
+- *(Claude)* **Stretches**, made to fill Strength and Constitution:
+  - Steward: Con, for stamina on long jobs.
+  - Wanderer: Str, for carrying a pack across the world.
+  - Rock: Str, for the one who won't be moved.
+  - Magnificent: Dex, for grace and flair.
+  - Unbound gives up Charisma to keep Charisma at five.
+- *(Claude)* **Rules question this raises:** two traits that share an ability, plus an affinity that raises the same one (White with two Wisdom traits, say), would give **+3 to one ability**. The 2024 backgrounds allow at most +2 to one score. Options:
+  1. Cap any one ability at +2 from origin.
+  2. Allow +3 as a deliberate perk of focusing.
+  3. Bar two traits that raise the same ability. *(This is what the old "+1/+1/+1, no +2" note in `canon/brainstorm-species.md` §5 assumed.)*
+
 ## Sources
 
 - [Facet (psychology), Wikipedia](https://en.wikipedia.org/wiki/Facet_(psychology)): Big Five facets.
