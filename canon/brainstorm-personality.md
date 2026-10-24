@@ -527,6 +527,12 @@ The **Abilities** column suggests where a stat trait's +1 could go. The **Sugges
 
 - *Seeds (Claude):* suggested colours Blue and Glacier; Charisma; a benefit for first impressions and winning over a crowd. Keep it clear of the Commander (the party face who gives direction) and the Generous (hospitality). The Braggart, now a flaw, *asks* for the spotlight; the Magnificent doesn't need to.
 
+### The Rock (draft)
+
+> The sky can go dark at noon and the ground can split at your feet, and your hands stay steady. Panic slides off you like rain off scales. In the worst moments, people stop watching the danger and start watching you, because you're the one who hasn't moved.
+
+- *Seeds (Claude):* suggested colours Green and Slate; Constitution or Wisdom; *(Troy)* something like "can't be Surprised", and perhaps steadiness against fear. Keep it clear of the Dreamer (holding to values) and Black's Guarded Mind. "The sky can go dark at noon" draws on the canon wandering sun.
+
 ## Sources
 
 - [Facet (psychology), Wikipedia](https://en.wikipedia.org/wiki/Facet_(psychology)): Big Five facets.
