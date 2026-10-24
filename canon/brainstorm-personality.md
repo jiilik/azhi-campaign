@@ -454,7 +454,7 @@ The **Abilities** column suggests where a stat trait's +1 could go. The **Sugges
 
 ### The Confidant (draft; was the Seer)
 
-*(Troy, tentative)* Renamed **the Confidant**, because "the Seer" implied magic. It comes from INFJ (16Personalities' Advocate, Keirsey's Counselor). Also considered: the Discerning, the Perceptive, the Insightful, the Counsellor, the Wise (too tied to the Wisdom score), the Silent (William the Silent), the Discreet, the Confessor and the Trusted. *(Claude)* With the new name, the line "It isn't magic" could go.
+*(Troy)* Renamed **the Confidant**, because "the Seer" implied magic. It comes from INFJ (16Personalities' Advocate, Keirsey's Counselor). Also considered: the Discerning, the Perceptive, the Insightful, the Counsellor, the Wise (too tied to the Wisdom score), the Silent (William the Silent), the Discreet, the Confessor and the Trusted. *(Troy)* **Use the draft as written**, keeping the line "It isn't magic".
 
 > You notice the pause before an answer, the glance toward the door, the smile that stops short of the eyes. People tell you things they've told no one else, and you often know how a story ends before it's half told. It isn't magic. You simply pay attention.
 
