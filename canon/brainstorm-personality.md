@@ -539,6 +539,12 @@ The **Abilities** column suggests where a stat trait's +1 could go. The **Sugges
 
 - *Seeds (Claude):* suggested colours White and Black; Wisdom or Charisma; a benefit drawn from faith, such as steadiness when it's tested or knowledge of sacred things. Keep it clear of cleric and paladin class features. Faith can honour any of the seven dragons, and it never means contempt for the others (no "racist dragons").
 
+### The Unbound (draft)
+
+> Rules are other people's ideas, and nobody asked you before they made them. You go where you like and bow to no one, not out of spite, but because it never occurred to you to ask permission. Customs, titles and "that's just how it's done" roll right off you, and you're happiest where no one has written the rules yet.
+
+- *Seeds (Claude):* suggested colours Marsh and Oxblood; Charisma or Dexterity; a benefit for resisting being commanded, compelled or pressured to conform. Keep it clear of Blue's Slippery (escaping grapples), the Dreamer (holding to values) and Black's Guarded Mind. The Debater argues with the rules; the Unbound ignores them; the Wanderer leaves them behind.
+
 ## Sources
 
 - [Facet (psychology), Wikipedia](https://en.wikipedia.org/wiki/Facet_(psychology)): Big Five facets.
