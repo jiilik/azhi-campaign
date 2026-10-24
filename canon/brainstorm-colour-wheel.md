@@ -420,6 +420,48 @@ Keep the canon order (Blue, Green, Red, Black, White). Keep only the hybrids who
    - Advantage on checks to keep your balance or avoid being knocked Prone (~1.5);
    - grappling with the tail, keeping your hands free (~1.5).
 
+## 4n. Green with Prehensile Tail (2026-10-24)
+
+*(Troy)* **Prehensile Tail** replaces Regeneration. It counts as a **free third hand that can do everything a free hand can, except hold a Shield.** The Bonus Action Utilize is dropped.
+
+- *(Claude)* With only the Shield excluded, the hand is worth about 5–7 points. The main gain left is casting with your hands full (a slice of War Caster), and that passes design review check 7 as a modest edge. Taking the Shield out removes the +2 AC swing that broke the rules.
+
+> #### Green
+>
+> _Green dragonborn are at home in the canopy. They are hunters, wardens and scouts of dense, overgrown country, as sure on a swaying branch as on the ground, and often found in high places, watching._ _(Claude: a new flavour line, since "take a beating and keep going" belonged to Regeneration.)_
+>
+> **Creature Type:** Humanoid
+> **Size:** Medium
+> **Speed:** 30 feet
+> **Ability Score Increase:** Dexterity or Constitution
+>
+> As a Green dragonborn, you have these special traits.
+>
+> _Climber._ You have a Climb Speed equal to your Speed.
+>
+> _Prehensile Tail._ Your tail counts as a free third hand. It can do anything a free hand can, except hold a Shield. You can also make Unarmed Strikes with it, dealing 1d4 Slashing damage and using Dexterity for the attack and damage rolls.
+>
+> _Green Lore._ You have proficiency in the Nature and Survival skills, and with your choice of the Herbalism Kit or the Poisoner's Kit.
+>
+> _Ribbons._ By touching a plant, you can tell whether it's safe to eat. _(OPEN: second ribbon.)_
+
+**Points (Claude):**
+
+| Feature | Points |
+|---|---|
+| Prehensile Tail: a third hand, no Shields | ~6 |
+| Tail strike (1d4 Slashing, Dexterity) | ~1.5 |
+| Climb Speed | 2 |
+| Nature | 1.5 |
+| Survival | 1.5 |
+| Herbalism or Poisoner's Kit | 1 |
+| +1 to Dexterity or Constitution | 4 |
+| **Total** | **~17.5** (the old Green was 18) |
+
+- *(Claude)* **To confirm:**
+  - Whether the tail strike stays, since it was agreed in voice before the third-hand idea.
+  - That the 10-pound limit is gone, now that the tail is a full hand.
+
 ## 5. Questions for Troy
 
 - Is rewriting the elemental feeding and checking cycle acceptable, or must the wheel keep it?
