@@ -446,6 +446,12 @@ The **Abilities** column suggests where a stat trait's +1 could go. The **Sugges
 
 - *Seeds (Claude):* suggested colours Red and Oxblood; Charisma or Strength; a benefit that lets allies act on your orders in a crisis. Keep it clear of White's Help as a Bonus Action. The Commander is the party face; the Steward is the second in command.
 
+### The Debater (draft)
+
+> You'll argue that the Gold dragon is just a very bright moth, simply to see who can prove you wrong. Every plan, rule and sacred truth deserves a good poke, and you'll switch sides mid-argument for the fun of it. Nothing delights you more than the rare day someone finally wins one against you.
+
+- *Seeds (Claude):* suggested colours Blue and Black; Charisma or Intelligence; a benefit in arguments and negotiations, such as finding the hole in someone's case. Keep it clear of Blue's Trader's Tongue reroll. *(Troy)* You could build a politician from it.
+
 ## Sources
 
 - [Facet (psychology), Wikipedia](https://en.wikipedia.org/wiki/Facet_(psychology)): Big Five facets.
