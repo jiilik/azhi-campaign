@@ -379,6 +379,41 @@ Keep the canon order (Blue, Green, Red, Black, White). Keep only the hybrids who
   - The swap also drops Green's design intent as the burst tank who takes a beating, along with the flavour line "Green dragonborn take a beating and keep going."
   - *(Troy)* **Green's +1 becomes Dexterity or Constitution.** That gives Dexterity a second home on the wheel (it was Blue only) and keeps Constitution's two (Green, Brown).
 
+## 4m. Green's prehensile tail, defined (voice session, 2026-10-24)
+
+*(Troy)* The tail replaces Regeneration. It should be flavourful and useful **outside combat too**: a blend of *Mage Hand*, the whip and climbing.
+
+- *(Troy)* It works as a **free hand** that holds objects up to **10 pounds**, with the **same reach as a normal hand**. It helps with climbing.
+- *(Troy)* It makes an **Unarmed Strike for 1d4 Slashing damage**, using **Dexterity**, with no extra reach and **no mention of the whip** (which only inspired the damage die and type).
+- *(Troy)* **Object interactions with the tail as a Bonus Action** (the Utilize action), provided it isn't an attack.
+- Checked in the SRD:
+  - The Whip is 1d4 Slashing, Finesse and Reach, with the Slow mastery.
+  - *Mage Hand* "can't attack, activate magic items, or carry more than 10 pounds."
+  - A normal Unarmed Strike uses Strength and deals 1 + Strength modifier Bludgeoning.
+
+**Green's points (Claude):**
+
+| Feature | Points |
+|---|---|
+| Tail as a free hand (10 lb, helps climbing) | ~1.5 |
+| Tail strike (1d4 Slashing, Dexterity) | ~1.5 |
+| Bonus Action Utilize with the tail | ~2.5 |
+| Climb Speed | 2 |
+| Nature | 1.5 |
+| Survival | 1.5 |
+| Herbalism or Poisoner's Kit | 1 |
+| +1 to Dexterity or Constitution | 4 |
+| **Total** | **~15.5** (the old Green was 18) |
+
+**Flags (Claude):**
+
+1. **The free hand needs limits.** A Shield weighs 6 lb and a Dagger 1 lb, so as written the tail could hold a Shield while you wield a two-handed weapon, or wield a second weapon. It could also count as the free hand that spellcasting components and grappling require. Suggested wording: the tail can't wield weapons or Shields. Its use for spellcasting and grappling needs a decision.
+2. **Bonus Action Utilize at level 1 overlaps the Thief rogue's level 3 *Fast Hands*** (Bonus Action Utilize or Magic action). Also, in the 2024 rules drinking a potion is already a Bonus Action, so it's not an example of the benefit.
+3. **About 2.5 points short** of the colours' 17–18.5. Possible top-ups:
+   - Acrobatics proficiency (1.5);
+   - Advantage on checks to keep your balance or avoid being knocked Prone (~1.5);
+   - grappling with the tail, keeping your hands free (~1.5).
+
 ## 5. Questions for Troy
 
 - Is rewriting the elemental feeding and checking cycle acceptable, or must the wheel keep it?
