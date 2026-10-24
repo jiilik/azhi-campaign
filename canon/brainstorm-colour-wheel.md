@@ -122,7 +122,7 @@ Keep the canon order (Blue, Green, Red, Black, White). Keep only the hybrids who
   - **New:** Yellow, Indigo.
 - *(Claude)* **Open: Brown and Yellow share the Red–Green gap.** Both have Red and Green as parents. One reading: **Brown** is Red and Green mixed like paint, the earth; **Yellow** is the same two mixed like light, the sun's earthly echo.
 
-## 4f. Indigo takes Glacier's traits *(Troy)*
+## 4f. Indigo takes Glacier's traits *(Troy; superseded by 4g)*
 
 *(Troy)* **Indigo gets the former light-blue (Glacier) traits verbatim**, as a placeholder to tweak later. Here is Glacier's entry, copied exactly from `srd/04-character-origins/02-character-species.md`:
 
@@ -146,6 +146,46 @@ Keep the canon order (Blue, Green, Red, Black, White). Keep only the hybrids who
 - *(Claude)* **Things to tweak later:**
   - Glacier's parents were White and Blue; Indigo's are Blue and Black. Its ability choices (Wisdom or Charisma) and skills came from the White and Blue sides.
   - Its flavour (great travellers, envoys, caravan masters) doesn't yet match Indigo's sense (the deep sea, ink and dye).
+
+## 4g. Indigo, adapted from Oxblood with some of Glacier's travel *(Troy's direction, Claude's draft)*
+
+*(Troy)* Indigo takes **Oxblood's inventor**, plus **some of Glacier's travel sense**. They don't just invent; they **travel to learn**.
+
+> #### Indigo (Blue + Black)
+>
+> _Indigo dragonborn are travelling inventors and seekers. They sail and walk the length of the world to learn how others build, trade notes in every port, and come home with journals full of ideas, written in their own indigo ink, and a few contraptions to show for them._
+>
+> **Creature Type:** Humanoid
+> **Size:** Medium
+> **Speed:** 30 feet
+> **Ability Score Increase:** Intelligence or Dexterity
+>
+> As an Indigo dragonborn, you have these special traits.
+>
+> _Inventive Genius._ Once per Long Rest, you can rig up a contraption that replicates one of the following level 1 spells, chosen when you make it: _Alarm_, _Feather Fall_ or _Grease_. _(OPEN: how long a contraption takes to build, how it's triggered and what sets its save DC. The spell list will be revisited when spells are reviewed.)_
+>
+> _Well Travelled._ When you arrive in a settlement, you know its local customs, who's in charge, and a rumour or two.
+>
+> _Careful Senses._ If you spend 10 minutes examining an object, substance or device with your senses, you have Advantage on checks to work out what it is or how it works.
+>
+> _Indigo Training._ You have proficiency in two of the following skills of your choice: Arcana, History, Insight or Survival. You also have proficiency with one of the following tools of your choice: Alchemist's Supplies, Cartographer's Tools or Tinker's Tools.
+>
+> _Ribbons._ Careful Senses counts as one of your ribbons. _Indigo Ink:_ you can make serviceable ink or dye from almost anything to hand.
+
+**What changed and why *(Claude)*:**
+
+- **Kept from Oxblood:**
+  - Inventive Genius, word for word.
+  - Careful Senses, still counting as a ribbon.
+  - Tinker's Tools or Alchemist's Supplies, which keeps the firearms route.
+  - Arcana and History.
+- **Kept from Glacier:** *Heard It on the Road*, the settlement knowledge, now called **Well Travelled**. Mounts and vehicles are dropped.
+- **Changed:**
+  - **Intimidation** is dropped. It came from the Red side, which Indigo doesn't have. **Insight** and **Survival** (from Glacier's list) come in for the traveller.
+  - **Cartographer's Tools** is added to the tool choice, for mapping the journey.
+- **Abilities:** Intelligence or Dexterity. Black gives Intelligence; Blue gives Dexterity, the steady hands of a tinkerer. Charisma was the other option (both parents offer it), but the inventor reads better with Dexterity.
+- **New ribbon:** *Indigo Ink* ties the form to dye and ink.
+- **Points:** about 17 (Inventive Genius about 7, Well Travelled about 1.5, Careful Senses 1, two skills 3, a tool 1, the +1 4). That's above the old hybrid range of about 13–16. Canon puts bichromes below the primaries (17–18.5), so to trim, take **one skill instead of two**, for about 15.5.
 
 ## 5. Questions for Troy
 
