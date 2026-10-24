@@ -53,6 +53,20 @@ Going around: **Red → Brown → Green → Blue → Purple → Black → Grey �
 
 Keep the canon order (Blue, Green, Red, Black, White). Keep only the hybrids whose colours are easy to name: **Brown** (Green + Red) and **Grey** (Black + White). Squash the other three pairs, so there are no hybrids for Blue + Green, Red + Black or White + Blue. That gives 7 forms and no rewrite of the cycle, but no room for purple.
 
+## 4b. Mixing like light instead *(Troy asked, Claude's analysis)*
+
+| Blend | Paint | Light |
+|---|---|---|
+| Red + Green | brown | **yellow** |
+| Green + Blue | teal | cyan |
+| Blue + Red | purple | magenta (purple) |
+| anything + Black | darker | **no change**: black adds no light |
+| Black + White | grey | **white** (grey only if averaged) |
+
+- In light, **Black and White aren't hues**; they're brightness, the absence of light and all of it. They fall off a light wheel. That wheel is Red, Yellow, Green, Cyan, Blue, Magenta.
+- Light gives purple honestly, but it loses **brown and grey**, the two hybrids Troy wants to keep. It also makes **yellow**, which would look too much like Gold.
+- *(Claude)* One idea it suggests: a hue wheel (Red, Green, Blue and their blends), with **Black and White as a separate dark–light axis** across it. Thematically, light belongs to Gold and Silver, the sun and moon.
+
 ## 5. Questions for Troy
 
 - Is rewriting the elemental feeding and checking cycle acceptable, or must the wheel keep it?
