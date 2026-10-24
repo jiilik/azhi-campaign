@@ -122,6 +122,31 @@ Keep the canon order (Blue, Green, Red, Black, White). Keep only the hybrids who
   - **New:** Yellow, Indigo.
 - *(Claude)* **Open: Brown and Yellow share the Red–Green gap.** Both have Red and Green as parents. One reading: **Brown** is Red and Green mixed like paint, the earth; **Yellow** is the same two mixed like light, the sun's earthly echo.
 
+## 4f. Indigo takes Glacier's traits *(Troy)*
+
+*(Troy)* **Indigo gets the former light-blue (Glacier) traits verbatim**, as a placeholder to tweak later. Here is Glacier's entry, copied exactly from `srd/04-character-origins/02-character-species.md`:
+
+> #### Glacier (White + Blue)
+>
+> _Glacier dragonborn are the great travellers of Azhi: envoys, guides, caravan masters and wandering diplomats, rich in lived wisdom rather than book learning. They show up in town, find the inn and get the best room._
+>
+> **Creature Type:** Humanoid
+> **Size:** Medium
+> **Speed:** 30 feet
+> **Ability Score Increase:** Wisdom or Charisma
+>
+> As a Glacier dragonborn, you have these special traits.
+>
+> _Seasoned Traveller._ You can control any willing Beast at least one size larger than you as a mount, even if it hasn't been trained to accept a rider. You have Advantage on ability checks to drive or steer a vehicle and to keep a mount under control. When you arrive in a settlement, you know its local customs, who's in charge, and a rumour or two.
+>
+> _Glacier Training._ You have proficiency in two of the following skills of your choice: Animal Handling, Insight, Medicine or Survival. You also have proficiency with your choice of Cartographer's Tools or Cook's Utensils.
+>
+> _Ribbons._ You have proficiency with one Gaming Set of your choice, and there's a game at every inn. _(OPEN: second ribbon.)_
+
+- *(Claude)* **Things to tweak later:**
+  - Glacier's parents were White and Blue; Indigo's are Blue and Black. Its ability choices (Wisdom or Charisma) and skills came from the White and Blue sides.
+  - Its flavour (great travellers, envoys, caravan masters) doesn't yet match Indigo's sense (the deep sea, ink and dye).
+
 ## 5. Questions for Troy
 
 - Is rewriting the elemental feeding and checking cycle acceptable, or must the wheel keep it?
