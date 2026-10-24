@@ -76,6 +76,31 @@ Keep the canon order (Blue, Green, Red, Black, White). Keep only the hybrids who
 - *(Claude)* **Ochre** may solve brown versus yellow. It's an earth pigment, the yellow-brown of clay and old cave paintings: a muted gold. It fits Red + Green whether you think of the mix as paint (brown) or light (yellow). It also keeps the earthy, farming feel of the old Soil hybrid.
 - *(Claude)* **It could answer an OPEN question** in the setting bible: whether Gold and Silver can ever be reached by phasing. Ochre and Grey could be the rare stepping stones toward them, though still not an easy player path, as canon requires.
 
+## 4d. A ten-slot wheel (2026-10-23, late evening)
+
+- *(Troy)* **Ignore the opposed pairs** for now. There are **ten slots**: five primaries, plus the two earthly echoes of the heavenly dragons, which sit naturally between adjacent colours.
+  - Troy's sketch: **red, ochre, green, blue, indigo, black, grey, white** (8).
+- *(Claude)* Spelling: **grey** is the Canadian spelling, and the repo already uses it.
+- *(Claude)* English has **eleven basic colour terms** (Berlin and Kay's research on colour words): black, white, red, green, yellow, blue, brown, purple, pink, orange and grey. The sketch covers seven of them; ochre spans yellow and brown, and indigo stands in for purple. Missing are **pink** and **orange**, plus yellow and brown as separate colours.
+- *(Claude)* **Splitting ochre into Brown and Yellow, and adding Pink, makes exactly ten:**
+
+| # | Form | Sits between | Sense (Claude) |
+|---|---|---|---|
+| 1 | Red | — | fire, mountains, industry |
+| 2 | **Brown** | Red and Yellow | earth and soil (brown is a darkened orange, so it sits by Red) |
+| 3 | **Yellow** | Brown and Green | the earthly echo of Gold, the sun |
+| 4 | Green | — | life |
+| — | *(no hybrid)* | Green and Blue squashed together | |
+| 5 | Blue | — | water |
+| 6 | **Indigo** | Blue and Black | the deep sea, ink and dye |
+| 7 | Black | — | knowledge, ambition |
+| 8 | **Grey** | Black and White | the earthly echo of Silver, the moon |
+| 9 | White | — | ice, empathy |
+| 10 | **Pink** | White and Red | White + Red in paint; dawn, blossom, warmth (conceptually the weakest) |
+
+- **Orange** is the alternative for slot 10. It's more vivid than pink but crowds Brown and Yellow, and Orange would need to replace Brown or Pink.
+- **Mixing:** with the opposed pairs set aside, the simplest rule is **neighbours blend, and each blend is named for how it looks**. Yellow and Grey are special as the earthly echoes of Gold and Silver, so they don't need to follow paint physics exactly.
+
 ## 5. Questions for Troy
 
 - Is rewriting the elemental feeding and checking cycle acceptable, or must the wheel keep it?
