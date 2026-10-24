@@ -495,6 +495,13 @@ The **Abilities** column suggests where a stat trait's +1 could go. The **Sugges
 > Someone else has the grand idea; you're the one who works out how many mules it needs. You keep the ledgers, draw up the watch rota and know who's slacking before they do. Under your eye, a mad plan becomes a schedule, and a schedule becomes a victory.
 
 - *Seeds (Claude):* suggested colours Red and Soil; Intelligence or Wisdom; a benefit for group effort over time (travel, making camp, crafting, a long job), so the party gets more done together. Keep it clear of the Commander (orders in a crisis) and White's Help as a Bonus Action. *(Troy)* The Steward is the second in command who carries out the Commander's crazy ideas.
+- *(Troy)* With no exclusions, a player could take **both the Commander and the Steward**: the crazy idea and the follow-through in one character, which could be fun. *(Claude)* That works as long as their benefits act in different arenas, the Commander in a crisis and the Steward over time. Combinations then add breadth rather than stacking onto one number. That's a useful test for every pair.
+
+### The Generous (draft)
+
+> Your door is never barred and your pot is never empty. You learn every name, and you make sure the quiet one at the edge of the fire gets the warmest seat. Coin is for spending and food is for sharing, and somehow you always seem to have enough of both.
+
+- *Seeds (Claude):* suggested colours Green and Soil; Charisma or Constitution; a benefit from hospitality, such as a shared meal on a rest, or goodwill wherever you've been generous. Keep it clear of Glacier's *Heard It on the Road*.
 
 ## Sources
 
