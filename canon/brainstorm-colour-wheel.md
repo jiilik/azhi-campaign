@@ -257,6 +257,15 @@ Keep the canon order (Blue, Green, Red, Black, White). Keep only the hybrids who
 - **Removed:** Inventive Genius, Careful Senses, the tools (so the firearms route now has no form), Well Travelled, and every reference to ink.
 - **Risk:** Undertow depends on the DM, like the "ask the DM one question" idea Troy rejected for Slate. A firmer version: name a contact in each port town, who owes your people a favour.
 
+## 4j. The secret society beneath the surface *(Troy)*
+
+- *(Troy)* Without the villainy, Indigo feels like **the unknowable secret society living just beneath the surface, as in John Wick**.
+- *(Claude)* Ideas borrowed from that feel. These are inspiration only; don't use the films' names.
+  - **Neutral houses:** quiet Indigo-run houses in the port towns, where business is done and violence is forbidden. Anyone may shelter there, if they keep the rules.
+  - **Debts as currency:** favours owed and repaid, marked with a token such as a black pearl from the deeps. A debt is never forgotten, and it's always collected.
+  - **Etiquette:** strict, unwritten rules that outsiders only half understand.
+- *(Claude)* **A firmer Undertow**, using debt tokens so it depends less on the DM: you begin with a number of favours (pearls) equal to your Proficiency Bonus, and spend one to call on the network for a small service in a port. You earn more through play, and pearls can be traded, given or owed.
+
 ## 5. Questions for Troy
 
 - Is rewriting the elemental feeding and checking cycle acceptable, or must the wheel keep it?
