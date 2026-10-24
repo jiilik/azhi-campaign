@@ -424,6 +424,8 @@ The **Abilities** column suggests where a stat trait's +1 could go. The **Sugges
 
 ## 12. Flavour descriptions, one trait at a time (from 2026-10-23)
 
+*(Troy)* For this exercise, **disregard the current twelve traits**; Troy expects the nineteen to replace them entirely.
+
 *(Troy)* Each trait gets a **short, non-mechanical flavour description**, a hook for players choosing a trait. The descriptions may later inform each trait's suggested colours, ability choices and mechanics. The notes under each draft are Claude's seeds for that later work, not part of the text.
 
 ### The Strategist (draft)
@@ -436,7 +438,13 @@ The **Abilities** column suggests where a stat trait's +1 could go. The **Sugges
 
 > Everyone else accepts that the spine of the world never bends. You want to know why. You chase an idea down to its bones, take it apart and put it back together a little better, and you'll happily miss supper doing it. A good question keeps you warmer than any fire.
 
-- *Seeds (Claude):* suggested colours Black and Slate; Intelligence; a benefit for working out how something works, or why. Keep it clear of Slate's Bonus Action Study and the old Quizmaster.
+- *Seeds (Claude):* suggested colours Black and Slate; Intelligence; a benefit for working out how something works, or why. Keep it clear of Slate's Bonus Action Study.
+
+### The Commander (draft)
+
+> When the shouting starts, every head turns to you, and you've already decided. You see where the group should be going and can't help pointing the way. You'd rather make a bold call and own it than wait for a perfect one, and somehow people keep following you.
+
+- *Seeds (Claude):* suggested colours Red and Oxblood; Charisma or Strength; a benefit that lets allies act on your orders in a crisis. Keep it clear of White's Help as a Bonus Action. The Commander is the party face; the Steward is the second in command.
 
 ## Sources
 
