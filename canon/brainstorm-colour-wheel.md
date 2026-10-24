@@ -101,6 +101,27 @@ Keep the canon order (Blue, Green, Red, Black, White). Keep only the hybrids who
 - **Orange** is the alternative for slot 10. It's more vivid than pink but crowds Brown and Yellow, and Orange would need to replace Brown or Pink.
 - **Mixing:** with the opposed pairs set aside, the simplest rule is **neighbours blend, and each blend is named for how it looks**. Yellow and Grey are special as the earthly echoes of Gold and Silver, so they don't need to follow paint physics exactly.
 
+## 4e. Nine forms *(Troy)*
+
+*(Troy)* **Drop both Pink and Orange; use nine forms.**
+
+**Red → Brown → Yellow → Green → Blue → Indigo → Black → Grey → White → back to Red**
+
+| Gap | Hybrid(s) |
+|---|---|
+| Red and Green | **Brown** (by Red) and **Yellow** (by Green, the earthly echo of Gold) |
+| Green and Blue | none (squashed together) |
+| Blue and Black | **Indigo** |
+| Black and White | **Grey** (the earthly echo of Silver) |
+| White and Red | none (squashed together) |
+
+- That's 5 colours and 4 hybrids, which with the Unphased makes **10 options at character creation**.
+- **Compared with current canon:**
+  - **Retired:** Marsh, Oxblood, Glacier.
+  - **Carried over:** Soil becomes Brown; Slate becomes Grey.
+  - **New:** Yellow, Indigo.
+- *(Claude)* **Open: Brown and Yellow share the Red–Green gap.** Both have Red and Green as parents. One reading: **Brown** is Red and Green mixed like paint, the earth; **Yellow** is the same two mixed like light, the sun's earthly echo.
+
 ## 5. Questions for Troy
 
 - Is rewriting the elemental feeding and checking cycle acceptable, or must the wheel keep it?
