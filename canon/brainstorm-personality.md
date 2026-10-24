@@ -484,6 +484,12 @@ The **Abilities** column suggests where a stat trait's +1 could go. The **Sugges
 
 - *Seeds (Claude):* suggested colours Black and Soil; Intelligence or Wisdom; a benefit for having the right ordinary item or plan ready, such as producing a piece of gear you "packed earlier". Keep it clear of the Strategist (Initiative, the first round) and the Rock (not being Surprised).
 
+### The Guardian (draft)
+
+> You remember who takes their tea bitter and who flinches at thunder, and you quietly make room for both. You're the last to eat and the first to stand between your friends and whatever's coming. Nobody asked you to keep them safe; you simply never stopped.
+
+- *Seeds (Claude):* suggested colours Green and Soil; Constitution or Wisdom; a benefit for protecting or tending a nearby ally. Keep it clear of *Bodyguard* (pulling an ally aside), which Troy earmarked as a Battle Master maneuver.
+
 ## Sources
 
 - [Facet (psychology), Wikipedia](https://en.wikipedia.org/wiki/Facet_(psychology)): Big Five facets.
