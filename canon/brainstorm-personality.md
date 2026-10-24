@@ -521,6 +521,12 @@ The **Abilities** column suggests where a stat trait's +1 could go. The **Sugges
 
 - *Seeds (Claude):* suggested colours Red and Blue; Dexterity or Strength; a benefit for taking the risky option, such as leaping, charging or acting first. **Watch the overlap with the Strategist:** both have seeds around getting the jump in a fight. One fix is to give Initiative to the Bold, and give the Strategist something about the plan (positioning, or the allies' first round).
 
+### The Magnificent (draft)
+
+> When you walk into a room, the music seems to get louder. You laugh easily, dress brightly and make strangers feel like old friends, and crowds have a way of drifting toward you. You never ask for the spotlight. It just keeps finding you.
+
+- *Seeds (Claude):* suggested colours Blue and Glacier; Charisma; a benefit for first impressions and winning over a crowd. Keep it clear of the Commander (the party face who gives direction) and the Generous (hospitality). The Braggart, now a flaw, *asks* for the spotlight; the Magnificent doesn't need to.
+
 ## Sources
 
 - [Facet (psychology), Wikipedia](https://en.wikipedia.org/wiki/Facet_(psychology)): Big Five facets.
