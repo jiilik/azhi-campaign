@@ -452,11 +452,19 @@ The **Abilities** column suggests where a stat trait's +1 could go. The **Sugges
 
 - *Seeds (Claude):* suggested colours Blue and Black; Charisma or Intelligence; a benefit in arguments and negotiations, such as finding the hole in someone's case. Keep it clear of Blue's Trader's Tongue reroll. *(Troy)* You could build a politician from it.
 
-### The Seer (draft)
+### The Confidant (draft; was the Seer)
+
+*(Troy, tentative)* Renamed **the Confidant**, because "the Seer" implied magic. It comes from INFJ (16Personalities' Advocate, Keirsey's Counselor). Also considered: the Discerning, the Perceptive, the Insightful, the Counsellor, the Wise (too tied to the Wisdom score), the Silent (William the Silent), the Discreet, the Confessor and the Trusted. *(Claude)* With the new name, the line "It isn't magic" could go.
 
 > You notice the pause before an answer, the glance toward the door, the smile that stops short of the eyes. People tell you things they've told no one else, and you often know how a story ends before it's half told. It isn't magic. You simply pay attention.
 
 - *Seeds (Claude):* suggested colours White and Slate; Wisdom or Charisma; a benefit for reading intentions and sensing where a situation is heading. Intuition about people, not divination: the Prudent foresees by logic, the Seer by reading people. Keep it clear of Glacier's people-reading.
+
+### The Dreamer (draft)
+
+> Somewhere behind your eyes is a better world, and you can see it in every detail. You hold to what's right even when it costs you, and you'd rather fail at something worth doing than succeed at something hollow. People mistake your quiet for distance. It's conviction.
+
+- *Seeds (Claude):* suggested colours White and Glacier; Wisdom or Charisma; a benefit for holding firm to your values under pressure. Keep it clear of Black's Guarded Mind (Advantage on mental saving throws).
 
 ## Sources
 
