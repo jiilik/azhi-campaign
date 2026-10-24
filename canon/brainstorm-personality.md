@@ -509,6 +509,12 @@ The **Abilities** column suggests where a stat trait's +1 could go. The **Sugges
 
 - *Seeds (Claude):* suggested colours Red and Marsh; Dexterity or Intelligence; a benefit for improvising, such as making do with the wrong tool or a makeshift one. Keep it clear of the Prudent (who packed the right thing) and Oxblood's Inventive Genius.
 
+### The Wanderer (draft)
+
+> On a world shaped like a ring, every road eventually leads back home, and you mean to walk them all. Three nights under one roof makes you restless, and you'd trade a soft bed for a new horizon without a second thought. Somewhere out there is a view no one has ever drawn, and it's waiting for you.
+
+- *Seeds (Claude):* suggested colours Glacier and Green; Constitution or Wisdom; a benefit for long overland travel, such as endurance, finding the way or a good place to camp. Keep it clear of Glacier's Seasoned Traveller (mounts and vehicles) and Marsh's Swamp Walker (difficult terrain).
+
 ## Sources
 
 - [Facet (psychology), Wikipedia](https://en.wikipedia.org/wiki/Facet_(psychology)): Big Five facets.
