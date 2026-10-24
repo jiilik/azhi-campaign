@@ -377,7 +377,7 @@ Keep the canon order (Blue, Green, Red, Black, White). Keep only the hybrids who
 
   - The tail is worth perhaps **3–4**, so swapping out Regeneration leaves **about 4–5 points to fill**.
   - The swap also drops Green's design intent as the burst tank who takes a beating, along with the flavour line "Green dragonborn take a beating and keep going."
-  - **Open:** if Green leans Dexterity, should its +1 move from Constitution to Dexterity (or Constitution or Dexterity)?
+  - *(Troy)* **Green's +1 becomes Dexterity or Constitution.** That gives Dexterity a second home on the wheel (it was Blue only) and keeps Constitution's two (Green, Brown).
 
 ## 5. Questions for Troy
 
