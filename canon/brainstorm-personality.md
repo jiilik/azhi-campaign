@@ -533,6 +533,12 @@ The **Abilities** column suggests where a stat trait's +1 could go. The **Sugges
 
 - *Seeds (Claude):* suggested colours Green and Slate; Constitution or Wisdom; *(Troy)* something like "can't be Surprised", and perhaps steadiness against fear. Keep it clear of the Dreamer (holding to values) and Black's Guarded Mind. "The sky can go dark at noon" draws on the canon wandering sun.
 
+### The Devout (draft)
+
+> You know the old story by heart, and you know the dragons who lived it still fly overhead and walk the land. Your faith isn't a comfort kept for hard nights; it's the reason you set out at all. Wherever the road leads, you walk it as an offering.
+
+- *Seeds (Claude):* suggested colours White and Black; Wisdom or Charisma; a benefit drawn from faith, such as steadiness when it's tested or knowledge of sacred things. Keep it clear of cleric and paladin class features. Faith can honour any of the seven dragons, and it never means contempt for the others (no "racist dragons").
+
 ## Sources
 
 - [Facet (psychology), Wikipedia](https://en.wikipedia.org/wiki/Facet_(psychology)): Big Five facets.
