@@ -187,6 +187,26 @@ Keep the canon order (Blue, Green, Red, Black, White). Keep only the hybrids who
 - **New ribbon:** *Indigo Ink* ties the form to dye and ink.
 - **Points:** about 17 (Inventive Genius about 7, Well Travelled about 1.5, Careful Senses 1, two skills 3, a tool 1, the +1 4). That's above the old hybrid range of about 13–16. Canon puts bichromes below the primaries (17–18.5), so to trim, take **one skill instead of two**, for about 15.5.
 
+## 4h. Indigo as deep-water lurkers *(Troy)*
+
+*(Troy)* Give Indigo some of the best of Blue and Black, **Darkvision and swimming**, so that together they're **lurkers in the deep water**. **Drop every reference to ink** (the description and the *Indigo Ink* ribbon) and **drop Well Travelled**. Points saved elsewhere must pay for it.
+
+**Points (Claude):**
+
+| Feature | Points |
+|---|---|
+| Inventive Genius | ~7 |
+| Darkvision | 3 |
+| Swim Speed | 2 |
+| Careful Senses (counts as a ribbon) | 1 |
+| Two skills | 3 |
+| One tool | 1 |
+| +1 to an ability | 4 |
+| **Total** | **~21** |
+
+- The target is about 15–16. Canon puts bichromes below the five colours, which sit at 17–18.5. So it's **about 5 over**.
+- **Canon conflict:** "Darkvision belongs to Black alone" is canon (decisions, 2026-10-21, and design review check 7). Giving Indigo Darkvision needs Troy's approval to change that, alongside the wider wheel rework.
+
 ## 5. Questions for Troy
 
 - Is rewriting the elemental feeding and checking cycle acceptable, or must the wheel keep it?
