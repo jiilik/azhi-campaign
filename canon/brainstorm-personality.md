@@ -515,6 +515,12 @@ The **Abilities** column suggests where a stat trait's +1 could go. The **Sugges
 
 - *Seeds (Claude):* suggested colours Glacier and Green; Constitution or Wisdom; a benefit for long overland travel, such as endurance, finding the way or a good place to camp. Keep it clear of Glacier's Seasoned Traveller (mounts and vehicles) and Marsh's Swamp Walker (difficult terrain).
 
+### The Bold (draft)
+
+> You were halfway across the chasm before anyone finished saying "we should think about this." Danger doesn't frighten you; it wakes you up. Half your stories end with "and then it got worse," and you tell every one of them grinning.
+
+- *Seeds (Claude):* suggested colours Red and Blue; Dexterity or Strength; a benefit for taking the risky option, such as leaping, charging or acting first. **Watch the overlap with the Strategist:** both have seeds around getting the jump in a fight. One fix is to give Initiative to the Bold, and give the Strategist something about the plan (positioning, or the allies' first round).
+
 ## Sources
 
 - [Facet (psychology), Wikipedia](https://en.wikipedia.org/wiki/Facet_(psychology)): Big Five facets.
