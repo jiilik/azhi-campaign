@@ -490,6 +490,12 @@ The **Abilities** column suggests where a stat trait's +1 could go. The **Sugges
 
 - *Seeds (Claude):* suggested colours Green and Soil; Constitution or Wisdom; a benefit for protecting or tending a nearby ally. Keep it clear of *Bodyguard* (pulling an ally aside), which Troy earmarked as a Battle Master maneuver.
 
+### The Steward (draft)
+
+> Someone else has the grand idea; you're the one who works out how many mules it needs. You keep the ledgers, draw up the watch rota and know who's slacking before they do. Under your eye, a mad plan becomes a schedule, and a schedule becomes a victory.
+
+- *Seeds (Claude):* suggested colours Red and Soil; Intelligence or Wisdom; a benefit for group effort over time (travel, making camp, crafting, a long job), so the party gets more done together. Keep it clear of the Commander (orders in a crisis) and White's Help as a Bonus Action. *(Troy)* The Steward is the second in command who carries out the Commander's crazy ideas.
+
 ## Sources
 
 - [Facet (psychology), Wikipedia](https://en.wikipedia.org/wiki/Facet_(psychology)): Big Five facets.
