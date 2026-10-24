@@ -478,6 +478,12 @@ The **Abilities** column suggests where a stat trait's +1 could go. The **Sugges
 
 - *Seeds (Claude):* suggested colours Blue and Marsh; Dexterity or Intelligence; a benefit for finding what's hidden: secret doors, side passages, the thing behind the thing. Keep it clear of Slate's Bonus Action Search. The Theorist asks why; the Curious asks what's in there; the Wanderer asks what's over the next hill.
 
+### The Prudent (draft)
+
+> You've already thought about what could go wrong, and you've packed for most of it. When the bridge gives way and everyone else is shouting, you're handing out the rope you brought for exactly this. It isn't luck, and it isn't prophecy: just a careful eye and a lifelong habit of asking "and then what?"
+
+- *Seeds (Claude):* suggested colours Black and Soil; Intelligence or Wisdom; a benefit for having the right ordinary item or plan ready, such as producing a piece of gear you "packed earlier". Keep it clear of the Strategist (Initiative, the first round) and the Rock (not being Surprised).
+
 ## Sources
 
 - [Facet (psychology), Wikipedia](https://en.wikipedia.org/wiki/Facet_(psychology)): Big Five facets.
