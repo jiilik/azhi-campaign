@@ -299,6 +299,86 @@ Keep the canon order (Blue, Green, Red, Black, White). Keep only the hybrids who
 
 - *(Troy)* Define the forms not yet designed, **starting with Yellow**. Brown and Grey are already defined (from Soil and Slate), so skip them.
 
+## 4l. Societies, knowledge colours, Yellow and a Green rework (voice session, 2026-10-24)
+
+### Phasing as emigration
+
+- *(Troy)* A dragonborn who phases must be **taken in by their new society**. Either they stay in the same role under a new colour, or they seek out others like them and **start fresh, perhaps at the bottom of the ladder**, in a new civilization or faction.
+- *(Claude)* How welcoming that is could differ by colour: some take newcomers in, others make them prove themselves.
+- *(Troy)* **Phasing into Indigo** means arriving with **no reputation** in a reputation-driven society. *(Claude)* With no pearls and no name, borrowing is the only way in, so a newly phased Indigo starts their new life in debt.
+
+### Societies
+
+- *(Troy)* **Blue** are trade-oriented and welcome everyone, so the port cities they run are **cosmopolitan, diverse and fun places to set campaigns**. The setting's equivalent of Baldur's Gate would be a Blue city.
+- *(Troy)* **White** live in **monasteries hidden in the mountains**. White characters turn up anywhere, but rarely in large numbers outside the monasteries.
+- *(Claude)* Indigo's neutral houses would sit inside the Blue ports.
+
+### The wheel as colour order, not opposition
+
+- *(Troy)* **Worry less about adjacency and opposition.** The wheel is a colour order, and **rule of cool** applies for now. *(Claude)* This sets aside the canon checking pairs as structure. The current order, Red, Brown, Yellow, Green, stays, even though by role Yellow sits nearer Red and Brown nearer Green.
+
+### Red, Yellow, Brown and Green: industry and nature
+
+- *(Troy)* **Red** are large, tool-oriented **smiths** and probably the **miners**.
+- *(Troy)* The alchemist and inventor role goes to **Yellow** rather than Red: a bright flame burns more yellow than red, and a gunpowder flash is yellow-white.
+  - *(Claude)* Red keeps the forge (steady heat, hammered metal); Yellow takes the flash (alchemy, gunpowder, invention). That gives the **firearms route** a home again.
+- *(Troy)* Yellow and Brown sit between Red and Green, almost like industrialists:
+  - **Red** mines.
+  - **Yellow** turns the ore into inventions.
+  - **Brown** farms.
+  - **Green**, the environmentalists, resist the farming, which turns natural land into harvested land. They may resist inventions that run counter to their goals, too.
+  - *(Claude)* That's a land-use dispute, not prejudice.
+
+### Yellow, the open-source inventors
+
+- *(Troy)* Yellow are **freewheeling and open-source**: knowledge should be shared publicly. "Never let your candle be dimmed." *(Claude)* Lighting someone else's candle costs you nothing.
+- *(Troy)* Yellow have **poor business sense** about their inventions and are bad at the whole intellectual-property thing.
+  - **Blue and Yellow** make a natural pair: the business brains and the inventor brains working in tandem.
+  - *(Claude)* Yellow invents it, Blue sells it, and Yellow wonders where the money went.
+- *(Troy)* Green aren't necessarily upset with Yellow, because they don't think Yellow is trying to pave over the forest. Yellow try to invent things that **suit other people's needs**, even things to help preserve the forest.
+  - *(Claude)* Green see Yellow as naive, not as an enemy. Their real quarrel is with whoever turns the inventions into profit and paved fields.
+
+### The five knowledge colours
+
+| Colour | Stance on knowledge |
+|---|---|
+| Black | **hoards** it and keeps it secret |
+| Indigo | **trades** it as secrets |
+| Yellow | **gives it away**, open source |
+| White | **teaches** it as wisdom (clerics, monasteries); agrees or clashes with Yellow depending on the topic, for example over dangerous knowledge |
+| Grey | **uncovers** it (Gandalf, investigators); finds Yellow's free sharing troublesome |
+
+- *(Troy)* The joke that sums it up: at a crime scene, "another Yellow dragonborn blowing something up they don't understand."
+  - *(Claude)* A possible Yellow ribbon: people assume any explosion nearby was your fault.
+- *(Claude)* **Watch:** five of nine colours are knowledge-oriented. Their motivations differ, but their skills could blur.
+
+### Yellow's features
+
+- A sketch by Claude was **rejected by Troy**: fire resistance and a dazzling flash, inventor's tools, and an "open book" ribbon. Start Yellow's features fresh.
+
+### Green rework *(Troy)*
+
+- *(Troy)* Lean into **Green's Dexterity side** (it already has a Climb Speed) instead of **Regeneration**. Give it a **prehensile tail**.
+- *(Troy)* Minor combat uses are fine, provided that isn't all it does, like the natural weapons of the non-SRD Tabaxi.
+- *(Claude)* A version written fresh (Tabaxi aren't in the SRD):
+  - the tail can hold a light object or let you hang from a branch, keeping your hands free while you climb;
+  - it can make a **1d6 bludgeoning** tail swipe, or perhaps a trip or shove.
+- *(Claude, checked against the repo)* Green today:
+
+| Feature | Points |
+|---|---|
+| Regeneration | 8 |
+| Climb Speed | 2 |
+| Nature | 1.5 |
+| Survival | 1.5 |
+| Herbalism or Poisoner's Kit | 1 |
+| +1 to Constitution | 4 |
+| **Total** | **18** |
+
+  - The tail is worth perhaps **3–4**, so swapping out Regeneration leaves **about 4–5 points to fill**.
+  - The swap also drops Green's design intent as the burst tank who takes a beating, along with the flavour line "Green dragonborn take a beating and keep going."
+  - **Open:** if Green leans Dexterity, should its +1 move from Constitution to Dexterity (or Constitution or Dexterity)?
+
 ## 5. Questions for Troy
 
 - Is rewriting the elemental feeding and checking cycle acceptable, or must the wheel keep it?
