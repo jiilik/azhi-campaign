@@ -514,6 +514,12 @@ Keep the canon order (Blue, Green, Red, Black, White). Keep only the hybrids who
 - *(Troy)* **Skills:** two from **Arcana, Investigation, Nature or Performance**, the recommended list. *(Claude: the optional Sleight of Hand is left out.)*
 - *(Troy)* **Tool:** proficiency with **one tool of your choice**, worth about 1 point. Yellow is now **~16**.
   - *(Claude)* A free choice includes Tinker's Tools, which craft firearms, and Alchemist's Supplies. That's the player's choice rather than an innate firearms feature, so it stays within Troy's "no innate firearms" rule, but it's worth knowing. Red also has two tools of its choice.
+- *(Troy)* **Add the *Light* cantrip.**
+  - *(Claude, SRD checked)* *Light* is an Evocation cantrip with a casting time of an Action, range Touch, components V and M (a firefly or phosphorescent moss), and a duration of 1 hour. It makes an object not worn or carried by someone else shed Bright Light in a 20-foot radius and Dim Light for 20 more feet. There's no saving throw, so it needs no spellcasting ability.
+  - *(Claude)* About **1.5–2 points**. It's worth more on Azhi than usual, because only Black (and Indigo) have Darkvision and day and night are unpredictable.
+  - **Total: about 17.5–18**, which is in the colours' range (17–18.5).
+  - Canon's power budget puts **bichromes below the five colours**, so either accept the overage (as with Red's and Black's) or trim, for example drop the tool (−1) or one skill (−1.5).
+  - **Open:** does Yellow ignore the M component, as many species spells implicitly do?
 - **Still to do:** two ribbons and the flavour line.
 
 ## 5. Questions for Troy
