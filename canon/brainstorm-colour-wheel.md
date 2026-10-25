@@ -511,7 +511,10 @@ Keep the canon order (Blue, Green, Red, Black, White). Keep only the hybrids who
 | Bright Idea | ~6 |
 | **Total** | **~15** |
 
-- **Still to do:** the final skill list, two ribbons, and the flavour line.
+- *(Troy)* **Skills:** two from **Arcana, Investigation, Nature or Performance**, the recommended list. *(Claude: the optional Sleight of Hand is left out.)*
+- *(Troy)* **Tool:** proficiency with **one tool of your choice**, worth about 1 point. Yellow is now **~16**.
+  - *(Claude)* A free choice includes Tinker's Tools, which craft firearms, and Alchemist's Supplies. That's the player's choice rather than an innate firearms feature, so it stays within Troy's "no innate firearms" rule, but it's worth knowing. Red also has two tools of its choice.
+- **Still to do:** two ribbons and the flavour line.
 
 ## 5. Questions for Troy
 
