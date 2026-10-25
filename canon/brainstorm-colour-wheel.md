@@ -542,6 +542,46 @@ Keep the canon order (Blue, Green, Red, Black, White). Keep only the hybrids who
 
 - Brown, Grey and Indigo need topping up, to be decided form by form.
 
+## 4q. Grey, topped up (2026-10-24)
+
+*(Troy)* Grey (formerly Slate) gains **Heard It on the Road** (from the retired Glacier) and **Moonsight**. The extra skill and tool go **into its option lists**. A new ribbon, **an air of authority**, leans into the Gandalf and investigator tropes: when things go sideways, people uncannily assume you're the right person to talk to. It's a ribbon, not a trait.
+
+> #### Grey (Black + White)
+>
+> _Grey dragonborn put Black's knowledge to work for others: investigators and detectives, wandering sages who notice what everyone else misses, though a few turn the same skills to burglary. Theirs is the quiet, watchful light of the moon, the closest earthly echo of Silver._ _(Claude: the old Slate line, with the moon added.)_
+>
+> **Creature Type:** Humanoid
+> **Size:** Medium
+> **Speed:** 30 feet
+> **Ability Score Increase:** Intelligence or Wisdom
+>
+> As a Grey dragonborn, you have these special traits.
+>
+> _Keen Investigator._ You can take the Search or Study action as a Bonus Action. You can also cast _Augury_, _Detect Magic_ and _Find Traps_, but only as Rituals; for you, _Find Traps_ has the Ritual tag. _(OPEN: the name of this trait is a placeholder.)_
+>
+> _Moonsight._ Within 60 feet of you, you can see in Dim Light as if it were Bright Light.
+>
+> _Heard It on the Road._ When you arrive in a settlement, you know its local customs, who's in charge, and a rumour or two.
+>
+> _Grey Training._ You have proficiency in two of the following skills of your choice: History, Insight, Investigation, Perception or Religion. You also have proficiency with one of the following tools of your choice: Calligrapher's Supplies, Cartographer's Tools, Forgery Kit or Thieves' Tools.
+>
+> _Ribbons._ _Uncanny Timekeeping:_ you always know the exact time, even underground or with no sky to read. _Air of Authority:_ when things go sideways, people uncannily assume you're the right person to talk to.
+
+**Points (Claude):**
+
+| Feature | Points |
+|---|---|
+| Keen Investigator | ~7 |
+| Moonsight | ~1.5 |
+| Heard It on the Road | ~1.5 |
+| Two skills | 3 |
+| One tool | 1 |
+| +1 to Intelligence or Wisdom | 4 |
+| **Total** | **~18** |
+
+- Added to the option lists: Insight (skills) and Cartographer's Tools (tools). Both lists are still a single pick count, so the points don't change.
+- *(Claude)* Moonsight stops short of Darkvision. In true darkness Grey still needs a light, which keeps Black's (and Indigo's) Darkvision special.
+
 ## 5. Questions for Troy
 
 - Is rewriting the elemental feeding and checking cycle acceptable, or must the wheel keep it?
