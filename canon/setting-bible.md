@@ -49,18 +49,21 @@ When a PROPOSED item is confirmed or rejected, update its status here and add a 
 ### Unphased, Phased and phasing
 
 - **CANON.** All dragonborn are **born polychromatic**. Young dragonborn with no settled form are **Unphased**. This mirrors the myth: the young dragons are "of many forms and colours" until each finds what it loves and "their forms become fixed."
-- **CANON.** As they mature, dragonborn **settle into a final form** with an elemental affinity to **one or two** of the five surface dragons (Blue, Green, Red, Black, White):
-  - **Monochrome:** one colour, giving 5 forms.
-  - **Bichrome:** two colours that are **adjacent on the colour wheel**, giving 5 forms, for **10 common forms** in all. Blends are named like mixed paint pigments; for example, Green + Red is **brown**. **Order is irrelevant** (Green + Red is the same form as Red + Green).
+- **CANON.** As they mature, dragonborn **settle into a final form** with an elemental affinity to one of the five surface dragons (Red, Green, Blue, Black, White) or to a **blend** of two neighbouring colours.
+- **CANON (2026-10-24; replaces the ten-form wheel). The colour wheel has nine forms:** **Red → Brown → Yellow → Green → Blue → Indigo → Black → Grey → White** → back to Red.
+  - 5 colours and 4 blends. Green and Blue sit side by side with no blend, as do White and Red.
+  - Blends **mix like paint, not light** (Red + Green is brown; Black + White is grey; Blue + Black is indigo). **Yellow** is the exception: the same parents as Brown, Red and Green, mixed like light, giving daylight instead of earth.
+  - **Yellow and Grey** are the **closest earthly echoes of Gold (the sun) and Silver (the moon)**.
+  - **Order is irrelevant** within a blend. The wheel is a colour order chosen by rule of cool; it no longer defines which elements oppose which.
+  - **Retired:** the ten-form wheel's Marsh, Soil, Oxblood, Slate and Glacier. Soil's features passed to Brown and Slate's to Grey.
 - **CANON.** What triggers settling is **left to players' backstories**. It can be finding a calling (the myth's model), the influence of surroundings, or anything else they invent.
 - **CANON. Phasing:** something dramatic, traumatic or deadly can make a dragonborn **phase** from one form into another. They keep parts of their former personality and most of their memories. Rebirth and reincarnation are strong themes, echoing the myth, in which everything Azhi devoured "springs forth anew." Phasing **carries a penalty** so that players can't exploit it; the penalty is not yet designed.
 - **CANON.** There is **no return to Unphased** within the mechanics. The DM may allow it on rare occasions for narrative reasons.
 - **CANON. Gold and Silver dragonborn** are **super rare**. They are NPCs who can motivate plot, and there is no easy way for players to phase into them. Their species definitions should still exist, in case they become relevant. Reason (Troy): the Gold and Silver dragons generally don't take direct interest in the activities of those below.
-- **CANON (game design).** **Power budget: Unphased < bichrome < monochrome.**
+- **CANON (game design; revised 2026-10-24).** **Power budget: Unphased < every form.** All nine forms have **similar point totals** (about 17–18.5); blends are no longer held below the five colours.
   - **Unphased** characters are playable. They are young and flexible: they take **three personality traits and no affinity**, and may **swap one trait on each Long Rest** (2026-10-21). Their total bonuses are lower, to encourage players to find a phase and settle.
-  - **Bichrome** characters have **their own signature feature** that blends both parents, plus small picks from each (2026-10-21; this replaces "a couple of features from either parent colour"). Their total sits between Unphased and monochrome, to discourage munchkin builds.
-- **CANON (2026-10-21). The wheel's adjacency follows the feeding cycle** below: Blue–Green, Green–Red, Red–Black, Black–White, White–Blue. The forbidden pairs are exactly the **checking (opposition) pairs**, so no dragonborn holds two opposed elements.
-- **CANON (2026-10-21). Bichrome names:** **Marsh** (Blue + Green, teal), **Soil** (Green + Red, brown/umber), **Oxblood** (Red + Black), **Slate** (Black + White), **Glacier** (White + Blue). The hex colours used in art are working values.
+  - **Blends** have **their own signature feature** rather than either parent's, plus picks that suit both.
+- **CANON (2026-10-24). Blend names:** **Brown**, **Yellow** (both Red + Green), **Indigo** (Blue + Black), **Grey** (Black + White). The hex colours used in art are working values. *(Replaces the 2026-10-21 adjacency-by-feeding-cycle rule and the names Marsh, Soil, Oxblood, Slate and Glacier.)*
 - **PROPOSED. Phasing penalty levers:**
   - The result is set by the event or rolled, not chosen. The SRD *Reincarnate* spell is a model.
   - A fading penalty, like *Raise Dead*'s, or Exhaustion.
@@ -73,18 +76,38 @@ When a PROPOSED item is confirmed or rejected, update its status here and add a 
   - The exact phasing penalty.
   - Whether Gold and Silver can ever be reached by phasing.
 - **CANON (2026-10-21). Character building.** The full specification is `canon/brainstorm-species.md`. In short:
-  - A **phased** character takes **one affinity** (one of the 10 forms) and **two personality traits**. An **Unphased** character takes three traits and no affinity.
+  - A **phased** character takes **one affinity** (one of the 9 forms) and **two personality traits**. An **Unphased** character takes three traits and no affinity.
   - The 2024 **backgrounds are dropped**. What they gave is folded into the affinities and traits.
-  - **Ability scores:** +1 from each trait and +1 from the affinity. The affinity's +1 goes to the form's primary ability: Red Strength; Green Constitution; White Wisdom; Blue Dexterity or Charisma; Black Intelligence or Charisma; Marsh Dexterity or Constitution; Soil Constitution or Strength; Oxblood Strength or Intelligence; Slate Intelligence or Wisdom; Glacier Wisdom or Charisma.
+  - **Ability scores:** +1 from each trait and +1 from the affinity. The affinity's +1 goes to the form's primary ability: Red Strength; Brown Constitution or Strength; Yellow Intelligence or Constitution; Green Dexterity or Constitution; Blue Dexterity or Charisma; Indigo Charisma; Black Intelligence or Charisma; Grey Intelligence or Wisdom; White Wisdom. *(Revised 2026-10-24.)*
   - **Personality traits** come from one shared list, not tied to colours. Each is a personality, not a feat, with a +1 to a fixed ability and a situational benefit that any class can use. There are 12 to start, two per ability; more will be added.
-  - Each form has a **signature** and **two ribbons**: Blue Trader's Tongue and amphibious swimming; Green Regeneration; Red Large; Black Guarded Mind and darkvision; White Help as a Bonus Action and flight; Marsh Swamp Walker; Soil Rooted; Oxblood Inventive Genius; Slate Search or Study as a Bonus Action; Glacier Seasoned Traveller.
-  - **Darkvision belongs to Black alone.**
-  - **Balance** uses a tentative point scale with a budget of about 35. It can be redone.
+  - Each form has a **signature** and **two ribbons** *(revised 2026-10-24; full text in `srd/04-character-origins/02-character-species.md`)*:
+    - Red: Large, with Advantage on Strength checks.
+    - Brown: Rooted.
+    - Yellow: Bright Idea.
+    - Green: Prehensile Tail *(replaces Regeneration)*.
+    - Blue: Trader's Tongue, and amphibious swimming.
+    - Indigo: Undertow, the pearl-debt network.
+    - Black: Guarded Mind, and Darkvision.
+    - Grey: Keen Investigator.
+    - White: Help as a Bonus Action, and flight.
+  - **Darkvision belongs to Black and Indigo alone** *(Indigo added 2026-10-24, Troy's override)*.
+  - **Balance** uses a tentative point scale with a budget of about 35. Each form sits at about 17–18.5. It can be redone.
   - **OPEN:** several second ribbons, Hyperactive's d12 table and materials cost, and the rest of the list in that file's §10.
 - **PROPOSED.** Each colour's culture has **internal disagreements** that matter more than its external rivalries. Rivalries look like **policy disputes** between neighbours who trade and intermarry, such as water rights or forests versus forges.
-- **CANON (2026-10-21). The elemental wheel** (modelled on the Chinese five-phase cycle). Affinity features must fit it:
+- **RETIRED (2026-10-24; was CANON 2026-10-21). The elemental wheel.** It's no longer a design constraint: the colour wheel follows rule of cool. Kept for reference, and as possible in-world philosophy:
   - Feeding: Blue → Green → Red → Black → White → Blue. Water nourishes life, growth fuels fire, ash becomes ink, records preserve like ice, and ice melts to water.
   - Checking: Blue quenches Red; Red melts White; White's frost kills Green; Green's rot erases Black's records; Black's engineering dams Blue.
+- **CANON (2026-10-24). Societies and roles:**
+  - **Red** are the miners and smiths.
+  - **Yellow** are the inventors: open-source, giving knowledge away, hopeless at business. The Blue–Yellow pairing is the business brains with the inventor brains.
+  - **Brown** farm.
+  - **Green** are the environmentalists, resisting fields and machines. They see Yellow as naive, not hostile. These are land-use disputes, not prejudice.
+  - **Blue** welcome everyone, and their **port cities** are the cosmopolitan crossroads of Azhi: the setting's Baldur's Gate.
+  - **White** gather in **monasteries hidden in the mountains**.
+  - **Black** are the **zealots** of a living god, though players may play against type.
+  - **Indigo** are a **secret society beneath the sea**: trading in secrets, danger and forbidden things, spies and assassins, valued by civilization but distrusted. Their currency is **pearls**; they have debt collectors, and refusing a called debt means being cast out.
+- **CANON (2026-10-24). The knowledge colours:** Black **hoards** knowledge, Indigo **trades** it, Yellow **gives it away**, White **teaches** it, and Grey **uncovers** it.
+- **CANON (2026-10-24). Phasing as emigration.** A dragonborn who phases must find a place in their new colour's society: staying in their old role, or starting again at the bottom. A newly phased Indigo arrives with no name and no pearls.
 - **PROPOSED.** **Gold and Silver dragonborn** are nomadic **sky-readers** who predict where the sun and moon will wander. Everyone needs them, but they belong nowhere. Philosophically they oppose Black: contentment versus questioning.
 
 ## 4. Physical World

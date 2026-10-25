@@ -37,7 +37,7 @@ One row per section file. Generated at intake (2026-10-20) from `srd/_tools/inde
 | `03-classes/11-warlock.md` | Warlock | untouched |  |  |
 | `03-classes/12-wizard.md` | Wizard | untouched |  |  |
 | `04-character-origins/01-personality-traits.md` | Character Origins + Personality Traits | revise | high | Replaced 2026-10-21: chapter intro and the 12 personality traits replace backgrounds (was `01-character-backgrounds.md`). Draft in the Claude Doc for Troy's edits; open items marked OPEN. |
-| `04-character-origins/02-character-species.md` | Character Species | revise | high | Replaced 2026-10-21: dragonborn only; the colour wheel, Unphased, five colours, five hybrids, Gold and Silver, settling and phasing (from `canon/brainstorm-species.md`). Draft in the Claude Doc for Troy's edits; open items listed at the end of the file. |
+| `04-character-origins/02-character-species.md` | Character Species | revise | high | Rewritten 2026-10-24 for the nine-form wheel (Red, Brown, Yellow, Green, Blue, Indigo, Black, Grey, White), Unphased, Gold and Silver, settling and phasing. Synced to the Character Origins Claude Doc; open items at the end of the file. |
 | `05-feats/feats.md` | Feats | untouched |  |  |
 | `06-equipment/01-coins.md` | Equipment | untouched |  |  |
 | `06-equipment/02-weapons.md` | Weapons | untouched |  |  |

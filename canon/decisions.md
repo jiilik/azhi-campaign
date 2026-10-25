@@ -2,6 +2,27 @@
 
 Newest first. One line per decision: what was decided, and why if a reason was given. Add to this log every time the author settles something, and update `canon/setting-bible.md` to match.
 
+## 2026-10-24
+
+- **The colour wheel is replaced** (Troy). The ten-form wheel (five colours plus Marsh, Soil, Oxblood, Slate, Glacier) gives way to **nine forms**: Red → Brown → Yellow → Green → Blue → Indigo → Black → Grey → White. Worked out in `canon/brainstorm-colour-wheel.md`; the rules text is `srd/04-character-origins/02-character-species.md`.
+- **Blends mix like paint, not light**, except **Yellow**, which is Red and Green mixed like light. **Yellow and Grey** are the earthly echoes of Gold and Silver.
+- **The elemental feeding and checking cycle is retired** as a design constraint. The wheel is a colour order, by rule of cool, and no longer decides which elements oppose which.
+- **Power budget:** all nine forms have **similar point totals** (about 17–18.5); blends are no longer held below the colours.
+- **Darkvision:** Black **and Indigo** (Troy's override of "Black alone").
+- **Form changes:**
+  - **Green** trades Regeneration for a **Prehensile Tail** (a third hand that can't hold a Shield, plus a 1d4 Slashing tail strike using Dexterity), and its +1 becomes **Dexterity or Constitution**.
+  - **Brown** (was Soil) gains Plough and Cart.
+  - **Grey** (was Slate) gains Moonsight and Heard It on the Road.
+  - **Indigo** and **Yellow** are new.
+  - Every form now has **two ribbons**.
+- **Societies and lore** (bible §3):
+  - Red miners and smiths; Yellow open-source inventors; Brown farmers; Green environmentalists.
+  - Blue's cosmopolitan port cities; White's mountain monasteries; Black as zealots of a living god.
+  - Indigo as a secret society with pearl debts.
+  - The five knowledge colours.
+  - Phasing as emigration.
+- **Retired:** Regeneration, Swamp Walker, Inventive Genius, Seasoned Traveller (its parts went to Brown and Grey), and Careful Senses.
+
 ## 2026-10-23
 
 - **Design review checklist** created (`canon/design-review-checklist.md`). It holds **canon items only**; brainstorm ideas join it once approved. It can be run as a preliminary analysis at any time, and as a final systems check.

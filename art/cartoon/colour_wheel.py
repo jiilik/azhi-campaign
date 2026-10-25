@@ -1,10 +1,10 @@
-"""The dragonborn colour wheel (species design, canon 2026-10-21) -> output/colour_wheel.png.
+"""The dragonborn colour wheel (nine forms, canon 2026-10-24) -> output/colour_wheel.png.
 
-Five primary forms at the pentagon's corners and five bichrome hybrids between them,
+Red, Brown, Yellow, Green, Blue, Indigo, Black, Grey, White around the wheel,
 the Unphased in the blank centre (a polychrome silhouette: every colour, none settled),
 and Gold and Silver outside the wheel, watching but not taking part.
-Saturday-Morning Bold. Hybrid colours and names are working values from
-canon/brainstorm-species.md."""
+Saturday-Morning Bold. Blend colours are working values; see
+srd/04-character-origins/02-character-species.md."""
 import os, sys, math, random, subprocess
 HERE = os.path.dirname(os.path.abspath(__file__)); os.chdir(HERE); sys.path.insert(0, HERE)
 import party
@@ -16,29 +16,29 @@ W, H = 1600, 1440
 CX, CY = 800, 780
 R_IN, R_OUT, R_FIG = 318, 560, 452
 
-# Hybrid scale/belly colours (PROPOSED working values), mixed like paint pigments.
+# Blend scale/belly colours (working values), mixed like paint (Yellow like light).
 party.DRAGONS.update({
-    'Marsh':   ('#23857f', '#a6dccd'),   # Blue + Green: teal
-    'Soil':    ('#8a5a2b', '#ddb98c'),   # Green + Red: umber
-    'Oxblood': ('#6e1f2a', '#c27e82'),   # Red + Black
-    'Slate':   ('#66707f', '#c4cad3'),   # Black + White
-    'Glacier': ('#8fc6ea', '#e4f3fc'),   # White + Blue
+    'Brown':  ('#8a5a2b', '#ddb98c'),   # Red + Green, like paint
+    'Yellow': ('#f0cf2e', '#fbf0b0'),   # Red + Green, like light (earthly echo of Gold)
+    'Indigo': ('#3e2f8a', '#a99fe0'),   # Blue + Black
+    'Grey':   ('#7d838c', '#d3d6db'),   # Black + White (earthly echo of Silver)
 })
-party.HORN.update({'Glacier': '#7d91a8', 'Slate': '#e3ddd2'})
+party.HORN.update({'Grey': '#e3ddd2'})
 
-# Clockwise from the top: Blue, then the wheel order Blue -> Green -> Red -> Black -> White.
+PRIMARY = {'Red', 'Green', 'Blue', 'Black', 'White'}
+# Clockwise from the top, in wheel order.
 WHEEL = [  # (form, label, sub, role, outfit, accent)
-    ('Blue',    'Blue',    'water',          'rogue',   '#e9dfc6', '#1f3f73'),
-    ('Marsh',   'Marsh',   'Blue + Green',   'rogue',   '#5c6b3a', '#3e5a4a'),
-    ('Green',   'Green',   'life',           'cleric',  '#e8dcc0', '#5b7a3a'),
-    ('Soil',    'Soil',    'Green + Red',    'fighter', '#7c6a4e', '#5b7a3a'),
-    ('Red',     'Red',     'fire & stone',   'fighter', '#8d98a6', '#2f4f8f'),
-    ('Oxblood', 'Oxblood', 'Red + Black',    'wizard',  '#3b3a40', '#d4a63c'),
-    ('Black',   'Black',   'knowledge',      'wizard',  '#2f6b6b', '#e8c35a'),
-    ('Slate',   'Slate',   'Black + White',  'rogue',   '#4a4f5c', '#7a2f3a'),
-    ('White',   'White',   'ice',            'cleric',  '#6f7b8a', '#9b2d2d'),
-    ('Glacier', 'Glacier', 'White + Blue',   'wizard',  '#8a6f4d', '#355f86'),
+    ('Red',    'Red',    'fire & stone',   'fighter', '#8d98a6', '#2f4f8f'),
+    ('Brown',  'Brown',  'Red + Green',    'fighter', '#7c6a4e', '#5b7a3a'),
+    ('Yellow', 'Yellow', 'Red + Green, as light', 'wizard', '#7a3a2a', '#f2d16b'),
+    ('Green',  'Green',  'life',           'rogue',   '#5c6b3a', '#3e5a4a'),
+    ('Blue',   'Blue',   'water',          'rogue',   '#e9dfc6', '#1f3f73'),
+    ('Indigo', 'Indigo', 'Blue + Black',   'rogue',   '#2a2a33', '#7a2f3a'),
+    ('Black',  'Black',  'knowledge',      'cleric',  '#2f6b6b', '#e8c35a'),
+    ('Grey',   'Grey',   'Black + White',  'wizard',  '#4a4f5c', '#c9d2e0'),
+    ('White',  'White',  'ice',            'cleric',  '#6f7b8a', '#9b2d2d'),
 ]
+STEP = 360 / len(WHEEL)
 
 def pt(r, a_deg):
     a = math.radians(a_deg - 90)
@@ -110,18 +110,18 @@ def build():
     o.append(f'<circle cx="{CX}" cy="{CY}" r="{R_OUT+14}" fill="none" stroke="{INK}" stroke-width="3" opacity=".5"/>')
     for i, (form, *_rest) in enumerate(WHEEL):
         scale, belly = party.DRAGONS[form]
-        o.append(wedge(i*36 - 18, i*36 + 18, light(scale, .55)))
+        o.append(wedge(i*STEP - STEP/2, i*STEP + STEP/2, light(scale, .55)))
     o.append(f'<circle cx="{CX}" cy="{CY}" r="{R_IN}" fill="#f6eedb" stroke="{INK}" stroke-width="3"/>')
     # figures and labels
     figs, labs = [], []
     for i, (form, name, sub, role, outfit, accent) in enumerate(WHEEL):
-        a = i*36
+        a = i*STEP
         x, y = pt(R_FIG, a)
         s = 1.12
         flip = -1 if 0 < a < 180 else 1
         feet = y + 52
         figs.append(figure(x, feet, s, form, role, outfit, accent, st, flip=flip))
-        labs.append(label(x, feet + 10, name, sub, big=(i % 2 == 0)))
+        labs.append(label(x, feet + 10, name, sub, big=(form in PRIMARY)))
     o += figs + labs
     # the Unphased, centre
     o.append(unphased(CX, CY + 95, 1.75))
@@ -135,7 +135,7 @@ def build():
     o.append(f'<text x="{CX}" y="70" text-anchor="middle" font-family="DejaVu Serif" font-weight="bold" '
              f'font-size="46" fill="#f3e8cf">The Dragonborn Colour Wheel</text>')
     o.append(f'<text x="{CX}" y="106" text-anchor="middle" font-family="DejaVu Serif" font-style="italic" '
-             f'font-size="21" fill="#c9bda3">Species design, canon since 21 October 2026: five colours, five blends, the Unphased at the heart</text>')
+             f'font-size="21" fill="#c9bda3">Species design, canon since 24 October 2026: five colours, four blends, the Unphased at the heart</text>')
     o.append('</svg>')
     return ''.join(o)
 

@@ -1,6 +1,6 @@
 # Brainstorm: Rethinking the Colour Wheel
 
-**Status: brainstorming only (PROPOSED).** The current wheel (five colours, five hybrids) is canon (`canon/decisions.md`, 2026-10-21) and stays so until Troy approves a change.
+**Status: ADOPTED (2026-10-24).** Troy replaced the original ten-form wheel with the nine-form wheel worked out here (`canon/decisions.md`, 2026-10-24). The rules text is `srd/04-character-origins/02-character-species.md`. This file is the working record; earlier sketches in it (Pink, Orange, Glacier's traits for Indigo, the tinkerer Indigo and so on) were superseded along the way.
 
 Opened 2026-10-23, from the discussion about naming the hybrids.
 
