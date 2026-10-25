@@ -104,8 +104,8 @@ def build():
     o.append(f'<rect width="{W}" height="{H}" fill="url(#bg)"/>')
     o.append(stars(160, 3))
     # Gold (sun-warm) and Silver (moon-cool) glows outside the wheel
-    o.append(glow(150, 330, 260, '#ffd25a'))
-    o.append(glow(1450, 330, 260, '#bcd2ff'))
+    o.append(glow(1450, 330, 260, '#ffd25a'))
+    o.append(glow(150, 330, 260, '#bcd2ff'))
     # the wheel
     o.append(f'<circle cx="{CX}" cy="{CY}" r="{R_OUT+14}" fill="none" stroke="{INK}" stroke-width="3" opacity=".5"/>')
     for i, (form, *_rest) in enumerate(WHEEL):
@@ -127,10 +127,10 @@ def build():
     o.append(unphased(CX, CY + 95, 1.75))
     o.append(label(CX, CY + 112, 'Unphased', 'all colours, none settled', big=True))
     # Gold and Silver, outside, looking in
-    o.append(figure(170, 420, 1.45, 'Gold', 'cleric', '#f3efe6', '#c08a1e', st, flip=1))
-    o.append(label(170, 432, 'Gold', 'the sun, watching', big=True))
-    o.append(figure(1430, 420, 1.45, 'Silver', 'wizard', '#4b3a7a', '#f2d16b', st, flip=-1))
-    o.append(label(1430, 432, 'Silver', 'the moon, watching', big=True))
+    o.append(figure(1430, 420, 1.45, 'Gold', 'cleric', '#f3efe6', '#c08a1e', st, flip=-1))
+    o.append(label(1430, 432, 'Gold', 'the sun, watching', big=True))
+    o.append(figure(170, 420, 1.45, 'Silver', 'wizard', '#4b3a7a', '#f2d16b', st, flip=1))
+    o.append(label(170, 432, 'Silver', 'the moon, watching', big=True))
     # title
     o.append(f'<text x="{CX}" y="70" text-anchor="middle" font-family="DejaVu Serif" font-weight="bold" '
              f'font-size="46" fill="#f3e8cf">The Dragonborn Colour Wheel</text>')
