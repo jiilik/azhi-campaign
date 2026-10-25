@@ -618,6 +618,30 @@ Keep the canon order (Blue, Green, Red, Black, White). Keep only the hybrids who
 
 - Glacier's pieces now live on: *Heard It on the Road* in Grey, and mounts and vehicles in Brown.
 
+## 4s. Indigo, topped up, and the nine totals (2026-10-24)
+
+- *(Troy)* Indigo now takes **two skills** (was one), and **Persuasion** joins the list.
+
+> _Deep Training._ You have proficiency in two of the following skills of your choice: Deception, Insight, Intimidation, Persuasion or Stealth.
+
+- Indigo is now **~18** (16.5 + 1.5). Undertow stands as revised in §4k (once per day, with pearl debts).
+
+**All nine forms (approximate):**
+
+| Form | Points |
+|---|---|
+| Red | 18.5 |
+| Blue | 18 |
+| Black | 18 |
+| Grey | ~18 |
+| Indigo | ~18 |
+| Yellow | ~17.5–18 |
+| Green | ~17.5 |
+| Brown | ~17.5 |
+| White | 17 |
+
+- Every form now sits within about 17–18.5, as Troy asked (§4p).
+
 ## 5. Questions for Troy
 
 - Is rewriting the elemental feeding and checking cycle acceptable, or must the wheel keep it?
