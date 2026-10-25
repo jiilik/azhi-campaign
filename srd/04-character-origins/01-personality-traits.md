@@ -19,183 +19,195 @@ Your character's personality traits describe who they are: the habits, quirks an
 
 The description of a personality trait contains the following parts, which are presented after the trait's name.
 
-_Ability Score Increase._ Each trait increases one specified ability score by 1. This increase can't raise a score above 20.
+_Ability Score Increase._ Each trait lists one or two abilities. Increase one of them by 1. This increase can't raise a score above 20. A trait that lists only one ability (marked ★ in the table) has a slightly stronger benefit, since it offers less choice.
 
 _Benefit._ The benefits of a trait are detailed after its ability score increase. Some benefits give proficiency in a skill or a tool. Tools are detailed in "Equipment."
 
 ### Choosing Personality Traits
 
-A phased dragonborn chooses two personality traits. An Unphased dragonborn chooses three, and can change one of them on each Long Rest (see "Unphased" in "Character Species").
+A phased dragonborn chooses two personality traits. An Unphased dragonborn chooses three, and can change one of them on each Long Rest (see "Unphased" in "Character Species"). You can't choose the same trait twice.
 
-Personality traits aren't tied to colours; any character can choose any trait. Some traits pair naturally with certain forms, and some pairings are especially strong. You can't choose the same trait twice, and you can't choose both Light Sleeper and Heavy Sleeper _(OPEN: not yet confirmed)_.
+Personality traits aren't tied to colours; any character can choose any trait. Some traits pair naturally with certain forms, and some pairings are especially strong. _(OPEN: whether two traits and a form may all raise the same ability, for +3 to one score.)_
 
-**Personality Traits**
+**Personality Traits by Ability**
 
 | Ability | Traits |
 |---|---|
-| Strength | Prone to Rages, Reckless |
-| Dexterity | Hyperactive, Light Sleeper |
-| Constitution | Heavy Sleeper, Iron Stomach |
-| Intelligence | The Collector, Quizmaster |
-| Wisdom | The Journalist, The Skeptic |
-| Charisma | The Artist, Earworm |
+| Strength | The Bold, The Commander, The Disciplined, The Guardian, The Rock, The Wanderer |
+| Dexterity | The Bold, The Curious, The Magnificent, The Resourceful, The Restless ★ |
+| Constitution | The Disciplined, The Generous, The Guardian, The Rock, The Steward, The Wanderer |
+| Intelligence | The Curious, The Debater, The Steward, The Strategist ★, The Theorist ★ |
+| Wisdom | The Confidant ★, The Devout ★, The Dreamer ★, The Mentor, The Prudent ★, The Resourceful |
+| Charisma | The Commander, The Debater, The Generous, The Magnificent, The Mentor, The Unbound ★ |
 
 ### Personality Trait Descriptions
 
-The traits are alphabetized, ignoring "The."
+The traits are alphabetized, ignoring "The." _(OPEN: each trait's benefit is still to be written, at about 10 points, or about 11 for a ★ trait. Mechanics ideas are in the working doc linked from `canon/brainstorm-personality.md`; the retired original twelve are source material in `canon/source-personality-traits-v1.md`.)_
 
-#### The Artist
+#### The Bold
 
-_You have to make things, whether pictures, letters or music, and you make them to be shared._
+_You were halfway across the chasm before anyone finished saying "we should think about this." Danger doesn't frighten you; it wakes you up. Half your stories end with "and then it got worse," and you tell every one of them grinning._
 
-You gain the following benefits.
+**Ability Score Increase:** Strength or Dexterity
 
-_Ability Score Increase._ Increase your Charisma score by 1, to a maximum of 20.
+_Benefit._ _(OPEN.)_
 
-_Artistic Training._ You gain proficiency with one of the following tools of your choice: Calligrapher's Supplies, Painter's Supplies or one kind of Musical Instrument.
+#### The Commander
 
-_Gift of Art._ When you give a creature a piece of your art, or play for it, you have Advantage on your next Charisma check against that creature.
+_When the shouting starts, every head turns to you, and you've already decided. You see where the group should be going and can't help pointing the way. You'd rather make a bold call and own it than wait for a perfect one, and somehow people keep following you._
 
-_Muse._ When another creature sees or hears your art, you can give it Heroic Inspiration. Once you use this benefit, you can't use it again until you finish a Long Rest.
+**Ability Score Increase:** Strength or Charisma
 
-#### The Collector
+_Benefit._ _(OPEN.)_
 
-_You index everything. Put you in a library and you'll walk straight to the right shelf._
+#### The Confidant
 
-You gain the following benefits.
+_You notice the pause before an answer, the glance toward the door, the smile that stops short of the eyes. People tell you things they've told no one else, and you often know how a story ends before it's half told. It isn't magic. You simply pay attention._
 
-_Ability Score Increase._ Increase your Intelligence score by 1, to a maximum of 20.
+**Ability Score Increase:** Wisdom
 
-_Catalogue Mind._ You have Advantage on ability checks to find something in a library, archive or collection.
+_Benefit._ _(OPEN.)_
 
-_A Place for Everything._ You always know what's in your pack, and taking any item out of it doesn't take an action.
+#### The Curious
 
-_Collector's Eye._ You notice at once when a rare object is within sight, even if it's hidden among clutter.
+_A locked door is a question, and you've never once left a question alone. You read the margins, pull the lever marked "do not pull", and take the left fork, then come back for the right one. Your companions have learned to count heads before leaving a room._
 
-#### Earworm
+**Ability Score Increase:** Dexterity or Intelligence
 
-_Everyone remembers your songs, and they can't get them out of their heads._
+_Benefit._ _(OPEN.)_
 
-You gain the following benefits.
+#### The Debater
 
-_Ability Score Increase._ Increase your Charisma score by 1, to a maximum of 20.
+_You'll argue that the Gold dragon is just a very bright moth, simply to see who can prove you wrong. Every plan, rule and sacred truth deserves a good poke, and you'll switch sides mid-argument for the fun of it. Nothing delights you more than the rare day someone finally wins one against you._
 
-_Performer._ You gain proficiency in the Performance skill.
+**Ability Score Increase:** Charisma or Intelligence
 
-_Stuck in Your Head._ When you finish a performance, choose up to six creatures that heard it. Each of them has Disadvantage on Wisdom (Insight) checks made against you until you finish a Long Rest. Once you use this benefit, you can't use it again until you finish a Long Rest.
+_Benefit._ _(OPEN.)_
 
-#### Heavy Sleeper
+#### The Devout
 
-_Once you're asleep, nothing short of a rockslide will move you, and you wake up all the better for it._
+_You know the old story by heart, and you know the dragons who lived it still fly overhead and walk the land. Your faith isn't a comfort kept for hard nights; it's the reason you set out at all. Wherever the road leads, you walk it as an offering._
 
-You gain the following benefits.
+**Ability Score Increase:** Wisdom
 
-_Ability Score Increase._ Increase your Constitution score by 1, to a maximum of 20.
+_Benefit._ _(OPEN.)_
 
-_Groggy._ If you're woken from sleep, you have Disadvantage on attack rolls and ability checks for your first two rounds awake.
+#### The Disciplined
 
-_Deep Rest._ When you finish a Long Rest with uninterrupted sleep, you gain Temporary Hit Points equal to your character level.
+_You're up before the light, running the same drills you ran yesterday, only a little better. Every scar is a lesson, every sore muscle a promise kept. Others see a routine; you see a path with no end, and you mean to walk every step of it._
 
-#### Hyperactive
+**Ability Score Increase:** Strength or Constitution
 
-_You can't sit still. Your hands are always whittling, knotting or tinkering with something._
+_Benefit._ _(OPEN.)_
 
-You gain the following benefits.
+#### The Dreamer
 
-_Ability Score Increase._ Increase your Dexterity score by 1, to a maximum of 20.
+_Somewhere behind your eyes is a better world, and you can see it in every detail. You hold to what's right even when it costs you, and you'd rather fail at something worth doing than succeed at something hollow. People mistake your quiet for distance. It's conviction._
 
-_Idle Hands._ Once per Long Rest, you make a small object and roll on the Idle Hands table to see what it is. Alternatively, you can make one item worth up to 50 GP from the Craft list of a tool you're proficient with, such as a _Potion of Healing_ with an Herbalism Kit. _(OPEN: whether this crafting costs materials.)_
+**Ability Score Increase:** Wisdom
 
-**Idle Hands** _(OPEN: the items in each row are still to be written)_
+_Benefit._ _(OPEN.)_
 
-| 1d12 | Result |
-|---|---|
-| 1–4 | A worthless trinket |
-| 5–8 | Something worth a few SP |
-| 9–10 | A small useful item, such as a fishing lure, a whistle or a lockpick |
-| 11 | Something worth a few GP |
-| 12 | Something special, chosen by the DM |
+#### The Generous
 
-#### Iron Stomach
+_Your door is never barred and your pot is never empty. You learn every name, and you make sure the quiet one at the edge of the fire gets the warmest seat. Coin is for spending and food is for sharing, and somehow you always seem to have enough of both._
 
-_You can eat almost anything and live to tell of it._
+**Ability Score Increase:** Charisma or Constitution
 
-You gain the following benefits.
+_Benefit._ _(OPEN.)_
 
-_Ability Score Increase._ Increase your Constitution score by 1, to a maximum of 20.
+#### The Guardian
 
-_Cast-Iron Gut._ You have Advantage on saving throws against poison or disease that you've eaten or drunk.
+_You remember who takes their tea bitter and who flinches at thunder, and you quietly make room for both. You're the last to eat and the first to stand between your friends and whatever's coming. Nobody asked you to keep them safe; you simply never stopped._
 
-_Abs of Steel._ While you aren't wearing armour, you gain a +1 bonus to Armor Class.
+**Ability Score Increase:** Constitution or Strength
 
-#### The Journalist
+_Benefit._ _(OPEN.)_
 
-_You keep a diary, and you write in it every night._
+#### The Magnificent
 
-You gain the following benefits.
+_When you walk into a room, the music seems to get louder. You laugh easily, dress brightly and make strangers feel like old friends, and crowds have a way of drifting toward you. You never ask for the spotlight. It just keeps finding you._
 
-_Ability Score Increase._ Increase your Wisdom score by 1, to a maximum of 20.
+**Ability Score Increase:** Charisma or Dexterity
 
-_Nightly Entries._ If you write in your journal before a Long Rest, you gain Heroic Inspiration when you finish that rest.
+_Benefit._ _(OPEN.)_
 
-_It's All Written Down._ You can look up any detail you've written down, such as a name, a face or a route, and get it right. Whatever you, the player, have written in your own notes, your character has written in theirs.
+#### The Mentor
 
-#### Light Sleeper
+_You see what someone could become long before they do, and you can't help nudging them toward it. Your praise lands like a gift, and even your hard truths somehow land kindly. Half the people you've met are better for knowing you; the other half just haven't noticed yet._
 
-_You never quite switch off, as if you'd had too much coffee._
+**Ability Score Increase:** Charisma or Wisdom
 
-You gain the following benefits.
+_Benefit._ _(OPEN.)_
 
-_Ability Score Increase._ Increase your Dexterity score by 1, to a maximum of 20.
+#### The Prudent
 
-_Always Alert._ While you're resting or asleep, you can't be Surprised, and any noise louder than a whisper wakes you.
+_You've already thought about what could go wrong, and you've packed for most of it. When the bridge gives way and everyone else is shouting, you're handing out the rope you brought for exactly this. It isn't luck, and it isn't prophecy: just a careful eye and a lifelong habit of asking "and then what?"_
 
-_Short Sleeper._ You can finish a Long Rest in 4 hours if you spend those hours sleeping.
+**Ability Score Increase:** Wisdom
 
-#### Prone to Rages
+_Benefit._ _(OPEN.)_
 
-_Your temper runs hot, and pain only feeds it._
+#### The Resourceful
 
-You gain the following benefits.
+_You never pack the right thing, and you never need to. A belt buckle becomes a lockpick, a cloak becomes a stretcher, and a hopeless mess becomes something you can work with. When the plan falls apart, you're already rolling up your sleeves._
 
-_Ability Score Increase._ Increase your Strength score by 1, to a maximum of 20.
+**Ability Score Increase:** Wisdom or Dexterity
 
-_Rising Fury._ While you're Bloodied, you have Advantage on Strength saving throws.
+_Benefit._ _(OPEN.)_
 
-_Fuelled by Pain._ Once per turn while you're Bloodied, when you hit a target with a melee attack, you add your Proficiency Bonus to the damage.
+#### The Restless
 
-#### Quizmaster
+_Sitting still feels like a punishment. Your fingers drum, your foot taps, and if there's nothing to do you'll find something: whittle a stick, reorganize the packs, pace a groove in the floor. Kings have lost their thrones for less, but you'd rather be doing something than ruling anything._
 
-_You know a little about everything, and you love to prove it._
+**Ability Score Increase:** Dexterity
 
-You gain the following benefits.
+_Benefit._ _(OPEN.)_
 
-_Ability Score Increase._ Increase your Intelligence score by 1, to a maximum of 20.
+#### The Rock
 
-_Know-It-All._ You gain proficiency in one of the following skills of your choice: Arcana, History, Investigation, Nature or Religion.
+_The sky can go dark at noon and the ground can split at your feet, and your hands stay steady. Panic slides off you like rain off scales. In the worst moments, people stop watching the danger and start watching you, because you're the one who hasn't moved._
 
-_Trivia._ When you make an Intelligence check to recall lore using a skill you aren't proficient in, you add half your Proficiency Bonus (round down) to the check.
+**Ability Score Increase:** Constitution or Strength
 
-#### Reckless
+_Benefit._ _(OPEN.)_
 
-_You leap first and look later._
+#### The Steward
 
-You gain the following benefits.
+_Someone else has the grand idea; you're the one who works out how many mules it needs. You keep the ledgers, draw up the watch rota and know who's slacking before they do. Under your eye, a mad plan becomes a schedule, and a schedule becomes a victory._
 
-_Ability Score Increase._ Increase your Strength score by 1, to a maximum of 20.
+**Ability Score Increase:** Intelligence or Constitution
 
-_Headlong._ You have Advantage on Initiative rolls.
+_Benefit._ _(OPEN.)_
 
-_Open Guard._ The first attack roll made against you in each combat has Advantage.
+#### The Strategist
 
-#### The Skeptic
+_You see the whole board. Before the first blow lands, you've counted the exits, weighed your enemies and guessed their next three moves, and you're already thinking about the war after this battle. Others call it overthinking; you call it winning._
 
-_You believe nothing until you've seen it twice._ _(OPEN: wording not yet reviewed.)_
+**Ability Score Increase:** Intelligence
 
-You gain the following benefits.
+_Benefit._ _(OPEN.)_
 
-_Ability Score Increase._ Increase your Wisdom score by 1, to a maximum of 20.
+#### The Theorist
 
-_Hard to Fool._ You gain proficiency in the Insight skill.
+_Everyone else accepts that the spine of the world never bends. You want to know why. You chase an idea down to its bones, take it apart and put it back together a little better, and you'll happily miss supper doing it. A good question keeps you warmer than any fire._ _(OPEN: the last line is to be rewritten.)_
 
-_Seen It All._ You have Advantage on ability checks and saving throws to see through illusions, and on Wisdom (Insight) checks to tell whether someone is lying.
+**Ability Score Increase:** Intelligence
+
+_Benefit._ _(OPEN.)_
+
+#### The Unbound
+
+_Rules are other people's ideas, and nobody asked you before they made them. You go where you like and bow to no one, not out of spite, but because it never occurred to you to ask permission. Customs, titles and "that's just how it's done" roll right off you, and you're happiest where no one has written the rules yet._
+
+**Ability Score Increase:** Charisma
+
+_Benefit._ _(OPEN.)_
+
+#### The Wanderer
+
+_On a world shaped like a ring, every road eventually leads back home, and you mean to walk them all. Three nights under one roof makes you restless, and you'd trade a soft bed for a new horizon without a second thought. Somewhere out there is a view no one has ever drawn, and it's waiting for you._
+
+**Ability Score Increase:** Constitution or Strength
+
+_Benefit._ _(OPEN.)_

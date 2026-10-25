@@ -37,6 +37,7 @@ You are helping **Troy** (the author and DM) build **Azhi**, a D&D campaign sett
 | `canon/brainstorm-species.md` | **Species design (CANON, 2026-10-21):** character building, traits, point budget. Its forms are superseded by the nine-form wheel (2026-10-24). |
 | `canon/brainstorm-personality.md` | Personality archetype research for reworking the traits (PROPOSED, 2026-10-22). |
 | `canon/brainstorm-colour-wheel.md` | Working record of the nine-form colour wheel (ADOPTED 2026-10-24). |
+| `canon/source-personality-traits-v1.md` | The original twelve personality traits, retired 2026-10-24, kept as source material for mechanics. |
 | `canon/design-review-checklist.md` | Checks to run against the design (canon items only), plus a review log. |
 | `canon/azhi-myth.md` | The myth: exact corrected text. `azhi-myth-corrected.rtf` is authoritative; `-original.rtf` is Troy's upload. |
 | `srd/` | SRD section files and `srd-tracker.md` (Phase 1 onward) |

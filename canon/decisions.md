@@ -22,6 +22,12 @@ Newest first. One line per decision: what was decided, and why if a reason was g
   - The five knowledge colours.
   - Phasing as emigration.
 - **Retired:** Regeneration, Swamp Walker, Inventive Genius, Seasoned Traveller (its parts went to Brown and Grey), and Careful Senses.
+- **Personality traits replaced** (Troy, voice session). The original twelve are retired from canon and kept as source material (`canon/source-personality-traits-v1.md`). They're replaced by **twenty-one** traits, which have descriptions and ability choices but whose benefits are still to be written:
+  - **From the brainstorm:** the nineteen.
+  - **New:** **the Restless** (Dexterity), which brings Hyperactive forward as an epithet, and **the Disciplined** (Strength or Constitution): obsessive self-improvement, the bodybuilder or martial artist.
+- **Each trait lists one or two abilities**; the character raises one of them by 1. Single-ability traits (★) get a slightly stronger benefit. Each trait is worth about 10 points, or about 11 for ★.
+- **Ability changes:** the Resourceful is **Wisdom or Dexterity** (its skills lean on Wisdom); the Unbound is **Charisma** (defiance as force of personality).
+- **Unphased** still swap one trait on each Long Rest, if they want to.
 
 ## 2026-10-23
 

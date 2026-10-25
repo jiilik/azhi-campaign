@@ -598,6 +598,37 @@ The **Abilities** column suggests where a stat trait's +1 could go. The **Sugges
 - **The doc is now the working copy** for these traits. Troy's edits there may be newer than §12–13 of this file, so read the doc first and sync back.
 - Affinities were rebalanced in the doc, so each colour appears three or four times. For example, the Debater is now Blue and Oxblood (it was Blue and Black).
 
+## 15. Read-through and replacement (voice session, 2026-10-24)
+
+*(Troy)* Went through the nineteen descriptions one at a time, as a player would read them.
+
+- **The Theorist:** unsure about the closing idiom, "A good question keeps you warmer than any fire". **Flagged for a rewrite.**
+- **The Mentor:** the last line feels a little pretentious, but may be enough of a hook. Left as is for now.
+- **The Curious:** Claude explained the last line (companions count heads because you wander off poking at things). Kept.
+- **The Resourceful:** now **Wisdom or Dexterity**. Its skills, such as Nature and Survival, lean on Wisdom; Dexterity is kept so it stays at five. May adjust later.
+- **The Bold:** "a perfect character for a Leeroy Jenkins". **The Magnificent:** "the very pretty character".
+- **The Unbound:** now **Charisma**. Defiance is force of personality, and Charisma saving throws resist being magically bossed around. This left Dexterity at four.
+- **New: the Restless** (Dexterity), to fill Dexterity. An old king who can't sit on his throne and rule; ADHD rendered as a strength. It brings the old Hyperactive forward.
+  > Sitting still feels like a punishment. Your fingers drum, your foot taps, and if there's nothing to do you'll find something: whittle a stick, reorganize the packs, pace a groove in the floor. Kings have lost their thrones for less, but you'd rather be doing something than ruling anything.
+- **New: the Disciplined** (Strength or Constitution), to fill the thin Strength and Constitution: **obsessive self-improvement**, the bodybuilder or martial artist.
+  > You're up before the light, running the same drills you ran yesterday, only a little better. Every scar is a lesson, every sore muscle a promise kept. Others see a routine; you see a path with no end, and you mean to walk every step of it.
+  - *(Claude)* It doesn't stomp on the Rock (calm under pressure) or the Steward (organizing the group). Aim its benefit at practice and improvement, not toughness, to stay clear of the Wanderer. No mental twin is needed, since Intelligence and Wisdom are well covered and the Theorist is close.
+- **Decision (Troy):** the **twenty-one replace the canonical twelve**. The twelve are **set aside as source material** for writing the mechanics. Budget: about **10 points**, or about **11** for single-ability traits.
+- **Ability coverage now:**
+  - Strength 6, Dexterity 5, Constitution 6, Intelligence 5, Wisdom 6, Charisma 6.
+  - Single-ability traits (★): Strategist, Theorist, Confidant, Dreamer, Prudent, Devout, Unbound and Restless.
+
+### Next time: toward 24, with neurodiversity as strengths
+
+- *(Troy)* Push the count up to **24** with atypical neurologies, framed the way someone neurodivergent would see them: as positive traits.
+- *(Claude)* Ideas so far:
+  - **The Absorbed:** hyperfocus.
+  - **The Pattern-Seer:** spots the detail that doesn't fit.
+  - **The Plain-Spoken:** says exactly what they mean; people trust their word.
+  - **The Synesthete:** hears colours and tastes sounds; on Azhi, perhaps like reading the dragons themselves.
+  - **The Wayfinder:** thinks in shapes and spaces.
+- *(Claude)* Lean the new ones toward **Strength and Constitution**. Their traits are mostly stretches, such as the Wanderer's Strength and the Steward's Constitution. The Restless already stands for ADHD.
+
 ## Sources
 
 - [Facet (psychology), Wikipedia](https://en.wikipedia.org/wiki/Facet_(psychology)): Big Five facets.
