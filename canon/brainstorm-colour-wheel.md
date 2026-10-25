@@ -658,6 +658,10 @@ Reviewing existing ribbons and filling the gaps, in wheel order.
 - **Yellow**
   - *New (Troy):* **Usual Suspect.** When something nearby explodes, burns or mysteriously breaks, people assume it was you.
   - Second ribbon: Troy is thinking. Offered so far: Bright Spark, Static, Open Book.
+- **Green**
+  - *Kept:* by touching a plant, you can tell whether it's safe to eat.
+  - *New (Troy, modified from Claude's Canopy Sleeper):* **Beds Are Overrated.** You can sleep anywhere, including hanging by your tail from a tree branch.
+  - Not chosen: Leaf-Still, Trail Sign.
 
 ## 5. Questions for Troy
 
