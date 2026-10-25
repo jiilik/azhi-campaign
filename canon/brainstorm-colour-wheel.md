@@ -478,6 +478,20 @@ Keep the canon order (Blue, Green, Red, Black, White). Keep only the hybrids who
   - Persuasion is left out on purpose, because Yellow is hopeless at business.
 - **Points so far:** +1 (4), lightning resistance (~2), two skills (3) = ~9. That leaves about **7 for a signature** to reach about 16 (bichrome range) or **8–9** to match the colours.
 
+### Yellow's signature: Spark of Inspiration *(Troy)*
+
+- *(Troy)* **Once per Long Rest**, choose one:
+  - **succeed** on a skill check using a skill you're proficient in; or
+  - let another **willing creature** succeed on a check using a skill **you** are proficient in.
+- *(Claude)* It fits the open-source Yellow: you share the spark. Worth about **6 points**, which brings Yellow to **~15** (inside the hybrid range of about 13–16).
+  - Compare: Trader's Tongue (reroll a failed Charisma check) was priced at 3, and an automatic success is stronger.
+  - Related: the Rogue's *Reliable Talent* and the Bard's *Bardic Inspiration*. Once per Long Rest keeps it from crowding either.
+- *(Claude)* **Rules questions:**
+  1. **Timing:** decide before rolling, or after a failed roll? After is stronger, like Trader's Tongue.
+  2. **Contested checks** (Stealth against Perception, or a grapple) have no fixed DC. One fix: "treat the d20 roll as a 20" instead of "succeed".
+  3. **The ally:** within what range? Must they see or hear you, say within 30 feet, as with *Bardic Inspiration*?
+  4. **The name:** "Inspiration" could be confused with Heroic Inspiration and Bardic Inspiration. Alternatives: **Spark of Genius**, **Bright Idea**, **Flash of Insight**.
+
 ## 5. Questions for Troy
 
 - Is rewriting the elemental feeding and checking cycle acceptable, or must the wheel keep it?
