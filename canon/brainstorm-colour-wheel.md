@@ -557,7 +557,7 @@ Keep the canon order (Blue, Green, Red, Black, White). Keep only the hybrids who
 >
 > As a Grey dragonborn, you have these special traits.
 >
-> _Keen Investigator._ You can take the Search or Study action as a Bonus Action. You can also cast _Augury_, _Detect Magic_ and _Find Traps_, but only as Rituals; for you, _Find Traps_ has the Ritual tag. _(OPEN: the name of this trait is a placeholder.)_
+> _Keen Investigator._ You can take the Search or Study action as a Bonus Action. You can also cast _Augury_, _Detect Magic_ and _Find Traps_, but only as Rituals; for you, _Find Traps_ has the Ritual tag. _(Troy: keep the name Keen Investigator.)_
 >
 > _Moonsight._ Within 60 feet of you, you can see in Dim Light as if it were Bright Light.
 >
