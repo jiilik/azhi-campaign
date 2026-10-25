@@ -582,6 +582,42 @@ Keep the canon order (Blue, Green, Red, Black, White). Keep only the hybrids who
 - Added to the option lists: Insight (skills) and Cartographer's Tools (tools). Both lists are still a single pick count, so the points don't change.
 - *(Claude)* Moonsight stops short of Darkvision. In true darkness Grey still needs a light, which keeps Black's (and Indigo's) Darkvision special.
 
+## 4r. Brown, topped up (2026-10-24)
+
+*(Troy)* Brown (formerly Soil) gains **Plough and Cart**: the mounts-and-vehicles half of the retired Glacier's Seasoned Traveller.
+
+> #### Brown (Red + Green)
+>
+> _Brown dragonborn work the rich ash-fed earth: farmers, woodcutters and fringe-dwelling semi-industrialists, and the occasional hermit. They are burly folk, used to the scythe and the axe, the plough-ox and the laden cart._ _(Claude: the old Soil line, plus the ox and cart.)_
+>
+> **Creature Type:** Humanoid
+> **Size:** Medium
+> **Speed:** 30 feet
+> **Ability Score Increase:** Constitution or Strength
+>
+> As a Brown dragonborn, you have these special traits.
+>
+> _Rooted._ While you're standing on the ground, you have Advantage on saving throws and ability checks against being pushed, pulled or knocked Prone. You also have Tremorsense with a range of 10 feet.
+>
+> _Plough and Cart._ You can control any willing Beast at least one size larger than you as a mount, even if it hasn't been trained to accept a rider. You have Advantage on ability checks to drive a vehicle and to keep a mount under control.
+>
+> _Brown Folk._ You have proficiency in two of the following skills of your choice: Animal Handling, Nature, Perception or Survival. You also have proficiency with one of the following tools of your choice: Carpenter's Tools, Cook's Utensils or Woodcarver's Tools.
+>
+> _Ribbons._ _Sky Sense:_ you can predict the weather, and when light will come and go, over the next day. _(OPEN: second ribbon.)_
+
+**Points (Claude):**
+
+| Feature | Points |
+|---|---|
+| Rooted | ~8 |
+| Plough and Cart | ~1.5 |
+| Two skills | 3 |
+| One tool | 1 |
+| +1 to Constitution or Strength | 4 |
+| **Total** | **~17.5** |
+
+- Glacier's pieces now live on: *Heard It on the Road* in Grey, and mounts and vehicles in Brown.
+
 ## 5. Questions for Troy
 
 - Is rewriting the elemental feeding and checking cycle acceptable, or must the wheel keep it?
