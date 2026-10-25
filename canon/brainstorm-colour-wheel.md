@@ -492,6 +492,27 @@ Keep the canon order (Blue, Green, Red, Black, White). Keep only the hybrids who
   3. **The ally:** within what range? Must they see or hear you, say within 30 feet, as with *Bardic Inspiration*?
   4. **The name:** "Inspiration" could be confused with Heroic Inspiration and Bardic Inspiration. Alternatives: **Spark of Genius**, **Bright Idea**, **Flash of Insight**.
 
+- *(Troy)* **Resolved:**
+  - It's used **after** a failed roll.
+  - The **d20 counts as a 20** rather than an automatic success.
+  - The ally range is **30 feet** for now.
+  - Renamed **Bright Idea**.
+
+> _Bright Idea._ When you, or a willing creature within 30 feet of you that can see or hear you, fail an ability check using a skill you're proficient in, you can change the d20 roll to a 20. Once you use this trait, you can't use it again until you finish a Long Rest.
+
+- *(Claude)* "That can see or hear you" is borrowed from the SRD's usual wording; confirm or drop it.
+- **Yellow so far:**
+
+| Feature | Points |
+|---|---|
+| +1 to Intelligence or Constitution | 4 |
+| Lightning resistance | ~2 |
+| Two skills | 3 |
+| Bright Idea | ~6 |
+| **Total** | **~15** |
+
+- **Still to do:** the final skill list, two ribbons, and the flavour line.
+
 ## 5. Questions for Troy
 
 - Is rewriting the elemental feeding and checking cycle acceptable, or must the wheel keep it?
