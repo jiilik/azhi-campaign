@@ -642,6 +642,15 @@ Keep the canon order (Blue, Green, Red, Black, White). Keep only the hybrids who
 
 - Every form now sits within about 17–18.5, as Troy asked (§4p).
 
+## 4t. Ribbons, colour by colour (2026-10-24)
+
+Reviewing existing ribbons and filling the gaps, in wheel order.
+
+- **Red**
+  - *Kept:* at a glance, you can judge the quality and origin of anything of value.
+  - *New (Troy):* **Prospector.** You can make Wisdom (Survival) checks to find raw materials for crafting, such as ore, workable stone, clay or fuel: mineral exploration.
+  - Not chosen: Forge-Warm, Maker's Mark, Ear for Metal.
+
 ## 5. Questions for Troy
 
 - Is rewriting the elemental feeding and checking cycle acceptable, or must the wheel keep it?
