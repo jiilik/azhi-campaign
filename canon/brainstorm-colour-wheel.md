@@ -458,9 +458,7 @@ Keep the canon order (Blue, Green, Red, Black, White). Keep only the hybrids who
 | +1 to Dexterity or Constitution | 4 |
 | **Total** | **~17.5** (the old Green was 18) |
 
-- *(Claude)* **To confirm:**
-  - Whether the tail strike stays, since it was agreed in voice before the third-hand idea.
-  - That the 10-pound limit is gone, now that the tail is a full hand.
+- *(Troy)* **Confirmed:** the 1d4 tail strike stays, and the 10-pound limit is dropped.
 
 ## 5. Questions for Troy
 
