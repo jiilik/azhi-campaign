@@ -652,9 +652,12 @@ Reviewing existing ribbons and filling the gaps, in wheel order.
   - Not chosen: Forge-Warm, Maker's Mark, Ear for Metal.
 - **Brown**
   - *Kept:* Sky Sense. *(Troy)* Good flavour.
-  - *New (Troy):* **Wisdom of the Almanac.** You carry a pocket almanac of collected wisdom, shared and published by farmers. Its accuracy is never questioned, though it probably should be.
+  - *New (Troy):* **Wisdom of the Almanac.** You've read and absorbed the farmers' almanac, the collected wisdom shared and published by farmers, and can quote it for any occasion. Its accuracy is never questioned, though it probably should be. *(Troy: it's knowledge, not a physical item, so it doesn't need an entry in the items list.)*
   - *(Claude)* Sky Sense is reliable; the almanac may not be, which is a fun tension for one character.
   - Not chosen: Good Soil, Calm with Beasts, Weathered.
+- **Yellow**
+  - *New (Troy):* **Usual Suspect.** When something nearby explodes, burns or mysteriously breaks, people assume it was you.
+  - Second ribbon: Troy is thinking. Offered so far: Bright Spark, Static, Open Book.
 
 ## 5. Questions for Troy
 
