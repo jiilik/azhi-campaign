@@ -671,6 +671,14 @@ Reviewing existing ribbons and filling the gaps, in wheel order.
   - *New (Troy):* **Knowledge Is Power, and Power Is Knowledge.** You have an innate feeling for which pieces of knowledge are important to keep or to share, and for the opportune moment to do either.
   - *Dropped (Troy):* "Cold and crushing depths don't trouble you."
   - Not chosen: Pearl-Reader, Nobody Saw You Arrive, The Etiquette.
+- **Black**
+  - *Kept:* Bone Reader.
+  - *(Troy, lore)* Black are likely the **zealots** of the setting, despite also being knowledge-oriented, because **their god is a living god**. Players are free to play against type.
+  - *New (Troy):* **True Convictions.** You can see through false faiths, false prophets and invented gods, and you always know your own convictions. It's a ribbon most of the time, unless, say, a cultist tries to charm you into joining.
+  - *(Claude)* Notes:
+    - It pairs with Guarded Mind (Advantage on mental saving throws), the mechanical side of the same unshakable mind.
+    - On Azhi all seven dragons are real, so "false" faiths means cults and invented gods, not the worship of another colour's dragon. Zealotry must never mean contempt for other colours (no "racist dragons").
+  - Not chosen: Echo-Sense, Lamp-Free, Ash to Ink.
 
 ## 5. Questions for Troy
 
