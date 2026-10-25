@@ -666,6 +666,11 @@ Reviewing existing ribbons and filling the gaps, in wheel order.
   - *Kept:* you always know which way the nearest water lies.
   - *New (Troy, reworked from Claude's A Word in Every Port):* **A Word in Every Port.** You can identify any language you hear by its sounds alone. When someone speaks a second language, you can pick up and place their accent, telling where they learned it. You know a word or two of each.
   - Not chosen: Sea Legs, Knows a Bargain. Smelling rain and wet-looking scales (earlier ideas) were dropped; Sky Sense now belongs to Brown.
+- **Indigo**
+  - *Kept:* strangers tend to lower their voices around you without knowing why.
+  - *New (Troy):* **Knowledge Is Power, and Power Is Knowledge.** You have an innate feeling for which pieces of knowledge are important to keep or to share, and for the opportune moment to do either.
+  - *Dropped (Troy):* "Cold and crushing depths don't trouble you."
+  - Not chosen: Pearl-Reader, Nobody Saw You Arrive, The Etiquette.
 
 ## 5. Questions for Troy
 
