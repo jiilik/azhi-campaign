@@ -679,6 +679,14 @@ Reviewing existing ribbons and filling the gaps, in wheel order.
     - It pairs with Guarded Mind (Advantage on mental saving throws), the mechanical side of the same unshakable mind.
     - On Azhi all seven dragons are real, so "false" faiths means cults and invented gods, not the worship of another colour's dragon. Zealotry must never mean contempt for other colours (no "racist dragons").
   - Not chosen: Echo-Sense, Lamp-Free, Ash to Ink.
+- **Grey:** *(Troy)* good for now. Uncanny Timekeeping and Air of Authority stay.
+- **White**
+  - *Kept:* very good at memorizing short messages and keeping them, so you can serve as a courier.
+  - *New (Troy):* **Apocryphal Sayings.** Is it wisdom, or just rote repetition? Either way, you seem to have an endless supply for the opportune moment.
+  - *(Claude)* Watch the overlap with Brown's Wisdom of the Almanac, which also quotes sayings for any occasion. One way to tell them apart: Brown quotes the farmers' almanac; White quotes the sayings of the monasteries and the oral tradition. Indigo's ribbon also uses "the opportune moment".
+  - Not chosen: Calming Presence, A Bed on Every Mountain, Keeper of Songs, Snow-Sure.
+
+**Ribbons still open:** Yellow's second, and Indigo's second.
 
 ## 5. Questions for Troy
 
