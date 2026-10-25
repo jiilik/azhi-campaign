@@ -519,8 +519,28 @@ Keep the canon order (Blue, Green, Red, Black, White). Keep only the hybrids who
   - *(Claude)* About **1.5–2 points**. It's worth more on Azhi than usual, because only Black (and Indigo) have Darkvision and day and night are unpredictable.
   - **Total: about 17.5–18**, which is in the colours' range (17–18.5).
   - Canon's power budget puts **bichromes below the five colours**, so either accept the overage (as with Red's and Black's) or trim, for example drop the tool (−1) or one skill (−1.5).
-  - **Open:** does Yellow ignore the M component, as many species spells implicitly do?
+  - *(Troy)* Yellow casts *Light* **without its Material component**.
 - **Still to do:** two ribbons and the flavour line.
+
+## 4p. Equal points for all nine forms *(Troy, 2026-10-24)*
+
+- *(Troy)* **All nine forms on the wheel should have similar point totals.** Hybrids are no longer held slightly below the five colours.
+  - This would change the canon power budget (Unphased < bichrome < monochrome) to **Unphased < every form**. Apply it to canon when the wheel rework is adopted.
+- *(Claude)* **Current totals** (approximate; Brown and Grey are carried over from Soil and Slate):
+
+| Form | Points | Gap to ~17.5 |
+|---|---|---|
+| Red | 18.5 | — |
+| Blue | 18 | — |
+| Black | 18 | — |
+| Yellow | ~17.5–18 | — |
+| Green (tail) | ~17.5 | — |
+| White | 17 | — |
+| Indigo | ~16.5 | ~1 |
+| Brown (was Soil) | 16 | ~1.5 |
+| Grey (was Slate) | ~15 | ~2.5 |
+
+- Brown, Grey and Indigo need topping up, to be decided form by form.
 
 ## 5. Questions for Troy
 
