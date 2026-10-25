@@ -662,6 +662,10 @@ Reviewing existing ribbons and filling the gaps, in wheel order.
   - *Kept:* by touching a plant, you can tell whether it's safe to eat.
   - *New (Troy, modified from Claude's Canopy Sleeper):* **Beds Are Overrated.** You can sleep anywhere, including hanging by your tail from a tree branch.
   - Not chosen: Leaf-Still, Trail Sign.
+- **Blue**
+  - *Kept:* you always know which way the nearest water lies.
+  - *New (Troy, reworked from Claude's A Word in Every Port):* **A Word in Every Port.** You can identify any language you hear by its sounds alone. When someone speaks a second language, you can pick up and place their accent, telling where they learned it. You know a word or two of each.
+  - Not chosen: Sea Legs, Knows a Bargain. Smelling rain and wet-looking scales (earlier ideas) were dropped; Sky Sense now belongs to Brown.
 
 ## 5. Questions for Troy
 
