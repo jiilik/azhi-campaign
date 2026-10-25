@@ -650,6 +650,11 @@ Reviewing existing ribbons and filling the gaps, in wheel order.
   - *Kept:* at a glance, you can judge the quality and origin of anything of value.
   - *New (Troy):* **Prospector.** You can make Wisdom (Survival) checks to find raw materials for crafting, such as ore, workable stone, clay or fuel: mineral exploration.
   - Not chosen: Forge-Warm, Maker's Mark, Ear for Metal.
+- **Brown**
+  - *Kept:* Sky Sense. *(Troy)* Good flavour.
+  - *New (Troy):* **Wisdom of the Almanac.** You carry a pocket almanac of collected wisdom, shared and published by farmers. Its accuracy is never questioned, though it probably should be.
+  - *(Claude)* Sky Sense is reliable; the almanac may not be, which is a fun tension for one character.
+  - Not chosen: Good Soil, Calm with Beasts, Weathered.
 
 ## 5. Questions for Troy
 
