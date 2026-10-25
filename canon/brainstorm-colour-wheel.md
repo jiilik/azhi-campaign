@@ -657,7 +657,9 @@ Reviewing existing ribbons and filling the gaps, in wheel order.
   - Not chosen: Good Soil, Calm with Beasts, Weathered.
 - **Yellow**
   - *New (Troy):* **Usual Suspect.** When something nearby explodes, burns or mysteriously breaks, people assume it was you.
-  - Second ribbon: Troy is thinking. Offered so far: Bright Spark, Static, Open Book.
+  - *New (Troy, voice):* **Impractical Inventions.** You always have some odd contraption on you, like a self-stirring spoon that only spins backwards. They never quite do what you advertised, or anything useful at all.
+  - *(Troy)* Yellow is a creative genius, a savant, who has a really hard time making their ideas practical. *(Claude)* It plays against Bright Idea: the genius is real, but it only works in flashes.
+  - Not chosen: Bright Spark, Static, Open Book, Spark Plug, Never Stuck.
 - **Green**
   - *Kept:* by touching a plant, you can tell whether it's safe to eat.
   - *New (Troy, modified from Claude's Canopy Sleeper):* **Beds Are Overrated.** You can sleep anywhere, including hanging by your tail from a tree branch.
@@ -667,7 +669,10 @@ Reviewing existing ribbons and filling the gaps, in wheel order.
   - *New (Troy, reworked from Claude's A Word in Every Port):* **A Word in Every Port.** You can identify any language you hear by its sounds alone. When someone speaks a second language, you can pick up and place their accent, telling where they learned it. You know a word or two of each.
   - Not chosen: Sea Legs, Knows a Bargain. Smelling rain and wet-looking scales (earlier ideas) were dropped; Sky Sense now belongs to Brown.
 - **Indigo**
-  - *Dropped (Troy):* strangers tend to lower their voices around you without knowing why. **Second ribbon open**; Troy is thinking.
+  - *Dropped (Troy):* strangers tend to lower their voices around you without knowing why.
+  - *New (Troy, voice):* **Necessary Evil.** Everyone knows what your people do, and most are quietly glad someone does. Even so, when you walk into a room, the sensitive conversations stop.
+  - *(Troy, broadening Indigo)* The trope had been narrowed too far. Indigo trade in secrets and **forbidden technologies**, but they also **use** them: they're the **spies and assassins** too. They're outsiders in most circles. Most people recognize their value to civilization, because they fill a role no one else is willing or able to, but they're still **distrusted**.
+  - *(Troy)* The ribbon is **DM guidance**: NPCs wouldn't trust an Indigo, so don't disclose everything to them. If they try to extract knowledge from conversations, people clam up. *(Claude)* That pushes Indigo players to earn trust, or not be recognized as Indigo at all.
   - *New (Troy):* **Knowledge Is Power, and Power Is Knowledge.** You have an innate feeling for which pieces of knowledge are important to keep or to share, and for the opportune moment to do either.
   - *Dropped (Troy):* "Cold and crushing depths don't trouble you."
   - Not chosen: Pearl-Reader, Nobody Saw You Arrive, The Etiquette.
@@ -686,7 +691,7 @@ Reviewing existing ribbons and filling the gaps, in wheel order.
   - *(Claude)* Watch the overlap with Brown's Wisdom of the Almanac, which also quotes sayings for any occasion. One way to tell them apart: Brown quotes the farmers' almanac; White quotes the sayings of the monasteries and the oral tradition. Indigo's ribbon also uses "the opportune moment".
   - Not chosen: Calming Presence, A Bed on Every Mountain, Keeper of Songs, Snow-Sure.
 
-**Ribbons still open:** Yellow's second, and Indigo's second.
+**Every form now has both ribbons** (2026-10-24).
 
 ## 5. Questions for Troy
 
