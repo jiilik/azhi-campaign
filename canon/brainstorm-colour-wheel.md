@@ -460,6 +460,24 @@ Keep the canon order (Blue, Green, Red, Black, White). Keep only the hybrids who
 
 - *(Troy)* **Confirmed:** the 1d4 tail strike stays, and the 10-pound limit is dropped.
 
+## 4o. Yellow, first decisions (2026-10-24, evening)
+
+- *(Troy)* The theme is **the spark of invention**. In lore, Yellow is **lightning-aligned**: short bursts of sunlight, after a fashion.
+- *(Troy)* Assume an **alchemist class** will exist, so Yellow mustn't stomp on it or be shoehorned into the alchemist archetype. **No innate firearms material.**
+- *(Troy)* **Ability Score Increase: Intelligence or Constitution.**
+- *(Troy)* **Lightning resistance.** *(Claude)* About 2 points, since lightning comes up less often than fire. Lightning resistance was once rejected for Blue as not fitting the wheel, but the wheel now follows rule of cool.
+- *(Troy)* **Two skills** from a list starting with Arcana and Nature. *(Claude)* Suggested list:
+  - **Arcana:** the magic behind the spark.
+  - **Nature:** storms and natural forces; also the Green neighbour.
+  - **Investigation:** experiments, and working out why it blew up.
+  - **Performance:** loud public demonstrations, sharing every discovery with a crowd.
+  - Optional: **Sleight of Hand**, for quick, deft inventor's hands.
+- *(Claude)* Notes on the list:
+  - Arcana also appears on Black's list, and Investigation on Grey's.
+  - Performance has no other home on the wheel.
+  - Persuasion is left out on purpose, because Yellow is hopeless at business.
+- **Points so far:** +1 (4), lightning resistance (~2), two skills (3) = ~9. That leaves about **7 for a signature** to reach about 16 (bichrome range) or **8–9** to match the colours.
+
 ## 5. Questions for Troy
 
 - Is rewriting the elemental feeding and checking cycle acceptable, or must the wheel keep it?
