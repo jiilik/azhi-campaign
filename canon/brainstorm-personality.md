@@ -629,6 +629,25 @@ The **Abilities** column suggests where a stat trait's +1 could go. The **Sugges
   - **The Wayfinder:** thinks in shapes and spaces.
 - *(Claude)* Lean the new ones toward **Strength and Constitution**. Their traits are mostly stretches, such as the Wanderer's Strength and the Steward's Constitution. The Restless already stands for ADHD.
 
+## 16. The last three: body-led traits (voice session, 2026-10-25)
+
+*(Troy)* Looked for physical traits first, with neurodiversity as the backup. Went through Claude's seeds one at a time.
+
+- **The Gentle Giant** (Strength or Wisdom): approved, description as drafted.
+  - *(Troy)* Not really a personality type, but a knock-on effect of being exceptionally large or strong: the personality develops as a side effect of the body.
+- **The Hearty** (Constitution ★): approved, the first pure-Constitution trait.
+  - *(Troy)* Again the body leads the personality. That's okay: a dragonborn who phases may end up in a body where it makes sense.
+- **The Labourer** (Strength or Constitution): **rejected**, since it overlaps too many existing traits (the Disciplined, the Wanderer).
+- **The Scrapper** (Strength or Dexterity): approved.
+  - *(Claude)* The "dare on a cliff edge" line is Bold territory; trim it so the Scrapper stays about brawling. It's the physical twin of the Debater, and Scrapper plus Bold is very combat-heavy, so keep their benefits apart.
+- **Closed at 24 traits.** Not used: the Athlete, and the neurodiversity ideas from §15 (the Absorbed, the Pattern-Seer, the Plain-Spoken, the Synesthete, the Wayfinder). They stay available as material.
+- **Rebalance:**
+  - The Wanderer drops Strength and takes Dexterity: Constitution or Dexterity.
+  - The Prudent gains Intelligence.
+  - The Confidant gains Charisma.
+- **Counts:** Strength, Dexterity, Constitution, Wisdom and Charisma 7 each; Intelligence 6.
+  - *(Troy)* Intelligence is always the hardest to find traits for, since few classes use it, so a few fewer options is okay. It may be rebalanced in future.
+
 ## Sources
 
 - [Facet (psychology), Wikipedia](https://en.wikipedia.org/wiki/Facet_(psychology)): Big Five facets.

@@ -2,6 +2,22 @@
 
 Newest first. One line per decision: what was decided, and why if a reason was given. Add to this log every time the author settles something, and update `canon/setting-bible.md` to match.
 
+## 2026-10-25
+
+- **Three more personality traits, for 24 in all** (Troy, voice session). All three are body-led: the personality comes as a side effect of the body. Troy noted that phasing into a new body could bring such a personality along with it.
+  - **The Gentle Giant:** Strength or Wisdom.
+  - **The Hearty:** Constitution ★, the first pure-Constitution trait.
+  - **The Scrapper:** Strength or Dexterity. Its "dare on a cliff edge" line is flagged for a trim, since that's the Bold's territory.
+- **Rejected:** the Labourer, which overlapped the Disciplined and the Wanderer.
+- **Ability rebalance:**
+  - The Wanderer is now **Constitution or Dexterity**; Strength was dropped.
+  - The Prudent is now **Wisdom or Intelligence**, since its "and then what?" planning is reasoning.
+  - The Confidant is now **Wisdom or Charisma**, since rapport is Charisma.
+  - The Prudent and the Confidant lose their ★.
+- **Ability counts are now** seven each for Strength, Dexterity, Constitution, Wisdom and Charisma, and six for Intelligence. Troy says that's fine, since mostly wizards want Intelligence. It may be rebalanced later.
+- **Seven ★ traits:** the Devout, the Dreamer, the Hearty, the Restless, the Strategist, the Theorist and the Unbound.
+- **The minigame** "famous characters, two builds" is kept as a build-testing tool (`canon/minigame-character-builds.md`). Its outputs are never recorded.
+
 ## 2026-10-24
 
 - **The colour wheel is replaced** (Troy). The ten-form wheel (five colours plus Marsh, Soil, Oxblood, Slate, Glacier) gives way to **nine forms**: Red → Brown → Yellow → Green → Blue → Indigo → Black → Grey → White. Worked out in `canon/brainstorm-colour-wheel.md`; the rules text is `srd/04-character-origins/02-character-species.md`.

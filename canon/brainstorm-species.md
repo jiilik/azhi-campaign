@@ -2,7 +2,7 @@
 
 **Status: CANON.** Troy approved this whole design on 2026-10-21 (see `canon/decisions.md`). It is the specification for the SRD Species section.
 
-> **Superseded in part (2026-10-24):** the colour wheel was replaced by nine forms. The forms in §7–8 (including Marsh, Soil, Oxblood, Slate and Glacier, and Green's Regeneration) are history. The current forms are in `srd/04-character-origins/02-character-species.md`, with the reasoning in `canon/brainstorm-colour-wheel.md`. The rest of this file (character building and points) still stands. **The personality traits in §9 are superseded too:** the twenty-one in `srd/04-character-origins/01-personality-traits.md` replaced them (2026-10-24).
+> **Superseded in part (2026-10-24):** the colour wheel was replaced by nine forms. The forms in §7–8 (including Marsh, Soil, Oxblood, Slate and Glacier, and Green's Regeneration) are history. The current forms are in `srd/04-character-origins/02-character-species.md`, with the reasoning in `canon/brainstorm-colour-wheel.md`. The rest of this file (character building and points) still stands. **The personality traits in §9 are superseded too:** the traits in `srd/04-character-origins/01-personality-traits.md` replaced them (2026-10-24).
 
 - Items marked **open**, *not confirmed* or *to check*, and §10, remain **OPEN**.
 - Point values are a **tentative** balancing tool and can be redone.

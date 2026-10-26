@@ -33,12 +33,12 @@ Personality traits aren't tied to colours; any character can choose any trait. S
 
 | Ability | Traits |
 |---|---|
-| Strength | The Bold, The Commander, The Disciplined, The Guardian, The Rock, The Wanderer |
-| Dexterity | The Bold, The Curious, The Magnificent, The Resourceful, The Restless ★ |
-| Constitution | The Disciplined, The Generous, The Guardian, The Rock, The Steward, The Wanderer |
-| Intelligence | The Curious, The Debater, The Steward, The Strategist ★, The Theorist ★ |
-| Wisdom | The Confidant ★, The Devout ★, The Dreamer ★, The Mentor, The Prudent ★, The Resourceful |
-| Charisma | The Commander, The Debater, The Generous, The Magnificent, The Mentor, The Unbound ★ |
+| Strength | The Bold, The Commander, The Disciplined, The Gentle Giant, The Guardian, The Rock, The Scrapper |
+| Dexterity | The Bold, The Curious, The Magnificent, The Resourceful, The Restless ★, The Scrapper, The Wanderer |
+| Constitution | The Disciplined, The Generous, The Guardian, The Hearty ★, The Rock, The Steward, The Wanderer |
+| Intelligence | The Curious, The Debater, The Prudent, The Steward, The Strategist ★, The Theorist ★ |
+| Wisdom | The Confidant, The Devout ★, The Dreamer ★, The Gentle Giant, The Mentor, The Prudent, The Resourceful |
+| Charisma | The Commander, The Confidant, The Debater, The Generous, The Magnificent, The Mentor, The Unbound ★ |
 
 ### Personality Trait Descriptions
 
@@ -64,7 +64,7 @@ _Benefit._ _(OPEN.)_
 
 _You notice the pause before an answer, the glance toward the door, the smile that stops short of the eyes. People tell you things they've told no one else, and you often know how a story ends before it's half told. It isn't magic. You simply pay attention._
 
-**Ability Score Increase:** Wisdom
+**Ability Score Increase:** Wisdom or Charisma
 
 _Benefit._ _(OPEN.)_
 
@@ -116,11 +116,27 @@ _Your door is never barred and your pot is never empty. You learn every name, an
 
 _Benefit._ _(OPEN.)_
 
+#### The Gentle Giant
+
+_You could lift a cart one-handed, so you've learned to be careful with everything else. You hold eggs, kittens and other people's feelings like they might break, because they might. Folk fear you until they meet you; then they ask you to carry their children on your shoulders._
+
+**Ability Score Increase:** Strength or Wisdom
+
+_Benefit._ _(OPEN.)_
+
 #### The Guardian
 
 _You remember who takes their tea bitter and who flinches at thunder, and you quietly make room for both. You're the last to eat and the first to stand between your friends and whatever's coming. Nobody asked you to keep them safe; you simply never stopped._
 
 **Ability Score Increase:** Constitution or Strength
+
+_Benefit._ _(OPEN.)_
+
+#### The Hearty
+
+_You'll eat anything once and most things twice. You laugh from the belly, sleep through storms and shrug off the fever that flattens everyone else. Healers find you deeply boring, and you take that as a compliment._
+
+**Ability Score Increase:** Constitution
 
 _Benefit._ _(OPEN.)_
 
@@ -144,7 +160,7 @@ _Benefit._ _(OPEN.)_
 
 _You've already thought about what could go wrong, and you've packed for most of it. When the bridge gives way and everyone else is shouting, you're handing out the rope you brought for exactly this. It isn't luck, and it isn't prophecy: just a careful eye and a lifelong habit of asking "and then what?"_
 
-**Ability Score Increase:** Wisdom
+**Ability Score Increase:** Wisdom or Intelligence
 
 _Benefit._ _(OPEN.)_
 
@@ -169,6 +185,14 @@ _Benefit._ _(OPEN.)_
 _The sky can go dark at noon and the ground can split at your feet, and your hands stay steady. Panic slides off you like rain off scales. In the worst moments, people stop watching the danger and start watching you, because you're the one who hasn't moved._
 
 **Ability Score Increase:** Constitution or Strength
+
+_Benefit._ _(OPEN.)_
+
+#### The Scrapper
+
+_You've never met a fight you didn't like, or one you'd walk away from. A shove in a tavern, a dare on a cliff edge, a rival's raised eyebrow: it's all an invitation. You win most, lose some, and buy the drinks either way._ _(OPEN: trim "a dare on a cliff edge", which is the Bold's territory, so this stays about brawling.)_
+
+**Ability Score Increase:** Strength or Dexterity
 
 _Benefit._ _(OPEN.)_
 
@@ -208,6 +232,6 @@ _Benefit._ _(OPEN.)_
 
 _On a world shaped like a ring, every road eventually leads back home, and you mean to walk them all. Three nights under one roof makes you restless, and you'd trade a soft bed for a new horizon without a second thought. Somewhere out there is a view no one has ever drawn, and it's waiting for you._
 
-**Ability Score Increase:** Constitution or Strength
+**Ability Score Increase:** Constitution or Dexterity
 
 _Benefit._ _(OPEN.)_

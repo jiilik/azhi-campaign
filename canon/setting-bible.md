@@ -79,7 +79,7 @@ When a PROPOSED item is confirmed or rejected, update its status here and add a 
   - A **phased** character takes **one affinity** (one of the 9 forms) and **two personality traits**. An **Unphased** character takes three traits and no affinity.
   - The 2024 **backgrounds are dropped**. What they gave is folded into the affinities and traits.
   - **Ability scores:** +1 from each trait and +1 from the affinity. The affinity's +1 goes to the form's primary ability: Red Strength; Brown Constitution or Strength; Yellow Intelligence or Constitution; Green Dexterity or Constitution; Blue Dexterity or Charisma; Indigo Charisma; Black Intelligence or Charisma; Grey Intelligence or Wisdom; White Wisdom. *(Revised 2026-10-24.)*
-  - **Personality traits** come from one shared list, not tied to colours. Each is a personality, not a feat, with a +1 to one of its listed abilities and a situational benefit that any class can use. *(Revised 2026-10-24:)* there are **21 traits**, which replaced the original 12 (kept as source material); their benefits are still to be written.
+  - **Personality traits** come from one shared list, not tied to colours. Each is a personality, not a feat, with a +1 to one of its listed abilities and a situational benefit that any class can use. *(Revised 2026-10-24:)* there are **24 traits** (21 on 2026-10-24, plus three on 2026-10-25), which replaced the original 12 (kept as source material); their benefits are still to be written.
   - Each form has a **signature** and **two ribbons** *(revised 2026-10-24; full text in `srd/04-character-origins/02-character-species.md`)*:
     - Red: Large, with Advantage on Strength checks.
     - Brown: Rooted.
