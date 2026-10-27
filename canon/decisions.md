@@ -2,6 +2,15 @@
 
 Newest first. One line per decision: what was decided, and why if a reason was given. Add to this log every time the author settles something, and update `canon/setting-bible.md` to match.
 
+## 2026-10-26
+
+- **Approach to trait benefits** (Troy):
+  - **Strength:** not as strong as a feat, but nearly (about 6 points, or about 7 for ★; an Origin feat is 8).
+  - **SRD parts:** borrow directly from the SRD species, all now replaced by the wheel, and from the SRD feats and backgrounds: "the SRD phasing".
+  - **Third-party sources:** borrow only concepts, never wording.
+  - **Aim:** placeholder content first, refined later.
+  - Working record: `canon/brainstorm-trait-benefits.md`.
+
 ## 2026-10-25
 
 - **Three more personality traits, for 24 in all** (Troy, voice session). All three are body-led: the personality comes as a side effect of the body. Troy noted that phasing into a new body could bring such a personality along with it.
