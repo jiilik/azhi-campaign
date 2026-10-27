@@ -179,3 +179,60 @@ Changed items are marked **(v2)**. Only two benefits still need tracking: the Un
 - *Point of Order* is on hold. *(Troy)* Freely imposing Disadvantage on anyone's Charisma check seems strong. It barely matters in combat, but it does in turn-based social scenes, which some DMs run.
 - Claude's suggested fix, not yet discussed: only on a Charisma check made to persuade, deceive or intimidate you or an ally within earshot; you have to speak up and interrupt, so everyone knows you did it.
 - **Resume here next time,** then continue from the Devout (6).
+
+## 7. Fourth pass, by voice (2026-10-27, evening commute)
+
+Still **tentative**. One new rule from Troy:
+
+- **No Heroic Inspiration in any trait.** The flaws will provide it for anyone who takes one, and a character can hold only one at a time.
+
+### Tentatively settled
+
+5. **The Debater** (Cha/Int)
+   - Proficiency in **Deception and Persuasion**.
+   - *Riposte:* when you fail a Persuasion or Deception check, you can immediately try again with the other skill, switching from honest argument to clever spin or back. You must use the new roll. *(Troy)* The name is a fencing term: duelling with words.
+   - *Banter:* as a Bonus Action, you trade quips with a creature that can hear you and understands your language. Make a Persuasion or Deception check against its Insight. If you win, it's too busy thinking of a comeback to take Reactions until your next turn.
+     - *(Troy)* Inspired by the sword fight in *The Princess Bride*. A shared language is enough; there's no Intelligence minimum.
+   - **Rejected:**
+     - *Point of Order*, a Reaction Disadvantage on Charisma checks: too strong as a free veto.
+     - *Riposte* triggered by an NPC's failed check: DMs rarely roll Charisma checks for NPCs, so the player should trigger it.
+6. **The Devout ★** (Wis)
+   - You know *Thaumaturgy*.
+   - Proficiency in one of Religion, History or Arcana, so a Black or Grey Devout who already has Religion isn't wasted.
+   - *Steadfast Faith:* when you, or an ally within 30 feet that you can see, makes a death saving throw, add your Wisdom modifier. *(Troy)* A remote boost to death saves, without handing out *Spare the Dying*.
+   - *Faithful Welcome:* at any shrine or temple of your faith, you and your companions can find free food, lodging and basic healing, and the clergy will hear you out.
+     - *(Troy)* It stacks in fun with the Commander's *Chain of Command* and Indigo's network: walk into a town and settle in. Those are role-play door-openers, not power.
+   - **Dropped:** *Guidance*. *(Troy)* Too easy a way to pick up *Guidance* from outside a class's spell list; keep *Thaumaturgy* instead.
+7. **The Disciplined** (Str/Con)
+   - Proficiency in **one skill or tool of your choice**.
+   - *Muscle Memory:* choose one skill or tool you're proficient in. Whenever you make a check with it, roll a d6 and add the number rolled. The die becomes a d8 at level 5, a d10 at level 11 and a d12 at level 17. To change your chosen skill or tool, you must practise the new one for seven Long Rests in a row.
+     - *(Troy)* Players like rolling dice. The level steps are Troy's, with Claude's suggestion of 17 rather than 16. Long Rests replace days, since Azhi has no steady day.
+     - Combat use depends on the chosen skill, such as Athletics or Acrobatics against grapples, or Stealth for a rogue.
+   - *(Troy)* It's open to any class: a rogue, or a wizard drilling Arcana with a Constitution boost. Constitution will be the common pick.
+   - Value: the skill ~2 plus the scaling die ~4, so ~6.
+   - **Rejected:**
+     - A minimum roll of 10: too strong, since a lockpicker would open every door forever.
+     - Advantage on a retry: DMs often forbid retries, such as for locks.
+     - A minimum roll of 5.
+     - Two free skills: over budget, and it would rival the Curious as the skill monkey.
+8. **The Dreamer ★** (Wis), an introvert (INFP), so all Wisdom with no Charisma or performance.
+   - *Prophetic Dreams:* before a Long Rest, you can ask the DM a question about something that troubles you. You dream an answer that's cryptic, symbolic and never wrong, but always open to interpretation.
+     - *(Troy)* A way for the DM to give the party soft hooks ("I just dreamt about something weird"). The DM can be as wishy-washy as needed.
+   - Proficiency in one of Insight, Animal Handling, Painter's Supplies or Calligrapher's Supplies.
+   - *Déjà Vu:* once per Short or Long Rest, you can act on a half-remembered dream. Either use your Reaction to give an attack against you Disadvantage, or give yourself Advantage on an attack roll you make.
+     - *(Troy)* Not "once per fight", which feels like 4th edition encounter powers.
+   - Value ~7.
+   - **Rejected:**
+     - *Minor Illusion* as a Bonus Action: the 2024 Illusionist wizard already does this (not SRD), so that subclass would lose out.
+     - *Hope Springs Eternal* (Heroic Inspiration on a Long Rest): see the rule above.
+     - *Augury*, as a Ritual or in a dream: too limited for hooks, and the 30-minute window is lame.
+
+### Parked in the parts bin
+
+- **Lingering Illusion:** your *Minor Illusion* lasts until you dismiss it or cast it again, one at a time. *(Troy)* "I love the feature," but it doesn't fit the Dreamer.
+
+### Paused: the Generous (Cha/Con)
+
+- *(Troy)* Too cooking-oriented and too Short Rest-oriented. It's too like a cook feat, and should be about the personality rather than the cooking. Cook's Utensils and the Hit Dice bonus are on hold.
+- **Rejected:** *Goodwill*, Advantage on Charisma checks with anyone you've given a gift or favour.
+- **Resume here next time,** then continue from the Gentle Giant (10).
