@@ -131,3 +131,51 @@ Changed items are marked **(v2)**. Only two benefits still need tracking: the Un
 - The Resourceful and the Wanderer both give Survival.
 - The Commander (Advantage against Frightened, for allies) and the Gentle Giant (ending Frightened) are both about fear, but in different shapes.
 - The Debater and the Magnificent both cost an action or Reaction with no use limit.
+
+## 6. Third pass, by voice (2026-10-27, morning commute)
+
+*(Troy)* Everything in this pass is **tentative**; there will be more passes. A trait should have something for combat **and** something outside it. Rule of thumb from this session: stay on a trait until Troy says it's done.
+
+### Tentatively settled
+
+1. **The Bold** (Str/Dex)
+   - Add your PB to Initiative.
+   - *First Through the Door:* when you volunteer to go first into something risky, such as a jump, a duel or a confrontation, you have Advantage on that first check.
+   - *(Troy)* Chose this over Intimidation or Athletics, because it rewards playing the way the description reads.
+2. **The Commander** (Str/Cha)
+   - Proficiency in Intimidation or Persuasion.
+   - *Follow Me:* allies within 30 feet who can see or hear you have Advantage on saves against Frightened.
+   - *Chain of Command:* soldiers, guards and militia recognize you as one of their own, so you can always get a hearing with whoever's in charge of them. *(Troy)* A martial version of Indigo's underworld door-opener; it doesn't stomp on anything.
+   - *(Troy)* Bold plus Commander is a fun combo: "Follow me!", first through the door, and everyone follows. The Commander leads from the front; planning in the tent is the Strategist's job.
+   - **Rejected:**
+     - *Take Charge*, a group-check reroll: too much like Bardic Inspiration.
+     - *Voice of Authority*, Advantage when giving orders.
+     - *Rally*, Temporary HP on Initiative: the trait needed something outside combat.
+3. **The Confidant** (Wis/Cha), with Claude's reading of the wording approved by Troy:
+   - **Skill:** you have proficiency in Insight.
+   - **Keeper of Confidences:** when a person, place or faction comes up, you can make an Intelligence check to recall something someone once told you about it in confidence, such as a secret, a rumour or a quiet grudge. The DM supplies the detail.
+   - **Unspoken Signals:** you know the *Message* cantrip. For you it takes no whisper, just a raised eyebrow or a tap of the nose that your companions understand.
+   - *(Troy)* The Confidant is someone people spill the beans to, not a lie detector. Think butlers, bartenders and priests (Alfred, Guinan, Friar Laurence); attorney-client privilege. It stacks well in flavour with Grey (rumours plus secrets) and Indigo (a spymaster).
+   - Rough value: Insight ~2, *Keeper of Confidences* ~2, a utility cantrip ~2, so ~6.
+   - **Rejected:**
+     - Advantage after a minute of talk: too situational, and it forces a minute of conversation.
+     - *Read the Tell*: Advantage on saves against a studied creature.
+     - *Something Unsaid*: every conversation would end in "are they holding back?", which is repetitive at the table.
+     - A +5 to Passive Insight: that's a lie detector, not a confidant.
+   - **Unused:** *Trusted Ear*, Advantage on Charisma checks to get someone to open up.
+4. **The Curious** (Dex/Int)
+   - Proficiency in two skills or tools of your choice, with no list. *(Troy)* The Curious should be able to be a skill monkey. Curious plus Mentor is a natural pairing, the way a Mentor picks up skills to teach.
+   - Advantage on checks to find traps and secret doors. *(Troy)* Strong in exploration, and exploration characters will want it.
+   - *Poke It and See:* the first time you hit a creature, you learn one of its resistances, immunities or vulnerabilities, if it has any.
+   - Stacking check: a Grey Curious, with Bonus Action Search plus this Advantage, finds nearly every trap. A rogue or bard Curious gets two more skills for Expertise. Both are strong, not broken.
+
+### Parked in the parts bin
+
+- **Read Their Intent:** as a Bonus Action, make an Insight check against a creature you can see. On a success, the DM tells you what it means to do next, such as who it's targeting or whether it's about to flee, and you can call it out to your allies. No other mechanical edge. *(Troy)* A good idea, but not a confidant: it's reading the body language of combat foes. **Tentatively moved to the Prudent**, to be revisited there.
+
+### Paused mid-trait: the Debater (Cha/Int)
+
+- Tentative: proficiency in **both** Deception and Persuasion.
+- *Point of Order* is on hold. *(Troy)* Freely imposing Disadvantage on anyone's Charisma check seems strong. It barely matters in combat, but it does in turn-based social scenes, which some DMs run.
+- Claude's suggested fix, not yet discussed: only on a Charisma check made to persuade, deceive or intimidate you or an ally within earshot; you have to speak up and interrupt, so everyone knows you did it.
+- **Resume here next time,** then continue from the Devout (6).
