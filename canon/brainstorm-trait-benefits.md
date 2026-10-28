@@ -287,3 +287,29 @@ Still **tentative**.
 
 ### Resume here: the Magnificent (13)
 Then continue with the Mentor (14), the Prudent (15, with *Read Their Intent* parked there), and on to the Wanderer (24).
+
+## 9. Sixth pass, by voice (2026-10-28, evening), and where the Magnificent came from
+
+### The Magnificent (13), in progress
+- **Skill choice, tentative:** proficiency in one of **Performance, Acrobatics, Sleight of Hand, a musical instrument, a Disguise Kit or Painter's Supplies**.
+  - *(Troy)* Think of the people called magnificent: circus performers, musicians, anyone who can go on and dazzle an audience, and sometimes distract it in the bread-and-circuses sense rather than the mechanical one.
+  - Glassblower's Tools were rejected as more blue-collar, hands-on art.
+- *Spotlight* (as a Bonus Action, creatures of your choice within 30 feet that see you have Disadvantage on Perception checks to notice anything else): *(Troy)* feels a bit mechanically complex. He's thinking about it.
+- **Candidates raised:** *Minor Illusion* (no trait grants it now), perhaps with *Lingering Illusion* (§7, parked). *Prestidigitation* is already the Theorist's.
+- **To do:** revisit the Dreamer's Painter's Supplies, now that the Magnificent offers them too.
+- *(Troy)* Paused to dig into where the Magnificent came from, so it **feels like a personality trait and not just a title**.
+
+### Lineage (from `canon/brainstorm-personality.md`)
+- **Type:** ESFP, in the "living in the moment" group, next to the Resourceful (ISTP), the Wanderer (ISFP) and the Bold (ESTP). ESFP is 16Personalities' *Entertainer* and Keirsey's *Performer*.
+- **First name:** *the Showman*, "lights up the room", invented in the voice session as one of 16 everyday archetypes (§4 there).
+- **Forerunner:** the old canon trait **Earworm** ("everyone remembers your songs"), which mapped to the Showman.
+- **Renamed** *the Magnificent* because *Showman* isn't gender-neutral. *The Dazzling* was rejected: *(Troy)* "sounds like a stage magician".
+- **Core idea:** "wins people over by presence; attention follows them." *(Troy, 2026-10-24)* "the very pretty character". The Braggart, now a flaw, *asks* for the spotlight; the Magnificent never needs to.
+- **Seeds at drafting:** first impressions and winning over a crowd. Keep it clear of the Commander (the party face who gives direction) and the Generous (hospitality).
+
+### What the name carries
+- **The historical epithet:** *Lorenzo the Magnificent* (de' Medici) and *Suleiman the Magnificent* were famed for splendour: festivals, art, display and grand public works. "Magnificence" was a virtue of lavish public spending.
+  - That edges toward the Generous (giving) and the Commander (rule). The Magnificent's share is the **splendour and spectacle**, not the giving.
+- **The ESFP side:** spontaneous, playful and sociable, at home in the senses (colour, music, food, fashion), and happiest with an audience. Easily bored, and avoids conflict by charming its way around it.
+
+So the Magnificent's personality is **charisma as presence and spectacle**: people warm to you on sight, and a crowd turns to watch. It isn't giving orders (the Commander) or arguing (the Debater).
