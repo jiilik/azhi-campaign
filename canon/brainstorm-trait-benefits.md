@@ -236,3 +236,54 @@ Still **tentative**. One new rule from Troy:
 - *(Troy)* Too cooking-oriented and too Short Rest-oriented. It's too like a cook feat, and should be about the personality rather than the cooking. Cook's Utensils and the Hit Dice bonus are on hold.
 - **Rejected:** *Goodwill*, Advantage on Charisma checks with anyone you've given a gift or favour.
 - **Resume here next time,** then continue from the Gentle Giant (10).
+
+## 8. Fifth pass, by voice (2026-10-28, morning commute)
+
+Still **tentative**.
+
+### Tentatively settled
+
+9. **The Generous** (Cha/Con)
+   - *(Troy)* Benevolence, not cooking. Reward the player for playing generously, with nothing for the DM to track, nothing delayed, and no money engine.
+   - You know *Guidance*. This is the **only** trait that grants *Guidance* outside a class's list. *(Troy)* It's the giving piece, and it's underrated as a cantrip: value ~3, not 2.5. A fighter with *Guidance* will spam it.
+   - *After You:* when an ally within 30 feet that you can see would take a Reaction but has already used theirs, you can spend your Reaction instead to let them take it.
+     - Examples: a fighter's second opportunity attack, or a wizard's *Shield* and *Counterspell* in one round. Two *Shield*s do nothing, since it lasts until the wizard's next turn.
+     - *(Troy)* Strong but situational: rare, and memorable when it happens. It's a little 4e Warlord or Battle Master in a trait, for a battlefield-control build, and it pairs with the Commander.
+   - *The Shirt off Your Back:* when you spend Hit Dice during a Short Rest, you can give any of them to an ally instead, who rolls them and heals.
+     - Re-added by Troy after first worrying that it made generosity a healing thing; a bard or cleric will stack it well.
+   - Value: *Guidance* ~3, *After You* ~2, Hit Dice ~2, so ~7. *(Troy)* A touch over target is fine for three situational pieces. "Really fun to play."
+   - **Rejected:**
+     - *Open Purse*, extra coin: anything renewable becomes a money engine.
+     - *Kindness Returned*, the DM returns kindnesses later: the DM has to track it.
+     - *Warm Heart*, Temporary HP when you give something to a creature in need: set aside.
+     - *Goodwill*: rejected last pass.
+     - The cooking pieces.
+10. **The Gentle Giant** (Str/Wis). *(Troy)* It's about temperament, not size, and the character isn't actually bigger.
+    - Proficiency in one of **Athletics, Animal Handling, Medicine or Intimidation**. The choice covers Brown and White, who already have Animal Handling and Medicine, and gives Athletics as a Strength option. Intimidation is there because a giant looks scary at first. Insight was dropped.
+    - *Soothing Presence:* as an action, you touch a willing creature and end the Charmed or Frightened condition on it. Precedents: *Calm Emotions*, Aura of Courage, Countercharm. This is cheaper but costs your action.
+    - *Booming Voice:* whenever you choose, your voice carries as if amplified. When you use it to make an Intimidation check against a group, you roll once for all of them.
+      - Inspired by Fezzik in the flaming cloak. A non-magical echo of *Thaumaturgy*'s booming voice, which stays special to the Devout.
+      - *(Troy)* It stacks well with a bard, like a gentle-giant town crier, and players can play against type.
+    - Value ~6.
+    - **Rejected:**
+      - *Careful Hands*: too situational.
+      - *Big Shadow*, Half Cover for allies behind you: the character isn't bigger.
+      - *Gentle Restraint*: situational, and only for grapplers.
+11. **The Guardian** (Con/Str). Likely takers: paladins, fighters, war clerics, monks.
+    - *Shield Bearer:* when an ally within 5 feet of you takes damage, you can use your Reaction to take half of it instead. ~3–4.
+      - Precedents named in voice: *Warding Bond* (SRD), the Interception and Protection fighting styles, and the 2014 shield guardian's damage-sharing amulet. *(Troy)* He wanted to be sure this wasn't dramatically unusual. The non-SRD precedents are from memory and unverified.
+    - *Shield Training:* you gain training with Shields. If you already have it, you get +1 AC while wielding a Shield instead. ~3.
+      - *(Troy)* A defender's choice.
+      - *(Claude)* The +1 is the same as the Defense fighting style, and it puts a plate-and-shield paladin at AC 21 at level 1. Strong, but in budget.
+    - Value ~6–7. All defensive; *(Troy)* that's fine, no social piece needed.
+    - **Rejected:**
+      - *Step In*, an Intimidation check replacing an ally's failed Charisma check: complicated and situational.
+      - A skill from Intimidation, Insight or Perception: superseded by Shield Training.
+12. **The Hearty ★** (Con), approved as drafted.
+    - Resistance to Poison damage, and Advantage on saves against Poisoned *(Dwarven Resilience)*. ~3.
+    - Your HP maximum increases by 1 per level *(Dwarven Toughness)*. ~3.5.
+    - Value ~6.5–7.
+    - *(Troy)* No separate non-combat piece is needed; the poison resistance covers poisoned food too.
+
+### Resume here: the Magnificent (13)
+Then continue with the Mentor (14), the Prudent (15, with *Read Their Intent* parked there), and on to the Wanderer (24).
