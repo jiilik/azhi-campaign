@@ -313,3 +313,60 @@ Then continue with the Mentor (14), the Prudent (15, with *Read Their Intent* pa
 - **The ESFP side:** spontaneous, playful and sociable, at home in the senses (colour, music, food, fashion), and happiest with an audience. Easily bored, and avoids conflict by charming its way around it.
 
 So the Magnificent's personality is **charisma as presence and spectacle**: people warm to you on sight, and a crowd turns to watch. It isn't giving orders (the Commander) or arguing (the Debater).
+
+## 10. Seventh pass, by voice (2026-10-28, evening commute, continued)
+
+Still **tentative**.
+
+### Tentatively settled
+
+13. **The Magnificent** (Cha/Dex), about 7 points.
+    - Proficiency in one of Performance, Acrobatics, Sleight of Hand, a musical instrument, a Disguise Kit or Painter's Supplies. ~2
+    - You know *Prestidigitation*: harmless flair. ~2. *(Troy)* Preferred over *Minor Illusion*.
+    - *All Eyes on Me:* while you perform where others can see you, your allies have Advantage on Stealth checks to slip past anyone watching you. ~1.5
+      - "Performing" needs no Performance check, so a tumbler or juggler works too. *(Troy)* Rules lawyers may grumble that performing isn't Performance, but the wording stays.
+      - Lower value because it's situational: it needs a crowd and a reason to sneak, such as the heist distraction while the rogue picks the lock.
+    - *Life of the Party:* at any festival, tavern or other gathering, you're soon known and liked, and people seek you out to talk, share news or buy you a drink. ~1.5
+    - **Rejected:**
+      - *Spotlight*: too mechanically complex.
+      - *Stage Magic*, *Minor Illusion* with *Lingering Illusion*: too much the stage magician. *Lingering Illusion* stays parked.
+      - *Crowd-Pleaser*, Temporary HP for an ally on a crit or stunt: too mathematical, and something to track.
+14. **The Mentor** (Cha/Wis), about 7 points.
+    - Proficiency in one skill or tool of your choice. ~2
+    - *Lessons:* after a Long Rest, choose one ally who spent time learning from you. Until your next Long Rest, they're proficient in one skill or tool that you're proficient in. ~3
+      - *(Troy)* Like preparing spells each morning. It's situational unless the party has a plan for the day. The Mentor should collect as many skills as possible, so it pairs with the Curious.
+    - *Teachable Moment:* when an ally you can see misses with an attack, you can use your Reaction to give them Advantage on their next attack roll before the end of their next turn. ~2
+      - *(Troy)* "That teacher that just can't keep quiet", and it gives the Mentor a use for its Reaction.
+      - Simplified on purpose. The all-checks version was a word salad. The any-roll version could be gamed by failing a throwaway roll on purpose. "Against that creature" was dropped, since the creature may be dead by then.
+15. **The Prudent** (Wis/Int), about 6.5 points.
+    - Proficiency in one of **Perception, Investigation or History**. *(Troy)* "Those who forget the past are doomed to repeat it." ~2
+    - *Packed for It (retroactive packing):* when you shop, you can prepay **any amount** of gold for unspecified gear. Later, you can pull out an ordinary item that could have fit in your pack, and its cost comes off what you prepaid. ~2
+      - No cap: the item limits keep it in check, so there's no warhorse from a backpack.
+      - *(Troy)* Prepaying gets rid of the cash-machine problem.
+    - *Read Their Intent:* as a Bonus Action, make an Insight check against a creature you can see. On a success, the DM tells you what it means to do on its next turn, and you can warn your allies. ~2.5. Moved here from the Confidant.
+16. **The Resourceful** (Wis/Dex), about 7 points.
+    - Proficiency in one of **Survival, Medicine, Nature or Sleight of Hand**, and one of **a Herbalism Kit, Woodcarver's Tools or Tinker's Tools**.
+      - It's now a choice, since a character could be a Resourceful Wanderer.
+    - *Improvised Tools:* when you lack a tool you're proficient with, you can cobble one together from what's around and use it with no penalty.
+    - *Make Do:* proficiency with improvised weapons, and you can use any object you're holding as a spellcasting focus. Costly components are still needed.
+      - The focus is for casters and the weapons for everyone else, so the trait works for any build.
+      - **Overlap:** improvised weapons are also on the Scrapper (Troy: leave them there). Check this when we reach the Scrapper.
+    - *(Troy)* The opposite of the Prudent: "we just got all our gear taken and got thrown in jail; how do we break out?" Prudent plus Resourceful is MacGyver with a go-bag. It's redundant rather than broken, and fun.
+
+### Revisits
+
+- **The Dreamer's Painter's Supplies:** kept. It's a choice on both the Dreamer and the Magnificent, which is fine.
+- **The Theorist:** marked for a **full rework**. *Prestidigitation* is now the Magnificent's. The rest (*Mending*, clockwork devices) feels too hands-on for a trait that's about ideas.
+
+### Paused: the Restless ★ (Dex)
+
+- *Catnap:* **once per Long Rest**, you can finish a Short Rest in 10 minutes instead of an hour.
+  - Limited because the unlimited version broke things: a warlock could refresh slots every 10 minutes while hour-long spells were still running, and the Dreamer's *Déjà Vu* would recharge just as fast. The Generous's Hit Dice gift is unaffected, since Hit Dice return on a Long Rest.
+- Proficiency with **two tools of your choice**. *(Troy)* Restless energy goes into crafting, like a fantastic woodworker or the whittler at the campfire. Tools only: Sleight of Hand, Acrobatics, Athletics and instruments were dropped. Athletics is already on several traits.
+- About 5.5 so far, under the ★ target of 7, with **no combat piece**.
+- **Rejected for combat:**
+  - *Never Still*, Disadvantage on opportunity attacks after you move 10 feet: too crunchy to track each turn.
+  - Opportunity attacks against you always at Disadvantage.
+  - Proficiency in Dexterity saves: many classes already have it.
+  - Dexterity-save proficiency, or Disadvantage on opportunity attacks if you have it: *(Troy)* not a fan of any of these fillers.
+- **Resume here next time,** then continue with the Rock (18).
