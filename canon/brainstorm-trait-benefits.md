@@ -492,3 +492,22 @@ Then the Unbound (23) and the Wanderer (24).
       - *Slip the Leash*, Advantage against Grappled and Restrained: the Unbound isn't about being uncatchable.
 
 ### Next: the Wanderer (24), the last one
+
+## 15. Twelfth pass, by voice (2026-10-29, evening): the Wanderer, and the first full pass done
+
+### Tentatively settled
+
+24. **The Wanderer** (Con/Dex), about 7.5 points.
+    - Your Speed increases by 5 feet. ~2
+    - You can't become lost by non-magical means. ~1.5
+    - Proficiency in **two** of Survival, Nature, Athletics, Perception, Navigator's Tools or Cartographer's Tools. ~4
+    - *(Troy)* A pretty vanilla choice, but the Speed will appeal to players who want skills plus a static bonus, and it'll be interesting to stack with other traits.
+    - Room for a small social piece later, such as a story from the road, if it needs flavour.
+
+### Status
+**All 24 traits now have tentative benefits** (§6–§15).
+
+Still open:
+- A second pass for balance and wording.
+- Writing the benefits into `srd/04-character-origins/01-personality-traits.md`.
+- The +3 stacking question.
