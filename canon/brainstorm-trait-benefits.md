@@ -471,3 +471,24 @@ Then the Unbound (23) and the Wanderer (24).
 ### Next
 - The Theorist's last line (proposals in chat, 2026-10-29).
 - Then the Unbound (23) and the Wanderer (24).
+
+## 14. Eleventh pass, by voice (2026-10-29, evening, continued)
+
+### Tentatively settled
+
+23. **The Unbound ★** (Cha), about 7.5 points.
+    - *(Troy)* Unbound by rules, not by ropes: the one who can't be told what to do, not the one who can't be caught.
+      - Think rogues, rock-star bards, outlaws, bounty hunters and privateers, plus "licensed" free agents like Special Circumstances in the Culture series.
+      - Not just argumentative, which is the Debater's job. They make a decision and live their own life.
+      - It must be fun to play and **fun for the other players to be around**: a free spirit, not a "my guy" spoiler.
+    - Advantage on saving throws against being Charmed.
+      - Overlap: Black's Advantage on mental saves. That's rare, since Black leans lawful and a Black Unbound plays against type. Kept as is.
+    - Proficiency in **two** of: Deception, Intimidation, Performance, Persuasion, a Disguise Kit, a Forgery Kit, Thieves' Tools, Navigator's Tools or a Gaming Set. ~4
+    - *Closed Mind:* *Zone of Truth* doesn't affect you, and your thoughts can't be read by magic, such as *Detect Thoughts*. ~1.5
+      - *(Troy)* "So situational, but it's going to be amazing when it's used": the one person in the room who can still lie.
+      - *(Claude)* Friendly telepathy is left out, so allies can still talk to you mind to mind.
+    - **Rejected:**
+      - *Misty Step* once per Long Rest.
+      - *Slip the Leash*, Advantage against Grappled and Restrained: the Unbound isn't about being uncatchable.
+
+### Next: the Wanderer (24), the last one
