@@ -415,3 +415,40 @@ Still **tentative**.
 - *Quartermaster* (you know the group's food, water and coin; rations last twice as long): *(Troy)* sounds like a player trait rather than a character trait, since one player usually tracks the group's inventory anyway. The thought was cut off by a phone call.
 - Not yet reviewed: Insight plus one tool, and *Slacker's Bane*.
 - **Resume here next time,** then the Strategist (21), the Theorist (22, full rework), the Unbound (23) and the Wanderer (24).
+
+## 12. Ninth pass, by voice (2026-10-29, evening commute)
+
+Still **tentative**.
+
+### Tentatively settled
+
+20. **The Steward** (Int/Con), about 6.5 points.
+    - *(Troy)* The Steward executes plans, and the party succeeds more when it's there. It's the one the king leaves in charge while he's off adventuring: reliable and basically unable to fail. Like Alfred, or Faramir: it never takes the throne, unless the player plays against type (Denethor).
+    - **No skills or tools.** *(Troy)* The Steward doesn't need to know how to do anything; it makes things happen. Insight and the tool were removed.
+    - *Better Help:* you can take the Help action to assist with an ability check even if you're not proficient in the skill or tool, as long as the ally making the check is. ~2. *(Troy)* "Very much executive-officer feel."
+      - The 2024 Help action normally needs your own proficiency in the skill or tool, and an enemy within 5 feet of you to help with an attack.
+    - *Delegate:* when you're part of a group check, you can choose one participant to roll for the whole group, and their result counts for everyone. ~2. *(Troy)* The Steward may not be best at things, but knows who is.
+    - *Help as a Reaction:* when an ally makes an attack roll or ability check, you can use your Reaction before they roll to take the Help action for them. ~2.5.
+      - Stacks with White's Bonus Action Help: a White Steward can Help twice a round. *(Troy)* "Super interesting."
+    - **Rejected:**
+      - *Quartermaster*: a player's spreadsheet, and provisions belong to the Prudent and the Resourceful.
+      - *Well Provisioned*: Temporary HP is crunchy.
+      - *Requisition*.
+      - *Reliable*, one skill treating a roll of 9 or lower as 10: it duplicates the rogue's Reliable Talent from level 7.
+      - *According to Plan*, the group succeeds if you do: group checks are rare at the table.
+      - *Right Hand*, a minimum 10 on checks you Help with: situational, and one more thing to remember.
+      - *Directing Voice*, Help at 30 feet.
+    - *Slacker's Bane* was never reviewed and is dropped with the rest.
+21. **The Strategist ★** (Int), about 8 points.
+    - Use Intelligence instead of Dexterity for Initiative.
+    - *Initiative Swap:* after Initiative is rolled, you can swap yours with a willing ally's (from the SRD's Alert feat).
+    - Proficiency in **two** of Nature, Survival, History, Religion or Arcana.
+    - *(Claude)* A little over budget, but Intelligence traits are the hardest sell.
+    - *(Troy)* The Strategist isn't a scout, and isn't figuring it out mid-fight: it goes into combat already knowing.
+    - **Rejected:**
+      - *Know Your Enemy*, study a creature to learn its strength or weakness: that's a scout.
+      - *Battle Plan*, pre-combat movement: crunchy, and something to remember.
+      - *Foregone Conclusion*, Advantage on Initiative for allies: enough Initiative tricks already.
+
+### Next: the Theorist ★ (22), full rework from scratch
+Then the Unbound (23) and the Wanderer (24).
