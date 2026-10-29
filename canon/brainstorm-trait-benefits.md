@@ -452,3 +452,22 @@ Still **tentative**.
 
 ### Next: the Theorist ★ (22), full rework from scratch
 Then the Unbound (23) and the Wanderer (24).
+
+## 13. Tenth pass, by voice (2026-10-29, evening, continued)
+
+### Tentatively settled
+
+22. **The Theorist ★** (Int), reworked from scratch. About 7.5 points.
+    - *(Troy)* The one who always comes up with an idea that isn't very good, but sometimes is amazing, from thinking outside the box. The most book knowledge and the least practical experience. Hermione is a good role-play model.
+    - Proficiency in **two** of Arcana, History, Investigation, Nature and Religion: the five Intelligence skills. ~4
+    - *Harebrained Scheme:* when an ally who can hear you is about to make a D20 Test, you can use your Reaction to add your Intelligence modifier to the roll. You can do this a number of times equal to your Proficiency Bonus, and you regain all uses when you finish a Long Rest. ~3.5
+      - No range; "can hear you" is enough. Outside combat the Reaction hardly matters.
+      - A flat bonus given **before** the roll, unlike Bardic Inspiration, which is handed out in advance and spent after a failure. It mirrors the Steward's Help as a Reaction.
+    - **Rejected along the way:**
+      - A reroll with your Intelligence on a failed check, once per Long Rest.
+      - Swapping in your Intelligence modifier for an ally's check, once per Long Rest, then on any D20 Test, then Proficiency Bonus times: too thin, since it only helps when your Intelligence beats their modifier.
+    - **Removed:** *Mending*, *Prestidigitation* (now the Magnificent's) and the clockwork devices.
+
+### Next
+- The Theorist's last line (proposals in chat, 2026-10-29).
+- Then the Unbound (23) and the Wanderer (24).
