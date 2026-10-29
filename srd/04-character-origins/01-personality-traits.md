@@ -214,7 +214,7 @@ _Benefit._ _(OPEN.)_
 
 #### The Theorist
 
-_Everyone else accepts that the spine of the world never bends. You want to know why. You chase an idea down to its bones, take it apart and put it back together a little better, and you'll happily miss supper doing it. A good question keeps you warmer than any fire._ _(OPEN: the last line is to be rewritten.)_
+_Everyone else accepts that the spine of the world never bends. You want to know why. You chase an idea down to its bones, and you'll happily miss supper doing it. You've read about almost everything and done almost none of it, which has never once stopped you from having a plan._
 
 **Ability Score Increase:** Intelligence
 

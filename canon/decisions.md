@@ -4,6 +4,7 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-10-29
 
+- **The Theorist's description** (Troy, written): "take it apart and put it back together a little better" is cut, and the last line becomes "You've read about almost everything and done almost none of it, which has never once stopped you from having a plan." This fits the book-smart, harebrained Theorist of the reworked benefits.
 - **The Scrapper's description** (Troy, voice): "a dare on a cliff edge" becomes **"a spilled drink"**, so the trait stays about brawling and leaves daring to the Bold.
 - **Design directions Troy is considering** (not decided):
   - **Traits instead of feats:** drop feats, and have characters gain personality traits at levels 4, 8 and so on. Later, more advanced traits would take the role of feats, and generic feats such as War Caster might go away.
