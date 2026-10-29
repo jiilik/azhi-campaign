@@ -2,6 +2,13 @@
 
 Newest first. One line per decision: what was decided, and why if a reason was given. Add to this log every time the author settles something, and update `canon/setting-bible.md` to match.
 
+## 2026-10-29
+
+- **The Scrapper's description** (Troy, voice): "a dare on a cliff edge" becomes **"a spilled drink"**, so the trait stays about brawling and leaves daring to the Bold.
+- **Design directions Troy is considering** (not decided):
+  - **Traits instead of feats:** drop feats, and have characters gain personality traits at levels 4, 8 and so on. Later, more advanced traits would take the role of feats, and generic feats such as War Caster might go away.
+  - **A Warlord class:** possibly designing one. Battlefield-control ideas such as swapping two allies' places are held back for it rather than given to traits.
+
 ## 2026-10-26
 
 - **Approach to trait benefits** (Troy):

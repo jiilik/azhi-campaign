@@ -190,7 +190,7 @@ _Benefit._ _(OPEN.)_
 
 #### The Scrapper
 
-_You've never met a fight you didn't like, or one you'd walk away from. A shove in a tavern, a dare on a cliff edge, a rival's raised eyebrow: it's all an invitation. You win most, lose some, and buy the drinks either way._ _(OPEN: trim "a dare on a cliff edge", which is the Bold's territory, so this stays about brawling.)_
+_You've never met a fight you didn't like, or one you'd walk away from. A shove in a tavern, a spilled drink, a rival's raised eyebrow: it's all an invitation. You win most, lose some, and buy the drinks either way._
 
 **Ability Score Increase:** Strength or Dexterity
 

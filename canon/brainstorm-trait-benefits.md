@@ -370,3 +370,48 @@ Still **tentative**.
   - Proficiency in Dexterity saves: many classes already have it.
   - Dexterity-save proficiency, or Disadvantage on opportunity attacks if you have it: *(Troy)* not a fan of any of these fillers.
 - **Resume here next time,** then continue with the Rock (18).
+
+## 11. Eighth pass, by voice (2026-10-29, morning commute; cut short by a phone call)
+
+Still **tentative**.
+
+### Tentatively settled
+
+17. **The Restless ★** (Dex), about 7.5 points.
+    - *Catnap:* once per Long Rest, you can finish a Short Rest in 10 minutes instead of an hour.
+    - Proficiency with two tools of your choice.
+    - *Up and At 'Em:* standing up from Prone costs you no movement. About 1 point. *(Troy)* Flavourful but situational: maybe once per Long Rest at most.
+    - *Quick Hands:* you can draw or stow a weapon, or pull an item from your pack, without using your object interaction. About 1 point. *(Troy)* "Really like it", especially with Green's tail: a whirlwind of gear.
+18. **The Rock** (Con/Str). About 8.5 on paper, but in practice about 6–7, since each build uses only some of the pieces. *(Troy)* The aim is something for each kind of build: caster, melee and ranged.
+    - You can't be Surprised. ~2
+    - *Steady Hands:* you have Advantage on Constitution saves to keep Concentration on a spell. ~2.5. For casters, and for half-casters wading in while concentrating.
+    - *Hold Your Ground:* your opportunity attacks have Advantage. ~2. For melee.
+    - *Cool Under Pressure:* being within 5 feet of an enemy doesn't give you Disadvantage on ranged attack rolls, and you can make opportunity attacks with ranged weapons. ~2. For the back line.
+      - The SRD only allows melee opportunity attacks; the second half is Troy's addition.
+      - *(Troy)* Picture a ranger concentrating on *Hunter's Mark*, wading in and shooting point-blank.
+    - **Rejected:**
+      - *Immovable*, Advantage against shoves, pulls and Prone: too crunchy, and few monsters move people.
+      - Advantage against Frightened, then immunity to Frightened: it helps casters and martials alike, and Troy wanted a martial-only mirror to *Steady Hands*.
+19. **The Scrapper** (Str/Dex), about 6.5 points.
+    - Your Unarmed Strikes deal 1d4 + your Strength modifier. ~1.5
+    - Proficiency with improvised weapons. ~1
+    - *No Hard Feelings:* after a fair, non-lethal fight with someone, win or lose, they treat you as a friend afterwards. ~2. *(Troy)* It wants to fight everyone without hating anyone.
+    - Proficiency in one of Athletics, Acrobatics or Intimidation. ~2
+    - **Description changed** *(Troy, approved)*: "a dare on a cliff edge" became "a spilled drink". Applied to the rules file.
+    - **Rejected:**
+      - The 5-foot push.
+      - *Punch and Grab*, damage plus a grapple on one hit (from the Grappler feat).
+    - **Overlap kept** *(Troy: don't change anything)*: the Resourceful's *Make Do* also gives improvised weapons. A Dexterity brawler might take both, at a loss of about 1 point.
+    - **Note:** the Scrapper is very close to the 2024 Tavern Brawler feat (not SRD). That's allowed as a concept, and now has its own social piece.
+
+### Design directions raised (also logged in `canon/decisions.md` and the PLAN backlog)
+
+- **Traits instead of feats** *(Troy, considering)*: gain personality traits at levels 4, 8 and so on, with advanced traits later in the role of feats. Generic feats like War Caster may go away, so *Steady Hands* needn't avoid it.
+- **A Warlord class** *(Troy, considering)*. **Parked for it:** *Rotate the Line*, which uses a Bonus Action to swap two willing adjacent allies within 30 feet without provoking opportunity attacks.
+
+### Paused mid-trait: the Steward (Int/Con)
+- *(Troy)* Lean into the Steward as an **optimal battlefield controller** who directs others rather than stepping into the front line.
+- **Rejected:** *Rotate the Line*, in both versions: swapping places with an ally steps on the Guardian, and swapping two allies is kept for a possible Warlord.
+- *Quartermaster* (you know the group's food, water and coin; rations last twice as long): *(Troy)* sounds like a player trait rather than a character trait, since one player usually tracks the group's inventory anyway. The thought was cut off by a phone call.
+- Not yet reviewed: Insight plus one tool, and *Slacker's Bane*.
+- **Resume here next time,** then the Strategist (21), the Theorist (22, full rework), the Unbound (23) and the Wanderer (24).
