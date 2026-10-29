@@ -162,7 +162,7 @@ _Your door is never barred and your pot is never empty. You learn every name, an
 
 You gain the following benefits.
 
-_Guidance._ You know the _Guidance_ cantrip. This is the only personality trait that grants it.
+_Guidance._ You know the _Guidance_ cantrip.
 
 _After You._ When an ally you can see within 30 feet of you would take a Reaction but has already used theirs, you can spend your Reaction instead to let them take it.
 
