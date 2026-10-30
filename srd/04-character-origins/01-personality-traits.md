@@ -27,7 +27,7 @@ _Benefit._ The benefits of a trait are detailed after its ability score increase
 
 A phased dragonborn chooses two personality traits. An Unphased dragonborn chooses three, and can change one of them on each Long Rest (see "Unphased" in "Character Species"). You can't choose the same trait twice.
 
-Personality traits aren't tied to colours; any character can choose any trait. Some traits pair naturally with certain forms, and some pairings are especially strong. _(OPEN: whether two traits and a form may all raise the same ability, for +3 to one score.)_
+Personality traits aren't tied to colours; any character can choose any trait. Some traits pair naturally with certain forms, and some pairings are especially strong. Your two traits and your form may all raise the same ability, though no score can go above 20.
 
 **Personality Traits by Ability**
 

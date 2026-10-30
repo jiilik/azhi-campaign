@@ -511,3 +511,39 @@ Still open:
 - A second pass for balance and wording.
 - Writing the benefits into `srd/04-character-origins/01-personality-traits.md`.
 - The +3 stacking question.
+
+## 16. Balance pass, part 1, by voice (2026-10-30, morning commute)
+
+Reviewing duplicates, clashes and broken combos across forms and traits. Verdicts are Troy's.
+
+1. **+3 to one ability: allowed.** Two traits plus a form can all raise one ability. With the standard array that's 18 at level 1, which is under the cap of 20.
+2. **Reaction crowding: fine.** Seven traits use the Reaction. *(Troy)* Reactions are under-used in the base game; most characters only ever have the standard ones. Picking two Reaction traits is a real choice.
+3. **The Help engine: approved.** A White Steward Helps with its Bonus Action and again with its Reaction, so two allies, or both of one fighter's attacks, get Advantage.
+   - Limits:
+     - Helping an attack needs the enemy within 5 feet of you, so it's a front-line move, not a back-row one.
+     - Advantage doesn't stack.
+     - It costs the Bonus Action and Reaction, so no opportunity attacks that round.
+     - It only pays off when an ally attacks the same enemy.
+   - Gamed out:
+     - **A paladin Steward with a rogue:** Sneak Attack already applies, so the Help only adds accuracy.
+     - **A Valor bard Steward:** Bardic Inspiration competes for the Bonus Action. Valor isn't in the SRD; it was a thought experiment.
+     - **A two-weapon ranger Steward:** its Bonus Action is already crowded.
+     - **Strongest case, a fighter Steward beside a paladin:** strong, about feat level, but fair.
+4. **Stacked rolls: approved.**
+   - **Level 1:** *Muscle Memory*, Help, *Guidance* and *Harebrained Scheme* on one Stealth check average about 28.
+   - **Level 17:** about 39, maximum 52. The hardest DC is 30.
+   - It takes four characters and their resources, and *Guidance* needs Concentration.
+   - *(Troy)* A party built to break this sounds fun, but it's rare. With 10–11 trait picks in a party of five, the chance of all four traits appearing is about 3% if picks were random.
+5. **Initiative: as is.** A Bold Strategist wizard almost always goes first. *(Troy)* That's what the player bought with both traits: a battlefield controller extraordinaire. The swap can hand the top spot to an ally.
+6. **Overlaps:**
+   - **The Unbound and Black's *Guarded Mind*:** accepted. A Charisma-chasing Black Unbound is a munchkin build and takes the small loss.
+   - **The Commander's *Follow Me* and the Gentle Giant's *Soothing Presence*:** approved. One is a ranged rallying cry against fear; the other is an action-and-touch cure, and the only one that ends Charmed (for example, a vampire's thrall). They complement each other.
+   - **Improvised weapons on both the Resourceful and the Scrapper:** approved. The DM can already treat an improvised weapon as a similar real weapon (a table leg as a club), so the proficiency is mostly flavour. A Resourceful Scrapper is Jackie Chan.
+   - **Survival on five lists** (Resourceful, Wanderer, Strategist, Brown and Green): kept. It's a good adventurer skill, and a party should have one or two characters with it. Only Green grants it outright; the rest are choices.
+
+### Paused: the Green Scrapper
+- Green's tail already strikes for 1d4 using Dexterity, so a Dexterity Green Scrapper wastes the Scrapper's punch, about 1.5 points.
+- On the table:
+  - **Option A:** if your Unarmed Strikes already deal at least 1d4, the Scrapper makes them 1d6 instead.
+  - **Option B:** accept the loss, as with the Black Unbound.
+- **Resume here,** then go on to Red's *Mighty Frame* and the Disciplined, Green's tail combos, Unphased swapping, movement and position, and weak spots.

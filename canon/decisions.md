@@ -2,6 +2,11 @@
 
 Newest first. One line per decision: what was decided, and why if a reason was given. Add to this log every time the author settles something, and update `canon/setting-bible.md` to match.
 
+## 2026-10-30
+
+- **+3 to one ability is allowed** (Troy): two traits plus a form may all raise the same ability.
+- **Balance pass, part 1** (Troy, voice): Reaction crowding, the Help engine, stacked rolls and Initiative stacking were all reviewed and approved as is. Overlap checks are recorded in `canon/brainstorm-trait-benefits.md` §16.
+
 ## 2026-10-29
 
 - **Starting equipment approved** (Troy): with no backgrounds, a character starts with **50 GP** to spend on equipment, plus their class's equipment.
