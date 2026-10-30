@@ -9,7 +9,7 @@ An origin has two parts:
 
 Between them, your form and personality traits give your character the ability score increases, skill proficiencies and tool proficiencies that a background would otherwise provide.
 
-**Starting Equipment** _(PROPOSED)._ Because there are no backgrounds, your character starts with 50 GP to spend on equipment, in addition to the equipment from their class.
+**Starting Equipment.** Because there are no backgrounds, your character starts with 50 GP to spend on equipment, in addition to the equipment from their class.
 
 ## Personality Traits
 
