@@ -288,4 +288,4 @@ Items marked OPEN above are still to be decided, along with these:
 - **Ritual components.** Rituals still need their material components: _Identify_ needs a pearl worth 100+ GP, and _Augury_ needs divinatory tokens worth 25+ GP. Decide whether Black and Grey ignore them. (Note that Indigo's pearls are a separate currency.)
 - **Benefit names.** Names such as _Rising Fury_ or _Maker's Training_ are new placeholders, added to match the SRD's format.
 - **Languages.** Still to do in "Character Creation" (Step 2 and the language tables).
-- **Personality traits.** "Personality Traits" now holds the twenty-four traits (2026-10-25), with tentative benefits. +3 stacking is allowed (2026-10-30); a balance pass is in progress.
+- **Personality traits.** "Personality Traits" holds the twenty-four traits, with their benefits (canon, 2026-10-30). +3 stacking is allowed.

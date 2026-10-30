@@ -4,6 +4,7 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-10-30
 
+- **Personality trait benefits are canon** (Troy): the trait-benefits brainstorm is approved. The 24 benefits in `srd/04-character-origins/01-personality-traits.md` become official, including the balance-pass changes and the feature names that had been placeholders (such as *Quick to Act* and *Long Stride*).
 - **+3 to one ability is allowed** (Troy): two traits plus a form may all raise the same ability.
 - **No breath weapons** (Troy): no form, and no dragonborn, has a breath weapon. The SRD Breath Weapon is retired.
 - **Balance pass, part 2** (Troy, voice):

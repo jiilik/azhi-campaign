@@ -52,7 +52,7 @@ _You were halfway across the chasm before anyone finished saying "we should thin
 
 You gain the following benefits.
 
-_Quick to Act†._ When you roll Initiative, add your Proficiency Bonus to the roll.
+_Quick to Act._ When you roll Initiative, add your Proficiency Bonus to the roll.
 
 _First Through the Door._ When you volunteer to go first into something risky, such as a jump, a duel or a confrontation, you have Advantage on the first ability check you make for it.
 
@@ -94,7 +94,7 @@ You gain the following benefits.
 
 _Proficiencies._ You gain proficiency in two skills or tools of your choice.
 
-_Nose for Secrets†._ You have Advantage on ability checks you make to find traps and secret doors.
+_Nose for Secrets._ You have Advantage on ability checks you make to find traps and secret doors.
 
 _Poke It and See._ The first time you hit a creature with an attack roll, you learn one of its damage Resistances, Immunities or Vulnerabilities, if it has any.
 
@@ -202,9 +202,9 @@ _You'll eat anything once and most things twice. You laugh from the belly, sleep
 
 You gain the following benefits.
 
-_Iron Stomach†._ You have Resistance to Poison damage, and you have Advantage on saving throws you make to avoid or end the Poisoned condition.
+_Iron Stomach._ You have Resistance to Poison damage, and you have Advantage on saving throws you make to avoid or end the Poisoned condition.
 
-_Hardy†._ Your Hit Point maximum increases by 1, and it increases by 1 again whenever you gain a level.
+_Hardy._ Your Hit Point maximum increases by 1, and it increases by 1 again whenever you gain a level.
 
 #### The Magnificent
 
@@ -288,7 +288,7 @@ _The sky can go dark at noon and the ground can split at your feet, and your han
 
 You gain the following benefits.
 
-_Unflappable†._ You can't be Surprised.
+_Unflappable._ You can't be Surprised.
 
 _Steady Hands._ You have Advantage on Constitution saving throws you make to maintain Concentration.
 
@@ -306,7 +306,7 @@ You gain the following benefits.
 
 _Proficiencies._ You gain proficiency in your choice of the Acrobatics, Athletics or Intimidation skill, and you have proficiency with improvised weapons.
 
-_Brawler†._ Your Unarmed Strikes deal Bludgeoning damage equal to 1d4 plus your Strength modifier.
+_Brawler._ Your Unarmed Strikes deal Bludgeoning damage equal to 1d4 plus your Strength modifier.
 
 _No Hard Feelings._ After a fair, non-lethal fight with someone, win or lose, they treat you as a friend afterwards.
 
@@ -322,7 +322,7 @@ _Better Help._ You can take the Help action to assist with an ability check even
 
 _Delegate._ When you're part of a group check, you can choose one participant to roll for the whole group, and their result counts for everyone.
 
-_Ready Assistance†._ When an ally makes an attack roll or ability check, you can use your Reaction before they roll to take the Help action for them.
+_Ready Assistance._ When an ally makes an attack roll or ability check, you can use your Reaction before they roll to take the Help action for them.
 
 #### The Strategist
 
@@ -334,7 +334,7 @@ You gain the following benefits.
 
 _Proficiencies._ You gain proficiency in two of the following skills of your choice: Arcana, History, Nature, Religion or Survival.
 
-_Calculated Start†._ When you roll Initiative, you can use your Intelligence modifier instead of your Dexterity modifier.
+_Calculated Start._ When you roll Initiative, you can use your Intelligence modifier instead of your Dexterity modifier.
 
 _Initiative Swap._ Immediately after you roll Initiative, you can swap your Initiative with that of one willing ally in the same combat.
 
@@ -360,7 +360,7 @@ You gain the following benefits.
 
 _Proficiencies._ You gain proficiency in two of the following of your choice: the Deception, Intimidation, Performance or Persuasion skill, the Disguise Kit, the Forgery Kit, Navigator's Tools, Thieves' Tools or one Gaming Set.
 
-_Free Will†._ You have Advantage on saving throws you make to avoid or end the Charmed condition.
+_Free Will._ You have Advantage on saving throws you make to avoid or end the Charmed condition.
 
 _Closed Mind._ The _Zone of Truth_ spell doesn't affect you, and your thoughts can't be read by magic, such as the _Detect Thoughts_ spell.
 
@@ -374,6 +374,6 @@ You gain the following benefits.
 
 _Proficiencies._ You gain proficiency in two of the following of your choice: the Athletics, Nature, Perception or Survival skill, Cartographer's Tools or Navigator's Tools.
 
-_Long Stride†._ Your Speed increases by 5 feet.
+_Long Stride._ Your Speed increases by 5 feet.
 
 _Pathfinder._ You can't become lost by non-magical means.

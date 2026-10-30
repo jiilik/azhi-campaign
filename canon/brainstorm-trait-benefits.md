@@ -1,6 +1,6 @@
 # Brainstorm: Personality Trait Benefits
 
-**Status: PROPOSED** (opened 2026-10-26). This file is the working record for writing the benefits of the 24 personality traits in `srd/04-character-origins/01-personality-traits.md`. Nothing here is canon until Troy approves it.
+**Status: ADOPTED** (opened 2026-10-26; approved by Troy 2026-10-30). This file is the working record for the benefits of the 24 personality traits. The canon text is in `srd/04-character-origins/01-personality-traits.md`; where they differ, the rules file wins.
 
 ## 1. Strategy (Troy, 2026-10-26)
 
