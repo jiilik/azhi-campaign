@@ -547,3 +547,31 @@ Reviewing duplicates, clashes and broken combos across forms and traits. Verdict
   - **Option A:** if your Unarmed Strikes already deal at least 1d4, the Scrapper makes them 1d6 instead.
   - **Option B:** accept the loss, as with the Black Unbound.
 - **Resume here,** then go on to Red's *Mighty Frame* and the Disciplined, Green's tail combos, Unphased swapping, movement and position, and weak spots.
+
+## 17. Balance pass, part 2, by voice (2026-10-30, evening commute)
+
+### Approved as is
+- **The Green Scrapper:** left as is. A Dexterity Green Scrapper takes the small loss on the punch.
+- **Red's *Mighty Frame* with the Disciplined's *Muscle Memory* on Athletics:** Advantage and a bonus die stack. *(Troy)* Only another Red with similar training is a fair grapple.
+- **Green's tail holding a spellcasting focus,** for example the Resourceful's improvised focus while a cleric holds a mace and shield: fine. Clerics already have back doors, such as a holy symbol on a shield.
+- **Unphased swapping** the best trait each day: fine.
+- **A Red Wanderer** (Large, 40 feet): fine. Size doesn't set Speed in the rules, and the non-SRD Speedy feat gives +10, so +5 is half a feat for half a feat's budget.
+- **The Rock's *Cool Under Pressure* on any archer:** both halves fine.
+- **Rock plus Guardian:** fine. Opportunity attacks and *Shield Bearer* share the Reaction, so it's a real choice each round between protecting and punishing.
+- **The Hearty:** kept as is. *(Troy)* It leaves room for role-play, like eating the mystery stew without blinking.
+- **The Devout:** kept as is, about 6 points. *Faithful Welcome* stays limited to temples of your own faith.
+- **Brown:** about 17.5 points, kept, apart from the split below. *(Troy)* An urban Brown is a carter.
+- **Red without its volcano:** being Large already doubles carrying capacity, which makes a portside porter.
+
+### Changes (applied to `srd/04-character-origins/02-character-species.md`)
+1. **Green's *Prehensile Tail*** *(Troy approved the wording)*: "It can hold and manipulate objects as a hand can, but it can't attack with a weapon or gain the benefit of a Shield."
+   - The tail can still hold a sword or shield, but not use one. There's no point in a tail dagger, since the tail already strikes for 1d4.
+2. **Red's *Maker's Training*:** two tools, with **Expertise in one of them**, plus Athletics or Intimidation. About +1.5 points, putting Red near the top of the form budget.
+   - Sleight of Hand was considered for Red's skill list and rejected; it suits other colours better. No form currently offers it.
+3. **Brown:** *Rooted* now covers only resisting push, pull and Prone. **Tremorsense** (10 feet) is its own feature.
+4. **White:** *Flight* is renamed **_Spectral Wings_**. The wings are summoned, not a permanent feature.
+   - *(Claude's wording, for Troy to check)*: "wings of shimmering light", which "fade when the duration ends".
+   - White gets **no tools**. *(Troy)* Tools belong to other forms; White's strength is wisdom and faith, and it pairs naturally with the Devout.
+
+### Balance pass status
+All issues on the list have been reviewed.

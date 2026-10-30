@@ -94,7 +94,7 @@ _Mighty Frame._ You have Advantage on Strength checks.
 
 _Fire Resistance._ You have Resistance to Fire damage.
 
-_Maker's Training._ You have proficiency with two tools of your choice, and in your choice of the Athletics or Intimidation skill.
+_Maker's Training._ You have proficiency with two tools of your choice, and in your choice of the Athletics or Intimidation skill. Choose one of those tools; you have Expertise with it.
 
 _Ribbons._ At a glance, you can judge the quality and origin of anything of value. _Prospector:_ you can make Wisdom (Survival) checks to find raw materials for crafting, such as ore, workable stone, clay or fuel.
 
@@ -109,7 +109,9 @@ _Brown dragonborn work the rich ash-fed earth: farmers, woodcutters and fringe-d
 
 As a Brown dragonborn, you have these special traits.
 
-_Rooted._ While you're standing on the ground, you have Advantage on saving throws and ability checks against being pushed, pulled or knocked Prone. You also have Tremorsense with a range of 10 feet.
+_Rooted._ While you're standing on the ground, you have Advantage on saving throws and ability checks against being pushed, pulled or knocked Prone.
+
+_Tremorsense._ You have Tremorsense with a range of 10 feet.
 
 _Plough and Cart._ You can control any willing Beast at least one size larger than you as a mount, even if it hasn't been trained to accept a rider. You have Advantage on ability checks to drive a vehicle and to keep a mount under control.
 
@@ -151,7 +153,7 @@ As a Green dragonborn, you have these special traits.
 
 _Climber._ You have a Climb Speed equal to your Speed.
 
-_Prehensile Tail._ Your tail counts as a free third hand. It can do anything a free hand can, except hold a Shield. You can also make Unarmed Strikes with it, dealing 1d4 Slashing damage and using Dexterity for the attack and damage rolls.
+_Prehensile Tail._ Your tail counts as a free third hand. It can hold and manipulate objects as a hand can, but it can't attack with a weapon or gain the benefit of a Shield. You can make Unarmed Strikes with it, dealing 1d4 Slashing damage and using Dexterity for the attack and damage rolls.
 
 _Green Lore._ You have proficiency in the Nature and Survival skills, and with your choice of the Herbalism Kit or the Poisoner's Kit.
 
@@ -256,7 +258,7 @@ _Cold Resistance._ You have Resistance to Cold damage.
 
 _Helping Hand._ You can take the Help action as a Bonus Action.
 
-_Flight._ As a Bonus Action, you can gain a Fly Speed equal to your Speed for a number of minutes equal to your character level. Once you use this trait, you can't use it again until you finish a Long Rest.
+_Spectral Wings._ As a Bonus Action, you can summon wings of shimmering light and gain a Fly Speed equal to your Speed for a number of minutes equal to your character level. The wings fade when the duration ends. Once you use this trait, you can't use it again until you finish a Long Rest.
 
 _Healer's Training._ You have proficiency in the Medicine skill.
 

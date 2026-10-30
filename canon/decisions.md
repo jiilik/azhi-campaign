@@ -5,6 +5,12 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 ## 2026-10-30
 
 - **+3 to one ability is allowed** (Troy): two traits plus a form may all raise the same ability.
+- **Balance pass, part 2** (Troy, voice):
+  - Green's tail can hold a weapon or Shield but can't attack with a weapon or gain a Shield's benefit.
+  - Red has Expertise with one of its two tools.
+  - Brown's Tremorsense is now its own feature, split from *Rooted*.
+  - White's *Flight* is renamed *Spectral Wings*: summoned, not permanent.
+  - Everything else reviewed was approved as is (§17 of the trait-benefits brainstorm).
 - **Balance pass, part 1** (Troy, voice): Reaction crowding, the Help engine, stacked rolls and Initiative stacking were all reviewed and approved as is. Overlap checks are recorded in `canon/brainstorm-trait-benefits.md` §16.
 
 ## 2026-10-29
