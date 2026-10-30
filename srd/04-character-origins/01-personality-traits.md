@@ -42,7 +42,7 @@ Personality traits aren't tied to colours; any character can choose any trait. S
 
 ### Personality Trait Descriptions
 
-The traits are alphabetized, ignoring "The." _(Tentative, 2026-10-29: these benefits come from the first full design pass. A balance and wording pass is still to come. Feature names marked † are placeholders. The working record is `canon/brainstorm-trait-benefits.md`.)_
+The traits are alphabetized, ignoring "The."
 
 #### The Bold
 
