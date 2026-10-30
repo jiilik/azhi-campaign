@@ -24,7 +24,7 @@
 | Amphibious, swim, climb and fly speeds | Blue, Indigo, Green and White |
 
 **Reserved:**
-- Breath Weapon and Draconic Flight, held for the breath-weapon question.
+- Breath Weapon and Draconic Flight. *(Troy, 2026-10-30: there are no breath weapons; Breath Weapon is retired.)*
 - Darkness-themed spells, held for Black and Indigo flavour.
 
 **Free parts:**

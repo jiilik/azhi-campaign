@@ -71,8 +71,7 @@ When a PROPOSED item is confirmed or rejected, update its status here and add a 
   - Phasing happens only at the DM's discretion or at death's door.
 - **OPEN.**
   - Whether a dragonborn's first settling counts as "phasing" (the word may cover only later changes).
-  - What an Unphased dragonborn looks like (the colour-wheel art shows a shifting blend of all five colours), and whether it can breathe or resist anything.
-  - Whether breath weapons are shared by every dragonborn or belong to particular forms.
+  - What an Unphased dragonborn looks like (the colour-wheel art shows a shifting blend of all five colours), and whether it can resist anything.
   - The exact phasing penalty.
   - Whether Gold and Silver can ever be reached by phasing.
 - **CANON (2026-10-21). Character building.** The full specification is `canon/brainstorm-species.md`. In short:

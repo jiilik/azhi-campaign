@@ -73,7 +73,7 @@ _Many Possibilities._ You choose three personality traits instead of two, and yo
 
 _Trying On Personalities._ When you finish a Long Rest, you can replace one of your personality traits with another one. Your ability scores change to match.
 
-_(OPEN: what an Unphased dragonborn can breathe or resist, if anything.)_
+_(OPEN: what an Unphased dragonborn can resist, if anything.)_
 
 ### Forms
 
@@ -286,7 +286,6 @@ Items marked OPEN above are still to be decided, along with these:
 
 - **Starting equipment.** Backgrounds gave a package or 50 GP. The flat 50 GP in "Character Origins" is PROPOSED.
 - **Origin feats.** Nothing in this chapter grants an Origin feat any more, since backgrounds and the Human's _Versatile_ are gone. Decide whether Origin feats still have a route in at level 1.
-- **Breath Weapon.** The SRD dragonborn's Breath Weapon, Damage Resistance choice and Draconic Flight are gone. Decide whether any form, or every dragonborn, gets a breath weapon.
 - **Ritual components.** Rituals still need their material components: _Identify_ needs a pearl worth 100+ GP, and _Augury_ needs divinatory tokens worth 25+ GP. Decide whether Black and Grey ignore them. (Note that Indigo's pearls are a separate currency.)
 - **Benefit names.** Names such as _Rising Fury_ or _Maker's Training_ are new placeholders, added to match the SRD's format.
 - **Languages.** Still to do in "Character Creation" (Step 2 and the language tables).

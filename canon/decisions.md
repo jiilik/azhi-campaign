@@ -5,6 +5,7 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 ## 2026-10-30
 
 - **+3 to one ability is allowed** (Troy): two traits plus a form may all raise the same ability.
+- **No breath weapons** (Troy): no form, and no dragonborn, has a breath weapon. The SRD Breath Weapon is retired.
 - **Balance pass, part 2** (Troy, voice):
   - Green's tail can hold a weapon or Shield but can't attack with a weapon or gain a Shield's benefit.
   - Red has Expertise with one of its two tools.
