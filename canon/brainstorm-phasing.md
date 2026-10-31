@@ -53,4 +53,71 @@
 
 ## 5. Session notes
 
-*(Record each session's discussion here.)*
+### 2026-10-30, evening (text)
+
+**Troy's direction:**
+- Make it an interesting system, with spells, effects, modifications and counters.
+- There must still be **risk**. Phasing on death happens only under specific circumstances, such as a ritual performed on the corpse at the time of natural death.
+- There should be **spells that force phasing** on the unwilling, such as *Power Word: Phase*.
+- Fold the **resurrection and reincarnation spells** into the system.
+- Phasing has **penalties and limits**. For example, you must **keep one personality trait**, linking your old self to your new self.
+- Give a way to **swap a personality trait without a full phase**.
+
+**The SRD 5.2.1 revival spells (checked against `srd/07-spells`):**
+
+| Spell | Level, cost | Window | Penalty |
+|---|---|---|---|
+| *Revivify* | 3, diamond 300 GP | dead 1 minute | none; not old age |
+| *Raise Dead* | 5, diamond 500 GP | 10 days | −4 to D20 Tests, −1 less per Long Rest; not Undead; fails without the head |
+| *Reincarnate* | 5 (druid), oils 1,000 GP | 10 days | new body, species rolled on a d10; keeps its capabilities, swaps species traits; no D20 penalty |
+| *Resurrection* | 7, diamond 1,000 GP | a century | −4 to D20 Tests as *Raise Dead*; not old age; taxes the caster after 365 days |
+| *True Resurrection* | 9, diamonds 25,000 GP | 200 years | none; not old age; can make a new body |
+| *Clone* | 8, 3,000 GP in all | prepared ahead | soul moves to the clone; no penalty |
+| *Gentle Repose* | 2, 2 CP | | pauses the clock on revival windows |
+
+Note: **every revival spell excludes death by old age.** That's a natural gap for phasing to fill.
+
+**Claude's proposal (PROPOSED):**
+
+1. **Two kinds of death, two answers.**
+   - **Violent death** (Hit Points, spells, poison) works as the SRD does: you're dead, and only revival magic brings you back, *as yourself, in the same form*.
+   - **Natural death** (old age, the end of a life) is where phasing lives: *mortality, after a fashion*. With the right rite, a dragonborn at the end of their life is reborn in a new form instead of dying.
+   - So the risk stays: adventurers can still die for good.
+2. **The Rite of Rebirth** *(placeholder name)*: a ritual performed over a dragonborn at the moment of natural death, or within a short window after.
+   - Done right, they **phase** instead of dying.
+   - Its cost, who can perform it, and what happens if it fails or is interrupted are open (§6). This also gives the faiths of each dragon something to *do*: priests who keep the rite.
+3. **Phasing rules, wherever phasing comes from:**
+   - **Keep one trait** *(Troy)*: you keep at least one personality trait, which links old self to new. You may keep both.
+   - **The new form** isn't freely chosen. It's set by the circumstances, by the DM, or rolled (see 4).
+   - **Phase shock:** the new body is an ordeal. You take a −4 penalty to D20 Tests, reduced by 1 each Long Rest, reusing *Raise Dead*'s penalty.
+   - **What carries over:** class levels, memories and languages carry over. Form features don't.
+   - **A New Society:** already canon.
+4. ***Reincarnate* becomes the phasing spell.** Its d10 table becomes the wheel:
+   - 1–9: Red, Brown, Yellow, Green, Blue, Indigo, Black, Grey, White;
+   - 10: the DM's choice, or roll again.
+
+   It works on violent death too, which makes it the one spell that brings you back *changed*. The keep-one-trait rule applies.
+5. **_Power Word: Phase_** *(new spell)*: force an unwilling creature to phase on the spot. It's modelled on *Power Word Kill*: it works if the target is at or under a Hit Point threshold, with no save.
+   - The new form is rolled on the *Reincarnate* table, the target suffers phase shock, and it keeps one trait of the caster's choice?
+   - Level 7 or 8, and the threshold, are to be balanced. It's a terrifying thing for an enemy to do, and a story hook.
+6. **Counters and modifiers** *(ideas)*:
+   - *Gentle Repose* extends the rite's window, as it already does for revival.
+   - **A ward** (new, or a use of *Death Ward*?) stops forced phasing.
+   - **_Anchor_** *(a new low-level spell, or a ritual)* lets a willing dragonborn **choose** the form of their next phase.
+   - *Clone*: the soul moves to a clone of the *same* form, a way to dodge phasing.
+   - *True Resurrection* restores even a phased creature to its original form.
+7. **Swapping a trait without phasing** *(ideas)*:
+   - **On level-up:** replace one personality trait, keeping the ability score rules. It's simple, and like the 2024 rules' cantrip and spell swaps.
+   - **Through downtime,** such as a period of soul-searching or a life-changing experience, at the DM's discretion.
+   - **By a spell,** *Change of Heart*, at a low level.
+8. **Settling vs phasing:** a young dragonborn's first settling isn't a phase. There's no penalty, and the player chooses the form, as now.
+
+### 6. Questions this raises
+
+- **The rite:** who can perform it, what it costs, and how long the window lasts.
+- **Failure:** what happens if the rite fails, or nobody performs it. Is that true death?
+- **Timing:** does a phased elder return as an adult in the new form, or young again? This touches life span.
+- **Limits:** is there a limit on how many lives a dragonborn can have?
+- **Death by other causes:** could a violently killed dragonborn whose body is *also* given the rite phase? Or is the rite only for natural death?
+- **Unphased:** what about an Unphased dragonborn who dies?
+- **Forced phasing:** should *Power Word: Phase* let the victim keep the trait of their choice, or the caster's?
