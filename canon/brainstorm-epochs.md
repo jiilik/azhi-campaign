@@ -26,7 +26,7 @@
 
 - **The epochs:** the remaining four, with their catastrophes and the geography each one leaves behind (ruins, lairs, scars on the map).
 - **Brown and Indigo:** how they emerged, now that they're no longer blends.
-- **The wheel:** whether there's still a "wheel", or some other way to arrange the nine forms, once mixing is gone.
+- **The wheel** *(Troy, 2026-10-31)*: the wheel stays as it is, in the same order. Only the language about mixing and blending goes.
 - **The cleanup:** what has to change. The species chapter's colour wheel section and the table's "Mix" column; the Brown, Yellow, Indigo and Grey form headings ("Red + Green" and so on); the setting bible; `canon/brainstorm-colour-wheel.md`; the art (the colour wheel image and its labels); the overview doc for Troy's girlfriend.
 - **The myth's dragons now:** what this means for the Black dragon in the present day, and how the other dragons treat it after the war.
 - **The present day:** what era the players live in, and how far it is from the last catastrophe.
