@@ -73,7 +73,7 @@ When a PROPOSED item is confirmed or rejected, update its status here and add a 
   - Whether a dragonborn's first settling counts as "phasing" (the word may cover only later changes).
   - What an Unphased dragonborn looks like (the colour-wheel art shows a shifting blend of all five colours), and whether it can resist anything.
   - The exact phasing penalty.
-  - Whether Gold and Silver can ever be reached by phasing.
+  - Whether Gold and Silver can ever be reached by phasing. *(Backburnered, 2026-10-30: they will be built as colours, hidden in the DM material, as the 2014 DMG did with the aasimar.)*
 - **CANON (2026-10-21). Character building.** The full specification is `canon/brainstorm-species.md`. In short:
   - A **phased** character takes **one affinity** (one of the 9 forms) and **two personality traits**. An **Unphased** character takes three traits and no affinity.
   - The 2024 **backgrounds are dropped**. What they gave is folded into the affinities and traits.

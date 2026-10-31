@@ -268,7 +268,7 @@ _Ribbons._ You're very good at memorizing short messages and keeping them, so yo
 
 Gold and Silver dragonborn are extremely rare. The Gold and Silver dragons, who are the sun and moon, generally take no direct interest in the activities of those below, and there is no easy way for a character to settle or phase into either colour. Gold and Silver dragonborn appear as nonplayer characters who can drive a story. Yellow and Grey dragonborn are their closest earthly echoes.
 
-_(OPEN: the Gold and Silver forms are still to be written, and whether a player character can ever reach them.)_
+_(Backburnered, 2026-10-30: the Gold and Silver forms will be written as colours, but kept in the DM material rather than this chapter, as the 2014 Dungeon Master's Guide kept the aasimar.)_
 
 ### Settling and Phasing
 

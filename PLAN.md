@@ -98,6 +98,7 @@ The goal is a setting-specific derivative of the D&D 5e SRD for the ring-world A
 
 ## Backlog / Ideas *(proposed, unscheduled)*
 
+- [ ] Gold and Silver dragonborn as colours, for the DM material, not the players' chapter (Troy, backburnered 2026-10-30)
 - [ ] Personality traits replace feats: gain traits at levels 4, 8 and so on, with advanced traits in the role of feats (Troy, considering, 2026-10-29)
 - [ ] A Warlord class, a battlefield controller; *Rotate the Line* is parked for it (Troy, considering, 2026-10-29)
 - [ ] Biome and climate overlay for the world map (light and wind model)

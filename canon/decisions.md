@@ -4,6 +4,7 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-10-30
 
+- **Gold and Silver forms: backburnered** (Troy). They will be built as colours eventually, but hidden in the DM material rather than the players' Character Origins chapter, as the 2014 DMG hid the aasimar.
 - **Factions** (Troy): factions are the rules of a civilization.
   - Some are city or nation-state factions with no dragon affiliation; others serve or oppose particular dragons.
   - Rules for standing, debts and expulsion belong to the faction's description, not to a form.
