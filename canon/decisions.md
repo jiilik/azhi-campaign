@@ -4,6 +4,7 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-10-30
 
+- **Darkvision ranges** (Troy): Black has 120 feet, since they live underground, like the SRD dwarf and orc. Indigo keeps 60 feet.
 - **The Unphased** (Troy): no damage resistance. Size is Small or Medium, the player's choice; mechanically the two are nearly identical. The blends are all Medium.
 - **Form rituals need no Material components** (Troy): Black's *Comprehend Languages* and *Identify*, and Grey's *Augury*, *Detect Magic* and *Find Traps*, are cast without them. This also avoids a clash between *Identify*'s pearl and the Undertow's black pearls.
 - **No Origin feats** (Troy): personality traits replace both backgrounds and Origin feats. A sidebar in Character Origins says so.

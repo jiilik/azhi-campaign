@@ -208,7 +208,7 @@ _Black dragonborn prize knowledge. Some keep it for its own sake, as record keep
 
 As a Black dragonborn, you have these special traits.
 
-_Darkvision._ You have Darkvision with a range of 60 feet. _(OPEN: range not yet set.)_ Of all the dragonborn, only Black and Indigo dragonborn have Darkvision.
+_Darkvision._ You have Darkvision with a range of 120 feet. Of all the dragonborn, only Black and Indigo dragonborn have Darkvision.
 
 _Guarded Mind._ You have Advantage on Intelligence, Wisdom and Charisma saving throws.
 
