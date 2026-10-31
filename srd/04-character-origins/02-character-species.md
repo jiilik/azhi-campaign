@@ -284,7 +284,6 @@ _No Return._ Once settled, a dragonborn can't return to being Unphased. The DM m
 
 Items marked OPEN above are still to be decided, along with these:
 
-- **Origin feats.** Nothing in this chapter grants an Origin feat any more, since backgrounds and the Human's _Versatile_ are gone. Decide whether Origin feats still have a route in at level 1.
 - **Ritual components.** Rituals still need their material components: _Identify_ needs a pearl worth 100+ GP, and _Augury_ needs divinatory tokens worth 25+ GP. Decide whether Black and Grey ignore them. (Note that Indigo's pearls are a separate currency.)
 - **Benefit names.** Names such as _Rising Fury_ or _Maker's Training_ are new placeholders, added to match the SRD's format.
 - **Languages.** Still to do in "Character Creation" (Step 2 and the language tables).

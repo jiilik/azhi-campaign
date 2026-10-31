@@ -11,6 +11,10 @@ Between them, your form and personality traits give your character the ability s
 
 **Starting Equipment.** Because there are no backgrounds, your character starts with 50 GP to spend on equipment, in addition to the equipment from their class.
 
+> **No Backgrounds or Origin Feats**
+>
+> If you know the standard rules, note that Azhi has no backgrounds and no Origin feats. Personality traits replace both: they give the ability score increases, proficiencies and level 1 benefits that a background and its Origin feat would otherwise provide.
+
 ## Personality Traits
 
 Your character's personality traits describe who they are: the habits, quirks and passions that were most formative before they embarked on a life of adventure. On Azhi, personality is also what guides a dragonborn toward the form they settle into, just as the young dragons of the myth found their forms by finding what they loved.
