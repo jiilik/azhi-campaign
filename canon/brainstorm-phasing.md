@@ -112,6 +112,25 @@ Note: **every revival spell excludes death by old age.** That's a natural gap fo
    - **By a spell,** *Change of Heart*, at a low level.
 8. **Settling vs phasing:** a young dragonborn's first settling isn't a phase. There's no penalty, and the player chooses the form, as now.
 
+**Troy, follow-up (2026-10-30):**
+- Phasing also happens under **extreme stress or duress**. The character goes **catatonic** and emerges in a new form.
+- **The tipping point varies:** a shipwreck, a failed performance where the crowd throws rotten fruit, a near-death experience.
+- **Death-triggered phasing is just a particularly dramatic case** of the same thing.
+
+**Claude's reshaping of the proposal (PROPOSED):**
+- **One mechanism, many triggers.** A dragonborn phases when they reach a **breaking point**. Death is the most extreme breaking point, not a separate system.
+  - This replaces proposal 1's split between violent and natural death as the *trigger*. The rite (proposal 2) becomes the way to **catch a dying dragonborn's breaking point** before death takes them.
+- **The catatonia:** when a dragonborn breaks, they fall **catatonic** (Incapacitated, unresponsive) for a while, perhaps a few days. Then they emerge in their new form with phase shock.
+  - The catatonia itself is the risk: helpless in a shipwreck, and someone has to carry you.
+- **How a breaking point is reached** *(options)*:
+  - **a. The DM calls it,** at a story moment, ideally with the player's agreement. Simple, but no dice.
+  - **b. A save:** when something devastating happens, the DM calls for a Wisdom or Charisma save, with the DC set by how severe it is. On a failure you break.
+    - Gives counters a place: Advantage against it from the Rock, or a ward.
+  - **c. Through Exhaustion:** reaching **Exhaustion level 6** means you break and phase instead of dying.
+    - Ties duress to an existing SRD condition. Starvation, exposure, despair or ordeals stack Exhaustion until the mind gives way.
+  - **d. The player can choose to break,** at any breaking-point moment. For a player who wants a change of form, it's a story beat.
+- **Death as the extreme case:** dropping to 0 Hit Points and failing death saves is the ultimate breaking point. Without the rite, or *Reincarnate*, it's still true death, so the risk survives.
+
 ### 6. Questions this raises
 
 - **The rite:** who can perform it, what it costs, and how long the window lasts.
