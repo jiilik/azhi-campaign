@@ -131,6 +131,8 @@ Note: **every revival spell excludes death by old age.** That's a natural gap fo
   - **d. The player can choose to break,** at any breaking-point moment. For a player who wants a change of form, it's a story beat.
 - **Death as the extreme case:** dropping to 0 Hit Points and failing death saves is the ultimate breaking point. Without the rite, or *Reincarnate*, it's still true death, so the risk survives.
 
+**Troy, 2026-10-31:** phasing **can change a dragonborn's sex** as well as their colour. Dragonborn lay eggs; gender matters little on Azhi.
+
 ### 6. Questions this raises
 
 - **The rite:** who can perform it, what it costs, and how long the window lasts.

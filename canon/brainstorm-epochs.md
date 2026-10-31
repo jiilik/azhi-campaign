@@ -186,7 +186,42 @@ Everything here is Troy's, unless marked *(Claude)*. Troy reviewed the outline e
    - A **weapons research centre** from the young Black's army, where the later-banned weapons were made. It was buried under an avalanche and forgotten, but it's still there.
    - *(Claude)* The ancient Black missed it when it took the secrets into the deep. Whoever finds it holds banned weapons, which would be dangerous if everyone found out.
 5. **Epoch 5: two homunculus sites,** one for each homunculus killed.
-   - **Grey:** pale, misty, silent creatures that hunt by moonlight, leaning **undead**.
+   - **Grey:** pale, misty, silent creatures that hunt by moonlight. *(The undead link was dropped later the same day; see the next session.)*
    - **Yellow:** *(Claude)* scorched land crackling with lightning, with bright, burning creatures. Its monster type is **to be decided**.
 
 **Still parked:** the map, and placing all of these sites on it.
+
+### 2026-10-31, voice, drive home: planes, undead, campaign structure
+
+Everything here is Troy's, unless marked *(Claude)*.
+
+**Undead:** dropped from the Grey homunculus site. Undead may not fit a world where people can be reborn fairly easily. Whether undead exist at all is for the monster review later; the Grey site's monster type is now undecided, like the Yellow site's.
+
+**Wildlife:** the ecosystem is like the real world (mammals, insects and so on), so the text can name kittens and oxen without inventing words. *(Recorded as CANON in the setting bible.)*
+
+**Planes** (still brainstorming):
+- **Elemental planes:**
+  - Some dragons have clear elemental affinities: Red to fire, Blue to water, White to ice. If Red once tapped a plane of fire, there should be some symmetry: a plane of water too, and so on.
+  - The planes don't all need populating in the traditional D&D sense, and **they don't need assigning to dragons**. We only need to know whether they exist.
+  - *(Claude)* The myth names four elements: fire, water, earth and ice.
+  - *(Troy)* Green could have tapped the plane of earth during creation; Brown might adopt an unclaimed plane.
+  - **Air** fits the traditional elemental wheel. White are fliers, so the plane of air could be **cold**, which would make ice part of air.
+  - **Working idea:** fire, water, earth, and a cold plane of air. All mostly sealed since epoch 3, with a few imperfect rifts.
+- **Knock-on effects:**
+  - If other planes exist, spells that reach them, such as *Banishment*, stay relevant. If they don't, spells about interplanar travel probably go.
+  - *(Claude)* A possible middle path: elemental planes exist, but there are no heavens, hells or Feywild.
+  - *(Troy)* If there's no Feywild, there are no fey creatures. The same goes for fiends and celestials.
+  - **Decision:** don't build a new bestiary. **Review the existing creature types once the lore settles** (now a to-do in `PLAN.md`).
+- **Pocket dimensions are machine-age technology,** from epoch 2. *(Claude)* That covers things like the *Bag of Holding*, *Rope Trick* and *Demiplane*, as old machine technology that magic later copied.
+  - *(Troy)* There are many knock-on effects. For example, if there's no Ethereal or Astral Plane, the bag-of-holding-inside-a-bag-of-holding rule has to change.
+- **The Astral Plane may be the cosmos itself,** the space Azhi was exploring in the myth. *(Troy)* This might keep a lot of the mechanics intact.
+- **Clockwork plane:** D&D's strange planes, such as the modrons' clockwork plane, come with their own lore, so we won't keep those creatures. But the idea can be reflavoured for the machine epoch: **the thinking machines created their own plane, to hide in and survive the war**.
+  - **Open:** is Indigo's last living machine kept on that plane, sealed in? Or did Indigo draw it back into this world, or stop it escaping here? "There's some thought to be thought there."
+- **The plane audit** *(to do, text session)*: search for everything that depends on other planes, including SRD spells, items and subclasses, and well-known non-SRD subclasses by name.
+  - *(Troy)* Players will pull subclasses from non-SRD sources, so we need to tell them clearly which ones they can use without wrecking the setting.
+  - The audit only reports what breaks; it doesn't decide.
+
+**Campaign structure:**
+- The epic sites from the epochs are probably **campaign settings of their own**, not world locations anyone can visit at any time. For example, ***The Last Machine*** as a ready-to-play campaign.
+- The world book then needs little detail on each site, which also keeps the big secrets out of players' hands.
+- **Shared campaigns in one setting:** a campaign may end differently than expected, and later DMs must accommodate that. *(Claude)* A common fix: each campaign states a default ending that later books assume, with a note that DMs can adjust for their table.

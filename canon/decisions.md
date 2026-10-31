@@ -2,6 +2,14 @@
 
 Newest first. One line per decision: what was decided, and why if a reason was given. Add to this log every time the author settles something, and update `canon/setting-bible.md` to match.
 
+## 2026-10-31
+
+- **Gender** (Troy, voice): the dragons are genderless. Most dragonborn show little sexual dimorphism; players choose their character's look and pronouns. Added as a sidebar in Character Origins.
+- **Dragonborn lay eggs** (Troy). Phasing can change a dragonborn's sex as well as their colour (to be developed in the phasing brainstorm).
+- **Real-world wildlife** (Troy): mammals, insects and the rest of the ecosystem are as on Earth, so the text can name kittens and oxen without new words.
+- **Undead dropped from the Grey homunculus site** (Troy): undead may not fit a world of easy rebirth. Whether undead exist at all is for the monster review.
+- **Epoch sites as campaigns** (Troy): the great sites from past epochs, such as *The Last Machine*, are likely to become ready-to-play campaign settings of their own. The world book only hints at them.
+
 ## 2026-10-30
 
 - **Languages are geographic** (Troy): languages are tied to a character's region of origin, not to personality traits or colour, since a dragonborn can phase into any form anywhere and keeps the languages they know. A sidebar in Character Origins says so; the languages themselves go in a "Geography of Azhi" section, still to be written.
