@@ -216,7 +216,7 @@ _Darkvision._ You have Darkvision with a range of 60 feet. _(OPEN: range not yet
 
 _Guarded Mind._ You have Advantage on Intelligence, Wisdom and Charisma saving throws.
 
-_Scholar's Rituals._ You can cast _Comprehend Languages_ and _Identify_, but only as Rituals.
+_Scholar's Rituals._ You can cast _Comprehend Languages_ and _Identify_, but only as Rituals, and without Material components.
 
 _Black Lore._ You have proficiency in two of the following skills of your choice: Arcana, Deception, History, Persuasion or Religion.
 
@@ -233,7 +233,7 @@ _Grey dragonborn put Black's knowledge to work for others: investigators and det
 
 As a Grey dragonborn, you have these special traits.
 
-_Keen Investigator._ You can take the Search or Study action as a Bonus Action. You can also cast _Augury_, _Detect Magic_ and _Find Traps_, but only as Rituals; for you, _Find Traps_ has the Ritual tag.
+_Keen Investigator._ You can take the Search or Study action as a Bonus Action. You can also cast _Augury_, _Detect Magic_ and _Find Traps_, but only as Rituals and without Material components; for you, _Find Traps_ has the Ritual tag.
 
 _Moonsight._ Within 60 feet of you, you can see in Dim Light as if it were Bright Light.
 
@@ -284,7 +284,6 @@ _No Return._ Once settled, a dragonborn can't return to being Unphased. The DM m
 
 Items marked OPEN above are still to be decided, along with these:
 
-- **Ritual components.** Rituals still need their material components: _Identify_ needs a pearl worth 100+ GP, and _Augury_ needs divinatory tokens worth 25+ GP. Decide whether Black and Grey ignore them. (Note that Indigo's pearls are a separate currency.)
 - **Benefit names.** Names such as _Rising Fury_ or _Maker's Training_ are new placeholders, added to match the SRD's format.
 - **Languages.** Still to do in "Character Creation" (Step 2 and the language tables).
 - **Personality traits.** "Personality Traits" holds the twenty-four traits, with their benefits (canon, 2026-10-30). +3 stacking is allowed.

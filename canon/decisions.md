@@ -4,6 +4,7 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-10-30
 
+- **Form rituals need no Material components** (Troy): Black's *Comprehend Languages* and *Identify*, and Grey's *Augury*, *Detect Magic* and *Find Traps*, are cast without them. This also avoids a clash between *Identify*'s pearl and the Undertow's black pearls.
 - **No Origin feats** (Troy): personality traits replace both backgrounds and Origin feats. A sidebar in Character Origins says so.
 - **Gold and Silver forms: backburnered** (Troy). They will be built as colours eventually, but hidden in the DM material rather than the players' Character Origins chapter, as the 2014 DMG hid the aasimar.
 - **Factions** (Troy): factions are the rules of a civilization.
