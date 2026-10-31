@@ -264,6 +264,5 @@ _No Return._ Once settled, a dragonborn can't return to being Unphased. The DM m
 
 Items marked OPEN above are still to be decided, along with these:
 
-- **Benefit names.** Names such as _Rising Fury_ or _Maker's Training_ are new placeholders, added to match the SRD's format.
 - **Languages.** Still to do in "Character Creation" (Step 2 and the language tables).
 - **Personality traits.** "Personality Traits" holds the twenty-four traits, with their benefits (canon, 2026-10-30). +3 stacking is allowed.
