@@ -4,6 +4,14 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-10-30
 
+- **Factions** (Troy): factions are the rules of a civilization.
+  - Some are city or nation-state factions with no dragon affiliation; others serve or oppose particular dragons.
+  - Rules for standing, debts and expulsion belong to the faction's description, not to a form.
+  - A member in good standing enjoys the faction's benefits; one out of favour is an outcast, and possibly hunted.
+  - New working file: `canon/factions.md`.
+- **The Undertow is a faction name** (Troy), Indigo's society, no longer the name of a form trait.
+  - Indigo's trait is now *Black Pearls*: "Unless you've recently phased into Indigo, you start with two black pearls, the tokens of debt traded by the Undertow. If you've recently phased into Indigo, you will be approached shortly with an opportunity."
+  - The old trait's favour, debt and cast-out rules moved word for word to the faction file, to be reworked there.
 - **Personality trait benefits are canon** (Troy): the trait-benefits brainstorm is approved. The 24 benefits in `srd/04-character-origins/01-personality-traits.md` become official, including the balance-pass changes and the feature names that had been placeholders (such as *Quick to Act* and *Long Stride*).
 - **+3 to one ability is allowed** (Troy): two traits plus a form may all raise the same ability.
 - **No breath weapons** (Troy): no form, and no dragonborn, has a breath weapon. The SRD Breath Weapon is retired.

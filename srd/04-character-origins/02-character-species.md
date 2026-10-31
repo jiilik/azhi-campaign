@@ -195,7 +195,7 @@ _Deep-Born._ You can breathe air and water, and you have a Swim Speed equal to y
 
 _Darkvision._ You have Darkvision with a range of 60 feet.
 
-_Undertow._ Your people's hidden network reaches every port, and its currency is pearls. Once per Long Rest, while in a port or coastal settlement, you can call on the network for a small favour, such as a message passed, a door left unlocked or a name given. A favour costs a pearl. If you have none, you can take the favour on credit and owe a pearl instead; the debt can be called in at any time. Debts up to your Proficiency Bonus are ordinary business, but if you owe more, the society's collectors come calling. You can't refuse a debt that is called in: if you do, you're cast out, and you lose this trait. _(OPEN: how pearls are earned; what a cast-out Indigo gains in return; an Indigo may begin play already cast out, with the reason part of their backstory.)_
+_Black Pearls._ Unless you've recently phased into Indigo, you start with two black pearls, the tokens of debt traded by the Undertow. If you've recently phased into Indigo, you will be approached shortly with an opportunity. For the Undertow itself, see "Factions."
 
 _Deep Training._ You have proficiency in two of the following skills of your choice: Deception, Insight, Intimidation, Persuasion or Stealth.
 

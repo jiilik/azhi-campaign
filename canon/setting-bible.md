@@ -85,7 +85,7 @@ When a PROPOSED item is confirmed or rejected, update its status here and add a 
     - Yellow: Bright Idea.
     - Green: Prehensile Tail *(replaces Regeneration)*.
     - Blue: Trader's Tongue, and amphibious swimming.
-    - Indigo: Undertow, the pearl-debt network.
+    - Indigo: *Black Pearls*, two tokens of debt from the Undertow (or, if newly phased, an approach with an opportunity). *(Revised 2026-10-30; the Undertow is now a faction, in `canon/factions.md`.)*
     - Black: Guarded Mind, and Darkvision.
     - Grey: Keen Investigator.
     - White: Help as a Bonus Action, and flight.
@@ -104,7 +104,8 @@ When a PROPOSED item is confirmed or rejected, update its status here and add a 
   - **Blue** welcome everyone, and their **port cities** are the cosmopolitan crossroads of Azhi: the setting's Baldur's Gate.
   - **White** gather in **monasteries hidden in the mountains**.
   - **Black** are the **zealots** of a living god, though players may play against type.
-  - **Indigo** are a **secret society beneath the sea**: trading in secrets, danger and forbidden things, spies and assassins, valued by civilization but distrusted. Their currency is **pearls**; they have debt collectors, and refusing a called debt means being cast out.
+  - **Indigo** are a **secret society beneath the sea**: trading in secrets, danger and forbidden things, spies and assassins, valued by civilization but distrusted. Their society is **the Undertow**, a faction (`canon/factions.md`, 2026-10-30): its currency is **black pearls**, tokens of debt; it has debt collectors, and an Indigo out of its favour is an outcast and may be hunted.
+- **CANON (2026-10-30). Factions** are the rules of a civilization. Some are city or nation-state factions with no tie to a dragon; others serve or oppose particular dragons. Rules for standing, debts and expulsion belong to the faction, not to a form. A dragonborn in good standing enjoys the faction's benefits; one out of favour is an outcast, and may be hunted. Working file: `canon/factions.md`.
 - **CANON (2026-10-24). The knowledge colours:** Black **hoards** knowledge, Indigo **trades** it, Yellow **gives it away**, White **teaches** it, and Grey **uncovers** it.
 - **CANON (2026-10-24). Phasing as emigration.** A dragonborn who phases must find a place in their new colour's society: staying in their old role, or starting again at the bottom. A newly phased Indigo arrives with no name and no pearls.
 - **PROPOSED.** **Gold and Silver dragonborn** are nomadic **sky-readers** who predict where the sun and moon will wander. Everyone needs them, but they belong nowhere. Philosophically they oppose Black: contentment versus questioning.

@@ -61,7 +61,7 @@ The goal is a setting-specific derivative of the D&D 5e SRD for the ring-world A
 - [ ] Climate, timekeeping and the calendar ("watches", True Dark)
 - [ ] Travel on a torus: using the wrapping map, the scale ladder, and why bearings are true
 - [ ] The Underworld as anatomy: arteries, heart, lungs, stomach
-- [ ] Factions and cultures per colour, including internal disagreements and inter-colour policy disputes
+- [ ] Factions and cultures per colour, including internal disagreements and inter-colour policy disputes. Started 2026-10-30 in `canon/factions.md`, with the concept and the Undertow; unaffiliated city and nation-state factions are still to come.
 
 ### 2d. Deletions
 

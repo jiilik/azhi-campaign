@@ -39,6 +39,7 @@ You are helping **Troy** (the author and DM) build **Azhi**, a D&D campaign sett
 | `canon/brainstorm-colour-wheel.md` | Working record of the nine-form colour wheel (ADOPTED 2026-10-24). |
 | `canon/source-personality-traits-v1.md` | The original twelve personality traits, retired 2026-10-24, kept as source material for mechanics. |
 | `canon/brainstorm-trait-benefits.md` | Working record for the 24 traits' benefits: strategy, SRD parts bin, design and balance passes (ADOPTED 2026-10-30). |
+| `canon/factions.md` | Factions, the rules of a civilization: the concept (CANON), the entry layout and the Undertow (2026-10-30). |
 | `canon/minigame-character-builds.md` | Rules for the build-testing minigame (famous characters, two builds). Its outputs stay in chat and are never recorded. |
 | `canon/design-review-checklist.md` | Checks to run against the design (canon items only), plus a review log. |
 | `canon/azhi-myth.md` | The myth: exact corrected text. `azhi-myth-corrected.rtf` is authoritative; `-original.rtf` is Troy's upload. |
