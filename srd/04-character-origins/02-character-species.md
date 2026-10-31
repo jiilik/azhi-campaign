@@ -268,4 +268,4 @@ _No Return._ Once settled, a dragonborn can't return to being Unphased. The DM m
 
 Items marked OPEN above are still to be decided, along with these:
 
-- **Languages.** Still to do in "Character Creation" (Step 2 and the language tables). Probably tied to geography rather than colour; see `PLAN.md`.
+- **Languages.** Tied to your region of origin (sidebar in "Character Origins," 2026-10-30). The languages themselves, and "Geography of Azhi," are still to be written; see `PLAN.md`.

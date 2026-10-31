@@ -4,6 +4,7 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-10-30
 
+- **Languages are geographic** (Troy): languages are tied to a character's region of origin, not to personality traits or colour, since a dragonborn can phase into any form anywhere and keeps the languages they know. A sidebar in Character Origins says so; the languages themselves go in a "Geography of Azhi" section, still to be written.
 - **Creature type as a sidebar** (Troy): dragonborn count as Humanoid for the rules, so other source material works. A sidebar notes the irony of the word in a world with no humans.
 - **Languages deferred** (Troy): to be worked out later; they're probably tied to geography rather than species. A to-do item is in `PLAN.md`.
 - **Life span removed** (Troy) from Character Origins. It returns with the phasing rules. Since Azhi died and was reborn as a world, the game may drop the concept of mortality altogether, after a fashion; that needs its own brainstorm.
