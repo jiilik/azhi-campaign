@@ -124,4 +124,9 @@ Everything here is Troy's, unless marked *(Claude)*.
 - The map.
 - *(Claude)* Open questions:
   - How the present-day clerics' divine magic works with the taps turned off.
-  - Whether epoch 1 had dragonborn, or only "life".
+
+### 2026-10-31, text
+
+**Epoch 1 had dragonborn** *(Troy)*. They all died at the end of the epoch, when Azhi ate the world, and were **reborn at the start of epoch 2**, when the ring formed. This matches the myth: "all life springs forth anew".
+
+- *(Claude)* This makes the first great **mass rebirth** in the world's history: the whole people coming back at once. It's a natural root for the phasing lore, and for any faith built around rebirth.
