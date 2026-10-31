@@ -130,3 +130,63 @@ Everything here is Troy's, unless marked *(Claude)*.
 **Epoch 1 had dragonborn** *(Troy)*. They all died at the end of the epoch, when Azhi ate the world, and were **reborn at the start of epoch 2**, when the ring formed. This matches the myth: "all life springs forth anew".
 
 - *(Claude)* This makes the first great **mass rebirth** in the world's history: the whole people coming back at once. It's a natural root for the phasing lore, and for any faith built around rebirth.
+
+### 2026-10-31, voice, afternoon drive: review, stigma, monsters, relics
+
+Everything here is Troy's, unless marked *(Claude)*. Troy reviewed the outline epoch by epoch and approved it, with the additions below.
+
+**Magic after epoch 3.** "Turning off the taps" is a metaphor: magic wasn't switched off. As with Karsus's Folly, magic was damaged, then recovered over time. Clerics get their divine magic as usual; only spells above 9th level stay sealed.
+
+**The Yellow and Grey stigma.**
+- The ancestors of today's Yellow and Grey were **lured into phasing by false gods**.
+- Because dragonborn phase in and out, today's Yellow and Grey are mostly not the same people. So the stigma is **not personal**: it's a sense that the colours themselves may be **unnatural**.
+- The prejudice shows up **in cultures and religions, not between individuals**.
+- **Near-misses:** someone who phases into Yellow or Grey today was probably **trying to reach Gold or Silver, and fell short**. That makes them a little wistful.
+- It gives the DM an in-world answer when a player asks to become Gold: reach for Gold and you'll most likely land on Yellow, the stand-in.
+- **Yellow and Grey are recent.** They can be abundant today, but when old dragons or old dragonborn talk about the old times, they describe **a world with no Yellow or Grey**, though with **infrequent Gold and Silver** dragonborn.
+- **Gold and Silver today** are only **whispered about**. Not a secret in the Indigo sense: the aim is that meeting a real Gold or Silver in play feels like meeting a living myth. This fits keeping their rules in the DM material.
+
+**Monstrosities: what killing the homunculi released.**
+- *(Troy)* The world needs an in-world reason for the monstrosities the players fight.
+- *(Claude, accepted)* The homunculi were artificial, so their power had nowhere to return when they died. It **spilled out and twisted the creatures around them**.
+- **Blame falls everywhere,** and much of it is misplaced. People blame:
+  - the Black dragon;
+  - the dragons who killed the homunculi;
+  - the true Gold and Silver, absent while their image was stolen;
+  - whoever else is handy.
+- Most people **don't know today's Black is the young Black**, not the ancient one. The young Black has done a **really good job on propaganda**, pushing the blame onto everyone but itself. Plenty of politics, intrigue and whispered secrets.
+- To return to in the monsters chapter.
+
+**The ancient Black dragon was a hero, twice.**
+- **In the machine war:** thinking machines threatened its gift of thought to the world, so defeating them is part of its heroic legacy. That's alongside the selfish motive of worship.
+- **In the War of the Twins:** it's possibly the real hero, by taking responsibility and becoming Indigo, though that's less well known today.
+
+**Crimson** *(DM option)*:
+- A **very rare** Crimson dragonborn, phasing toward the memory of the old war-Red, can be a DM option, like Gold and Silver.
+- At campaign scale: if the world goes badly enough in this epoch, someone might try to **convince the Brown dragon to phase back to Crimson**.
+
+**Myths for each epoch** *(to do, written by Troy)*:
+- Troy will write a canonical myth for each epoch himself, so it doesn't read like LLM writing.
+- **The further back the epoch, the less reliable its myth:** people dispute the old ones.
+- **The homunculi war is in living memory,** so its account must be precise, almost technical, because people can physically dispute it.
+
+**Relics and sites, one per epoch** (big sites, for a player overview):
+1. **Epoch 1: Azhi's brain.**
+   - **The young Black's lair today is inside Azhi's brain.** It runs it like a **cargo cult**: going through the motions of the ancient Black, who once lived there trying to learn everything Azhi knew, the greatest of the cosmic intelligences.
+   - Some of those secrets were extracted and **live on in the Indigo dragon**. The rest of the lair is the young Black trying to recreate what it doesn't know.
+   - Relics: **shards of Azhi's own knowledge or thought**.
+2. **Epoch 2: the machine crater.**
+   - The thinking engine's "data centre", blasted by dragon magic, a **magical nuke**. *(Claude)* A glassy crater, its buried halls still humming, with White's monks guarding the rim.
+   - **Indigo secret:** one **thinking machine is still alive**. Only Indigo knows where it is and how to talk to it, and keeps it contained so it can't do more damage.
+3. **Epoch 3: the rift cathedral.**
+   - **Other planes:** Troy leans toward **no other planes of existence** in this world. *(Claude)* This is a big rules change: *Plane Shift*, *Banishment* and summoned fiends and celestials all assume them. To work through later.
+   - But during the magical apocalypse, the **planes behind the dragons' power became accessible**, such as the plane of fire behind Red's power. They were **mostly sealed afterwards, but imperfectly**: someone with extra knowledge might find a way through.
+   - *(Claude)* Site: a ruined cathedral built over a sealed rift into the plane of fire, still leaking heat.
+4. **Epoch 4: the buried weapons forge.**
+   - A **weapons research centre** from the young Black's army, where the later-banned weapons were made. It was buried under an avalanche and forgotten, but it's still there.
+   - *(Claude)* The ancient Black missed it when it took the secrets into the deep. Whoever finds it holds banned weapons, which would be dangerous if everyone found out.
+5. **Epoch 5: two homunculus sites,** one for each homunculus killed.
+   - **Grey:** pale, misty, silent creatures that hunt by moonlight, leaning **undead**.
+   - **Yellow:** *(Claude)* scorched land crackling with lightning, with bright, burning creatures. Its monster type is **to be decided**.
+
+**Still parked:** the map, and placing all of these sites on it.

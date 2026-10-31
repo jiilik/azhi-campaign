@@ -57,6 +57,9 @@ The goal is a setting-specific derivative of the D&D 5e SRD for the ring-world A
 
 - [ ] Setting overview and the myth (link to `canon/azhi-myth.md`)
 - [ ] **Deep timeline:** six epochs before the present, each ending in catastrophe, with ruins and old lairs on the map. New origin lore for Brown, Yellow, Indigo and Grey replaces colour mixing (Troy, 2026-10-31). Working file: `canon/brainstorm-epochs.md`.
+  - [ ] **Epoch myths** (Troy writes them): a canonical myth for each epoch. Older ones are hazier and disputed; the homunculi war is in living memory, so its account must be precise.
+  - [ ] **Other planes:** Troy leans toward none, apart from imperfectly sealed rifts from epoch 3. Work through the rules it affects (*Plane Shift*, *Banishment*, summons).
+  - [ ] **Monstrosities** from the homunculi's spilled power: pick up in the monsters chapter.
 - [ ] Variant tellings of the myth: who tells which version, and why *(proposed)*
 - [ ] The Seven Dragons: personalities, lairs and current agendas
 - [ ] Gazetteer: the Bite, the Skull, the Lower Jaw and the Maw, the Spine Range, the Inner Sea, the limb ridges, the Tail
