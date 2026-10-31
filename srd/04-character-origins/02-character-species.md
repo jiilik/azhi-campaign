@@ -264,5 +264,5 @@ _No Return._ Once settled, a dragonborn can't return to being Unphased. The DM m
 
 Items marked OPEN above are still to be decided, along with these:
 
-- **Languages.** Still to do in "Character Creation" (Step 2 and the language tables).
+- **Languages.** Still to do in "Character Creation" (Step 2 and the language tables). Probably tied to geography rather than colour; see `PLAN.md`.
 - **Personality traits.** "Personality Traits" holds the twenty-four traits, with their benefits (canon, 2026-10-30). +3 stacking is allowed.

@@ -4,6 +4,7 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-10-30
 
+- **Languages deferred** (Troy): to be worked out later; they're probably tied to geography rather than species. A to-do item is in `PLAN.md`.
 - **Life span removed** (Troy) from Character Origins. It returns with the phasing rules. Since Azhi died and was reborn as a world, the game may drop the concept of mortality altogether, after a fashion; that needs its own brainstorm.
 - **"Creature Type: Humanoid" removed** (Troy) from every form, along with the "Creature Type" part of a form.
 - **Darkvision ranges** (Troy): Black has 120 feet, since they live underground, like the SRD dwarf and orc. Indigo keeps 60 feet.
