@@ -29,9 +29,7 @@ Going around the wheel: **Red, Brown, Yellow, Green, Blue, Indigo, Black, Grey, 
 | Black | Black | Intelligence or Charisma | Medium | 30 feet |
 | Grey | Black + White | Intelligence or Wisdom | Medium | 30 feet |
 | White | White | Wisdom | Medium | 30 feet |
-| Unphased | None | None | Medium | 30 feet |
-
-_(OPEN: sizes for the Unphased and the blends are assumed Medium.)_
+| Unphased | None | None | Small or Medium | 30 feet |
 
 ### Parts of a Form
 
@@ -64,7 +62,7 @@ Every form also has two ribbons: small knacks and habits with little or no effec
 ### Unphased
 
 **Creature Type:** Humanoid
-**Size:** Medium
+**Size:** Small or Medium (chosen when you select this form)
 **Speed:** 30 feet
 
 You haven't settled into a form yet. Your scales shift through every colour, and you're still discovering who you are. As an Unphased dragonborn, you have these special traits.
@@ -72,8 +70,6 @@ You haven't settled into a form yet. Your scales shift through every colour, and
 _Many Possibilities._ You choose three personality traits instead of two, and you have no form.
 
 _Trying On Personalities._ When you finish a Long Rest, you can replace one of your personality traits with another one. Your ability scores change to match.
-
-_(OPEN: what an Unphased dragonborn can resist, if anything.)_
 
 ### Forms
 
