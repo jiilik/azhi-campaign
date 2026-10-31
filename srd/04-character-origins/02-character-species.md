@@ -33,6 +33,10 @@ Going around the wheel: **Red, Brown, Yellow, Green, Blue, Indigo, Black, Grey, 
 
 A form includes the following parts.
 
+> **Creature Type: Humanoid**
+>
+> For the rules, every dragonborn is a Humanoid, so spells, monsters and other source material that refer to Humanoids work as written. It's a slightly funny word in a world with no humans. "Dragonoid" would be more accurate, but it would complicate the rules, so Humanoid it is.
+
 #### Size
 
 Your character's form determines the character's size. Blue dragonborn are Small and lithe; Red dragonborn are Large.
