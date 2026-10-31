@@ -38,11 +38,11 @@ The goal is a setting-specific derivative of the D&D 5e SRD for the ring-world A
 
 ### 2a. Highest impact first *(proposed order)*
 
-- [ ] **Species → Dragonborn:** Unphased plus a nine-form colour wheel (5 colours, 4 blends; replaced the ten-form wheel 2026-10-24), plus rare Gold and Silver definitions for NPCs. Phasing rules with an anti-exploit penalty. Drafted in `srd/04-character-origins/02-character-species.md`. Open: the phasing penalty, Gold and Silver forms, and the benefits of the twenty-four personality traits (`srd/04-character-origins/01-personality-traits.md`).
+- [ ] **Species → Dragonborn:** Unphased plus a nine-form colour wheel (5 colours, 4 blends; replaced the ten-form wheel 2026-10-24), plus rare Gold and Silver definitions for NPCs. Phasing rules with an anti-exploit penalty. Drafted in `srd/04-character-origins/02-character-species.md`. Open: the phasing penalty only (with the mortality brainstorm). Gold and Silver are backburnered to the DM material (see the backlog); the trait benefits are canon (2026-10-30).
 - [ ] **Character Creation** (after Character Origins is settled): revise Step 2 (species → colour choice; rebuild the Standard and Rare Languages tables) and the Trinkets table (swap other-species entries for Azhi flavour). Everything else is kept; see the tracker.
   - [ ] **Languages:** decide how languages work on Azhi. *(Troy, 2026-10-30)* They're probably tied to geography rather than to species or colour.
 - [ ] **Remove other species** from character options. Adjust any rule that assumes them (languages, ancestry feats, and so on).
-- [ ] **Backgrounds:** recast for dragonborn-only societies, for example sky-reader (Gold/Silver), archivist (Black), harbour pilot (Blue). *Superseded 2026-10-21: backgrounds are folded into species (traits plus affinity). Revisit what is left of this item when revising Character Origins.*
+- [x] **Backgrounds:** recast for dragonborn-only societies, for example sky-reader (Gold/Silver), archivist (Black), harbour pilot (Blue). *Superseded 2026-10-21: backgrounds are folded into species (traits plus affinity). Revisit what is left of this item when revising Character Origins.* Closed 2026-10-30: personality traits replace backgrounds and Origin feats (sidebar in Character Origins).
 - [ ] **Classes:** align subclasses with the seven dragons, for example cleric domains, warlock patrons, druid circles and sorcerer origins.
 - [ ] **Spells:** review light, darkness, time and travel spells against unpredictable day and night and True Dark.
 - [ ] **Equipment and economy:** bone as stone, ichor as oil, light-storing crystals, timekeeping by "watches".
