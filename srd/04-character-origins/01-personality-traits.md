@@ -4,7 +4,7 @@ Every person on Azhi is a dragonborn. Your character's origin is the dragonborn 
 
 An origin has two parts:
 
-- **Form.** Your character's colour, or the lack of one. It determines your character's creature type, size, Speed, one ability score increase and special traits. See "Character Species."
+- **Form.** Your character's colour, or the lack of one. It determines your character's size, Speed, one ability score increase and special traits. See "Character Species."
 - **Personality Traits.** Two traits that describe who your character is, each with an ability score increase and a small benefit. An Unphased character has three. See "Personality Traits" below.
 
 Between them, your form and personality traits give your character the ability score increases, skill proficiencies and tool proficiencies that a background would otherwise provide.

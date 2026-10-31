@@ -8,8 +8,6 @@ Every dragonborn is born polychromatic, scales shifting through many colours. As
 
 No colour is greater than another. The colours differ as the elements do, and the quarrels between them are disputes over policy, not claims of superiority.
 
-_Life Span (OPEN)._ How long dragonborn live, and when they reach maturity, isn't yet set.
-
 ### The Colour Wheel
 
 The forms are arranged around a wheel of colour. Five are the colours of the surface dragons. Four are **blends**, which sit between two neighbouring colours and mix the way paint does: Red and Green together make Brown, and Black and White make Grey. Yellow is the exception: it is Red and Green mixed the way light does, the same parents as Brown, giving daylight instead of earth. Two of the blends, Yellow and Grey, are the closest earthly echoes of the heavenly dragons, Gold the sun and Silver the moon.
@@ -35,10 +33,6 @@ Going around the wheel: **Red, Brown, Yellow, Green, Blue, Indigo, Black, Grey, 
 
 A form includes the following parts.
 
-#### Creature Type
-
-Every dragonborn is a Humanoid. Creature types are described in "Rules Glossary."
-
 #### Size
 
 Your character's form determines the character's size. Blue dragonborn are Small and lithe; Red dragonborn are Large.
@@ -61,7 +55,6 @@ Every form also has two ribbons: small knacks and habits with little or no effec
 
 ### Unphased
 
-**Creature Type:** Humanoid
 **Size:** Small or Medium (chosen when you select this form)
 **Speed:** 30 feet
 
@@ -79,7 +72,6 @@ The forms are presented in wheel order.
 
 _Red dragonborn are the builders of Azhi: miners, crafters, smiths and industrialists, at home with metal and stone on the volcanic mountains. They are big and hardy, but no one who has seen a Red forge at work mistakes them for brutes._
 
-**Creature Type:** Humanoid
 **Size:** Large
 **Speed:** 35 feet
 **Ability Score Increase:** Strength
@@ -98,7 +90,6 @@ _Ribbons._ At a glance, you can judge the quality and origin of anything of valu
 
 _Brown dragonborn work the rich ash-fed earth: farmers, woodcutters and fringe-dwelling semi-industrialists, and the occasional hermit. They are burly folk, used to the scythe and the axe, the plough-ox and the laden cart._
 
-**Creature Type:** Humanoid
 **Size:** Medium
 **Speed:** 30 feet
 **Ability Score Increase:** Constitution or Strength
@@ -119,7 +110,6 @@ _Ribbons._ _Sky Sense:_ you can predict the weather, and when light will come an
 
 _Yellow dragonborn are the bright sparks of Azhi: inventors lit by flashes of inspiration, as sudden as lightning and as warm as sunlight. They give every discovery away to anyone who asks, they are hopeless at business, and they are the closest earthly echo of Gold, the sun._
 
-**Creature Type:** Humanoid
 **Size:** Medium
 **Speed:** 30 feet
 **Ability Score Increase:** Intelligence or Constitution
@@ -140,7 +130,6 @@ _Ribbons._ _Usual Suspect:_ when something nearby explodes, burns or mysteriousl
 
 _Green dragonborn are at home in the canopy. They are hunters, wardens and scouts of dense, overgrown country, as sure on a swaying branch as on the ground, and often found in high places, watching._
 
-**Creature Type:** Humanoid
 **Size:** Medium
 **Speed:** 30 feet
 **Ability Score Increase:** Dexterity or Constitution
@@ -159,7 +148,6 @@ _Ribbons._ By touching a plant, you can tell whether it's safe to eat. _Beds Are
 
 _Blue dragonborn are the people of the coasts: sailors and pirates, traders and merchants, at home wherever water carries goods. They welcome everyone, and the port cities they run are the great cosmopolitan crossroads of Azhi._
 
-**Creature Type:** Humanoid
 **Size:** Small
 **Speed:** 30 feet
 **Ability Score Increase:** Dexterity or Charisma
@@ -180,7 +168,6 @@ _Ribbons._ You always know which way the nearest water lies. _A Word in Every Po
 
 _Indigo dragonborn dwell where the sea goes dark, in cities few outsiders have ever seen. They surface in the port towns dealing in secrets, debts, dangers and forbidden things, and they use what they trade: theirs are the spies and the assassins. Most people know civilization needs someone to do what Indigo do, and are quietly glad they do it, but few trust them. Every favour an Indigo wins ashore buys standing in the deeps below._
 
-**Creature Type:** Humanoid
 **Size:** Medium
 **Speed:** 30 feet
 **Ability Score Increase:** Charisma
@@ -201,7 +188,6 @@ _Ribbons._ _Knowledge Is Power, and Power Is Knowledge:_ you have an innate feel
 
 _Black dragonborn prize knowledge. Some keep it for its own sake, as record keepers, librarians and archaeologists; others use it as leverage, as the Black dragon once sought worshippers. Theirs is a living god, and many are fervent in its worship. Most live underground._
 
-**Creature Type:** Humanoid
 **Size:** Medium
 **Speed:** 30 feet
 **Ability Score Increase:** Intelligence or Charisma
@@ -222,7 +208,6 @@ _Ribbons._ _Bone Reader:_ you can tell whether bone, including the world's own, 
 
 _Grey dragonborn put Black's knowledge to work for others: investigators and detectives, wandering sages who notice what everyone else misses, though a few turn the same skills to burglary. Theirs is the quiet, watchful light of the moon, the closest earthly echo of Silver._
 
-**Creature Type:** Humanoid
 **Size:** Medium
 **Speed:** 30 feet
 **Ability Score Increase:** Intelligence or Wisdom
@@ -243,7 +228,6 @@ _Ribbons._ _Uncanny Timekeeping:_ you always know the exact time, even undergrou
 
 _White dragonborn are the most empathetic of the colours: healers, storytellers and keepers of oral tradition, who travel from village to village mending what is broken. They gather in monasteries hidden in the cold mountains, and they fly to rise above the chaos below, but they land because they care._
 
-**Creature Type:** Humanoid
 **Size:** Medium
 **Speed:** 30 feet
 **Ability Score Increase:** Wisdom

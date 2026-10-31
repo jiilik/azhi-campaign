@@ -98,6 +98,7 @@ The goal is a setting-specific derivative of the D&D 5e SRD for the ring-world A
 
 ## Backlog / Ideas *(proposed, unscheduled)*
 
+- [ ] Mortality brainstorm: since Azhi died and was reborn as a world, perhaps remove mortality from the game, after a fashion. Covers life span and ties into the phasing rules (Troy, 2026-10-30)
 - [ ] Gold and Silver dragonborn as colours, for the DM material, not the players' chapter (Troy, backburnered 2026-10-30)
 - [ ] Personality traits replace feats: gain traits at levels 4, 8 and so on, with advanced traits in the role of feats (Troy, considering, 2026-10-29)
 - [ ] A Warlord class, a battlefield controller; *Rotate the Line* is parked for it (Troy, considering, 2026-10-29)
