@@ -102,9 +102,10 @@ Everything here is Troy's, unless marked *(Claude)*. Claude suggests each spell 
 
 ## Questions this raises *(Claude)*
 
-- **Blue's role.** In voice, Troy called Blue "the trader", and the transcript may also have said "traitor", since Blue first backed the machines. Both are true of Blue. Should the spell notes use either idea?
+- ~~**Blue's role:** "trader" or "traitor"?~~ **Answered (Troy): trader.**
 - **Damage types split between dragons.** Thunder goes to Red (*Thunderwave*) and to Black (*Shatter*), and lightning goes to Gold, not to White's air. So damage type is a guide, not a rule; each spell is decided on its own.
 - **The cleric's list.** If spells that tap divine power date from epoch 3, much of the cleric's list may come from there. What did clerics cast before, or did they exist at all?
+  - **Answer (Troy):** perhaps **clerics first emerged in epoch 3**, to counter the new school of necromancy.
 - **Necrotic damage in older places.** If necrotic damage first appeared in epoch 3, nothing from epochs 1 and 2 (the machine crater, Azhi's brain) should deal it, unless something was added later.
 - ***Reincarnate***, ***Power Word: Phase*** **and the other phasing spells** (from the phasing brainstorm) fit the epoch 3 rule on shape-changing too.
 - **Other "Monster" spells.** *Hold Monster* would date from epoch 6 if it follows *Dominate Monster*, but the other *Monster* spells could keep their dragons if they're renamed.

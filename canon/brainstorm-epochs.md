@@ -344,3 +344,40 @@ Everything here is Troy's, unless marked *(Claude)*.
 - **Earlier notes to update:** the monstrosities' blame list names "the dragons who killed the homunculi". Should that become the dragonborn heroes, or the dragons who fought alongside them?
 - ***Wish* and the monstrosities.** Did casting *Wish* to kill the homunculi help release their power? That could make the heroes partly to blame.
 - **The epoch 5 myth** is in living memory and must be precise. It now has named heroes Troy may want to write.
+
+### 2026-11-01, text: answers on spell origins
+
+Everything here is Troy's, unless marked *(Claude)*.
+
+**Blue is "the trader"** (not "traitor").
+
+**Clerics** perhaps **first emerged in epoch 3**, to counter the new school of necromancy.
+
+**The blame stays on the dragons.**
+- The monstrosities' blame list keeps "the dragons", even though the final heroes were dragonborn.
+- That makes **the present epoch an "enlightenment"**: an era that rejects the gods. **"We will no longer play your games!"**
+
+***Wish*, its first casting, and who answers it.**
+- **The first casting went wrong.** It was the first *Wish* ever cast, and it **wasn't well specified**. *(This may be what released the homunculi's power and made the monstrosities.)*
+- **The *Wish* spell as it exists afterwards has all its current clauses about clear wording.** Those clauses are the lesson of that first casting.
+- **The question:** **who or what interprets and powers *Wish*?** The spell text doesn't have to say, but the lore needs a proposed in-world answer.
+- **Why it matters:** *Wish* is the most powerful spell in existence since epoch 3, and its existence is an **existential threat**.
+- **An idea:** perhaps **only the Indigo dragon knows the spell today**, as the keeper of the greatest secret.
+
+**Who answers a *Wish*: options** *(Claude, for Troy to choose)*:
+- **a. Azhi itself.** The spell was found in Azhi's brain because it's a **request to whatever is left of Azhi's mind**. Azhi cast above level 12, so it's the only power left above the dragons' cap.
+  - It explains the **literal, sometimes cruel interpretation**: a vast, alien, half-dreaming philosopher answers, not a friendly genie.
+  - It makes *Wish* the **real prize of the young Black's bid for godhood**: a direct line to Azhi's power.
+  - Every casting may **thin the boundaries**, or stir Azhi. That's the existential threat.
+- **b. The dragons' surrendered power.** When the dragons capped themselves at level 9 in epoch 3, the power they gave up didn't vanish. *Wish* **draws on that pool**, interpreted by no one, which is why careless wording goes wrong.
+- **c. Something from beyond.** *Wish* reaches outside reality, and **something out there answers**. It ties to cosmic horror; every *Wish* is a bargain with an unknown.
+- **Mixes are possible,** such as **a** with a cost from **c**.
+
+**Indigo as the keeper** *(Claude, follow-on)*:
+- If only Indigo knows *Wish*, what happened to the epoch 5 heroes who cast it? Options:
+  - they gave it up to Indigo;
+  - Indigo took it, or erased it from them;
+  - one of them **became** part of the Undertow.
+- The Black dragonborn hero has an especially sharp story here: they turned on their own god, then handed its greatest prize to Indigo, the ancient Black's successor.
+- The young Black has its lair in Azhi's brain, so it may be **looking for *Wish* where it was found**, unaware that Indigo holds it.
+- **For players:** the SRD lets a 9th-level wizard or sorcerer learn *Wish*. If only Indigo knows it, a player can learn it only from Indigo, or by finding it again.
