@@ -265,3 +265,44 @@ Everything here is Troy's, unless marked *(Claude)*.
 
 *(Claude)* The two can coexist. The failed epoch 3 expedition is the "fairy tale" everyone half-knows, and a later module could be the moment someone finds the way back. It also fits epoch 3, when the churches' overreach thinned the boundaries. Elves would be the only non-dragonborn people, so they'd stay strictly **beyond** Azhi, never native.
 - **Rule change** *(Troy, 2026-11-01)*: other sentient species may appear in **stories told on Azhi**, which everyone considers fantasy, because writers on Azhi have imaginations too. The elves of the failed epoch 3 expedition fit here: a "fairy tale" most dragonborn don't believe. Updated in the primer and the setting bible.
+
+### 2026-11-01, voice: the origin of magic
+
+Everything here is Troy's, unless marked *(Claude)*.
+
+**The history of spellcasting:**
+1. **Epoch 1** (the first world): **no magic except the dragons' own**. The dragons could cast spells **up to level 12**, and **Azhi above that**.
+2. **Epoch 2** (the machine war): **the dragons teach the dragonborn to cast spells**, up to level 5, "maybe up to level 9", to fight the machines.
+3. **After the machines' defeat,** magic persists in the world, and the dragonborn know how to use it.
+4. **Seven sources:** only the five worldly dragons, plus Gold and Silver, existed when magic was taught. So **they are the source of all the magic the dragonborn know**.
+5. **To do (deferred):** go through all the spells and assign each one to **the dragon that taught it**. This will add flavour for writing spells later.
+   - *(Troy)* **Not yet.** He wants to think through the knock-on effects first.
+6. **Epoch 3** (the magical apocalypse): somehow, the **dragonborn cast spells above level 9**. That's the advent of higher-level magic among the dragonborn.
+7. **The fix:** the available magic in the whole system had to be reduced. The dragons, the source of it all, **turn off the taps: they drop themselves to level 9 casters**. This prevents the final apocalypse of that epoch.
+   - *(Refines the earlier notes: "a little weaker than at creation" becomes a cut from level 12 to level 9.)*
+8. **The consequence:** **dragonborn can now match the dragons in spellcasting.** That **reduces the godhood element** of the dragons.
+   - They're still major, epic influencers in the world, with a long history and a connection to Azhi at the beginning of the world. But they are also **just dragons**.
+9. **The players' crisis:** **the Black dragon is attempting to achieve godhood.** It's the young Black, not the original from the age of god-like dragons, and it covets the power the ancient Black had.
+
+**Knock-on effects and questions** *(Claude)*:
+- **The myth, epoch 1:** it says that through Black's gift, life on the first world "learns to control fire, water, earth and ice". That reads like mortal magic **in epoch 1**, which clashes with "no magic except the dragons' own". Options:
+  - **a.** That control was something lesser than spellcasting: awareness, or a knack, not spells.
+  - **b.** The first world's magic was lost when Azhi ate it, and had to be taught again in epoch 2.
+  - **c.** The myth is "not the only telling" and simplifies.
+  
+  The myth's wording is fixed either way.
+- **Epoch numbering:** the dump called the players' crisis "epoch seven", but the present is epoch 6.
+  - **a.** Is the young Black's bid the crisis that would *end* epoch 6 and begin epoch 7?
+  - **b.** Or should the present be renumbered?
+- **The epoch 2 cap:** level 5 or level 9? If the dragonborn reached 9th level only in epoch 3, the epoch 3 jump would be from 9 to above 9.
+- **The machine war's sides:** Red and Blue backed the machines at first. Did they also teach magic to fight them, after they flipped? Or did only Green, White, Black, Gold and Silver teach?
+- **Later colours' magic:** Brown and Indigo (epoch 4), and Yellow and Grey (epoch 5), didn't exist when magic was taught.
+  - Indigo carries the ancient Black's knowledge, so Black spells might pass through it.
+  - Yellow and Grey are near-misses for Gold and Silver.
+  - Assigning spells to dragons will need to say how the newer colours fit.
+- **The dragons in the rules:** "level 9 casters" means **the god-dragons need their own stat blocks**. The SRD's ancient dragons are the closest starting point. A dragonborn matching a dragon in spellcasting doesn't mean matching it in everything else.
+- **Godhood means breaking the cap.** The young Black's bid for godhood is a bid to cast above level 9 again. That ties together:
+  - **thinning boundaries:** casting above the cap thins reality, which could let things through;
+  - **its lair in Azhi's brain:** Azhi was the one caster above level 12;
+  - **the epoch 3 disaster:** a warning of where it leads.
+- **Earlier wording:** the 2026-10-31 note said "turning off the taps" was only a metaphor. It's now concrete: the dragons capped themselves. Clerics and divine magic still work as before.
