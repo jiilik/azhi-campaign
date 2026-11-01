@@ -16,6 +16,12 @@ Each entry has a number, the change, the monsters it affects, and why. Backgroun
 - **Affected:** Couatl, Deva, Guardian Naga, Pegasus, Planetar, Solar, Sphinx of Lore, Sphinx of Valor, Sphinx of Wonder, Unicorn.
 - **Kept and changed:** Giant Eagle, Giant Elk and Giant Owl (see B1).
 
+**A3. Remove all Fey (15).** *(Troy, 2026-11-01)*
+- **Why:** the Feywild is scrapped. The planes kept are the Astral, the Ethereal and the four Elemental Planes.
+- **Affected:** Blink Dog, Bugbear Stalker, Bugbear Warrior, Centaur Trooper, Dryad, Goblin Boss, Goblin Minion, Goblin Warrior, Green Hag, Hobgoblin Captain, Hobgoblin Warrior, Satyr, Sea Hag, Sprite, Worg.
+- **Note:** the goblins, bugbears, hobgoblins and centaurs are peoples too, so they'd also go under the dragonborn-only rule.
+- **May return later** *(Troy)*: as incursions from beyond. The idea is borrowed in concept only from Stross's *Laundry Files*, where elves invade from another dimension. Some fey could come back as invaders from outside, rather than natives of a Feywild.
+
 ## B. Changes
 
 **B1. Giant Eagle, Giant Elk and Giant Owl become Beasts.** *(Troy, 2026-11-01)*
@@ -35,4 +41,6 @@ Scrapping the Outer Planes also touches the following. All are listed in full in
 - **Rules:** the Dead condition (the spirit "departed for the Outer Planes").
 - **Spells:** *Conjure Celestial*, *Planar Ally*, *Divine Word*, *Find Familiar* and *Find Steed* forms, the *Protection from Evil and Good* family.
 - **Items and equipment:** Holy Water, *Candle of Invocation*, *Holy Avenger*, *Mace of Disruption*, the two talismans.
-- **Languages:** Abyssal, Celestial and Infernal.
+- **Languages:** Abyssal, Celestial and Infernal; with the Feywild gone, Sylvan too.
+- **Feywild knock-ons** (`canon/audit-planes.md` §5): *Conjure Fey*, the druid's Wild Companion (the familiar is Fey), *Find Familiar* and *Find Steed* forms, and the *Dispel Evil and Good* and *Forbiddance* wording.
+- **The Shadowfell** isn't on the kept list either. No SRD monster is typed for it, but *Creation*, *Dispel Evil and Good* and *Forbiddance* mention it.

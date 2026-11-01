@@ -253,3 +253,6 @@ Everything here is Troy's, unless marked *(Claude)*.
 - **The Outer Planes are scrapped entirely** *(Troy)*, along with **all fiends and celestials**.
 - **Exception:** the Giant Eagle, Giant Elk and Giant Owl stay, but become **Beasts**, the same type as ordinary animals.
 - **Tracking:** monster changes are kept, with reasons, in `canon/proposed-monster-changes.md`, to apply in one pass if accepted.
+- **Planes kept, for now** *(Troy, 2026-11-01)*: the **Astral**, the **Ethereal** and the **four Elemental Planes** (fire, water, earth, air).
+  - **The Feywild is scrapped,** and all Fey go from the monster list. The Shadowfell isn't on the kept list either.
+  - **Later** *(Troy)*: as part of incursions from beyond, some may return. The idea is borrowed in concept only from Stross: an elvish invasion from another dimension, with fey as invaders from outside rather than natives of a Feywild.
