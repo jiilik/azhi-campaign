@@ -256,3 +256,11 @@ Everything here is Troy's, unless marked *(Claude)*.
 - **Planes kept, for now** *(Troy, 2026-11-01)*: the **Astral**, the **Ethereal** and the **four Elemental Planes** (fire, water, earth, air).
   - **The Feywild is scrapped,** and all Fey go from the monster list. The Shadowfell isn't on the kept list either.
   - **Later** *(Troy)*: as part of incursions from beyond, some may return. The idea is borrowed in concept only from Stross: an elvish invasion from another dimension, with fey as invaders from outside rather than natives of a Feywild.
+
+### 2026-11-01, text: flipping the invasion
+
+**The idea** *(Troy)*: flip the script. Some elves in another realm used too much magic and thinned their own boundaries, and **the dragonborn invade them**. Two ways to use it:
+- **a. A module:** a super fun one with an unusual premise, where **the party is an expeditionary force** into another realm.
+- **b. Throwaway lore:** such an expedition was launched **in epoch 3, and failed**. Knowledge of other populated realms persists because of it, and many dragonborn consider it **a fairy tale** (pun intended).
+
+*(Claude)* The two can coexist. The failed epoch 3 expedition is the "fairy tale" everyone half-knows, and a later module could be the moment someone finds the way back. It also fits epoch 3, when the churches' overreach thinned the boundaries. Elves would be the only non-dragonborn people, so they'd stay strictly **beyond** Azhi, never native.
