@@ -4,6 +4,7 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-11-01
 
+- **Spell origins pass their test** (Troy): giving each spell the dragon that taught it, or the later epoch that discovered it, works as an idea and continues. The assignments themselves stay tentative, in `canon/brainstorm-spell-origins.md`. The lore that came out of the test (necrotic, undead, shape-changing and divine magic dating from epoch 3; the dragonborn ending the homunculi war with *Wish*) is PROPOSED, in `canon/brainstorm-epochs.md`.
 - **The Outer Planes are scrapped** (Troy), with all fiends and celestials. The Giant Eagle, Elk and Owl become Beasts.
 - **Planes kept for now:** the Astral, the Ethereal and the four Elemental Planes. The **Feywild is scrapped**, and all Fey go from the monster list. Some may return later as incursions from beyond.
   - Proposed monster changes are tracked in `canon/proposed-monster-changes.md`.

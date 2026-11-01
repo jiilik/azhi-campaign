@@ -62,7 +62,7 @@
 - **The revival spells** (*Revivify*, *Raise Dead*, *Resurrection*, *True Resurrection*, *Clone*): may change once phasing settles. The **Dead condition** (the spirit "departed for the Outer Planes") needs a new destination either way.
 - **The Astral as Azhi's cosmos** *(Troy, PROPOSED)*: if adopted, *Astral Projection* and the Astral spells may only need flavour changes.
 - **Pocket dimensions as machine-age technology** *(Troy, PROPOSED)*: if adopted, *Demiplane*, *Rope Trick*, *Magnificent Mansion*, *Maze* and *Imprisonment* may get a flavour note.
-- **Each spell's teaching dragon** *(Troy, deferred)*: every spell may get the dragon that first taught it to the dragonborn (Gold, Silver, Red, Blue, Green, White or Black). That would add flavour. Troy wants to think through the knock-on effects first; see `canon/brainstorm-epochs.md` (2026-11-01).
+- **Each spell's origin** *(Troy, tentative)*: every spell gets the dragon that first taught it to the dragonborn (Gold, Silver, Red, Blue, Green, White or Black), or the later epoch in which dragonborn discovered it. That adds flavour. A test run of 53 spells passed on 2026-11-01; the working list is `canon/brainstorm-spell-origins.md`.
 - **The 9th-level cap** *(Troy)*: already the rule; it now has an in-world reason (epoch 3). No spell text changes.
 
 ## Not changing

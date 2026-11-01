@@ -41,6 +41,7 @@ You are helping **Troy** (the author and DM) build **Azhi**, a D&D campaign sett
 | `canon/brainstorm-trait-benefits.md` | Working record for the 24 traits' benefits: strategy, SRD parts bin, design and balance passes (ADOPTED 2026-10-30). |
 | `canon/brainstorm-phasing.md` | Phasing and mortality brainstorm: canon so far, open questions, spillover (PROPOSED, 2026-10-30). |
 | `canon/brainstorm-epochs.md` | Deep timeline: six epochs before the present, each ending in catastrophe; new origin lore for the non-dragon colours (PROPOSED, 2026-10-31). |
+| `canon/brainstorm-spell-origins.md` | Where each spell came from: the dragon that taught it, or the epoch that discovered it (PROPOSED, tentative, 2026-11-01). |
 | `canon/audit-planes.md` | Report: everything in the SRD (and well-known non-SRD subclasses) that depends on other planes (2026-10-31). |
 | `canon/proposed-monster-changes.md` | Running list of proposed changes to the SRD monsters, each with its reason, to apply in one pass if accepted (PROPOSED, 2026-11-01). |
 | `canon/proposed-spell-changes.md` | Running list of proposed changes to the SRD spells, each with its reason, to apply in one pass if accepted (PROPOSED, 2026-11-01). |

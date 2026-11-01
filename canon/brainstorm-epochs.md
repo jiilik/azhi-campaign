@@ -17,6 +17,7 @@
   - It was an attempt to **subvert the few Gold and Silver dragonborn** on the world by forcing them under a new hierarchy.
   - **It worked:** every Gold and Silver dragonborn of that era was converted to Yellow or Grey.
   - The **other dragons aligned to kill the Yellow and Grey homunculi** in an epic conclusion, in the style of *The Lord of the Rings*.
+    - *Changed by Troy, 2026-11-01:* **the dragonborn killed the homunculi**, with *Wish*. See the session notes for 2026-11-01, "spell origins".
   - **Afterwards,** Yellow and Grey dragonborn continue to be born, but they **align with the Gold and Silver dragons**.
   - There are **rumours of true Gold and Silver dragonborn** in later eras, but the information is patchy.
   - **To do:** choose which epoch this happened in. Perhaps the one just before the present.
@@ -195,7 +196,7 @@ Everything here is Troy's, unless marked *(Claude)*. Troy reviewed the outline e
 
 Everything here is Troy's, unless marked *(Claude)*.
 
-**Undead:** dropped from the Grey homunculus site. Undead may not fit a world where people can be reborn fairly easily. Whether undead exist at all is for the monster review later; the Grey site's monster type is now undecided, like the Yellow site's.
+**Undead:** *(changed 2026-11-01: undead now get an epoch 3 origin; see "spell origins")* dropped from the Grey homunculus site. Undead may not fit a world where people can be reborn fairly easily. Whether undead exist at all is for the monster review later; the Grey site's monster type is now undecided, like the Yellow site's.
 
 **Wildlife:** the ecosystem is like the real world (mammals, insects and so on), so the text can name kittens and oxen without inventing words. *(Recorded as CANON in the setting bible.)*
 
@@ -306,3 +307,40 @@ Everything here is Troy's, unless marked *(Claude)*.
   - **its lair in Azhi's brain:** Azhi was the one caster above level 12;
   - **the epoch 3 disaster:** a warning of where it leads.
 - **Earlier wording:** the 2026-10-31 note said "turning off the taps" was only a metaphor. It's now concrete: the dragons capped themselves. Clerics and divine magic still work as before.
+
+### 2026-11-01, voice: spell origins (commute)
+
+Troy tested assigning SRD spells to the dragons who taught them, as a driving game. The idea passed the test. The spell list itself is in `canon/brainstorm-spell-origins.md`. The lore that came out of it is recorded here.
+
+Everything here is Troy's, unless marked *(Claude)*.
+
+**Gold and Silver taught in epoch 2.** The machines threatened to make **all of reality crumble**, and that was enough to get even Gold's and Silver's attention.
+
+**Necrotic magic began in epoch 3.**
+- **Necrotic damage itself, and every necrotic spell, first appeared in epoch 3.** It's useless against machines, so it wasn't needed in epoch 2.
+- **The undead question is now an epoch 3 lore question.** That gives undead a reason to exist in the universe, since zombies are a core part of D&D.
+  - *(Claude)* Perhaps they were born from the holy wars' necromancy.
+  - This reverses the leaning of 2026-10-31, when undead might not fit a world of easy rebirth.
+
+**Shape-changing magic began in epoch 3.**
+- **Phasing itself is old.** It goes back to epoch 1, when **Green created the first dragonborn as Unphased**.
+- **But every spell that changes shape** (*Polymorph* and the like, which are like a sort of phase) **is an epoch 3 discovery.** During the holy wars, it was a tool for **forced conversion**, among other things.
+  - *(Claude)* That also explains how mass phasing was possible by epoch 4.
+- **Shape-changing is going to become an important lore question.**
+
+**Spells that tap divine power** (such as *Bless*) are epoch 3 discoveries too.
+
+***Wish*, and the dragonborn save the day** (changes the epoch 5 story):
+- **Prompt** *(Claude)*: so far the dragons solve every epoch's crisis, and the dragonborn only cause problems or fight in armies.
+- **Changed:** **the dragonborn killed the homunculi**, not the dragons. **The dragons didn't have the power to do it.**
+- **How:** a band of dragonborn adventurers, **digging into Azhi's brain**, discovered *Wish*, the one spell no dragon taught. They cast it and **ended the homunculi war**.
+- **One of the heroes who cast it was a Black dragonborn,** who turned against their own god to save the world.
+  - *(Claude)* The war was only two centuries ago, so this hero, or others in the band, may still be alive, perhaps in another form.
+  - *(Claude)* The Black's lair today is in Azhi's brain. Were they digging there, under its nose?
+
+**Monsters didn't exist before epoch 5.** Monsters in the classic sense **weren't born until the homunculi died**. So *Dominate Monster* is a discovery of the present epoch.
+
+**Questions this raises** *(Claude)*:
+- **Earlier notes to update:** the monstrosities' blame list names "the dragons who killed the homunculi". Should that become the dragonborn heroes, or the dragons who fought alongside them?
+- ***Wish* and the monstrosities.** Did casting *Wish* to kill the homunculi help release their power? That could make the heroes partly to blame.
+- **The epoch 5 myth** is in living memory and must be precise. It now has named heroes Troy may want to write.
