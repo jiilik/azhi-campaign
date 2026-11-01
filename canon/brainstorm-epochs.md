@@ -225,3 +225,25 @@ Everything here is Troy's, unless marked *(Claude)*.
 - The epic sites from the epochs are probably **campaign settings of their own**, not world locations anyone can visit at any time. For example, ***The Last Machine*** as a ready-to-play campaign.
 - The world book then needs little detail on each site, which also keeps the big secrets out of players' hands.
 - **Shared campaigns in one setting:** a campaign may end differently than expected, and later DMs must accommodate that. *(Claude)* A common fix: each campaign states a default ending that later books assume, with a note that DMs can adjust for their table.
+
+### 2026-11-01, text: thinning boundaries (inspired by *The Laundry Files*)
+
+**The idea** *(Troy)*: as in Charles Stross's *The Laundry Files*, too much computation or magic weakens the boundaries of reality. In the books, magic is a branch of mathematics, and enough of it, from sorcerers or computers, thins the walls between universes until things on the other side can reach through. Concept only; nothing of Stross's wording, names or entities is used.
+
+**Cosmic horror is in** *(Troy)*: things can break through from outside. This gives more variety of monsters and plots.
+
+**How it could tie the epochs together** *(Claude, PROPOSED)*:
+- **Epoch 2:** the machine age computed so much that reality thinned. That could explain how the machines built their hiding plane, and why pocket dimensions date from that era.
+- **Epoch 3:** the churches drew so much power that the boundaries tore. That's how the elemental planes became reachable.
+- **Epoch 6:** the imperfectly sealed rifts are the scars, and **concentrations of magic or computation** are dangerous wherever they gather. Possible sites:
+  - the young Black's lair in Azhi's brain;
+  - the last living machine;
+  - great temples and mage-schools;
+  - any future attempt to rebuild the machines.
+- **Horror sources:** from outside the world, through the thinned places. Possibly also the void Azhi wandered (the Astral, if that's what the cosmos is).
+
+**Questions it raises:**
+- What lies outside? Nameless, or with a lore of its own?
+- Does heavy magic use carry a **personal** cost too, as well as the cosmic one?
+- Who watches for thin places today? A faction, perhaps White's monasteries, which already hunt machine fragments.
+- How does it relate to the monster review? *(Claude)* The SRD's Aberrations (9 monsters: Aboleth, Chuul, Cloaker, Gibbering Mouther and so on) are a natural fit for things from outside.
