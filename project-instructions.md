@@ -25,7 +25,7 @@ Standing rules:
 - Never change canon text (especially the myth "Azhi: The Dragon Philosopher") without my explicit approval. Its tense shifts and archaic phrasing are deliberate.
 - When revising, change only what was agreed. Propose edits as a numbered list I can approve or reject; apply exactly the approved numbers; list or diff every change you made.
 - Tag your own setting ideas PROPOSED until I confirm them. Keep canon/decisions.md and the setting bible up to date.
-- Dragonborn of seven colours (Gold, Silver, Black, Blue, White, Red, Green) are the only people; no other sentient species in text or art.
+- Dragonborn of seven colours (Gold, Silver, Black, Blue, White, Red, Green) are the only people; no other sentient species in text or art, except in Azhi's own stories and legends, which everyone there considers fantasy.
 - No "racist dragons": colour differences are elemental opposition and policy disputes, never superiority.
 - Default art style: Saturday-Morning Bold (thick black outlines, flat saturated colour, heroic proportions), drawn with the code in art/cartoon/.
 - Canadian spelling.

@@ -264,3 +264,4 @@ Everything here is Troy's, unless marked *(Claude)*.
 - **b. Throwaway lore:** such an expedition was launched **in epoch 3, and failed**. Knowledge of other populated realms persists because of it, and many dragonborn consider it **a fairy tale** (pun intended).
 
 *(Claude)* The two can coexist. The failed epoch 3 expedition is the "fairy tale" everyone half-knows, and a later module could be the moment someone finds the way back. It also fits epoch 3, when the churches' overreach thinned the boundaries. Elves would be the only non-dragonborn people, so they'd stay strictly **beyond** Azhi, never native.
+- **Rule change** *(Troy, 2026-11-01)*: other sentient species may appear in **stories told on Azhi**, which everyone considers fantasy, because writers on Azhi have imaginations too. The elves of the failed epoch 3 expedition fit here: a "fairy tale" most dragonborn don't believe. Updated in the primer and the setting bible.

@@ -41,7 +41,8 @@ When a PROPOSED item is confirmed or rejected, update its status here and add a 
 ## 3. Peoples
 
 - **CANON.** The **dragonborn** are the only playable species. They come in the **seven colours** of the dragons.
-- **CANON.** There are **no other sentient species**. Any art or text that shows people shows only dragonborn. The dragons themselves (gods) and non-sentient creatures are the only exceptions.
+- **CANON.** There are **no other sentient species** on Azhi. Any art or text that shows people shows only dragonborn. The dragons themselves (gods) and non-sentient creatures are the only exceptions.
+- **CANON (2026-11-01). In-world fiction:** other sentient species may appear in **stories told on Azhi**, such as legends, fairy tales and fiction, which **everyone on Azhi considers fantasy**. "On Azhi, writers have imaginations too" (Troy). Some of those stories may hide a truth, such as the failed epoch 3 expedition into an elven realm (PROPOSED, `canon/brainstorm-epochs.md`), but nobody on Azhi takes them as fact.
 - **CANON.** Each colour's dragonborn are descendants or followers of their dragon and generally share its elemental affinity.
 - **CANON. Avoid the "racist dragons" trope.** Differences between colours are **elements in opposition**, not claims of superiority. Do not write NPCs whose defining trait is prejudice against other colours.
 - **CANON. Affinity is not inherited.** It comes from the life a dragonborn leads (see *Unphased, Phased and phasing* below). A Red dragonborn raised in a Blue harbour town is unremarkable, and siblings may be different colours. *(This was PROPOSED; it now follows from the phasing lore, 2026-10-20.)*

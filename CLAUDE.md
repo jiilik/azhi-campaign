@@ -21,7 +21,7 @@ You are helping **Troy** (the author and DM) build **Azhi**, a D&D campaign sett
 - **Never change canon text without explicit approval.** This applies above all to `canon/azhi-myth.md` and the `.rtf`. Its shifting tenses, it/he pronouns and archaic phrasing are deliberate oral-legend style. Propose edits as a **numbered list** (original → proposed, with one line of context) and apply only the numbers Troy approves.
 - **Edit only what was asked.** When revising any text, change nothing beyond the agreed scope. Show a diff, or list every change. Troy checks.
 - **Keep CANON and PROPOSED apart.** Your own ideas go in as PROPOSED until Troy confirms them.
-- **Peoples:** dragonborn of seven colours (Gold, Silver, Black, Blue, White, Red, Green) are the only people. There are **no other sentient species**, in text or in art.
+- **Peoples:** dragonborn of seven colours (Gold, Silver, Black, Blue, White, Red, Green) are the only people. There are **no other sentient species** on Azhi, in text or in art. *Exception (Troy, 2026-11-01):* other species may appear in **Azhi's own stories, legends and fiction**, which everyone on Azhi considers fantasy.
 - **No "racist dragons".** Colour differences are elemental opposition and policy disputes, never superiority or prejudice.
 - **Art:** use **Saturday-Morning Bold** unless Troy says otherwise. Draw it with the code in `art/cartoon/`. See `art/STYLE.md`.
 - **Spelling:** Canadian (colour, favourite, flavour).
