@@ -7,6 +7,9 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 - **The Outer Planes are scrapped** (Troy), with all fiends and celestials. The Giant Eagle, Elk and Owl become Beasts.
 - **Planes kept for now:** the Astral, the Ethereal and the four Elemental Planes. The **Feywild is scrapped**, and all Fey go from the monster list. Some may return later as incursions from beyond.
   - Proposed monster changes are tracked in `canon/proposed-monster-changes.md`.
+- **"Peoples" rule reworded** (Troy):
+  - "Dragonborn of seven colours" becomes **"dragonborn of several colours"**. The old list of seven left out the Unphased, Yellow, Grey, Brown and Indigo, and the instructions need room for rare Crimson, Gold and Silver, with perhaps other exceptions.
+  - The rule is now about **peoples**: species with societies, or playable ones. **Other sentient beings exist**: the dragons, the thinking machines, things from beyond, intelligent monsters. Troy noted that the thinking machines had already broken the old wording.
 - **Other species in in-world fiction** (Troy): the dragonborn-only rule now allows other sentient species in **stories told on Azhi**, which everyone there considers fantasy. "On Azhi, writers will also have imaginations." Updated in the primer, the project instructions, the setting bible and design check 4.
 - **Thinning boundaries and cosmic horror** (Troy): too much magic or computation thins reality, and things can break through from outside. This is a concept borrowed from Stross's *Laundry Files*; see `canon/brainstorm-epochs.md`.
 
