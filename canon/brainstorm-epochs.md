@@ -247,3 +247,9 @@ Everything here is Troy's, unless marked *(Claude)*.
 - Does heavy magic use carry a **personal** cost too, as well as the cosmic one?
 - Who watches for thin places today? A faction, perhaps White's monasteries, which already hunt machine fragments.
 - How does it relate to the monster review? *(Claude)* The SRD's Aberrations (9 monsters: Aboleth, Chuul, Cloaker, Gibbering Mouther and so on) are a natural fit for things from outside.
+
+### 2026-11-01, text: planes decision
+
+- **The Outer Planes are scrapped entirely** *(Troy)*, along with **all fiends and celestials**.
+- **Exception:** the Giant Eagle, Giant Elk and Giant Owl stay, but become **Beasts**, the same type as ordinary animals.
+- **Tracking:** monster changes are kept, with reasons, in `canon/proposed-monster-changes.md`, to apply in one pass if accepted.
