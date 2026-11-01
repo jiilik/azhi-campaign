@@ -59,7 +59,7 @@ The goal is a setting-specific derivative of the D&D 5e SRD for the ring-world A
 - [ ] **Deep timeline:** six epochs before the present, each ending in catastrophe, with ruins and old lairs on the map. New origin lore for Brown, Yellow, Indigo and Grey replaces colour mixing (Troy, 2026-10-31). Working file: `canon/brainstorm-epochs.md`.
   - [ ] **Epoch myths** (Troy writes them): a canonical myth for each epoch. Older ones are hazier and disputed; the homunculi war is in living memory, so its account must be precise.
   - [ ] **Other planes:** see the planes notes in `canon/brainstorm-epochs.md` (2026-10-31).
-    - [ ] **Plane audit (Claude, text session):** search for everything that depends on other planes: SRD spells, magic items, monsters, classes and subclasses, plus well-known non-SRD subclasses by name only. Report what would break; don't decide. This feeds a player guide on which outside options fit Azhi.
+    - [x] **Plane audit (Claude, text session; done 2026-10-31, `canon/audit-planes.md`):** search for everything that depends on other planes: SRD spells, magic items, monsters, classes and subclasses, plus well-known non-SRD subclasses by name only. Report what would break; don't decide. This feeds a player guide on which outside options fit Azhi.
   - [ ] **Monster review:** once the lore settles, review the existing creature types and monsters against it (including undead, fey, fiends and celestials). Not a full rebuild.
   - [ ] **Campaign settings:** the epoch sites as ready-to-play campaigns, starting perhaps with *The Last Machine*. Each states a default ending that later books assume, which DMs can adjust.
   - [ ] **Monstrosities** from the homunculi's spilled power: pick up in the monsters chapter.
