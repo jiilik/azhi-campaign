@@ -8,7 +8,7 @@ Everything here is Troy's, unless marked *(Claude)*. Claude suggests each spell 
 
 - **A test run** *(Troy, 2026-11-01)*: the first pass was a test of whether the idea works at all. It did, so the list carries on, spell by spell, as a game to play while driving.
 - **No balancing** *(Troy)*: don't steer the picks to even out the dragons' lists. Claude's choice of spells might not be random, so let it shake down naturally.
-- **The dragons taught only up to level 5** *(Troy, 2026-11-04)*. Higher spells were discovered later; see "Later discoveries".
+- **The dragons taught up to level 9** *(Troy, 2026-11-04; revised the same evening from "up to level 5")*. So any spell of levels 1–9 can have a teaching dragon. Only spells above level 9 came later, in epoch 3.
 - **Not every spell was taught by a dragon.** Some were discovered by dragonborn in later epochs (see "Later discoveries" below).
 
 ## Rules of thumb
@@ -22,7 +22,7 @@ Everything here is Troy's, unless marked *(Claude)*. Claude suggests each spell 
 | **Black** | force and raw destruction; illusion; knowledge; stealth (later Indigo's speciality) |
 | **Gold** | most light and radiant magic; lightning |
 | **Silver** | most teleportation; detection |
-| **Epoch 3** | all necrotic magic; all shape-changing magic; spells that tap divine power; spells above level 5 |
+| **Epoch 3** | all necrotic magic; all shape-changing magic; spells that tap divine power |
 
 ## The list so far
 
@@ -95,8 +95,9 @@ Everything here is Troy's, unless marked *(Claude)*. Claude suggests each spell 
 ## Later discoveries
 
 **Epoch 3, the age of faith:**
-- **Spells above level 5** *(Troy, 2026-11-04)*: studying the machines' escape into a pocket dimension led to discoveries in epoch 3, which took the dragonborn from level 6 to 9, and then past it.
-  - *(Claude)* This moves some spells already on the list: *Wall of Force* (5) is fine, but *Earthquake* (8, Red) and *Sunbeam* (6, Gold) and *Teleport* (7, Silver) are above level 5. Were they discovered in epoch 3 within those dragons' traditions, or should they move to the epoch 3 list?
+- **Magic above level 9** came in epoch 3, the magical apocalypse.
+  - *Revised 2026-11-04 (Troy):* the dragons taught up to level 9 in epoch 2, not 5. That settles *Earthquake* (8, Red), *Teleport* (7, Silver) and *Sunbeam* (6, Gold): they stay with their dragons.
+  - **Open** *(Claude)*: earlier the same day, studying the machines' escape into their pocket dimension was what took the dragonborn from level 6 to 9. Is that study now what took them past level 9 in epoch 3, or is it dropped?
 - *Blight* (necrotic; useless against machines, so never needed in epoch 2)
 - *Animate Dead*
 - *Polymorph* (shape-changing)

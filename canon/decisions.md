@@ -13,7 +13,7 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 - **"Epoch 7" removed** (Troy) from the notes. The present is epoch 6.
 - **No blends anywhere** (Troy): all blend and mixing wording removed from Character Origins' opening, the setting bible, the plan, the colour-wheel art (new labels: earth, the sun's reflection, the deep, the moon's reflection) and the "Azhi: A Quick Tour" doc. The four are now "the younger colours".
 - **Giant Eagle, Elk and Owl** (Troy): they become Beasts, and nothing else in their stat blocks changes, including the Giant Owl's spells. (Monster change B1; knock-ons a–e rejected.)
-- **Magic in epoch 2** (Troy): no dragon taught magic until Red and Blue switched sides in the machine war, and the dragons taught only up to level 5. Still PROPOSED lore, in `canon/brainstorm-epochs.md`, with the other answers from the drive.
+- **Magic in epoch 2** (Troy): no dragon taught magic until Red and Blue switched sides in the machine war, and the dragons taught up to level 9 (first set at level 5, then raised the same evening so that every spell of levels 1–9 can have a teaching dragon). Still PROPOSED lore, in `canon/brainstorm-epochs.md`, with the other answers from the drive.
 
 ## 2026-11-01
 

@@ -292,7 +292,7 @@ Everything here is Troy's, unless marked *(Claude)*.
   - **c.** The myth is "not the only telling" and simplifies.
   
   The myth's wording is fixed either way.
-- **The epoch 2 cap:** level 5 or level 9? If the dragonborn reached 9th level only in epoch 3, the epoch 3 jump would be from 9 to above 9.
+- **The epoch 2 cap:** *(answered 2026-11-04: level 9)* level 5 or level 9? If the dragonborn reached 9th level only in epoch 3, the epoch 3 jump would be from 9 to above 9.
 - **The machine war's sides:** Red and Blue backed the machines at first. Did they also teach magic to fight them, after they flipped? Or did only Green, White, Black, Gold and Silver teach?
 - **Later colours' magic:** Brown and Indigo (epoch 4), and Yellow and Grey (epoch 5), didn't exist when magic was taught.
   - Indigo carries the ancient Black's knowledge, so Black spells might pass through it.
@@ -398,6 +398,7 @@ Everything here is Troy's, unless marked *(Claude)*.
   - *(Claude)* Teaching magic becomes the turning point of the machine war, the moment all seven united against the machines.
 - **The dragons taught up to level 5.**
 - **Higher levels:** studying the **machines' escape to their pocket dimension** led to discoveries later, **during the era of religion** (epoch 3).
+- **Revised the same evening (Troy, text):** the dragons taught **up to level 9** in epoch 2. That removes the ambiguity, and lets *Earthquake*, *Teleport* and *Sunbeam* keep their teaching dragons. Epoch 3's leap is now only past level 9. *(Open: whether studying the pocket dimension is what made that leap; see `canon/brainstorm-spell-origins.md`.)*
 
 **The first clerics** channelled **the dragons**: magic now came from the draconic sources.
 
