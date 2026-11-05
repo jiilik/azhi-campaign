@@ -2,6 +2,11 @@
 
 Newest first. One line per decision: what was decided, and why if a reason was given. Add to this log every time the author settles something, and update `canon/setting-bible.md` to match.
 
+## 2026-11-04
+
+- **Giant Eagle, Elk and Owl** (Troy): they become Beasts, and nothing else in their stat blocks changes, including the Giant Owl's spells. (Monster change B1; knock-ons a–e rejected.)
+- **Magic in epoch 2** (Troy): no dragon taught magic until Red and Blue switched sides in the machine war, and the dragons taught only up to level 5. Still PROPOSED lore, in `canon/brainstorm-epochs.md`, with the other answers from the drive.
+
 ## 2026-11-01
 
 - **Spell origins pass their test** (Troy): giving each spell the dragon that taught it, or the later epoch that discovered it, works as an idea and continues. The assignments themselves stay tentative, in `canon/brainstorm-spell-origins.md`. The lore that came out of the test (necrotic, undead, shape-changing and divine magic dating from epoch 3; the dragonborn ending the homunculi war with *Wish*) is PROPOSED, in `canon/brainstorm-epochs.md`.

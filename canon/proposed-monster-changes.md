@@ -27,7 +27,7 @@ Each entry has a number, the change, the monsters it affects, and why. Backgroun
 **B1. Giant Eagle, Giant Elk and Giant Owl become Beasts.** *(Troy, 2026-11-01)*
 - **Type:** Celestial → **Beast**, the same type as the ordinary Eagle, Elk and Owl.
 - **Why:** there are no celestials, and these are just big animals on Azhi.
-- **Knock-on fixes**, PROPOSED by Claude for Troy to confirm, since the type alone leaves celestial traits behind:
+- **Knock-on fixes:** *answered by Troy, 2026-11-04: **none.** Only the type changes; everything else in their stat blocks stays as it is, including the Giant Owl's spells.* Claude's rejected suggestions, kept for reference:
   - **a. Alignment:** Neutral Good (Eagle, Elk) and Neutral (Owl) → **Unaligned**, like their ordinary versions.
   - **b. Resistances:** remove Necrotic and Radiant (all three).
   - **c. Radiant damage riders:** remove the extra Radiant damage on the Giant Eagle's Rend and the Giant Elk's Ram. That lowers their damage a little, so their CR (1 and 2) may need a check.

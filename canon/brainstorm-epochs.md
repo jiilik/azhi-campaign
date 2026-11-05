@@ -381,3 +381,30 @@ Everything here is Troy's, unless marked *(Claude)*.
 - The Black dragonborn hero has an especially sharp story here: they turned on their own god, then handed its greatest prize to Indigo, the ancient Black's successor.
 - The young Black has its lair in Azhi's brain, so it may be **looking for *Wish* where it was found**, unaware that Indigo holds it.
 - **For players:** the SRD lets a 9th-level wizard or sorcerer learn *Wish*. If only Indigo knows it, a player can learn it only from Indigo, or by finding it again.
+
+### 2026-11-04, voice, drive home: open questions
+
+Everything here is Troy's, unless marked *(Claude)*.
+
+***Wish*** (answers the 2026-11-01 options):
+- **What answers it:** **a vestigial power from Azhi** (option a).
+  - *(Claude)* It fits the spell being found in Azhi's brain, and explains why it needs such careful wording.
+- **The epoch 5 heroes:** they used **a modified memory spell** so that they could never cast *Wish* again, **at their own request**.
+  - *(Claude)* This fits the idea that Indigo is the only keeper today.
+
+**The myth's epoch 1 line is no clash** (answers the 2026-11-01 question). "Learns to control fire, water, earth and ice" is **just the myth simplifying**, and it **refers to the elements, not to magic**.
+
+**Epoch 7 is yet to be determined.** "Epoch seven" was a slip. The present is epoch 6, and the young Black's bid for godhood is its crisis.
+
+**Teaching magic in epoch 2:**
+- **No dragon taught magic until Red and Blue switched sides.** Then all seven taught.
+  - *(Claude)* Teaching magic becomes the turning point of the machine war, the moment all seven united against the machines.
+- **The dragons taught up to level 5.**
+- **Higher levels:** studying the **machines' escape to their pocket dimension** led to discoveries later, **during the era of religion** (epoch 3).
+
+**The first clerics** channelled **the dragons**: magic now came from the draconic sources.
+
+**The first undead:** made during the epoch 3 conflict, as **pliable armies that wouldn't phase**.
+- *(Claude)* A living soldier could break and phase into the enemy's colour; the dead couldn't. So necromancy made armies that could never be converted.
+
+**Parked:** what each dragon wants today, and how the others treat the young Black. It needs a proper brainstorming session.

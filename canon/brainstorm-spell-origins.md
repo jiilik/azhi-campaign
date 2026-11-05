@@ -8,6 +8,7 @@ Everything here is Troy's, unless marked *(Claude)*. Claude suggests each spell 
 
 - **A test run** *(Troy, 2026-11-01)*: the first pass was a test of whether the idea works at all. It did, so the list carries on, spell by spell, as a game to play while driving.
 - **No balancing** *(Troy)*: don't steer the picks to even out the dragons' lists. Claude's choice of spells might not be random, so let it shake down naturally.
+- **The dragons taught only up to level 5** *(Troy, 2026-11-04)*. Higher spells were discovered later; see "Later discoveries".
 - **Not every spell was taught by a dragon.** Some were discovered by dragonborn in later epochs (see "Later discoveries" below).
 
 ## Rules of thumb
@@ -21,7 +22,7 @@ Everything here is Troy's, unless marked *(Claude)*. Claude suggests each spell 
 | **Black** | force and raw destruction; illusion; knowledge; stealth (later Indigo's speciality) |
 | **Gold** | most light and radiant magic; lightning |
 | **Silver** | most teleportation; detection |
-| **Epoch 3** | all necrotic magic; all shape-changing magic; spells that tap divine power |
+| **Epoch 3** | all necrotic magic; all shape-changing magic; spells that tap divine power; spells above level 5 |
 
 ## The list so far
 
@@ -42,6 +43,8 @@ Everything here is Troy's, unless marked *(Claude)*. Claude suggests each spell 
 - *Speak with Animals*
 - *Entangle*
 - *Spike Growth*
+- *Hunter's Mark* (Green dragonborn are the hunters and scouts of the canopy)
+- *Cloudkill* (swamp gas; Black was also considered, for its menace)
 
 **White:**
 - *Shield* (non-elemental; suits "protect and preserve")
@@ -51,6 +54,9 @@ Everything here is Troy's, unless marked *(Claude)*. Claude suggests each spell 
 - *Fly*
 - *Feather Fall*
 - *Ice Storm*
+- *Cone of Cold*
+- *Dispel Magic* (a defensive spell that preserves; Silver, as Grey's echo, was also considered)
+- *Spiritual Weapon* (a spectral weapon, like White's *Spectral Wings*; taught earlier than the epoch 3 divine spells, which is fine)
 - *Sending* (White's couriers and messengers need to keep in touch between monasteries)
 
 **Blue:**
@@ -72,6 +78,7 @@ Everything here is Troy's, unless marked *(Claude)*. Claude suggests each spell 
 - *Prestidigitation* (with most illusion magic)
 - *Scrying* (knowledge-gathering, Black's speciality; first suggested as Silver; it matters to the young Black later)
 - *Passwall* (Black lives underground; first suggested as Red)
+- *Silence*
 
 **Gold:**
 - *Guiding Bolt*
@@ -88,6 +95,8 @@ Everything here is Troy's, unless marked *(Claude)*. Claude suggests each spell 
 ## Later discoveries
 
 **Epoch 3, the age of faith:**
+- **Spells above level 5** *(Troy, 2026-11-04)*: studying the machines' escape into a pocket dimension led to discoveries in epoch 3, which took the dragonborn from level 6 to 9, and then past it.
+  - *(Claude)* This moves some spells already on the list: *Wall of Force* (5) is fine, but *Earthquake* (8, Red) and *Sunbeam* (6, Gold) and *Teleport* (7, Silver) are above level 5. Were they discovered in epoch 3 within those dragons' traditions, or should they move to the epoch 3 list?
 - *Blight* (necrotic; useless against machines, so never needed in epoch 2)
 - *Animate Dead*
 - *Polymorph* (shape-changing)
@@ -107,5 +116,6 @@ Everything here is Troy's, unless marked *(Claude)*. Claude suggests each spell 
 - **The cleric's list.** If spells that tap divine power date from epoch 3, much of the cleric's list may come from there. What did clerics cast before, or did they exist at all?
   - **Answer (Troy):** perhaps **clerics first emerged in epoch 3**, to counter the new school of necromancy.
 - **Necrotic damage in older places.** If necrotic damage first appeared in epoch 3, nothing from epochs 1 and 2 (the machine crater, Azhi's brain) should deal it, unless something was added later.
+- **Who taught when** *(Troy, 2026-11-04)*: **no dragon taught magic until Red and Blue switched sides** in the machine war. All seven taught after that.
 - ***Reincarnate***, ***Power Word: Phase*** **and the other phasing spells** (from the phasing brainstorm) fit the epoch 3 rule on shape-changing too.
 - **Other "Monster" spells.** *Hold Monster* would date from epoch 6 if it follows *Dominate Monster*, but the other *Monster* spells could keep their dragons if they're renamed.

@@ -142,3 +142,5 @@ Note: **every revival spell excludes death by old age.** That's a natural gap fo
 - **Death by other causes:** could a violently killed dragonborn whose body is *also* given the rite phase? Or is the rite only for natural death?
 - **Unphased:** what about an Unphased dragonborn who dies?
 - **Forced phasing:** should *Power Word: Phase* let the victim keep the trait of their choice, or the caster's?
+
+**Troy, 2026-11-04 (voice):** there will be **a whole bunch of different mechanisms** for reaching a breaking point. The options above (a–d) are to be worked through one by one and revised as we go.
