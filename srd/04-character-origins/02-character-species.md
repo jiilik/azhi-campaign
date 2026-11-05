@@ -4,7 +4,7 @@ When you choose your character's species on Azhi, there is only one choice: your
 
 The dragonborn are the only people of Azhi. They live on the corpse of the great dragon Azhi, beneath the wandering light of the Gold and Silver dragons, and they are the descendants and followers of the seven young dragons of the myth. No other sapient peoples share the world with them.
 
-Every dragonborn is born polychromatic, scales shifting through many colours. As they mature, most settle into a form with an elemental affinity to the five surface dragons, Red, Green, Blue, Black and White, or to a blend of two of them. A dragonborn's form isn't inherited; it comes from the life they lead. Siblings may settle into different colours, and a Red dragonborn raised in a Blue harbour town is unremarkable.
+Every dragonborn is born polychromatic, scales shifting through many colours. As they mature, most settle into a form with an elemental affinity to the five surface dragons, Red, Green, Blue, Black and White, or to one of the four younger colours. A dragonborn's form isn't inherited; it comes from the life they lead. Siblings may settle into different colours, and a Red dragonborn raised in a Blue harbour town is unremarkable.
 
 No colour is greater than another. The colours differ as the elements do, and the quarrels between them are disputes over policy, not claims of superiority.
 

@@ -50,21 +50,20 @@ When a PROPOSED item is confirmed or rejected, update its status here and add a 
 ### Unphased, Phased and phasing
 
 - **CANON.** All dragonborn are **born polychromatic**. Young dragonborn with no settled form are **Unphased**. This mirrors the myth: the young dragons are "of many forms and colours" until each finds what it loves and "their forms become fixed."
-- **CANON.** As they mature, dragonborn **settle into a final form** with an elemental affinity to one of the five surface dragons (Red, Green, Blue, Black, White) or to a **blend** of two neighbouring colours.
+- **CANON.** As they mature, dragonborn **settle into a final form** with an elemental affinity to one of the five surface dragons (Red, Green, Blue, Black, White) or to one of the **four younger colours**.
 - **CANON (2026-10-24; replaces the ten-form wheel). The colour wheel has nine forms:** **Red → Brown → Yellow → Green → Blue → Indigo → Black → Grey → White** → back to Red.
-  - 5 colours and 4 blends. Green and Blue sit side by side with no blend, as do White and Red.
-  - Blends **mix like paint, not light** (Red + Green is brown; Black + White is grey; Blue + Black is indigo). **Yellow** is the exception: the same parents as Brown, Red and Green, mixed like light, giving daylight instead of earth.
+  - Five dragon colours and four younger colours, each with its own origin (see `canon/brainstorm-epochs.md`). *(Revised 2026-11-04: no blends or colour mixing.)*
   - **Yellow and Grey** are the **closest earthly echoes of Gold (the sun) and Silver (the moon)**.
-  - **Order is irrelevant** within a blend. The wheel is a colour order chosen by rule of cool; it no longer defines which elements oppose which.
+  - The wheel is a colour order chosen by rule of cool; it no longer defines which elements oppose which.
   - **Retired:** the ten-form wheel's Marsh, Soil, Oxblood, Slate and Glacier. Soil's features passed to Brown and Slate's to Grey.
 - **CANON.** What triggers settling is **left to players' backstories**. It can be finding a calling (the myth's model), the influence of surroundings, or anything else they invent.
 - **CANON. Phasing:** something dramatic, traumatic or deadly can make a dragonborn **phase** from one form into another. They keep parts of their former personality and most of their memories. Rebirth and reincarnation are strong themes, echoing the myth, in which everything Azhi devoured "springs forth anew." Phasing **carries a penalty** so that players can't exploit it; the penalty is not yet designed.
 - **CANON.** There is **no return to Unphased** within the mechanics. The DM may allow it on rare occasions for narrative reasons.
 - **CANON. Gold and Silver dragonborn** are **super rare**. They are NPCs who can motivate plot, and there is no easy way for players to phase into them. Their species definitions should still exist, in case they become relevant. Reason (Troy): the Gold and Silver dragons generally don't take direct interest in the activities of those below.
-- **CANON (game design; revised 2026-10-24).** **Power budget: Unphased < every form.** All nine forms have **similar point totals** (about 17–18.5); blends are no longer held below the five colours.
+- **CANON (game design; revised 2026-10-24).** **Power budget: Unphased < every form.** All nine forms have **similar point totals** (about 17–18.5); the younger colours aren't held below the five.
   - **Unphased** characters are playable. They are young and flexible: they take **three personality traits and no affinity**, and may **swap one trait on each Long Rest** (2026-10-21). Their total bonuses are lower, to encourage players to find a phase and settle.
-  - **Blends** have **their own signature feature** rather than either parent's, plus picks that suit both.
-- **CANON (2026-10-24). Blend names:** **Brown**, **Yellow** (both Red + Green), **Indigo** (Blue + Black), **Grey** (Black + White). The hex colours used in art are working values. *(Replaces the 2026-10-21 adjacency-by-feeding-cycle rule and the names Marsh, Soil, Oxblood, Slate and Glacier.)*
+  - **The younger colours** have **their own signature features**.
+- **CANON (2026-10-24). The younger colours:** **Brown**, **Yellow**, **Indigo** and **Grey**. The hex colours used in art are working values. *(Replaces the 2026-10-21 adjacency-by-feeding-cycle rule and the names Marsh, Soil, Oxblood, Slate and Glacier.)*
 - **PROPOSED. Phasing penalty levers:**
   - The result is set by the event or rolled, not chosen. The SRD *Reincarnate* spell is a model.
   - A fading penalty, like *Raise Dead*'s, or Exhaustion.

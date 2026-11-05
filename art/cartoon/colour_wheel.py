@@ -3,7 +3,7 @@
 Red, Brown, Yellow, Green, Blue, Indigo, Black, Grey, White around the wheel,
 the Unphased in the blank centre (a polychrome silhouette: every colour, none settled),
 and Gold and Silver outside the wheel, watching but not taking part.
-Saturday-Morning Bold. Blend colours are working values; see
+Saturday-Morning Bold. The younger colours' hex values are working values; see
 srd/04-character-origins/02-character-species.md."""
 import os, sys, math, random, subprocess
 HERE = os.path.dirname(os.path.abspath(__file__)); os.chdir(HERE); sys.path.insert(0, HERE)
@@ -16,12 +16,12 @@ W, H = 1600, 1440
 CX, CY = 800, 780
 R_IN, R_OUT, R_FIG = 318, 560, 452
 
-# Blend scale/belly colours (working values), mixed like paint (Yellow like light).
+# Scale/belly colours for the four younger colours (working values).
 party.DRAGONS.update({
-    'Brown':  ('#8a5a2b', '#ddb98c'),   # Red + Green, like paint
-    'Yellow': ('#f0cf2e', '#fbf0b0'),   # Red + Green, like light (earthly echo of Gold)
-    'Indigo': ('#3e2f8a', '#a99fe0'),   # Blue + Black
-    'Grey':   ('#7d838c', '#d3d6db'),   # Black + White (earthly echo of Silver)
+    'Brown':  ('#8a5a2b', '#ddb98c'),
+    'Yellow': ('#f0cf2e', '#fbf0b0'),   # earthly reflection of Gold
+    'Indigo': ('#3e2f8a', '#a99fe0'),
+    'Grey':   ('#7d838c', '#d3d6db'),   # earthly reflection of Silver
 })
 party.HORN.update({'Grey': '#e3ddd2'})
 
@@ -29,13 +29,13 @@ PRIMARY = {'Red', 'Green', 'Blue', 'Black', 'White'}
 # Clockwise from the top, in wheel order.
 WHEEL = [  # (form, label, sub, role, outfit, accent)
     ('Red',    'Red',    'fire & stone',   'fighter', '#8d98a6', '#2f4f8f'),
-    ('Brown',  'Brown',  'Red + Green',    'fighter', '#7c6a4e', '#5b7a3a'),
-    ('Yellow', 'Yellow', 'Red + Green, as light', 'wizard', '#7a3a2a', '#f2d16b'),
+    ('Brown',  'Brown',  'earth',          'fighter', '#7c6a4e', '#5b7a3a'),
+    ('Yellow', 'Yellow', 'the sun\'s reflection', 'wizard', '#7a3a2a', '#f2d16b'),
     ('Green',  'Green',  'life',           'rogue',   '#5c6b3a', '#3e5a4a'),
     ('Blue',   'Blue',   'water',          'rogue',   '#e9dfc6', '#1f3f73'),
-    ('Indigo', 'Indigo', 'Blue + Black',   'rogue',   '#2a2a33', '#7a2f3a'),
+    ('Indigo', 'Indigo', 'the deep',       'rogue',   '#2a2a33', '#7a2f3a'),
     ('Black',  'Black',  'knowledge',      'cleric',  '#2f6b6b', '#e8c35a'),
-    ('Grey',   'Grey',   'Black + White',  'wizard',  '#4a4f5c', '#c9d2e0'),
+    ('Grey',   'Grey',   'the moon\'s reflection', 'wizard',  '#4a4f5c', '#c9d2e0'),
     ('White',  'White',  'ice',            'cleric',  '#6f7b8a', '#9b2d2d'),
 ]
 STEP = 360 / len(WHEEL)
@@ -135,7 +135,7 @@ def build():
     o.append(f'<text x="{CX}" y="70" text-anchor="middle" font-family="DejaVu Serif" font-weight="bold" '
              f'font-size="46" fill="#f3e8cf">The Dragonborn Colour Wheel</text>')
     o.append(f'<text x="{CX}" y="106" text-anchor="middle" font-family="DejaVu Serif" font-style="italic" '
-             f'font-size="21" fill="#c9bda3">Species design, canon since 24 October 2026: five colours, four blends, the Unphased at the heart</text>')
+             f'font-size="21" fill="#c9bda3">Species design, canon since 24 October 2026: five dragon colours, four younger colours, the Unphased at the heart</text>')
     o.append('</svg>')
     return ''.join(o)
 
