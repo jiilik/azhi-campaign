@@ -43,7 +43,7 @@ The goal is a setting-specific derivative of the D&D 5e SRD for the ring-world A
   - [ ] **Languages:** *(Troy, 2026-10-30)* tied to your region of origin, not to traits or colour (sidebar in Character Origins). Still to do: list Azhi's languages by region, in a "Geography of Azhi" section (see 2c, Gazetteer), and rebuild Step 2's language tables.
 - [ ] **Remove other species** from character options. Adjust any rule that assumes them (languages, ancestry feats, and so on).
 - [x] **Backgrounds:** recast for dragonborn-only societies, for example sky-reader (Gold/Silver), archivist (Black), harbour pilot (Blue). *Superseded 2026-10-21: backgrounds are folded into species (traits plus affinity). Revisit what is left of this item when revising Character Origins.* Closed 2026-10-30: personality traits replace backgrounds and Origin feats (sidebar in Character Origins).
-- [ ] **Classes:** align subclasses with the seven dragons, for example cleric domains, warlock patrons, druid circles and sorcerer origins.
+- [ ] **Classes:** align subclasses with the seven dragons, for example cleric domains, warlock patrons, druid circles and sorcerer origins. *Evaluation started 2026-11-04: `canon/brainstorm-classes.md` (13 decisions awaiting Troy).*
 - [ ] **Spells:** review light, darkness, time and travel spells against unpredictable day and night and True Dark.
 - [ ] **Equipment and economy:** bone as stone, ichor as oil, light-storing crystals, timekeeping by "watches".
 
