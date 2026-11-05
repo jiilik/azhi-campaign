@@ -10,24 +10,22 @@ No colour is greater than another. The colours differ as the elements do, and th
 
 ### The Colour Wheel
 
-The forms are arranged around a wheel of colour. Five are the colours of the surface dragons. Four are **blends**, which sit between two neighbouring colours and mix the way paint does: Red and Green together make Brown, and Black and White make Grey. Yellow is the exception: it is Red and Green mixed the way light does, the same parents as Brown, giving daylight instead of earth. Two of the blends, Yellow and Grey, are the closest earthly echoes of the heavenly dragons, Gold the sun and Silver the moon.
-
-Going around the wheel: **Red, Brown, Yellow, Green, Blue, Indigo, Black, Grey, White,** and back to Red. Green and Blue sit side by side with no blend between them, as do White and Red.
+The forms are arranged around a wheel of colour: Red, Brown, Yellow, Green, Blue, Indigo, Black, Grey, White, and back to Red. Five are the colours of the dragons who walk the world. The other four are younger, and each has its own story. Yellow and Grey are earthly reflections of the celestial dragons, Gold the sun and Silver the moon.
 
 **The Colour Wheel**
 
-| Form | Colours | Ability Score Increase | Size | Speed |
-|---|---|---|---|---|
-| Red | Red | Strength | Large | 35 feet |
-| Brown | Red + Green | Constitution or Strength | Medium | 30 feet |
-| Yellow | Red + Green | Intelligence or Constitution | Medium | 30 feet |
-| Green | Green | Dexterity or Constitution | Medium | 30 feet; Climb 30 feet |
-| Blue | Blue | Dexterity or Charisma | Small | 30 feet; Swim 30 feet |
-| Indigo | Blue + Black | Charisma | Medium | 30 feet; Swim 30 feet |
-| Black | Black | Intelligence or Charisma | Medium | 30 feet |
-| Grey | Black + White | Intelligence or Wisdom | Medium | 30 feet |
-| White | White | Wisdom | Medium | 30 feet |
-| Unphased | None | None | Small or Medium | 30 feet |
+| Form | Ability Score Increase | Size | Speed |
+|---|---|---|---|
+| Red | Strength | Large | 35 feet |
+| Brown | Constitution or Strength | Medium | 30 feet |
+| Yellow | Intelligence or Constitution | Medium | 30 feet |
+| Green | Dexterity or Constitution | Medium | 30 feet; Climb 30 feet |
+| Blue | Dexterity or Charisma | Small | 30 feet; Swim 30 feet |
+| Indigo | Charisma | Medium | 30 feet; Swim 30 feet |
+| Black | Intelligence or Charisma | Medium | 30 feet |
+| Grey | Intelligence or Wisdom | Medium | 30 feet |
+| White | Wisdom | Medium | 30 feet |
+| Unphased | None | Small or Medium | 30 feet |
 
 ### Parts of a Form
 
@@ -90,7 +88,7 @@ _Maker's Training._ You have proficiency with two tools of your choice, and in y
 
 _Ribbons._ At a glance, you can judge the quality and origin of anything of value. _Prospector:_ you can make Wisdom (Survival) checks to find raw materials for crafting, such as ore, workable stone, clay or fuel.
 
-#### Brown (Red + Green)
+#### Brown
 
 _Brown dragonborn work the rich ash-fed earth: farmers, woodcutters and fringe-dwelling semi-industrialists, and the occasional hermit. They are burly folk, used to the scythe and the axe, the plough-ox and the laden cart._
 
@@ -110,7 +108,7 @@ _Brown Folk._ You have proficiency in two of the following skills of your choice
 
 _Ribbons._ _Sky Sense:_ you can predict the weather, and when light will come and go, over the next day. _Wisdom of the Almanac:_ you've read and absorbed the farmers' almanac, the collected wisdom shared and published by farmers, and can quote it for any occasion. Its accuracy is never questioned, though it probably should be.
 
-#### Yellow (Red + Green)
+#### Yellow
 
 _Yellow dragonborn are the bright sparks of Azhi: inventors lit by flashes of inspiration, as sudden as lightning and as warm as sunlight. They give every discovery away to anyone who asks, they are hopeless at business, and they are the closest earthly echo of Gold, the sun._
 
@@ -168,7 +166,7 @@ _Trader's Training._ You have proficiency in the Insight and Persuasion skills a
 
 _Ribbons._ You always know which way the nearest water lies. _A Word in Every Port:_ you can identify any language you hear by its sounds alone, and when someone speaks a second language, you can place their accent and tell where they learned it. You know a word or two of each.
 
-#### Indigo (Blue + Black)
+#### Indigo
 
 _Indigo dragonborn dwell where the sea goes dark, in cities few outsiders have ever seen. They surface in the port towns dealing in secrets, debts, dangers and forbidden things, and they use what they trade: theirs are the spies and the assassins. Most people know civilization needs someone to do what Indigo do, and are quietly glad they do it, but few trust them. Every favour an Indigo wins ashore buys standing in the deeps below._
 
@@ -182,7 +180,7 @@ _Deep-Born._ You can breathe air and water, and you have a Swim Speed equal to y
 
 _Darkvision._ You have Darkvision with a range of 60 feet.
 
-_Black Pearls._ Unless you've recently phased into Indigo, you start with two black pearls, the tokens of debt traded by the Undertow. If you've recently phased into Indigo, you will be approached shortly with an opportunity. For the Undertow itself, see "Factions."
+_Masquerade._ As a Bonus Action, you can take on the appearance of a dragonborn of any colour, including its size and features like a tail or wings, or end the effect. You gain none of that form's traits. The change is an illusion. Anyone who touches you can tell something's off, and a creature that takes the Study action can make an Intelligence (Investigation) check against a DC of 8 plus your Charisma modifier and Proficiency Bonus. On a success, it sees through you.
 
 _Deep Training._ You have proficiency in two of the following skills of your choice: Deception, Insight, Intimidation, Persuasion or Stealth.
 
@@ -208,7 +206,7 @@ _Black Lore._ You have proficiency in two of the following skills of your choice
 
 _Ribbons._ _Bone Reader:_ you can tell whether bone, including the world's own, is natural or worked, and roughly how old it is. From its anatomy, you can also tell where in Azhi's body you are and which way you're facing. _True Convictions:_ you can see through false faiths, false prophets and invented gods, and you always know your own convictions.
 
-#### Grey (Black + White)
+#### Grey
 
 _Grey dragonborn put Black's knowledge to work for others: investigators and detectives, wandering sages who notice what everyone else misses, though a few turn the same skills to burglary. Theirs is the quiet, watchful light of the moon, the closest earthly echo of Silver._
 
@@ -258,7 +256,7 @@ _(Backburnered, 2026-10-30: the Gold and Silver forms will be written as colours
 
 _Settling._ What makes a young dragonborn settle into a form is left to your character's story: finding a calling, as the young dragons of the myth did, the pull of their surroundings, or anything else you invent.
 
-_Phasing._ Something dramatic, traumatic or deadly can make a dragonborn phase from one form into another. They keep parts of their former personality and most of their memories. Rebirth runs deep on Azhi, where everything the great dragon devoured "springs forth anew." Phasing carries a penalty, so it can't be used for advantage. _(OPEN: the penalty isn't yet designed, nor whether a dragonborn's first settling counts as phasing.)_
+_Phasing._ Something dramatic, traumatic or deadly can make a dragonborn phase from one form into another. They keep parts of their former personality and most of their memories. Rebirth runs deep on Azhi, where everything the great dragon devoured "springs forth anew." Phasing carries a penalty, so it can't be used for advantage. _(TENTATIVE, 2026-11-04: phase shock, a −4 penalty to D20 Tests that eases by 1 with each Long Rest; you keep at least one of your personality traits; the new form is set by the circumstances, by the DM or by a roll, not freely chosen; the dragonborn is catatonic for a while during the change. A first settling isn't a phase: it carries no penalty, and the player chooses the form. OPEN: what brings a dragonborn to the breaking point. See `canon/brainstorm-phasing.md`.)_
 
 _A New Society._ A dragonborn who phases must find a place among their new colour. Some stay in their old role under a new colour; others seek out their new people and start again, often at the bottom of the ladder. An Indigo newcomer, for one, arrives with no name and no pearls.
 

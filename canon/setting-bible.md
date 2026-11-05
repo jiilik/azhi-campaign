@@ -71,9 +71,9 @@ When a PROPOSED item is confirmed or rejected, update its status here and add a 
   - A cost in memories, relationships or proficiencies.
   - Phasing happens only at the DM's discretion or at death's door.
 - **OPEN.**
-  - Whether a dragonborn's first settling counts as "phasing" (the word may cover only later changes).
+  - Whether a dragonborn's first settling counts as "phasing" (the word may cover only later changes). *(Settled 2026-11-04, tentatively: it doesn't; no penalty, and the player chooses the form.)*
   - What an Unphased dragonborn looks like (the colour-wheel art shows a shifting blend of all five colours), and whether it can resist anything. *(Settled 2026-10-30: no resistance; Small or Medium, the player's choice.)*
-  - The exact phasing penalty.
+  - The exact phasing penalty. *(Tentative, 2026-11-04: phase shock, −4 to D20 Tests easing by 1 per Long Rest; at least one trait kept; the new form set by circumstance, the DM or a roll; catatonia during the change. Still OPEN: what triggers a breaking point.)*
   - Whether Gold and Silver can ever be reached by phasing. *(Backburnered, 2026-10-30: they will be built as colours, hidden in the DM material, as the 2014 DMG did with the aasimar.)*
 - **CANON (2026-10-21). Character building.** The full specification is `canon/brainstorm-species.md`. In short:
   - A **phased** character takes **one affinity** (one of the 9 forms) and **two personality traits**. An **Unphased** character takes three traits and no affinity.
@@ -86,7 +86,7 @@ When a PROPOSED item is confirmed or rejected, update its status here and add a 
     - Yellow: Bright Idea.
     - Green: Prehensile Tail *(replaces Regeneration)*.
     - Blue: Trader's Tongue, and amphibious swimming.
-    - Indigo: *Black Pearls*, two tokens of debt from the Undertow (or, if newly phased, an approach with an opportunity). *(Revised 2026-10-30; the Undertow is now a faction, in `canon/factions.md`.)*
+    - Indigo: *Masquerade*: at will, the illusion of a dragonborn of any colour, with none of its traits. *(Revised 2026-11-04; replaces Black Pearls. Undertow membership is now earned through the faction, in `canon/factions.md`.)*
     - Black: Guarded Mind, and Darkvision.
     - Grey: Keen Investigator.
     - White: Help as a Bonus Action, and flight.

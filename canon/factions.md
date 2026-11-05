@@ -25,7 +25,8 @@ Each entry covers:
 
 Indigo's secret society beneath the sea, trading in secrets, debts, dangers and forbidden things.
 
-- **Black pearls** *(CANON, 2026-10-30)* are the tokens of debt the Undertow trades. Unless an Indigo has recently phased, they start with two. A newly phased Indigo is approached shortly with an opportunity.
+- **Black pearls** *(CANON, 2026-10-30)* are the tokens of debt the Undertow trades.
+- **Membership is earned, not given** *(Troy, 2026-11-04)*: the black pearls come off the Indigo form entirely. Belonging to the Undertow emerges from society and play, through these faction rules, rather than coming automatically with the form. *(Until 2026-11-04, an Indigo started with two pearls, and a newly phased Indigo was approached shortly with an opportunity.)*
 
 ### Rules moved here from the Indigo form (2026-10-30)
 
@@ -43,8 +44,9 @@ This was the canon text of Indigo's *Undertow* trait until 2026-10-30. It is kep
 - **The pearls:** how black pearls are earned and spent, now that they're tokens of debt rather than plain currency. For example, does holding a pearl mean someone owes you, or that you owe?
 - **Benefits:** what good standing gives exactly, such as the once-per-Long-Rest favour from the old trait.
 - **Debts:** the debt limit, and the collectors.
-- **The newly phased:** what the "opportunity" offered to a newly phased Indigo is.
+- **The newly phased:** whether a newly phased Indigo is still approached with an "opportunity", and what it is.
 - **Outcasts:**
   - whether an Indigo may begin play already an outcast, with the reason part of their backstory;
   - what an outcast gains in return, if anything.
-- **Balance:** the Indigo form lost a mechanical benefit when *Undertow* moved here. Recheck its points against the other forms (about 17–18.5).
+- ~~**Balance:** recheck the Indigo form's points.~~ **Done (2026-11-04):** *Masquerade* replaced *Black Pearls* on the form, bringing it to about 18.5.
+- **How an Indigo joins:** now that membership isn't automatic, how does an Indigo (or anyone else?) come into the Undertow?

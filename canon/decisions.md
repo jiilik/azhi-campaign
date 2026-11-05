@@ -4,6 +4,13 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-11-04
 
+- **Indigo: *Masquerade* replaces *Black Pearls*** (Troy). At will, as a Bonus Action, an Indigo can take on the illusory look of a dragonborn of any colour, with none of its traits; touch or an Investigation check sees through it. About 3.5 points, bringing Indigo to about 18.5. It's unique on the wheel, and suits the infiltrator ("the Cylon in the ballroom") without forcing Indigo into a faction.
+  - Troy considered and set aside a real partial shape-change (it needs too many exceptions, such as White's flight).
+- **The black pearls leave the Indigo form** (Troy). Membership of the Undertow emerges from society and play, through the faction rules, rather than coming with the form.
+- **Colour wheel wording** (Troy): the paragraph on blends and mixing is replaced with new text, and the "Colours" column and the "(Red + Green)" style brackets after the Brown, Yellow, Indigo and Grey headings are removed from Character Origins.
+- **Phasing penalty, tentative** (Troy): phase shock (−4 to D20 Tests, easing by 1 per Long Rest); keep at least one trait; the new form set by circumstance, the DM or a roll; catatonia during the change; a first settling is not a phase. The triggers stay open.
+- **The Unphased stay as they are** (Troy). It's a playstyle choice: a player either has fun swapping traits or gets bored and settles into a form.
+- **"Epoch 7" removed** (Troy) from the notes. The present is epoch 6.
 - **Giant Eagle, Elk and Owl** (Troy): they become Beasts, and nothing else in their stat blocks changes, including the Giant Owl's spells. (Monster change B1; knock-ons a–e rejected.)
 - **Magic in epoch 2** (Troy): no dragon taught magic until Red and Blue switched sides in the machine war, and the dragons taught only up to level 5. Still PROPOSED lore, in `canon/brainstorm-epochs.md`, with the other answers from the drive.
 

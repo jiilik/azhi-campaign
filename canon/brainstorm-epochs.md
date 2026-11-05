@@ -292,9 +292,6 @@ Everything here is Troy's, unless marked *(Claude)*.
   - **c.** The myth is "not the only telling" and simplifies.
   
   The myth's wording is fixed either way.
-- **Epoch numbering:** the dump called the players' crisis "epoch seven", but the present is epoch 6.
-  - **a.** Is the young Black's bid the crisis that would *end* epoch 6 and begin epoch 7?
-  - **b.** Or should the present be renumbered?
 - **The epoch 2 cap:** level 5 or level 9? If the dragonborn reached 9th level only in epoch 3, the epoch 3 jump would be from 9 to above 9.
 - **The machine war's sides:** Red and Blue backed the machines at first. Did they also teach magic to fight them, after they flipped? Or did only Green, White, Black, Gold and Silver teach?
 - **Later colours' magic:** Brown and Indigo (epoch 4), and Yellow and Grey (epoch 5), didn't exist when magic was taught.
@@ -394,7 +391,7 @@ Everything here is Troy's, unless marked *(Claude)*.
 
 **The myth's epoch 1 line is no clash** (answers the 2026-11-01 question). "Learns to control fire, water, earth and ice" is **just the myth simplifying**, and it **refers to the elements, not to magic**.
 
-**Epoch 7 is yet to be determined.** "Epoch seven" was a slip. The present is epoch 6, and the young Black's bid for godhood is its crisis.
+**The present is epoch 6,** and the young Black's bid for godhood is its crisis.
 
 **Teaching magic in epoch 2:**
 - **No dragon taught magic until Red and Blue switched sides.** Then all seven taught.

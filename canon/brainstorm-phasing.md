@@ -144,3 +144,14 @@ Note: **every revival spell excludes death by old age.** That's a natural gap fo
 - **Forced phasing:** should *Power Word: Phase* let the victim keep the trait of their choice, or the caster's?
 
 **Troy, 2026-11-04 (voice):** there will be **a whole bunch of different mechanisms** for reaching a breaking point. The options above (a–d) are to be worked through one by one and revised as we go.
+
+### 2026-11-04, voice: tentative approval
+
+Troy approved these parts of Claude's proposal **tentatively** ("let's leave it at that for now, but this is going to be a tentative thing"). They're written into Character Origins as a tentative note:
+- **Phase shock:** −4 to D20 Tests, easing by 1 with each Long Rest (proposal 3).
+- **Keep at least one personality trait** (proposal 3).
+- **The new form isn't freely chosen:** it's set by the circumstances, by the DM or by a roll (proposal 3).
+- **Catatonia:** a dragonborn who breaks is catatonic for a while, perhaps a few days, then emerges in the new form (the reshaping).
+- **First settling isn't a phase:** no penalty, and the player chooses the form (proposal 8).
+
+**Still open:** the breaking-point mechanisms (see above), the rite, and the rest of §6.
