@@ -97,7 +97,6 @@ Everything here is Troy's, unless marked *(Claude)*. Claude suggests each spell 
 **Epoch 3, the age of faith:**
 - **Magic above level 9** came in epoch 3, the magical apocalypse.
   - *Revised 2026-11-04 (Troy):* the dragons taught up to level 9 in epoch 2, not 5. That settles *Earthquake* (8, Red), *Teleport* (7, Silver) and *Sunbeam* (6, Gold): they stay with their dragons.
-  - **Open** *(Claude)*: earlier the same day, studying the machines' escape into their pocket dimension was what took the dragonborn from level 6 to 9. Is that study now what took them past level 9 in epoch 3, or is it dropped?
 - *Blight* (necrotic; useless against machines, so never needed in epoch 2)
 - *Animate Dead*
 - *Polymorph* (shape-changing)
