@@ -70,7 +70,11 @@ To be taken **one at a time** (Troy, 2026-11-05).
      - **Branching ≈ multiclassing:** slower on some fronts, but with interesting combination abilities.
      - **Very old characters** might survive to pursue depth on many paths, or a great deal of breadth.
    - *Original options:* no SRD class has Constitution as its primary ability, so its entry node is new design space. A tank, a survivor, or a vessel?
-6. **Spellcasting ability:** do arcane spells follow Intelligence, divine and primal Wisdom, and innate Charisma, as in the classes? Where do the dragons' teachings fit (`canon/brainstorm-spell-origins.md`)?
+6. **Spellcasting ability** *(Troy, 2026-11-05: **option C, explore it**)*: a spellcasting branch can sit in any tree and uses that tree's ability. Claude's other options were A, the classes' abilities (Int arcane, Wis divine and primal, Cha innate), and B, set by the teaching dragon.
+   - **Learned and natural magic in one character** *(Troy)*: learned magic, like the wizard's, on the experience tree, and natural magic on the phasing tree, both in the same character.
+   - **Some magic may sit outside the trees** *(Troy)*. A warlock's pact is thematically more like **membership in a faction** than a skill or ability.
+   - **No warlock equivalent on either tree, for now** *(Troy)*. That avoids disentangling Pact Magic from the lore, the biggest source of problems. The pact-as-faction idea is parked.
+   - *Original question:* do arcane spells follow Intelligence, divine and primal Wisdom, and innate Charisma, as in the classes? Where do the dragons' teachings fit (`canon/brainstorm-spell-origins.md`)?
 7. **The power curve** *(answered by the principles under 5: depth first tracks the 2024 power curve)*: keep the SRD's per-level power, so monsters' Challenge Ratings and encounter building still work.
 8. **Presets:** keep the 12 classes as named paths through the trees, so a Player's Handbook player can still say "I'm a wizard"?
 9. **Level 1:** what does a new character have? Probably an entry node and the phasing tree's root (form and traits).

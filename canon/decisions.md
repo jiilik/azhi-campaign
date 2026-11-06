@@ -4,6 +4,7 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-11-05
 
+- **Spellcasting can sit in any tree** (Troy), using that tree's ability. Learned magic (wizard-like) goes on the experience tree and natural magic on the phasing tree, and one character can have both. Some magic may sit outside the trees: a warlock's pact is more like faction membership. **No warlock equivalent on either tree for now**, to avoid untangling Pact Magic from the lore.
 - **Tree design principles** (Troy): every entry point has at least two initial branches; branches can recombine; milestones sit at similar depths on every branch; going depth first should track the 2024 single-class power curve, while branching plays like multiclassing (slower, with combination abilities). The Constitution tree is a branching mix. Very old characters can pursue depth on many paths or great breadth.
 - **Entering a second ability tree** (Troy): allowed, with a reduced starter kit, as in the SRD's multiclassing rules.
 - **Scaling becomes nodes** (Troy): cantrip upgrades and multiple attacks are acquired in the trees, not by level. Encounter building is to be checked against something like the party's average total nodes.
