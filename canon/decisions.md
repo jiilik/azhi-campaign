@@ -2,6 +2,12 @@
 
 Newest first. One line per decision: what was decided, and why if a reason was given. Add to this log every time the author settles something, and update `canon/setting-bible.md` to match.
 
+## 2026-11-05
+
+- **Classes on hold** (Troy): players will probably start with the default classes in the *Player's Handbook*, reflavouring any that don't fit. Nothing gets fixed yet; `canon/brainstorm-classes.md` stays as a reference.
+- **Assume players own the *Player's Handbook*** (Troy): the SRD's feat list is short, so reviews must cover the book's feats too, not just the SRD's.
+- **Feats: fix only clashes with the personality traits** (Troy), for example no taking Alert at level 4. Running list: `canon/proposed-feat-changes.md`.
+
 ## 2026-11-04
 
 - **Indigo: *Masquerade* replaces *Black Pearls*** (Troy). At will, as a Bonus Action, an Indigo can take on the illusory look of a dragonborn of any colour, with none of its traits; touch or an Investigation check sees through it. About 3.5 points, bringing Indigo to about 18.5. It's unique on the wheel, and suits the infiltrator ("the Cylon in the ballroom") without forcing Indigo into a faction.

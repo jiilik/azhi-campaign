@@ -1,6 +1,6 @@
 # Brainstorm: Classes and Subclasses on Azhi
 
-**Status: PROPOSED** (opened 2026-11-04). An evaluation of the twelve SRD 5.2.1 classes, their SRD subclasses, and the other subclasses in the 2024 *Player's Handbook*, against the setting. Nothing here is canon until Troy approves it. Everything is *(Claude)* unless marked *(Troy)*.
+**Status: ON HOLD** (Troy, 2026-11-05: players start with the PHB's default classes, reflavoured as needed; nothing gets fixed yet). PROPOSED, opened 2026-11-04. An evaluation of the twelve SRD 5.2.1 classes, their SRD subclasses, and the other subclasses in the 2024 *Player's Handbook*, against the setting. Nothing here is canon until Troy approves it. Everything is *(Claude)* unless marked *(Troy)*.
 
 **Sources.**
 - SRD classes: `srd/03-classes/`, checked line by line for planes, creature types, deities, languages and other species.
