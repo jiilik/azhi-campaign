@@ -4,6 +4,7 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-11-05
 
+- **Extended-trait capstones come at level 19** (Troy): a character who took all five tiers of one path reaches the capstone with the Epic Boon pick. Most won't; the capstone should be epic to reward the options set aside.
 - **Extended traits form a tech tree** (Troy): paths about five tiers deep, anchored to one of the 24 base traits or 9 forms; branching and converging; losing an anchor by phasing means repicking, perhaps one per day while recovering; capstones are rare; form paths can grant dragon traits, like *Savage Species* monster classes, in parallel to class advancement. Details in `canon/brainstorm-extended-traits.md` §3a.
 - **Name: Extended Traits** (Troy), "for now", for the traits that replace feats.
 - **Feats are scrapped entirely** (Troy). At the levels where feats normally come, characters gain replacement sets, working name "extended traits". The feats are broken down into a toolbox of parts, then reimplemented: SRD feats in SRD wording, PHB feats in generic wording, all reworded when the extended traits are designed. Working file: `canon/brainstorm-extended-traits.md`. This supersedes the feat-by-feat fixes in `canon/proposed-feat-changes.md`.

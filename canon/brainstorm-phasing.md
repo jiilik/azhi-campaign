@@ -145,6 +145,10 @@ Note: **every revival spell excludes death by old age.** That's a natural gap fo
 
 **Troy, 2026-11-04 (voice):** there will be **a whole bunch of different mechanisms** for reaching a breaking point. The options above (a–d) are to be worked through one by one and revised as we go.
 
+### 2026-11-05, text: phasing and class *(Troy)*
+
+- **OPEN:** does phasing change class? A White, Wisdom-built level 12 cleric phases into a Black, Intelligence-built form: can they become a level 12 wizard? Phasing may force a rebuild of the class structure around this idea. Experience is probably kept. Raised during the extended-traits design (`canon/brainstorm-extended-traits.md` §3a), where losing an anchor forces a repick of extended traits.
+
 ### 2026-11-04, voice: tentative approval
 
 Troy approved these parts of Claude's proposal **tentatively** ("let's leave it at that for now, but this is going to be a tentative thing"). They're written into Character Origins as a tentative note:

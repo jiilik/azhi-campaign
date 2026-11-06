@@ -54,6 +54,10 @@ Numbered so they can be answered one at a time.
 - **Capstones are rare:** with only 5–7 picks over a career, most characters won't reach a capstone, but some will. "Munchkin city."
 - **Form paths** are a little like the monster classes in 3rd edition's *Savage Species*: a dragonborn who follows their form's path may gain dragon traits. The trees give a path of advancement **in parallel to class advancement**.
 
+- **Capstones at level 19** *(Troy, 2026-11-05)*: most characters won't reach a capstone, and that's fine. A character who took all five tiers of one path reaches tier 5 with the **level 19 Epic Boon** pick. The capstone should be **"epic as hell"**, to reward all the options set aside.
+- **Phasing as a respec** *(Troy)*: phasing forces a repick, so it could be used to reach a capstone, or to escape one.
+- **OPEN (Troy): does phasing change class?** For example, a White, Wisdom-built level 12 cleric phases into a Black, Intelligence-built form. Do they get the chance to become a level 12 wizard? Phasing may force a rebuild of the whole class structure around this idea. The character probably keeps their experience.
+
 **Claude's notes** *(PROPOSED)*:
 - **The pick count by class.** Feat levels are 4, 8, 12 and 16 for most classes, plus 6 and 14 for the Fighter and 10 for the Rogue, plus the Epic Boon at 19. So a single class gets **4 picks** (6 for a Fighter, 5 for a Rogue), and 5 counting level 19. If tier 1 needs a pick, most classes reach a tier-5 capstone only by spending every pick on one path, including level 19.
 - **The Unphased** have no form to anchor to, and swap a trait each Long Rest. They may need their own path, or a rule.
