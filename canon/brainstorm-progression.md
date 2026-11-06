@@ -17,6 +17,17 @@
 - **On level-up:** choose one node from each tree, **or maybe two from any**. The combinations should make super fun builds.
 - **Nature versus learning:** some features, such as the barbarian's **Rage**, feel like a personality trait that you can gain or lose by phasing. Others, such as **Sneak Attack**, are learned and remembered.
 
+### Shallow and deep *(Troy, 2026-11-05)*
+
+- **The phasing tree is powerful but shallow.** When you phase, you lose it: that loss is **the true phasing penalty**.
+- **The experience tree is deep,** and you keep your learned abilities when you phase.
+- **After a phase,** you can keep pursuing the same part of the experience tree, or start fresh on another section of it.
+- **Over a long life,** a character who survives several phases could be deep in many parts of the experience tree: like being ridiculously multiclassed beyond level 20. Most campaigns don't last that long anyway.
+
+**Claude's notes** *(PROPOSED)*:
+- **Shallow means wide.** With one phasing node per level, a level 20 character holds 20 phasing nodes. A tree only about five tiers deep (the extended-traits tech tree) has to be wide enough to hold them: many strong nodes near the root.
+- **"Beyond level 20" implies the levels come back.** If phasing resets the phasing tree and you then re-earn it level by level, each of those levels also brings a new experience node, so the experience tree can grow past 20 nodes. Whether phasing resets your level is the next question.
+
 ## 2. Parts the SRD already has *(Claude)*
 
 - **The threshold of 13** is the SRD's multiclassing prerequisite: "a score of at least 13 in the primary ability of the new class". An entry node is the same rule, applied to every character.
@@ -42,7 +53,7 @@ Following Troy's Rage and Sneak Attack examples, each SRD class feature is eithe
 To be taken **one at a time** (Troy, 2026-11-05).
 
 1. **Level-up:** **Settled (Troy, 2026-11-05): one node from each tree** per level, which makes balance easier.
-2. **Resetting the phasing tree:** do you lose the picks, or keep the count and re-spend it in the new form, perhaps one per Long Rest while the phase shock eases (Troy's earlier idea)?
+2. **Resetting the phasing tree** *(partly answered, 2026-11-05: you lose it; see "Shallow and deep")*. Still open: does your character level reset with it, so you re-earn the phasing nodes and gain new experience nodes along the way? do you lose the picks, or keep the count and re-spend it in the new form, perhaps one per Long Rest while the phase shock eases (Troy's earlier idea)?
 3. **Hit points:** each level's Hit Die comes from the node taken that level, as in multiclassing, or your best Hit Die applies to every level?
 4. **A second entry node:** can you enter a second ability tree (the equivalent of multiclassing), and does its starter kit come at full or reduced strength?
 5. **The Constitution tree:** no SRD class has Constitution as its primary ability, so its entry node is new design space. A tank, a survivor, or a vessel?
