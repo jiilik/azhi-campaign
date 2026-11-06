@@ -4,6 +4,7 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-11-05
 
+- **One node from each tree per level** (Troy), in the two-tree progression, because it makes balance easier. Next: break the SRD and PHB classes into parts and score every part (classes and feats) on the Character Origins point scale: `canon/parts-bin.md`.
 - **Exploring a classless progression** (Troy): option D, two trees (experience, kept on phasing; phasing, reset on phasing), six ability entry nodes with a threshold such as 13. Not decided; classes are not yet dropped. Working file: `canon/brainstorm-progression.md`.
 - **Extended-trait capstones come at level 19** (Troy): a character who took all five tiers of one path reaches the capstone with the Epic Boon pick. Most won't; the capstone should be epic to reward the options set aside.
 - **Extended traits form a tech tree** (Troy): paths about five tiers deep, anchored to one of the 24 base traits or 9 forms; branching and converging; losing an anchor by phasing means repicking, perhaps one per day while recovering; capstones are rare; form paths can grant dragon traits, like *Savage Species* monster classes, in parallel to class advancement. Details in `canon/brainstorm-extended-traits.md` §3a.

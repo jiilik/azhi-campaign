@@ -46,6 +46,7 @@ The goal is a setting-specific derivative of the D&D 5e SRD for the ring-world A
 - [ ] **Classes:** align subclasses with the seven dragons, for example cleric domains, warlock patrons, druid circles and sorcerer origins. *On hold (Troy, 2026-11-05): players start with the PHB's default classes, reflavoured as needed. Evaluation for later: `canon/brainstorm-classes.md`. Also exploring (2026-11-05) replacing classes with a two-tree progression built for phasing: `canon/brainstorm-progression.md`.*
 - [ ] **Feats → extended traits** *(Troy, 2026-11-05)*: feats are scrapped. Replacement sets ("extended traits", working name) come at the feat levels. Assume players own the PHB. Working file: `canon/brainstorm-extended-traits.md`.
   - [x] Toolbox: every SRD and PHB feat broken into parts (2026-11-05)
+  - [x] Classes broken into parts, and every part scored: `canon/parts-bin.md` (2026-11-05)
   - [ ] Troy answers the design questions (§3 of the working file)
   - [ ] Design the extended traits from the toolbox, reworded
   - [ ] Replace the feat hooks in the classes and other chapters (§2 of the working file)

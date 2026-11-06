@@ -23,7 +23,7 @@
 - **Spellcasting across trees:** the SRD's **Multiclass Spellcaster table** already turns combined caster levels into spell slots. Spellcasting nodes could count as caster levels on it, full or half, so "level 3 spells five nodes in" falls out of an existing table.
 - **Hit points and proficiencies when multiclassing** are already solved in the SRD: Hit Dice by level, and reduced proficiencies for a second class. A second entry node could use the same rule.
 - **The phasing tree's root already exists.** A character's form and two personality traits, from Character Origins, are its tier 0. The extended traits grow from them.
-- **The class features** break down into a toolbox, like the feats (`canon/brainstorm-extended-traits.md` §4).
+- **The class features** break down into a toolbox, like the feats. Done 2026-11-05: `canon/parts-bin.md` holds every class and feat part with a points score.
 
 ## 3. Sorting class features: learned or nature *(Claude, first pass)*
 
@@ -41,7 +41,7 @@ Following Troy's Rage and Sneak Attack examples, each SRD class feature is eithe
 
 To be taken **one at a time** (Troy, 2026-11-05).
 
-1. **Level-up:** one node from each tree, or two from any? *(Asked first.)*
+1. **Level-up:** **Settled (Troy, 2026-11-05): one node from each tree** per level, which makes balance easier.
 2. **Resetting the phasing tree:** do you lose the picks, or keep the count and re-spend it in the new form, perhaps one per Long Rest while the phase shock eases (Troy's earlier idea)?
 3. **Hit points:** each level's Hit Die comes from the node taken that level, as in multiclassing, or your best Hit Die applies to every level?
 4. **A second entry node:** can you enter a second ability tree (the equivalent of multiclassing), and does its starter kit come at full or reduced strength?
