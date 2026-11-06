@@ -4,6 +4,7 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-11-05
 
+- **Two counters, tentatively** (Troy): the experience tree's node count is the character's level; a separate phasing level resets to zero on a phase, and each level earned afterwards gives one node on each tree, so a character can pass 20 experience nodes. Chosen to have something to run with; to be contemplated further.
 - **Shallow and deep** (Troy): the phasing tree is powerful but shallow, and losing it on a phase is the true phasing penalty. The experience tree is deep and kept. After phasing you can keep pursuing a learned path or start a new one, so a long-lived character could end up deep in many parts of the experience tree, like extreme multiclassing beyond level 20.
 - **One node from each tree per level** (Troy), in the two-tree progression, because it makes balance easier. Next: break the SRD and PHB classes into parts and score every part (classes and feats) on the Character Origins point scale: `canon/parts-bin.md`.
 - **Exploring a classless progression** (Troy): option D, two trees (experience, kept on phasing; phasing, reset on phasing), six ability entry nodes with a threshold such as 13. Not decided; classes are not yet dropped. Working file: `canon/brainstorm-progression.md`.
