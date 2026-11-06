@@ -61,8 +61,16 @@ To be taken **one at a time** (Troy, 2026-11-05).
 3a. **What replaces "character level"** *(Troy, 2026-11-05)*: **scaling becomes nodes.** Cantrip upgrades and multiple attacks (Extra Attack and its successors) are things to acquire in the trees. **Encounter building** is to be checked against something like **the party's average total nodes**.
    - *(Claude)* Canon text that scales by character level will need a new measure, with Troy's approval: the Disciplined's *Muscle Memory* (character levels 5, 11 and 17), the Hearty's *Hardy* (HP per level), and anything else in Character Origins that counts levels. The SRD's XP thresholds also need a new meaning: XP per pair of nodes.
 4. **A second entry node** *(Troy, 2026-11-05: **yes, with a reduced starter kit**, as the SRD's multiclassing rules reduce a second class's proficiencies)*: can you enter a second ability tree (the equivalent of multiclassing), and does its starter kit come at full or reduced strength?
-5. **The Constitution tree:** no SRD class has Constitution as its primary ability, so its entry node is new design space. A tank, a survivor, or a vessel?
+5. **The Constitution tree** *(Troy, 2026-11-05: **a mix, branching, and likely recombinant**; Claude's options were the tank, the survivor and the vessel)*.
+   - **Design principles for every tree** *(Troy)*:
+     - **Each entry point has at least two initial branches.**
+     - Branches can **recombine**.
+     - **Balance depth:** important nodes on any branch take a similar number of steps to reach comparable milestones.
+     - **Depth first ≈ the 5e power curve:** a player who heads straight for the milestones should progress much like a single-class character in the 2024 rules.
+     - **Branching ≈ multiclassing:** slower on some fronts, but with interesting combination abilities.
+     - **Very old characters** might survive to pursue depth on many paths, or a great deal of breadth.
+   - *Original options:* no SRD class has Constitution as its primary ability, so its entry node is new design space. A tank, a survivor, or a vessel?
 6. **Spellcasting ability:** do arcane spells follow Intelligence, divine and primal Wisdom, and innate Charisma, as in the classes? Where do the dragons' teachings fit (`canon/brainstorm-spell-origins.md`)?
-7. **The power curve:** keep the SRD's per-level power, so monsters' Challenge Ratings and encounter building still work.
+7. **The power curve** *(answered by the principles under 5: depth first tracks the 2024 power curve)*: keep the SRD's per-level power, so monsters' Challenge Ratings and encounter building still work.
 8. **Presets:** keep the 12 classes as named paths through the trees, so a Player's Handbook player can still say "I'm a wizard"?
 9. **Level 1:** what does a new character have? Probably an entry node and the phasing tree's root (form and traits).
