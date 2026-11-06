@@ -58,6 +58,12 @@ Numbered so they can be answered one at a time.
 - **Phasing as a respec** *(Troy)*: phasing forces a repick, so it could be used to reach a capstone, or to escape one.
 - **OPEN (Troy): does phasing change class?** For example, a White, Wisdom-built level 12 cleric phases into a Black, Intelligence-built form. Do they get the chance to become a level 12 wizard? Phasing may force a rebuild of the whole class structure around this idea. The character probably keeps their experience.
 
+- **OPEN idea (Troy, 2026-11-05): drop classes entirely**, and build a new progression system with phasing in mind from the outset. Not decided; it reverses the earlier assumption that players start with the PHB's classes. Claude's evaluation (options A–D) is in the chat of 2026-11-05 and summarized here:
+  - A. Keep classes; phasing doesn't change them.
+  - B. Classes as *jobs*, as in *Final Fantasy XIV*: one character, a level in each job, switching between them.
+  - C. Forms as classes: phasing is a class change. It conflicts with playing against type, and risks tying ability to colour.
+  - D. Everything is trees: class features broken into a toolbox like the feats, with one pick per level from martial, spellcasting, form and trait trees. Phasing removes only the form-anchored picks. The 12 classes could survive as **preset paths** through the trees, so PHB players still recognize "a wizard".
+
 **Claude's notes** *(PROPOSED)*:
 - **The pick count by class.** Feat levels are 4, 8, 12 and 16 for most classes, plus 6 and 14 for the Fighter and 10 for the Rogue, plus the Epic Boon at 19. So a single class gets **4 picks** (6 for a Fighter, 5 for a Rogue), and 5 counting level 19. If tier 1 needs a pick, most classes reach a tier-5 capstone only by spending every pick on one path, including level 19.
 - **The Unphased** have no form to anchor to, and swap a trait each Long Rest. They may need their own path, or a rule.
