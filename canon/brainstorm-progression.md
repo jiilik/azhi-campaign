@@ -85,5 +85,12 @@ To be taken **one at a time** (Troy, 2026-11-05).
        - **Where branches meet:** a node at a recombination point that merges the two branches' lists.
    - *Original question:* do arcane spells follow Intelligence, divine and primal Wisdom, and innate Charisma, as in the classes? Where do the dragons' teachings fit (`canon/brainstorm-spell-origins.md`)?
 7. **The power curve** *(answered by the principles under 5: depth first tracks the 2024 power curve)*: keep the SRD's per-level power, so monsters' Challenge Ratings and encounter building still work.
-8. **Presets:** keep the 12 classes as named paths through the trees, so a Player's Handbook player can still say "I'm a wizard"?
+8. **Presets** *(Troy, 2026-11-05): **no presets.***
+   - It gives more flexibility in the design space, and room for fantasy tropes beyond the usual 12, such as a **shaman, warden, warlock or summoner**. *(Claude: the warlock trope can return as a design goal, even though no warlock branch exists for now.)*
+   - **Schools and domains aren't limits**, though they might become branches of sorts.
+   - **Examples** *(Troy)*:
+     - Start in Wisdom, go down the **elemental** branch, pick up **fire** in it, and become a firebender-style monk.
+     - Start in Dexterity, go down the **archer** branch, and pick up **fast reload** for multiple attacks.
+     - **Cross-branch nodes:** if two branches are **adjacent** and the character has the prerequisites from both, they can reach a node such as **elemental arrows of fire**. Such a node can be a spell unlock, or a feature like a monk's.
+   - *Original question:* keep the 12 classes as named paths through the trees, so a Player's Handbook player can still say "I'm a wizard"?
 9. **Level 1:** what does a new character have? Probably an entry node and the phasing tree's root (form and traits).

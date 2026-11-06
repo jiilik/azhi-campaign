@@ -4,6 +4,7 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-11-05
 
+- **No class presets** (Troy): more design space, and room for tropes beyond the 12 classes (shaman, warden, warlock, summoner). Schools and domains may become branches. Adjacent branches can share cross-branch nodes that need prerequisites from both, such as fire arrows from an elemental branch and an archer branch.
 - **Spell lists are curated per casting branch** (Troy), with ways to short-circuit them, like the bard's Magical Secrets.
 - **A mana pool instead of spell slots** (Troy, direction): mana is gained through different branches. Basis: the SRD sorcerer's Creating Spell Slots costs (the 2014 DMG's spell points variant isn't in the SRD, so it can't be used).
 - **Spellcasting can sit in any tree** (Troy), using that tree's ability. Learned magic (wizard-like) goes on the experience tree and natural magic on the phasing tree, and one character can have both. Some magic may sit outside the trees: a warlock's pact is more like faction membership. **No warlock equivalent on either tree for now**, to avoid untangling Pact Magic from the lore.
