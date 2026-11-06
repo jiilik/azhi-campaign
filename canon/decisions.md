@@ -4,6 +4,7 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-11-05
 
+- **Scaling becomes nodes** (Troy): cantrip upgrades and multiple attacks are acquired in the trees, not by level. Encounter building is to be checked against something like the party's average total nodes.
 - **Levelling up is only nodes** (Troy): gaining a level means one node from each tree and nothing else. Hit points and Proficiency Bonus come only from nodes. The class level-up tables are gone, and "level" may be dropped except as shorthand for gaining a node from each tree.
 - **Hit Dice and Proficiency Bonus boosts are scattered through the trees** (Troy): the Constitution tree has the biggest Hit Dice (d12s), Strength perhaps d10s, Intelligence perhaps d4s; +1 Proficiency Bonus boosts are scattered too, so boosts must be pursued by choice.
 - **Two counters, tentatively** (Troy): the experience tree's node count is the character's level; a separate phasing level resets to zero on a phase, and each level earned afterwards gives one node on each tree, so a character can pass 20 experience nodes. Chosen to have something to run with; to be contemplated further.
