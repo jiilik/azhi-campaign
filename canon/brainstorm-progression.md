@@ -77,7 +77,12 @@ To be taken **one at a time** (Troy, 2026-11-05).
    - **A mana pool instead of spell slots** *(Troy, 2026-11-05, direction)*: eschew spell slots; gain mana through different branches. It keeps things simple. Troy recalls a variant like it in the 2014 DMG.
      - *(Claude)* The 2014 DMG did have a spell points variant, but it isn't in either SRD, so its text and tables can't be used. The SRD has an open basis instead: the sorcerer's **Creating Spell Slots** table prices slots in Sorcery Points (level 1: 2, level 2: 3, level 3: 5, level 4: 6, level 5: 7). Costs for levels 6–9 would be ours to set.
      - *(Claude)* The usual risk of a mana pool is the nova: spending everything on the highest-level spell again and again. A common fix is to allow each spell of level 6 or higher only once per Long Rest. To decide later.
-   - **Still open:** how a casting branch gets its spells: (A) a curated list per branch, (B) the teaching dragon's list, or (C) one shared list. Claude recommends A, flavoured by B.
+   - **Spell lists** *(Troy, 2026-11-05)*: **a curated list per casting branch** (option A; the others were the teaching dragon's list and one shared list). But there must be **ways to short-circuit** it, like the bard's Magical Secrets.
+     - *(Claude, PROPOSED)* Short-circuit nodes:
+       - **Secrets nodes:** prepare spells from another branch's list. The SRD 5.2 bard's *Magical Secrets* (level 10) is the model; it's in the parts bin.
+       - **Taught by a dragon:** learn spells from one of the Seven's lists in the spell origins. A natural place for the dragons' teaching.
+       - **The spellbook:** an Intelligence branch that can copy any spell it finds written down, from scrolls or books, as the SRD wizard does from its own list.
+       - **Where branches meet:** a node at a recombination point that merges the two branches' lists.
    - *Original question:* do arcane spells follow Intelligence, divine and primal Wisdom, and innate Charisma, as in the classes? Where do the dragons' teachings fit (`canon/brainstorm-spell-origins.md`)?
 7. **The power curve** *(answered by the principles under 5: depth first tracks the 2024 power curve)*: keep the SRD's per-level power, so monsters' Challenge Ratings and encounter building still work.
 8. **Presets:** keep the 12 classes as named paths through the trees, so a Player's Handbook player can still say "I'm a wizard"?
