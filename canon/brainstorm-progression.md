@@ -48,6 +48,20 @@ Written up from the voice transcript. One line in the transcript was attributed 
 - **Personality: the real penalty.** Everyone starts with two traits. On a phase you **keep one**. Anything that depended on the lost trait is **simply lost**, and anything that depended on the kept trait is **retained**. You partly keep your personality. No points come back, so it isn't gameable: nobody can force a phase just to switch branches. This **offsets the advantage of the form tree**.
 - **Learned skills: all kept.**
 
+### The personality tree: shallow and converging *(Troy, 2026-11-06, text)*
+
+- **Pretty shallow: no more than four levels deep.** A new character already has two traits, at the entry points.
+- The nodes are **short trait trees, more like mini feats**.
+- **Maximum collected:** **8** for a phased character (two roots × 4), or **12** for an Unphased one (three roots × 4).
+- This **assumes phasing is relatively common**.
+- **Converging, not branching:** **24 → 16 → 12 → 8**, so there are **8 possible final traits**. That is **60 things to develop**, but you can only hold a few at a time.
+
+*(Claude, PROPOSED or open)*:
+- **Converging cuts the maximum.** If a character's two roots converge on the same node, they share it, and the maximum drops below 8. Is that a perk (an easy, natural pairing) or a trap?
+- **A converged node after a phase:** if it's reachable from both the kept and the lost trait, it should stay, since the kept trait still supports it.
+- **The Unphased swap one trait each Long Rest** (CANON, 2026-10-21). With trait trees, does a swap also drop the nodes built on the swapped trait?
+- **Pick counts:** beyond the roots, a phased character has only 6 personality picks before the tree is full (an Unphased one 9). After that, points must go to the other trees until a phase frees room.
+
 ### Points per advance *(parked)*
 
 - **Parked by Troy** until the tree depths are known: trees may differ in depth, and a point in each tree per advance could max out one tree before another.

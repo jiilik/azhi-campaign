@@ -4,6 +4,7 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-11-06
 
+- **Personality tree is shallow and converging** (Troy): at most four levels deep, counting the root traits; nodes are like mini feats; 24 → 16 → 12 → 8, with 8 final traits and 60 nodes in all. A phased character can hold at most 8 (an Unphased one 12). Assumes phasing is relatively common.
 - **Three trees, not two** (Troy, voice): **form** (colour and dragonborn progression; on a phase the points come back to reinvest in the new form, gameable on purpose), **personality** (keep one of two traits on a phase; nodes built on the lost trait are lost, nodes on the kept trait stay; the real phasing penalty) and **learned skills** (kept). Details and conflicts with 2026-11-05: `canon/brainstorm-progression.md` §1a.
 - **Learned-skills tree is a hex grid** (Troy): start in the centre, one hex per ability around it, ring order Charisma, Dexterity, Strength, Constitution, Wisdom, Intelligence (Claude's proposal, accepted as "fine"). Ring 1 is the class-like entry kit with multiclass limits. Six rings, 127 hexes.
 - **Form tree is the colour wheel** (Troy): Unphased in the centre, who can't develop on it until they phase; starting Unphased gives three traits, dropping to two on the first phase. Nine colour spokes; neighbours don't matter; rings alternate choices and fixed steps; deeper rings cost more, perhaps on a Fibonacci scale.
