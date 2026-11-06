@@ -4,6 +4,7 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-11-05
 
+- **Extended traits form a tech tree** (Troy): paths about five tiers deep, anchored to one of the 24 base traits or 9 forms; branching and converging; losing an anchor by phasing means repicking, perhaps one per day while recovering; capstones are rare; form paths can grant dragon traits, like *Savage Species* monster classes, in parallel to class advancement. Details in `canon/brainstorm-extended-traits.md` §3a.
 - **Name: Extended Traits** (Troy), "for now", for the traits that replace feats.
 - **Feats are scrapped entirely** (Troy). At the levels where feats normally come, characters gain replacement sets, working name "extended traits". The feats are broken down into a toolbox of parts, then reimplemented: SRD feats in SRD wording, PHB feats in generic wording, all reworded when the extended traits are designed. Working file: `canon/brainstorm-extended-traits.md`. This supersedes the feat-by-feat fixes in `canon/proposed-feat-changes.md`.
 - **Classes on hold** (Troy): players will probably start with the default classes in the *Player's Handbook*, reflavouring any that don't fit. Nothing gets fixed yet; `canon/brainstorm-classes.md` stays as a reference.

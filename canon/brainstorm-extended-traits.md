@@ -31,7 +31,7 @@ Removing feats breaks these rules. Each one needs replacement text. The search c
 Numbered so they can be answered one at a time.
 
 1. **The name.** **Settled (Troy, 2026-11-05): Extended Traits**, "for now".
-2. **The shape of the list.** Options:
+2. **The shape of the list.** **Settled (Troy, 2026-11-05): a tech tree.** See §3a. *Original question:* Options:
    - (a) One shared list, like the 24 base traits.
    - (b) Each base trait grows into its own extended versions: the Bold becomes something more, and so does the Rock.
    - (c) Both: a shared list, plus some extended traits that require a particular base trait.
@@ -43,6 +43,21 @@ Numbered so they can be answered one at a time.
 8. **The warlock invocation** (W4): change it to give a personality trait?
 9. **Can a character take an unchosen base trait** as their extended trait, once they reach level 4? This is option A3 from the old feat list.
 10. **Power target.** The base traits sit at about 10 points, below an Origin feat (the trait-benefits brainstorm). Should extended traits sit at about a PHB General feat's strength?
+
+### 3a. The tech tree *(Troy, 2026-11-05)*
+
+- Extended traits are **hierarchical and build on each other**, almost like a tech tree.
+- Each path is **anchored** to a base personality trait (24) or a dragonborn form (9): 33 anchors.
+- Assume each path goes **about five levels deep**, which allows for growth.
+- **Some paths branch and some converge**, so a tier won't always have 33 traits.
+- **Losing an anchor:** if a character phases and loses their anchor trait or form, they will likely need to **repick their extended traits**, perhaps with a delay, such as picking one per day as part of coming out of the phasing penalty.
+- **Capstones are rare:** with only 5–7 picks over a career, most characters won't reach a capstone, but some will. "Munchkin city."
+- **Form paths** are a little like the monster classes in 3rd edition's *Savage Species*: a dragonborn who follows their form's path may gain dragon traits. The trees give a path of advancement **in parallel to class advancement**.
+
+**Claude's notes** *(PROPOSED)*:
+- **The pick count by class.** Feat levels are 4, 8, 12 and 16 for most classes, plus 6 and 14 for the Fighter and 10 for the Rogue, plus the Epic Boon at 19. So a single class gets **4 picks** (6 for a Fighter, 5 for a Rogue), and 5 counting level 19. If tier 1 needs a pick, most classes reach a tier-5 capstone only by spending every pick on one path, including level 19.
+- **The Unphased** have no form to anchor to, and swap a trait each Long Rest. They may need their own path, or a rule.
+- **Gold and Silver** forms (DM material) could have paths too.
 
 ### Claude's evaluation of Q2–Q10 (2026-11-05)
 
