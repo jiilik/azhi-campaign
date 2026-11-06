@@ -74,6 +74,10 @@ To be taken **one at a time** (Troy, 2026-11-05).
    - **Learned and natural magic in one character** *(Troy)*: learned magic, like the wizard's, on the experience tree, and natural magic on the phasing tree, both in the same character.
    - **Some magic may sit outside the trees** *(Troy)*. A warlock's pact is thematically more like **membership in a faction** than a skill or ability.
    - **No warlock equivalent on either tree, for now** *(Troy)*. That avoids disentangling Pact Magic from the lore, the biggest source of problems. The pact-as-faction idea is parked.
+   - **A mana pool instead of spell slots** *(Troy, 2026-11-05, direction)*: eschew spell slots; gain mana through different branches. It keeps things simple. Troy recalls a variant like it in the 2014 DMG.
+     - *(Claude)* The 2014 DMG did have a spell points variant, but it isn't in either SRD, so its text and tables can't be used. The SRD has an open basis instead: the sorcerer's **Creating Spell Slots** table prices slots in Sorcery Points (level 1: 2, level 2: 3, level 3: 5, level 4: 6, level 5: 7). Costs for levels 6–9 would be ours to set.
+     - *(Claude)* The usual risk of a mana pool is the nova: spending everything on the highest-level spell again and again. A common fix is to allow each spell of level 6 or higher only once per Long Rest. To decide later.
+   - **Still open:** how a casting branch gets its spells: (A) a curated list per branch, (B) the teaching dragon's list, or (C) one shared list. Claude recommends A, flavoured by B.
    - *Original question:* do arcane spells follow Intelligence, divine and primal Wisdom, and innate Charisma, as in the classes? Where do the dragons' teachings fit (`canon/brainstorm-spell-origins.md`)?
 7. **The power curve** *(answered by the principles under 5: depth first tracks the 2024 power curve)*: keep the SRD's per-level power, so monsters' Challenge Ratings and encounter building still work.
 8. **Presets:** keep the 12 classes as named paths through the trees, so a Player's Handbook player can still say "I'm a wizard"?
