@@ -1,6 +1,6 @@
 # Proposed Feat Changes
 
-**Status: PROPOSED** (opened 2026-11-05). This is a running list of feats that clash with the personality traits, each with its reason, to apply in one pass if accepted. Nothing here changes `srd/05-feats/feats.md` until Troy approves it. Everything is *(Claude)* unless marked *(Troy)*.
+**Status: SUPERSEDED** (Troy, 2026-11-05: feats are scrapped entirely and replaced by extended traits; see `canon/brainstorm-extended-traits.md`). Kept for its notes on clashes. Opened 2026-11-05. This is a running list of feats that clash with the personality traits, each with its reason, to apply in one pass if accepted. Nothing here changes `srd/05-feats/feats.md` until Troy approves it. Everything is *(Claude)* unless marked *(Troy)*.
 
 **Scope** *(Troy, 2026-11-05)*: fix only the feats that conflict with the personality traits. Classes are on hold.
 

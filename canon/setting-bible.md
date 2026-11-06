@@ -90,6 +90,7 @@ When a PROPOSED item is confirmed or rejected, update its status here and add a 
     - Grey: Keen Investigator.
     - White: Help as a Bonus Action, and flight.
   - **Darkvision belongs to Black and Indigo alone** *(Indigo added 2026-10-24, Troy's override)*.
+  - **CANON (2026-11-05). No feats.** Feats are scrapped entirely. At the feat levels, characters gain **extended traits** (working name), built from a toolbox of the old feats' parts. Design: `canon/brainstorm-extended-traits.md`.
   - **Balance** uses a tentative point scale with a budget of about 35. Each form sits at about 17–18.5. It can be redone.
   - **OPEN:** several second ribbons, Hyperactive's d12 table and materials cost, and the rest of the list in that file's §10.
 - **PROPOSED.** Each colour's culture has **internal disagreements** that matter more than its external rivalries. Rivalries look like **policy disputes** between neighbours who trade and intermarry, such as water rights or forests versus forges.

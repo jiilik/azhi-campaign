@@ -43,7 +43,8 @@ You are helping **Troy** (the author and DM) build **Azhi**, a D&D campaign sett
 | `canon/brainstorm-epochs.md` | Deep timeline: six epochs before the present, each ending in catastrophe; new origin lore for the non-dragon colours (PROPOSED, 2026-10-31). |
 | `canon/brainstorm-spell-origins.md` | Where each spell came from: the dragon that taught it, or the epoch that discovered it (PROPOSED, tentative, 2026-11-01). |
 | `canon/brainstorm-classes.md` | Classes and subclasses: the SRD's twelve and the other 2024 PHB subclasses rated against the setting, with decisions for Troy (ON HOLD, 2026-11-05). |
-| `canon/proposed-feat-changes.md` | Running list of feats (SRD and PHB) that clash with the personality traits, with fixes to apply in one pass (PROPOSED, 2026-11-05). |
+| `canon/brainstorm-extended-traits.md` | Extended traits, which replace feats: where the rules depend on feats, design questions, and a toolbox of every SRD and PHB feat broken into parts (PROPOSED, 2026-11-05). |
+| `canon/proposed-feat-changes.md` | Feat-by-feat clashes with the personality traits (SUPERSEDED 2026-11-05 by extended traits). |
 | `canon/audit-planes.md` | Report: everything in the SRD (and well-known non-SRD subclasses) that depends on other planes (2026-10-31). |
 | `canon/proposed-monster-changes.md` | Running list of proposed changes to the SRD monsters, each with its reason, to apply in one pass if accepted (PROPOSED, 2026-11-01). |
 | `canon/proposed-spell-changes.md` | Running list of proposed changes to the SRD spells, each with its reason, to apply in one pass if accepted (PROPOSED, 2026-11-01). |

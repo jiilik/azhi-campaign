@@ -4,6 +4,7 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-11-05
 
+- **Feats are scrapped entirely** (Troy). At the levels where feats normally come, characters gain replacement sets, working name "extended traits". The feats are broken down into a toolbox of parts, then reimplemented: SRD feats in SRD wording, PHB feats in generic wording, all reworded when the extended traits are designed. Working file: `canon/brainstorm-extended-traits.md`. This supersedes the feat-by-feat fixes in `canon/proposed-feat-changes.md`.
 - **Classes on hold** (Troy): players will probably start with the default classes in the *Player's Handbook*, reflavouring any that don't fit. Nothing gets fixed yet; `canon/brainstorm-classes.md` stays as a reference.
 - **Assume players own the *Player's Handbook*** (Troy): the SRD's feat list is short, so reviews must cover the book's feats too, not just the SRD's.
 - **Feats: fix only clashes with the personality traits** (Troy), for example no taking Alert at level 4. Running list: `canon/proposed-feat-changes.md`.
