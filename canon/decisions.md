@@ -4,6 +4,7 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-11-05
 
+- **A new character starts with one entry node plus their origin** (Troy), at least on the experience side. The phasing side (33 roots: 24 traits and 9 forms) needs polish.
 - **No class presets** (Troy): more design space, and room for tropes beyond the 12 classes (shaman, warden, warlock, summoner). Schools and domains may become branches. Adjacent branches can share cross-branch nodes that need prerequisites from both, such as fire arrows from an elemental branch and an archer branch.
 - **Spell lists are curated per casting branch** (Troy), with ways to short-circuit them, like the bard's Magical Secrets.
 - **A mana pool instead of spell slots** (Troy, direction): mana is gained through different branches. Basis: the SRD sorcerer's Creating Spell Slots costs (the 2014 DMG's spell points variant isn't in the SRD, so it can't be used).

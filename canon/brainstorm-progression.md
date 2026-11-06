@@ -50,6 +50,8 @@ Following Troy's Rage and Sneak Attack examples, each SRD class feature is eithe
 
 ## 4. Questions this raises *(Claude)*
 
+**All nine had a first answer on 2026-11-05.** Still open: how the phasing tree's 33 roots work, the mana costs for spell levels 6–9 and the nova limit, and canon text that scales by character level.
+
 To be taken **one at a time** (Troy, 2026-11-05).
 
 1. **Level-up:** **Settled (Troy, 2026-11-05): one node from each tree** per level, which makes balance easier.
@@ -93,4 +95,5 @@ To be taken **one at a time** (Troy, 2026-11-05).
      - Start in Dexterity, go down the **archer** branch, and pick up **fast reload** for multiple attacks.
      - **Cross-branch nodes:** if two branches are **adjacent** and the character has the prerequisites from both, they can reach a node such as **elemental arrows of fire**. Such a node can be a spell unlock, or a feature like a monk's.
    - *Original question:* keep the 12 classes as named paths through the trees, so a Player's Handbook player can still say "I'm a wizard"?
-9. **Level 1:** what does a new character have? Probably an entry node and the phasing tree's root (form and traits).
+9. **Level 1** *(Troy, 2026-11-05)*: **one entry node plus the origin, at least on the experience side.** The entry node is the starter kit (proficiencies, a Hit Die, a signature feature), like a class's level 1. **The phasing side needs polish:** it has 33 ways in (24 traits and 9 forms). *(Claude)* A phased character holds three roots (a form and two traits); an Unphased one holds three traits and no form.
+   - *Original question:* what does a new character have? Probably an entry node and the phasing tree's root (form and traits).
