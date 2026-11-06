@@ -30,7 +30,7 @@ Removing feats breaks these rules. Each one needs replacement text. The search c
 
 Numbered so they can be answered one at a time.
 
-1. **The name.** Options: *Extended Traits* (Troy's working name); *Advanced Traits* (the backlog's word, 2026-10-29); *Second Nature*; *Hard-Won Traits*.
+1. **The name.** **Settled (Troy, 2026-11-05): Extended Traits**, "for now".
 2. **The shape of the list.** Options:
    - (a) One shared list, like the 24 base traits.
    - (b) Each base trait grows into its own extended versions: the Bold becomes something more, and so does the Rock.
@@ -43,6 +43,18 @@ Numbered so they can be answered one at a time.
 8. **The warlock invocation** (W4): change it to give a personality trait?
 9. **Can a character take an unchosen base trait** as their extended trait, once they reach level 4? This is option A3 from the old feat list.
 10. **Power target.** The base traits sit at about 10 points, below an Origin feat (the trait-benefits brainstorm). Should extended traits sit at about a PHB General feat's strength?
+
+### Claude's evaluation of Q2–Q10 (2026-11-05)
+
+- **Q2 shape: (a) now, (c) later.** Extensions tied to a base trait break when that trait goes away: the Unphased swap a trait on every Long Rest, and phasing may cost traits (the tentative penalty keeps only one). A shared list avoids orphans. Trait-specific extensions can come later, with a rule that they go dormant if the base trait is lost.
+- **Q3 plain +2: keep it**, as an option alongside the list, not as a trait. A starting main ability is 16–18 on Azhi, and many players will want 20 by level 8.
+- **Q4 Fighting Styles: yes**, as class options. That keeps the Champion's second style at level 7, the Fighter's swap on level-up and the Paladin and Ranger alternatives working unchanged.
+- **Q5 Epic Boons: a separate tier, keeping the name.** A "boon" reads naturally as a gift from one of the Seven, or from Azhi's vestige, at the level where dragonborn match the dragons in spellcasting.
+- **Q6 +1 on each: yes**, to a maximum of 20. That makes the choice between one extended trait and a plain +2 a real one, as it is between a feat and an ASI in the 2024 rules.
+- **Q7 prerequisites:** drop the ability-score ones, which in the 2024 rules rarely stop anyone. Keep the ones that make sense: training (armour, Shield), the Spellcasting feature, and level (19 for boons; perhaps 8+ for a few strong traits).
+- **Q8 the warlock invocation: yes**, a base personality trait, but without its ability increase, since the invocation never gave one.
+- **Q9 base traits as picks: yes.** A base trait is weaker than an extended trait, so it can't be abused, and it lets a character's personality grow over a campaign, which was the backlog idea.
+- **Q10 power: about a PHB General feat**, including its +1, so about as attractive as a plain +2. Epic Boons stay at the PHB boons' level.
 
 ## 4. The toolbox
 
