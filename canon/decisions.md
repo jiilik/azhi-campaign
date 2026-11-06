@@ -2,6 +2,13 @@
 
 Newest first. One line per decision: what was decided, and why if a reason was given. Add to this log every time the author settles something, and update `canon/setting-bible.md` to match.
 
+## 2026-11-06
+
+- **Three trees, not two** (Troy, voice): **form** (colour and dragonborn progression; on a phase the points come back to reinvest in the new form, gameable on purpose), **personality** (keep one of two traits on a phase; nodes built on the lost trait are lost, nodes on the kept trait stay; the real phasing penalty) and **learned skills** (kept). Details and conflicts with 2026-11-05: `canon/brainstorm-progression.md` §1a.
+- **Learned-skills tree is a hex grid** (Troy): start in the centre, one hex per ability around it, ring order Charisma, Dexterity, Strength, Constitution, Wisdom, Intelligence (Claude's proposal, accepted as "fine"). Ring 1 is the class-like entry kit with multiclass limits. Six rings, 127 hexes.
+- **Form tree is the colour wheel** (Troy): Unphased in the centre, who can't develop on it until they phase; starting Unphased gives three traits, dropping to two on the first phase. Nine colour spokes; neighbours don't matter; rings alternate choices and fixed steps; deeper rings cost more, perhaps on a Fibonacci scale.
+- **Points per advance: parked** (Troy) until the tree depths are known.
+
 ## 2026-11-05
 
 - **A new character starts with one entry node plus their origin** (Troy), at least on the experience side. The phasing side (33 roots: 24 traits and 9 forms) needs polish.

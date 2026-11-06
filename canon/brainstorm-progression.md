@@ -28,6 +28,68 @@
 - **Shallow means wide.** With one phasing node per level, a level 20 character holds 20 phasing nodes. A tree only about five tiers deep (the extended-traits tech tree) has to be wide enough to hold them: many strong nodes near the root.
 - **"Beyond level 20" implies the levels come back.** If phasing resets the phasing tree and you then re-earn it level by level, each of those levels also brings a new experience node, so the experience tree can grow past 20 nodes. Whether phasing resets your level is the next question.
 
+## 1a. Three trees (voice session, driving, 2026-11-06)
+
+Written up from the voice transcript. One line in the transcript was attributed to Troy but **not said by him** ("Sounds like a personal challenge"), so it is left out, and Claude's reply to it is marked as Claude's.
+
+**This revises §1 (two trees) and the 2026-11-05 decisions on the per-level split and the phasing reset.** Where they conflict, this section is newer; the conflicts are listed at the end.
+
+### Three trees *(Troy)*
+
+- **Split three ways, not two**, because three different things are going on:
+  1. **Form:** your colour of dragonborn, and how far along the dragonborn progression you are. It's the biggest outward change on phasing, and sets a lot of physical parameters.
+  2. **Personality:** the personality traits, which are lost or kept on phasing.
+  3. **Learned skills:** the six ability entry points from 2026-11-05. **Kept on phasing:** you don't lose your memories. Your personality might shift, but your skills and experience remain.
+- **Dragons who phase stay full dragons.** For example, the Crimson phasing to Brown, or the elder Black phasing to Indigo. Neither goes back to being a dragonborn or anything lesser, and neither loses power or ability.
+
+### What phasing does to each tree *(Troy)*
+
+- **Form: points come back.** Whatever you had invested in the form tree is available to reinvest after the phase. Seven points in the Green branch, phased to White: reinvest them in White, and you may end up further along the form than a beginner. This is **gameable, on purpose**.
+- **Personality: the real penalty.** Everyone starts with two traits. On a phase you **keep one**. Anything that depended on the lost trait is **simply lost**, and anything that depended on the kept trait is **retained**. You partly keep your personality. No points come back, so it isn't gameable: nobody can force a phase just to switch branches. This **offsets the advantage of the form tree**.
+- **Learned skills: all kept.**
+
+### Points per advance *(parked)*
+
+- **Parked by Troy** until the tree depths are known: trees may differ in depth, and a point in each tree per advance could max out one tree before another.
+- Troy's concern: a free split of points lets a player ignore the personality tree and so dodge the phasing penalty.
+- Troy floated **three points per level-up**, with deeper form rings costing more (below).
+- *(Claude, PROPOSED, not discussed by Troy)* Options: one point in each tree; or one in personality every time plus one free; or a free split with at least one point into personality each level.
+
+### The learned-skills tree: a hex grid *(Troy)*
+
+- **Start here** at the centre hex, surrounded by **one hex per ability**.
+- **Physical abilities on one side, mental on the other**, so neighbours make sense. **Wisdom and Intelligence must be adjacent**, and so must **Constitution and Strength**.
+- **Ring order: Charisma, Dexterity, Strength, Constitution, Wisdom, Intelligence**, then back to Charisma. Proposed by Claude; Troy: "seems fine from a game design perspective", with lots of fantasy to play in. Fantasies the ring misses can come from the other two trees.
+  - The seams: Charisma–Dexterity (swashbucklers, bards) and Constitution–Wisdom (monks, shamans).
+- **Concerns** *(Troy)*:
+  - Two neighbours each may be restrictive.
+  - Crossing sideways too quickly could let a character take five combat nodes, then slip into a magical ability with higher-level spells and none of the prerequisites. Troy doesn't want that.
+- *(Claude, PROPOSED)* Crossing never counts as depth: a hybrid node can mix effects (fire on arrows), but spell power comes only from depth in a casting branch. Other routes across: a second entry node, or a table of hybrids.
+- **Printing:** mostly pen and paper *(Troy)*. Six fully connected points can't be drawn flat without crossings. A computer version that reorders the layout came up as brainstorming only.
+- **Size** *(Claude's arithmetic, Troy: "quite a lot… lots of design space")*: entry plus five more steps needs **six rings**; ring *n* holds 6*n* hexes; **127 hexes** in all, **21 per ability**.
+  - **Ring 1 is special** *(Troy)*: the base class, with the multiclassing limits (full kit first, reduced after).
+  - That leaves **120 regular nodes, 20 per ability**.
+
+### The form tree: the colour wheel *(Troy)*
+
+- **The colour wheel**, not the hex grid.
+- **The Unphased are at the centre** and **can't develop on the form tree until they phase**.
+- **Starting Unphased:** three personality roots and none on the colour wheel. **On their first phase they drop from three traits to two**, to keep the penalty from getting too large. After that the normal keep-one rule applies.
+- **Nine colours around the wheel** *(Troy; checked against the setting bible 2026-11-06: correct, the nine forms plus the Unphased in the centre)*.
+- **Neighbours on the wheel don't matter.**
+- **Each colour is a spoke** of blocks expanding through the rings. A ring may offer a choice or a fixed step: for Green, perhaps one of two, then one fixed option, then one of three.
+- **The depth problem:** form points are reinvested after a phase, so a character with 20 points on the skill tree would need a form tree 20 deep: 20 rings, quite a lot of material.
+- **Escalating costs** *(Troy)*: deeper form rings cost more points, perhaps on a **Fibonacci progression**, so each next feature gets harder to reach. **Progress here sacrifices progress in another tree.**
+  - *(Claude's arithmetic)* Costs of 1, 1, 2, 3, 5, 8 and 13 give running totals of 1, 2, 4, 7, 12, 20 and 33. Twenty points reaches **six rings**; even everything into form over a career tops out around **eight**.
+  - *(Claude, PROPOSED)* Other ways to cut the material: a shared draconic spine written once; repeatable nodes; a depth cap.
+
+### Conflicts with earlier decisions *(Claude, for Troy)*
+
+1. **One node from each tree per advance** (2026-11-05) assumed two trees. With three trees and possibly three points per level, it is open again.
+2. **The phasing tree resets on a phase** (2026-11-05) now splits in two: form points are **refunded** and reinvested; personality nodes are **partly kept and partly lost**.
+3. **Two counters** (tentative, 2026-11-05) need rethinking: refunded form points mean a phase no longer zeroes a count.
+4. **Extended traits as a tech tree with 33 anchors** (2026-11-05): the 24 traits now root the personality tree and the 9 forms the form tree.
+
 ## 2. Parts the SRD already has *(Claude)*
 
 - **The threshold of 13** is the SRD's multiclassing prerequisite: "a score of at least 13 in the primary ability of the new class". An entry node is the same rule, applied to every character.
