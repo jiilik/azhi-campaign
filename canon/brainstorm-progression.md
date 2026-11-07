@@ -86,6 +86,38 @@ Written up from the voice transcript. One line in the transcript was attributed 
   - **Ring 1 is special** *(Troy)*: the base class, with the multiclassing limits (full kit first, reduced after).
   - That leaves **120 regular nodes, 20 per ability**.
 
+### Ring 1 of the skills grid (voice session, 2026-11-07)
+
+**Printable diagram** *(Troy)*:
+- The skills grid must print in a book as a diagram, which is also used for brainstorming. What we discuss gets populated into it.
+- Aim for **one page** for now; a double-page spread later is possible.
+- **Tiles are compact: three lines.**
+  - Line 1: the **prerequisite**, written "Req", for example "Req Int 13".
+  - Line 2: the **name**, for example "Mage Kit".
+  - Line 3: **what boosts the stats**: the Hit Die and any other boost.
+- Width: Troy suggested no more than 20 characters; *(Claude's arithmetic)* six rings make the grid 13 hexes across, so on one page a hex is just over half an inch wide, which fits **about 12 characters** at 6-point type. Twenty characters suits a double-page spread.
+- *(Claude, PROPOSED)* Proficiencies and signature features go in a table keyed to each hex, elsewhere in the book.
+
+**The centre tile** *(Troy)*: holds **what's common to all six entry hexes**. So far: **PB +2**. More may emerge as the hexes are filled.
+
+**Names** *(Troy)*: move away from D&D class names, so players don't take the kits for classes. **Fighter** is generic enough to keep. Names shouldn't stomp on the personality traits (so not "Scholar").
+
+| Hex | Line 1 | Line 2 | Line 3 | Notes |
+|---|---|---|---|---|
+| Charisma | Req Cha 13 | Herald Kit | d8 | Bards and warlords live here *(Troy)*. Name proposed by Claude, accepted. |
+| Dexterity | Req Dex 13 | Scout Kit | d8 | "For now" *(Troy)*. The traditional monk may split between Dexterity and Wisdom *(Troy)*; *(Claude)* they aren't neighbours in the ring, so no seam hybrid joins them. |
+| Strength | Req Str 13 | Fighter Kit | d10 | |
+| Constitution | Req Con 13 | Tank Kit | d12 | "The largest bag of hit points" *(Troy)*. |
+| Wisdom | Req Wis 13 | Mystic Kit | d8 | Name proposed by Claude, accepted. |
+| Intelligence | Req Int 13 | Mage Kit | d6? | Hit Die **not settled**: d6 was Claude's suggestion; Troy earlier mentioned d4. |
+
+**Name check against the 24 traits** *(Claude, 2026-11-07)*: no kit name matches a trait name. Overlaps in theme, for the signatures to steer around:
+- Herald: the Commander (making the call; Intimidation or Persuasion) and the Magnificent (performance).
+- Scout: the Wanderer (travel, Survival, Perception, Long Stride).
+- Tank: the Guardian (*Shield Bearer*: take half an ally's damage), the Hearty and the Rock.
+- Mystic: the Devout (faith; Religion).
+- Fighter and Mage: low overlap (the Scrapper; the Theorist).
+
 ### The form tree: the colour wheel *(Troy)*
 
 - **The colour wheel**, not the hex grid.
