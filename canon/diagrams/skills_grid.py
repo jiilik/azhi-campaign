@@ -43,7 +43,7 @@ def dist(q, r):
 # Populated tiles: (q, r) -> (line1, line2, line3)
 TILES = {(0, 0): ("All kits", "PB +2", "Simple wpns")}
 KITS = {
-    "Cha": ("Req Cha 13", "Herald Kit", "d8"),
+    "Cha": ("Req Cha 13", "Herald Kit", "d6"),
     "Dex": ("Req Dex 13", "Scout Kit", "d8"),
     "Str": ("Req Str 13", "Fighter Kit", "d10"),
     "Con": ("Req Con 13", "Tank Kit", "d12"),

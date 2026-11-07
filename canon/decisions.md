@@ -4,6 +4,7 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-11-07
 
+- **Herald Kit Hit Die is d6** (Troy), changed from d8, for a smooth gradient around the wheel.
 - **Mystic Kit Hit Die is d6** (Troy), changed from d8.
 - **Ring 1, part 2** (Troy, voice): the Mage Kit's Hit Die is d4; line 3 of a tile lists only what adds up across the grid; saving throws move to the form tree (the Unphased get their own at the wheel's centre); ring 1 gives no skills, and the traits keep theirs for now; the centre tile is PB +2 and Simple weapons; starting equipment goes to a character creation section.
 - **Fantasy map for ring 1 and its seams** (Troy): Herald (bard, warlord, hexer without a pact), Cha–Dex (swashbuckler, rogue, assassin), Scout (pure movement), Dex–Str (fighting styles), Fighter (hit hard), Str–Con (armour, slow), Tank (hit points), Con–Wis (monks, blood magic), Mystic (shaman, oracle, seer; the cleric is dropped), Wis–Int (sage, alchemist), Mage (wizard), Int–Cha (summoner by force of will). The druid moves to the Green form; the artificer to the Yellow form, combining with the Mage.

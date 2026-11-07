@@ -104,7 +104,7 @@ Written up from the voice transcript. One line in the transcript was attributed 
 
 | Hex | Line 1 | Line 2 | Line 3 | Notes |
 |---|---|---|---|---|
-| Charisma | Req Cha 13 | Herald Kit | d8 | Bards and warlords live here *(Troy)*. Name proposed by Claude, accepted. |
+| Charisma | Req Cha 13 | Herald Kit | d6 | Bards and warlords live here *(Troy)*. Name proposed by Claude, accepted. Hit Die changed from d8 to d6 (Troy, 2026-11-07), for a smooth gradient around the wheel. |
 | Dexterity | Req Dex 13 | Scout Kit | d8 | "For now" *(Troy)*. The traditional monk may split between Dexterity and Wisdom *(Troy)*; *(Claude)* they aren't neighbours in the ring, so no seam hybrid joins them. |
 | Strength | Req Str 13 | Fighter Kit | d10 | |
 | Constitution | Req Con 13 | Tank Kit | d12 | "The largest bag of hit points" *(Troy)*. |
