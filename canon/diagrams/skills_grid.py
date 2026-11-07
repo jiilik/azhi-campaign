@@ -43,12 +43,12 @@ def dist(q, r):
 # Populated tiles: (q, r) -> (line1, line2, line3)
 TILES = {(0, 0): ("All kits", "PB +2", "Simple wpns")}
 KITS = {
-    "Cha": ("Req Cha 13", "Herald Kit", "d6"),
-    "Dex": ("Req Dex 13", "Scout Kit", "d8"),
-    "Str": ("Req Str 13", "Fighter Kit", "d10"),
+    "Cha": ("Req Cha 13", "Herald Kit", "d6 SP4"),
+    "Dex": ("Req Dex 13", "Scout Kit", "d8 SP4 +5ft"),
+    "Str": ("Req Str 13", "Fighter Kit", "d10 SP2"),
     "Con": ("Req Con 13", "Tank Kit", "d12"),
-    "Wis": ("Req Wis 13", "Mystic Kit", "d8"),
-    "Int": ("Req Int 13", "Mage Kit", "d4"),
+    "Wis": ("Req Wis 13", "Mystic Kit", "d8 MP4"),
+    "Int": ("Req Int 13", "Mage Kit", "d4 MP5"),
 }
 for (dq, dr), ab in zip(DIRS, ABILITIES):
     TILES[(dq, dr)] = KITS[ab]
@@ -57,7 +57,7 @@ for (dq, dr), ab in zip(DIRS, ABILITIES):
 # straight out from an ability hex (its middle), then between two
 # ability hexes (their seam).
 MIDDLE = {
-    "Cha": ("Bard", "Warlord", "Hexer"),
+    "Cha": ("Command", "Warlord", "Hexer"),
     "Dex": ("Movement", "In and out", ""),
     "Str": ("Hit hard", "", ""),
     "Con": ("Hit points", "", ""),
@@ -66,7 +66,7 @@ MIDDLE = {
 }
 SEAM = {  # seam between ABILITIES[i] and ABILITIES[i+1]
     ("Cha", "Dex"): ("Swashbuckler", "Rogue", "Assassin"),
-    ("Dex", "Str"): ("Fighting", "styles", ""),
+    ("Dex", "Str"): ("Fighting", "styles", "Manoeuvres"),
     ("Str", "Con"): ("Armour, AC", "(slow)", ""),
     ("Con", "Wis"): ("Monk", "Blood magic", ""),
     ("Wis", "Int"): ("Sage", "Alchemist", ""),
