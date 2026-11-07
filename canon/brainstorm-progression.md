@@ -71,6 +71,8 @@ Written up from the voice transcript. One line in the transcript was attributed 
 
 ### The learned-skills tree: a hex grid *(Troy)*
 
+**Renamed (Troy, 2026-11-07): the hex grid is the skills grid. Its centre tile is empty**, with the six ability hexes around it. Ring 1 is the first to populate (voice session, 2026-11-07).
+
 - **Start here** at the centre hex, surrounded by **one hex per ability**.
 - **Physical abilities on one side, mental on the other**, so neighbours make sense. **Wisdom and Intelligence must be adjacent**, and so must **Constitution and Strength**.
 - **Ring order: Charisma, Dexterity, Strength, Constitution, Wisdom, Intelligence**, then back to Charisma. Proposed by Claude; Troy: "seems fine from a game design perspective", with lots of fantasy to play in. Fantasies the ring misses can come from the other two trees.

@@ -2,6 +2,10 @@
 
 Newest first. One line per decision: what was decided, and why if a reason was given. Add to this log every time the author settles something, and update `canon/setting-bible.md` to match.
 
+## 2026-11-07
+
+- **The hex grid is now the "skills grid"** (Troy). Its centre tile is empty, with the six ability hexes around it; ring 1 is populated first.
+
 ## 2026-11-06
 
 - **Personality tree is shallow and converging** (Troy): at most four levels deep, counting the root traits; nodes are like mini feats; 24 → 16 → 12 → 8, with 8 final traits and 60 nodes in all. A phased character can hold at most 8 (an Unphased one 12). Assumes phasing is relatively common.
