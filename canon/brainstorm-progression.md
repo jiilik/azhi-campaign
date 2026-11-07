@@ -132,15 +132,15 @@ Written up from the voice transcript. One line in the transcript was attributed 
 - **Costs:** a martial technique costs **1 SP**; spells cost mana on the **2014 DMG spell points variant's prices, for now**: levels 1–9 cost 2, 3, 5, 6, 7, 9, 10, 11 and 13. *(Claude: levels 1–5 match the SRD sorcerer's slot costs; levels 6–9 are only the variant's numbers, no text, and worth revisiting before publication. The nova limit is still open.)* *(Claude, voice: one technique is about half a level 1 spell, so a point of either pool is worth about the same.)*
 - **Recovery:** **all on a Long Rest**. On a **Short Rest, each pool recovers points equal to your Proficiency Bonus**. This rule goes **in the rules text, not on a tile**, and must be written up. Better short-rest recovery can come as nodes later.
 - **SP and MP go on line 3** of a tile, since they add up across tiles. **Symbols** *(Troy, 2026-11-07)*: ❤️ Hit Die, ⭐ stamina, 📜 mana.
-- **At-wills:** free martial features that cost no stamina, the martial equivalent of cantrips. Named for 4th Edition, so players understand at once. **Designed later**, as part of the larger system.
+- **At-wills** *(superseded 2026-11-07 by **techniques**, which can have a free use, a stamina use or both; see `canon/techniques.md`)*: free martial features that cost no stamina, the martial equivalent of cantrips. Named for 4th Edition, so players understand at once. **Designed later**, as part of the larger system.
 
 *The kits:*
 
 | Kit | Line 3 | Also in the kit (description, not the tile) |
 |---|---|---|
-| **Herald** (Cha) | d6 SP4 | 3 at-wills ("the masters of this"); light armour. **Command and control, not a caster.** Inspiration becomes something to spend SP on, designed with the at-wills. |
-| **Scout** (Dex) | d8 SP4 +5ft | 2 at-wills; light armour; Martial weapons with the Finesse, Light or ranged property; Weapon Mastery with 2 weapons (what the rogue and ranger share). **+5 ft Speed**. Bonus Action Dash and Disengage are saved for **ring 3**, whose middle is movement. |
-| **Fighter** (Str) | d10 SP2 | 1 at-will; light and medium armour, Shields; Martial weapons; **Weapon Mastery with 3 weapons**. Heavy armour comes on its first branch toward Constitution. |
+| **Herald** (Cha) | d6 SP4 | 3 techniques from its list ("the masters of this"); light armour; **Weapon Mastery with 1 weapon** (Troy, 2026-11-07, so techniques never need to copy masteries; about +3 points, to about 15). **Command and control, not a caster.** Inspiration becomes something to spend SP on, designed with the at-wills. |
+| **Scout** (Dex) | d8 SP4 +5ft | 2 techniques from its list; light armour; Martial weapons with the Finesse, Light or ranged property; Weapon Mastery with 2 weapons (what the rogue and ranger share). **+5 ft Speed**. Bonus Action Dash and Disengage are saved for **ring 3**, whose middle is movement. |
+| **Fighter** (Str) | d10 SP2 | 1 technique from its list; light and medium armour, Shields; Martial weapons; **Weapon Mastery with 3 weapons**. Heavy armour comes on its first branch toward Constitution. |
 | **Tank** (Con) | d12 | **Hit points are its pool**, so no SP or MP. Light and medium armour, Shields; Martial weapons (so it can head for the heavy-armour seam); **Second Wind** (moved from the Fighter). |
 | **Mystic** (Wis) | d8 MP4 | 2 cantrips; light armour (leathers and the like). |
 | **Mage** (Int) | d4 MP5 | 3 cantrips; no armour; **rituals**. |

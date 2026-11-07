@@ -4,6 +4,11 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-11-07
 
+- **Techniques** (Troy, voice): the umbrella term for martial abilities; each may have a free use (the stamina side's cantrips), stamina add-ons, or both. Kits give techniques picked from a kit list (Herald 3, Scout 2, Fighter 1). Stat blocks like spells: timing, range, targets, free effect, then add-ons; add-ons stack with no overall cap, each bought once unless stated. Reactions in techniques work "at any time". Details: `canon/techniques.md`.
+- **First techniques** (Troy): *On Me!* and *Scatter!* (Bonus Action, one ally moves 5 ft towards or away from you for free; 1 stamina each for Reaction, everyone, or 10 ft).
+- **Herald gets Weapon Mastery with 1 weapon** (Troy), so techniques never copy mastery riders.
+- **Generic tiles** (Troy): Proficiency Bonus and **Damage Boost** tiles are scattered across the grid. A Damage Boost is an extra attack with the Attack action, or an extra cantrip damage die.
+- **True Strike dropped** (Troy): doesn't fit the theme in its 2024 form.
 - **Simple weapons leave the printed centre tile** (Troy): they don't fit the counting theme. They're still granted, in the description; the tile shows only PB +2.
 - **Tile symbols** (Troy): ❤️ Hit Die (hit points), ⭐ stamina (SP), 📜 mana (MP), to keep line 3 compact. For example, the Scout Kit reads "❤️d8 ⭐4 +5ft".
 - **Mana is worth 2 points per point, stamina 1** (Troy, voice). The Herald gets no mana or cantrips; its kit waits until stamina techniques are designed, as one system unifying the monk, manoeuvres, bardic inspiration and the warlord. Parts: `canon/parts-bin-techniques.md`.
