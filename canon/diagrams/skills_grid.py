@@ -58,7 +58,7 @@ def render_line(text, px=60):
 
 def place_line(ax, x, y, text, zoom=0.105):
     ab = AnnotationBbox(OffsetImage(render_line(text), zoom=zoom), (x, y),
-                        frameon=False, box_alignment=(0.5, 0.5))
+                        frameon=False, box_alignment=(0.5, 0.5), zorder=3)
     ax.add_artist(ab)
 from matplotlib.patches import RegularPolygon
 
@@ -137,6 +137,25 @@ for i, ab in enumerate(ABILITIES):
     nxt = ABILITIES[(i + 1) % 6]
     THEMES[(dq + nq, dr + nr)] = (SEAM[(ab, nxt)], ab, nxt)
 
+def ring_hexes(n):
+    """Hexes of ring n in numbering order: start at the corner straight
+    out from Charisma, then go round in ring order (towards Dexterity)."""
+    out = []
+    for i in range(6):
+        cq, cr = DIRS[i][0] * n, DIRS[i][1] * n
+        sq = DIRS[(i + 1) % 6][0] - DIRS[i][0]
+        sr = DIRS[(i + 1) % 6][1] - DIRS[i][1]
+        for k in range(n):
+            out.append((cq + sq * k, cr + sr * k))
+    return out
+
+# Tile numbers (Troy, 2026-11-07): ring number first, then position.
+# Ring 1 is 11-16; rings 2-6 use two-digit positions (201-212 ... 601-636).
+NUMBERS = {(0, 0): "0"}
+for n in range(1, RINGS + 1):
+    for i, h in enumerate(ring_hexes(n), start=1):
+        NUMBERS[h] = f"{n}{i}" if n == 1 else f"{n}{i:02d}"
+
 def wedge(q, r):
     """Nearest ability direction by angle, or None for the centre."""
     if (q, r) == (0, 0):
@@ -178,20 +197,27 @@ for q in range(-RINGS, RINGS + 1):
         ax.add_patch(RegularPolygon((x, y), 6, radius=SIZE * 0.97,
                                     orientation=math.pi / 6,
                                     facecolor=face, edgecolor=edge, lw=lw))
+        busy = (q, r) in TILES or (q, r) in THEMES
+        if busy:  # small number at the foot of a filled tile
+            ax.text(x, y - 0.68, NUMBERS[(q, r)], ha="center", va="center",
+                    fontsize=5.6, weight="bold", color="#8a8a8a", zorder=3)
+        else:     # large grey number in an empty tile
+            ax.text(x, y, NUMBERS[(q, r)], ha="center", va="center",
+                    fontsize=11, weight="bold", color="#c4c4c4", zorder=2)
         if (q, r) in TILES:
             l1, l2, l3 = TILES[(q, r)]
-            ax.text(x, y + 0.36, l1, ha="center", va="center", fontsize=6.6, color="#444")
-            ax.text(x, y, l2, ha="center", va="center", fontsize=7.6 if len(l2) <= 10 else 6.6, weight="bold")
+            ax.text(x, y + 0.36, l1, ha="center", va="center", fontsize=6.6, color="#444", zorder=3)
+            ax.text(x, y, l2, ha="center", va="center", fontsize=7.6 if len(l2) <= 10 else 6.6, weight="bold", zorder=3)
             if "{" in l3:
                 place_line(ax, x, y - 0.36, l3)
             else:
-                ax.text(x, y - 0.36, l3, ha="center", va="center", fontsize=6.9)
+                ax.text(x, y - 0.36, l3, ha="center", va="center", fontsize=6.9, zorder=3)
         elif (q, r) in THEMES:
             lines = [s for s in THEMES[(q, r)][0] if s]
             k = len(lines)
             for j, s in enumerate(lines):
                 ax.text(x, y + 0.3 * ((k - 1) / 2 - j), s, ha="center", va="center",
-                        fontsize=5.7, style="italic", color="#555")
+                        fontsize=5.7, style="italic", color="#555", zorder=3)
 
 # Ability labels outside the grid
 for (dq, dr), ab in zip(DIRS, ABILITIES):
