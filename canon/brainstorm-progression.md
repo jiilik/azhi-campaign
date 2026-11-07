@@ -166,7 +166,9 @@ Written up from the voice transcript. One line in the transcript was attributed 
 | Mage | about 14 | Wizard about 29 |
 | Herald | about 12 | Bard about 31 |
 
-So every kit is below the 2024 level 1 it replaces, and the Herald and Mage are about half the Tank. Either SP, MP and at-wills are worth more than 1–2 points each, or the casters and the Herald need more. *Open:* the Mystic could take an "order" choice like the 2024 cleric's Divine Order and druid's Primal Order: martial (weapons, armour) or mystic (an extra cantrip, Wisdom to lore checks). Raised by Claude when the call ran out; not decided.
+**Revalued (Troy, voice, 2026-11-07):** **mana is worth 2 points per point**; **stamina stays at 1** ("like half spells"). That moves the Mage to about **19** and the Mystic to about **22**. Troy briefly gave the Herald 2 mana and a cantrip, then **withdrew it**: the Herald stays a pure commander at about **12** until the techniques are designed. Its catch-up has to be **learned**, since the skills grid is what survives phasing. **Next:** design what stamina buys, as one system unifying monk techniques, manoeuvres, bardic inspiration and the warlord (`canon/parts-bin-techniques.md`).
+
+Before the revaluation, every kit was below the 2024 level 1 it replaces, and the Herald and Mage are about half the Tank. Either SP, MP and at-wills are worth more than 1–2 points each, or the casters and the Herald need more. *Open:* the Mystic could take an "order" choice like the 2024 cleric's Divine Order and druid's Primal Order: martial (weapons, armour) or mystic (an extra cantrip, Wisdom to lore checks). Raised by Claude when the call ran out; not decided.
 
 **Fantasies for ring 1 and its seams** *(Troy, 2026-11-07; fantasy first, features later)*. Going round the ring:
 
