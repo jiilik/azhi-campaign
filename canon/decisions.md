@@ -4,6 +4,7 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-11-07
 
+- **Six Proficiency Bonus +1 tiles on ring 4** (Troy), on the seams between kits.
 - **Six Damage Boost tiles on ring 5** (Troy), straight out from each kit, on its main line.
 - **Techniques** (Troy, voice): the umbrella term for martial abilities; each may have a free use (the stamina side's cantrips), stamina add-ons, or both. Kits give techniques picked from a kit list (Herald 3, Scout 2, Fighter 1). Stat blocks like spells: timing, range, targets, free effect, then add-ons; add-ons stack with no overall cap, each bought once unless stated. Reactions in techniques work "at any time". Details: `canon/techniques.md`.
 - **First techniques** (Troy): *On Me!* and *Scatter!* (Bonus Action, one ally moves 5 ft towards or away from you for free; 1 stamina each for Reaction, everyone, or 10 ft).
