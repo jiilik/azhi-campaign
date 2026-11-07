@@ -159,12 +159,12 @@ Written up from the voice transcript. One line in the transcript was attributed 
 
 | Kit | Points | 2024 level 1 for comparison (without saves, skills and Simple weapons) |
 |---|---|---|
-| Tank | about 26 | Barbarian about 33 |
+| Tank | about 26 | Barbarian about 42 |
 | Fighter | about 26 | Fighter about 37 |
-| Scout | about 23 | Rogue about 29 |
-| Mystic | about 18 | Cleric about 30 |
+| Scout | about 23 | Rogue about 26 |
+| Mystic | about 18 | Cleric about 31 |
 | Mage | about 14 | Wizard about 29 |
-| Herald | about 12 | Bard about 28 |
+| Herald | about 12 | Bard about 31 |
 
 So every kit is below the 2024 level 1 it replaces, and the Herald and Mage are about half the Tank. Either SP, MP and at-wills are worth more than 1–2 points each, or the casters and the Herald need more. *Open:* the Mystic could take an "order" choice like the 2024 cleric's Divine Order and druid's Primal Order: martial (weapons, armour) or mystic (an extra cantrip, Wisdom to lore checks). Raised by Claude when the call ran out; not decided.
 
