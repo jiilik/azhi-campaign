@@ -102,6 +102,8 @@ KITS = {
 }
 for (dq, dr), ab in zip(DIRS, ABILITIES):
     TILES[(dq, dr)] = KITS[ab]
+    # Damage Boost (Troy, 2026-11-07): ring 5, straight out from each kit.
+    TILES[(5 * dq, 5 * dr)] = ("", "Damage Boost", "+1")
 
 # Fantasy themes for ring 2 (Troy, 2026-11-07). Ring 2 alternates:
 # straight out from an ability hex (its middle), then between two
@@ -164,6 +166,8 @@ for q in range(-RINGS, RINGS + 1):
             edge, lw = "#9a9a9a", 0.9
         elif n == 0:
             face, edge, lw = "#fffbe8", "#555555", 2.2
+        elif (q, r) in TILES:
+            face, edge, lw = COLOURS[ab], EDGE[ab], 1.8
         ax.add_patch(RegularPolygon((x, y), 6, radius=SIZE * 0.97,
                                     orientation=math.pi / 6,
                                     facecolor=face, edgecolor=edge, lw=lw))
@@ -196,7 +200,7 @@ ax.text(0, lim + 1.3, "Azhi: the Skills Grid (draft, 2026-11-07)", ha="center",
         va="center", fontsize=15, weight="bold")
 ax.text(0, -lim - 1.4,
         "Centre and ring 1: populated (Req / name / what adds up).  Ring 2, italic: fantasy themes only, not yet nodes.\n"
-        "Rings 3-6: empty.  127 hexes in all.  PROPOSED design; see canon/brainstorm-progression.md.",
+        "Ring 5: Damage Boost tiles.  Other hexes empty.  127 hexes in all.  PROPOSED design; see canon/brainstorm-progression.md.",
         ha="center", va="center", fontsize=8, color="#444")
 place_line(ax, 0, -lim - 2.0, "{H} Hit Die     {S} stamina (SP)     {M} mana (MP)", zoom=0.14)
 

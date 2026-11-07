@@ -17,6 +17,7 @@ Two kinds of tile are scattered across the whole skills grid and stack no matter
 - **Proficiency Bonus** tiles.
 - **Damage Boost** tiles. When you take the Attack action, each one counts as an **extra attack** (like Extra Attack). When you cast a cantrip, each one adds an **extra damage die** (like cantrip scaling). One action can't do both, so they never stack. They scale with total progress rather than depth in a branch.
   - *(Claude)* The timing matches the 2024 rules: cantrips scale at levels 5, 11 and 17, and the fighter gains attacks at 5, 11 and 20. **To check:** Troy mentioned a 20-node character finding **four** Damage Boosts. Four would be one more step than either the cantrip scaling or the fighter (both three), so three may be the ceiling for a 20-node character.
+  - **Placed (Troy, 2026-11-07):** six Damage Boost tiles on **ring 5, straight out from each kit** (the ring's six corner hexes, on each kit's main line), 5 steps from the centre.
   - **Settled (Troy, 2026-11-07): four is fine.** Finding four in 20 nodes takes a real munchkin, going about five deep in four branches. *(Claude: this assumes Damage Boost tiles sit at about depth 5 in a branch, the level-5 milestone.)*
 
 ## Dropped
