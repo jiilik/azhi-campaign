@@ -89,7 +89,7 @@ def dist(q, r):
     return max(abs(q), abs(r), abs(-q - r))
 
 # Populated tiles: (q, r) -> (line1, line2, line3)
-TILES = {(0, 0): ("All kits", "PB +2", "Simple wpns")}
+TILES = {(0, 0): ("All kits", "PB +2", "")}
 # Line 3 symbols (Troy, 2026-11-07): HEART = Hit Die (hit points),
 # STAR = stamina (SP), SCROLL = mana (MP). Written {H}, {S}, {M}.
 KITS = {

@@ -117,7 +117,7 @@ Written up from the voice transcript. One line in the transcript was attributed 
 - **Starting equipment and gold** leave the grid; they'll be handled in a character creation section.
 - **Saving throws move to the form tree.** Each form gives its saves, so they change when you phase, and multiclassing can't pile them up. **The Unphased get their own saves** at the centre of the wheel. *To do:* assign saves to every form when we work on the wheel.
 - **Skills:** D&D skills are learned, so they belong on the skills grid, gained as you progress. **Ring 1 gives no skills.** **The traits keep their skills for now**, since moving them would mean rebalancing every trait. *To do:* perhaps move some skills out of the traits later. *(Troy floated moving skills out of the forms too; not settled.)*
-- **The centre tile:** **PB +2** and **Simple weapons**.
+- **The centre tile:** **PB +2** and **Simple weapons**. **Only PB +2 is printed on the tile** *(Troy, 2026-11-07)*: Simple weapons don't add up, so they live in the description.
 - *(Claude, PROPOSED)* Starting hit points are the first kit's maximum Hit Die plus Constitution, written in the kit text rather than on a tile.
 
 **Ring 1, part 3: what goes in each kit (voice, 2026-11-07)** *(Troy unless marked)*
