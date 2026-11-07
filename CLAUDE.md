@@ -45,6 +45,7 @@ You are helping **Troy** (the author and DM) build **Azhi**, a D&D campaign sett
 | `canon/brainstorm-classes.md` | Classes and subclasses: the SRD's twelve and the other 2024 PHB subclasses rated against the setting, with decisions for Troy (ON HOLD, 2026-11-05). |
 | `canon/brainstorm-extended-traits.md` | Extended traits, which replace feats: where the rules depend on feats, design questions, the tech tree (the feat toolbox moved to `canon/parts-bin.md`) (PROPOSED, 2026-11-05). |
 | `canon/brainstorm-progression.md` | Exploring a classless progression built for phasing: an experience tree kept on phasing, and a phasing tree reset on phasing (EXPLORING, 2026-11-05). |
+| `canon/diagrams/` | The skills grid diagram: `skills_grid.py` draws `skills-grid.png` and `.svg`; edit its TILES and THEMES as the grid is designed (2026-11-07). |
 | `canon/parts-bin.md` | Every SRD and PHB class and feat broken into parts, each with a best-guess points score on the Character Origins scale, a tree guess and a totals check (PROPOSED, tentative, 2026-11-05). |
 | `canon/proposed-feat-changes.md` | Feat-by-feat clashes with the personality traits (SUPERSEDED 2026-11-05 by extended traits). |
 | `canon/audit-planes.md` | Report: everything in the SRD (and well-known non-SRD subclasses) that depends on other planes (2026-10-31). |
