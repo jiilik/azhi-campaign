@@ -47,7 +47,7 @@ KITS = {
     "Dex": ("Req Dex 13", "Scout Kit", "d8"),
     "Str": ("Req Str 13", "Fighter Kit", "d10"),
     "Con": ("Req Con 13", "Tank Kit", "d12"),
-    "Wis": ("Req Wis 13", "Mystic Kit", "d6"),
+    "Wis": ("Req Wis 13", "Mystic Kit", "d8"),
     "Int": ("Req Int 13", "Mage Kit", "d4"),
 }
 for (dq, dr), ab in zip(DIRS, ABILITIES):
