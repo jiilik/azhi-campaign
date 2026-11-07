@@ -108,7 +108,7 @@ Written up from the voice transcript. One line in the transcript was attributed 
 | Dexterity | Req Dex 13 | Scout Kit | d8 | "For now" *(Troy)*. The traditional monk may split between Dexterity and Wisdom *(Troy)*; *(Claude)* they aren't neighbours in the ring, so no seam hybrid joins them. |
 | Strength | Req Str 13 | Fighter Kit | d10 | |
 | Constitution | Req Con 13 | Tank Kit | d12 | "The largest bag of hit points" *(Troy)*. |
-| Wisdom | Req Wis 13 | Mystic Kit | d8 | Name proposed by Claude, accepted. |
+| Wisdom | Req Wis 13 | Mystic Kit | d6 | Name proposed by Claude, accepted. Hit Die changed from d8 to d6 (Troy, 2026-11-07). |
 | Intelligence | Req Int 13 | Mage Kit | d6? | Hit Die **not settled**: d6 was Claude's suggestion; Troy earlier mentioned d4. |
 
 **Ring 1, part 2 (voice, 2026-11-07)** *(Troy unless marked)*:
