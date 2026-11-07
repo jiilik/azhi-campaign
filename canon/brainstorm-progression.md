@@ -57,7 +57,7 @@ Written up from the voice transcript. One line in the transcript was attributed 
 - **Converging, not branching:** **24 → 16 → 12 → 8**, so there are **8 possible final traits**. That is **60 things to develop**, but you can only hold a few at a time.
 
 *(Claude, PROPOSED or open)*:
-- **Converging cuts the maximum.** If a character's two roots converge on the same node, they share it, and the maximum drops below 8. Is that a perk (an easy, natural pairing) or a trap?
+- **Converging cuts the maximum.** If a character's two roots converge on the same node, they share it, and the maximum drops below 8. Is that a perk (an easy, natural pairing) or a trap? **OPEN (Troy, 2026-11-06):** neither; we'll devise a different graph shape that is neither perk nor trap.
 - **A converged node after a phase:** if it's reachable from both the kept and the lost trait, it should stay, since the kept trait still supports it.
 - **The Unphased swap one trait each Long Rest** (CANON, 2026-10-21). With trait trees, does a swap also drop the nodes built on the swapped trait?
 - **Pick counts:** beyond the roots, a phased character has only 6 personality picks before the tree is full (an Unphased one 9). After that, points must go to the other trees until a phase frees room.
