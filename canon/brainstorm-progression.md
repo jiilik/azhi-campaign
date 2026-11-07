@@ -131,7 +131,7 @@ Written up from the voice transcript. One line in the transcript was attributed 
 - **A shared martial pool**, like 4th Edition: warlord commands, Battle Master-style manoeuvres and monk techniques all draw on SP.
 - **Costs:** a martial technique costs **1 SP**; spells cost mana on the **2014 DMG spell points variant's prices, for now**: levels 1–9 cost 2, 3, 5, 6, 7, 9, 10, 11 and 13. *(Claude: levels 1–5 match the SRD sorcerer's slot costs; levels 6–9 are only the variant's numbers, no text, and worth revisiting before publication. The nova limit is still open.)* *(Claude, voice: one technique is about half a level 1 spell, so a point of either pool is worth about the same.)*
 - **Recovery:** **all on a Long Rest**. On a **Short Rest, each pool recovers points equal to your Proficiency Bonus**. This rule goes **in the rules text, not on a tile**, and must be written up. Better short-rest recovery can come as nodes later.
-- **SP and MP go on line 3** of a tile, since they add up across tiles.
+- **SP and MP go on line 3** of a tile, since they add up across tiles. **Symbols** *(Troy, 2026-11-07)*: ❤️ Hit Die, ⭐ stamina, 📜 mana.
 - **At-wills:** free martial features that cost no stamina, the martial equivalent of cantrips. Named for 4th Edition, so players understand at once. **Designed later**, as part of the larger system.
 
 *The kits:*

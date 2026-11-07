@@ -12,6 +12,54 @@ import os
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+from matplotlib.offsetbox import OffsetImage, AnnotationBbox
+import numpy as np
+from PIL import Image, ImageDraw, ImageFont
+
+EMOJI = {"H": "\u2764\ufe0f", "S": "\u2b50", "M": "\U0001f4dc"}
+EMOJI_FONT = "/usr/share/fonts/truetype/noto/NotoColorEmoji.ttf"
+TEXT_FONT = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
+_cache = {}
+
+def emoji_img(key):
+    if key not in _cache:
+        f = ImageFont.truetype(EMOJI_FONT, 109)
+        im = Image.new("RGBA", (136, 128), (0, 0, 0, 0))
+        ImageDraw.Draw(im).text((0, 0), EMOJI[key], font=f, embedded_color=True)
+        _cache[key] = im.crop(im.getbbox())
+    return _cache[key]
+
+def render_line(text, px=60):
+    """Render text with {H}/{S}/{M} emoji tokens to an RGBA image."""
+    import re
+    f = ImageFont.truetype(TEXT_FONT, px)
+    parts = re.split(r"(\{[HSM]\})", text)
+    pieces = []
+    for part in parts:
+        if not part:
+            continue
+        if re.fullmatch(r"\{[HSM]\}", part):
+            e = emoji_img(part[1])
+            h = int(px * 0.95)
+            pieces.append(e.resize((int(e.width * h / e.height), h)))
+        else:
+            w = int(f.getlength(part)) + 2
+            im = Image.new("RGBA", (w, int(px * 1.25)), (0, 0, 0, 0))
+            ImageDraw.Draw(im).text((0, 0), part, font=f, fill=(0, 0, 0, 255))
+            pieces.append(im)
+    W = sum(p.width for p in pieces) + 4 * (len(pieces) - 1)
+    H = int(px * 1.25)
+    out = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    x = 0
+    for p in pieces:
+        out.paste(p, (x, (H - p.height) // 2), p)
+        x += p.width + 4
+    return np.asarray(out)
+
+def place_line(ax, x, y, text, zoom=0.105):
+    ab = AnnotationBbox(OffsetImage(render_line(text), zoom=zoom), (x, y),
+                        frameon=False, box_alignment=(0.5, 0.5))
+    ax.add_artist(ab)
 from matplotlib.patches import RegularPolygon
 
 RINGS = 6
@@ -42,13 +90,15 @@ def dist(q, r):
 
 # Populated tiles: (q, r) -> (line1, line2, line3)
 TILES = {(0, 0): ("All kits", "PB +2", "Simple wpns")}
+# Line 3 symbols (Troy, 2026-11-07): HEART = Hit Die (hit points),
+# STAR = stamina (SP), SCROLL = mana (MP). Written {H}, {S}, {M}.
 KITS = {
-    "Cha": ("Req Cha 13", "Herald Kit", "d6 SP4"),
-    "Dex": ("Req Dex 13", "Scout Kit", "d8 SP4 +5ft"),
-    "Str": ("Req Str 13", "Fighter Kit", "d10 SP2"),
-    "Con": ("Req Con 13", "Tank Kit", "d12"),
-    "Wis": ("Req Wis 13", "Mystic Kit", "d8 MP4"),
-    "Int": ("Req Int 13", "Mage Kit", "d4 MP5"),
+    "Cha": ("Req Cha 13", "Herald Kit", "{H}d6 {S}4"),
+    "Dex": ("Req Dex 13", "Scout Kit", "{H}d8 {S}4 +5ft"),
+    "Str": ("Req Str 13", "Fighter Kit", "{H}d10 {S}2"),
+    "Con": ("Req Con 13", "Tank Kit", "{H}d12"),
+    "Wis": ("Req Wis 13", "Mystic Kit", "{H}d8 {M}4"),
+    "Int": ("Req Int 13", "Mage Kit", "{H}d4 {M}5"),
 }
 for (dq, dr), ab in zip(DIRS, ABILITIES):
     TILES[(dq, dr)] = KITS[ab]
@@ -121,7 +171,10 @@ for q in range(-RINGS, RINGS + 1):
             l1, l2, l3 = TILES[(q, r)]
             ax.text(x, y + 0.36, l1, ha="center", va="center", fontsize=6.6, color="#444")
             ax.text(x, y, l2, ha="center", va="center", fontsize=7.6, weight="bold")
-            ax.text(x, y - 0.36, l3, ha="center", va="center", fontsize=6.9)
+            if "{" in l3:
+                place_line(ax, x, y - 0.36, l3)
+            else:
+                ax.text(x, y - 0.36, l3, ha="center", va="center", fontsize=6.9)
         elif (q, r) in THEMES:
             lines = [s for s in THEMES[(q, r)][0] if s]
             k = len(lines)
@@ -138,13 +191,14 @@ for (dq, dr), ab in zip(DIRS, ABILITIES):
 
 lim = SIZE * (RINGS * 1.5 + 2.6)
 ax.set_xlim(-lim, lim)
-ax.set_ylim(-lim - 2.2, lim + 1.8)
+ax.set_ylim(-lim - 2.6, lim + 1.8)
 ax.text(0, lim + 1.3, "Azhi: the Skills Grid (draft, 2026-11-07)", ha="center",
         va="center", fontsize=15, weight="bold")
 ax.text(0, -lim - 1.4,
         "Centre and ring 1: populated (Req / name / what adds up).  Ring 2, italic: fantasy themes only, not yet nodes.\n"
         "Rings 3-6: empty.  127 hexes in all.  PROPOSED design; see canon/brainstorm-progression.md.",
         ha="center", va="center", fontsize=8, color="#444")
+place_line(ax, 0, -lim - 2.0, "{H} Hit Die     {S} stamina (SP)     {M} mana (MP)", zoom=0.14)
 
 here = os.path.dirname(os.path.abspath(__file__))
 fig.savefig(os.path.join(here, "skills-grid.png"), dpi=200, bbox_inches="tight")
