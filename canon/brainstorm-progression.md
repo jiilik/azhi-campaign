@@ -111,6 +111,45 @@ Written up from the voice transcript. One line in the transcript was attributed 
 | Wisdom | Req Wis 13 | Mystic Kit | d8 | Name proposed by Claude, accepted. |
 | Intelligence | Req Int 13 | Mage Kit | d6? | Hit Die **not settled**: d6 was Claude's suggestion; Troy earlier mentioned d4. |
 
+**Ring 1, part 2 (voice, 2026-11-07)** *(Troy unless marked)*:
+- **Mage Kit Hit Die: d4.** *(Claude: below anything in the 2024 classes, so the Mage needs a strong signature.)*
+- **Line 3 lists what adds up:** a player circles the tiles taken and totals line 3 to get Hit Dice, and so on. Things that don't need quick adding live on the character sheet and in the full kit text. For ring 1, line 3 is just the Hit Die. *(Claude: deeper rings may add mana, Sneak Attack dice or extra attacks; the centre tile counts once, however many kits you take.)*
+- **Starting equipment and gold** leave the grid; they'll be handled in a character creation section.
+- **Saving throws move to the form tree.** Each form gives its saves, so they change when you phase, and multiclassing can't pile them up. **The Unphased get their own saves** at the centre of the wheel. *To do:* assign saves to every form when we work on the wheel.
+- **Skills:** D&D skills are learned, so they belong on the skills grid, gained as you progress. **Ring 1 gives no skills.** **The traits keep their skills for now**, since moving them would mean rebalancing every trait. *To do:* perhaps move some skills out of the traits later. *(Troy floated moving skills out of the forms too; not settled.)*
+- **The centre tile:** **PB +2** and **Simple weapons**.
+- *(Claude, PROPOSED)* Starting hit points are the first kit's maximum Hit Die plus Constitution, written in the kit text rather than on a tile.
+
+**Fantasies for ring 1 and its seams** *(Troy, 2026-11-07; fantasy first, features later)*. Going round the ring:
+
+| Where | Fantasies |
+|---|---|
+| **Herald** (Cha) | The bard; the warlord; the **hexer**: curses by force of personality, **with no pact or patron** (the pact is the lore problem, not the mechanics). The sorcerer is skipped for now. |
+| **Cha–Dex seam** | The swashbuckler, the rogue, the assassin and other social tricksters. |
+| **Scout** (Dex) | **Pure movement**: in and out, speed and mobility. |
+| **Dex–Str seam** | **Fighting styles**: options that maximize combat effectiveness. *(Claude: archery, duelling, two weapons, thrown weapons; where the old Fighting Style feats land.)* Fighters near this seam are fast and movement-oriented. |
+| **Fighter** (Str) | The champion: they just hit really hard. |
+| **Str–Con seam** | **Armour and AC**: damage resisted, at the cost of movement. The opposite of the Dexterity side. |
+| **Tank** (Con) | **A big bag of hit points**: the same staying power as armour, a different kind. |
+| **Con–Wis seam** | **Monks, and blood magic.** |
+| **Mystic** (Wis) | **The shaman, the oracle and the seer.** **The cleric is dropped** as a fantasy (its armoured Wisdom warrior has no seam to stand on). |
+| **Wis–Int seam** | **The sage and the alchemist**: intuition and study. |
+| **Mage** (Int) | Pure learned magic: the wizard. |
+| **Int–Cha seam** | **The summoner**, as force of will. *To do:* the lore of what can be summoned, since D&D's usual summons (fey, fiends, celestials) are gone. *(Claude: elementals, beasts, the thinking machines or things from beyond.)* |
+
+**Fantasies moved to the form tree** *(Troy)*:
+- **The druid → the Green form.**
+- **The artificer → the Yellow form**, combining well with the Mage: Yellow form plus Mage makes a very good artificer.
+
+**Conflict check: fantasies against the nine forms and 24 traits** *(Claude, 2026-11-07)*. See the chat of 2026-11-07 for the discussion; the main points:
+1. **Movement and senses belong to the forms.** Climbing is Green's, swimming Blue's and Indigo's, flight White's, Darkvision Black's and Indigo's alone (CANON), Tremorsense Brown's and Moonsight Grey's. The Scout's "pure movement" and the seer's insight should stay off those: Speed, Dash, jumps and repositioning, not new movement modes or sight in the dark.
+2. **Healing has no home on the grid.** The cleric is dropped, the druid moved to Green, and White is the healers' form. If healing lives only in White, a party can lose it to a phase.
+3. **The warlord's space is crowded by traits:** the Commander (*Follow Me*, *Chain of Command*), the Mentor (*Teachable Moment*), the Steward (*Ready Assistance*) and the Generous (*After You*) already grant allies Advantage, Help and Reactions.
+4. **The seer overlaps the Dreamer** (*Prophetic Dreams*, *Déjà Vu*) **and the Prudent** (*Read Their Intent*).
+5. **Making is split** between the Red form (makers and smiths, with tool Expertise) and the Yellow form (inventors, the artificer). That could be two complementary fantasies, the smith and the inventor.
+6. **Synergies, not clashes:** monks with White's monasteries; assassins with Indigo; the sage with Grey's wandering sages; the hexer with Black or Indigo; armour with Brown's *Rooted*.
+7. **Small overlaps:** Tank with the Hearty and the Guardian; the monk's unarmed strikes with the Scrapper's *Brawler*; the sage with the Theorist and the Strategist; the alchemist with the Resourceful and Green's Poisoner's Kit; the Scout with the Wanderer's *Long Stride*.
+
 **Name check against the 24 traits** *(Claude, 2026-11-07)*: no kit name matches a trait name. Overlaps in theme, for the signatures to steer around:
 - Herald: the Commander (making the call; Intimidation or Persuasion) and the Magnificent (performance).
 - Scout: the Wanderer (travel, Survival, Perception, Long Stride).

@@ -4,6 +4,8 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-11-07
 
+- **Ring 1, part 2** (Troy, voice): the Mage Kit's Hit Die is d4; line 3 of a tile lists only what adds up across the grid; saving throws move to the form tree (the Unphased get their own at the wheel's centre); ring 1 gives no skills, and the traits keep theirs for now; the centre tile is PB +2 and Simple weapons; starting equipment goes to a character creation section.
+- **Fantasy map for ring 1 and its seams** (Troy): Herald (bard, warlord, hexer without a pact), Cha–Dex (swashbuckler, rogue, assassin), Scout (pure movement), Dex–Str (fighting styles), Fighter (hit hard), Str–Con (armour, slow), Tank (hit points), Con–Wis (monks, blood magic), Mystic (shaman, oracle, seer; the cleric is dropped), Wis–Int (sage, alchemist), Mage (wizard), Int–Cha (summoner by force of will). The druid moves to the Green form; the artificer to the Yellow form, combining with the Mage.
 - **Ring 1 of the skills grid** (Troy, voice): printable three-line tiles (Req; name; Hit Die and boosts); the centre tile holds what's common to all entries, so far PB +2; names avoid D&D class names except Fighter. Herald Kit (Cha, d8), Scout Kit (Dex, d8, for now), Fighter Kit (Str, d10), Tank Kit (Con, d12), Mystic Kit (Wis, d8), Mage Kit (Int, Hit Die open). Details in `canon/brainstorm-progression.md`.
 - **The hex grid is now the "skills grid"** (Troy). Its centre tile is empty, with the six ability hexes around it; ring 1 is populated first.
 
