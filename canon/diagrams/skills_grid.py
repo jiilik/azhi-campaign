@@ -181,7 +181,7 @@ for q in range(-RINGS, RINGS + 1):
         if (q, r) in TILES:
             l1, l2, l3 = TILES[(q, r)]
             ax.text(x, y + 0.36, l1, ha="center", va="center", fontsize=6.6, color="#444")
-            ax.text(x, y, l2, ha="center", va="center", fontsize=7.6 if len(l2) <= 11 else 6.6, weight="bold")
+            ax.text(x, y, l2, ha="center", va="center", fontsize=7.6 if len(l2) <= 10 else 6.6, weight="bold")
             if "{" in l3:
                 place_line(ax, x, y - 0.36, l3)
             else:
