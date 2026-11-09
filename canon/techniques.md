@@ -52,3 +52,44 @@ Two kinds of tile are scattered across the whole skills grid and stack no matter
   - **Everyone:** it affects every ally who can hear you.
   - **Further:** the move is 10 feet instead of 5. *(Troy limited this to one purchase: it's free movement, multiplied by the party's size.)*
 - *(Claude)* Five or 10 feet won't get anyone clear of a large area like a 20-foot-radius *Fireball* unless they're at its edge. It works best against lines, cones and small areas.
+
+### The coaching set: *You've Got This!*, *There's an Opening!* and *Heads Up!*
+
+*Herald techniques (voice, 2026-11-09).* Three Guidance-style coaching techniques, one each for ability checks, attacks and saves, built the same way. Troy wanted the Herald to have a Guidance equivalent, plus one that helps only attacks and one that helps only defence. Names: *You've Got This!* and *There's an Opening!* were Claude's, accepted; *Heads Up!* is Troy's.
+
+| Technique | The d4 applies to |
+|---|---|
+| **You've Got This!** | the ally's next **ability check** |
+| **There's an Opening!** | the ally's next **attack roll** |
+| **Heads Up!** | the ally's next **saving throw** (saves only for now, not AC) |
+
+- **Timing:** Bonus Action.
+- **Range:** one ally who can hear you.
+- **Free effect:** the ally adds a d4 to its next roll of that kind before the end of its next turn.
+- **Stamina add-ons** (1 stamina each; each can be bought once):
+  - **Reaction:** use it as a Reaction, at any time, even after the ally has rolled.
+  - **Everyone:** it affects every ally who can hear you.
+  - **Bigger die:** a d6 instead of a d4.
+- **Balance** *(discussed, Troy: "reasonable", it doesn't unbalance anything)*:
+  - The Bonus Action is the free version's cost, and it competes with *On Me!*, *Scatter!* and the rest. Outside combat it's free to use, like Guidance, which nobody casts in combat anyway.
+  - *There's an Opening!* with the Reaction add-on, for 1 stamina, is roughly a Bardic Inspiration die. A 2024 bard gives one as a Bonus Action, a d6 the ally adds after failing a d20 Test, as many times as its Charisma modifier per Long Rest, with Short Rest recovery from level 5. A Herald with 4 stamina and a PB top-up on a Short Rest gets about as many.
+  - *(Claude, open)* The bigger-die add-on might need to cost more on *There's an Opening!*, since attacks matter most.
+- *(Claude; checked against the SRD 2026-11-09)* The 2024 *Guidance* takes an action, lasts up to a minute with Concentration, and adds 1d4 to every check with one chosen skill. These techniques give one roll each instead.
+
+### Invigorate
+
+*Herald technique (voice, 2026-11-09); name Troy's.*
+
+- **Timing:** Bonus Action.
+- **Range:** one ally who can hear you.
+- **Cost:** 1 stamina. **No free version.**
+- **Effect:** the ally **takes a Bonus Action right away**, on your turn. You trade your Bonus Action, plus 1 stamina, for theirs.
+- **No restriction on spells** *(Troy)*. The stamina is the real cost: renewable but expensive, especially early, like half a spell.
+- *(Claude)* "Right away" keeps it safe: the ally can't save it for its own turn and take two Bonus Actions there, which is where two *Flurries of Blows* or two Bonus Action spells would break.
+
+## Ideas in progress
+
+- **Action-economy brokering** *(Troy, 2026-11-09)*: the Herald can use the warlord's action economy to boost others, and even **move action economy from one character to another** on the field. There has to be a reason and a cost: you can't give away all your actions for nothing, because the receiving character gains an advantage (better position, a stronger attack). Each transfer has to be checked for what it could break. *Invigorate* is the first.
+  - *(Claude's ideas)* Spend your Reaction to give an ally theirs back; swap turn order so an ally acts now.
+- **Strike Now!** *(Claude's pitch; not decided)*: give up one of your attacks so an ally makes one with its Reaction, the warlord's signature move. Troy noted the action-economy cost: your attack plus the ally's Reaction. *(Claude)* If the ally declines, nothing happens and no stamina is spent.
+

@@ -2,6 +2,11 @@
 
 Newest first. One line per decision: what was decided, and why if a reason was given. Add to this log every time the author settles something, and update `canon/setting-bible.md` to match.
 
+## 2026-11-09
+
+- **Four more Herald techniques** (Troy, voice): the coaching set, *You've Got This!* (checks), *There's an Opening!* (attacks) and *Heads Up!* (saves): free Bonus Action d4 on an ally's next roll, with 1-stamina add-ons for a Reaction, everyone, or a d6. And *Invigorate*: Bonus Action plus 1 stamina, an ally takes a Bonus Action right away, with no spell restriction. Details: `canon/techniques.md`.
+- **Action-economy brokering** (Troy): the Herald can move action economy between characters, always at a real cost.
+
 ## 2026-11-07
 
 - **Tile numbers** (Troy): each skills-grid tile has a unique number, ring first: kits 11–16, then 201–212 up to 601–636; shown in grey behind each tile.
