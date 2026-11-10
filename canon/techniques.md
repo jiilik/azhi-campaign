@@ -62,6 +62,12 @@ Two kinds of tile are scattered across the whole skills grid and stack no matter
   - **Placed (Troy, 2026-11-07):** six **Proficiency Bonus +1** tiles on **ring 4, on the seams** (the exact middle of each side of the ring, between two kits), 4 steps from the centre.
   - **Placed (Troy, 2026-11-07):** six Damage Boost tiles on **ring 5, straight out from each kit** (the ring's six corner hexes, on each kit's main line), 5 steps from the centre.
   - **More, on ring 6 (Troy, 2026-11-09):** six more Damage Boosts on the **ring-6 seams**: **604, 610, 616, 622, 628, 634**. A character who fills a kit's entire cone (36 tiles) should find more than one. *(Claude: each ring-6 seam tile is in the cones of both neighbouring kits. So a full cone now holds three Damage Boosts: its own on ring 5, and the two ring-6 seams on either side. For example, the Herald's cone holds 501, 604 and 634.)*
+  - **The Fighter's boosts moved (Troy, 2026-11-10):** extra damage is made **a core of the Fighter's fantasy**. The boost at **511 is removed**, and boosts are added at **510** (the Dex–Str side, one step from the Fighter's line) and **614** (the Str–Con side). A boost at **307** was considered and **dropped**: it would have given a pure fighter an extra attack by ring 3 and two by ring 5, well ahead of the 2024 curve (levels 5 and 11).
+    - *(Claude, checked 2026-11-10 with the outward-only rule)*:
+      - **Fighter:** first boost at 5 tiles (510); 510 and 614 together in 7 tiles; 4 boosts in a full cone (510, 610, 614, 616).
+      - **Scout:** two boosts in 7 tiles (510 and 610), down the manoeuvres seam; 4 in a full cone.
+      - **Tank:** two in 8 tiles (516 and 616), down the armoured seam (Troy: the paladin fantasy probably lives there, so the extra damage is fine); 4 in a full cone.
+      - **Herald, Mystic, Mage:** unchanged, 3 in a full cone; two take 8 tiles.
   - **Settled (Troy, 2026-11-07): four is fine.** Finding four in 20 nodes takes a real munchkin, going about five deep in four branches. *(Claude: this assumes Damage Boost tiles sit at about depth 5 in a branch, the level-5 milestone.)*
 
 ## Dropped

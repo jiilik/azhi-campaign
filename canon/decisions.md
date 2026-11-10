@@ -2,6 +2,10 @@
 
 Newest first. One line per decision: what was decided, and why if a reason was given. Add to this log every time the author settles something, and update `canon/setting-bible.md` to match.
 
+## 2026-11-10
+
+- **Fighter Damage Boosts moved** (Troy): 511 removed; boosts added at 510 and 614, making extra damage core to the Fighter fantasy and adding a boost to the Scout's and Tank's cones. A boost at 307 was considered and dropped.
+
 ## 2026-11-09
 
 - **Ring 2 pools** (Troy): 201–204 +3 stamina; 205–206 +2 stamina; 208 +2 mana; 209 +3 mana; 210 +4 mana; 211 +5 mana; 212 +2 mana and +2 stamina.

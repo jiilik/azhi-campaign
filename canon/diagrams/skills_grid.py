@@ -110,8 +110,10 @@ TECH_TILES = {
 }
 for (dq, dr), ab in zip(DIRS, ABILITIES):
     TILES[(dq, dr)] = KITS[ab]
-    # Damage Boost (Troy, 2026-11-07): ring 5, straight out from each kit.
-    TILES[(5 * dq, 5 * dr)] = ("", "Damage Boost", "+1")
+    # Damage Boost (Troy, 2026-11-07): ring 5, straight out from each kit,
+    # except the Fighter's 511, moved to 510 and 614 (Troy, 2026-11-10).
+    if ab != "Str":
+        TILES[(5 * dq, 5 * dr)] = ("", "Damage Boost", "+1")
     # Proficiency Bonus +1 (Troy, 2026-11-07): ring 4, on each seam.
     nq, nr = DIRS[(ABILITIES.index(ab) + 1) % 6]
     SEAM_TILES.add((2 * (dq + nq), 2 * (dr + nr)))
@@ -179,6 +181,8 @@ LINE3 = {}  # (q, r) -> line 3 for themed tiles
 
 # Ring 6 Damage Boosts on the seams (Troy, 2026-11-09).
 BY_NUMBER = {v: k for k, v in NUMBERS.items()}
+for num in ("510", "614"):  # the Fighter's boosts (Troy, 2026-11-10)
+    TILES[BY_NUMBER[num]] = ("", "Damage Boost", "+1")
 for num in ("604", "610", "616", "622", "628", "634"):
     TILES[BY_NUMBER[num]] = ("", "Damage Boost", "+1")
     SEAM_TILES.add(BY_NUMBER[num])
