@@ -184,6 +184,28 @@ Two kinds of tile are scattered across the whole skills grid and stack no matter
   - Pouring the whole pool into one round is **a deliberate nova at the cost of all your resources**. Early on, 4 stamina won't last a round at a five-player table, especially with a monk making many attacks.
 - *(Superseded draft, 2026-11-09: charges equal to 1 + Damage Boosts, 1d6 each, ending at the start of your next turn.)*
 
+## Scout techniques (in progress)
+
+*Voice, 2026-11-10 (evening commute). The Scout Kit (12) teaches nothing yet.*
+
+- **Duellist dropped** *(Troy)*: the Dueling fighting style already covers it.
+- **What the Dexterity classes share** *(Claude, voice)*: Weapon Mastery, light armour, Finesse and ranged weapons; a Bonus Action Dash or Disengage (rogue, monk); Expertise (rogue, ranger).
+- **Rejected or skipped:** Favoured Foe (ranger: extra damage against a marked target; Troy didn't like it); *Roving* (ranger: +10 ft Speed), since the kit already gives +5 ft.
+
+**Placed or queued:**
+
+| Idea | Where | Notes |
+|---|---|---|
+| **Free Dash or Disengage** as a Bonus Action, 0 stamina | **304** (ring 3, straight out from the Scout) | Troy kept it on ring 3, not the kit. *(Claude: Cunning Action without Hide.)* |
+| **Deflect Attacks**: pure reflexes, "I'm so fast I can just deflect" | **304** | From the SRD monk (level 3). *(Claude: the SRD version reduces damage by 1d10 + Dex + monk level, so it needs a measure other than level.)* |
+| **Take Aim** (from the rogue's *Steady Aim*) | **ring 3, tile to be chosen** with the diagram; the archer's direction | Draft: free, as a Bonus Action, give up your movement this turn and your next attack has Advantage; **add-on, 1 stamina:** keep your movement. Troy likes it but finds it powerful, so it's not kit-level: ring 3 is where the archer, mover and manoeuvre Scouts split. |
+| **Uncanny Dodge**: halve an attack's damage with your Reaction | **ring 5, on the manoeuvres side** (Scout–Fighter), tile to be chosen | Troy: a self-buff that's also battlefield control. From the SRD rogue (level 5). |
+| Hunter's Mark-style tracking: mark prey for Advantage on checks to find it | — | Claude's pitch; the call ended before Troy answered. |
+
+*(Claude, checked against the SRD 2026-11-10)*:
+- **Steady Aim is in SRD 5.2.1** (rogue, level 3), so its wording can be used. The voice chat said it wasn't. Its text: "As a Bonus Action, you give yourself Advantage on your next attack roll on the current turn. You can use this feature only if you haven't moved during this turn, and after you use it, your Speed is 0 until the end of the current turn." The SRD version only works **if you haven't moved yet** and applies **this turn**; the draft should match.
+- **Uncanny Dodge** (rogue, level 5) and **Deflect Attacks** (monk, level 3) are confirmed in the SRD.
+
 ## Ideas in progress
 
 - **Action-economy brokering** *(Troy, 2026-11-09)*: the Herald can use the warlord's action economy to boost others, and even **move action economy from one character to another** on the field. There has to be a reason and a cost: you can't give away all your actions for nothing, because the receiving character gains an advantage (better position, a stronger attack). Each transfer has to be checked for what it could break. *Invigorate* is the first.

@@ -4,6 +4,7 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-11-10
 
+- **Scout technique placements** (Troy, voice): Duellist dropped (the Dueling style covers it); free Dash or Disengage and Deflect Attacks on 304; Take Aim (Steady Aim-style, free with a 1-stamina add-on) on ring 3, tile to be chosen; Uncanny Dodge on ring 5, manoeuvres side, tile to be chosen. The Scout Kit's own techniques are still open.
 - **Fighting styles kept** (Troy, voice): not feats, just fighting styles, using the six 2014 SRD styles verbatim (an explicit exception to the no-2014-rules rule), with a source note; more may be added later. Kits: Scout picks Archery, Dueling or Two-Weapon Fighting; Fighter any; Tank Defense or Protection; Herald none. More along the manoeuvres seam. Stamina upgrades for styles parked. File: `srd/05-fighting-styles/fighting-styles.md`.
 - **Tank Kit gains Weapon Mastery with 1 weapon** (Troy).
 - **Scout directions** (Troy): archery and mobility in the middle (ranger); roguish deception and Sneak Attack on the Charisma seam; manoeuvres on the Strength seam; mostly self-buffing. "Duellist" proposed as a kit technique name.
