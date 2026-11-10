@@ -21,7 +21,20 @@
   - **Per kit** *(Troy, 2026-11-09)*: each kit's area gets about that variety (Claude: about 12–20 each).
   - **Some techniques are unique to the seams**, learned only there.
   - **Start with a few, learn more as you progress through the tiles.** Some tiles will carry a small **cluster** of techniques.
-  - ***On Me!* and *Scatter!* are a natural pair** and could start the movement path through the tiles: they go together on **one tile in ring 2** (tile to be chosen by Troy).
+  - ***On Me!* and *Scatter!* are a natural pair** and could start the movement path through the tiles: they go together on **one tile in ring 2**.
+
+## Where techniques are learned *(Troy, 2026-11-09)*
+
+| Tile | Techniques learned there |
+|---|---|
+| **11 Herald Kit** (its starting list) | *Rally* |
+| **201** (straight out from the Herald: command) | the *Invigorate* family: *Invigorate*, *Greater Invigorate*, *Reinvigorate* |
+| **202** (the Herald–Scout seam) | *On Me!*, *Scatter!* |
+| *Not yet placed* | the coaching set (*You've Got This!*, *There's an Opening!*, *Heads Up!*); *Momentum* |
+
+*(Claude, open)*
+- The Herald picks three techniques from its kit list, but that list holds only *Rally* so far.
+- Does taking a tile teach all its techniques, or let you pick from them?
 - **Campaign length:** assume most games go to about **level 10** in normal play. So **most players get a single Damage Boost, and some go for two.**
 
 ## Moving on the skills grid *(Troy, 2026-11-09)*

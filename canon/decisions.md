@@ -4,6 +4,7 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-11-09
 
+- **Technique tiles** (Troy): *Rally* on the Herald Kit's list (11); the *Invigorate* family on tile 201; *On Me!* and *Scatter!* on tile 202.
 - **Technique variety is per kit** (Troy); some techniques are unique to seams; characters start with a few and learn more through the tiles, some tiles carrying a cluster. *On Me!* and *Scatter!* go together on one ring-2 tile, to be chosen.
 - **Technique variety target** (Troy): about the variety of the Battle Master's manoeuvres or the monk's abilities, not the whole bard spell list. **Campaign length assumption:** most games reach about level 10, so most characters get one Damage Boost and some two.
 - **Again! renamed Momentum** (Troy).

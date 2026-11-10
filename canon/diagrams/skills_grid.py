@@ -101,6 +101,12 @@ KITS = {
     "Int": ("Req Int 13", "Mage Kit", "{H}d4 {M}5"),
 }
 SEAM_TILES = set()
+# Technique tiles (Troy, 2026-11-09). Ring 2 positions: 201 is straight out
+# from the Herald, 202 the Herald-Scout seam.
+TECH_TILES = {
+    (-2, 2): ("Command", "Invigorate", "family (3)"),
+    (-2, 1): ("Cha-Dex", "On Me!", "Scatter!"),
+}
 for (dq, dr), ab in zip(DIRS, ABILITIES):
     TILES[(dq, dr)] = KITS[ab]
     # Damage Boost (Troy, 2026-11-07): ring 5, straight out from each kit.
@@ -136,6 +142,10 @@ for i, ab in enumerate(ABILITIES):
     nq, nr = DIRS[(i + 1) % 6]
     nxt = ABILITIES[(i + 1) % 6]
     THEMES[(dq + nq, dr + nr)] = (SEAM[(ab, nxt)], ab, nxt)
+for h, t in TECH_TILES.items():
+    THEMES.pop(h, None)
+    TILES[h] = t
+SEAM_TILES.add((-2, 1))  # 202 sits on a seam
 
 def ring_hexes(n):
     """Hexes of ring n in numbering order: start at the corner straight
@@ -232,7 +242,7 @@ ax.set_ylim(-lim - 2.6, lim + 1.8)
 ax.text(0, lim + 1.3, "Azhi: the Skills Grid (draft, 2026-11-07)", ha="center",
         va="center", fontsize=15, weight="bold")
 ax.text(0, -lim - 1.4,
-        "Centre and ring 1: populated (Req / name / what adds up).  Ring 2, italic: fantasy themes only, not yet nodes.\n"
+        "Centre and ring 1: populated (Req / name / what adds up).  Ring 2: 201-202 technique tiles; italic = fantasy themes only.\n"
         "Ring 4 seams: Proficiency Bonus tiles.  Ring 5: Damage Boost tiles.  Other hexes empty.  127 hexes in all.  PROPOSED design; see canon/brainstorm-progression.md.",
         ha="center", va="center", fontsize=8, color="#444")
 place_line(ax, 0, -lim - 2.0, "{H} Hit Die     {S} stamina (SP)     {M} mana (MP)", zoom=0.14)
