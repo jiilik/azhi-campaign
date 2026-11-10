@@ -143,8 +143,8 @@ Written up from the voice transcript. One line in the transcript was attributed 
 | Kit | Line 3 | Also in the kit (description, not the tile) |
 |---|---|---|
 | **Herald** (Cha) | d6 SP4 | Knows every technique its kit tile teaches (Troy, 2026-11-09; was "3 techniques from its list") ("the masters of this"); light armour; **Weapon Mastery with 1 weapon** (Troy, 2026-11-07, so techniques never need to copy masteries; about +3 points, to about 15). **Command and control, not a caster.** Inspiration becomes something to spend SP on, designed with the at-wills. |
-| **Scout** (Dex) | d8 SP4 +5ft | 2 techniques from its list; light armour; Martial weapons with the Finesse, Light or ranged property; Weapon Mastery with 2 weapons (what the rogue and ranger share). **+5 ft Speed**. Bonus Action Dash and Disengage are saved for **ring 3**, whose middle is movement. |
-| **Fighter** (Str) | d10 SP2 | 1 technique from its list; light and medium armour, Shields; Martial weapons; **Weapon Mastery with 3 weapons**. Heavy armour comes on its first branch toward Constitution. |
+| **Scout** (Dex) | d8 SP4 +5ft | Knows every technique its kit tile teaches (was 2 from a list; Troy, 2026-11-09); light armour; Martial weapons with the Finesse, Light or ranged property; Weapon Mastery with 2 weapons (what the rogue and ranger share). **+5 ft Speed**. Bonus Action Dash and Disengage are saved for **ring 3**, whose middle is movement. |
+| **Fighter** (Str) | d10 SP2 | Knows every technique its kit tile teaches (was 1 from a list; Troy, 2026-11-09); light and medium armour, Shields; Martial weapons; **Weapon Mastery with 3 weapons**. Heavy armour comes on its first branch toward Constitution. |
 | **Tank** (Con) | d12 | **Hit points are its pool**, so no SP or MP. Light and medium armour, Shields; Martial weapons (so it can head for the heavy-armour seam); **Second Wind** (moved from the Fighter). |
 | **Mystic** (Wis) | d8 MP4 | 2 cantrips; light armour (leathers and the like). |
 | **Mage** (Int) | d4 MP5 | 3 cantrips; no armour; **rituals**. |

@@ -4,6 +4,7 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-11-09
 
+- **The techniques system** (Troy): for every kit and tile, you know every technique the tile teaches. The Herald Kit teaches *Rally* and the coaching set; tile 201 adds *Momentum* to the *Invigorate* family.
 - **Heralds know every technique on each tile they take** (Troy): no picking, no preparation. Their choices are how to spend stamina and which way to progress; the numbers stay manageable and grow more interesting deeper in the tree.
 - **Technique tiles** (Troy): *Rally* on the Herald Kit's list (11); the *Invigorate* family on tile 201; *On Me!* and *Scatter!* on tile 202.
 - **Technique variety is per kit** (Troy); some techniques are unique to seams; characters start with a few and learn more through the tiles, some tiles carrying a cluster. *On Me!* and *Scatter!* go together on one ring-2 tile, to be chosen.
