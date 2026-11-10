@@ -130,9 +130,9 @@ Two kinds of tile are scattered across the whole skills grid and stack no matter
 - **It picks up a downed ally** *(Troy, voice, 2026-11-09)*: since it replicates healing magic, it works on an ally at 0 Hit Points, as *Healing Word* and *Cure Wounds* do. The ally spends a Hit Point Die and gets back up.
 - **First home for healing on the grid.** Healing had none after the cleric was dropped.
 
-### Again! *(working name; formerly Mark the Target)*
+### Momentum *(formerly Mark the Target; briefly "Again!")*
 
-*Herald technique (voice, 2026-11-09). Reworked by Troy from the Mark the Target draft. The name "Again!" is Claude's suggestion and not yet confirmed. Flavour (Troy): the Herald is cheering, "Again! Hit it again!", pouring stamina into the momentum.*
+*Herald technique (voice, 2026-11-09). Reworked by Troy from the Mark the Target draft. **Named Momentum by Troy (2026-11-09)**, replacing Claude's working name "Again!". Flavour (Troy): the Herald is cheering, "Again! Hit it again!", pouring stamina into the momentum.*
 
 - **Timing:** action. It works **like an attack cantrip**: you use your action for one attack, melee or ranged.
 - **Mark:** on a hit, you can spend **1 stamina** to mark the foe.
