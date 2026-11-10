@@ -4,6 +4,7 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-11-09
 
+- **Six more Proficiency Bonus tiles on the ring-6 corners** (Troy): 601, 607, 613, 619, 625, 631.
 - **Six more Damage Boosts on the ring-6 seams** (Troy): 604, 610, 616, 622, 628, 634. A full 36-tile cone from one kit now holds three.
 - **The techniques system** (Troy): for every kit and tile, you know every technique the tile teaches. The Herald Kit teaches *Rally* and the coaching set; tile 201 adds *Momentum* to the *Invigorate* family.
 - **Heralds know every technique on each tile they take** (Troy): no picking, no preparation. Their choices are how to spend stamina and which way to progress; the numbers stay manageable and grow more interesting deeper in the tree.
