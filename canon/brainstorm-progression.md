@@ -115,7 +115,9 @@ Levels 11–19 add 9, 0, 10, 0, 11, 0, 13, 7 and 9.
 - **Fighter branch:** less, with a bunch of other bonuses to compensate.
 - **Scout branch:** somewhere in the middle, in homage to the rangers and Arcane Tricksters that could be built there.
 
-*(Claude, PROPOSED)* Each branch could track an existing caster curve at our prices:
+**Use** *(Troy, 2026-11-09)*: these curves are **calibration only**, a check that pools don't break the power curve too badly. Per-tile amounts are set by design, not copied from the table.
+
+*(Claude)* Each branch compared with an existing caster curve at our prices:
 
 | Ring (≈ level) | 1 | 2 | 3 | 4 | 5 | 6 | 10 |
 |---|---|---|---|---|---|---|---|
