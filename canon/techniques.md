@@ -5,7 +5,7 @@
 ## How techniques work *(Troy, 2026-11-07)*
 
 - **"Technique" is the umbrella term.** A technique can have a **free** use, a **stamina** use, or both. The word "at-will" is no longer used for a separate kind of thing; free techniques are the stamina side's equivalent of cantrips.
-- **Kits give techniques from a list.** The Herald picks **three**, the Scout **two** and the Fighter **one**, each from their kit's technique list. Each kit needs its own list. *(Claude: build each list from the kit's own section of the parts-bin distribution table plus its neighbouring seams.)*
+- **Kits give techniques from a list.** The Herald picks **three**, the Scout **two** and the Fighter **one**, each from their kit's technique list. *(For the Herald, superseded 2026-11-09: it knows every technique on each tile it takes; see "Where techniques are learned".)* Each kit needs its own list. *(Claude: build each list from the kit's own section of the parts-bin distribution table plus its neighbouring seams.)*
 - **Stat block, like a spell's:** timing (action, Bonus Action or Reaction), range, targets, the free effect, then the stamina add-ons.
 - **Add-ons:** each technique can offer **several ways to spend stamina**, each with its own cost. You **stack whichever you want** on one use, **with no overall cap**, to keep the rules simple. The small pools limit it naturally. An add-on can be bought **once** unless the technique says otherwise.
 - **Reactions** in a technique can be used **"at any time"**, even on another creature's turn, with no other trigger. Reactions are a scarce resource (one per round), and choosing when to spend one is the skill: a Herald holding a Reaction for *Scatter!* gives up its Opportunity Attack.
@@ -32,9 +32,14 @@
 | **202** (the Herald–Scout seam) | *On Me!*, *Scatter!* |
 | *Not yet placed* | the coaching set (*You've Got This!*, *There's an Opening!*, *Heads Up!*); *Momentum* |
 
-*(Claude, open)*
-- The Herald picks three techniques from its kit list, but that list holds only *Rally* so far.
-- Does taking a tile teach all its techniques, or let you pick from them?
+**The Herald path** *(Troy, 2026-11-09)*:
+- A Herald **always knows every technique taught on each tile it takes**, the kit included. There is no picking from a list, and **no preparation** like a spellcaster's.
+- **The real choices** are **how to spend stamina** and **how to progress down the tree**. They're tacticians: they need to know **when to use which play**.
+- **Not a crazy number to manage**, but they get more interesting deeper in the tree.
+- This **replaces "the Herald picks three techniques from its kit list"**.
+- *(Claude, open)*:
+  - What does the Herald Kit teach besides *Rally*? Perhaps the coaching set, which would make 4 at the start.
+  - Does the same rule apply to the Scout and Fighter, which were to pick 2 and 1?
 - **Campaign length:** assume most games go to about **level 10** in normal play. So **most players get a single Damage Boost, and some go for two.**
 
 ## Moving on the skills grid *(Troy, 2026-11-09)*
