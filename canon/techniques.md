@@ -18,7 +18,10 @@
     - The 2024 Battle Master has about 20 manoeuvres (from memory).
     - The SRD monk has about a dozen Focus uses and riders.
     - The SRD bard spell list has **129** spells (counted 2026-11-09).
-  - *(Claude, open)* Is the target a list of about 12–20 for each kit's area, or about 20 in total for the whole stamina side? The Herald already has 10.
+  - **Per kit** *(Troy, 2026-11-09)*: each kit's area gets about that variety (Claude: about 12–20 each).
+  - **Some techniques are unique to the seams**, learned only there.
+  - **Start with a few, learn more as you progress through the tiles.** Some tiles will carry a small **cluster** of techniques.
+  - ***On Me!* and *Scatter!* are a natural pair** and could start the movement path through the tiles: they go together on **one tile in ring 2** (tile to be chosen by Troy).
 - **Campaign length:** assume most games go to about **level 10** in normal play. So **most players get a single Damage Boost, and some go for two.**
 
 ## Moving on the skills grid *(Troy, 2026-11-09)*
