@@ -38,6 +38,7 @@ One row per section file. Generated at intake (2026-10-20) from `srd/_tools/inde
 | `03-classes/12-wizard.md` | Wizard | untouched |  |  |
 | `04-character-origins/01-personality-traits.md` | Character Origins + Personality Traits | revise | high | Chapter intro, plus 24 personality traits (they replaced the original 12 on 2026-10-24 and reached 24 on 2026-10-25; those are in `canon/source-personality-traits-v1.md`). Descriptions and ability choices done. Benefits written and balanced; canon 2026-10-30. Synced to the Character Origins Claude Doc. |
 | `04-character-origins/02-character-species.md` | Character Species | revise | high | Rewritten 2026-10-24 for the nine-form wheel (Red, Brown, Yellow, Green, Blue, Indigo, Black, Grey, White), Unphased, Gold and Silver, settling and phasing. Synced to the Character Origins Claude Doc; open items at the end of the file. |
+| `05-fighting-styles/fighting-styles.md` | Fighting Styles (new; six styles verbatim from SRD 5.1) | new | medium | Troy, 2026-11-10: the only feat-like rules kept, called fighting styles; granted by skills-grid tiles. Needs the SRD 5.1 attribution statement (ATTRIBUTION.md). |
 | `05-feats/feats.md` | Feats | delete | high | Feats are scrapped (Troy, 2026-11-05) and replaced by a new Extended Traits chapter. Design in `canon/brainstorm-extended-traits.md`. Delete in the Phase 2d commit; class feat hooks to replace are listed there. |
 | `06-equipment/01-coins.md` | Equipment | untouched |  |  |
 | `06-equipment/02-weapons.md` | Weapons | untouched |  |  |

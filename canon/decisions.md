@@ -4,6 +4,9 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-11-10
 
+- **Fighting styles kept** (Troy, voice): not feats, just fighting styles, using the six 2014 SRD styles verbatim (an explicit exception to the no-2014-rules rule), with a source note; more may be added later. Kits: Scout picks Archery, Dueling or Two-Weapon Fighting; Fighter any; Tank Defense or Protection; Herald none. More along the manoeuvres seam. Stamina upgrades for styles parked. File: `srd/05-fighting-styles/fighting-styles.md`.
+- **Tank Kit gains Weapon Mastery with 1 weapon** (Troy).
+- **Scout directions** (Troy): archery and mobility in the middle (ranger); roguish deception and Sneak Attack on the Charisma seam; manoeuvres on the Strength seam; mostly self-buffing. "Duellist" proposed as a kit technique name.
 - **Hit Dice propagated along the 12 rays** (Troy): kit rays (straight hex lines, rings 3–6) and seam rays (exact hexes on rings 4 and 6) take their ring-2 tile's Hit Die. Odd-ring seam hexes left open.
 - **Fighter Damage Boosts moved** (Troy): 511 removed; boosts added at 510 and 614, making extra damage core to the Fighter fantasy and adding a boost to the Scout's and Tank's cones. A boost at 307 was considered and dropped.
 

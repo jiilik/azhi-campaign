@@ -57,6 +57,7 @@ You are helping **Troy** (the author and DM) build **Azhi**, a D&D campaign sett
 | `canon/minigame-character-builds.md` | Rules for the build-testing minigame (famous characters, two builds). Its outputs stay in chat and are never recorded. |
 | `canon/design-review-checklist.md` | Checks to run against the design (canon items only), plus a review log. |
 | `canon/azhi-myth.md` | The myth: exact corrected text. `azhi-myth-corrected.rtf` is authoritative; `-original.rtf` is Troy's upload. |
+| `srd/05-fighting-styles/` | The six fighting styles, verbatim from SRD 5.1 with a source note (2026-11-10). |
 | `srd/` | SRD section files and `srd-tracker.md` (Phase 1 onward) |
 | `worldgen/` | Terrain, map projection and 3D torus renderer. See `worldgen/README.md`. |
 | `art/` | Cartoon library, style spec and renders. See `art/README.md` and `art/STYLE.md`. |

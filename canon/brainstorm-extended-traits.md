@@ -36,7 +36,7 @@ Numbered so they can be answered one at a time.
    - (b) Each base trait grows into its own extended versions: the Bold becomes something more, and so does the Rock.
    - (c) Both: a shared list, plus some extended traits that require a particular base trait.
 3. **Plain ability increases.** Does +2 to one ability (or +1 to two) survive as one choice in the set? Without it, a character could never raise their main ability to 20. *(Claude: recommend yes, as an extended trait of its own.)*
-4. **Fighting Styles.** They're class features in disguise. Keep them as a list inside the classes, no longer called feats? *(Claude: recommend yes, so the Fighter, Paladin and Ranger aren't rebuilt.)*
+4. **Fighting Styles.** *(Updated 2026-11-10: kept as fighting styles, not feats, with 2014 SRD wording, granted by skills-grid tiles; see `srd/05-fighting-styles/fighting-styles.md`.)* They're class features in disguise. Keep them as a list inside the classes, no longer called feats? *(Claude: recommend yes, so the Fighter, Paladin and Ranger aren't rebuilt.)*
 5. **Epic Boons at level 19.** Keep them as an epic tier of extended traits, or fold them into the main list with a level 19 prerequisite?
 6. **Ability increase on each extended trait.** Each base trait gives +1, and almost every PHB General feat does too. Should every extended trait give +1? *(Claude: recommend yes; it keeps the trade against a plain +2 fair.)*
 7. **Prerequisites.** Keep ability prerequisites, such as Strength 13+, and training prerequisites, such as needing Shield training?

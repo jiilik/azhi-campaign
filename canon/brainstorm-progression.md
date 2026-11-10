@@ -136,6 +136,25 @@ Levels 11–19 add 9, 0, 10, 0, 11, 0, 13, 7 and 9.
 
 *The kits already match: Herald 4, Scout 4, Fighter 2 (the Fighter's 2 is above the one-third curve, which starts at level 3). The jumps come at the odd levels that open a new spell level. The Mage Kit's 5 mana is one above level 1.
 
+**Fighting styles return** *(Troy, voice, 2026-11-10)*:
+- **Fighting styles are kept**, the one feat-like thing to survive the scrapping of feats, but **called fighting styles, not feats**, as in the 2014 rules.
+- **The six 2014 SRD styles, verbatim**, in their own section: `srd/05-fighting-styles/fighting-styles.md`, with a source note for copyright tracking. They are Archery, Defense, Dueling, Great Weapon Fighting, Protection and Two-Weapon Fighting. *(Claude, checked: SRD 5.2.1 has only four of them; Dueling and Protection are 2014 SRD or Player's Handbook only. Using the 2014 text for all six is Troy's explicit exception to the "no 2014 rules" standing rule.)* More styles may be added later from other sources, including reworded ones.
+- **Tiles grant them**, with the choice written in the tile's description (like Weapon Mastery). Kits: **Scout** one of Archery, Dueling or Two-Weapon Fighting; **Fighter** any one; **Tank** Defense or Protection; **Herald** none. **More styles further out**, especially along the manoeuvres seam (Scout–Fighter).
+- **Parked:** stamina add-ons that improve a fighting style, to give branches something to spend stamina on deeper in the tree.
+- *(Claude, rules notes)*:
+  - The 2014 *Great Weapon Fighting* rerolls 1s and 2s; the 2024 version treats them as 3s, slightly weaker (Troy caught this in voice).
+  - The 2014 *Two-Weapon Fighting* says "the second attack"; under the 2024 rules that means the extra attack from the Light property.
+  - *Dueling* allows a shield: only no *other weapons*.
+
+**The Scout's directions** *(Troy, voice, 2026-11-10)*:
+- **Middle: archery plus mobility**, ranger-like. Ranged attackers mostly live in the Scout's wedge. (Replaces "pure movement".)
+- **Charisma side: roguish**: charismatic, deceptive. **Sneak Attack lives there**, not on the kit.
+- **Strength side: Battle Master-style manoeuvres** and fighting styles.
+- **Mostly self-buffing**: weapon and movement enhancements. The Herald buffs allies; the Scout buffs itself.
+- Inspiration: **the ranger's spells** (in the SRD, so usable) and **the Arcane Trickster's flavour only** (not in the SRD; a rogue with a little magic). Dexterity and Intelligence aren't neighbours, so trickster flavour comes through the Charisma side, as charm and deception.
+- **Duellist** *(Troy)*: a good name for a kit technique, since duelling splits towards the honourable swashbuckler on one side and the manoeuvre specialist on the other. It's melee, so the kit also needs something for archers. Don't lock anyone out: a rogue running the Charisma line may still use a bow. *(Claude, proposal not yet decided: the kit teaches three, a duelling trick, an archery trick and a movement trick.)*
+- Duellist tropes *(Claude, voice)*: one foe at a time with a light blade; parries, ripostes and footwork; precision over raw damage. Other tropes for this space: the gunslinger or trick-shot archer, the acrobat or free-runner.
+
 **Fantasy theme labels** *(Troy, 2026-11-09)*: the theme names (such as Hit hard, Summoner) move from ring 2 to **outside ring 6** on the diagram: each kit's middle theme under its ability name, each seam's theme beyond the middle of the ring's side.
 
 **Ring 2 Hit Dice** *(Troy, 2026-11-09)*: 201 d6, 202 d6, 203 d8, 204 d8, 205 d10, 206 d10, 207 d12, 208 d10, 209 d8, 210 d6, 211 d4, 212 d6. Each tile's die adds to the character's hit points and Hit Point Dice, and is printed on line 3. *(Claude: like ring 1, it climbs from the Mage's d4 to the Tank's d12 and back, and each seam takes the value between its two kits or the lower of them.)*
@@ -192,10 +211,10 @@ Levels 11–19 add 9, 0, 10, 0, 11, 0, 13, 7 and 9.
 
 | Kit | Line 3 | Also in the kit (description, not the tile) |
 |---|---|---|
-| **Herald** (Cha) | d6 SP4 | Knows every technique its kit tile teaches (Troy, 2026-11-09; was "3 techniques from its list") ("the masters of this"); light armour; **Weapon Mastery with 1 weapon** (Troy, 2026-11-07, so techniques never need to copy masteries; about +3 points, to about 15). **Command and control, not a caster.** Inspiration becomes something to spend SP on, designed with the at-wills. |
-| **Scout** (Dex) | d8 SP4 +5ft | Knows every technique its kit tile teaches (was 2 from a list; Troy, 2026-11-09); light armour; Martial weapons with the Finesse, Light or ranged property; Weapon Mastery with 2 weapons (what the rogue and ranger share). **+5 ft Speed**. Bonus Action Dash and Disengage are saved for **ring 3**, whose middle is movement. |
-| **Fighter** (Str) | d10 SP2 | Knows every technique its kit tile teaches (was 1 from a list; Troy, 2026-11-09); light and medium armour, Shields; Martial weapons; **Weapon Mastery with 3 weapons**. Heavy armour comes on its first branch toward Constitution. |
-| **Tank** (Con) | d12 | **Hit points are its pool**, so no SP or MP. Light and medium armour, Shields; Martial weapons (so it can head for the heavy-armour seam); **Second Wind** (moved from the Fighter). |
+| **Herald** (Cha) | d6 SP4 | **No fighting style** (Troy, 2026-11-10: Protection would make it a frontliner). Knows every technique its kit tile teaches (Troy, 2026-11-09; was "3 techniques from its list") ("the masters of this"); light armour; **Weapon Mastery with 1 weapon** (Troy, 2026-11-07, so techniques never need to copy masteries; about +3 points, to about 15). **Command and control, not a caster.** Inspiration becomes something to spend SP on, designed with the at-wills. |
+| **Scout** (Dex) | d8 SP4 +5ft | **Fighting style: one of Archery, Dueling or Two-Weapon Fighting** (Troy, 2026-11-10). Knows every technique its kit tile teaches (was 2 from a list; Troy, 2026-11-09); light armour; Martial weapons with the Finesse, Light or ranged property; Weapon Mastery with 2 weapons (what the rogue and ranger share). **+5 ft Speed**. Bonus Action Dash and Disengage are saved for **ring 3**, whose middle is movement. |
+| **Fighter** (Str) | d10 SP2 | **Fighting style: any one of the six** (Troy, 2026-11-10). Knows every technique its kit tile teaches (was 1 from a list; Troy, 2026-11-09); light and medium armour, Shields; Martial weapons; **Weapon Mastery with 3 weapons**. Heavy armour comes on its first branch toward Constitution. |
+| **Tank** (Con) | d12 | **Hit points are its pool**, so no SP or MP. **Fighting style: Defense or Protection; Weapon Mastery with 1 weapon** (Troy, 2026-11-10: for a heavy maul or the like). Light and medium armour, Shields; Martial weapons (so it can head for the heavy-armour seam); **Second Wind** (moved from the Fighter). |
 | **Mystic** (Wis) | d8 MP4 | 2 cantrips; light armour (leathers and the like). |
 | **Mage** (Int) | d4 MP5 | 3 cantrips; no armour; **rituals**. |
 

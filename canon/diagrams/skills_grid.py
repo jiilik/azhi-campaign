@@ -124,14 +124,14 @@ for (dq, dr), ab in zip(DIRS, ABILITIES):
 # ability hexes (their seam).
 MIDDLE = {
     "Cha": ("Command", "Warlord", "Hexer"),
-    "Dex": ("Movement", "In and out", ""),
+    "Dex": ("Archery", "Mobility", ""),
     "Str": ("Hit hard", "", ""),
     "Con": ("Hit points", "", ""),
     "Wis": ("Shaman", "Oracle", "Seer"),
     "Int": ("Wizard", "", ""),
 }
 SEAM = {  # seam between ABILITIES[i] and ABILITIES[i+1]
-    ("Cha", "Dex"): ("Swashbuckler", "Rogue", "Assassin"),
+    ("Cha", "Dex"): ("Swashbuckler", "Rogue", "Deception"),
     ("Dex", "Str"): ("Fighting", "styles", "Manoeuvres"),
     ("Str", "Con"): ("Armour, AC", "(slow)", ""),
     ("Con", "Wis"): ("Monk", "Blood magic", ""),
