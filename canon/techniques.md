@@ -73,7 +73,7 @@ Two kinds of tile are scattered across the whole skills grid and stack no matter
 - **Balance** *(discussed, Troy: "reasonable", it doesn't unbalance anything)*:
   - The Bonus Action is the free version's cost, and it competes with *On Me!*, *Scatter!* and the rest. Outside combat it's free to use, like Guidance, which nobody casts in combat anyway.
   - *There's an Opening!* with the Reaction add-on, for 1 stamina, is roughly a Bardic Inspiration die. A 2024 bard gives one as a Bonus Action, a d6 the ally adds after failing a d20 Test, as many times as its Charisma modifier per Long Rest, with Short Rest recovery from level 5. A Herald with 4 stamina and a PB top-up on a Short Rest gets about as many.
-  - *(Claude, open)* The bigger-die add-on might need to cost more on *There's an Opening!*, since attacks matter most.
+  - **Resolved (voice, 2026-11-09):** the bigger-die add-on stays at 1 stamina on *There's an Opening!* too. The Reaction add-on is the strong part: the ally misses, you shout, and it hits after all. Troy: "a fair trade". The free Bonus Action version is a gamble that the ally will need it; stamina buys the certainty of waiting for the miss.
 - *(Claude; checked against the SRD 2026-11-09)* The 2024 *Guidance* takes an action, lasts up to a minute with Concentration, and adds 1d4 to every check with one chosen skill. These techniques give one roll each instead.
 
 ### Invigorate
@@ -87,9 +87,42 @@ Two kinds of tile are scattered across the whole skills grid and stack no matter
 - **No restriction on spells** *(Troy)*. The stamina is the real cost: renewable but expensive, especially early, like half a spell.
 - *(Claude)* "Right away" keeps it safe: the ally can't save it for its own turn and take two Bonus Actions there, which is where two *Flurries of Blows* or two Bonus Action spells would break.
 
+### Greater Invigorate
+
+*Herald technique (voice, 2026-11-09); name Troy's.* It replaces Claude's *Strike Now!* pitch: giving up one attack of several gets cheap as attacks are added, so Troy reframed it as a bigger *Invigorate*.
+
+- **Timing:** action.
+- **Range:** one ally who can hear you.
+- **Cost:** 2 stamina. **No free version.** It's more powerful than *Invigorate*, since it gives one character two actions in a round.
+- **Effect:** the ally **takes an action right away**, on your turn, **without spending its Reaction**.
+- **No add-ons** for now; Troy is happy with the plain balance.
+- *(Claude)* The closest comparison is the Fighter's Action Surge. The ally acts on your turn, so it never has two actions in its own turn. The case to watch is a caster ally casting two big spells in one round.
+
+### Reinvigorate
+
+*Herald technique (voice, 2026-11-09); name Troy's.* It completes the set: *Invigorate* passes on a Bonus Action, *Greater Invigorate* an action, and *Reinvigorate* a Reaction.
+
+- **Timing:** Reaction.
+- **Range:** one ally who can hear you.
+- **Cost:** 1 stamina. No free version.
+- **Effect:** the ally **regains its Reaction**. But it can't use it until **another creature moves or takes its turn**.
+- *(Why the delay; Troy gamed it out:)* Otherwise a fighter could make an Opportunity Attack, and a Herald could immediately restore its Reaction for a second one against the same foe. *(Claude: strictly, the trigger has already passed, but the delay makes it explicit.)*
+
+### Rally
+
+*Herald technique (voice, 2026-11-09). Claude pitched it as "Get Up!"; Troy named it Rally and added the per-ally cost.* It's the warlord's healing without magic: the ally heals from its own reserves.
+
+- **Timing:** Bonus Action.
+- **Range:** allies who can hear you.
+- **Cost:** 1 stamina for the first ally, **plus 1 for each additional ally**, with no limit. *(Troy: at first level, four allies is your whole pool.)*
+- **Effect:** each ally spends one of its **Hit Point Dice**, rolls it, adds its Constitution modifier, and regains that many Hit Points right away.
+- **Balance** *(discussed; Troy happy)*: 1 stamina should be about half a level 1 spell. *Healing Word* (checked against the SRD 2026-11-09) is a Bonus Action at 60 feet that heals one creature 2d4 plus the caster's modifier, about 8 at first level. Rally heals about 6–7 with a d8 Hit Die, a bit over half of that. It also spends one of the ally's Hit Point Dice, which it would otherwise use on a Short Rest, and that brings it close to half.
+- *(Claude, to confirm)* It can pick up an ally at 0 Hit Points, as *Healing Word* and *Cure Wounds* can, since that ally can still hear you. Troy asked how 5e handles this, and it's assumed here.
+- **First home for healing on the grid.** Healing had none after the cleric was dropped.
+
 ## Ideas in progress
 
 - **Action-economy brokering** *(Troy, 2026-11-09)*: the Herald can use the warlord's action economy to boost others, and even **move action economy from one character to another** on the field. There has to be a reason and a cost: you can't give away all your actions for nothing, because the receiving character gains an advantage (better position, a stronger attack). Each transfer has to be checked for what it could break. *Invigorate* is the first.
   - *(Claude's ideas)* Spend your Reaction to give an ally theirs back; swap turn order so an ally acts now.
-- **Strike Now!** *(Claude's pitch; not decided)*: give up one of your attacks so an ally makes one with its Reaction, the warlord's signature move. Troy noted the action-economy cost: your attack plus the ally's Reaction. *(Claude)* If the ally declines, nothing happens and no stamina is spent.
+- **Strike Now!** *(Claude's pitch; replaced by* Greater Invigorate *on 2026-11-09)*: give up one of your attacks so an ally makes one with its Reaction, the warlord's signature move. Troy noted the action-economy cost: your attack plus the ally's Reaction. *(Claude)* If the ally declines, nothing happens and no stamina is spent.
 

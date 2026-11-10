@@ -4,6 +4,7 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-11-09
 
+- **Three more Herald techniques** (Troy, voice): *Greater Invigorate* (action + 2 stamina: an ally takes an action right away, without using its Reaction), *Reinvigorate* (Reaction + 1 stamina: an ally regains its Reaction, usable only after another creature moves or takes its turn) and *Rally* (Bonus Action, 1 stamina per ally: each spends a Hit Point Die and heals). The bigger-die add-on on *There's an Opening!* stays at 1 stamina. That makes nine Herald techniques.
 - **Four more Herald techniques** (Troy, voice): the coaching set, *You've Got This!* (checks), *There's an Opening!* (attacks) and *Heads Up!* (saves): free Bonus Action d4 on an ally's next roll, with 1-stamina add-ons for a Reaction, everyone, or a d6. And *Invigorate*: Bonus Action plus 1 stamina, an ally takes a Bonus Action right away, with no spell restriction. Details: `canon/techniques.md`.
 - **Action-economy brokering** (Troy): the Herald can move action economy between characters, always at a real cost.
 
