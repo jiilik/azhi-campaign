@@ -117,12 +117,32 @@ Two kinds of tile are scattered across the whole skills grid and stack no matter
 - **Cost:** 1 stamina for the first ally, **plus 1 for each additional ally**, with no limit. *(Troy: at first level, four allies is your whole pool.)*
 - **Effect:** each ally spends one of its **Hit Point Dice**, rolls it, adds its Constitution modifier, and regains that many Hit Points right away.
 - **Balance** *(discussed; Troy happy)*: 1 stamina should be about half a level 1 spell. *Healing Word* (checked against the SRD 2026-11-09) is a Bonus Action at 60 feet that heals one creature 2d4 plus the caster's modifier, about 8 at first level. Rally heals about 6–7 with a d8 Hit Die, a bit over half of that. It also spends one of the ally's Hit Point Dice, which it would otherwise use on a Short Rest, and that brings it close to half.
-- *(Claude, to confirm)* It can pick up an ally at 0 Hit Points, as *Healing Word* and *Cure Wounds* can, since that ally can still hear you. Troy asked how 5e handles this, and it's assumed here.
+- **It picks up a downed ally** *(Troy, voice, 2026-11-09)*: since it replicates healing magic, it works on an ally at 0 Hit Points, as *Healing Word* and *Cure Wounds* do. The ally spends a Hit Point Die and gets back up.
 - **First home for healing on the grid.** Healing had none after the cleric was dropped.
+
+### Mark the Target *(draft; not final)*
+
+*Herald technique (voice, 2026-11-09). From the warlord's idea of marking a foe for the party. Troy paused it to re-evaluate.*
+
+- **Timing:** action. It works **like an attack cantrip**: you use your action for one attack. Melee or ranged both work, so a Herald can mark from the back line with a light crossbow or sling. *(Troy chose this over a rider on the Attack action.)*
+- **Cost:** 1 stamina, spent **on a hit**, to mark the foe. *(Claude asked about a free version; not settled.)*
+- **Effect:** the mark carries **charges: 1, plus 1 for each Damage Boost** you have. Until the start of your next turn, each ally's hit on the marked foe uses a charge and deals an **extra 1d6**.
+- **Balance** *(Claude, voice)*:
+  - A single-target level 1 spell does about 10–14 damage (*Magic Missile* about 10, *Guiding Bolt* about 14). Half a slot, about 1 stamina, is 6–7.
+  - The closest SRD match is *Hunter's Mark* (1d6 on each of the caster's own hits; Bonus Action; Concentration).
+  - The biggest first-level damage cantrips do about 5–7 (*Fire Bolt* 1d10). So your weapon hit is cantrip-level, and the marked 1d6 brings the whole action about halfway to a spell.
+- *To re-evaluate:*
+  - whether 1 stamina for a single 1d6 is enough
+  - whether there's a free version
+  - how this interacts with the Damage Boost rule, which normally gives an extra attack with the Attack action or an extra die on a cantrip; here it adds charges
 
 ## Ideas in progress
 
 - **Action-economy brokering** *(Troy, 2026-11-09)*: the Herald can use the warlord's action economy to boost others, and even **move action economy from one character to another** on the field. There has to be a reason and a cost: you can't give away all your actions for nothing, because the receiving character gains an advantage (better position, a stronger attack). Each transfer has to be checked for what it could break. *Invigorate* is the first.
   - *(Claude's ideas)* Spend your Reaction to give an ally theirs back; swap turn order so an ally acts now.
+- **More warlord ideas** *(Claude, voice, 2026-11-09; to go through one at a time)*:
+  - **Hold the line:** allies near you gain a bonus to AC.
+  - **Battle plan:** the whole party adds a bonus to Initiative.
+  - **Hammer and anvil:** when you hit, an ally next to the target deals some damage too.
 - **Strike Now!** *(Claude's pitch; replaced by* Greater Invigorate *on 2026-11-09)*: give up one of your attacks so an ally makes one with its Reaction, the warlord's signature move. Troy noted the action-economy cost: your attack plus the ally's Reaction. *(Claude)* If the ally declines, nothing happens and no stamina is spent.
 
