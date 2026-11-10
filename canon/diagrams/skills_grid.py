@@ -171,6 +171,10 @@ for n in range(1, RINGS + 1):
 HIT_DICE = {"201": "d6", "202": "d6", "203": "d8", "204": "d8", "205": "d10",
             "206": "d10", "207": "d12", "208": "d10", "209": "d8",
             "210": "d6", "211": "d4", "212": "d6"}
+# Ring 2 stamina and mana (Troy, 2026-11-09).
+POOLS = {"201": "{S}3", "202": "{S}3", "203": "{S}3", "204": "{S}3",
+         "205": "{S}2", "206": "{S}2", "208": "{M}2", "209": "{M}3",
+         "210": "{M}4", "211": "{M}5", "212": "{M}2{S}2"}
 LINE3 = {}  # (q, r) -> line 3 for themed tiles
 
 # Ring 6 Damage Boosts on the seams (Troy, 2026-11-09).
@@ -183,11 +187,12 @@ for num in ("601", "607", "613", "619", "625", "631"):
     TILES[BY_NUMBER[num]] = ("", "Proficiency", "PB +1")
 for num, hd in HIT_DICE.items():
     h = BY_NUMBER[num]
+    l3 = "{H}" + hd + (" " + POOLS[num] if num in POOLS else "")
     if h in TILES:
         l1, l2, _ = TILES[h]
-        TILES[h] = (l1, l2, "{H}" + hd)
+        TILES[h] = (l1, l2, l3)
     else:
-        LINE3[h] = "{H}" + hd
+        LINE3[h] = l3
 
 def wedge(q, r):
     """Nearest ability direction by angle, or None for the centre."""

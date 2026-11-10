@@ -90,6 +90,10 @@ Written up from the voice transcript. One line in the transcript was attributed 
 
 **Outward only** *(Troy, 2026-11-09)*: on the skills grid you can only move towards the outside; no lateral moves. Details and consequences in `canon/techniques.md`.
 
+**Ring 2 stamina and mana** *(Troy, 2026-11-09)*: 201, 202, 203, 204: +3 stamina. 205, 206: +2 stamina. 207: none (the Tank's pool is hit points). 208: +2 mana. 209: +3 mana. 210: +4 mana. 211: +5 mana. 212: +2 mana and +2 stamina (the summoner: mana to summon, stamina to control).
+
+*Calibration (Claude)*: after two tiles on a straight path, the Herald has 7 stamina (a full caster at level 2: 6), the Mystic 7 mana (6), and the Mage 10 mana (6), the furthest ahead. The Scout has 7 stamina (a half caster: 4) and the Fighter 4 (a one-third caster: 2). Every path is front-loaded against the curves, but a full caster reaches 14 at level 3, so these are within reach.
+
 **Pool sizes by ring** *(Troy, 2026-11-09)*: with linear progression, each ring is about one level. So a path such as 11 → 201 → 301 → 424 → 529 → 634 should hold about the pool of a level 6 caster.
 
 *Reference (Claude, computed from the SRD wizard's slot table at our mana prices, 2026-11-09):*
