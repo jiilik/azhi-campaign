@@ -108,7 +108,22 @@ Written up from the voice transcript. One line in the transcript was attributed 
 | 10 | 4, 3, 3, 3, 2 | 64 | 7 |
 | 20 | (full table) | 133 | — |
 
-Levels 11–19 add 9, 0, 10, 0, 11, 0, 13, 7 and 9. The jumps come at the odd levels that open a new spell level. The Mage Kit's 5 mana is one above level 1.
+Levels 11–19 add 9, 0, 10, 0, 11, 0, 13, 7 and 9.
+
+**Stamina by branch** *(Troy, 2026-11-09)*:
+- **Herald branch:** about the same pool as a caster. It replaces the bard.
+- **Fighter branch:** less, with a bunch of other bonuses to compensate.
+- **Scout branch:** somewhere in the middle, in homage to the rangers and Arcane Tricksters that could be built there.
+
+*(Claude, PROPOSED)* Each branch could track an existing caster curve at our prices:
+
+| Ring (≈ level) | 1 | 2 | 3 | 4 | 5 | 6 | 10 |
+|---|---|---|---|---|---|---|---|
+| **Herald** (full caster, SRD wizard) | 4 | 6 | 14 | 17 | 27 | 32 | 64 |
+| **Scout** (half caster, SRD ranger) | 4 | 4 | 6 | 6 | 14 | 14 | 27 |
+| **Fighter** (one-third caster, Eldritch Knight; not in the SRD, from memory) | 2* | 2 | 4 | 6 | 6 | 6 | 17 |
+
+*The kits already match: Herald 4, Scout 4, Fighter 2 (the Fighter's 2 is above the one-third curve, which starts at level 3). The jumps come at the odd levels that open a new spell level. The Mage Kit's 5 mana is one above level 1.
 
 **Fantasy theme labels** *(Troy, 2026-11-09)*: the theme names (such as Hit hard, Summoner) move from ring 2 to **outside ring 6** on the diagram: each kit's middle theme under its ability name, each seam's theme beyond the middle of the ring's side.
 
