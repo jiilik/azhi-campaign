@@ -105,8 +105,8 @@ SEAM_TILES = set()
 # from the Herald, 202 the Herald-Scout seam.
 TECH_TILES = {
     # Technique names stay in the text, not on tiles (Troy, 2026-11-09).
-    (-2, 2): ("Command", "Techniques", ""),
-    (-2, 1): ("Cha-Dex", "Techniques", ""),
+    (-2, 2): ("", "Techniques", ""),
+    (-2, 1): ("", "Techniques", ""),
 }
 for (dq, dr), ab in zip(DIRS, ABILITIES):
     TILES[(dq, dr)] = KITS[ab]
@@ -246,15 +246,9 @@ for q in range(-RINGS, RINGS + 1):
             else:
                 ax.text(x, y - 0.36, l3, ha="center", va="center", fontsize=6.9, zorder=3)
         elif (q, r) in THEMES:
-            lines = [s for s in THEMES[(q, r)][0] if s]
-            k = len(lines)
-            top = 0.14 if (q, r) in LINE3 else 0.0
-            step = 0.24 if (q, r) in LINE3 else 0.3
-            for j, s in enumerate(lines):
-                ax.text(x, y + top + step * ((k - 1) / 2 - j), s, ha="center", va="center",
-                        fontsize=5.7, style="italic", color="#555", zorder=3)
+            # Fantasy themes are drawn outside ring 6 (Troy, 2026-11-09).
             if (q, r) in LINE3:
-                place_line(ax, x, y - 0.42, LINE3[(q, r)])
+                place_line(ax, x, y - 0.36, LINE3[(q, r)])
 
 # Ability labels outside the grid
 for (dq, dr), ab in zip(DIRS, ABILITIES):
@@ -263,13 +257,27 @@ for (dq, dr), ab in zip(DIRS, ABILITIES):
             "Con": "CONSTITUTION", "Wis": "WISDOM", "Int": "INTELLIGENCE"}[ab]
     ax.text(x, y, name, ha="center", va="center", fontsize=11, weight="bold", color=EDGE[ab])
 
+# Fantasy themes outside ring 6 (Troy, 2026-11-09): each kit's middle
+# theme under its ability name, each seam's theme beyond the ring's side.
+for i, ab in enumerate(ABILITIES):
+    dq, dr = DIRS[i]
+    x, y = to_xy(dq * (RINGS + 1.55), dr * (RINGS + 1.55))
+    ax.text(x, y - 0.45, ", ".join(s for s in MIDDLE[ab] if s), ha="center",
+            va="center", fontsize=7.5, style="italic", color="#555")
+    nq, nr = DIRS[(i + 1) % 6]
+    nxt = ABILITIES[(i + 1) % 6]
+    f = (RINGS + 2.5) / 2
+    x, y = to_xy((dq + nq) * f, (dr + nr) * f)
+    ax.text(x, y, "\n".join(s for s in SEAM[(ab, nxt)] if s), ha="center",
+            va="center", fontsize=7.5, style="italic", color="#555")
+
 lim = SIZE * (RINGS * 1.5 + 3.4)
 ax.set_xlim(-lim, lim)
 ax.set_ylim(-lim - 3.2, lim + 2.4)
 ax.text(0, lim + 2.0, "Azhi: the Skills Grid (draft, 2026-11-07)", ha="center",
         va="center", fontsize=15, weight="bold")
 ax.text(0, -lim - 2.0,
-        "Centre and ring 1: populated (Req / name / what adds up).  Ring 2: 201-202 technique tiles; italic = fantasy themes only.\n"
+        "Centre and ring 1: populated (Req / name / what adds up).  Ring 2: 201-202 technique tiles.  Italic labels outside the grid: fantasy themes.\n"
         "Proficiency Bonus: ring 4 seams and ring 6 corners.  Rings 5 and 6: Damage Boost tiles.  Other hexes empty.  127 hexes in all.  PROPOSED design; see canon/brainstorm-progression.md.",
         ha="center", va="center", fontsize=8, color="#444")
 place_line(ax, 0, -lim - 2.6, "{H} Hit Die     {S} stamina (SP)     {M} mana (MP)", zoom=0.14)
