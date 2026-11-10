@@ -25,6 +25,8 @@
 
 ## Where techniques are learned *(Troy, 2026-11-09)*
 
+**Technique names are not printed on the tiles**, only in each tile's text description. Tiles would get too crowded, especially once magic is placed the same way.
+
 | Tile | Techniques learned there |
 |---|---|
 | **11 Herald Kit** | *Rally*; the coaching set (*You've Got This!*, *There's an Opening!*, *Heads Up!*) |

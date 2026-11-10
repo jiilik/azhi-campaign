@@ -104,8 +104,9 @@ SEAM_TILES = set()
 # Technique tiles (Troy, 2026-11-09). Ring 2 positions: 201 is straight out
 # from the Herald, 202 the Herald-Scout seam.
 TECH_TILES = {
-    (-2, 2): ("Command", "Invigorate x3", "Momentum"),
-    (-2, 1): ("Cha-Dex", "On Me!", "Scatter!"),
+    # Technique names stay in the text, not on tiles (Troy, 2026-11-09).
+    (-2, 2): ("Command", "Techniques", ""),
+    (-2, 1): ("Cha-Dex", "Techniques", ""),
 }
 for (dq, dr), ab in zip(DIRS, ABILITIES):
     TILES[(dq, dr)] = KITS[ab]
