@@ -4,6 +4,7 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-11-09
 
+- **Technique variety target** (Troy): about the variety of the Battle Master's manoeuvres or the monk's abilities, not the whole bard spell list. **Campaign length assumption:** most games reach about level 10, so most characters get one Damage Boost and some two.
 - **Again! renamed Momentum** (Troy).
 - **Skills grid: outward moves only** (Troy): no lateral moves. Each kit opens a cone that holds only its own Damage Boost, so extra boosts need extra kits.
 - **Mark the Target reworked** (Troy) into a sustained mark, working name *Again!*: an action attack; on a hit, 1 stamina marks the foe so the next damaging hit gains 1d12; on each hit you may pay another stamina (free, no action) to keep it, with no time limit; no Damage Boost scaling.

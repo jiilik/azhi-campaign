@@ -11,6 +11,16 @@
 - **Reactions** in a technique can be used **"at any time"**, even on another creature's turn, with no other trigger. Reactions are a scarce resource (one per round), and choosing when to spend one is the skill: a Herald holding a Reaction for *Scatter!* gives up its Opportunity Attack.
 - **Weapon Mastery comes first:** every kit with weapons now has at least one mastery, so the basic riders (Push, Topple, Slow and the rest) come from masteries. **Techniques must not copy them.** Free techniques at the Dex–Str seam are things like moving a character after a hit, or a little extra damage of a particular type.
 
+## Design targets *(Troy, 2026-11-09)*
+
+- **Variety:** the techniques available should have about the **same depth of variety as the Battle Master's manoeuvres or the monk's abilities**, and **not** the depth of the whole bard spell list.
+  - *(Claude, for scale)*:
+    - The 2024 Battle Master has about 20 manoeuvres (from memory).
+    - The SRD monk has about a dozen Focus uses and riders.
+    - The SRD bard spell list has **129** spells (counted 2026-11-09).
+  - *(Claude, open)* Is the target a list of about 12–20 for each kit's area, or about 20 in total for the whole stamina side? The Herald already has 10.
+- **Campaign length:** assume most games go to about **level 10** in normal play. So **most players get a single Damage Boost, and some go for two.**
+
 ## Moving on the skills grid *(Troy, 2026-11-09)*
 
 - **You can only move towards the outside of the grid. No lateral moves.**
