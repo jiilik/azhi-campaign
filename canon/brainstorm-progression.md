@@ -90,6 +90,26 @@ Written up from the voice transcript. One line in the transcript was attributed 
 
 **Outward only** *(Troy, 2026-11-09)*: on the skills grid you can only move towards the outside; no lateral moves. Details and consequences in `canon/techniques.md`.
 
+**Pool sizes by ring** *(Troy, 2026-11-09)*: with linear progression, each ring is about one level. So a path such as 11 → 201 → 301 → 424 → 529 → 634 should hold about the pool of a level 6 caster.
+
+*Reference (Claude, computed from the SRD wizard's slot table at our mana prices, 2026-11-09):*
+
+| Level | Slots (levels 1–9) | Mana | Gain |
+|---|---|---|---|
+| 1 | 2 | 4 | 4 |
+| 2 | 3 | 6 | 2 |
+| 3 | 4, 2 | 14 | 8 |
+| 4 | 4, 3 | 17 | 3 |
+| 5 | 4, 3, 2 | 27 | 10 |
+| 6 | 4, 3, 3 | **32** | 5 |
+| 7 | 4, 3, 3, 1 | 38 | 6 |
+| 8 | 4, 3, 3, 2 | 44 | 6 |
+| 9 | 4, 3, 3, 3, 1 | 57 | 13 |
+| 10 | 4, 3, 3, 3, 2 | 64 | 7 |
+| 20 | (full table) | 133 | — |
+
+Levels 11–19 add 9, 0, 10, 0, 11, 0, 13, 7 and 9. The jumps come at the odd levels that open a new spell level. The Mage Kit's 5 mana is one above level 1.
+
 **Fantasy theme labels** *(Troy, 2026-11-09)*: the theme names (such as Hit hard, Summoner) move from ring 2 to **outside ring 6** on the diagram: each kit's middle theme under its ability name, each seam's theme beyond the middle of the ring's side.
 
 **Ring 2 Hit Dice** *(Troy, 2026-11-09)*: 201 d6, 202 d6, 203 d8, 204 d8, 205 d10, 206 d10, 207 d12, 208 d10, 209 d8, 210 d6, 211 d4, 212 d6. Each tile's die adds to the character's hit points and Hit Point Dice, and is printed on line 3. *(Claude: like ring 1, it climbs from the Mage's d4 to the Tank's d12 and back, and each seam takes the value between its two kits or the lower of them.)*
