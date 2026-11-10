@@ -166,6 +166,12 @@ for n in range(1, RINGS + 1):
     for i, h in enumerate(ring_hexes(n), start=1):
         NUMBERS[h] = f"{n}{i}" if n == 1 else f"{n}{i:02d}"
 
+# Ring 6 Damage Boosts on the seams (Troy, 2026-11-09).
+BY_NUMBER = {v: k for k, v in NUMBERS.items()}
+for num in ("604", "610", "616", "622", "628", "634"):
+    TILES[BY_NUMBER[num]] = ("", "Damage Boost", "+1")
+    SEAM_TILES.add(BY_NUMBER[num])
+
 def wedge(q, r):
     """Nearest ability direction by angle, or None for the centre."""
     if (q, r) == (0, 0):
@@ -243,7 +249,7 @@ ax.text(0, lim + 1.3, "Azhi: the Skills Grid (draft, 2026-11-07)", ha="center",
         va="center", fontsize=15, weight="bold")
 ax.text(0, -lim - 1.4,
         "Centre and ring 1: populated (Req / name / what adds up).  Ring 2: 201-202 technique tiles; italic = fantasy themes only.\n"
-        "Ring 4 seams: Proficiency Bonus tiles.  Ring 5: Damage Boost tiles.  Other hexes empty.  127 hexes in all.  PROPOSED design; see canon/brainstorm-progression.md.",
+        "Ring 4 seams: Proficiency Bonus tiles.  Rings 5 and 6: Damage Boost tiles.  Other hexes empty.  127 hexes in all.  PROPOSED design; see canon/brainstorm-progression.md.",
         ha="center", va="center", fontsize=8, color="#444")
 place_line(ax, 0, -lim - 2.0, "{H} Hit Die     {S} stamina (SP)     {M} mana (MP)", zoom=0.14)
 

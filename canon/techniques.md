@@ -58,6 +58,7 @@ Two kinds of tile are scattered across the whole skills grid and stack no matter
   - *(Claude)* The timing matches the 2024 rules: cantrips scale at levels 5, 11 and 17, and the fighter gains attacks at 5, 11 and 20. **To check:** Troy mentioned a 20-node character finding **four** Damage Boosts. Four would be one more step than either the cantrip scaling or the fighter (both three), so three may be the ceiling for a 20-node character.
   - **Placed (Troy, 2026-11-07):** six **Proficiency Bonus +1** tiles on **ring 4, on the seams** (the exact middle of each side of the ring, between two kits), 4 steps from the centre.
   - **Placed (Troy, 2026-11-07):** six Damage Boost tiles on **ring 5, straight out from each kit** (the ring's six corner hexes, on each kit's main line), 5 steps from the centre.
+  - **More, on ring 6 (Troy, 2026-11-09):** six more Damage Boosts on the **ring-6 seams**: **604, 610, 616, 622, 628, 634**. A character who fills a kit's entire cone (36 tiles) should find more than one. *(Claude: each ring-6 seam tile is in the cones of both neighbouring kits. So a full cone now holds three Damage Boosts: its own on ring 5, and the two ring-6 seams on either side. For example, the Herald's cone holds 501, 604 and 634.)*
   - **Settled (Troy, 2026-11-07): four is fine.** Finding four in 20 nodes takes a real munchkin, going about five deep in four branches. *(Claude: this assumes Damage Boost tiles sit at about depth 5 in a branch, the level-5 milestone.)*
 
 ## Dropped
