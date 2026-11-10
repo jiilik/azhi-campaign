@@ -4,6 +4,7 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-11-10
 
+- **Hit Dice propagated along the 12 rays** (Troy): kit rays (straight hex lines, rings 3–6) and seam rays (exact hexes on rings 4 and 6) take their ring-2 tile's Hit Die. Odd-ring seam hexes left open.
 - **Fighter Damage Boosts moved** (Troy): 511 removed; boosts added at 510 and 614, making extra damage core to the Fighter fantasy and adding a boost to the Scout's and Tank's cones. A boost at 307 was considered and dropped.
 
 ## 2026-11-09

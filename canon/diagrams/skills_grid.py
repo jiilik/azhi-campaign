@@ -198,6 +198,27 @@ for num, hd in HIT_DICE.items():
     else:
         LINE3[h] = l3
 
+# Hit Dice propagated straight out along the rays from ring 2 (Troy,
+# 2026-11-10). Kit rays are straight hex lines (rings 3-6). Seam rays have
+# an exact hex only on even rings (4 and 6); odd rings are left open.
+RAY_TILES = {}
+for i in range(6):
+    dq, dr = DIRS[i]
+    nq, nr = DIRS[(i + 1) % 6]
+    corner_hd = HIT_DICE[NUMBERS[(2 * dq, 2 * dr)]]
+    for k in range(3, RINGS + 1):
+        RAY_TILES[(k * dq, k * dr)] = corner_hd
+    seam_hd = HIT_DICE[NUMBERS[(dq + nq, dr + nr)]]
+    for m in (2, 3):
+        RAY_TILES[(m * (dq + nq), m * (dr + nr))] = seam_hd
+for h, hd in RAY_TILES.items():
+    if h in TILES:
+        l1, l2, l3 = TILES[h]
+        extra = l3.replace("PB +1", "PB+1")
+        TILES[h] = (l1, l2, "{H}" + hd + (" " + extra if extra else ""))
+    else:
+        TILES[h] = ("", "", "{H}" + hd)
+
 def wedge(q, r):
     """Nearest ability direction by angle, or None for the centre."""
     if (q, r) == (0, 0):
@@ -235,7 +256,7 @@ for q in range(-RINGS, RINGS + 1):
         elif (q, r) in SEAM_TILES:
             face, edge, lw = "#ececec", "#444444", 1.8
         elif (q, r) in TILES:
-            face, edge, lw = COLOURS[ab], EDGE[ab], 1.8
+            face, edge, lw = COLOURS[ab], EDGE[ab], (1.8 if TILES[(q, r)][1] else 1.0)
         ax.add_patch(RegularPolygon((x, y), 6, radius=SIZE * 0.97,
                                     orientation=math.pi / 6,
                                     facecolor=face, edgecolor=edge, lw=lw))

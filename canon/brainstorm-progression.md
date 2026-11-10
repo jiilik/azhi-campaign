@@ -90,6 +90,11 @@ Written up from the voice transcript. One line in the transcript was attributed 
 
 **Outward only** *(Troy, 2026-11-09)*: on the skills grid you can only move towards the outside; no lateral moves. Details and consequences in `canon/techniques.md`.
 
+**Hit Dice along the rays** *(Troy, 2026-11-10)*: each ring-2 tile's Hit Die is carried **straight out** to the edge, so 12 rays carry values.
+- **Kit rays** are straight lines of hexes: rings 3–6 straight out from each kit take the ring-2 value. For example, the Fighter's ray (205, 307, 409, 511, 613) is d10 all the way.
+- **Seam rays** only have an exact hex on even rings: ring 4 (the Proficiency tiles) and ring 6 (the Damage Boosts), which now carry Hit Dice too, such as "❤️d6 PB+1". *(Claude, open)* On rings 3 and 5 the seam line passes between two hexes (for example 302 and 303, or 503 and 504), so those are left empty until Troy decides.
+- Special tiles off the rays, such as 510 and 614, have no Hit Die.
+
 **Ring 2 stamina and mana** *(Troy, 2026-11-09)*: 201, 202, 203, 204: +3 stamina. 205, 206: +2 stamina. 207: none (the Tank's pool is hit points). 208: +2 mana. 209: +3 mana. 210: +4 mana. 211: +5 mana. 212: +2 mana and +2 stamina (the summoner: mana to summon, stamina to control).
 
 *Calibration (Claude)*: after two tiles on a straight path, the Herald has 7 stamina (a full caster at level 2: 6), the Mystic 7 mana (6), and the Mage 10 mana (6), the furthest ahead. The Scout has 7 stamina (a half caster: 4) and the Fighter 4 (a one-third caster: 2). Every path is front-loaded against the curves, but a full caster reaches 14 at level 3, so these are within reach.
