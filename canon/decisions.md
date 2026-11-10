@@ -4,6 +4,7 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-11-09
 
+- **Ring 2 Hit Dice** (Troy): 201 d6, 202 d6, 203 d8, 204 d8, 205 d10, 206 d10, 207 d12, 208 d10, 209 d8, 210 d6, 211 d4, 212 d6.
 - **No technique or spell names on tiles** (Troy): they go in each tile's text description, to keep the grid uncrowded.
 - **Six more Proficiency Bonus tiles on the ring-6 corners** (Troy): 601, 607, 613, 619, 625, 631.
 - **Six more Damage Boosts on the ring-6 seams** (Troy): 604, 610, 616, 622, 628, 634. A full 36-tile cone from one kit now holds three.

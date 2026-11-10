@@ -167,6 +167,12 @@ for n in range(1, RINGS + 1):
     for i, h in enumerate(ring_hexes(n), start=1):
         NUMBERS[h] = f"{n}{i}" if n == 1 else f"{n}{i:02d}"
 
+# Ring 2 Hit Dice (Troy, 2026-11-09).
+HIT_DICE = {"201": "d6", "202": "d6", "203": "d8", "204": "d8", "205": "d10",
+            "206": "d10", "207": "d12", "208": "d10", "209": "d8",
+            "210": "d6", "211": "d4", "212": "d6"}
+LINE3 = {}  # (q, r) -> line 3 for themed tiles
+
 # Ring 6 Damage Boosts on the seams (Troy, 2026-11-09).
 BY_NUMBER = {v: k for k, v in NUMBERS.items()}
 for num in ("604", "610", "616", "622", "628", "634"):
@@ -175,6 +181,13 @@ for num in ("604", "610", "616", "622", "628", "634"):
 # Ring 6 Proficiency Bonus tiles straight out from each kit (Troy, 2026-11-09).
 for num in ("601", "607", "613", "619", "625", "631"):
     TILES[BY_NUMBER[num]] = ("", "Proficiency", "PB +1")
+for num, hd in HIT_DICE.items():
+    h = BY_NUMBER[num]
+    if h in TILES:
+        l1, l2, _ = TILES[h]
+        TILES[h] = (l1, l2, "{H}" + hd)
+    else:
+        LINE3[h] = "{H}" + hd
 
 def wedge(q, r):
     """Nearest ability direction by angle, or None for the centre."""
@@ -235,27 +248,31 @@ for q in range(-RINGS, RINGS + 1):
         elif (q, r) in THEMES:
             lines = [s for s in THEMES[(q, r)][0] if s]
             k = len(lines)
+            top = 0.14 if (q, r) in LINE3 else 0.0
+            step = 0.24 if (q, r) in LINE3 else 0.3
             for j, s in enumerate(lines):
-                ax.text(x, y + 0.3 * ((k - 1) / 2 - j), s, ha="center", va="center",
+                ax.text(x, y + top + step * ((k - 1) / 2 - j), s, ha="center", va="center",
                         fontsize=5.7, style="italic", color="#555", zorder=3)
+            if (q, r) in LINE3:
+                place_line(ax, x, y - 0.42, LINE3[(q, r)])
 
 # Ability labels outside the grid
 for (dq, dr), ab in zip(DIRS, ABILITIES):
-    x, y = to_xy(dq * (RINGS + 0.9), dr * (RINGS + 0.9))
+    x, y = to_xy(dq * (RINGS + 1.55), dr * (RINGS + 1.55))
     name = {"Cha": "CHARISMA", "Dex": "DEXTERITY", "Str": "STRENGTH",
             "Con": "CONSTITUTION", "Wis": "WISDOM", "Int": "INTELLIGENCE"}[ab]
     ax.text(x, y, name, ha="center", va="center", fontsize=11, weight="bold", color=EDGE[ab])
 
-lim = SIZE * (RINGS * 1.5 + 2.6)
+lim = SIZE * (RINGS * 1.5 + 3.4)
 ax.set_xlim(-lim, lim)
-ax.set_ylim(-lim - 2.6, lim + 1.8)
-ax.text(0, lim + 1.3, "Azhi: the Skills Grid (draft, 2026-11-07)", ha="center",
+ax.set_ylim(-lim - 3.2, lim + 2.4)
+ax.text(0, lim + 2.0, "Azhi: the Skills Grid (draft, 2026-11-07)", ha="center",
         va="center", fontsize=15, weight="bold")
-ax.text(0, -lim - 1.4,
+ax.text(0, -lim - 2.0,
         "Centre and ring 1: populated (Req / name / what adds up).  Ring 2: 201-202 technique tiles; italic = fantasy themes only.\n"
         "Proficiency Bonus: ring 4 seams and ring 6 corners.  Rings 5 and 6: Damage Boost tiles.  Other hexes empty.  127 hexes in all.  PROPOSED design; see canon/brainstorm-progression.md.",
         ha="center", va="center", fontsize=8, color="#444")
-place_line(ax, 0, -lim - 2.0, "{H} Hit Die     {S} stamina (SP)     {M} mana (MP)", zoom=0.14)
+place_line(ax, 0, -lim - 2.6, "{H} Hit Die     {S} stamina (SP)     {M} mana (MP)", zoom=0.14)
 
 here = os.path.dirname(os.path.abspath(__file__))
 fig.savefig(os.path.join(here, "skills-grid.png"), dpi=200, bbox_inches="tight")
