@@ -11,6 +11,16 @@
 - **Reactions** in a technique can be used **"at any time"**, even on another creature's turn, with no other trigger. Reactions are a scarce resource (one per round), and choosing when to spend one is the skill: a Herald holding a Reaction for *Scatter!* gives up its Opportunity Attack.
 - **Weapon Mastery comes first:** every kit with weapons now has at least one mastery, so the basic riders (Push, Topple, Slow and the rest) come from masteries. **Techniques must not copy them.** Free techniques at the Dex–Str seam are things like moving a character after a hit, or a little extra damage of a particular type.
 
+## Moving on the skills grid *(Troy, 2026-11-09)*
+
+- **You can only move towards the outside of the grid. No lateral moves.**
+- *(Claude's reading)* A new tile must touch a tile you already have in the next ring in. So each kit opens a **cone**: from a kit you can reach 3 tiles on ring 2, 5 on ring 3, 7 on ring 4, 9 on ring 5 and 11 on ring 6.
+- **Consequences** *(Claude, voice)*:
+  - Each kit's cone holds **only its own Damage Boost** (the ring-5 corner straight out from it). The neighbouring corners are just out of reach. So a second boost means taking a second kit and going five deep there, and four boosts means four kits each five deep: Troy's munchkin case.
+  - The **Proficiency tiles** on the ring-4 seams sit inside the cones of both neighbouring kits.
+- **Damage Boosts are rare** *(Troy)*: most characters get one, a dedicated multiclasser two. That's rarer than cantrip scaling in the 2024 rules, which goes by total level (levels 5, 11 and 17), so every caster gets all three steps. Pools (stamina, mana) grow wherever you go, so **most power will come from deeper pools and better techniques, not extra dice**.
+- *(Claude, from memory, not checked)* Wizards of the Coast has said most campaigns stay below level 10, and D&D Beyond's data showed most characters at levels 1–5. So the level-11 step barely comes up at most tables.
+
 ## Generic tiles *(Troy, 2026-11-07)*
 
 Two kinds of tile are scattered across the whole skills grid and stack no matter which branch they're on:
@@ -120,21 +130,20 @@ Two kinds of tile are scattered across the whole skills grid and stack no matter
 - **It picks up a downed ally** *(Troy, voice, 2026-11-09)*: since it replicates healing magic, it works on an ally at 0 Hit Points, as *Healing Word* and *Cure Wounds* do. The ally spends a Hit Point Die and gets back up.
 - **First home for healing on the grid.** Healing had none after the cleric was dropped.
 
-### Mark the Target *(draft; not final)*
+### Again! *(working name; formerly Mark the Target)*
 
-*Herald technique (voice, 2026-11-09). From the warlord's idea of marking a foe for the party. Troy paused it to re-evaluate.*
+*Herald technique (voice, 2026-11-09). Reworked by Troy from the Mark the Target draft. The name "Again!" is Claude's suggestion and not yet confirmed. Flavour (Troy): the Herald is cheering, "Again! Hit it again!", pouring stamina into the momentum.*
 
-- **Timing:** action. It works **like an attack cantrip**: you use your action for one attack. Melee or ranged both work, so a Herald can mark from the back line with a light crossbow or sling. *(Troy chose this over a rider on the Attack action.)*
-- **Cost:** 1 stamina, spent **on a hit**, to mark the foe. *(Claude asked about a free version; not settled.)*
-- **Effect:** the mark carries **charges: 1, plus 1 for each Damage Boost** you have. Until the start of your next turn, each ally's hit on the marked foe uses a charge and deals an **extra 1d6**.
-- **Balance** *(Claude, voice)*:
-  - A single-target level 1 spell does about 10–14 damage (*Magic Missile* about 10, *Guiding Bolt* about 14). Half a slot, about 1 stamina, is 6–7.
-  - The closest SRD match is *Hunter's Mark* (1d6 on each of the caster's own hits; Bonus Action; Concentration).
-  - The biggest first-level damage cantrips do about 5–7 (*Fire Bolt* 1d10). So your weapon hit is cantrip-level, and the marked 1d6 brings the whole action about halfway to a spell.
-- *To re-evaluate:*
-  - whether 1 stamina for a single 1d6 is enough
-  - whether there's a free version
-  - how this interacts with the Damage Boost rule, which normally gives an extra attack with the Attack action or an extra die on a cantrip; here it adds charges
+- **Timing:** action. It works **like an attack cantrip**: you use your action for one attack, melee or ranged.
+- **Mark:** on a hit, you can spend **1 stamina** to mark the foe.
+- **Effect:** the **next attack that deals damage** to the marked foe, from anyone, deals an **extra 1d12**.
+- **Sustaining:** each time the marked foe is hit, you can spend **another stamina** to keep the mark, so the next hit also gains 1d12, and so on. Paying is **free: no action or Reaction**. If a hit lands and you don't pay, the mark ends. **No time limit**: it lasts as long as you keep paying.
+- **No Damage Boost scaling.** That solves the double-dipping problem.
+- **Balance** *(discussed)*:
+  - Two stamina should do about a level 1 spell's damage, 10–14 (*Magic Missile* about 10, *Guiding Bolt* about 14). So **1 stamina is worth about 2d6**.
+  - Troy chose a **d12** for easier accounting: it averages 6.5 against 7 for 2d6, but it's swingier.
+  - Pouring the whole pool into one round is **a deliberate nova at the cost of all your resources**. Early on, 4 stamina won't last a round at a five-player table, especially with a monk making many attacks.
+- *(Superseded draft, 2026-11-09: charges equal to 1 + Damage Boosts, 1d6 each, ending at the start of your next turn.)*
 
 ## Ideas in progress
 

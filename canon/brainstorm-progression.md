@@ -88,6 +88,8 @@ Written up from the voice transcript. One line in the transcript was attributed 
 
 ### Ring 1 of the skills grid (voice session, 2026-11-07)
 
+**Outward only** *(Troy, 2026-11-09)*: on the skills grid you can only move towards the outside; no lateral moves. Details and consequences in `canon/techniques.md`.
+
 **Tile numbers** *(Troy, 2026-11-07)*: every tile has a unique number, printed in grey in the background, so tiles can be named in discussion. The first digit is the ring. Ring 1: **11–16**; rings 2–6: two-digit positions, **201–212**, **301–318**, **401–424**, **501–530**, **601–636**. The centre is **0**. *(Claude's convention:)* position 1 is the corner straight out from Charisma, and numbers run round in ring order (Charisma → Dexterity → Strength …). So **11 Herald, 12 Scout, 13 Fighter, 14 Tank, 15 Mystic, 16 Mage**. Ring 2's themes: 201 Herald (command, warlord, hexer), 202 Cha–Dex, 203 Scout, 204 Dex–Str, 205 Fighter, 206 Str–Con, 207 Tank, 208 Con–Wis, 209 Mystic, 210 Wis–Int, 211 Mage, 212 Int–Cha. Proficiency tiles: 403, 407, 411, 415, 419, 423. Damage Boosts: 501, 506, 511, 516, 521, 526. On filled tiles the number is printed small at the foot, so it doesn't cover the text.
 
 **Printable diagram** *(Troy)*:

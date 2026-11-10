@@ -4,6 +4,8 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-11-09
 
+- **Skills grid: outward moves only** (Troy): no lateral moves. Each kit opens a cone that holds only its own Damage Boost, so extra boosts need extra kits.
+- **Mark the Target reworked** (Troy) into a sustained mark, working name *Again!*: an action attack; on a hit, 1 stamina marks the foe so the next damaging hit gains 1d12; on each hit you may pay another stamina (free, no action) to keep it, with no time limit; no Damage Boost scaling.
 - **Rally picks up downed allies** (Troy). **Mark the Target** drafted (action, an attack; on a hit, 1 stamina marks the foe with 1 + Damage Boosts charges, each ally hit using one for +1d6), to be re-evaluated.
 - **Three more Herald techniques** (Troy, voice): *Greater Invigorate* (action + 2 stamina: an ally takes an action right away, without using its Reaction), *Reinvigorate* (Reaction + 1 stamina: an ally regains its Reaction, usable only after another creature moves or takes its turn) and *Rally* (Bonus Action, 1 stamina per ally: each spends a Hit Point Die and heals). The bigger-die add-on on *There's an Opening!* stays at 1 stamina. That makes nine Herald techniques.
 - **Four more Herald techniques** (Troy, voice): the coaching set, *You've Got This!* (checks), *There's an Opening!* (attacks) and *Heads Up!* (saves): free Bonus Action d4 on an ally's next roll, with 1-stamina add-ons for a Reaction, everyone, or a d6. And *Invigorate*: Bonus Action plus 1 stamina, an ally takes a Bonus Action right away, with no spell restriction. Details: `canon/techniques.md`.
