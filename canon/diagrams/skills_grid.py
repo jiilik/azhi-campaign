@@ -8,6 +8,7 @@ as the grid is designed. Coordinates are axial (q, r); ring n is the set
 of hexes at distance n from the centre.
 """
 import math
+import sys
 import os
 import matplotlib
 matplotlib.use("Agg")
@@ -233,6 +234,11 @@ def wedge(q, r):
             best, bd = ab, d
     return best
 
+# Print mode (Troy, 2026-11-11): python3 skills_grid.py --print
+# White faces, black outlines, light grey for special tiles; writes a
+# letter-size PDF, skills-grid-print.pdf.
+PRINT = "--print" in sys.argv
+
 fig, ax = plt.subplots(figsize=(11, 12.4))
 ax.set_aspect("equal")
 ax.axis("off")
@@ -257,20 +263,31 @@ for q in range(-RINGS, RINGS + 1):
             face, edge, lw = "#ececec", "#444444", 1.8
         elif (q, r) in TILES:
             face, edge, lw = COLOURS[ab], EDGE[ab], (1.8 if TILES[(q, r)][1] else 1.0)
+        if PRINT:
+            if n == 0 or (q, r) in SEAM_TILES:
+                face = "#e6e6e6"
+            elif (q, r) in THEMES and THEMES[(q, r)][2] is not None:
+                face = "#f3f3f3"
+            else:
+                face = "white"
+            if n <= 1 or (q, r) in TILES or (q, r) in SEAM_TILES or (q, r) in THEMES:
+                edge, lw = "black", max(lw, 1.2)
+            else:
+                edge, lw = "#888888", 0.6
         ax.add_patch(RegularPolygon((x, y), 6, radius=SIZE * 0.97,
                                     orientation=math.pi / 6,
                                     facecolor=face, edgecolor=edge, lw=lw))
         busy = (q, r) in TILES or (q, r) in THEMES
         if busy:  # small number at the foot of a filled tile
             ax.text(x, y - 0.68, NUMBERS[(q, r)], ha="center", va="center",
-                    fontsize=5.6, weight="bold", color="#8a8a8a", zorder=3)
+                    fontsize=5.6, weight="bold", color="#555555" if PRINT else "#8a8a8a", zorder=3)
         else:     # large grey number in an empty tile
             ax.text(x, y, NUMBERS[(q, r)], ha="center", va="center",
-                    fontsize=11, weight="bold", color="#c4c4c4", zorder=2)
+                    fontsize=11, weight="bold", color="#9a9a9a" if PRINT else "#c4c4c4", zorder=2)
         if (q, r) in TILES:
             l1, l2, l3 = TILES[(q, r)]
             ax.text(x, y + 0.36, l1, ha="center", va="center", fontsize=6.6, color="#444", zorder=3)
-            ax.text(x, y, l2, ha="center", va="center", fontsize=7.6 if len(l2) <= 10 else 6.6, weight="bold", zorder=3)
+            ax.text(x, y, l2, ha="center", va="center", fontsize=7.6 if len(l2) <= 10 else (5.9 if PRINT else 6.6), weight="bold", zorder=3)
             if "{" in l3:
                 place_line(ax, x, y - 0.36, l3)
             else:
@@ -285,7 +302,7 @@ for (dq, dr), ab in zip(DIRS, ABILITIES):
     x, y = to_xy(dq * (RINGS + 1.55), dr * (RINGS + 1.55))
     name = {"Cha": "CHARISMA", "Dex": "DEXTERITY", "Str": "STRENGTH",
             "Con": "CONSTITUTION", "Wis": "WISDOM", "Int": "INTELLIGENCE"}[ab]
-    ax.text(x, y, name, ha="center", va="center", fontsize=11, weight="bold", color=EDGE[ab])
+    ax.text(x, y, name, ha="center", va="center", fontsize=11, weight="bold", color="black" if PRINT else EDGE[ab])
 
 # Fantasy themes outside ring 6 (Troy, 2026-11-09): each kit's middle
 # theme under its ability name, each seam's theme beyond the ring's side.
@@ -304,7 +321,8 @@ for i, ab in enumerate(ABILITIES):
 lim = SIZE * (RINGS * 1.5 + 3.4)
 ax.set_xlim(-lim, lim)
 ax.set_ylim(-lim - 3.2, lim + 2.4)
-ax.text(0, lim + 2.0, "Azhi: the Skills Grid (draft, 2026-11-07)", ha="center",
+title = "Azhi: the Skills Grid (print, 2026-11-11)" if PRINT else "Azhi: the Skills Grid (draft, 2026-11-07)"
+ax.text(0, lim + 2.0, title, ha="center",
         va="center", fontsize=15, weight="bold")
 ax.text(0, -lim - 2.0,
         "Centre and ring 1: populated (Req / name / what adds up).  Ring 2: 201-202 technique tiles.  Italic labels outside the grid: fantasy themes.\n"
@@ -313,6 +331,22 @@ ax.text(0, -lim - 2.0,
 place_line(ax, 0, -lim - 2.6, "{H} Hit Die     {S} stamina (SP)     {M} mana (MP)", zoom=0.14)
 
 here = os.path.dirname(os.path.abspath(__file__))
+if PRINT:
+    raw = os.path.join(here, "skills-grid-print-raw.pdf")
+    fig.savefig(raw, bbox_inches="tight", pad_inches=0.1, dpi=600)
+    from pypdf import PdfReader, PdfWriter, Transformation
+    page = PdfReader(raw).pages[0]
+    w, h = float(page.mediabox.width), float(page.mediabox.height)
+    W, H, M = 612, 792, 27  # US Letter, 3/8 inch margin
+    k = min((W - 2 * M) / w, (H - 2 * M) / h)
+    out = PdfWriter()
+    blank = out.add_blank_page(W, H)
+    page.add_transformation(Transformation().scale(k).translate((W - w * k) / 2, (H - h * k) / 2))
+    blank.merge_page(page)
+    out.write(os.path.join(here, "skills-grid-print.pdf"))
+    os.remove(raw)
+    print("ok print")
+    sys.exit()
 fig.savefig(os.path.join(here, "skills-grid.png"), dpi=200, bbox_inches="tight")
 fig.savefig(os.path.join(here, "skills-grid.svg"), bbox_inches="tight")
 print("ok")
