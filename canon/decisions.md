@@ -2,6 +2,12 @@
 
 Newest first. One line per decision: what was decided, and why if a reason was given. Add to this log every time the author settles something, and update `canon/setting-bible.md` to match.
 
+## 2026-11-11
+
+- **Scout Kit techniques** (Troy, voice): the kit teaches **I'm Going First!** (on Initiative, 1 stamina for +5, 2 for +10) and **Sidestep** (Reaction when hit or making a Dexterity save, light or no armour: 1/2/3 stamina for 1d4/1d8/1d12 to AC or Dexterity saves until the start of your next turn). Kit techniques must suit every kind of Scout. Precise Strike rejected.
+- **Greater Sidestep on ring 4** (Troy): adds 4 stamina for 2d8 and 5 stamina for 2d10; tile to be chosen. **Evasion** (SRD) saved for a deeper ring.
+- **Skills grid print version** (Troy asked): `skills_grid.py --print` writes a letter-size PDF.
+
 ## 2026-11-10
 
 - **Scout technique placements** (Troy, voice): Duellist dropped (the Dueling style covers it); free Dash or Disengage and Deflect Attacks on 304; Take Aim (Steady Aim-style, free with a 1-stamina add-on) on ring 3, tile to be chosen; Uncanny Dodge on ring 5, manoeuvres side, tile to be chosen. The Scout Kit's own techniques are still open.

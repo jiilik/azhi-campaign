@@ -186,7 +186,40 @@ Two kinds of tile are scattered across the whole skills grid and stack no matter
 
 ## Scout techniques (in progress)
 
-*Voice, 2026-11-10 (evening commute). The Scout Kit (12) teaches nothing yet.*
+*Voice, 2026-11-10 (evening commute). The Scout Kit (12) taught nothing yet; filled 2026-11-11, below.*
+
+### Scout Kit (12) *(Troy, voice, 2026-11-11, evening commute)*
+
+The kit has 4 stamina from the start, so it needs something to spend it on. As with the Herald, you know every technique on the tile, so each one has to be worth having for an archer, a duellist and a two-weapon fighter alike: about the Scout itself (speed, reflexes), not a weapon. Starting kit flavours the build: a manoeuvres character who starts from the Scout Kit has *I'm Going First!*; the same build from the Fighter Kit doesn't.
+
+| Technique | Text |
+|---|---|
+| **I'm Going First!** | When you roll Initiative, spend 1 stamina for +5 to the roll, or 2 stamina for +10. No free version. |
+| **Sidestep** | *Reaction, when you're hit or make a Dexterity save, in light or no armour.* Spend 1, 2 or 3 stamina to add 1d4, 1d8 or 1d12 to your AC **or** your Dexterity saves until the start of your next turn. |
+
+- **I'm Going First!**: Troy first pitched +10/+20; cut to +5/+10 so both tiers matter (+10 nearly guarantees going first). *(Claude: compare the 2024 Alert feat, which adds Proficiency Bonus to Initiative for free; watch for later combos that reward acting before foes.)*
+- **Sidestep** grew from *Fleet-Footed* (a die to AC while moving; Battle Master's Evasive Footwork, not in the SRD), reshaped to work like *Shield*. Choices made along the way:
+  - **Shield-like:** a Reaction when hit, lasting until the start of your next turn. Averages 2.5, 4.5 and 6.5; at 2 stamina (about one level-1 spell) the d8's 4.5 sits just under Shield's +5.
+  - **Light or no armour only**, so heavily armoured builds can't dip for it.
+  - **AC or Dexterity saves, chosen per use**, both lasting the same time so the two are worth the same.
+  - **Named Sidestep**, because *Evasion* is already an SRD feature.
+  - It gives the Scout a real Reaction choice at the kit, where it otherwise has only Opportunity Attacks; later it competes with Deflect Attacks and Uncanny Dodge (both cut damage after a hit; Sidestep turns a hit into a miss).
+  - Troy: "it gives them a bunch of dice to roll whenever they're being attacked, which is kind of fun."
+- *(Claude, wording to settle; not discussed):*
+  1. Does the AC die count **against the triggering attack**, as Shield's +5 does? The earlier voice draft said yes; the tight wording dropped it.
+  2. **Timing:** Shield is used after you know you're hit. Is Sidestep's save version used after you see the save roll, or before?
+- **Fighting styles** will get stamina add-ons later (parked 2026-11-10), giving every Scout a third way to spend stamina.
+- **Rejected:** *Precise Strike* (Claude: 1 stamina, +1d6 damage after a hit). Troy didn't like it.
+
+**Upgrades and deeper ideas:**
+
+| Idea | Where | Notes |
+|---|---|---|
+| **Greater Sidestep** | **ring 4, tile to be chosen** | Chains from Sidestep, like the *Invigorate* family. Adds tiers: **4 stamina for 2d8** (avg 9), **5 stamina for 2d10** (avg 11). 4 for 2d12 was judged too much. Two dice are steadier than one. |
+| **Evasion** (SRD rogue and monk, level 7) | **a deeper ring** (5 or 6), tile to be chosen | On a Dexterity save for half damage: none on a success, half on a failure. |
+| **Riposte** | — | Troy likes it for the duellist. The Battle Master's Riposte isn't in the SRD; the nearest SRD thing is the monk's Deflect Attacks redirect. Not designed yet. |
+
+*(Claude, checked against SRD 5.2.1, 2026-11-11):* Shield (+5 AC until the start of your next turn, including against the triggering attack), Uncanny Dodge (halve the damage; the voice chat corrected Troy's "disadvantage"), Evasion (rogue and monk, level 7) and Alert's *Initiative Proficiency* all match the voice chat's descriptions.
 
 - **Duellist dropped** *(Troy)*: the Dueling fighting style already covers it.
 - **What the Dexterity classes share** *(Claude, voice)*: Weapon Mastery, light armour, Finesse and ranged weapons; a Bonus Action Dash or Disengage (rogue, monk); Expertise (rogue, ranger).
