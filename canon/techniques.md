@@ -195,7 +195,7 @@ The kit has 4 stamina from the start, so it needs something to spend it on. As w
 | Technique | Text |
 |---|---|
 | **I'm Going First!** | When you roll Initiative, spend 1 stamina for +5 to the roll, or 2 stamina for +10. No free version. |
-| **Sidestep** | *Reaction, when you're hit or make a Dexterity save, in light or no armour.* Spend 1, 2 or 3 stamina to add 1d4, 1d8 or 1d12 to your AC **or** your Dexterity saves until the start of your next turn. |
+| **Sidestep** | *Reaction, when you're hit or fail a Dexterity save, in light or no armour.* Spend 1, 2 or 3 stamina to add 1d4, 1d8 or 1d12 to your AC **or** your Dexterity saves until the start of your next turn, including the triggering roll. |
 
 - **I'm Going First!**: Troy first pitched +10/+20; cut to +5/+10 so both tiers matter (+10 nearly guarantees going first). *(Claude: compare the 2024 Alert feat, which adds Proficiency Bonus to Initiative for free; watch for later combos that reward acting before foes.)*
 - **Sidestep** grew from *Fleet-Footed* (a die to AC while moving; Battle Master's Evasive Footwork, not in the SRD), reshaped to work like *Shield*. Choices made along the way:
@@ -205,9 +205,7 @@ The kit has 4 stamina from the start, so it needs something to spend it on. As w
   - **Named Sidestep**, because *Evasion* is already an SRD feature.
   - It gives the Scout a real Reaction choice at the kit, where it otherwise has only Opportunity Attacks; later it competes with Deflect Attacks and Uncanny Dodge (both cut damage after a hit; Sidestep turns a hit into a miss).
   - Troy: "it gives them a bunch of dice to roll whenever they're being attacked, which is kind of fun."
-- *(Claude, wording to settle; not discussed):*
-  1. Does the AC die count **against the triggering attack**, as Shield's +5 does? The earlier voice draft said yes; the tight wording dropped it.
-  2. **Timing:** Shield is used after you know you're hit. Is Sidestep's save version used after you see the save roll, or before?
+- **Counts against the triggering roll, used after it's known** *(Troy, 2026-11-11)*: like Shield, which is cast "when you are hit" and applies "including against the triggering attack". At most tables the DM announces the attack total, so the player knows the margin and picks the die (hit by 1: the d4 always works; hit by 9+: only the d12 can help).
 - **Fighting styles** will get stamina add-ons later (parked 2026-11-10), giving every Scout a third way to spend stamina.
 - **Rejected:** *Precise Strike* (Claude: 1 stamina, +1d6 damage after a hit). Troy didn't like it.
 
