@@ -4,6 +4,7 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-11-11
 
+- **Species advancement wheel** (Troy): the root is the existing species description and colour-wheel form; linear cost per ring for now, six rings deep (54 arcs); choices per ring, Unphased points and accumulation left open. No breath weapons (reaffirmed). Diagram: `art/cartoon/species_advancement.py`.
 - **Full class rebuild** (Troy): classes are replaced by the progression trees and the skills grid. `canon/brainstorm-progression.md` moves from EXPLORING to ADOPTED direction. Troy: "Progression on wheels is a fun theme for a ring-shaped world."
 - **Ring 2 names** (Troy, voice): kit lines Herald II, Scout II, Fighter II, Tank II, Mystic II, Mage II; seams 202 Cunning, 204 Precision, 206 Might, 208 Vitality, 210 Lore, 212 Control, continuing as II on the ring-4 seams and III on the ring-6 seams.
 - **Tile names** (Troy, voice): the top line becomes a short look-up name (kits keep their prerequisite). Ring 3: 301 Warlord, 302 Tactician, 303 Rogue, 304 Ranger, 305 Skirmisher, 306 Virtuoso, 307 Champion, 308 Brute, 309 Bulwark, 310 Juggernaut, 311 Blood Mage, 312 Shaman, 313 Oracle, 314 Sage, 315 Alchemist, 316 Wizard, 317 Summoner, 318 Hexer. Each gets a "II" tile straight out on ring 6 (601–635, odd). The monk moves to the Scout and manoeuvres side.

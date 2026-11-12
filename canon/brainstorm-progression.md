@@ -317,6 +317,14 @@ Before the revaluation, every kit was below the 2024 level 1 it replaces, and th
   - *(Claude's arithmetic)* Costs of 1, 1, 2, 3, 5, 8 and 13 give running totals of 1, 2, 4, 7, 12, 20 and 33. Twenty points reaches **six rings**; even everything into form over a career tops out around **eight**.
   - *(Claude, PROPOSED)* Other ways to cut the material: a shared draconic spine written once; repeatable nodes; a depth cap.
 
+### The species advancement wheel *(Troy, 2026-11-11)*
+
+- **Root:** the existing species description and each form's colour-wheel package. The spoke advances outward from it.
+- **No breath weapons** (already retired, 2026-10-30). Azhi's dragonborn aren't the SRD's; breath weapons may come back later, but not now.
+- **Linear cost** per ring for now (replacing the Fibonacci idea), **six rings deep** at most for now: **9 × 6 = 54 arcs** to fill.
+- **Open:** choices per ring; what the Unphased do with form points; how points accumulate.
+- **Diagram:** `art/cartoon/species_advancement.py` → `output/species_advancement.png`. The colour wheel (unchanged in `colour_wheel.py`) without Gold and Silver, six concentric rings, nine radial lines; arc text follows the arc. Fill arcs in its `ARCS` table.
+
 ### Conflicts with earlier decisions *(Claude, for Troy)*
 
 1. **One node from each tree per advance** (2026-11-05) assumed two trees. With three trees and possibly three points per level, it is open again.
