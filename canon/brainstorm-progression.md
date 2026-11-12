@@ -1,6 +1,6 @@
 # Brainstorm: A Progression System Built for Phasing (Option D)
 
-**Status: EXPLORING** (opened 2026-11-05). This file explores replacing classes with trees. Nothing is decided: classes are not yet dropped. Troy's statements are marked *(Troy)*; everything else is Claude's and PROPOSED.
+**Status: ADOPTED direction** (opened 2026-11-05; Troy, 2026-11-11: "we've fairly confidently settled that we're doing a full class rebuild"). Classes are replaced by the three trees and the skills grid; the details below are still being designed. Troy's statements are marked *(Troy)*; everything else is Claude's and PROPOSED.
 
 **Background.** Troy asked whether phasing should let a level 12 cleric become a level 12 wizard, then whether classes should go entirely, with progression built around phasing from the outset. Claude offered four options (`canon/brainstorm-extended-traits.md` §3a). Troy chose to explore option D, "everything is trees".
 
