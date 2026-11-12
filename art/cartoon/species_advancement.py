@@ -38,6 +38,19 @@ ARCS = {}
 # A text heart (not the emoji), so it turns with the curved text.
 HEART = '<tspan fill="#d0312d" font-weight="bold">\u2665</tspan>'
 # Hit Die per colour on rings 2-6, none on ring 1 (Troy, voice, 2026-11-11).
+# Pools per arc on rings 2-6 (Troy, voice, 2026-11-11): about three
+# quarters of a matching grid tile, so a pure caster still prefers the grid.
+STAR = '<tspan fill="#c99a06" font-weight="bold">\u2605</tspan>'   # stamina
+MANA = '<tspan fill="#5b3fb5" font-weight="bold">\u25c6</tspan>'   # mana
+POOL = {"Red": (0, 3), "Brown": (1, 1), "Yellow": (3, 1), "Green": (2, 2),
+        "Blue": (2, 2), "Indigo": (2, 2), "Black": (4, 0), "Grey": (4, 0),
+        "White": (3, 1)}   # (mana, stamina)
+def pool_line(form):
+    m, st_ = POOL[form]
+    out = HEART + " " + HIT_DIE[form]
+    if m: out += "\u00a0\u00a0\u00a0" + MANA + " " + str(m)
+    if st_: out += "\u00a0\u00a0\u00a0" + STAR + " " + str(st_)
+    return out
 HIT_DIE = {"Red": "d10", "Brown": "d12", "Yellow": "d8", "Green": "d8",
            "Blue": "d6", "Indigo": "d6", "Black": "d6", "Grey": "d6", "White": "d8"}
 
@@ -97,7 +110,7 @@ def build():
         for j, k in enumerate(range(FIRST, LAST + 1)):
             r_in, r_out = R0 + j * RW, R0 + (j + 1) * RW
             o.append(arc_band(r_in, r_out, a0, a1, light(scale, 0.35 + 0.09 * (j + 1))))
-            title, desc, nums = ARCS.get((form, k), (f"{name} {k}", FIXED.get(k, ""), HEART + " " + HIT_DIE[form]))
+            title, desc, nums = ARCS.get((form, k), (f"{name} {k}", FIXED.get(k, ""), pool_line(form)))
             pid = f"t_{form}_{k}"
             # Three lines, outermost first: title, descriptor, numbers. On the
             # lower half the text is upright, so the order flips radially.
@@ -145,6 +158,10 @@ def build():
         o.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="22" fill="#fbf4e3" stroke="{INK}" stroke-width="4"/>'
                  f'<text x="{x:.1f}" y="{y + 9:.1f}" text-anchor="middle" font-family="DejaVu Sans" '
                  f'font-weight="bold" font-size="26" fill="{INK}">{k}</text>')
+    # Legend
+    o.append(f'<text x="{W/2}" y="{H - 40}" text-anchor="middle" font-family="DejaVu Sans" font-size="30" fill="#f3e8cf">'
+             f'<tspan fill="#ff6b6b">\u2665</tspan> Hit Die\u00a0\u00a0\u00a0\u00a0 <tspan fill="#9d86ff">\u25c6</tspan> mana\u00a0\u00a0\u00a0\u00a0 '
+             f'<tspan fill="#f2c94c">\u2605</tspan> stamina\u00a0\u00a0\u00a0\u00a0 (each arc, rings 2 to 6)</text>')
     # Title
     o.append(f'<text x="{W/2}" y="80" text-anchor="middle" font-family="DejaVu Serif" font-weight="bold" '
              f'font-size="56" fill="#f3e8cf">Species Advancement</text>')
