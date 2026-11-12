@@ -349,10 +349,11 @@ def wedge(q, r):
             best, bd = ab, d
     return best
 
-# Print mode (Troy, 2026-11-11): python3 skills_grid.py --print
-# White faces, black outlines, light grey for special tiles; writes a
-# letter-size PDF, skills-grid-print.pdf.
-PRINT = "--print" in sys.argv
+# Every run also writes skills-grid.pdf (vector, in colour), which
+# print_wheels.py puts on a letter page beside the species wheel.
+# --mono (2026-11-11): white faces, black outlines, light grey special tiles;
+# writes skills-grid-mono.png, .svg and .pdf instead.
+PRINT = "--mono" in sys.argv
 
 fig, ax = plt.subplots(figsize=(11, 12.4))
 ax.set_aspect("equal")
@@ -443,7 +444,7 @@ for i, ab in enumerate(ABILITIES):
 lim = SIZE * (RINGS * 1.5 + 3.4)
 ax.set_xlim(-lim, lim)
 ax.set_ylim(-lim - 3.2, lim + 2.4)
-title = "Azhi: the Skills Grid (print, 2026-11-11)" if PRINT else "Azhi: the Skills Grid (draft, 2026-11-07)"
+title = "Azhi: the Skills Grid (draft, 2026-11-11)"
 ax.text(0, lim + 2.0, title, ha="center",
         va="center", fontsize=15, weight="bold")
 ax.text(0, -lim - 2.0,
@@ -453,22 +454,8 @@ ax.text(0, -lim - 2.0,
 place_line(ax, 0, -lim - 2.6, "{H} Hit Die     {S} stamina (SP)     {M} mana (MP)", zoom=0.14)
 
 here = os.path.dirname(os.path.abspath(__file__))
-if PRINT:
-    raw = os.path.join(here, "skills-grid-print-raw.pdf")
-    fig.savefig(raw, bbox_inches="tight", pad_inches=0.1, dpi=600)
-    from pypdf import PdfReader, PdfWriter, Transformation
-    page = PdfReader(raw).pages[0]
-    w, h = float(page.mediabox.width), float(page.mediabox.height)
-    W, H, M = 612, 792, 27  # US Letter, 3/8 inch margin
-    k = min((W - 2 * M) / w, (H - 2 * M) / h)
-    out = PdfWriter()
-    blank = out.add_blank_page(W, H)
-    page.add_transformation(Transformation().scale(k).translate((W - w * k) / 2, (H - h * k) / 2))
-    blank.merge_page(page)
-    out.write(os.path.join(here, "skills-grid-print.pdf"))
-    os.remove(raw)
-    print("ok print")
-    sys.exit()
-fig.savefig(os.path.join(here, "skills-grid.png"), dpi=200, bbox_inches="tight")
-fig.savefig(os.path.join(here, "skills-grid.svg"), bbox_inches="tight")
+stem = os.path.join(here, "skills-grid" + ("-mono" if PRINT else ""))
+fig.savefig(stem + ".png", dpi=200, bbox_inches="tight")
+fig.savefig(stem + ".svg", bbox_inches="tight")
+fig.savefig(stem + ".pdf", bbox_inches="tight", pad_inches=0.1, dpi=600)
 print("ok")

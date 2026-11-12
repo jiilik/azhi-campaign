@@ -4,6 +4,7 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-11-11
 
+- **Printable wheels** (Troy): the greyscale skills-grid print is replaced by `canon/diagrams/progression-wheels-print.pdf`, both wheels in colour on two Letter pages (`print_wheels.py`). Troy found the print useful for offline brainstorming and for explaining the progression rules to a reviewer.
 - **Same symbols on both wheels** (Troy, voice): red ♥ Hit Die, gold ★ stamina, purple ◆ mana replace the emoji on the skills grid, matching the species wheel.
 - **Species wheel pools** (Troy, voice): about three quarters of a grid tile. Per arc, rings 2–6: Red 3 stamina; Brown 1 mana 1 stamina; Yellow 3 mana 1 stamina; Green, Blue, Indigo 2 mana 2 stamina; Black, Grey 4 mana; White 3 mana 1 stamina. Bigger Hit Dice, smaller pools.
 - **Species wheel Hit Dice** (Troy, voice): none on ring 1; one die per colour on rings 2–6, the same along the spoke; large dice allowed (buying hit points here costs grid progress). Brown d12; Red d10; Yellow, Green, White d8; Blue, Indigo, Black, Grey d6.

@@ -94,13 +94,19 @@ def stars(n, seed):
     return o
 
 
-def build():
+def build(printable=False):
+    """printable: white page, no stars, dark title (for print_wheels.py)."""
     o = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">']
     o.append('<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">'
              '<stop offset="0" stop-color="#1d2148"/><stop offset=".55" stop-color="#3b3a6e"/>'
              '<stop offset="1" stop-color="#25233f"/></linearGradient></defs>')
-    o.append(f'<rect width="{W}" height="{H}" fill="url(#bg)"/>')
-    o.append(stars(260, 3))
+    if printable:
+        o.append(f'<rect width="{W}" height="{H}" fill="#ffffff"/>')
+    else:
+        o.append(f'<rect width="{W}" height="{H}" fill="url(#bg)"/>')
+        o.append(stars(260, 3))
+    ink, ink2 = ("#2a2440", "#5a4e40") if printable else ("#f3e8cf", "#c9bda3")
+    sym = ("#d0312d", "#5b3fb5", "#c99a06") if printable else ("#ff6b6b", "#9d86ff", "#f2c94c")
 
     # Six advancement rings, nine spokes. Each spoke fades lighter outward.
     defs, texts = [], []
@@ -159,14 +165,14 @@ def build():
                  f'<text x="{x:.1f}" y="{y + 9:.1f}" text-anchor="middle" font-family="DejaVu Sans" '
                  f'font-weight="bold" font-size="26" fill="{INK}">{k}</text>')
     # Legend
-    o.append(f'<text x="{W/2}" y="{H - 40}" text-anchor="middle" font-family="DejaVu Sans" font-size="30" fill="#f3e8cf">'
-             f'<tspan fill="#ff6b6b">\u2665</tspan> Hit Die\u00a0\u00a0\u00a0\u00a0 <tspan fill="#9d86ff">\u25c6</tspan> mana\u00a0\u00a0\u00a0\u00a0 '
-             f'<tspan fill="#f2c94c">\u2605</tspan> stamina\u00a0\u00a0\u00a0\u00a0 (each arc, rings 2 to 6)</text>')
+    o.append(f'<text x="{W/2}" y="{H - 40}" text-anchor="middle" font-family="DejaVu Sans" font-size="30" fill="{ink}">'
+             f'<tspan fill="{sym[0]}">\u2665</tspan> Hit Die\u00a0\u00a0\u00a0\u00a0 <tspan fill="{sym[1]}">\u25c6</tspan> mana\u00a0\u00a0\u00a0\u00a0 '
+             f'<tspan fill="{sym[2]}">\u2605</tspan> stamina\u00a0\u00a0\u00a0\u00a0 (each arc, rings 2 to 6)</text>')
     # Title
     o.append(f'<text x="{W/2}" y="80" text-anchor="middle" font-family="DejaVu Serif" font-weight="bold" '
-             f'font-size="56" fill="#f3e8cf">Species Advancement</text>')
+             f'font-size="56" fill="{ink}">Species Advancement</text>')
     o.append(f'<text x="{W/2}" y="120" text-anchor="middle" font-family="DejaVu Serif" font-style="italic" '
-             f'font-size="24" fill="#c9bda3">The colour wheel, base form (ring 1) and rings 2 to 6 on each spoke (draft, 2026-11-11; PROPOSED)</text>')
+             f'font-size="24" fill="{ink2}">The colour wheel, base form (ring 1) and rings 2 to 6 on each spoke (draft, 2026-11-11; PROPOSED)</text>')
     o.append('</svg>')
     return ''.join(o)
 
@@ -177,3 +183,14 @@ if __name__ == '__main__':
     subprocess.run([sys.executable, 'svg2png.py', 'build/species_advancement.svg',
                     'output/species_advancement.png', str(W), str(H)], check=True)
     print('output/species_advancement.png', W, H)
+    if '--print' in sys.argv:
+        # Vector PDF on a white page, for print_wheels.py.
+        from playwright.sync_api import sync_playwright
+        svg = build(printable=True)
+        with sync_playwright() as p:
+            b = p.chromium.launch(); pg = b.new_page()
+            pg.set_content(f'<html><body style="margin:0">{svg}</body></html>')
+            pg.pdf(path='output/species_advancement.pdf', width=f'{W}px', height=f'{H}px',
+                   print_background=True, page_ranges='1')
+            b.close()
+        print('output/species_advancement.pdf')
