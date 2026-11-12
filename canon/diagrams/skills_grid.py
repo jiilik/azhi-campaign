@@ -302,6 +302,26 @@ for num, name in RING3_NAMES.items():
     for h, label in (((q, r), name), ((2 * q, 2 * r), name + " II")):
         _, l2, l3 = TILES[h]
         TILES[h] = (label, l2, l3)
+# Ring 2 names (Troy, voice, 2026-11-11): kit lines are "<Kit> II"; seams
+# evoke the two ring-3 subclasses beyond them, and carry on as II (ring 4)
+# and III (ring 6) along the seam rays.
+RING2_NAMES = {"201": "Herald II", "202": "Cunning", "203": "Scout II",
+               "204": "Precision", "205": "Fighter II", "206": "Might",
+               "207": "Tank II", "208": "Vitality", "209": "Mystic II",
+               "210": "Lore", "211": "Mage II", "212": "Control"}
+SEAM_NAMES = {"202", "204", "206", "208", "210", "212"}
+def name_tile(h, label):
+    if h in TILES:
+        _, l2, l3 = TILES[h]
+    else:
+        l2, l3 = "", LINE3.pop(h, "")
+    TILES[h] = (label, l2, l3)
+for num, name in RING2_NAMES.items():
+    q, r = BY_NUMBER[num]
+    name_tile((q, r), name)
+    if num in SEAM_NAMES:
+        name_tile((2 * q, 2 * r), name + " II")
+        name_tile((3 * q, 3 * r), name + " III")
 print("ring 6 II tiles:", " ".join(NUMBERS[(2 * BY_NUMBER[n][0], 2 * BY_NUMBER[n][1])] for n in RING3_NAMES))
 NOPOOL = sorted((NUMBERS[h] for h in NUMBERS if h != (0, 0) and "{S}" not in
                  (TILES.get(h, ("", "", LINE3.get(h, "")))[2]) and "{M}" not in
