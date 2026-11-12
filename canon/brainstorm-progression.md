@@ -125,6 +125,12 @@ Levels 11–19 add 9, 0, 10, 0, 11, 0, 13, 7 and 9.
 - **Summoner seam (Int–Cha):** 2 mana and 2 stamina on 212, 423, 634; 4 mana and 1 stamina on 528, 633 (Mage side); 1 mana and 3 stamina on 529, 635 (Herald side).
 - **Herald line, 4 stamina a tile:** 201 raised from 3 to 4; 301, 401, 501, 601 and the Herald edge 318, 424, 530, 636 get 4. The straight line reaches 24 at ring 6, against the Mage's 30; Troy: that gap is fine.
 - **Mystic wedge, 4 mana a tile** *(same evening)*: 209 (raised from 3), 312–314, 416–418, 519–523, 623–627, and the Wis–Int seam's 419 and 628. The straight line reaches 24 at ring 6, like the Herald's stamina. The Mystic also gets powers that don't run on mana, such as something like the druid's Wild Shape. *(Claude, to revisit when designing the Mystic's powers: shape-changing may overlap the Green form, which holds the druid fantasy.)*
+- **Stamina, Herald–Scout–Fighter side** *(same evening)*:
+  - **4 stamina:** the Herald side of the Herald–Scout seam (202 raised from 3, 302, 402, 403, 502, 503, 602, 603, 604); the whole Scout wedge (203 raised from 3, 303–305, 404–406, 504–508, 605–609); and the Scout–Fighter seam where the Battle Master will live (204 raised from 3, 407, 610), so it has a resource to spend.
+  - **2 stamina:** the Fighter wedge (306–308, 408–410, 510–513, 612–615), with **3** on 509 and 611 next to the Scout.
+  - **1 stamina:** the heavy-armour seam (206 lowered from 2, 411, 616) and the Tank edge (514, 617). Troy: the heavy-armoured Tank is an immovable wall and doesn't need much stamina.
+  - Straight lines at ring 6: Mage 30 mana; Herald, Scout and Mystic 24; Fighter 12.
+  - **No pool at all:** only the Constitution stripe, 14, 207, 309, 310, 412, 413, 515, 516, 618, 619. *(Troy: the Tank's massive bag of hit points is its resource.)*
 - **Mana into the Tank side** (the Con–Wis seam, monk and blood magic): 2 mana on 415, 622, 518, 621; 1 mana on 311, 414, 517, 620, for a martial character who needs a little magic in their punches.
 
 

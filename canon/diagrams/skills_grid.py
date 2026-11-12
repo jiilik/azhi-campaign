@@ -176,8 +176,8 @@ HIT_DICE = {"201": "d6", "202": "d6", "203": "d8", "204": "d8", "205": "d10",
             "210": "d6", "211": "d4", "212": "d6"}
 # Ring 2 stamina and mana (Troy, 2026-11-09).
 POOLS = {"201": "{S}4",  # 4 from 2026-11-11 (was 3)
-          "202": "{S}3", "203": "{S}3", "204": "{S}3",
-         "205": "{S}2", "206": "{S}2", "208": "{M}2", "209": "{M}4",
+          "202": "{S}4", "203": "{S}4", "204": "{S}4",
+         "205": "{S}2", "206": "{S}1", "208": "{M}2", "209": "{M}4",
          "210": "{M}4", "211": "{M}5", "212": "{M}2{S}2"}
 LINE3 = {}  # (q, r) -> line 3 for themed tiles
 
@@ -271,10 +271,27 @@ for num in "415 622 518 621".split():
     MORE_POOLS[num] = "{M}2"
 for num in "311 414 517 620".split():
     MORE_POOLS[num] = "{M}1"
+# Stamina, Herald-Scout-Fighter side (Troy, voice, 2026-11-11). Ring 2:
+# 202-204 raised to 4, 206 lowered to 1 (in POOLS above).
+for num in "302 402 502 602 503 603 403 604".split():  # Herald side of the seam
+    MORE_POOLS[num] = "{S}4"
+for num in ("303 304 305 404 405 406 504 505 506 507 508 "
+            "605 606 607 608 609 407 610").split():   # Scout wedge and Fighter seam
+    MORE_POOLS[num] = "{S}4"
+for num in "306 307 308 408 409 410 510 511 512 513 612 613 614 615".split():
+    MORE_POOLS[num] = "{S}2"                        # Fighter wedge
+for num in ("509", "611"):                          # Fighter, next to the Scout
+    MORE_POOLS[num] = "{S}3"
+for num in "411 616 514 617".split():               # heavy-armour seam, Tank edge
+    MORE_POOLS[num] = "{S}1"
 for num, pool in MORE_POOLS.items():
     h = BY_NUMBER[num]
     l1, l2, l3 = TILES[h]
     TILES[h] = (l1, l2, l3 + " " + pool)
+NOPOOL = sorted((NUMBERS[h] for h in NUMBERS if h != (0, 0) and "{S}" not in
+                 (TILES.get(h, ("", "", LINE3.get(h, "")))[2]) and "{M}" not in
+                 (TILES.get(h, ("", "", LINE3.get(h, "")))[2])), key=int)
+print("no stamina or mana:", " ".join(NOPOOL))
 EMPTY = sorted(NUMBERS[h] for h in NUMBERS if h not in TILES and h not in LINE3 and h != (0, 0))
 print("no Hit Die yet:", " ".join(EMPTY))
 
