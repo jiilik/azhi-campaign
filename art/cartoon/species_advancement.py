@@ -16,9 +16,12 @@ import party
 from party import figure, light, dark
 
 st, INK = cw.st, cw.INK
-RINGS = 6
+# Ring 1 is the base form (the colour wheel itself); rings 2-6 go outward
+# (Troy, 2026-11-11). 9 x 5 = 45 arcs beyond the base.
+FIRST, LAST = 2, 6
+RINGS = LAST - FIRST + 1
 R0 = cw.R_OUT + 14          # the colour wheel's outer edge (its thin outer circle)
-RW = 112                     # width of each advancement ring
+RW = 138                     # width of each advancement ring (three text lines)
 R_MAX = R0 + RINGS * RW
 MARGIN = 130
 W = H = int(2 * (R_MAX + MARGIN))
@@ -27,7 +30,10 @@ CX = CY = W // 2 + 20
 cw.W, cw.H, cw.CX, cw.CY = W, H, CX, CY
 STEP = cw.STEP
 
-# Arc contents: (form, ring) -> (title, subtitle). Empty for now.
+# Arc contents: (form, ring) -> (title, descriptor, numbers line).
+# Fixed for every colour (Troy, 2026-11-11): Prof. Up at ring 3, Attack Up at
+# ring 6, matching what six deep on the skills grid gives.
+FIXED = {3: "Prof. Up", 6: "Attack Up"}
 ARCS = {}
 
 
@@ -83,22 +89,25 @@ def build():
     for i, (form, name, *_rest) in enumerate(cw.WHEEL):
         scale, _belly = party.DRAGONS[form]
         a0, a1 = i * STEP - STEP / 2, i * STEP + STEP / 2
-        for k in range(1, RINGS + 1):
-            r_in, r_out = R0 + (k - 1) * RW, R0 + k * RW
-            o.append(arc_band(r_in, r_out, a0, a1, light(scale, 0.35 + 0.08 * k)))
-            title, sub = ARCS.get((form, k), (f"{name} {k}", "to be designed"))
+        for j, k in enumerate(range(FIRST, LAST + 1)):
+            r_in, r_out = R0 + j * RW, R0 + (j + 1) * RW
+            o.append(arc_band(r_in, r_out, a0, a1, light(scale, 0.35 + 0.09 * (j + 1))))
+            title, desc, nums = ARCS.get((form, k), (f"{name} {k}", FIXED.get(k, ""), ""))
             pid = f"t_{form}_{k}"
-            # two lines: title nearer the outer edge, subtitle nearer the inner
+            # Three lines, outermost first: title, descriptor, numbers. On the
+            # lower half the text is upright, so the order flips radially.
             mid_r = (r_in + r_out) / 2
-            lower = 90 < (i * STEP) % 360 < 270
-            r_title = mid_r + (-10 if lower else 10)
-            r_sub = mid_r + (24 if lower else -24)
+            sgn = -1 if 90 < (i * STEP) % 360 < 270 else 1
             pad = 2.0
-            d1, _ = text_arc(pid + "a", r_title, a0 + pad, a1 - pad)
-            d2, _ = text_arc(pid + "b", r_sub, a0 + pad, a1 - pad)
-            defs += [d1, d2]
-            texts.append(curved(pid + "a", title, 30))
-            texts.append(curved(pid + "b", sub, 20, weight="normal", style="italic", fill="#4a4036"))
+            for tag, off, txt, size, weight, style, fill in (
+                    ("a", 32, title, 30, "bold", "normal", INK),
+                    ("b", 0, desc, 24, "normal", "normal", INK),
+                    ("c", -34, nums, 22, "normal", "normal", "#4a4036")):
+                if not txt:
+                    continue
+                d, _ = text_arc(pid + tag, mid_r + sgn * off - (9 if sgn > 0 else -9) * 0, a0 + pad, a1 - pad)
+                defs.append(d)
+                texts.append(curved(pid + tag, txt, size, weight=weight, style=style, fill=fill))
     o.append('<defs>' + ''.join(defs) + '</defs>')
     o += texts
     # The colour wheel itself, as in colour_wheel.py (no Gold or Silver).
@@ -124,11 +133,18 @@ def build():
         p, q = pt(R0, a), pt(R_MAX, a)
         o.append(f'<line x1="{p[0]:.1f}" y1="{p[1]:.1f}" x2="{q[0]:.1f}" y2="{q[1]:.1f}" stroke="{INK}" stroke-width="6" stroke-linecap="round"/>')
     o.append(f'<circle cx="{CX}" cy="{CY}" r="{R_MAX}" fill="none" stroke="{INK}" stroke-width="6"/>')
+    # Ring numbers on the White-Red boundary: 1 is the base form.
+    a = -STEP / 2
+    for k, r in [(1, (cw.R_IN + cw.R_OUT) / 2)] + [(k, R0 + (j + 0.5) * RW) for j, k in enumerate(range(FIRST, LAST + 1))]:
+        x, y = pt(r, a)
+        o.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="22" fill="#fbf4e3" stroke="{INK}" stroke-width="4"/>'
+                 f'<text x="{x:.1f}" y="{y + 9:.1f}" text-anchor="middle" font-family="DejaVu Sans" '
+                 f'font-weight="bold" font-size="26" fill="{INK}">{k}</text>')
     # Title
     o.append(f'<text x="{W/2}" y="80" text-anchor="middle" font-family="DejaVu Serif" font-weight="bold" '
              f'font-size="56" fill="#f3e8cf">Species Advancement</text>')
     o.append(f'<text x="{W/2}" y="120" text-anchor="middle" font-family="DejaVu Serif" font-style="italic" '
-             f'font-size="24" fill="#c9bda3">The colour wheel, with six rings of advancement on each spoke (draft, 2026-11-11; PROPOSED)</text>')
+             f'font-size="24" fill="#c9bda3">The colour wheel, base form (ring 1) and rings 2 to 6 on each spoke (draft, 2026-11-11; PROPOSED)</text>')
     o.append('</svg>')
     return ''.join(o)
 

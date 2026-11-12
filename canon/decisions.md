@@ -4,6 +4,7 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-11-11
 
+- **Species wheel rings and progress points** (Troy): the base form is ring 1, advancement rings 2–6 (45 arcs). One progress point per level-up, spent on this wheel or the skills grid; six deep in either gives about the same power. Prof. Up on every ring-3 arc, Attack Up on every ring-6 arc.
 - **Species advancement wheel** (Troy): the root is the existing species description and colour-wheel form; linear cost per ring for now, six rings deep (54 arcs); choices per ring, Unphased points and accumulation left open. No breath weapons (reaffirmed). Diagram: `art/cartoon/species_advancement.py`.
 - **Full class rebuild** (Troy): classes are replaced by the progression trees and the skills grid. `canon/brainstorm-progression.md` moves from EXPLORING to ADOPTED direction. Troy: "Progression on wheels is a fun theme for a ring-shaped world."
 - **Ring 2 names** (Troy, voice): kit lines Herald II, Scout II, Fighter II, Tank II, Mystic II, Mage II; seams 202 Cunning, 204 Precision, 206 Might, 208 Vitality, 210 Lore, 212 Control, continuing as II on the ring-4 seams and III on the ring-6 seams.

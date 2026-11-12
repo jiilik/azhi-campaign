@@ -321,7 +321,9 @@ Before the revaluation, every kit was below the 2024 level 1 it replaces, and th
 
 - **Root:** the existing species description and each form's colour-wheel package. The spoke advances outward from it.
 - **No breath weapons** (already retired, 2026-10-30). Azhi's dragonborn aren't the SRD's; breath weapons may come back later, but not now.
-- **Linear cost** per ring for now (replacing the Fibonacci idea), **six rings deep** at most for now: **9 × 6 = 54 arcs** to fill.
+- **Linear cost** per ring for now (replacing the Fibonacci idea). **Six rings including the base:** the base form is **ring 1** (you always have it unless Unphased); rings **2–6** go outward: **9 × 5 = 45 arcs** to fill. Basically on-the-rails progression; if we ever branch, we split rings.
+- **Progress points** *(Troy, 2026-11-11)*: each level-up gives **one progress point**, invested either here or on the skills grid. Each is **six deep**: this wheel linear, the grid flexible (dipping into several kits). **Six deep in either should give about the same power**, so neither path misses Attack Up or Prof. Up.
+- **Fixed on every spoke:** **Prof. Up on ring 3**, **Attack Up on ring 6**. Hit Dice, stamina and mana to be added next. *(Claude: six deep on a skills-grid main line also gives one of each, Attack Up on ring 5 and Prof. Up on ring 6.)*
 - **Open:** choices per ring; what the Unphased do with form points; how points accumulate.
 - **Diagram:** `art/cartoon/species_advancement.py` → `output/species_advancement.png`. The colour wheel (unchanged in `colour_wheel.py`) without Gold and Silver, six concentric rings, nine radial lines; arc text follows the arc. Fill arcs in its `ARCS` table.
 
