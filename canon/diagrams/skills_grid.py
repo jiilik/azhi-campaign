@@ -227,10 +227,18 @@ for num in ("302", "402", "502", "503", "504", "602", "603", "605"):
 for num in ("303", "305", "404", "406", "505", "507", "508", "509",
             "606", "608", "609", "611"):
     FILL_HD[num] = "d8"
+# d10, Fighter side (Troy, voice, 2026-11-11).
+for num in ("306", "308", "408", "410", "510", "512", "513", "514",
+            "612", "614", "615", "617"):
+    FILL_HD[num] = "d10"
 for num, hd in FILL_HD.items():
     h = BY_NUMBER[num]
-    assert h not in RAY_TILES and h not in TILES, num
-    TILES[h] = ("", "", "{H}" + hd)
+    assert h not in RAY_TILES, num
+    if h in TILES:  # e.g. a Damage Boost tile: add the Hit Die to line 3
+        l1, l2, l3 = TILES[h]
+        TILES[h] = (l1, l2, "{H}" + hd + (" " + l3 if l3 else ""))
+    else:
+        TILES[h] = ("", "", "{H}" + hd)
 
 def wedge(q, r):
     """Nearest ability direction by angle, or None for the centre."""
