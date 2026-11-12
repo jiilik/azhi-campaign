@@ -2,6 +2,13 @@
 
 Newest first. One line per decision: what was decided, and why if a reason was given. Add to this log every time the author settles something, and update `canon/setting-bible.md` to match.
 
+## 2026-11-12
+
+- **Personality traits revert to the older rule** (Troy): Unphased have three traits, changeable once per Long Rest; phased have two and a colour; on phasing keep one trait and gain another; no return to Unphased; skill progress is kept.
+- **No personality progression** (Troy): only the 24 flat traits; progress points go to the species wheel or the skills grid. The personality tree is retired.
+- **Phasing refund** (Troy): halve the points invested in the colour wheel, rounding up, and reinvest them in the new colour.
+- **Stat Up on species ring 4** (Troy): +2 to one ability or +1 to two, fixed by the colour's affinity (Red Str +2). Per colour: Brown Con/Str, Yellow Int/Con, Green Dex/Con, Blue Dex/Cha, Black Int/Cha, Grey Int/Wis +1 each; Indigo Cha +2; White Wis +2.
+
 ## 2026-11-11
 
 - **Printable wheels** (Troy): the greyscale skills-grid print is replaced by `canon/diagrams/progression-wheels-print.pdf`, both wheels in colour on two Letter pages (`print_wheels.py`). Troy found the print useful for offline brainstorming and for explaining the progression rules to a reviewer.

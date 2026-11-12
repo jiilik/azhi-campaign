@@ -42,13 +42,22 @@ Written up from the voice transcript. One line in the transcript was attributed 
   3. **Learned skills:** the six ability entry points from 2026-11-05. **Kept on phasing:** you don't lose your memories. Your personality might shift, but your skills and experience remain.
 - **Dragons who phase stay full dragons.** For example, the Crimson phasing to Brown, or the elder Black phasing to Indigo. Neither goes back to being a dragonborn or anything lesser, and neither loses power or ability.
 
+### Decisions of 2026-11-12 *(Troy, text)*
+
+These overturn parts of the brainstorm below.
+1. **Personality traits (reverting to the older rule):** an **Unphased** character has **three** personality traits and may change them once per Long Rest (CANON since 2026-10-21: swap one trait each Long Rest). A **phased** character has **two traits and a colour**. On phasing you **keep one trait and gain another**, and your colour likely changes. You **cannot revert to Unphased**. You **keep your skill progress**.
+2. **No personality progression.** Traits are not something you invest in: there are only the **24 existing flat traits**, with no trait progression on level-up. *The personality tree below is retired.* So there are **two places to spend progress points**: the species wheel and the skills grid.
+3. **Phasing refund:** on phasing, take the points invested in the colour wheel, **halve them, rounding up**, and reinvest those in the new colour. *(Replaces "points come back" below.)*
+4. **Stat Up on ring 4 of the species wheel**, for every colour: **+2 to one ability, or +1 to two**, following the colour's affinity, with **no player choice**. Red: Strength +2. *(Claude, by the affinity list in the setting bible:)* Brown Con +1, Str +1; Yellow Int +1, Con +1; Green Dex +1, Con +1; Blue Dex +1, Cha +1; Indigo Cha +2; Black Int +1, Cha +1; Grey Int +1, Wis +1; White Wis +2.
+5. **Next (voice):** where, if anywhere, Stat Up tiles go on the skills grid.
+
 ### What phasing does to each tree *(Troy)*
 
-- **Form: points come back.** Whatever you had invested in the form tree is available to reinvest after the phase. Seven points in the Green branch, phased to White: reinvest them in White, and you may end up further along the form than a beginner. This is **gameable, on purpose**.
+- *(Superseded 2026-11-12: half the points come back, rounded up.)* **Form: points come back.** Whatever you had invested in the form tree is available to reinvest after the phase. Seven points in the Green branch, phased to White: reinvest them in White, and you may end up further along the form than a beginner. This is **gameable, on purpose**.
 - **Personality: the real penalty.** Everyone starts with two traits. On a phase you **keep one**. Anything that depended on the lost trait is **simply lost**, and anything that depended on the kept trait is **retained**. You partly keep your personality. No points come back, so it isn't gameable: nobody can force a phase just to switch branches. This **offsets the advantage of the form tree**.
 - **Learned skills: all kept.**
 
-### The personality tree: shallow and converging *(Troy, 2026-11-06, text)*
+### The personality tree: shallow and converging *(Troy, 2026-11-06, text; RETIRED 2026-11-12: no personality progression)*
 
 - **Pretty shallow: no more than four levels deep.** A new character already has two traits, at the entry points.
 - The nodes are **short trait trees, more like mini feats**.
