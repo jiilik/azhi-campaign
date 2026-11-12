@@ -4,6 +4,7 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-11-11
 
+- **Mystic and Tank mana** (Troy, voice): 4 mana on every Mystic-wedge tile (209 raised from 3) and on 419, 628; 2 mana on 415, 622, 518, 621; 1 mana on 311, 414, 517, 620. Mystic powers beyond mana (Wild Shape-like) to come; check the overlap with the Green form then.
 - **Mana and stamina, Mage and Herald sides** (Troy, voice): 5 mana on every Mage-wedge tile (the reference curve; the Mage is the strongest mana user); the summoner seam mixes (212, 423, 634: 2 mana 2 stamina; 528, 633: 4 mana 1 stamina; 529, 635: 1 mana 3 stamina); 4 stamina on 201 (was 3), 301, 401, 501, 601, 318, 424, 530, 636.
 - **Tile labels renamed** (Troy, voice): *Damage Boost* tiles now read **Attack Up**, and *Proficiency* tiles **Prof. Up** ("Proficiency Up" didn't fit), with the "+1" and "PB +1" dropped, because "❤️d10 +1" read as a d10 plus one. Attack Up covers both an extra attack and a bigger cantrip. Older notes still say Damage Boost; same thing.
 - **Scout Kit techniques** (Troy, voice): the kit teaches **I'm Going First!** (on Initiative, 1 stamina for +5, 2 for +10) and **Sidestep** (Reaction when hit or making a Dexterity save, light or no armour: 1/2/3 stamina for 1d4/1d8/1d12 to AC or Dexterity saves until the start of your next turn). Like Shield, it's used once the roll is known (when hit, or on a failed Dexterity save) and counts against the triggering roll. Kit techniques must suit every kind of Scout. Precise Strike rejected.

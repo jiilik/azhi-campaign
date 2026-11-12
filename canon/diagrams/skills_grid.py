@@ -177,7 +177,7 @@ HIT_DICE = {"201": "d6", "202": "d6", "203": "d8", "204": "d8", "205": "d10",
 # Ring 2 stamina and mana (Troy, 2026-11-09).
 POOLS = {"201": "{S}4",  # 4 from 2026-11-11 (was 3)
           "202": "{S}3", "203": "{S}3", "204": "{S}3",
-         "205": "{S}2", "206": "{S}2", "208": "{M}2", "209": "{M}3",
+         "205": "{S}2", "206": "{S}2", "208": "{M}2", "209": "{M}4",
          "210": "{M}4", "211": "{M}5", "212": "{M}2{S}2"}
 LINE3 = {}  # (q, r) -> line 3 for themed tiles
 
@@ -264,6 +264,13 @@ for num in ("529", "635"):
     MORE_POOLS[num] = "{M}1{S}3"
 for num in "301 401 501 601 318 424 530 636".split():
     MORE_POOLS[num] = "{S}4"
+# Mystic wedge, Wis-Int seam and the Tank's mana edge (Troy, voice, 2026-11-11).
+for num in "312 313 314 416 417 418 519 520 521 522 523 623 624 625 626 627 419 628".split():
+    MORE_POOLS[num] = "{M}4"
+for num in "415 622 518 621".split():
+    MORE_POOLS[num] = "{M}2"
+for num in "311 414 517 620".split():
+    MORE_POOLS[num] = "{M}1"
 for num, pool in MORE_POOLS.items():
     h = BY_NUMBER[num]
     l1, l2, l3 = TILES[h]
