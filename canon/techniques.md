@@ -40,35 +40,35 @@
 - This **replaces "the Herald picks three techniques from its kit list"**.
 - **The Herald Kit teaches *Rally* and the coaching set** (Troy, 2026-11-09): four plays at the start. **Momentum goes on 201.**
 - **This is the techniques system** *(Troy, 2026-11-09)*: **the same rules apply to the Scout and Fighter**, and to every technique tile. You know every technique on each tile you take.
-- **Campaign length:** assume most games go to about **level 10** in normal play. So **most players get a single Damage Boost, and some go for two.**
+- **Campaign length:** assume most games go to about **level 10** in normal play. So **most players get a single Attack Up, and some go for two.**
 
 ## Moving on the skills grid *(Troy, 2026-11-09)*
 
 - **You can only move towards the outside of the grid. No lateral moves.**
 - *(Claude's reading)* A new tile must touch a tile you already have in the next ring in. So each kit opens a **cone**: from a kit you can reach 3 tiles on ring 2, 5 on ring 3, 7 on ring 4, 9 on ring 5 and 11 on ring 6.
 - **Consequences** *(Claude, voice)*:
-  - Each kit's cone holds **only its own Damage Boost** (the ring-5 corner straight out from it). The neighbouring corners are just out of reach. So a second boost means taking a second kit and going five deep there, and four boosts means four kits each five deep: Troy's munchkin case.
-  - The **Proficiency tiles** on the ring-4 seams sit inside the cones of both neighbouring kits.
-- **Damage Boosts are rare** *(Troy)*: most characters get one, a dedicated multiclasser two. That's rarer than cantrip scaling in the 2024 rules, which goes by total level (levels 5, 11 and 17), so every caster gets all three steps. Pools (stamina, mana) grow wherever you go, so **most power will come from deeper pools and better techniques, not extra dice**.
+  - Each kit's cone holds **only its own Attack Up** (the ring-5 corner straight out from it). The neighbouring corners are just out of reach. So a second boost means taking a second kit and going five deep there, and four boosts means four kits each five deep: Troy's munchkin case.
+  - The **Prof. Up tiles** on the ring-4 seams sit inside the cones of both neighbouring kits.
+- **Attack Ups are rare** *(Troy)*: most characters get one, a dedicated multiclasser two. That's rarer than cantrip scaling in the 2024 rules, which goes by total level (levels 5, 11 and 17), so every caster gets all three steps. Pools (stamina, mana) grow wherever you go, so **most power will come from deeper pools and better techniques, not extra dice**.
 - *(Claude, from memory, not checked)* Wizards of the Coast has said most campaigns stay below level 10, and D&D Beyond's data showed most characters at levels 1–5. So the level-11 step barely comes up at most tables.
 
 ## Generic tiles *(Troy, 2026-11-07)*
 
 Two kinds of tile are scattered across the whole skills grid and stack no matter which branch they're on:
 - **Proficiency Bonus** tiles.
-- **Damage Boost** tiles. When you take the Attack action, each one counts as an **extra attack** (like Extra Attack). When you cast a cantrip, each one adds an **extra damage die** (like cantrip scaling). One action can't do both, so they never stack. They scale with total progress rather than depth in a branch.
-  - *(Claude)* The timing matches the 2024 rules: cantrips scale at levels 5, 11 and 17, and the fighter gains attacks at 5, 11 and 20. **To check:** Troy mentioned a 20-node character finding **four** Damage Boosts. Four would be one more step than either the cantrip scaling or the fighter (both three), so three may be the ceiling for a 20-node character.
-  - **More Proficiency, on ring 6 (Troy, 2026-11-09):** six more **PB +1** tiles **straight out from each kit** on ring 6: **601, 607, 613, 619, 625, 631**. *(Claude: a kit's full cone now holds three PB tiles, the two ring-4 seams beside it and its own ring-6 corner, for PB +5 with the centre's +2. The 2024 rules reach +6 at level 17.)*
+- **Attack Up** tiles. When you take the Attack action, each one counts as an **extra attack** (like Extra Attack). When you cast a cantrip, each one adds an **extra damage die** (like cantrip scaling). One action can't do both, so they never stack. They scale with total progress rather than depth in a branch.
+  - *(Claude)* The timing matches the 2024 rules: cantrips scale at levels 5, 11 and 17, and the fighter gains attacks at 5, 11 and 20. **To check:** Troy mentioned a 20-node character finding **four** Attack Ups. Four would be one more step than either the cantrip scaling or the fighter (both three), so three may be the ceiling for a 20-node character.
+  - **More Proficiency, on ring 6 (Troy, 2026-11-09):** six more **Prof. Up** tiles **straight out from each kit** on ring 6: **601, 607, 613, 619, 625, 631**. *(Claude: a kit's full cone now holds three Prof. Up tiles, the two ring-4 seams beside it and its own ring-6 corner, for PB +5 with the centre's +2. The 2024 rules reach +6 at level 17.)*
   - **Placed (Troy, 2026-11-07):** six **Proficiency Bonus +1** tiles on **ring 4, on the seams** (the exact middle of each side of the ring, between two kits), 4 steps from the centre.
-  - **Placed (Troy, 2026-11-07):** six Damage Boost tiles on **ring 5, straight out from each kit** (the ring's six corner hexes, on each kit's main line), 5 steps from the centre.
-  - **More, on ring 6 (Troy, 2026-11-09):** six more Damage Boosts on the **ring-6 seams**: **604, 610, 616, 622, 628, 634**. A character who fills a kit's entire cone (36 tiles) should find more than one. *(Claude: each ring-6 seam tile is in the cones of both neighbouring kits. So a full cone now holds three Damage Boosts: its own on ring 5, and the two ring-6 seams on either side. For example, the Herald's cone holds 501, 604 and 634.)*
+  - **Placed (Troy, 2026-11-07):** six Attack Up tiles on **ring 5, straight out from each kit** (the ring's six corner hexes, on each kit's main line), 5 steps from the centre.
+  - **More, on ring 6 (Troy, 2026-11-09):** six more Attack Ups on the **ring-6 seams**: **604, 610, 616, 622, 628, 634**. A character who fills a kit's entire cone (36 tiles) should find more than one. *(Claude: each ring-6 seam tile is in the cones of both neighbouring kits. So a full cone now holds three Attack Ups: its own on ring 5, and the two ring-6 seams on either side. For example, the Herald's cone holds 501, 604 and 634.)*
   - **The Fighter's boosts moved (Troy, 2026-11-10):** extra damage is made **a core of the Fighter's fantasy**. The boost at **511 is removed**, and boosts are added at **510** (the Dex–Str side, one step from the Fighter's line) and **614** (the Str–Con side). A boost at **307** was considered and **dropped**: it would have given a pure fighter an extra attack by ring 3 and two by ring 5, well ahead of the 2024 curve (levels 5 and 11).
     - *(Claude, checked 2026-11-10 with the outward-only rule)*:
       - **Fighter:** first boost at 5 tiles (510); 510 and 614 together in 7 tiles; 4 boosts in a full cone (510, 610, 614, 616).
       - **Scout:** two boosts in 7 tiles (510 and 610), down the manoeuvres seam; 4 in a full cone.
       - **Tank:** two in 8 tiles (516 and 616), down the armoured seam (Troy: the paladin fantasy probably lives there, so the extra damage is fine); 4 in a full cone.
       - **Herald, Mystic, Mage:** unchanged, 3 in a full cone; two take 8 tiles.
-  - **Settled (Troy, 2026-11-07): four is fine.** Finding four in 20 nodes takes a real munchkin, going about five deep in four branches. *(Claude: this assumes Damage Boost tiles sit at about depth 5 in a branch, the level-5 milestone.)*
+  - **Settled (Troy, 2026-11-07): four is fine.** Finding four in 20 nodes takes a real munchkin, going about five deep in four branches. *(Claude: this assumes Attack Up tiles sit at about depth 5 in a branch, the level-5 milestone.)*
 
 ## Dropped
 
@@ -177,12 +177,12 @@ Two kinds of tile are scattered across the whole skills grid and stack no matter
 - **Mark:** on a hit, you can spend **1 stamina** to mark the foe.
 - **Effect:** the **next attack that deals damage** to the marked foe, from anyone, deals an **extra 1d12**.
 - **Sustaining:** each time the marked foe is hit, you can spend **another stamina** to keep the mark, so the next hit also gains 1d12, and so on. Paying is **free: no action or Reaction**. If a hit lands and you don't pay, the mark ends. **No time limit**: it lasts as long as you keep paying.
-- **No Damage Boost scaling.** That solves the double-dipping problem.
+- **No Attack Up scaling.** That solves the double-dipping problem.
 - **Balance** *(discussed)*:
   - Two stamina should do about a level 1 spell's damage, 10–14 (*Magic Missile* about 10, *Guiding Bolt* about 14). So **1 stamina is worth about 2d6**.
   - Troy chose a **d12** for easier accounting: it averages 6.5 against 7 for 2d6, but it's swingier.
   - Pouring the whole pool into one round is **a deliberate nova at the cost of all your resources**. Early on, 4 stamina won't last a round at a five-player table, especially with a monk making many attacks.
-- *(Superseded draft, 2026-11-09: charges equal to 1 + Damage Boosts, 1d6 each, ending at the start of your next turn.)*
+- *(Superseded draft, 2026-11-09: charges equal to 1 + Attack Ups, 1d6 each, ending at the start of your next turn.)*
 
 ## Scout techniques (in progress)
 

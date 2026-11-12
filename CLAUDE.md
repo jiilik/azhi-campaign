@@ -48,7 +48,7 @@ You are helping **Troy** (the author and DM) build **Azhi**, a D&D campaign sett
 | `canon/diagrams/` | The skills grid diagram: `skills_grid.py` draws `skills-grid.png` and `.svg` (`--print` writes the letter-size `skills-grid-print.pdf`); edit its TILES and THEMES as the grid is designed (2026-11-07). |
 | `canon/parts-bin.md` | Every SRD and PHB class and feat broken into parts, each with a best-guess points score on the Character Origins scale, a tree guess and a totals check (PROPOSED, tentative, 2026-11-05). |
 | `canon/parts-bin-techniques.md` | Technique parts for one stamina system: monk, Battle Master manoeuvres, 4e warlord ideas and the bard, each with trigger, cost, target and a home on the skills grid (PROPOSED, 2026-11-07). |
-| `canon/techniques.md` | Designed techniques (stamina system) as stat blocks with stackable stamina add-ons; the generic Damage Boost tile (PROPOSED, 2026-11-07). |
+| `canon/techniques.md` | Designed techniques (stamina system) as stat blocks with stackable stamina add-ons; the generic Attack Up tile (PROPOSED, 2026-11-07). |
 | `canon/proposed-feat-changes.md` | Feat-by-feat clashes with the personality traits (SUPERSEDED 2026-11-05 by extended traits). |
 | `canon/audit-planes.md` | Report: everything in the SRD (and well-known non-SRD subclasses) that depends on other planes (2026-10-31). |
 | `canon/proposed-monster-changes.md` | Running list of proposed changes to the SRD monsters, each with its reason, to apply in one pass if accepted (PROPOSED, 2026-11-01). |
