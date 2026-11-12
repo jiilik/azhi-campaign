@@ -47,7 +47,7 @@ Written up from the voice transcript. One line in the transcript was attributed 
 These overturn parts of the brainstorm below.
 1. **Personality traits (reverting to the older rule):** an **Unphased** character has **three** personality traits and may **swap one trait per Long Rest** (CANON since 2026-10-21; Troy confirmed 2026-11-12). A **phased** character has **two traits and a colour**. On phasing you **keep one trait and gain another**, and your colour likely changes. You **cannot revert to Unphased**. You **keep your skill progress**.
 2. **No personality progression.** Traits are not something you invest in: there are only the **24 existing flat traits**, with no trait progression on level-up. *The personality tree below is retired.* So there are **two places to spend progress points**: the species wheel and the skills grid.
-3. **Phasing refund:** on phasing, take the points invested in the colour wheel, **halve them, rounding up**, and reinvest those in the new colour. *(Replaces "points come back" below.)*
+3. **Phasing refund:** on phasing you **lose one ring** of the colour wheel and reinvest the rest in the new colour *(Troy, 2026-11-12 midday, after the power curves; replaces the morning's halving rule, which lost a species-first character 4 of 12 points by level 12)*. It's gentler, and keeps a party balanced when members phase at different times.
 4. **Stat Up on ring 4 of the species wheel**, for every colour: **+2 to one ability, or +1 to two**, following the colour's affinity, with **no player choice**. Red: Strength +2. *(Claude, by the affinity list in the setting bible:)* Brown Con +1, Str +1; Yellow Int +1, Con +1; Green Dex +1, Con +1; Blue Dex +1, Cha +1; Indigo Cha +2; Black Int +1, Cha +1; Grey Int +1, Wis +1; White Wis +2.
    - *(Revised by Troy, voice, same morning:)* **+1, not +2.** Two-ability colours give **+1 to either, the player's choice**; one-ability colours (Red, Indigo, White) give +1 to theirs.
 5. **Ability increases on the skills grid** *(Troy, voice, 2026-11-12)*. With feats gone, the grid must also give ability increases: the 2024 rules give four or five chances (levels 4, 8, 12, 16 and the level-19 boon).
@@ -72,7 +72,7 @@ These overturn parts of the brainstorm below.
 
 ### What phasing does to each tree *(Troy)*
 
-- *(Superseded 2026-11-12: half the points come back, rounded up.)* **Form: points come back.** Whatever you had invested in the form tree is available to reinvest after the phase. Seven points in the Green branch, phased to White: reinvest them in White, and you may end up further along the form than a beginner. This is **gameable, on purpose**.
+- *(Superseded 2026-11-12: you lose one ring and reinvest the rest.)* **Form: points come back.** Whatever you had invested in the form tree is available to reinvest after the phase. Seven points in the Green branch, phased to White: reinvest them in White, and you may end up further along the form than a beginner. This is **gameable, on purpose**.
 - **Personality: the real penalty.** Everyone starts with two traits. On a phase you **keep one**. Anything that depended on the lost trait is **simply lost**, and anything that depended on the kept trait is **retained**. You partly keep your personality. No points come back, so it isn't gameable: nobody can force a phase just to switch branches. This **offsets the advantage of the form tree**.
 - **Learned skills: all kept.**
 
