@@ -220,6 +220,18 @@ for h, hd in RAY_TILES.items():
     else:
         TILES[h] = ("", "", "{H}" + hd)
 
+# Hit Dice filled in tile by tile, Herald-Scout side (Troy, voice, 2026-11-11).
+FILL_HD = {}
+for num in ("302", "402", "502", "503", "504", "602", "603", "605"):
+    FILL_HD[num] = "d6"
+for num in ("303", "305", "404", "406", "505", "507", "508", "509",
+            "606", "608", "609", "611"):
+    FILL_HD[num] = "d8"
+for num, hd in FILL_HD.items():
+    h = BY_NUMBER[num]
+    assert h not in RAY_TILES and h not in TILES, num
+    TILES[h] = ("", "", "{H}" + hd)
+
 def wedge(q, r):
     """Nearest ability direction by angle, or None for the centre."""
     if (q, r) == (0, 0):
