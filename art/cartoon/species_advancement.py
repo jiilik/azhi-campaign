@@ -35,6 +35,11 @@ STEP = cw.STEP
 # ring 6, matching what six deep on the skills grid gives.
 FIXED = {3: "Prof. Up", 6: "Attack Up"}
 ARCS = {}
+# A text heart (not the emoji), so it turns with the curved text.
+HEART = '<tspan fill="#d0312d" font-weight="bold">\u2665</tspan>'
+# Hit Die per colour on rings 2-6, none on ring 1 (Troy, voice, 2026-11-11).
+HIT_DIE = {"Red": "d10", "Brown": "d12", "Yellow": "d8", "Green": "d8",
+           "Blue": "d6", "Indigo": "d6", "Black": "d6", "Grey": "d6", "White": "d8"}
 
 
 def pt(r, a_deg):
@@ -92,7 +97,7 @@ def build():
         for j, k in enumerate(range(FIRST, LAST + 1)):
             r_in, r_out = R0 + j * RW, R0 + (j + 1) * RW
             o.append(arc_band(r_in, r_out, a0, a1, light(scale, 0.35 + 0.09 * (j + 1))))
-            title, desc, nums = ARCS.get((form, k), (f"{name} {k}", FIXED.get(k, ""), ""))
+            title, desc, nums = ARCS.get((form, k), (f"{name} {k}", FIXED.get(k, ""), HEART + " " + HIT_DIE[form]))
             pid = f"t_{form}_{k}"
             # Three lines, outermost first: title, descriptor, numbers. On the
             # lower half the text is upright, so the order flips radially.
