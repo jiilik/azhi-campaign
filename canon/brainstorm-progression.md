@@ -65,6 +65,9 @@ These overturn parts of the brainstorm below.
    - **Spaced out:** moves only go outward, so no ring-3 tile reaches two ring-4 ones (Claude first put one on each side of each corner, but 301 would then reach both 402 and 424), and no ring-5 tile reaches two ring-6 ones. Verified against the grid: each is in its kit's wedge, and none was already a special tile.
    - **Fixed to the kit's ability,** so roaming across kits gives more increases, but spread over different abilities; there are only two of each on the grid. No special exceptions needed.
    - **Labels:** the tiles say just "Int +1", "Dex +1" and so on; the species wheel's ring 4 says "Str +1" or "Int +1 or Wis +1". No "Stat Up" label anywhere, so players can add things up at a glance.
+6. **Points per level** *(Troy, voice)*: **one point per level-up**, spent on either wheel. An **Unphased** character can't spend on the colour wheel, so their points go to the skills grid (no banking).
+7. **No ability cap** *(Troy, voice)*: ignore the 20 cap; it won't matter in practice (a focused build tops out at 21, still +5). *(Claude, checked against SRD 5.2.1:)* items such as Gauntlets of Ogre Power set a score (19) and do nothing if yours is already that high; the manuals and tomes add 2, to a maximum of 30.
+8. **Power curves** *(Troy asked)*: `canon/analysis/power-curves.md` and `.png`, 12 archetypes × 3 strategies, phasing at 5 and 10. See its findings.
    - **The ceiling:** standard array 15, plus three +1s at creation (affinity and two traits may all land on one ability) = 18; species ring 4 +1 = 19; the kit's two grid tiles = **21**, still a +5 modifier. Troy: "That puts our cap at 21", odd, so it never reaches +6.
 
 ### What phasing does to each tree *(Troy)*
