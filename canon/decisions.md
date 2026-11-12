@@ -8,7 +8,7 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 - **Greater Sidestep on ring 4** (Troy): adds 4 stamina for 2d8 and 5 stamina for 2d10; tile to be chosen. **Evasion** (SRD) saved for a deeper ring.
 - **Hit Dice, Herald–Scout side** (Troy, voice): d6 on 302, 402, 502, 503, 504, 602, 603, 605; d8 on 303, 305, 404, 406, 505, 507, 508, 509, 606, 608, 609, 611. Drawn on the skills grid.
 - **Hit Dice, Fighter side** (Troy, voice): d10 on 306, 308, 408, 410, 510, 512, 513, 514, 612, 614, 615, 617.
-- **Hit Dice, Tank, Mystic and Mage sides** (Troy, voice): d12 on 309, 311, 412, 414, 515, 517, 618, 620; d10 on 518, 519, 621, 623; d8 on 312, 314, 416, 418, 520, 522, 624, 626; d6 on 523, 524, 528, 529, 627, 629, 633, 635; d4 on 315, 317, 420, 422, 525, 527, 630, 632. Left: 318, 424, 530, 636.
+- **Hit Dice, Tank, Mystic and Mage sides** (Troy, voice): d12 on 309, 311, 412, 414, 515, 517, 618, 620; d10 on 518, 519, 621, 623; d8 on 312, 314, 416, 418, 520, 522, 624, 626; d6 on 523, 524, 528, 529, 627, 629, 633, 635; d4 on 315, 317, 420, 422, 525, 527, 630, 632. d6 on the last four (318, 424, 530, 636): every tile now has a Hit Die.
 - **Skills grid print version** (Troy asked): `skills_grid.py --print` writes a letter-size PDF.
 
 ## 2026-11-10
