@@ -231,6 +231,15 @@ for num in ("303", "305", "404", "406", "505", "507", "508", "509",
 for num in ("306", "308", "408", "410", "510", "512", "513", "514",
             "612", "614", "615", "617"):
     FILL_HD[num] = "d10"
+# Tank, Mystic and Mage sides (Troy, voice, 2026-11-11).
+for hd, nums in (("d12", "309 412 515 618 311 414 517 620"),
+                 ("d10", "518 621 519 623"),
+                 ("d8", "312 416 520 624 314 418 522 626"),
+                 ("d6", "524 629 523 627 633 528 529 635"),
+                 ("d4", "315 420 525 630 317 422 527 632")):
+    for num in nums.split():
+        assert num not in FILL_HD, num
+        FILL_HD[num] = hd
 for num, hd in FILL_HD.items():
     h = BY_NUMBER[num]
     assert h not in RAY_TILES, num
@@ -239,6 +248,8 @@ for num, hd in FILL_HD.items():
         TILES[h] = (l1, l2, "{H}" + hd + (" " + l3 if l3 else ""))
     else:
         TILES[h] = ("", "", "{H}" + hd)
+EMPTY = sorted(NUMBERS[h] for h in NUMBERS if h not in TILES and h not in LINE3 and h != (0, 0))
+print("no Hit Die yet:", " ".join(EMPTY))
 
 def wedge(q, r):
     """Nearest ability direction by angle, or None for the centre."""
