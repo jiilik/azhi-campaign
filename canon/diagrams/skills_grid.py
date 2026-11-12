@@ -288,6 +288,21 @@ for num, pool in MORE_POOLS.items():
     h = BY_NUMBER[num]
     l1, l2, l3 = TILES[h]
     TILES[h] = (l1, l2, l3 + " " + pool)
+# Tile names (Troy, voice, 2026-11-11). Only kit tiles keep a prerequisite
+# on the top line; elsewhere the top line is the tile's look-up name. Ring 3
+# names the subclass fantasies; each gets a "II" tile straight out on ring 6.
+RING3_NAMES = {"301": "Warlord", "302": "Tactician", "303": "Rogue",
+               "304": "Ranger", "305": "Skirmisher", "306": "Virtuoso",
+               "307": "Champion", "308": "Brute", "309": "Bulwark",
+               "310": "Juggernaut", "311": "Blood Mage", "312": "Shaman",
+               "313": "Oracle", "314": "Sage", "315": "Alchemist",
+               "316": "Wizard", "317": "Summoner", "318": "Hexer"}
+for num, name in RING3_NAMES.items():
+    q, r = BY_NUMBER[num]
+    for h, label in (((q, r), name), ((2 * q, 2 * r), name + " II")):
+        _, l2, l3 = TILES[h]
+        TILES[h] = (label, l2, l3)
+print("ring 6 II tiles:", " ".join(NUMBERS[(2 * BY_NUMBER[n][0], 2 * BY_NUMBER[n][1])] for n in RING3_NAMES))
 NOPOOL = sorted((NUMBERS[h] for h in NUMBERS if h != (0, 0) and "{S}" not in
                  (TILES.get(h, ("", "", LINE3.get(h, "")))[2]) and "{M}" not in
                  (TILES.get(h, ("", "", LINE3.get(h, "")))[2])), key=int)
@@ -361,8 +376,15 @@ for q in range(-RINGS, RINGS + 1):
                     fontsize=11, weight="bold", color="#9a9a9a" if PRINT else "#c4c4c4", zorder=2)
         if (q, r) in TILES:
             l1, l2, l3 = TILES[(q, r)]
-            ax.text(x, y + 0.36, l1, ha="center", va="center", fontsize=6.6, color="#444", zorder=3)
-            ax.text(x, y, l2, ha="center", va="center", fontsize=7.6 if len(l2) <= 10 else (5.9 if PRINT else 6.6), weight="bold", zorder=3)
+            if l1 and not l1.startswith("Req") and (q, r) != (0, 0):
+                # Top line: the tile's look-up name (Troy, 2026-11-11).
+                ax.text(x, y + 0.36, l1, ha="center", va="center",
+                        fontsize=7.4 if len(l1) <= 9 else (6.2 if len(l1) <= 11 else 5.4),
+                        weight="bold", zorder=3)
+                ax.text(x, y, l2, ha="center", va="center", fontsize=6.8, zorder=3)
+            else:
+                ax.text(x, y + 0.36, l1, ha="center", va="center", fontsize=6.6, color="#444", zorder=3)
+                ax.text(x, y, l2, ha="center", va="center", fontsize=7.6 if len(l2) <= 10 else (5.9 if PRINT else 6.6), weight="bold", zorder=3)
             if "{" in l3:
                 place_line(ax, x, y - 0.36, l3)
             else:

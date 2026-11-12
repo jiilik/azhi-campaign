@@ -4,6 +4,7 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-11-11
 
+- **Tile names** (Troy, voice): the top line becomes a short look-up name (kits keep their prerequisite). Ring 3: 301 Warlord, 302 Tactician, 303 Rogue, 304 Ranger, 305 Skirmisher, 306 Virtuoso, 307 Champion, 308 Brute, 309 Bulwark, 310 Juggernaut, 311 Blood Mage, 312 Shaman, 313 Oracle, 314 Sage, 315 Alchemist, 316 Wizard, 317 Summoner, 318 Hexer. Each gets a "II" tile straight out on ring 6 (601–635, odd). The monk moves to the Scout and manoeuvres side.
 - **Stamina, Herald–Scout–Fighter side** (Troy, voice): 4 on the Herald side of the Herald–Scout seam, the whole Scout wedge and the Scout–Fighter (Battle Master) seam (202, 203, 204 raised from 3); 2 on the Fighter wedge, 3 on 509 and 611; 1 on 206 (lowered from 2), 411, 616, 514, 617. Only the Constitution stripe has no stamina or mana: the Tank's hit points are its resource.
 - **Mystic and Tank mana** (Troy, voice): 4 mana on every Mystic-wedge tile (209 raised from 3) and on 419, 628; 2 mana on 415, 622, 518, 621; 1 mana on 311, 414, 517, 620. Mystic powers beyond mana (Wild Shape-like) to come; check the overlap with the Green form then.
 - **Mana and stamina, Mage and Herald sides** (Troy, voice): 5 mana on every Mage-wedge tile (the reference curve; the Mage is the strongest mana user); the summoner seam mixes (212, 423, 634: 2 mana 2 stamina; 528, 633: 4 mana 1 stamina; 529, 635: 1 mana 3 stamina); 4 stamina on 201 (was 3), 301, 401, 501, 601, 318, 424, 530, 636.
