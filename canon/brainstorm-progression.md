@@ -130,6 +130,8 @@ Levels 11–19 add 9, 0, 10, 0, 11, 0, 13, 7 and 9.
   - **2 stamina:** the Fighter wedge (306–308, 408–410, 510–513, 612–615), with **3** on 509 and 611 next to the Scout.
   - **1 stamina:** the heavy-armour seam (206 lowered from 2, 411, 616) and the Tank edge (514, 617). Troy: the heavy-armoured Tank is an immovable wall and doesn't need much stamina.
   - Straight lines at ring 6: Mage 30 mana; Herald, Scout and Mystic 24; Fighter 12.
+  - **12-tile maximums** *(Claude, solver, checked by Troy 2026-11-11)*: 60 mana (Mage Kit alone), 48 stamina (Herald Kit alone, e.g. 11, 201–601, 202–602, 603; the Scout can reach 48 too), 12d12 Hit Dice (Tank Kit alone). Against a level-12 character: wizard 73 mana, full caster 73, barbarian 12d12. Troy is happy with this first-pass balance check.
+  - **Later: munchkin playtest** *(Troy)*: once the tiles are fully populated, Claude builds munchkins to find what breaks. Not before.
   - **No pool at all:** only the Constitution stripe, 14, 207, 309, 310, 412, 413, 515, 516, 618, 619. *(Troy: the Tank's massive bag of hit points is its resource.)*
 - **Mana into the Tank side** (the Con–Wis seam, monk and blood magic): 2 mana on 415, 622, 518, 621; 1 mana on 311, 414, 517, 620, for a martial character who needs a little magic in their punches.
 
