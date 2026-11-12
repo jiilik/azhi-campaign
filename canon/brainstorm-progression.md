@@ -49,7 +49,23 @@ These overturn parts of the brainstorm below.
 2. **No personality progression.** Traits are not something you invest in: there are only the **24 existing flat traits**, with no trait progression on level-up. *The personality tree below is retired.* So there are **two places to spend progress points**: the species wheel and the skills grid.
 3. **Phasing refund:** on phasing, take the points invested in the colour wheel, **halve them, rounding up**, and reinvest those in the new colour. *(Replaces "points come back" below.)*
 4. **Stat Up on ring 4 of the species wheel**, for every colour: **+2 to one ability, or +1 to two**, following the colour's affinity, with **no player choice**. Red: Strength +2. *(Claude, by the affinity list in the setting bible:)* Brown Con +1, Str +1; Yellow Int +1, Con +1; Green Dex +1, Con +1; Blue Dex +1, Cha +1; Indigo Cha +2; Black Int +1, Cha +1; Grey Int +1, Wis +1; White Wis +2.
-5. **Next (voice):** where, if anywhere, Stat Up tiles go on the skills grid.
+   - *(Revised by Troy, voice, same morning:)* **+1, not +2.** Two-ability colours give **+1 to either, the player's choice**; one-ability colours (Red, Indigo, White) give +1 to theirs.
+5. **Ability increases on the skills grid** *(Troy, voice, 2026-11-12)*. With feats gone, the grid must also give ability increases: the 2024 rules give four or five chances (levels 4, 8, 12, 16 and the level-19 boon).
+   - **Twelve tiles, +1 to the nearby kit's ability:** one per kit on ring 4, just clockwise of its corner, and one on ring 6, just counter-clockwise of its corner:
+
+     | Kit (ability) | Ring 4 | Ring 6 |
+     |---|---|---|
+     | Herald (Cha) | 402 | 636 |
+     | Scout (Dex) | 406 | 606 |
+     | Fighter (Str) | 410 | 612 |
+     | Tank (Con) | 414 | 618 |
+     | Mystic (Wis) | 418 | 624 |
+     | Mage (Int) | 422 | 630 |
+
+   - **Spaced out:** moves only go outward, so no ring-3 tile reaches two ring-4 ones (Claude first put one on each side of each corner, but 301 would then reach both 402 and 424), and no ring-5 tile reaches two ring-6 ones. Verified against the grid: each is in its kit's wedge, and none was already a special tile.
+   - **Fixed to the kit's ability,** so roaming across kits gives more increases, but spread over different abilities; there are only two of each on the grid. No special exceptions needed.
+   - **Labels:** the tiles say just "Int +1", "Dex +1" and so on; the species wheel's ring 4 says "Str +1" or "Int +1 or Wis +1". No "Stat Up" label anywhere, so players can add things up at a glance.
+   - **The ceiling:** standard array 15, plus three +1s at creation (affinity and two traits may all land on one ability) = 18; species ring 4 +1 = 19; the kit's two grid tiles = **21**, still a +5 modifier. Troy: "That puts our cap at 21", odd, so it never reaches +6.
 
 ### What phasing does to each tree *(Troy)*
 

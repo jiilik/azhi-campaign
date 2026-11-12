@@ -4,6 +4,7 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-11-12
 
+- **Ability increases** (Troy, voice): the species ring-4 Stat Up drops to **+1** (two-ability colours: the player chooses either). The skills grid gets twelve +1 tiles, one per kit on ring 4 (402 Cha, 406 Dex, 410 Str, 414 Con, 418 Wis, 422 Int) and one on ring 6 (636 Cha, 606 Dex, 612 Str, 618 Con, 624 Wis, 630 Int), each +1 to its kit's ability. Labels read "Int +1" etc., never "Stat Up". A focused build tops out at 21 (+5).
 - **Personality traits revert to the older rule** (Troy): Unphased have three traits and swap one per Long Rest (confirmed); phased have two and a colour; on phasing keep one trait and gain another; no return to Unphased; skill progress is kept.
 - **No personality progression** (Troy): only the 24 flat traits; progress points go to the species wheel or the skills grid. The personality tree is retired.
 - **Phasing refund** (Troy): halve the points invested in the colour wheel, rounding up, and reinvest them in the new colour.

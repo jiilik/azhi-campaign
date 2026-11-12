@@ -34,11 +34,11 @@ STEP = cw.STEP
 # Fixed for every colour (Troy, 2026-11-11): Prof. Up at ring 3, Attack Up at
 # ring 6, matching what six deep on the skills grid gives.
 FIXED = {3: "Prof. Up", 6: "Attack Up"}
-# Stat Up on ring 4 (Troy, 2026-11-12): +2 to one ability or +1 to two, by the
-# colour's affinity, no player choice.
-STAT_UP = {"Red": "Str +2", "Brown": "Con +1, Str +1", "Yellow": "Int +1, Con +1",
-           "Green": "Dex +1, Con +1", "Blue": "Dex +1, Cha +1", "Indigo": "Cha +2",
-           "Black": "Int +1, Cha +1", "Grey": "Int +1, Wis +1", "White": "Wis +2"}
+# Ring 4: +1 to the colour's affinity ability (Troy, 2026-11-12; was +2 on
+# 2026-11-12 morning). Two-ability colours: the player chooses either.
+STAT_UP = {"Red": "Str +1", "Brown": "Con +1 or Str +1", "Yellow": "Int +1 or Con +1",
+           "Green": "Dex +1 or Con +1", "Blue": "Dex +1 or Cha +1", "Indigo": "Cha +1",
+           "Black": "Int +1 or Cha +1", "Grey": "Int +1 or Wis +1", "White": "Wis +1"}
 ARCS = {}
 # A text heart (not the emoji), so it turns with the curved text.
 HEART = '<tspan fill="#d0312d" font-weight="bold">\u2665</tspan>'
@@ -121,7 +121,7 @@ def build(printable=False):
         for j, k in enumerate(range(FIRST, LAST + 1)):
             r_in, r_out = R0 + j * RW, R0 + (j + 1) * RW
             o.append(arc_band(r_in, r_out, a0, a1, light(scale, 0.35 + 0.09 * (j + 1))))
-            title, desc, nums = ARCS.get((form, k), (f"{name} {k}", ("Stat Up: " + STAT_UP[form]) if k == 4 else FIXED.get(k, ""), pool_line(form)))
+            title, desc, nums = ARCS.get((form, k), (f"{name} {k}", STAT_UP[form] if k == 4 else FIXED.get(k, ""), pool_line(form)))
             pid = f"t_{form}_{k}"
             # Three lines, outermost first: title, descriptor, numbers. On the
             # lower half the text is upright, so the order flips radially.

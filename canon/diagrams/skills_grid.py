@@ -328,6 +328,18 @@ for num, name in RING2_NAMES.items():
         name_tile((2 * q, 2 * r), name + " II")
         name_tile((3 * q, 3 * r), name + " III")
 print("ring 6 II tiles:", " ".join(NUMBERS[(2 * BY_NUMBER[n][0], 2 * BY_NUMBER[n][1])] for n in RING3_NAMES))
+# Ability score +1 tiles (Troy, voice, 2026-11-12): with feats gone, these
+# are where ability increases come from. One per kit on ring 4 (clockwise of
+# its corner) and one on ring 6 (counter-clockwise of its corner), +1 to that
+# kit's ability. No ring-3 or ring-5 tile touches two of them.
+ABILITY_UP = {"402": "Cha +1", "406": "Dex +1", "410": "Str +1", "414": "Con +1",
+              "418": "Wis +1", "422": "Int +1", "636": "Cha +1", "606": "Dex +1",
+              "612": "Str +1", "618": "Con +1", "624": "Wis +1", "630": "Int +1"}
+for num, label in ABILITY_UP.items():
+    h = BY_NUMBER[num]
+    l1, l2, l3 = TILES[h]
+    assert not l2, num
+    TILES[h] = (l1, label, l3)
 NOPOOL = sorted((NUMBERS[h] for h in NUMBERS if h != (0, 0) and "{S}" not in
                  (TILES.get(h, ("", "", LINE3.get(h, "")))[2]) and "{M}" not in
                  (TILES.get(h, ("", "", LINE3.get(h, "")))[2])), key=int)
