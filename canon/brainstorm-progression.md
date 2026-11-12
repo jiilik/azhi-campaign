@@ -120,7 +120,12 @@ Written up from the voice transcript. One line in the transcript was attributed 
 
 Levels 11–19 add 9, 0, 10, 0, 11, 0, 13, 7 and 9.
 
-**Stamina by branch** *(Troy, 2026-11-09)*:
+**Mage wedge mana, the reference curve** *(Troy, voice, 2026-11-11)*: the Mage is the strongest user of mana, and the other wedges are priced against it.
+- **5 mana a tile** across the Mage wedge: 16, 211, 315, 316, 317, 420, 421, 422, 524, 525, 526, 527, 629, 630, 631, 632. The straight line (16 → 211 → 316 → 421 → 526 → 631) reaches 5, 10, 15, 20, 25, 30, against the wizard's 4, 6, 14, 17, 27, 32: a little ahead early, 2 short at ring 6, and smoother.
+- **Summoner seam (Int–Cha):** 2 mana and 2 stamina on 212, 423, 634; 4 mana and 1 stamina on 528, 633 (Mage side); 1 mana and 3 stamina on 529, 635 (Herald side).
+- **Herald line, 4 stamina a tile:** 201 raised from 3 to 4; 301, 401, 501, 601 and the Herald edge 318, 424, 530, 636 get 4. The straight line reaches 24 at ring 6, against the Mage's 30; Troy: that gap is fine.
+
+
 - **Herald branch:** about the same pool as a caster. It replaces the bard.
 - **Fighter branch:** less, with a bunch of other bonuses to compensate.
 - **Scout branch:** somewhere in the middle, in homage to the rangers and Arcane Tricksters that could be built there.

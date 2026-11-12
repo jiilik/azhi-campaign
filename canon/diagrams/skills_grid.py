@@ -175,7 +175,8 @@ HIT_DICE = {"201": "d6", "202": "d6", "203": "d8", "204": "d8", "205": "d10",
             "206": "d10", "207": "d12", "208": "d10", "209": "d8",
             "210": "d6", "211": "d4", "212": "d6"}
 # Ring 2 stamina and mana (Troy, 2026-11-09).
-POOLS = {"201": "{S}3", "202": "{S}3", "203": "{S}3", "204": "{S}3",
+POOLS = {"201": "{S}4",  # 4 from 2026-11-11 (was 3)
+          "202": "{S}3", "203": "{S}3", "204": "{S}3",
          "205": "{S}2", "206": "{S}2", "208": "{M}2", "209": "{M}3",
          "210": "{M}4", "211": "{M}5", "212": "{M}2{S}2"}
 LINE3 = {}  # (q, r) -> line 3 for themed tiles
@@ -249,6 +250,24 @@ for num, hd in FILL_HD.items():
         TILES[h] = (l1, l2, "{H}" + hd + (" " + l3 if l3 else ""))
     else:
         TILES[h] = ("", "", "{H}" + hd)
+# Mana and stamina beyond ring 2 (Troy, voice, 2026-11-11). The Mage
+# wedge is the reference curve: 5 mana a tile. The Herald's line gets 4
+# stamina a tile; the summoner seam (Int-Cha) mixes the two.
+MORE_POOLS = {}
+for num in "315 316 317 420 421 422 524 525 526 527 629 630 631 632".split():
+    MORE_POOLS[num] = "{M}5"
+for num in ("423", "634"):
+    MORE_POOLS[num] = "{M}2{S}2"
+for num in ("528", "633"):
+    MORE_POOLS[num] = "{M}4{S}1"
+for num in ("529", "635"):
+    MORE_POOLS[num] = "{M}1{S}3"
+for num in "301 401 501 601 318 424 530 636".split():
+    MORE_POOLS[num] = "{S}4"
+for num, pool in MORE_POOLS.items():
+    h = BY_NUMBER[num]
+    l1, l2, l3 = TILES[h]
+    TILES[h] = (l1, l2, l3 + " " + pool)
 EMPTY = sorted(NUMBERS[h] for h in NUMBERS if h not in TILES and h not in LINE3 and h != (0, 0))
 print("no Hit Die yet:", " ".join(EMPTY))
 
