@@ -17,21 +17,26 @@ from matplotlib.offsetbox import OffsetImage, AnnotationBbox
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 
-EMOJI = {"H": "\u2764\ufe0f", "S": "\u2b50", "M": "\U0001f4dc"}
-EMOJI_FONT = "/usr/share/fonts/truetype/noto/NotoColorEmoji.ttf"
+# Symbols (Troy, 2026-11-11): the same text glyphs as the species wheel,
+# replacing the emoji: red heart = Hit Die, gold star = stamina,
+# purple diamond = mana.
+SYMBOLS = {"H": ("\u2665", (208, 49, 45)), "S": ("\u2605", (201, 154, 6)),
+           "M": ("\u25c6", (91, 63, 181))}
+SYMBOL_FONT = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 TEXT_FONT = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 _cache = {}
 
 def emoji_img(key):
     if key not in _cache:
-        f = ImageFont.truetype(EMOJI_FONT, 109)
-        im = Image.new("RGBA", (136, 128), (0, 0, 0, 0))
-        ImageDraw.Draw(im).text((0, 0), EMOJI[key], font=f, embedded_color=True)
+        f = ImageFont.truetype(SYMBOL_FONT, 109)
+        glyph, colour = SYMBOLS[key]
+        im = Image.new("RGBA", (160, 160), (0, 0, 0, 0))
+        ImageDraw.Draw(im).text((10, 0), glyph, font=f, fill=colour + (255,))
         _cache[key] = im.crop(im.getbbox())
     return _cache[key]
 
 def render_line(text, px=60):
-    """Render text with {H}/{S}/{M} emoji tokens to an RGBA image."""
+    """Render text with {H}/{S}/{M} symbol tokens to an RGBA image."""
     import re
     f = ImageFont.truetype(TEXT_FONT, px)
     parts = re.split(r"(\{[HSM]\})", text)
@@ -91,8 +96,8 @@ def dist(q, r):
 
 # Populated tiles: (q, r) -> (line1, line2, line3)
 TILES = {(0, 0): ("All kits", "PB +2", "")}
-# Line 3 symbols (Troy, 2026-11-07): HEART = Hit Die (hit points),
-# STAR = stamina (SP), SCROLL = mana (MP). Written {H}, {S}, {M}.
+# Line 3 symbols (Troy, 2026-11-07; glyphs 2026-11-11): HEART = Hit Die,
+# STAR = stamina (SP), DIAMOND = mana (MP). Written {H}, {S}, {M}.
 KITS = {
     "Cha": ("Req Cha 13", "Herald Kit", "{H}d6 {S}4"),
     "Dex": ("Req Dex 13", "Scout Kit", "{H}d8 {S}4 +5ft"),
