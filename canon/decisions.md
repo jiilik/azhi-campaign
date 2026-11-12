@@ -4,6 +4,7 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-11-12
 
+- **Kit skills** (Troy, voice): starting kit only. Herald 2 of Deception, Insight, Intimidation, Performance, Persuasion; Scout 2 of Acrobatics, Perception, Sleight of Hand, Stealth, Survival; Fighter 1 of Acrobatics, Animal Handling, Athletics, Intimidation; Tank 1 of Athletics, Intimidation, Perception, Survival; Mystic 2 of Animal Handling, History, Insight, Medicine, Nature, Religion; Mage 1 of Arcana, History, Investigation, Religion. A duplicate skill is replaced from the same list (or, if exhausted, a skill of the same ability). Expertise back-burnered (likely the Cunning line).
 - **Spells** (Troy, voice): no spell-level gates, mana is the brake. The Mage's tiles give mana and the right to learn; Int casters learn from books anywhere, and the DM must make spells available. Other casters know the spells on the tiles they take. Starting with the Mage Kit includes a spellbook of player-chosen spells (number parked; wizard as reference).
 - **Saving throws** (Troy, voice): one from the starting kit (its ability or either neighbour's), one from the colour's ring 1 (a choice of its two abilities). Red Str/Wis, Indigo Cha/Dex, White Wis/Str, so every save is offered by three colours; their ring-1 and ring-4 +1s follow the same pair. Unphased: the kit's save, plus +1 to all saves they aren't proficient in.
 - **Phase finding** (Troy): every phase puts a character one level behind one who didn't phase (if they hold any species rings).

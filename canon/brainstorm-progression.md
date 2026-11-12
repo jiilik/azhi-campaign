@@ -77,7 +77,21 @@ These overturn parts of the brainstorm below.
    - **One from the colour's ring 1,** a choice of its two abilities, so a player can avoid a double (Dex from Green and Dex from the Scout). Phasing changes it, which keeps things lively.
    - **Red, Indigo and White** get a second ability: **Red Str or Wis, Indigo Cha or Dex, White Wis or Str**, so **every save is offered by exactly three colours** (no Constitution glut; Con is a strong save, especially for wizards). Their ring-1 +1 and ring-4 +1 follow the same pair.
    - **The Unphased** get the kit's save, and instead of a second proficiency, **+1 to every saving throw they aren't proficient in**: not yet settled. *(Claude: proficiency grows from +2 to +4 by level 10, while the +1 stays flat, a gentle nudge toward phasing.)*
-10. **Power curves** *(Troy asked)*: `canon/analysis/power-curves.md` and `.png`, 12 archetypes × 3 strategies, phasing at 5 and 10. See its findings.
+10. **Kit skills** *(Troy, voice, 2026-11-12)*: azhi characters started about one or two skills short of the 2024 rules (Claude's count: colours give 1–2, traits about 1 each), so kits give skills, **starting kit only** (a second kit gives none, as with saves):
+
+    | Kit | Picks | From |
+    |---|---|---|
+    | Herald | 2 | Deception, Insight, Intimidation, Performance, Persuasion |
+    | Scout | 2 | Acrobatics, Perception, Sleight of Hand, Stealth, Survival |
+    | Fighter | 1 | Acrobatics, Animal Handling, Athletics, Intimidation |
+    | Tank | 1 | Athletics, Intimidation, Perception, Survival |
+    | Mystic | 2 | Animal Handling, History, Insight, Medicine, Nature, Religion |
+    | Mage | 1 | Arcana, History, Investigation, Religion |
+
+    - Every one of the 18 skills is on at least one list *(Claude, checked)*; Intimidation is on three. Nature is left off the Scout's because rangers can find it elsewhere (Green, Brown, several traits); Animal Handling went to the Fighter (replacing Perception) and the Mystic (the shaman).
+    - **Duplicates** *(phasing can hand you a skill you already have)*: pick a replacement **from the same list**; if that list has nothing left, take any skill tied to the same ability. This stops players aiming for duplicates to reach skills off every list.
+    - **Expertise: back-burnered**, probably somewhere on the Cunning line.
+11. **Power curves** *(Troy asked)*: `canon/analysis/power-curves.md` and `.png`, 12 archetypes × 3 strategies, phasing at 5 and 10. See its findings.
    - **The ceiling:** standard array 15, plus three +1s at creation (affinity and two traits may all land on one ability) = 18; species ring 4 +1 = 19; the kit's two grid tiles = **21**, still a +5 modifier. Troy: "That puts our cap at 21", odd, so it never reaches +6.
 
 ### What phasing does to each tree *(Troy)*
