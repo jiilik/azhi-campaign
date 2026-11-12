@@ -4,6 +4,9 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-11-12
 
+- **Spells** (Troy, voice): no spell-level gates, mana is the brake. The Mage's tiles give mana and the right to learn; Int casters learn from books anywhere, and the DM must make spells available. Other casters know the spells on the tiles they take. Starting with the Mage Kit includes a spellbook of player-chosen spells (number parked; wizard as reference).
+- **Saving throws** (Troy, voice): one from the starting kit (its ability or either neighbour's), one from the colour's ring 1 (a choice of its two abilities). Red Str/Wis, Indigo Cha/Dex, White Wis/Str, so every save is offered by three colours; their ring-1 and ring-4 +1s follow the same pair. Unphased: the kit's save, plus +1 to all saves they aren't proficient in.
+- **Phase finding** (Troy): every phase puts a character one level behind one who didn't phase (if they hold any species rings).
 - **Phasing penalty: lose one ring** (Troy): replaces this morning's halving. Gentler, and keeps a party balanced when members phase at different times. The power curves were rerun: species investors now hold 10 of 12 points at level 12 with a phase every five levels.
 - **Points and cap** (Troy, voice): one point per level-up, on either wheel; the Unphased spend theirs on the skills grid. No ability score cap (scores top out at 21 naturally).
 - **Ability increases** (Troy, voice): the species ring-4 Stat Up drops to **+1** (two-ability colours: the player chooses either). The skills grid gets twelve +1 tiles, one per kit on ring 4 (402 Cha, 406 Dex, 410 Str, 414 Con, 418 Wis, 422 Int) and one on ring 6 (636 Cha, 606 Dex, 612 Str, 618 Con, 624 Wis, 630 Int), each +1 to its kit's ability. Labels read "Int +1" etc., never "Stat Up". A focused build tops out at 21 (+5).

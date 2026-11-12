@@ -16,15 +16,15 @@ The forms are arranged around a wheel of colour: Red, Brown, Yellow, Green, Blue
 
 | Form | Ability Score Increase | Size | Speed |
 |---|---|---|---|
-| Red | Strength | Large | 35 feet |
+| Red | Strength or Wisdom | Large | 35 feet |
 | Brown | Constitution or Strength | Medium | 30 feet |
 | Yellow | Intelligence or Constitution | Medium | 30 feet |
 | Green | Dexterity or Constitution | Medium | 30 feet; Climb 30 feet |
 | Blue | Dexterity or Charisma | Small | 30 feet; Swim 30 feet |
-| Indigo | Charisma | Medium | 30 feet; Swim 30 feet |
+| Indigo | Charisma or Dexterity | Medium | 30 feet; Swim 30 feet |
 | Black | Intelligence or Charisma | Medium | 30 feet |
 | Grey | Intelligence or Wisdom | Medium | 30 feet |
-| White | Wisdom | Medium | 30 feet |
+| White | Wisdom or Strength | Medium | 30 feet |
 | Unphased | None | Small or Medium | 30 feet |
 
 ### Parts of a Form
@@ -76,7 +76,7 @@ _Red dragonborn are the builders of Azhi: miners, crafters, smiths and industria
 
 **Size:** Large
 **Speed:** 35 feet
-**Ability Score Increase:** Strength
+**Ability Score Increase:** Strength or Wisdom
 
 As a Red dragonborn, you have these special traits.
 
@@ -172,7 +172,7 @@ _Indigo dragonborn dwell where the sea goes dark, in cities few outsiders have e
 
 **Size:** Medium
 **Speed:** 30 feet
-**Ability Score Increase:** Charisma
+**Ability Score Increase:** Charisma or Dexterity
 
 As an Indigo dragonborn, you have these special traits.
 
@@ -232,7 +232,7 @@ _White dragonborn are the most empathetic of the colours: healers, storytellers 
 
 **Size:** Medium
 **Speed:** 30 feet
-**Ability Score Increase:** Wisdom
+**Ability Score Increase:** Wisdom or Strength
 
 As a White dragonborn, you have these special traits.
 

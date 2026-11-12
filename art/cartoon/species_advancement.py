@@ -36,9 +36,9 @@ STEP = cw.STEP
 FIXED = {3: "Prof. Up", 6: "Attack Up"}
 # Ring 4: +1 to the colour's affinity ability (Troy, 2026-11-12; was +2 on
 # 2026-11-12 morning). Two-ability colours: the player chooses either.
-STAT_UP = {"Red": "Str +1", "Brown": "Con +1 or Str +1", "Yellow": "Int +1 or Con +1",
-           "Green": "Dex +1 or Con +1", "Blue": "Dex +1 or Cha +1", "Indigo": "Cha +1",
-           "Black": "Int +1 or Cha +1", "Grey": "Int +1 or Wis +1", "White": "Wis +1"}
+STAT_UP = {"Red": "Str +1 or Wis +1", "Brown": "Con +1 or Str +1", "Yellow": "Int +1 or Con +1",
+           "Green": "Dex +1 or Con +1", "Blue": "Dex +1 or Cha +1", "Indigo": "Cha +1 or Dex +1",
+           "Black": "Int +1 or Cha +1", "Grey": "Int +1 or Wis +1", "White": "Wis +1 or Str +1"}
 ARCS = {}
 # A text heart (not the emoji), so it turns with the curved text.
 HEART = '<tspan fill="#d0312d" font-weight="bold">\u2665</tspan>'

@@ -67,7 +67,17 @@ These overturn parts of the brainstorm below.
    - **Labels:** the tiles say just "Int +1", "Dex +1" and so on; the species wheel's ring 4 says "Str +1" or "Int +1 or Wis +1". No "Stat Up" label anywhere, so players can add things up at a glance.
 6. **Points per level** *(Troy, voice)*: **one point per level-up**, spent on either wheel. An **Unphased** character can't spend on the colour wheel, so their points go to the skills grid (no banking).
 7. **No ability cap** *(Troy, voice)*: ignore the 20 cap; it won't matter in practice (a focused build tops out at 21, still +5). *(Claude, checked against SRD 5.2.1:)* items such as Gauntlets of Ogre Power set a score (19) and do nothing if yours is already that high; the manuals and tomes add 2, to a maximum of 30.
-8. **Power curves** *(Troy asked)*: `canon/analysis/power-curves.md` and `.png`, 12 archetypes × 3 strategies, phasing at 5 and 10. See its findings.
+8. **Spells** *(Troy, voice, 2026-11-12)*:
+   - **No spell-level gates.** A character can cast any spell they have access to if they have the mana; early on, a big spell would blow the whole pool.
+   - **Intelligence casters (the Mage) learn from books, anywhere:** the Mage's tiles give **mana and the right to learn**, no spells. A world condition: the DM must make spells available to learn (libraries, scrolls, teachers).
+   - **Other casters** (the Mystic, blood mages and the like) **know the spells on each tile they take**, as with techniques.
+   - **Starting with the Mage Kit** (as the first tile, not multiclassing in) includes **a spellbook with a set number of spells of the player's choice**. *(Parked: how many and which; reference the SRD wizard, six level-1 spells and three cantrips.)*
+9. **Saving throws** *(Troy, voice, 2026-11-12)*: two proficiencies, as in the SRD.
+   - **One from the starting kit,** a choice of three: the kit's own ability or either neighbour's (Herald: Cha, Dex or Int; Scout: Dex, Cha or Str; Fighter: Str, Dex or Con; Tank: Con, Str or Wis; Mystic: Wis, Con or Int; Mage: Int, Wis or Cha). Only the starting kit gives one, so multiclassing doesn't pile them up.
+   - **One from the colour's ring 1,** a choice of its two abilities, so a player can avoid a double (Dex from Green and Dex from the Scout). Phasing changes it, which keeps things lively.
+   - **Red, Indigo and White** get a second ability: **Red Str or Wis, Indigo Cha or Dex, White Wis or Str**, so **every save is offered by exactly three colours** (no Constitution glut; Con is a strong save, especially for wizards). Their ring-1 +1 and ring-4 +1 follow the same pair.
+   - **The Unphased** get the kit's save, and instead of a second proficiency, **+1 to every saving throw they aren't proficient in**: not yet settled. *(Claude: proficiency grows from +2 to +4 by level 10, while the +1 stays flat, a gentle nudge toward phasing.)*
+10. **Power curves** *(Troy asked)*: `canon/analysis/power-curves.md` and `.png`, 12 archetypes × 3 strategies, phasing at 5 and 10. See its findings.
    - **The ceiling:** standard array 15, plus three +1s at creation (affinity and two traits may all land on one ability) = 18; species ring 4 +1 = 19; the kit's two grid tiles = **21**, still a +5 modifier. Troy: "That puts our cap at 21", odd, so it never reaches +6.
 
 ### What phasing does to each tree *(Troy)*

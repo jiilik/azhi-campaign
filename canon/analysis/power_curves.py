@@ -145,9 +145,9 @@ def simulate(name, strategy, levels=12, phases=(5, 10)):
 ARCH = list(KITS) + list(HYBRIDS)
 FINDINGS = ["", "## Findings (Claude, 2026-11-12, one ring lost per phase)", "",
     "1. **A gentle penalty.** With a phase every five levels, species-first and even-split characters hold **10 of 12** points at level 12 (grid-only keeps 12). Under the earlier halving rule they held 8 and 9.",
-    "2. **Hit points barely move on a phase:** the level's new point offsets the lost ring. At worst they dip by 1 (for example a Mage taking a d4 grid tile the level it loses a d6 ring).",
+    "2. **Every phase puts a character one level behind a character who didn't phase** (Troy), as long as they have at least one species ring; a grid-only character loses nothing. *(Claude's earlier line, that hit points hold through a phase, compared a character only with their own previous level, because the model phases on the same step as a level-up; mid-level, the lost ring's Hit Die comes off at once.)*",
     "3. **Bonuses keep pace:** by level 12, species investors have about the same ability +1s and Prof. Ups as grid-only builds; they trail mainly in Attack Up (usually 1 against 2).",
-    "4. **The penalty no longer depends on how much you invested:** losing one ring costs everyone the same, so party members who phase at different times stay within a couple of points of each other.",
+    "4. **The penalty no longer depends on how much you invested:** one ring costs everyone the same, so party members who phase at different times stay within a level or two of each other.",
     "5. **Archetypes look alike in shape**; the differences are Hit Die size. The Mage line is the thinnest (39 HP at 12 grid-only, against a 2024 wizard's 50 without Con).", ""]
 STRATS = ["grid only", "species first", "even split"]
 
