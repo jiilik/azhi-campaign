@@ -114,11 +114,11 @@ for (dq, dr), ab in zip(DIRS, ABILITIES):
     # Damage Boost (Troy, 2026-11-07): ring 5, straight out from each kit,
     # except the Fighter's 511, moved to 510 and 614 (Troy, 2026-11-10).
     if ab != "Str":
-        TILES[(5 * dq, 5 * dr)] = ("", "Damage Boost", "+1")
+        TILES[(5 * dq, 5 * dr)] = ("", "Attack Up", "")
     # Proficiency Bonus +1 (Troy, 2026-11-07): ring 4, on each seam.
     nq, nr = DIRS[(ABILITIES.index(ab) + 1) % 6]
     SEAM_TILES.add((2 * (dq + nq), 2 * (dr + nr)))
-    TILES[(2 * (dq + nq), 2 * (dr + nr))] = ("", "Proficiency", "PB +1")
+    TILES[(2 * (dq + nq), 2 * (dr + nr))] = ("", "Prof. Up", "")
 
 # Fantasy themes for ring 2 (Troy, 2026-11-07). Ring 2 alternates:
 # straight out from an ability hex (its middle), then between two
@@ -183,13 +183,13 @@ LINE3 = {}  # (q, r) -> line 3 for themed tiles
 # Ring 6 Damage Boosts on the seams (Troy, 2026-11-09).
 BY_NUMBER = {v: k for k, v in NUMBERS.items()}
 for num in ("510", "614"):  # the Fighter's boosts (Troy, 2026-11-10)
-    TILES[BY_NUMBER[num]] = ("", "Damage Boost", "+1")
+    TILES[BY_NUMBER[num]] = ("", "Attack Up", "")
 for num in ("604", "610", "616", "622", "628", "634"):
-    TILES[BY_NUMBER[num]] = ("", "Damage Boost", "+1")
+    TILES[BY_NUMBER[num]] = ("", "Attack Up", "")
     SEAM_TILES.add(BY_NUMBER[num])
 # Ring 6 Proficiency Bonus tiles straight out from each kit (Troy, 2026-11-09).
 for num in ("601", "607", "613", "619", "625", "631"):
-    TILES[BY_NUMBER[num]] = ("", "Proficiency", "PB +1")
+    TILES[BY_NUMBER[num]] = ("", "Prof. Up", "")
 for num, hd in HIT_DICE.items():
     h = BY_NUMBER[num]
     l3 = "{H}" + hd + (" " + POOLS[num] if num in POOLS else "")
@@ -215,7 +215,7 @@ for i in range(6):
 for h, hd in RAY_TILES.items():
     if h in TILES:
         l1, l2, l3 = TILES[h]
-        extra = l3.replace("PB +1", "PB+1")
+        extra = l3
         TILES[h] = (l1, l2, "{H}" + hd + (" " + extra if extra else ""))
     else:
         TILES[h] = ("", "", "{H}" + hd)
@@ -358,7 +358,7 @@ ax.text(0, lim + 2.0, title, ha="center",
         va="center", fontsize=15, weight="bold")
 ax.text(0, -lim - 2.0,
         "Centre and ring 1: populated (Req / name / what adds up).  Ring 2: 201-202 technique tiles.  Italic labels outside the grid: fantasy themes.\n"
-        "Proficiency Bonus: ring 4 seams and ring 6 corners.  Rings 5 and 6: Damage Boost tiles.  Other hexes empty.  127 hexes in all.  PROPOSED design; see canon/brainstorm-progression.md.",
+        "Prof. Up (Proficiency Bonus +1): ring 4 seams and ring 6 corners.  Attack Up (Damage Boost): rings 5 and 6.  Every tile has a Hit Die.  127 hexes in all.  PROPOSED design; see canon/brainstorm-progression.md.",
         ha="center", va="center", fontsize=8, color="#444")
 place_line(ax, 0, -lim - 2.6, "{H} Hit Die     {S} stamina (SP)     {M} mana (MP)", zoom=0.14)
 
