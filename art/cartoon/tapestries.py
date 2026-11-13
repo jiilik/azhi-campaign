@@ -872,10 +872,7 @@ def scene2():
     o.append(person(tx + 74, 714, 0.84, 'Silver', 'read', '#4b3a7a', '#f2d16b', flip=-1, item='tape'))
     o.append(person(tx + 140, 722, 0.8, 'Red', 'awe', '#8d98a6', '#2f4f8f', flip=-1, look=-12))
     o.append(person(tx + 200, 728, 0.8, 'Blue', 'point', '#efe4cc', '#2b5fa8', flip=-1, look=-30))
-    # an ox cart bringing spare brass for the machine, led by a Green (Plough and Cart)
-    o.append(ox_cart(470, 790, 0.75, load='parts', coat='#a0683a'))
     gx_, gy_ = 690, 794
-    o.append(f'<path d="M {gx_ - 11},{gy_ - 41} Q {gx_ - 30},{gy_ - 26} {470 + 224 * 0.75},{790 - 38 * 0.75}" stroke="{INK}" stroke-width="2" fill="none"/>')
     o.append(person(gx_, gy_, 0.9, 'Green', 'hold', '#5c6b3a', '#7a4e2a', look=-12, tail_item='scroll'))
     # pigeons on the plaza and over the city
     for (x, y, pk, fl) in [(372, 764, True, 1), (394, 776, False, -1), (612, 664, True, 1), (440, 780, True, -1)]:
