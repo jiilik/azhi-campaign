@@ -35,6 +35,7 @@ Azhi is **Persian-myth-inspired, long and snakelike**, and **colossal**: its hea
 - Dorsal spikes, and **flame-shaped tufts** in orange, red and gold, in the style of Shahnameh miniatures.
 - Curling gold barbels, cream curled horns, an open fanged mouth, and a yellow slit eye.
 - Small vestigial clawed legs on the inner (belly) side. This foreshadows the limb ridges on the world map.
+- **Stubby little wings** near the shoulders *(Troy, 2026-11-12)*, matching the map's Wing Spars. Along the body: forelimbs about 13% of the way from the head, wings about 20%, hindlimbs about 53%, then a long thinning tail.
 - Its body should read as a **near-loop** around the subject, foreshadowing the ring.
 
 ## Do and don't

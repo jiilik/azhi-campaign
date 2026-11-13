@@ -18,6 +18,7 @@ Each script `chdir`s to its own folder and writes to `build/` (SVG, git-ignored)
 | `colour_wheel.py` | `output/colour_wheel.png`: the nine-form colour wheel of the species design (canon, 2026-10-24) (five colours, five hybrids, the Unphased, Gold and Silver watching). Hybrid colours are working values. |
 | `species_advancement.py` | `output/species_advancement.png`: the species advancement wheel: the colour wheel (no Gold or Silver) with six rings of advancement on each of the nine spokes, 54 arcs with curved text. Fill arcs in its `ARCS` table; `--print` also writes a white-page vector PDF for `canon/diagrams/print_wheels.py` (PROPOSED, 2026-11-11). |
 | `lore_panels.py` | `output/lore_1_bones.png` … `lore_5_campfire.png` and the sheet `output/lore_panels.png`: dragonborn adventurers visiting Azhi's history: the bones of Azhi (myth), the machine war, the age of faith, the twins' nest, and a campfire tale of the homunculi war (epochs PROPOSED, `canon/brainstorm-epochs.md`) (2026-11-11). |
+| `tapestries.md` | Plan for the seven Tapestry Hall panels (a player-facing history in a White monastery), replacing the lore panels. Epoch 0 is decided (2026-11-12). |
 | `azhi_cover.py` | `output/azhi_cover.png`: Azhi looming over the young world (handout cover) |
 | `svg2png.py in.svg out.png W H` | A generic SVG → PNG rasterizer used by the others |
 
