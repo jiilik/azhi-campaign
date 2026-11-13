@@ -54,6 +54,40 @@
 
 **The ring in the sky** *(Claude, 2026-11-12)*: ray-traced from the 3D model (`worldgen/skyview.py` → `worldgen/output/azhi_sky_day.png` and `azhi_sky_night.png`, with clouds, haze, and light from the Gold or Silver dragon), looking across the hole from three latitudes. From the upper flank (φ 100°) the far side is a **low, flat band** along the horizon. From the flank leaning inner (φ 120°, Troy's choice) it's a **broad band arching over the hole like a bridge**, filling the whole width of view and dipping to the horizon at both ends, with sky under the arch. From the inner flank (φ 140°) the arch rises higher and the opening below it grows. The band is **far thicker** than in the old panels: at φ 120° roughly a quarter of the view's height. What's visible of the far side is mostly its inner face, the Inner Sea, so the band is **sea-blue with land patches**, hazy with distance.
 
-## Epochs 3 to 6
+## Who may appear when *(Troy, 2026-11-12)*
 
-*(To be planned, one at a time.)*
+- **Yellow and Grey** dragonborn appear **only from Epoch 5** (they're the homunculi's converted followers).
+- **Brown and Indigo** appear **only after the twins' war** *(Claude: the young Red became Brown and the elder Black became Indigo at the end of Epoch 4)*, so from Epoch 5. Epoch 4 shows the time before the war.
+- So Epochs 1–4 show only the original seven colours (and the Unphased); Epoch 5 is the first with all nine.
+
+## Epoch 3: the age of faith
+
+*(Troy, voice, 2026-11-12. Decided.)*
+- **Several temples in different architectural styles,** with **flowing banners in several colours.**
+- **Three faiths, each with its own invented iconography** (to be **saved for reuse** later, even if never mentioned again):
+  1. **The Black dragon's church.**
+  2. **The Cult of the Ring,** one of Blue's creations: its symbol is **Azhi devouring itself**. *(It shares the house's ouroboros symbol; Troy: fine, as this is long before the present day, and a symbol can outlive its cult.)*
+  3. **Machine revivalists**, longing for the thinking machines to return: their symbol echoes **the thinking machine as drawn in Epoch 2**.
+- **Caption:** **"Tapping into the very power of creation itself, philosophies diverge."** *(Claude: true to the legend without spelling out the apocalypse.)*
+
+## Epoch 4: the twins
+
+*(Troy, voice, 2026-11-12. Decided.)* Keep the old panel's idea of **dragonborn looking at the empty eggshells** (one speckled blue, one green).
+- **Before the twins phase** into Black and Red and go to war.
+- **Behind the eggs, two young Unphased dragons cruise about,** shimmering every colour, and the **dragonborn in front point them out**: "Oh wow, look, new dragons!"
+- **Blue and Green nuzzle in the background,** the proud parents.
+- **Caption:** **"An accidental discovery: life springs forth anew."** *(Troy: life comes from Green and water from Blue. Claude: it echoes the myth, where "all life springs forth anew" after Azhi bites its own tail.)*
+
+## Epoch 5: the homunculi war
+
+*(Troy, voice, 2026-11-12. Decided.)* The civilization at its height, not the war.
+- **The Yellow and Grey dragons sit on a hill, surrounded by their followers,** the newly phased Yellow and Grey dragonborn.
+- **All nine colours** can appear: the first tapestry with Yellow, Grey, Brown and Indigo.
+- **The real Gold and Silver dragons float in the sky** (with the ring visible), so no one mistakes Yellow and Grey for Gold and Silver.
+- **Caption:** **"Earthly reflections of the sun and moon."**
+
+**Checked** *(Claude)*: Epoch 4 was the first mass phasing (dragonborn phased in great numbers to fill the twins' armies), and the council banned it afterwards; the Yellow and Grey conversions in Epoch 5 were a loophole in that ban. The homunculi are adult dragons, homunculi of Gold and Silver. Nothing in the scene names the young Black, so the present-day secret (that today's Black is the young one) stays out.
+
+## Epoch 6
+
+*(To be planned.)*
