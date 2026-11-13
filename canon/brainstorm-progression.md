@@ -91,7 +91,11 @@ These overturn parts of the brainstorm below.
     - Every one of the 18 skills is on at least one list *(Claude, checked)*; Intimidation is on three. Nature is left off the Scout's because rangers can find it elsewhere (Green, Brown, several traits); Animal Handling went to the Fighter (replacing Perception) and the Mystic (the shaman).
     - **Duplicates** *(phasing can hand you a skill you already have)*: pick a replacement **from the same list**; if that list has nothing left, take any skill tied to the same ability. This stops players aiming for duplicates to reach skills off every list.
     - **Expertise: back-burnered**, probably somewhere on the Cunning line.
-11. **Power curves** *(Troy asked)*: `canon/analysis/power-curves.md` and `.png`, 12 archetypes × 3 strategies, phasing at 5 and 10. See its findings.
+11. **Power curves: the conclusion** *(Claude's simulation, 2026-11-12; the experiment itself was dropped to keep the repo lean)*. Twelve archetypes (six kits, six hybrids) × three strategies (grid only, species first, even split), levels 1–12, phasing at levels 5 and 10:
+   - **Halving the species points on a phase was too harsh:** species-first characters held 8 of 12 points by level 12. Hence the one-ring rule.
+   - **With one ring lost:** species investors hold 10 of 12, and their ability +1s and Prof. Ups keep pace with grid-only builds; they trail mainly in Attack Up (usually 1 against 2).
+   - **Every phase puts a character one level behind a character who didn't phase** (Troy), if they hold any species rings; a grid-only character loses nothing. The penalty is the same for everyone, so a party stays balanced when members phase at different times.
+   - **Without phasing,** six deep on either wheel is about even, as designed. Archetypes differ mainly in Hit Die size; the Mage line is thinnest (about 39 HP at level 12 grid-only, against a 2024 wizard's 50, both before Constitution).
    - **The ceiling:** standard array 15, plus three +1s at creation (affinity and two traits may all land on one ability) = 18; species ring 4 +1 = 19; the kit's two grid tiles = **21**, still a +5 modifier. Troy: "That puts our cap at 21", odd, so it never reaches +6.
 
 ### What phasing does to each tree *(Troy)*
