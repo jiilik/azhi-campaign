@@ -458,7 +458,7 @@ def party(lst, gy, st, base):
 
 def scene_spine(st):
     b = sky(['#5fb2ea', '#9fd3f2', '#ffe7b0'], st, 0, 600)
-    b += ring_arch('M -80,560 Q 420,-40 1300,70', 30, st, op=.55)
+    # no ring arch here (Troy, 2026-11-12): from the outer equator the far side is below the horizon
     b += sky_dragon(330, 190, 1.15, '#ffc93c', '#ffd25a', st)
     if not st['geo'] or True:
         b += cloud(820, 180, 1.0, st) + cloud(1030, 250, .7, st) + cloud(120, 300, .8, st)

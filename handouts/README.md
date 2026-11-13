@@ -1,12 +1,6 @@
 # Handouts
 
-| Handout | Where | Contents |
-|---|---|---|
-| **Azhi: The Dragon Philosopher**, player handout | Claude Doc: https://claude.ai/artifact/9wznrMy1LCi1i9cXMkw5PS (private to Troy unless shared) | Cover art (`art/cartoon/output/azhi_cover.png`), the full myth (exact canon text), the edge-on torus view, the world map, and two dragonborn scenes |
-
-To print it, open the doc and export it as PDF or Word.
-
-Scope (decided 2026-10-20): myth and visuals only. Session-zero and rules information goes in the SRD-derived document.
+No handouts at present. The myth handout (**Azhi: The Dragon Philosopher**, a Claude Doc) was retired and deleted on 2026-11-12 (Troy). A chapter of the SRD-based players' handbook describing the world more fully will probably replace it (`PLAN.md`, 2c). Its parts all live in the repo: the myth in `canon/azhi-myth.md`, the cover and scenes in `art/cartoon/output/`, the map and torus views in `worldgen/output/`.
 
 ## Draft: Character Origins (for editing)
 

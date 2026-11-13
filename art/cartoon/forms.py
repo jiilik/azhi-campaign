@@ -1,7 +1,7 @@
 """Dragonborn form details shared by every Saturday-Morning Bold drawing (2026-11-12, Troy):
 Red a touch larger and Blue a touch smaller; Green's prehensile tail holding an everyday thing
 (never a weapon or a shield); webbed fingers and toes for Blue and Indigo; the White form's
-Spectral Wings. Used by party.figure() (adventurers: colour wheel, handout scenes) and by
+Spectral Wings. Used by party.figure() (adventurers: colour wheel, adventuring scenes) and by
 tapestry_lib.person() (the tapestries). See art/STYLE.md, "Dragonborn by form"."""
 import math, random
 import numpy as np

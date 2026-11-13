@@ -1,6 +1,6 @@
 # The Tapestry Hall: a player-facing history of Azhi (PLAN and first renders, 2026-11-12)
 
-*(Troy, voice, 2026-11-12.)* The five lore panels (`cartoon/lore_panels.py`) are being redone as **six tapestries** hanging in a **White monastery**. Players walk through them one at a time; each tells one chapter, condensed.
+*(Troy, voice, 2026-11-12.)* The five lore panels (formerly `cartoon/lore_panels.py`, deleted 2026-11-12) are redone as **six tapestries** hanging in a **White monastery**. Players walk through them one at a time; each tells one chapter, condensed.
 
 - **The legend, not the DM's truth.** Secrets are simply left out, but nothing woven is false: **no misdirection**. *(Secrets to leave out are listed in `canon/brainstorm-epochs.md`: today's Black is the young Black, the living thinking machine, the buried weapons forge, Indigo's weapon secrets; Gold and Silver are only whispered about.)*
 - **Captions: brief.** A short woven title, with a line or two at most.

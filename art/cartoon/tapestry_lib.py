@@ -533,7 +533,7 @@ def ring_band(hz, top_side=300, top_mid=380, foot_in=130, arch_mid=250, sky_unde
 
 def farside_ribbon(p0, c, p1, w, view, night=False, op=1.0, sty=None):
     """The ring arch as a ribbon along the quadratic curve p0 -> c -> p1 (w wide), showing the
-    real far side of the map (the handout scenes' style of arch)."""
+    real far side of the map (the Inner Sea scene's style of arch)."""
     sty = sty or st
     P0, C_, P1 = (np.array(q, float) for q in (p0, c, p1))
 

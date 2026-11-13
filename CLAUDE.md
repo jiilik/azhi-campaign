@@ -61,7 +61,7 @@ You are helping **Troy** (the author and DM) build **Azhi**, a D&D campaign sett
 | `srd/` | SRD section files and `srd-tracker.md` (Phase 1 onward) |
 | `worldgen/` | Terrain, map projection and 3D torus renderer. See `worldgen/README.md`. |
 | `art/` | Cartoon library, style spec and renders. See `art/README.md` and `art/STYLE.md`. |
-| `handouts/` | Player handouts. The myth handout lives online as a Claude Doc (link in `handouts/README.md`). |
+| `handouts/` | Player handouts (none at present: the myth handout was retired 2026-11-12) and the link to the Character Origins draft Doc. |
 | `project-instructions.md` | Text pasted into the Claude Project's custom instructions |
 | `ATTRIBUTION.md` | SRD CC BY 4.0 attribution |
 

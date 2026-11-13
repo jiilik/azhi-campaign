@@ -1115,7 +1115,7 @@ def scene3():
 
 # ============================================================ Epoch 4
 def eggshell(cx, yb, rw, rh, fill, speck, seed, lean=0):
-    """Lower half of a giant cracked egg, with a zigzag rim (after lore_panels.py)."""
+    """Lower half of a giant cracked egg, with a zigzag rim (after the retired lore panels)."""
     rnd = random.Random(seed)
     top = yb - rh
     n = 9

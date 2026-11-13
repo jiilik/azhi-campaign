@@ -1,4 +1,4 @@
-"""Render the two Saturday-Morning Bold dragonborn scenes used in the handout -> output/dragonborn_spine.png, output/dragonborn_innersea.png."""
+"""Render the two Saturday-Morning Bold dragonborn scenes (made for the retired myth handout) -> output/dragonborn_spine.png, output/dragonborn_innersea.png."""
 import os, sys, subprocess
 HERE = os.path.dirname(os.path.abspath(__file__)); os.chdir(HERE); sys.path.insert(0, HERE)
 os.makedirs('build', exist_ok=True); os.makedirs('output', exist_ok=True)

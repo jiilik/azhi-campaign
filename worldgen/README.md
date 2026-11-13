@@ -80,4 +80,4 @@ Ray-traces the coloured torus from an eye on the surface, looking across the hol
 
 ## farside.py
 
-Ray-traces the far side of the ring from the surface (the same geometry as `skyview.py`) and resamples it onto a normalized band grid, so the cartoon ring arch in the tapestries shows the map's real coastlines, highlands, snow and clouds → `art/cartoon/data/farside_t<θ>.npz` (height above sea level and cloud cover). Run `python worldgen/farside.py [θ ...]`; the default views are θ 110°, 20°, 250° and 60° (Epochs 2–5) and 10° (the Inner Sea handout scene). Needs `build/E.npy` and `build/img_angle.npy` (2026-11-12).
+Ray-traces the far side of the ring from the surface (the same geometry as `skyview.py`) and resamples it onto a normalized band grid, so the cartoon ring arch in the tapestries shows the map's real coastlines, highlands, snow and clouds → `art/cartoon/data/farside_t<θ>.npz` (height above sea level and cloud cover). Run `python worldgen/farside.py [θ ...]`; the default views are θ 110°, 20°, 250° and 60° (Epochs 2–5) and 10° (the Inner Sea scene). Needs `build/E.npy` and `build/img_angle.npy` (2026-11-12).
