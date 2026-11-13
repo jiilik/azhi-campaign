@@ -73,3 +73,7 @@ This script drapes `img_angle.npy` on a torus mesh, downsampled 3×, with relief
 
 - matplotlib's `plot_surface` has no true depth sorting. Odd angles can show minor artifacts, so stick to the provided views or check the result visually.
 - If you change `NP`, every Gaussian width stays in radians and behaves the same, but run time scales with `NP²`.
+
+## skyview.py
+
+Ray-traces the coloured torus from an eye on the surface, looking across the hole, to show how the far side of the ring arches across the sky at three latitudes (φ 100°, 120°, 140°) → `output/azhi_sky_views.png` and `azhi_sky_phi*.png`. Reference for drawing the ring arch in cartoons and tapestries (2026-11-12). Needs `build/img_angle.npy` (run `terrain.py` and `colorize.py` first).
