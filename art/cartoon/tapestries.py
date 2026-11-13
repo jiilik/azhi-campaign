@@ -360,21 +360,27 @@ def bstyle(px=3.0):
 
 
 def mountain(x, base, h, w, fill, snow=None, lean=0, seed=0):
+    """A peak with a single summit at (x, base - h); snow, if any, is clipped to the slopes so it
+    always sits on the mountain (a jagged snowline about a third of the way down)."""
     rnd = random.Random(seed)
+    n = 8
     pts = [(x - w / 2, base)]
-    n = 7
     for k in range(1, n):
         t = k / n
-        peak = 1 - abs(t - 0.5 - lean * 0.1) * 2
-        pts.append((x - w / 2 + w * t, base - h * max(peak, 0) - rnd.uniform(-h * 0.06, h * 0.06) * (0.3 < t < 0.7)))
+        peak = 1 - abs(t - 0.5) * 2
+        jit = 0 if k == n // 2 else rnd.uniform(-h * 0.06, h * 0.06) * (0.25 < t < 0.75)
+        pts.append((x - w / 2 + w * t, base - h * peak - jit))
     pts.append((x + w / 2, base))
     d = 'M ' + ' L '.join(f'{a:.1f},{b:.1f}' for a, b in pts) + ' Z'
     o = P(d, fill, bstyle(), bg=False)
     if snow:
-        top = min(pts, key=lambda q: q[1])
-        sd = (f'M {top[0] - w * 0.16:.1f},{top[1] + h * 0.26:.1f} L {top[0]:.1f},{top[1]:.1f} L {top[0] + w * 0.17:.1f},{top[1] + h * 0.28:.1f} '
-              f'L {top[0] + w * 0.08:.1f},{top[1] + h * 0.2:.1f} L {top[0] + 2:.1f},{top[1] + h * 0.3:.1f} L {top[0] - w * 0.07:.1f},{top[1] + h * 0.2:.1f} Z')
-        o += P(sd, snow, bstyle(2.2))
+        cid = uid('mtn')
+        line = base - h + h * 0.34
+        zig = [(x - w / 2 - 10 + k * w / 10, line + (rnd.uniform(-0.07, -0.02) if k % 2 else rnd.uniform(0.02, 0.07)) * h) for k in range(12)]
+        sd = (f'M {x - w / 2 - 10:.1f},{base - h - 20:.1f} L {x + w / 2 + 10:.1f},{base - h - 20:.1f} '
+              + ' '.join(f'L {a:.1f},{b:.1f}' for a, b in reversed(zig)) + ' Z')
+        o += f'<clipPath id="{cid}"><path d="{d}"/></clipPath><g clip-path="url(#{cid})">' + P(sd, snow, bstyle(2.2)) + '</g>'
+        o += f'<path d="{d}" fill="none" stroke="{INK}" stroke-width="{bstyle()["stroke"]}" stroke-linejoin="round"/>'
     return o
 
 
@@ -528,20 +534,6 @@ def lantern_string(x0, y0, x1, y1, sag, n, seed, colours=('#ffd27a', '#ffb3d1', 
     return o
 
 
-def bunting(x0, y0, x1, y1, sag, n, colours):
-    o = f'<path d="M {x0},{y0} Q {(x0 + x1) / 2},{(y0 + y1) / 2 + sag * 2} {x1},{y1}" stroke="{INK}" stroke-width="1.8" fill="none"/>'
-    for k in range(n):
-        t0, t1 = (k + 0.15) / n, (k + 0.85) / n
-
-        def at(t):
-            return ((1 - t) ** 2 * x0 + 2 * t * (1 - t) * (x0 + x1) / 2 + t * t * x1,
-                    (1 - t) ** 2 * y0 + 2 * t * (1 - t) * ((y0 + y1) / 2 + sag * 2) + t * t * y1)
-        a, b = at(t0), at(t1)
-        m = ((a[0] + b[0]) / 2, (a[1] + b[1]) / 2 + 20)
-        o += P(f'M {a[0]:.1f},{a[1]:.1f} L {b[0]:.1f},{b[1]:.1f} L {m[0]:.1f},{m[1]:.1f} Z', colours[k % len(colours)], bstyle(1.6))
-    return o
-
-
 def chalkboard(x, base):
     """A slate on an easel, chalked with geometry (no words)."""
     o = limb([(x - 26, base), (x - 8, base - 96)], 4, party.WOOD, bstyle(2))
@@ -621,8 +613,8 @@ def scene1():
     for (x, h, w, c) in [(70, 150, 230, '#a9bfd9'), (360, 130, 220, '#9fb5d0'), (220, 215, 270, '#b5c9e0')]:
         o.append(mountain(x, hz(x) + 22, h, w, c, snow='#ffffff', seed=int(x)))
     # a White dragonborn on wings of light, swooping down from the glacier toward the teaching
-    o.append(person(420, 330, 0.64, 'White', 'fly', '#eceff4', '#9fb7d4', look=6, wings='spectral'))
-    o.append(dragon(214, hz(220) + 22 - 215 + 30, 0.42, 'White', pose_sit(head_angle=-6, wings='up', wing_rot=-20, wing_scale=1.1), flip=1, expr='happy'))
+    o.append(person(372, 296, 0.64, 'White', 'fly', '#eceff4', '#9fb7d4', look=6, wings='spectral'))
+    o.append(dragon(214, hz(220) + 22 - 215 + 4, 0.42, 'White', pose_sit(head_angle=-6, wings='up', wing_rot=-20, wing_scale=1.1), flip=1, expr='happy'))
     for (x, y) in [(150, 330), (300, 300), (270, 380), (120, 400), (330, 360)]:
         o.append(f'<path d="M {x},{y - 8} L {x + 2.5},{y} L {x},{y + 8} L {x - 2.5},{y} Z M {x - 8},{y} L {x},{y + 2.5} L {x + 8},{y} L {x},{y - 2.5} Z" fill="#ffffff" stroke="#7fa6c8" stroke-width=".8"/>')
     # the young world's land: a great curved horizon
@@ -669,9 +661,9 @@ def scene1():
     o.append(zg)
     o.append(glow(596, top - 70, 190, '#a77bff'))
     o.append(dragon(586, top - 12, 0.86, 'Black', pose_teach(), flip=1, expr='talk'))
-    for k, kind in enumerate(['fire', 'water', 'earth', 'ice', 'eye']):
-        a = math.radians(-160 + k * 34)
-        o.append(glyph(kind, 640 + 150 * math.cos(a) + 60, top - 120 + 70 * math.sin(a), 15))
+    for k, kind in enumerate(['fire', 'water', 'eye', 'earth', 'ice']):   # an even arc, centred over the temple
+        a = math.radians(-162 + k * 36)
+        o.append(glyph(kind, 600 + 130 * math.cos(a), 370 + 70 * math.sin(a), 15))
     # worshippers and students on the steps and the plaza
     cols7 = ['Red', 'Blue', 'Green', 'White', 'Black', 'Gold', 'Silver']
     stairs = [(600 + rnd.uniform(-22, 22), y) for y in (600, 620)]
@@ -731,7 +723,7 @@ def thinking_machine(cx, base):
         for k in range(5):
             o.append(f'<rect x="{x - 16}" y="{base - 300 + k * 52}" width="32" height="30" rx="5" fill="#2a3a44" stroke="{INK}" stroke-width="2"/>')
             for j in range(3):
-                c = random.Random(int(x) + k * 7 + j).choice(['#7ff7ea', '#ffd34d', '#ff7a7a', '#2f6f74'])
+                c = random.Random(k * 7 + (j if side < 0 else 2 - j)).choice(['#7ff7ea', '#ffd34d', '#ff7a7a', '#2f6f74'])
                 o.append(f'<circle cx="{x - 9 + j * 9}" cy="{base - 285 + k * 52}" r="3.2" fill="{c}"/>')
         o.append(limb([(x - 4, base - 356), (x - 4, base - 392)], 10, BRASS_D, sty))
         for k in range(3):
@@ -754,14 +746,13 @@ def thinking_machine(cx, base):
     # main body: a great drum
     o.append(P(f'M {cx - 170},{base - 70} L {cx - 160},{base - 380} Q {cx},{base - 420} {cx + 160},{base - 380} L {cx + 170},{base - 70} Z', BRASS2, sty))
     o.append(P(f'M {cx - 150},{base - 90} L {cx - 142},{base - 360} Q {cx},{base - 396} {cx + 142},{base - 360} L {cx + 150},{base - 90} Z', '#e9c66a', bstyle(2.4)))
-    # panels of lights
+    # panels of lights, mirrored exactly about the centre line (a machine like this is built perfect)
     rnd = random.Random(2)
-    for side in (-1, 1):
-        x0 = cx + side * 110 - 26
-        for r in range(6):
-            for c in range(3):
-                col_ = rnd.choice(['#7ff7ea', '#ffd34d', '#ff7a7a', '#2f6f74', '#7ff7ea'])
-                o.append(f'<circle cx="{x0 + c * 18}" cy="{base - 120 - r * 34}" r="5" fill="{col_}" stroke="{INK}" stroke-width="1.6"/>')
+    for r in range(6):
+        for c in range(3):
+            col_ = rnd.choice(['#7ff7ea', '#ffd34d', '#ff7a7a', '#2f6f74', '#7ff7ea'])
+            for side in (-1, 1):
+                o.append(f'<circle cx="{cx + side * (100 + c * 18)}" cy="{base - 120 - r * 34}" r="5" fill="{col_}" stroke="{INK}" stroke-width="1.6"/>')
     # dials
     for (dx, dy) in [(-60, -110), (60, -110)]:
         o.append(circ(cx + dx, base + dy, 22, '#f6f1e3', bstyle(2.6)))
@@ -1102,9 +1093,9 @@ def scene3():
     o.append(lantern_string(1100, 622, 1210, 600, 10, 2, 4))
     # a Blue huckster preaching from a crate, with a speaking horn, under the ring banner
     o.append(P('M 520,740 L 520,712 L 580,712 L 580,740 Z', '#a8743c', bstyle(2.4)))
-    o.append(person(550, 712, 0.86, 'Blue', 'wave', '#e9dfc6', '#2e6fd2', look=-10))
-    o.append(P('M 584,606 L 620,590 L 622,618 Z', '#d4a63c', bstyle(2)))
-    o.append(banderole(470, 560, 104, 'The Ring!', flip=1, size=17))
+    o.append(person(550, 712, 0.86, 'Blue', 'hold', '#e9dfc6', '#2e6fd2', look=-10, item='megaphone'))
+    bx, by = megaphone_bell(550, 712, 0.86, 'Blue', look=-10)
+    o.append(banderole(bx + 4, by - 66, 104, 'The Ring!', flip=1, size=17))
     # processions and worshippers
     cols7 = ['Red', 'Blue', 'Green', 'White', 'Black', 'Gold', 'Silver']
     o.append(person(160, 760, 0.82, 'Black', 'hold', '#2b2638', '#c58bff', item='banner:#2b2638', look=-8))
@@ -1257,8 +1248,6 @@ def scene5():
     for (x, c, em) in [(300, '#f0cf2e', emblem_sun(13)), (900, '#7d838c', emblem_moon(13))]:
         o.append(limb([(x, 600), (x, 440)], 4, party.WOOD, bstyle(2)))
         o.append(banner(x, 444, 90, 36, c, '#ffffff', phase=x * 0.03, emblem=em, sty=bstyle(2.2)))
-    # sun-and-moon bunting strung across the hilltop for the festival
-    o.append(bunting(300, 452, 900, 452, 30, 16, ['#f0cf2e', '#7d838c']))
     # the Yellow and Grey dragons, side by side like heraldic supporters
     o.append(glow(600, 380, 260, '#fff2c0'))
     # each gazes up at the one it reflects: Yellow toward the setting Gold, Grey toward the rising Silver

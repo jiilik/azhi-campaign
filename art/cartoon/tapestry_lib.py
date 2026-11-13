@@ -429,6 +429,15 @@ def spectral_wings(sh, s=1.0, flip=1, spread=1.0, seed=1):
     return o
 
 
+def megaphone_bell(x, y, s, drag, look=0, flip=1):
+    """Where a standing figure's speaking horn opens, in the picture (to hang a speech scroll on)."""
+    s = s * SIZE_K.get(drag, 1.0)
+    sy = -46 - 34 * 1.08
+    hc = (10, sy - 9 - 10 * 1.05)
+    bx, by = _rot((72, 6), math.radians(look))
+    return (x + (hc[0] + bx) * s * flip, y + (hc[1] + by) * s)
+
+
 def fly_hand(x, y, s, drag, flip=1):
     """Where a flying figure's raised front hand ends up in the picture (for streamers and the like)."""
     s = s * SIZE_K.get(drag, 1.0)
@@ -578,6 +587,11 @@ def person(x, y, s, drag, pose='stand', outfit='#6f7b8a', accent='#9b2d2d', flip
         o.append(P(f'M {mx},{my - 2} Q {mx + 24},{my - 8} {mx + 40},{my - 26} L {mx + 50},{my - 18} Q {mx + 30},{my + 4} {mx},{my + 3} Z', '#e8c35a', sty))
         o.append(f'<ellipse cx="{mx + 45}" cy="{my - 22}" rx="7" ry="4" transform="rotate(38 {mx + 45} {my - 22})" fill="#9a7428" stroke="{INK}" stroke-width="{sty["stroke"]:.2f}"/>')
         o.append(f'<path d="M {mx + 54},{my - 34} q 6,-2 8,4 M {mx + 58},{my - 26} q 6,-2 8,4" stroke="{INK}" stroke-width="1.8" fill="none"/>')
+    elif item == 'megaphone':
+        o.append(f'<g transform="translate({hc[0]},{hc[1]}) rotate({hl})">'
+                 + P('M 34,4 L 66,-10 L 68,22 L 34,10 Z', '#d4a63c', sty)
+                 + f'<ellipse cx="67" cy="6" rx="5" ry="16" fill="#9a7428" stroke="{INK}" stroke-width="{sty["stroke"]:.2f}"/>'
+                 + P('M 30,3 L 36,3 L 36,11 L 30,11 Z', '#9a7428', sty) + '</g>')
     elif item == 'tape':
         o.append(limb([fh, (fh[0] + 8, fh[1] + 10), (fh[0] + 2, fh[1] + 26), (fh[0] + 10, fh[1] + 40)], 5, '#f4ead2', sty))
     o.append(arm(fs, fh, skin))
@@ -805,6 +819,8 @@ def woven_frame(scene_svg, caption, label, W=1640, H=1340, wall='#cfc6b4', borde
         for xx in (cx0 + 22, cx0 + cw - 22):
             o.append(f'<circle cx="{xx}" cy="{yy}" r="9" fill="none" stroke="{accent}" stroke-width="3.5"/>'
                      f'<circle cx="{xx + 7}" cy="{yy - 6}" r="2.6" fill="{accent}"/>')
+            if yy + 32 < cy0 + chh - 40:
+                o.append(f'<path d="M {xx - 6},{yy + 32} L {xx},{yy + 26} L {xx + 6},{yy + 32} L {xx},{yy + 38} Z" fill="#f3ecdc"/>')
     # inner field
     fx, fy, fw, fh = cx0 + 46, cy0 + 46, cw - 92, chh - 92
     o.append(f'<rect x="{fx - 4}" y="{fy - 4}" width="{fw + 8}" height="{fh + 8}" fill="{accent}"/>')
