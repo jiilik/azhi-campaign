@@ -1,7 +1,7 @@
 """Drawing kit for the Tapestry Hall (2026-11-12): posable dragons, Azhi, dragonborn in
 everyday poses, the Unphased shimmer, buildings, banners, the ring arch and the woven frame.
 Saturday-Morning Bold throughout. Built on party.py; see art/tapestries.md for the plan."""
-import math, random
+import math, os, random
 import numpy as np
 import colour_wheel  # noqa: F401  (adds Brown, Yellow, Indigo and Grey)
 import party
@@ -264,20 +264,201 @@ def _leg(anchor, pts, fill, pal, sty):
 
 
 # ---------------------------------------------------------------- dragonborn in everyday poses
+SIZE_K = {'Red': 1.07, 'Blue': 0.93}        # Red (Large) a touch bigger, Blue (Small) a touch smaller
+WEBBED = ('Blue', 'Indigo')                 # Amphibious / Deep-Born: webbed fingers and toes
+TAIL_ITEMS = ('flower', 'cup', 'lantern', 'basket', 'fruit', 'bell', 'quill', 'parasol', 'censer', 'scroll')
+
+
+def _unit(a, b):
+    d = np.array(b, float) - np.array(a, float)
+    return d / (np.linalg.norm(d) + 1e-9)
+
+
+def _rot(v, a):
+    c, s_ = math.cos(a), math.sin(a)
+    return (v[0] * c - v[1] * s_, v[0] * s_ + v[1] * c)
+
+
+def _hand(h, el, fill, webbed, sty, detail):
+    """A hand: a plain mitt when small, three fingers when the figure is big enough to show them."""
+    if not detail:
+        return circ(h[0], h[1], 3.8, fill, sty)
+    d = _unit(el, h)
+    tips = [(h[0] + v[0] * 6.4, h[1] + v[1] * 6.4) for v in (_rot(d, a) for a in (-0.62, 0, 0.62))]
+    o = ''
+    if webbed:
+        mids = []
+        for a, b in ((tips[0], tips[1]), (tips[1], tips[2])):
+            m = ((a[0] + b[0]) / 2, (a[1] + b[1]) / 2)
+            mids.append((m[0] * 0.72 + h[0] * 0.28, m[1] * 0.72 + h[1] * 0.28))
+        o += P(f'M {h[0]:.1f},{h[1]:.1f} L {tips[0][0]:.1f},{tips[0][1]:.1f} Q {mids[0][0]:.1f},{mids[0][1]:.1f} {tips[1][0]:.1f},{tips[1][1]:.1f} '
+               f'Q {mids[1][0]:.1f},{mids[1][1]:.1f} {tips[2][0]:.1f},{tips[2][1]:.1f} Z', mix(fill, '#ffffff', .38), dict(sty, stroke=sty['stroke'] * 0.45))
+    for t in tips:
+        o += limb([h, t], 2.3, fill, dict(sty, stroke=sty['stroke'] * 0.6))
+    o += circ(h[0], h[1], 3.4, fill, sty)
+    return o
+
+
+def _foot(x0, fill, webbed, sty, detail):
+    """A foot on the ground at y = 0, toes forward (+x). Webbed for Blue and Indigo."""
+    if not detail:
+        return P(f'M {x0 - 9},0 Q {x0 - 6},-6 {x0 + 4},-3 L {x0 + 6},0 Z', fill, sty)
+    a = x0 - 9
+    if webbed:
+        tips = [(a + 21, -8.5), (a + 23, -4.2), (a + 22.5, 0)]
+        o = P(f'M {a},0 Q {a + 1},-7 {a + 9},-6 L {tips[0][0]},{tips[0][1]} Q {a + 19},-5.5 {tips[1][0]},{tips[1][1]} '
+              f'Q {a + 19.5},-1.8 {tips[2][0]},{tips[2][1]} Z', mix(fill, '#ffffff', .38), sty)
+        for t in tips:
+            o += limb([(a + 9, -3), t], 2.0, fill, dict(sty, stroke=sty['stroke'] * 0.55))
+        return o + P(f'M {a},0 Q {a + 1},-7 {a + 9},-6 L {a + 11},0 Z', fill, sty)
+    o = P(f'M {a},0 Q {a + 1},-7 {a + 9},-6 L {a + 14},-6.4 Q {a + 18},-6 {a + 16},-3.6 Q {a + 21},-3.4 {a + 19.4},-1.2 '
+          f'Q {a + 22},-0.6 {a + 19},0 Z', fill, sty)
+    for (cx_, cy_) in ((a + 16.5, -6.2), (a + 20, -3.2), (a + 21, -0.4)):
+        o += f'<path d="M {cx_ - 1.6},{cy_ - 1.2} L {cx_ + 2.4},{cy_ + 0.4} L {cx_ - 1.4},{cy_ + 1.4} Z" fill="#f3ead2" stroke="{INK}" stroke-width="{sty["stroke"] * 0.4:.2f}"/>'
+    return o
+
+
+def tail_item_svg(kind, sty):
+    """Something held by a Green dragonborn's tail, gripped at (0, 0). Never a weapon or a shield."""
+    th = dict(sty, stroke=sty['stroke'] * 0.7)
+    if kind == 'flower':
+        o = limb([(0, 0), (3, -12), (2, -24)], 2.2, '#3f8a3c', th)
+        o += P('M 2,-12 Q 12,-16 14,-10 Q 8,-8 2,-12 Z', '#5aa64a', th)
+        for k in range(5):
+            a = math.radians(k * 72 - 90)
+            o += f'<ellipse cx="{2 + 5.4 * math.cos(a):.1f}" cy="{-26 + 5.4 * math.sin(a):.1f}" rx="4.4" ry="3" transform="rotate({k * 72} {2 + 5.4 * math.cos(a):.1f} {-26 + 5.4 * math.sin(a):.1f})" fill="#ff9ec4" stroke="{INK}" stroke-width="{th["stroke"]:.2f}"/>'
+        return o + circ(2, -26, 3, '#ffd34d', th)
+    if kind == 'cup':
+        o = P('M -2,-2 L 16,-2 L 14,10 Q 7,14 0,10 Z', '#f6f1e3', th) + P('M 16,0 Q 22,2 15,7', 'none', th)
+        o += f'<path d="M 0,2 L 15,2" stroke="#4fc1b3" stroke-width="2"/>'
+        o += f'<path d="M 5,-6 q -4,-5 0,-10 q 4,-5 0,-10 M 11,-6 q -4,-5 0,-10" stroke="#ffffff" stroke-width="2" fill="none" opacity=".85" stroke-linecap="round"/>'
+        return o
+    if kind == 'lantern':
+        o = glow(0, 18, 24, '#ffd27a')
+        o += limb([(0, 0), (0, 6)], 1.4, INK, th)
+        o += P('M -6,6 L 6,6 L 7,22 L -7,22 Z', '#ffe9a8', th) + P('M -7,4 L 7,4 L 5,7 L -5,7 Z', '#7a5233', th)
+        return o + P('M -7,22 L 7,22 L 5,25 L -5,25 Z', '#7a5233', th)
+    if kind == 'basket':
+        o = f'<path d="M -12,16 Q 0,-6 12,16" stroke="{INK}" stroke-width="5" fill="none"/><path d="M -12,16 Q 0,-6 12,16" stroke="#b07a3c" stroke-width="2.6" fill="none"/>'
+        o += circ(-5, 14, 4.6, '#e2432b', th) + circ(3, 13, 4.4, '#ffcf3a', th) + circ(8, 15, 4, '#7bc04a', th)
+        o += P('M -14,15 L 14,15 L 11,30 L -11,30 Z', '#c9945a', th)
+        return o + f'<path d="M -12,20 L 12,20 M -11,25 L 11,25" stroke="#8a5a2b" stroke-width="1.6"/>'
+    if kind == 'fruit':
+        return (circ(0, 8, 8, '#e2432b', th) + f'<ellipse cx="-3" cy="5" rx="2.4" ry="1.6" fill="#fff" opacity=".7"/>'
+                + P('M 0,0 Q 6,-5 10,-2 Q 5,1 0,0 Z', '#5aa64a', th))
+    if kind == 'bell':
+        o = P('M -8,16 Q -8,2 0,2 Q 8,2 8,16 L 10,18 L -10,18 Z', '#e8c35a', th) + circ(0, 19, 2.4, '#9a7428', th)
+        return o + f'<path d="M -13,6 q -3,4 0,8 M 13,6 q 3,4 0,8" stroke="{INK}" stroke-width="1.6" fill="none"/>'
+    if kind == 'quill':
+        return (P('M 0,0 Q 6,-14 18,-28 Q 10,-12 2,2 Z', '#f6f1e3', th)
+                + f'<path d="M 0,2 L 15,-24" stroke="{INK}" stroke-width="1"/>')
+    if kind == 'scroll':
+        return (f'<g transform="rotate(30)">' + P('M -3,-10 L 3,-10 L 3,10 L -3,10 Z', '#f4ead2', th)
+                + circ(0, -10, 3, '#d8c9a3', th) + circ(0, 10, 3, '#d8c9a3', th) + '</g>')
+    if kind == 'censer':
+        o = f'<path d="M 0,0 L -4,16 M 0,0 L 4,16" stroke="{INK}" stroke-width="1.4"/>'
+        o += P('M -8,16 L 8,16 Q 8,26 0,27 Q -8,26 -8,16 Z', '#d4a63c', th) + P('M -6,16 Q 0,9 6,16 Z', '#b07a3c', th)
+        return o + ''.join(f'<path d="M {dx},{8 - k * 2} q -5,-6 0,-12 q 5,-6 0,-12" stroke="#e9e4f2" stroke-width="2.4" fill="none" opacity="{0.8 - k * 0.2:.2f}" stroke-linecap="round"/>'
+                           for k, dx in enumerate((-4, 3, 9)))
+    if kind == 'parasol':
+        o = limb([(0, 0), (26, -36)], 2.2, '#7a5233', th)
+        cx_, cy_ = 30, -40
+        o += P(f'M {cx_ - 30},{cy_ + 4} Q {cx_},{cy_ - 30} {cx_ + 30},{cy_ + 4} Q {cx_ + 22},{cy_} {cx_ + 15},{cy_ + 5} Q {cx_ + 8},{cy_} {cx_},{cy_ + 5} '
+               f'Q {cx_ - 8},{cy_} {cx_ - 15},{cy_ + 5} Q {cx_ - 22},{cy_} {cx_ - 30},{cy_ + 4} Z', '#ffb3d1', th)
+        o += f'<path d="M {cx_},{cy_ - 22} L {cx_ - 15},{cy_ + 5} M {cx_},{cy_ - 22} L {cx_ + 15},{cy_ + 5}" stroke="#ffffff" stroke-width="2.4"/>'
+        return o + circ(cx_, cy_ - 23, 2.4, '#e8c35a', th)
+    return ''
+
+
+def _green_tail(hipY, sy, far, skin, sty, item):
+    """The prehensile tail: up and over, its tip curled round whatever it holds like a hand."""
+    C = catmull([(-2, hipY + 8), (-24, hipY + 15), (-44, hipY + 5), (-55, hipY - 14), (-57, sy + 2), (-52, sy - 9)], 120)
+    w = np.linspace(10, 3.4, len(C))
+    o = P(dpath(tube_outline(C, w)), far, sty)
+    T, N = frame(C)
+    for k in range(10, len(C) - 12, 11):          # a leafy frill along the top of the tail
+        n_ = -N[k]
+        p_ = C[k] + n_ * w[k] * 0.42
+        t_ = T[k]
+        o += P(f'M {p_[0]:.1f},{p_[1]:.1f} Q {p_[0] + n_[0] * 7 + t_[0] * 2:.1f},{p_[1] + n_[1] * 7 + t_[1] * 2:.1f} '
+               f'{p_[0] + t_[0] * 8:.1f},{p_[1] + t_[1] * 8:.1f} Z', mix(skin, '#c9f08a', .45), dict(sty, stroke=sty['stroke'] * 0.5))
+    k = int(len(C) * 0.8)                           # a gold cuff, the embellishment
+    a, b = C[k] + N[k] * w[k] * 0.62, C[k] - N[k] * w[k] * 0.62
+    o += f'<path d="M {a[0]:.1f},{a[1]:.1f} L {b[0]:.1f},{b[1]:.1f}" stroke="{INK}" stroke-width="5.6" stroke-linecap="round"/>'
+    o += f'<path d="M {a[0]:.1f},{a[1]:.1f} L {b[0]:.1f},{b[1]:.1f}" stroke="#e8c35a" stroke-width="3" stroke-linecap="round"/>'
+    tip = C[-1]
+    grip = (tip[0] + 2, tip[1] - 4)
+    if item:
+        o += f'<g transform="translate({grip[0]:.1f},{grip[1]:.1f})">{tail_item_svg(item, sty)}</g>'
+    # three little tail-fingers curled round the grip
+    for (dx, dy) in ((-1, -6), (4, -5), (6, -1)):
+        o += limb([tuple(tip), (grip[0] + dx * 0.5, grip[1] + dy * 0.9), (grip[0] + dx, grip[1] + dy * 0.2)], 2.3, skin,
+                  dict(sty, stroke=sty['stroke'] * 0.6))
+    return o
+
+
+def spectral_wings(sh, s=1.0, flip=1, spread=1.0, seed=1):
+    """Wings of shimmering light (the White form's Spectral Wings), rooted at the shoulder sh."""
+    rnd = random.Random(seed)
+    gid = uid('spw')
+    o = (f'<linearGradient id="{gid}" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#ffffff" stop-opacity=".95"/>'
+         f'<stop offset=".5" stop-color="#cdeeff" stop-opacity=".7"/><stop offset="1" stop-color="#e3d2ff" stop-opacity=".45"/></linearGradient>')
+    o += glow(sh[0] - 30 * s, sh[1] - 40 * s, 80 * s, '#d8f2ff')
+    for (k, sc, ang, op) in ((0, 0.82, -14, 0.55), (1, 1.0, 0, 0.8)):
+        g = []
+        wrist = (-14 * spread, -64)
+        tips = [(-78 * spread, -82), (-92 * spread, -46), (-80 * spread, -12), (-48 * spread, 4)]
+        d = f'M 0,0 Q {-4 * spread},{-40} {wrist[0]},{wrist[1]} L {tips[0][0]},{tips[0][1]} '
+        prev = tips[0]
+        for t in tips[1:]:
+            mx, my = (prev[0] + t[0]) / 2 + 10 * spread, (prev[1] + t[1]) / 2 + 6
+            d += f'Q {mx},{my} {t[0]},{t[1]} '
+            prev = t
+        d += 'Q -20,6 0,0 Z'
+        g.append(f'<path d="{d}" fill="url(#{gid})" stroke="#9fdcff" stroke-width="{2.4 / s:.2f}" stroke-linejoin="round"/>')
+        for t in tips:
+            g.append(f'<path d="M {wrist[0]},{wrist[1]} L {t[0]},{t[1]}" stroke="#ffffff" stroke-width="{1.8 / s:.2f}" opacity=".85"/>')
+        g.append(f'<path d="M 0,0 Q {-4 * spread},{-40} {wrist[0]},{wrist[1]}" stroke="#ffffff" stroke-width="{3 / s:.2f}" fill="none"/>')
+        o += f'<g opacity="{op}" transform="translate({sh[0]},{sh[1]}) scale({s * sc * flip},{s * sc}) rotate({ang})">{"".join(g)}</g>'
+    for _ in range(9):                            # shimmer: sparkles shed from the trailing edge
+        x_ = sh[0] + flip * rnd.uniform(-110, -20) * s
+        y_ = sh[1] + rnd.uniform(-70, 20) * s
+        r_ = rnd.uniform(2.5, 5.5) * s
+        o += (f'<path d="M {x_:.1f},{y_ - r_:.1f} L {x_ + r_ * .25:.1f},{y_:.1f} L {x_:.1f},{y_ + r_:.1f} L {x_ - r_ * .25:.1f},{y_:.1f} Z '
+              f'M {x_ - r_:.1f},{y_:.1f} L {x_:.1f},{y_ + r_ * .25:.1f} L {x_ + r_:.1f},{y_:.1f} L {x_:.1f},{y_ - r_ * .25:.1f} Z" fill="#ffffff" opacity=".9"/>')
+    return o
+
+
+def fly_hand(x, y, s, drag, flip=1):
+    """Where a flying figure's raised front hand ends up in the picture (for streamers and the like)."""
+    s = s * SIZE_K.get(drag, 1.0)
+    hipY = -46
+    sy = hipY - 34 * 1.08
+    hx, hy = _rot((-16, sy - 32 - hipY), math.radians(62))
+    return (x + hx * s * flip, y + hy * s)
+
+
 def person(x, y, s, drag, pose='stand', outfit='#6f7b8a', accent='#9b2d2d', flip=1, item=None,
-           look=0, robe=False, kneel=False, child=False):
+           look=0, robe=False, kneel=False, child=False, tail_item='auto', wings=None):
     """A dragonborn in an everyday pose. Feet at (0,0), about 115 tall at scale 1.
 
     pose: 'stand', 'point' (front arm up and out), 'awe' (hands to cheeks), 'raise' (both arms up),
     'pray' (hands together), 'offer' (both arms forward), 'read' (holding item in front), 'wave',
-    'rest' (hands at sides), 'hold' (front hand up holding item).
-    item: None, 'scroll', 'book', 'staff', 'banner:<colour>', 'lantern', 'tape'.
-    look: head tilt in degrees (negative looks up). kneel: kneeling. child: smaller, rounder.
+    'rest' (hands at sides), 'hold' (front hand up holding item), 'fly' (body level, arms ahead;
+    (x, y) is then the hip). item: None, 'scroll', 'book', 'staff', 'banner:<colour>', 'lantern',
+    'tape', 'tablet', 'brush'. look: head tilt in degrees (negative looks up). kneel: kneeling.
+    child: smaller, rounder. tail_item: what a Green's prehensile tail holds ('auto' picks one).
+    wings: 'spectral' for a White in flight. Red is drawn a touch larger and Blue a touch smaller;
+    Blue and Indigo have webbed fingers and toes where the figure is big enough to show them.
     """
+    s = s * SIZE_K.get(drag, 1.0)
+    detail = s >= 0.68 and not child or s >= 0.5 and child
     sty = S(s, 3.6)
     skin, belly = DRAGONS[drag]
     horn = HORN.get(drag, '#efe4c9')
     far = dark(skin, .18)
+    webbed = drag in WEBBED
+    fly = pose == 'fly'
     L, Tt, Hs = 1.0, 1.08, 1.05
     if child:
         L, Tt, Hs = 0.7, 0.8, 1.25
@@ -285,9 +466,16 @@ def person(x, y, s, drag, pose='stand', outfit='#6f7b8a', accent='#9b2d2d', flip
     sy = hipY - 34 * Tt
     sw = 15 * Tt + 2
     hw = 11 * Tt + 1
-    o = [f'<ellipse cx="0" cy="0" rx="{30 * max(Tt, 0.8)}" ry="5" fill="#000" opacity=".2"/>']
+    o = [] if fly else [f'<ellipse cx="0" cy="0" rx="{30 * max(Tt, 0.8)}" ry="5" fill="#000" opacity=".2"/>']
     # tail
-    o.append(P(f'M -4,{hipY - 2} C -20,{hipY + 2} -36,-20 -62,-4 C -36,-12 -20,{hipY + 16} -2,{hipY + 12} Z', far, sty))
+    if drag == 'Green' and not fly:
+        if tail_item == 'auto':
+            tail_item = random.Random(int(x * 7 + y * 13)).choice(TAIL_ITEMS[:6] + (None,))
+        o.append(_green_tail(hipY, sy, far, skin, sty, tail_item))
+    elif fly:
+        o.append(P(f'M -4,{hipY - 2} C -14,{hipY + 14} -10,{-8} -26,{24} C -6,{2} -4,{hipY + 16} 4,{hipY + 8} Z', far, sty))
+    else:
+        o.append(P(f'M -4,{hipY - 2} C -20,{hipY + 2} -36,-20 -62,-4 C -36,-12 -20,{hipY + 16} -2,{hipY + 12} Z', far, sty))
     fs, bs = (6, sy + 5), (-6, sy + 5)
     hands = {
         'stand': ((16, hipY - 2), (-12, hipY)),
@@ -300,27 +488,36 @@ def person(x, y, s, drag, pose='stand', outfit='#6f7b8a', accent='#9b2d2d', flip
         'read': ((22, sy + 14), (14, sy + 16)),
         'wave': ((26, sy - 30), (-12, hipY)),
         'hold': ((24, sy - 8), (-12, hipY)),
+        'fly': ((-16, sy - 32), (-8, hipY + 10)),
     }
     fh, bh = hands[pose]
 
-    def arm(sh, h, c):
+    def elbow(sh, h):
         el = ((sh[0] + h[0]) / 2 - 2, (sh[1] + h[1]) / 2 + 6)
         if h[1] < sh[1] - 10:
             el = ((sh[0] + h[0]) / 2 + 6, (sh[1] + h[1]) / 2 + 2)
-        return limb([sh, el, h], 7, c, sty)
+        return el
+
+    def arm(sh, h, c):
+        return limb([sh, elbow(sh, h), h], 7, c, sty)
 
     o.append(arm(bs, bh, far))
-    o.append(circ(bh[0], bh[1], 3.8, far, sty))
+    o.append(_hand(bh, elbow(bs, bh), far, webbed, sty, detail))
     # legs
     if kneel:
         o.append(limb([(-4, hipY + 4), (-2, -4), (-24, -2)], 9, far, sty))
         o.append(limb([(5, hipY + 4), (16, hipY + 10), (14, -2)], 9, skin, sty))
-        o.append(P('M 10,0 Q 13,-6 23,-3 L 25,0 Z', skin, sty))
+        o.append(_foot(19, skin, webbed, sty, detail))
+    elif fly:
+        o.append(limb([(-5, hipY + 4), (-2, hipY * 0.45), (-8, -6)], 9, far, sty))
+        o.append(f'<g transform="translate(-8,-6) rotate(70)">{_foot(4, far, webbed, sty, detail)}</g>')
+        o.append(limb([(5, hipY + 4), (12, hipY * 0.5), (4, -12)], 9, skin, sty))
+        o.append(f'<g transform="translate(4,-12) rotate(60)">{_foot(4, skin, webbed, sty, detail)}</g>')
     else:
         o.append(limb([(-5, hipY + 4), (1, hipY * 0.5), (-8, -7 * L), (-2, -1)], 9, far, sty))
-        o.append(P('M -9,0 Q -6,-6 4,-3 L 6,0 Z', far, sty))
+        o.append(_foot(0, far, webbed, sty, detail))
         o.append(limb([(5, hipY + 4), (12, hipY * 0.5), (5, -7 * L), (9, -1)], 9, skin, sty))
-        o.append(P('M 4,0 Q 7,-6 17,-3 L 19,0 Z', skin, sty))
+        o.append(_foot(13, skin, webbed, sty, detail))
     if robe:
         bottom = -3 if not kneel else -4
         d = (f'M {-hw - 1},{hipY - 2} L {hw + 1},{hipY - 2} L {hw + 9},{bottom} Q 0,{bottom + 4} {-hw - 9},{bottom} Z')
@@ -331,10 +528,16 @@ def person(x, y, s, drag, pose='stand', outfit='#6f7b8a', accent='#9b2d2d', flip
     o.append(P(d, outfit, sty))
     o.append(f'<path d="M -3,{sy - 2} L 3,{hipY}" stroke="{accent}" stroke-width="3"/>')
     o.append(f'<rect x="{-hw - 1}" y="{hipY - 3}" width="{2 * hw + 2}" height="4" fill="{party.LEATHER}"/>')
+    if detail:   # costume details: hem trim, collar, buckle and a belt pouch
+        o.append(f'<path d="M {-hw},{hipY + 1} Q 0,{hipY + 5.5} {hw},{hipY + 1}" stroke="{accent}" stroke-width="1.8" fill="none" opacity=".8"/>')
+        o.append(f'<path d="M {-sw + 5},{sy - 2} L 0,{sy + 7} L {sw - 5},{sy - 2}" stroke="{mix(outfit, "#ffffff", .45)}" stroke-width="2.2" fill="none"/>')
+        o.append(f'<rect x="-3" y="{hipY - 4}" width="6" height="6" rx="1" fill="#e8c35a" stroke="{INK}" stroke-width="1"/>')
+        o.append(P(f'M {-hw + 1},{hipY - 1} L {-hw + 8},{hipY - 1} L {-hw + 8},{hipY + 7} Q {-hw + 4.5},{hipY + 10} {-hw + 1},{hipY + 7} Z', party.LEATHER, dict(sty, stroke=sty['stroke'] * 0.6)))
     hc = (10, sy - 9 - 10 * Hs)
     o.append(limb([(2, sy + 3), (6, sy - 4), (hc[0] - 1, hc[1] + 5)], 10, skin, sty))
     o.append(limb([(6, sy + 1), (9, sy - 4), (hc[0] + 3, hc[1] + 8)], 3.5, belly, dict(sty, stroke=0)))
-    o.append(f'<g transform="translate({hc[0]},{hc[1]}) rotate({look}) scale({Hs},{Hs})">{head_svg(drag, sty, skin, belly, horn)}</g>')
+    hl = look - 54 if fly else look
+    o.append(f'<g transform="translate({hc[0]},{hc[1]}) rotate({hl}) scale({Hs},{Hs})">{head_svg(drag, sty, skin, belly, horn)}</g>')
     # held item (front hand)
     if item == 'scroll':
         o.append(f'<g transform="translate({fh[0]},{fh[1]}) rotate(-20)">'
@@ -345,6 +548,13 @@ def person(x, y, s, drag, pose='stand', outfit='#6f7b8a', accent='#9b2d2d', flip
                  + P('M -12,-8 L 0,-6 L 0,10 L -12,8 Z', '#f4ead2', sty)
                  + P('M 0,-6 L 12,-8 L 12,8 L 0,10 Z', '#efe3c4', sty)
                  + P('M -13,9 L 0,11 L 13,9 L 13,11 L 0,13 L -13,11 Z', '#7a2f3a', sty) + '</g>')
+    elif item == 'tablet':
+        o.append(f'<g transform="translate({fh[0] - 2},{fh[1] - 4}) rotate(-8)">'
+                 + P('M -11,-14 L 11,-14 L 11,12 L -11,12 Z', '#c9a77a', sty)
+                 + ''.join(f'<path d="M -7,{-9 + k * 5} L {3 + (k % 2) * 4},{-9 + k * 5}" stroke="#7a5233" stroke-width="2"/>' for k in range(4)) + '</g>')
+    elif item == 'brush':
+        o.append(limb([(fh[0] - 6, fh[1] + 8), (fh[0] + 10, fh[1] - 12)], 2.4, '#7a5233', sty))
+        o.append(P(f'M {fh[0] + 9},{fh[1] - 11} L {fh[0] + 14},{fh[1] - 18} L {fh[0] + 13},{fh[1] - 10} Z', '#4fc1b3', sty))
     elif item == 'staff':
         o.append(limb([(fh[0], -1), (fh[0] + 2, sy - 40)], 3, party.WOOD, sty))
     elif item and item.startswith('banner:'):
@@ -357,23 +567,102 @@ def person(x, y, s, drag, pose='stand', outfit='#6f7b8a', accent='#9b2d2d', flip
         o.append(glow(fh[0], fh[1] + 12, 26, '#ffd27a'))
         o.append(limb([fh, (fh[0], fh[1] + 6)], 1.4, INK, sty))
         o.append(P(f'M {fh[0] - 5},{fh[1] + 6} L {fh[0] + 5},{fh[1] + 6} L {fh[0] + 6},{fh[1] + 18} L {fh[0] - 6},{fh[1] + 18} Z', '#ffe9a8', sty))
+    elif item == 'drum':
+        o.append(f'<path d="M -10,{sy + 2} L 16,{hipY - 8}" stroke="{party.LEATHER}" stroke-width="2.4"/>')
+        o.append(P(f'M 4,{hipY - 16} L 26,{hipY - 16} L 24,{hipY + 4} L 6,{hipY + 4} Z', '#c46b4a', sty))
+        o.append(f'<ellipse cx="15" cy="{hipY - 16}" rx="11" ry="3.6" fill="#f3ead2" stroke="{INK}" stroke-width="{sty["stroke"]:.2f}"/>')
+        o.append(f'<path d="M 6,{hipY - 12} L 15,{hipY} L 24,{hipY - 12}" stroke="#f3ead2" stroke-width="1.6" fill="none"/>')
+        o.append(f'<path d="M {fh[0] + 6},{fh[1] - 12} q 3,-3 6,0 M {fh[0] + 10},{fh[1] - 18} q 3,-3 6,0" stroke="{INK}" stroke-width="1.6" fill="none"/>')
+    elif item == 'horn':
+        mx, my = hc[0] + 14, hc[1] + 6
+        o.append(P(f'M {mx},{my - 2} Q {mx + 24},{my - 8} {mx + 40},{my - 26} L {mx + 50},{my - 18} Q {mx + 30},{my + 4} {mx},{my + 3} Z', '#e8c35a', sty))
+        o.append(f'<ellipse cx="{mx + 45}" cy="{my - 22}" rx="7" ry="4" transform="rotate(38 {mx + 45} {my - 22})" fill="#9a7428" stroke="{INK}" stroke-width="{sty["stroke"]:.2f}"/>')
+        o.append(f'<path d="M {mx + 54},{my - 34} q 6,-2 8,4 M {mx + 58},{my - 26} q 6,-2 8,4" stroke="{INK}" stroke-width="1.8" fill="none"/>')
     elif item == 'tape':
         o.append(limb([fh, (fh[0] + 8, fh[1] + 10), (fh[0] + 2, fh[1] + 26), (fh[0] + 10, fh[1] + 40)], 5, '#f4ead2', sty))
     o.append(arm(fs, fh, skin))
-    o.append(circ(fh[0], fh[1], 3.8, skin, sty))
-    if pose == 'awe':
-        pass
+    o.append(_hand(fh, elbow(fs, fh), skin, webbed, sty, detail))
     g = ''.join(o)
+    if fly:
+        # level the body out, then add the wings of light at the shoulder (outside the rotation)
+        ang = 62
+        shx, shy = _rot((-6, sy + 8 - hipY), math.radians(ang))
+        body = f'<g transform="rotate({ang} 0 {hipY})">{g}</g>'
+        wl = ''
+        if wings == 'spectral':
+            wl = spectral_wings((shx, shy + hipY), s=1.05, spread=1.0, seed=int(x + y))
+        return f'<g transform="translate({x},{y - hipY * s}) scale({s * flip},{s})">{wl}{body}</g>'
     return f'<g transform="translate({x},{y}) scale({s * flip},{s})">{g}</g>'
 
 
 # ---------------------------------------------------------------- scenery
+FARSIDE_UF = 0.18      # the arch's feet in the normalized band grid (worldgen/farside.py)
+
+
+def _band_xy(u, v, hz, top_side, top_mid, foot_in, arch_mid, W=1200):
+    """Map the normalized band grid (u across, v from the top edge to the underside) to the picture."""
+    L, R = -80, W + 80
+    uf = FARSIDE_UF
+    x = np.interp(u, [0, uf, 0.5, 1 - uf, 1], [L, foot_in, W / 2, W - foot_in, R])
+    tt = (x - L) / (R - L)
+    ytop = hz - top_side - 4 * tt * (1 - tt) * (top_mid - top_side)
+    sa = (x - foot_in) / (W - 2 * foot_in)
+    ybot = np.where((sa > 0) & (sa < 1), hz - 4 * sa * (1 - sa) * arch_mid, hz)
+    return x, ytop + v * (ybot - ytop)
+
+
+def _farside_layers(view, hz, top_side, top_mid, foot_in, arch_mid, night, W=1200):
+    """Real coastlines, highlands, snow and clouds on the far side, from worldgen/farside.py."""
+    import matplotlib
+    matplotlib.use('Agg')
+    import matplotlib.pyplot as plt
+    from scipy.ndimage import gaussian_filter
+    d = np.load(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data', f'farside_t{view}.npz'))
+    E, C = d['E'].astype(float), d['C'].astype(float)
+    nv, nu = E.shape
+    U, V = np.meshgrid(np.linspace(0, 1, nu), np.linspace(0, 1, nv))
+    E = gaussian_filter(E, (1.6, 1.2), mode='nearest')
+    C = gaussian_filter(C, (2.0, 2.4), mode='nearest')
+    fig, ax = plt.subplots()
+
+    def shapes(Z, lo, fill, stroke=None, sw=1.6, opacity=1.0, min_area=40):
+        cs = ax.contourf(U, V, Z, levels=[lo, 1e9])
+        out = ''
+        for path in cs.get_paths():
+            dd = ''
+            for ring in path.to_polygons():
+                if len(ring) < 4:
+                    continue
+                x, y = _band_xy(ring[:, 0], ring[:, 1], hz, top_side, top_mid, foot_in, arch_mid, W)
+                area = 0.5 * abs(np.dot(x, np.roll(y, 1)) - np.dot(y, np.roll(x, 1)))
+                if area < min_area:
+                    continue
+                dd += 'M ' + ' L '.join(f'{a:.1f},{b:.1f}' for a, b in zip(x, y)) + ' Z '
+            if dd:
+                stk = f'stroke="{stroke}" stroke-width="{sw}" stroke-linejoin="round"' if stroke else 'stroke="none"'
+                out += f'<path d="{dd}" fill="{fill}" fill-rule="evenodd" {stk} opacity="{opacity}"/>'
+        return out
+    if night:
+        pal = dict(shallow='#4a6c98', land='#3d5a46', high='#5d5a52', snow='#c9d2e6', cloud='#8fa0c4')
+    else:
+        pal = dict(shallow='#a3cde6', land='#7fa35a', high='#a58a64', snow='#ffffff', cloud='#ffffff')
+    o = shapes(E, -0.14, pal['shallow'], opacity=0.75, min_area=60)
+    o += shapes(E, 0.0, pal['land'], INK, 1.6, min_area=30)
+    o += shapes(E, 0.7, pal['high'], INK, 1.1, min_area=12)
+    o += shapes(E, 1.25, pal['snow'], INK, 0.9, min_area=6)
+    o += shapes(C, 0.62, pal['cloud'], None, opacity=0.8, min_area=50)
+    plt.close(fig)
+    return o
+
+
 def ring_band(hz, top_side=300, top_mid=380, foot_in=130, arch_mid=250, sky_under='#bcd8ef', seed=3,
-              night=False, op=1.0, W=1200):
+              night=False, op=1.0, W=1200, view=None):
     """The far side of the ring across the sky, shaped after worldgen/skyview.py (flank, leaning inner).
 
     hz: horizon y. The band's top edge sits top_side above the horizon at the sides and top_mid in
     the middle; its underside is an arch from (foot_in, hz) up to arch_mid above the horizon.
+    view: the viewer's ringwise angle in degrees. When given, the far side shows the map's real
+    coastlines, highlands and clouds (art/cartoon/data/farside_t<view>.npz, from worldgen/farside.py).
     """
     rnd = random.Random(seed)
     L, R = -80, W + 80
@@ -396,8 +685,10 @@ def ring_band(hz, top_side=300, top_mid=380, foot_in=130, arch_mid=250, sky_unde
         a = hz - top_side * (1 - f) - 0
         d = f'M {L},{a + f * 40} Q {cx},{hz - (top_mid * 2 - top_side) * (1 - f) - arch_mid * 2 * f + f * 40} {R},{a + f * 40}'
         o += f'<path d="{d}" fill="none" stroke="#ffffff" stroke-width="1.5" opacity=".18"/>'
-    # land patches (continents seen from afar): blobs squashed along the band
-    for _ in range(16):
+    if view is not None:
+        o += _farside_layers(view, hz, top_side, top_mid, foot_in, arch_mid, night, W)
+    # land patches (continents seen from afar): blobs squashed along the band (old, without a view)
+    for _ in range(16 if view is None else 0):
         xx = rnd.uniform(L, R)
         t = (xx - cx) / (R - cx)
         ytop = hz - top_side - (top_mid - top_side) * (1 - t * t)
@@ -406,8 +697,8 @@ def ring_band(hz, top_side=300, top_mid=380, foot_in=130, arch_mid=250, sky_unde
         rw, rh = rnd.uniform(30, 90), rnd.uniform(8, 22)
         o += f'<ellipse cx="{xx:.0f}" cy="{yy:.0f}" rx="{rw:.0f}" ry="{rh:.0f}" fill="{land}" stroke="{INK}" stroke-width="1.6" opacity=".95"/>'
         o += f'<ellipse cx="{xx + rw * 0.2:.0f}" cy="{yy + rh * 0.2:.0f}" rx="{rw * 0.45:.0f}" ry="{rh * 0.4:.0f}" fill="{dark(land, .2)}" opacity=".7"/>'
-    # clouds over the far side
-    for _ in range(26):
+    # clouds over the far side (old, without a view)
+    for _ in range(26 if view is None else 0):
         xx = rnd.uniform(L, R)
         t = (xx - cx) / (R - cx)
         ytop = hz - top_side - (top_mid - top_side) * (1 - t * t)
@@ -466,6 +757,25 @@ def banner(x, y, h, w, colour, trim, phase=0.0, emblem='', sty=None):
     return o
 
 
+CAPTION_SIZE = 34
+_CAPTION_FONT = '/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf'
+
+
+def caption_lines(text, avail):
+    """Split a caption into one line, or two at the punctuation nearest the middle, to fit avail px."""
+    from PIL import ImageFont
+    f = ImageFont.truetype(_CAPTION_FONT, CAPTION_SIZE)
+
+    def width(t):
+        return f.getlength(t) + len(t) * 1.0
+    if width(text) <= avail:
+        return [text]
+    cuts = [i + 1 for i, ch in enumerate(text) if ch in ',:;' and i < len(text) - 2] or \
+           [i for i, ch in enumerate(text) if ch == ' ']
+    i = min(cuts, key=lambda c: abs(c - len(text) / 2))
+    return [text[:i].strip(), text[i:].strip()]
+
+
 def woven_frame(scene_svg, caption, label, W=1640, H=1340, wall='#cfc6b4', border='#3c4f7a',
                 accent='#e8c35a', cloth='#f3ecdc'):
     """Hang a 1200x800 scene as a tapestry: rod, border, woven caption, fringe, stone wall."""
@@ -508,10 +818,13 @@ def woven_frame(scene_svg, caption, label, W=1640, H=1340, wall='#cfc6b4', borde
     capy = sy_ + sh_ + 14
     caph = fy + fh - capy - 12
     o.append(f'<rect x="{sx}" y="{capy}" width="{sw_}" height="{caph}" fill="{cloth}" stroke="{INK}" stroke-width="3"/>')
-    # woven caption (fits the width)
-    size = min(44, (sw_ - 280) / (max(len(caption), 1) * 0.66))
-    o.append(f'<text x="{sx + sw_ / 2}" y="{capy + caph / 2 + size * 0.35}" text-anchor="middle" font-family="DejaVu Serif" '
-             f'font-weight="bold" font-size="{size:.1f}" fill="{INK}" letter-spacing="1">{caption}</text>')
+    # woven caption: one size on every tapestry; a long one breaks at its comma or colon
+    lines = caption_lines(caption, sw_ - 2 * 104)
+    lh = CAPTION_SIZE * 1.22
+    y0 = capy + caph / 2 - (len(lines) - 1) * lh / 2 + CAPTION_SIZE * 0.35
+    for k, ln in enumerate(lines):
+        o.append(f'<text x="{sx + sw_ / 2}" y="{y0 + k * lh:.1f}" text-anchor="middle" font-family="DejaVu Serif" '
+                 f'font-weight="bold" font-size="{CAPTION_SIZE}" fill="{INK}" letter-spacing="1">{ln}</text>')
     # epoch medallions at both ends of the caption
     for mx in (sx + 54, sx + sw_ - 54):
         my = capy + caph / 2

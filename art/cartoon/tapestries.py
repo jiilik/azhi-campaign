@@ -283,6 +283,19 @@ def scene0():
              f'<path d="M 1060,690 Q 1120,640 1190,600" stroke="#ffffff" stroke-width="3" fill="none" opacity=".7" stroke-linecap="round"/>'
              f'<circle cx="1058" cy="692" r="7" fill="#ffffff" stroke="{INK}" stroke-width="2"/>')
 
+    # a ringed planet far off, and the path of the lazy circles, traced in faint stardust
+    px_, py_ = 150, 640
+    o.append(glow(px_, py_, 70, '#7fb2e6').replace('.85', '.35'))
+    o.append(f'<ellipse cx="{px_}" cy="{py_}" rx="62" ry="13" fill="none" stroke="{INK}" stroke-width="9" transform="rotate(-16 {px_} {py_})"/>'
+             f'<ellipse cx="{px_}" cy="{py_}" rx="62" ry="13" fill="none" stroke="#e9c66a" stroke-width="5" transform="rotate(-16 {px_} {py_})"/>')
+    o.append(circ(px_, py_, 32, '#5f8fd0', S(1, 3.4)))
+    o.append(f'<path d="M {px_ - 30},{py_ - 6} Q {px_},{py_ - 2} {px_ + 30},{py_ - 12}" stroke="#8fb8e8" stroke-width="5" fill="none"/>'
+             f'<path d="M {px_ - 26},{py_ + 12} Q {px_},{py_ + 16} {px_ + 26},{py_ + 6}" stroke="#4a76b8" stroke-width="5" fill="none"/>')
+    o.append(f'<clipPath id="ringfront0"><rect x="{px_ - 80}" y="{py_ + 2}" width="160" height="60"/></clipPath>'
+             f'<g clip-path="url(#ringfront0)"><ellipse cx="{px_}" cy="{py_}" rx="62" ry="13" fill="none" stroke="{INK}" stroke-width="9" transform="rotate(-16 {px_} {py_})"/>'
+             f'<ellipse cx="{px_}" cy="{py_}" rx="62" ry="13" fill="none" stroke="#e9c66a" stroke-width="5" transform="rotate(-16 {px_} {py_})"/></g>')
+    o.append(f'<ellipse cx="820" cy="470" rx="640" ry="320" fill="none" stroke="#fff4c0" stroke-width="3" stroke-dasharray="2 16" stroke-linecap="round" opacity=".55"/>')
+
     # ---- Azhi: the body trails up and away into the stars, the face is enormous
     spine = [(-120, 60), (40, 150), (190, 120), (340, 100), (520, 140), (700, 130), (870, 110), (1030, 120), (1180, 190),
              (1250, 320), (1170, 452)]
@@ -458,6 +471,126 @@ def haze(x, y, w, h, colour, op):
     return f'<rect x="{x}" y="{y}" width="{w}" height="{h}" fill="{colour}" opacity="{op}"/>'
 
 
+def flower_tuft(x, y, seed, petals=('#ffb3d1', '#fff2a8', '#ffffff'), s=1.0, n=3):
+    """A clump of grass with a few flowers on stems (clearly flowers, not loose dots)."""
+    rnd = random.Random(seed)
+    o = ''
+    for k in range(5):
+        a = math.radians(-90 + rnd.uniform(-38, 38))
+        L_ = rnd.uniform(10, 18) * s
+        bx = x + rnd.uniform(-8, 8) * s
+        o += P(f'M {bx - 2.4 * s:.1f},{y} Q {bx + math.cos(a) * L_ * 0.4:.1f},{y + math.sin(a) * L_ * 0.6:.1f} {bx + math.cos(a) * L_:.1f},{y + math.sin(a) * L_:.1f} '
+               f'Q {bx + math.cos(a) * L_ * 0.5 + 2:.1f},{y + math.sin(a) * L_ * 0.5:.1f} {bx + 2.4 * s:.1f},{y} Z', rnd.choice(['#4f9a40', '#3f8a3c', '#5aa64a']), bstyle(1.2))
+    for k in range(n):
+        fx = x + (k - (n - 1) / 2) * 9 * s + rnd.uniform(-2, 2)
+        fy = y - rnd.uniform(16, 26) * s
+        o += f'<path d="M {fx:.1f},{fy:.1f} Q {fx + 3:.1f},{(fy + y) / 2:.1f} {x + (k - 1) * 3 * s:.1f},{y}" stroke="{INK}" stroke-width="{3.4 * s:.1f}" fill="none"/>'
+        o += f'<path d="M {fx:.1f},{fy:.1f} Q {fx + 3:.1f},{(fy + y) / 2:.1f} {x + (k - 1) * 3 * s:.1f},{y}" stroke="#4f9a40" stroke-width="{1.6 * s:.1f}" fill="none"/>'
+        c = petals[(k + seed) % len(petals)]
+        r = 3.6 * s
+        for j in range(5):
+            a = math.radians(j * 72 - 90 + seed * 7)
+            px, py = fx + r * math.cos(a), fy + r * math.sin(a)
+            o += f'<ellipse cx="{px:.1f}" cy="{py:.1f}" rx="{r * 0.95:.1f}" ry="{r * 0.62:.1f}" transform="rotate({j * 72 + seed * 7 - 90} {px:.1f} {py:.1f})" fill="{c}" stroke="{INK}" stroke-width="1"/>'
+        o += f'<circle cx="{fx:.1f}" cy="{fy:.1f}" r="{r * 0.55:.1f}" fill="#ffc93c" stroke="{INK}" stroke-width="1"/>'
+    return o
+
+
+def swimmer(x, wl, s, drag, outfit, accent, flip=1, pose='wave', look=-10):
+    """A dragonborn swimming: only the part above the water line wl shows, with ripples."""
+    cid = uid('swim')
+    o = f'<clipPath id="{cid}"><rect x="{x - 80}" y="{wl - 140}" width="160" height="{140 + 2}"/></clipPath>'
+    o += f'<g clip-path="url(#{cid})">' + person(x, wl + 44 * s, s, drag, pose, outfit, accent, flip=flip, look=look) + '</g>'
+    for k, (rx, op) in enumerate(((26, .9), (40, .6), (54, .35))):
+        o += f'<ellipse cx="{x}" cy="{wl + 2 + k * 2}" rx="{rx * s / 0.6:.0f}" ry="{4 + k * 1.5:.1f}" fill="none" stroke="#e6f4ff" stroke-width="2.4" opacity="{op}"/>'
+    return o
+
+
+def dragonfly(x, y, s=1.0, rot=0):
+    o = f'<g transform="translate({x},{y}) rotate({rot}) scale({s})">'
+    for (a, l) in ((-20, 16), (20, 16), (-160, 14), (160, 14)):
+        o += f'<ellipse cx="{l * 0.55 * math.cos(math.radians(a)):.1f}" cy="{l * 0.55 * math.sin(math.radians(a)) - 2:.1f}" rx="{l * 0.6:.1f}" ry="3.4" transform="rotate({a} {l * 0.55 * math.cos(math.radians(a)):.1f} {l * 0.55 * math.sin(math.radians(a)) - 2:.1f})" fill="#e8f8ff" fill-opacity=".75" stroke="{INK}" stroke-width="1"/>'
+    o += limb([(-4, -2), (22, -2)], 3.2, '#2e9fb8', bstyle(1)) + circ(-6, -2, 3.4, '#2e6fd2', bstyle(1))
+    return o + '</g>'
+
+
+def lantern_string(x0, y0, x1, y1, sag, n, seed, colours=('#ffd27a', '#ffb3d1', '#bfe8ff')):
+    """A sagging cord of little glowing paper lanterns."""
+    o = f'<path d="M {x0},{y0} Q {(x0 + x1) / 2},{(y0 + y1) / 2 + sag * 2} {x1},{y1}" stroke="{INK}" stroke-width="1.6" fill="none"/>'
+    for k in range(1, n + 1):
+        t = k / (n + 1)
+        x = (1 - t) ** 2 * x0 + 2 * t * (1 - t) * (x0 + x1) / 2 + t * t * x1
+        y = (1 - t) ** 2 * y0 + 2 * t * (1 - t) * ((y0 + y1) / 2 + sag * 2) + t * t * y1
+        c = colours[(k + seed) % len(colours)]
+        o += glow(x, y + 9, 16, c)
+        o += f'<ellipse cx="{x:.1f}" cy="{y + 9:.1f}" rx="6" ry="8" fill="{c}" stroke="{INK}" stroke-width="1.4"/>'
+        o += f'<path d="M {x - 4:.1f},{y + 3:.1f} L {x + 4:.1f},{y + 3:.1f} M {x - 4:.1f},{y + 15:.1f} L {x + 4:.1f},{y + 15:.1f}" stroke="{INK}" stroke-width="1.6"/>'
+    return o
+
+
+def bunting(x0, y0, x1, y1, sag, n, colours):
+    o = f'<path d="M {x0},{y0} Q {(x0 + x1) / 2},{(y0 + y1) / 2 + sag * 2} {x1},{y1}" stroke="{INK}" stroke-width="1.8" fill="none"/>'
+    for k in range(n):
+        t0, t1 = (k + 0.15) / n, (k + 0.85) / n
+
+        def at(t):
+            return ((1 - t) ** 2 * x0 + 2 * t * (1 - t) * (x0 + x1) / 2 + t * t * x1,
+                    (1 - t) ** 2 * y0 + 2 * t * (1 - t) * ((y0 + y1) / 2 + sag * 2) + t * t * y1)
+        a, b = at(t0), at(t1)
+        m = ((a[0] + b[0]) / 2, (a[1] + b[1]) / 2 + 20)
+        o += P(f'M {a[0]:.1f},{a[1]:.1f} L {b[0]:.1f},{b[1]:.1f} L {m[0]:.1f},{m[1]:.1f} Z', colours[k % len(colours)], bstyle(1.6))
+    return o
+
+
+def chalkboard(x, base):
+    """A slate on an easel, chalked with geometry (no words)."""
+    o = limb([(x - 26, base), (x - 8, base - 96)], 4, party.WOOD, bstyle(2))
+    o += limb([(x + 26, base), (x + 8, base - 96)], 4, party.WOOD, bstyle(2))
+    o += limb([(x, base - 40), (x + 4, base - 96)], 3, party.WOOD, bstyle(2))
+    o += P(f'M {x - 40},{base - 104} L {x + 40},{base - 104} L {x + 40},{base - 46} L {x - 40},{base - 46} Z', '#2f4a3c', bstyle(2.6))
+    o += f'<rect x="{x - 40}" y="{base - 104}" width="80" height="58" fill="none" stroke="#8a5a2b" stroke-width="3"/>'
+    o += (f'<circle cx="{x - 14}" cy="{base - 76}" r="16" fill="none" stroke="#f1f1e6" stroke-width="2"/>'
+          f'<path d="M {x - 28},{base - 68} L {x - 6},{base - 91} L {x + 1},{base - 70} Z" fill="none" stroke="#f1f1e6" stroke-width="2"/>'
+          f'<path d="M {x + 10},{base - 94} L {x + 34},{base - 94} M {x + 10},{base - 84} L {x + 28},{base - 84} M {x + 10},{base - 74} L {x + 32},{base - 74} '
+          f'M {x + 12},{base - 62} Q {x + 22},{base - 70} {x + 32},{base - 58}" stroke="#f1f1e6" stroke-width="2" fill="none" stroke-dasharray="4 3"/>')
+    return o
+
+
+def kite(x, y, hand, s=1.0):
+    """A diamond kite with a bow tail, flown from hand."""
+    o = f'<path d="M {hand[0]},{hand[1]} Q {(hand[0] + x) / 2 + 40},{(hand[1] + y) / 2 + 30} {x},{y + 26 * s}" stroke="{INK}" stroke-width="1.4" fill="none"/>'
+    o += P(f'M {x},{y - 26 * s} L {x + 18 * s},{y} L {x},{y + 26 * s} L {x - 18 * s},{y} Z', '#ff7a5a', bstyle(2.2))
+    o += P(f'M {x},{y - 26 * s} L {x + 18 * s},{y} L {x},{y} Z', '#ffd34d', bstyle(1.6))
+    o += P(f'M {x},{y} L {x - 18 * s},{y} L {x},{y + 26 * s} Z', '#ffd34d', bstyle(1.6))
+    o += f'<path d="M {x},{y + 26 * s} q 10,14 0,28 q -10,14 0,28" stroke="{INK}" stroke-width="1.4" fill="none"/>'
+    for k, c in enumerate(('#2e6fd2', '#3c9a47', '#c8342b')):
+        by = y + 26 * s + 14 + k * 14
+        bx = x + (6 if k % 2 == 0 else -6)
+        o += P(f'M {bx},{by} L {bx - 7},{by - 4} L {bx - 7},{by + 4} Z M {bx},{by} L {bx + 7},{by - 4} L {bx + 7},{by + 4} Z', c, bstyle(1.2))
+    return o
+
+
+def easel(x, base, painting):
+    o = limb([(x - 24, base), (x - 6, base - 104)], 4, party.WOOD, bstyle(2))
+    o += limb([(x + 24, base), (x + 6, base - 104)], 4, party.WOOD, bstyle(2))
+    o += limb([(x + 2, base), (x, base - 60)], 3, party.WOOD, bstyle(2))
+    o += P(f'M {x - 36},{base - 104} L {x + 36},{base - 104} L {x + 36},{base - 50} L {x - 36},{base - 50} Z', '#fbf4e3', bstyle(2.6))
+    o += f'<g transform="translate({x},{base - 77})">{painting}</g>'
+    o += limb([(x - 40, base - 48), (x + 40, base - 48)], 4, party.WOOD, bstyle(2))
+    return o
+
+
+def splash(x, y, s=1.0, c='#d8eeff'):
+    """A cartoon splash: a crown of water and a few teardrop droplets."""
+    o = P(f'M {x - 34 * s},{y} Q {x - 30 * s},{y - 18 * s} {x - 22 * s},{y - 26 * s} L {x - 16 * s},{y - 10 * s} L {x - 8 * s},{y - 32 * s} '
+          f'L {x},{y - 12 * s} L {x + 9 * s},{y - 30 * s} L {x + 15 * s},{y - 10 * s} L {x + 24 * s},{y - 24 * s} Q {x + 30 * s},{y - 14 * s} {x + 34 * s},{y} Z',
+          c, bstyle(2))
+    for (dx, dy, r) in [(-30, -40, 4), (-14, -48, 3.4), (6, -52, 4.2), (24, -42, 3.4)]:
+        cx_, cy_ = x + dx * s, y + dy * s
+        o += P(f'M {cx_:.1f},{cy_ - r * 1.9:.1f} Q {cx_ + r:.1f},{cy_ - r * 0.2:.1f} {cx_:.1f},{cy_ + r:.1f} Q {cx_ - r:.1f},{cy_ - r * 0.2:.1f} {cx_:.1f},{cy_ - r * 1.9:.1f} Z', c, bstyle(1.4))
+    return o
+
+
 # ============================================================ Epoch 1
 def pose_teach():
     p = pose_sit(head_angle=-14, wings='folded', wing_rot=-14, wing_scale=1.4)
@@ -487,7 +620,9 @@ def scene1():
         return 2440 - math.sqrt(2000 ** 2 - (x - 600) ** 2)
     for (x, h, w, c) in [(70, 150, 230, '#a9bfd9'), (360, 130, 220, '#9fb5d0'), (220, 215, 270, '#b5c9e0')]:
         o.append(mountain(x, hz(x) + 22, h, w, c, snow='#ffffff', seed=int(x)))
-    o.append(dragon(214, hz(220) + 22 - 215 + 2, 0.42, 'White', pose_sit(head_angle=-6, wings='up', wing_rot=-20, wing_scale=1.1), flip=1, expr='happy'))
+    # a White dragonborn on wings of light, swooping down from the glacier toward the teaching
+    o.append(person(420, 330, 0.64, 'White', 'fly', '#eceff4', '#9fb7d4', look=6, wings='spectral'))
+    o.append(dragon(214, hz(220) + 22 - 215 + 30, 0.42, 'White', pose_sit(head_angle=-6, wings='up', wing_rot=-20, wing_scale=1.1), flip=1, expr='happy'))
     for (x, y) in [(150, 330), (300, 300), (270, 380), (120, 400), (330, 360)]:
         o.append(f'<path d="M {x},{y - 8} L {x + 2.5},{y} L {x},{y + 8} L {x - 2.5},{y} Z M {x - 8},{y} L {x},{y + 2.5} L {x + 8},{y} L {x},{y - 2.5} Z" fill="#ffffff" stroke="#7fa6c8" stroke-width=".8"/>')
     # the young world's land: a great curved horizon
@@ -513,8 +648,8 @@ def scene1():
         x, y = rnd.uniform(20, 380), rnd.uniform(520, 610)
         o.append(f'<path d="M {x},{y} q 8,-6 16,0 q 8,-6 16,0" stroke="#d8eeff" stroke-width="2.4" fill="none" stroke-linecap="round"/>')
     o.append(dragon(210, 556, 0.46, 'Blue', pose_fly(head_angle=-10, wings='up'), flip=1, rot=-28, expr='happy'))
-    for (x, y, r) in [(150, 590, 9), (132, 576, 6), (170, 600, 7), (118, 596, 5), (190, 606, 5)]:
-        o.append(f'<circle cx="{x}" cy="{y}" r="{r}" fill="#d8eeff" stroke="{INK}" stroke-width="1.6"/>')
+    o.append(splash(168, 552, 0.62))
+    o.append(swimmer(330, 540, 0.42, 'Blue', '#efe4cc', '#2b5fa8', flip=-1, pose='wave', look=-24))
     # rolling hills and Green's forest (right), blossoming
     o.append(P(wave(560, 14, 4, 1.1), '#7db558', bstyle(), bg=False))
     for k, x in enumerate(range(760, 1240, 46)):
@@ -524,8 +659,8 @@ def scene1():
             continue
         o.append(tree(x + rnd.uniform(-10, 10), 640 + (k % 2) * 10, 0.75, fill=rnd.choice(['#3f8a3c', '#4f9a40']), blossom='#fff2a8', seed=50 + k))
     o.append(dragon(1040, 628, 0.56, 'Green', pose_lounge(4), flip=-1, expr='closed'))
-    for (x, y) in [(985, 640), (1000, 652), (1100, 646), (1118, 634), (970, 628)]:
-        o.append(f'<circle cx="{x}" cy="{y}" r="5" fill="#ffb3d1" stroke="{INK}" stroke-width="1.3"/><circle cx="{x}" cy="{y}" r="1.8" fill="#ffd34d"/>')
+    for k, (x, y) in enumerate([(975, 652), (1112, 650)]):
+        o.append(flower_tuft(x, y, 30 + k, s=0.75, n=2))
     for (x, y) in [(940, 520), (1080, 530), (900, 590)]:
         o.append(f'<path d="M {x},{y} q -8,-8 -12,0 q 4,8 12,0 q 8,-8 12,0 q -4,8 -12,0 Z" fill="#ffd34d" stroke="{INK}" stroke-width="1.4"/>')
     # the temple hill, the temple, and the Black, teaching
@@ -550,13 +685,13 @@ def scene1():
     o.append(crowd(spots, 6, cols7, 0.4, ['raise', 'pray', 'read', 'awe', 'raise', 'pray', 'stand']))
     # the path and the pilgrims in front
     o.append(P('M 520,800 Q 560,750 575,740 L 625,740 Q 640,750 680,800 Z', '#e9d9b0', bstyle(2.4)))
-    o.append(person(150, 790, 0.78, 'Green', 'hold', '#5c6b3a', '#7a4e2a', item='scroll', look=-20))
-    o.append(person(230, 792, 0.5, 'Green', 'point', '#f2d16b', '#7a4e2a', child=True, look=-30))
-    o.append(person(1060, 790, 0.8, 'White', 'hold', '#6f7b8a', '#9b2d2d', flip=-1, item='book', look=-16, robe=True))
+    o.append(person(150, 790, 0.78, 'Green', 'hold', '#5c6b3a', '#7a4e2a', item='scroll', look=-20, tail_item='basket'))
+    o.append(person(236, 792, 0.5, 'Green', 'point', '#f2d16b', '#7a4e2a', child=True, look=-30, tail_item='fruit'))
+    # a scribe, taking the teaching down on a clay tablet
+    o.append(person(1060, 790, 0.8, 'White', 'read', '#6f7b8a', '#9b2d2d', flip=-1, item='tablet', look=-6, robe=True))
     o.append(person(1140, 794, 0.76, 'Red', 'awe', '#8d98a6', '#2f4f8f', flip=-1, look=-24))
-    for (x, y) in [(40, 770), (90, 785), (320, 790), (900, 788), (980, 780), (1180, 770)]:
-        for k in range(3):
-            o.append(f'<circle cx="{x + k * 9}" cy="{y - k * 4}" r="4.5" fill="{rnd.choice(["#ffb3d1", "#fff2a8", "#ffffff"])}" stroke="{INK}" stroke-width="1.3"/>')
+    for k, (x, y) in enumerate([(40, 778), (320, 796), (930, 794), (1186, 780)]):
+        o.append(flower_tuft(x, y, 10 + k))
     return ''.join(o)
 
 
@@ -691,7 +826,7 @@ def scene2():
     hzn = 520
     o.append(gradient_rect(0, 0, 1200, hzn, ['#3f74c4', '#7fb2e6', '#bcdcf3', '#eef6fb']))
     o.append(sky_dragon(170, 110, 0.55, '#ffc93c', '#ffd25a', party.STYLES['bold']))
-    o.append(ring_band(hzn, top_side=262, top_mid=340, foot_in=150, arch_mid=210, seed=8))
+    o.append(ring_band(hzn, top_side=262, top_mid=340, foot_in=150, arch_mid=210, seed=8, view=110))
     for (x, y, sc) in [(380, 140, 0.8), (930, 120, 1.0), (1100, 230, 0.6)]:
         o.append(cloud(x, y, sc, party.STYLES['bold']))
     # the near land: the flank of the ring, lush and settled
@@ -718,14 +853,19 @@ def scene2():
     pl, pr = lm['perch_l'], lm['perch_r']
     o.append(dragon(pl[0] + 4, pl[1] - 14, 0.78, 'Red', pose_sit(head_angle=-20, wings='up', wing_rot=-26, wing_scale=1.15, tail='up'), flip=-1, expr='open'))
     o.append(dragon(pr[0] - 4, pr[1] - 14, 0.78, 'Blue', pose_sit(head_angle=-16, wings='folded', wing_rot=-14, wing_scale=1.35), flip=1, expr='happy'))
+    # a White courier on wings of light, bringing a question up to the machine
+    o.append(person(1010, 330, 0.6, 'White', 'fly', '#eceff4', '#9fb7d4', flip=-1, look=4, wings='spectral', item='scroll'))
+    # a slate of geometry for the debaters
+    o.append(chalkboard(64, 760))
+    o.append(person(128, 784, 0.86, 'Gold', 'offer', '#f3efe6', '#c08a1e', flip=-1, look=-8, item='brush'))
     # dragonborn at the base: asking, reading answers, debating, marvelling
     sx, sy_ = lm['slot']
     tx, ty = lm['tape']
     o.append(f'<g transform="translate({sx - 14},{sy_ - 2}) rotate(-88)">' + P('M -5,-18 L 5,-18 L 5,18 L -5,18 Z', '#f4ead2', bstyle(1.6)) + '</g>')
     o.append(person(sx - 66, 712, 0.82, 'White', 'offer', '#6f7b8a', '#9b2d2d', flip=1, robe=True, look=-6))
     o.append(person(sx - 126, 718, 0.8, 'Black', 'hold', '#2f6b6b', '#e8c35a', item='scroll', look=-14))
-    o.append(person(sx - 186, 724, 0.78, 'Green', 'read', '#5c6b3a', '#7a4e2a', item='book'))
-    o.append(person(sx - 246, 732, 0.8, 'Gold', 'hold', '#f3efe6', '#c08a1e', item='scroll', look=-20))
+    o.append(person(sx - 186, 724, 0.78, 'Green', 'read', '#5c6b3a', '#7a4e2a', item='book', tail_item='quill'))
+
     # the answer tape, curling down to a reader
     o.append(limb([(tx, ty), (tx + 30, ty + 20), (tx + 10, ty + 40), (tx + 40, ty + 58)], 8, '#f4ead2', bstyle(2)))
     for k in range(4):
@@ -734,13 +874,14 @@ def scene2():
     o.append(person(tx + 140, 722, 0.8, 'Red', 'awe', '#8d98a6', '#2f4f8f', flip=-1, look=-12))
     o.append(person(tx + 200, 728, 0.8, 'Blue', 'point', '#efe4cc', '#2b5fa8', flip=-1, look=-30))
     # debaters and children at the front
-    o.append(person(170, 790, 0.95, 'Blue', 'wave', '#e9dfc6', '#1f3f73', look=-6))
-    o.append(person(250, 794, 0.95, 'Red', 'hold', '#55663a', '#7a4e2a', flip=-1, item='book'))
+    o.append(person(212, 792, 0.95, 'Blue', 'wave', '#e9dfc6', '#1f3f73', look=-6))
+    o.append(person(296, 796, 0.95, 'Red', 'hold', '#55663a', '#7a4e2a', flip=-1, item='book'))
     o.append(person(980, 792, 0.9, 'Green', 'point', '#5c6b3a', '#3e5a4a', look=-34, flip=-1))
     o.append(person(1050, 796, 0.55, 'White', 'awe', '#9fd0f0', '#2b5fa8', flip=-1, child=True, look=-30))
+    o.append(kite(1150, 446, (1098, 745), s=0.9))
     o.append(person(1110, 796, 0.55, 'Black', 'raise', '#c58bff', '#e8c35a', flip=-1, child=True, look=-30))
-    o.append(banderole(140, 618, 60, '?', size=24))
-    o.append(banderole(250, 622, 60, '∴', flip=-1, size=24))
+    o.append(banderole(160, 626, 60, '?', size=24))
+    o.append(banderole(336, 600, 60, '∴', flip=-1, size=24))
     o.append(banderole(tx + 46, 590, 56, '!', flip=-1, size=24))
     return ''.join(o)
 
@@ -828,32 +969,59 @@ def cathedral(cx, base):
 
 
 def ring_temple(cx, base):
+    """The Cult of the Ring: an open colonnade crowned by a great standing hoop, the ring itself,
+    with the ouroboros at its heart (no dome: the dome belongs to the machine and its revivalists)."""
     sty = bstyle(3)
-    o = P(f'M {cx - 130},{base} L {cx - 130},{base - 110} L {cx + 130},{base - 110} L {cx + 130},{base} Z', '#eaf3fb', sty)
+    o = P(f'M {cx - 150},{base} L {cx - 150},{base - 14} L {cx + 150},{base - 14} L {cx + 150},{base} Z', '#d8cfbf', sty)
+    o += P(f'M {cx - 130},{base - 14} L {cx - 130},{base - 110} L {cx + 130},{base - 110} L {cx + 130},{base - 14} Z', '#eaf3fb', sty)
     for k in range(6):
         x = cx - 110 + k * 44
-        o += P(f'M {x - 12},{base} L {x - 12},{base - 66} Q {x},{base - 84} {x + 12},{base - 66} L {x + 12},{base} Z', '#2e6fd2', bstyle(2.2))
+        o += P(f'M {x - 12},{base - 14} L {x - 12},{base - 70} Q {x},{base - 88} {x + 12},{base - 70} L {x + 12},{base - 14} Z', '#2e6fd2', bstyle(2.2))
     o += P(f'M {cx - 150},{base - 110} L {cx + 150},{base - 110} L {cx + 140},{base - 128} L {cx - 140},{base - 128} Z', '#d4a63c', sty)
-    o += P(f'M {cx - 110},{base - 128} Q {cx},{base - 300} {cx + 110},{base - 128} Z', '#5e8fb8', sty)
-    for k in (-60, -20, 20, 60):
-        o += f'<path d="M {cx + k * 0.3},{base - 270 + abs(k) * 0.4} Q {cx + k},{base - 200} {cx + k * 1.7},{base - 130}" stroke="#2e6fd2" stroke-width="3" fill="none"/>'
-    o += limb([(cx, base - 272), (cx, base - 300)], 6, '#d4a63c', sty)
-    o += icon_ring(cx, base - 336, 38)
-    return o, (cx, base - 376)
+    # wave frieze along the cornice
+    o += f'<path d="M {cx - 138},{base - 119} ' + ' '.join(f'q 5,-6 10,0' for _ in range(27)) + '" stroke="#2e6fd2" stroke-width="2.4" fill="none"/>'
+    # stepped attic, then the great hoop
+    o += P(f'M {cx - 96},{base - 128} L {cx - 96},{base - 146} L {cx + 96},{base - 146} L {cx + 96},{base - 128} Z', '#eaf3fb', sty)
+    hy = base - 230
+    o += f'<circle cx="{cx}" cy="{hy}" r="80" fill="none" stroke="{INK}" stroke-width="30"/>'
+    o += f'<circle cx="{cx}" cy="{hy}" r="80" fill="none" stroke="#5e8fb8" stroke-width="23"/>'
+    o += f'<circle cx="{cx}" cy="{hy}" r="80" fill="none" stroke="#d4a63c" stroke-width="4" stroke-dasharray="14 10"/>'
+    o += P(f'M {cx - 40},{base - 146} L {cx - 30},{hy + 70} L {cx + 30},{hy + 70} L {cx + 40},{base - 146} Z', '#d4a63c', sty)
+    o += icon_ring(cx, hy, 52)
+    for side in (-1, 1):   # corner pinnacles with little flames of blue light
+        x = cx + side * 122
+        o += P(f'M {x - 9},{base - 128} L {x - 6},{base - 176} L {x + 6},{base - 176} L {x + 9},{base - 128} Z', '#eaf3fb', sty)
+        o += P(f'M {x},{base - 198} Q {x + 9},{base - 182} {x},{base - 176} Q {x - 9},{base - 182} {x},{base - 198} Z', '#7fc6ff', bstyle(1.8))
+    return o, (cx, hy - 90)
 
 
 def gear_temple(cx, base):
+    """The machine revivalists' temple, built to echo the Epoch 2 thinking machine: brass, steam
+    towers, lit panels, the ribbed dome with its glowing antenna, and the orrery ring round the eye."""
     sty = bstyle(3)
-    o = P(f'M {cx - 110},{base} L {cx - 100},{base - 200} L {cx + 100},{base - 200} L {cx + 110},{base} Z', '#b07a3c', sty)
-    for side in (-1, 1):
-        x = cx + side * 84
-        o += P(f'M {x - 14},{base - 200} L {x - 12},{base - 290} L {x + 12},{base - 290} L {x + 14},{base - 200} Z', '#8a5a2b', sty)
+    o = ''
+    for side in (-1, 1):   # steam towers like the machine's
+        x = cx + side * 92
+        o += P(f'M {x - 16},{base} L {x - 14},{base - 300} L {x + 14},{base - 300} L {x + 16},{base} Z', STONE2, sty)
+        o += P(f'M {x - 20},{base - 300} L {x + 20},{base - 300} L {x + 15},{base - 314} L {x - 15},{base - 314} Z', BRASS2, sty)
+        for k in range(4):
+            o += f'<rect x="{x - 9}" y="{base - 280 + k * 46}" width="18" height="20" rx="4" fill="#2a3a44" stroke="{INK}" stroke-width="2"/>'
+            o += f'<circle cx="{x - 3}" cy="{base - 270 + k * 46}" r="2.6" fill="{["#7ff7ea", "#ffd34d", "#ff7a7a", "#7ff7ea"][k]}"/>'
+            o += f'<circle cx="{x + 4}" cy="{base - 270 + k * 46}" r="2.6" fill="{["#ffd34d", "#7ff7ea", "#7ff7ea", "#ff7a7a"][k]}"/>'
         for k in range(3):
-            o += f'<circle cx="{x}" cy="{base - 310 - k * 20}" r="{10 + k * 5}" fill="#c8c2c8" opacity="{0.8 - k * 0.2:.2f}"/>'
-    o += P(f'M {cx - 104},{base - 200} Q {cx},{base - 260} {cx + 104},{base - 200} Z', '#d4a63c', sty)
-    o += icon_machine(cx, base - 118, 62)
-    o += P(f'M {cx - 20},{base} L {cx - 20},{base - 40} L {cx + 20},{base - 40} L {cx + 20},{base} Z', '#5a3a22', bstyle(2.4))
-    return o, (cx, base - 250)
+            o += f'<circle cx="{x + side * (6 + k * 16)}" cy="{base - 330 - k * 18}" r="{9 + k * 5}" fill="#c8c2c8" opacity="{0.8 - k * 0.2:.2f}"/>'
+    o += P(f'M {cx - 74},{base} L {cx - 70},{base - 210} Q {cx},{base - 232} {cx + 70},{base - 210} L {cx + 74},{base} Z', BRASS2, sty)
+    o += P(f'M {cx - 62},{base - 14} L {cx - 58},{base - 198} Q {cx},{base - 216} {cx + 58},{base - 198} L {cx + 62},{base - 14} Z', '#e9c66a', bstyle(2.2))
+    # the ribbed dome and the glowing antenna, as on the machine
+    o += P(f'M {cx - 64},{base - 214} Q {cx},{base - 300} {cx + 64},{base - 214} Z', '#c7cfd6', sty)
+    for k in (-34, 0, 34):
+        o += f'<path d="M {cx + k * 0.4},{base - 282 + abs(k) * 0.3} Q {cx + k},{base - 250} {cx + k * 1.6},{base - 216}" stroke="#8d98a6" stroke-width="2.4" fill="none"/>'
+    o += limb([(cx, base - 276), (cx, base - 330)], 5, BRASS_D, sty)
+    o += glow(cx, base - 336, 34, '#7ff7ea')
+    o += circ(cx, base - 336, 8, '#7ff7ea', sty)
+    o += icon_machine(cx, base - 126, 50)
+    o += P(f'M {cx - 18},{base} L {cx - 18},{base - 36} Q {cx},{base - 48} {cx + 18},{base - 36} L {cx + 18},{base} Z', '#5a3a22', bstyle(2.4))
+    return o, (cx, base - 336)
 
 
 def faith_beam(x, top, colour, seed):
@@ -878,11 +1046,13 @@ def scene3():
     o.append(gradient_rect(0, 0, 1200, hzn, ['#2b2357', '#5a3f86', '#b46a98', '#f0a98a', '#f8d6a0']))
     o.append(stars(60, 12, ymax=200))
     o.append(sky_dragon(1050, 110, 0.5, '#e6edf8', '#bcd2ff', party.STYLES['bold'], flip=-1))
-    o.append(ring_band(hzn, top_side=250, top_mid=320, foot_in=160, arch_mid=200, seed=11, night=True, op=0.92))
-    # power drawn down into the temples
-    beams = [(250, 230, '#b48cff', 1), (600, 140, '#7fc6ff', 2), (960, 270, '#7ff7ea', 3)]
-    for (x, top, c, sd) in beams:
-        o.append(faith_beam(x, top, c, sd))
+    o.append(ring_band(hzn, top_side=250, top_mid=320, foot_in=160, arch_mid=200, seed=11, night=True, op=0.92, view=20))
+    # the three great temples (drawn below); power is drawn down into each
+    c1, t1 = cathedral(250, hzn + 110)
+    c2, t2 = ring_temple(600, hzn + 100)
+    c3, t3 = gear_temple(960, hzn + 110)
+    for (t_, c, sd) in [(t1, '#b48cff', 1), (t2, '#7fc6ff', 2), (t3, '#7ff7ea', 3)]:
+        o.append(faith_beam(t_[0], t_[1], c, sd))
     # land
     o.append(P(f'M -20,800 L -20,{hzn} Q 600,{hzn - 20} 1220,{hzn} L 1220,800 Z', '#7a8f5a', bstyle()))
     o.append(gradient_rect(0, hzn + 4, 1200, 300, ['#8fa66a', '#6f8a4f', '#556e3d']))
@@ -900,10 +1070,6 @@ def scene3():
         else:
             o.append(P(f'M {x - 30},{base} Q {x},{base - 80} {x + 30},{base} Z', '#efe4cc', bstyle(2)))
             o.append(limb([(x, base - 58), (x, base - 82)], 4, '#d4a63c', bstyle(1.6)))
-    # the three great temples
-    c1, t1 = cathedral(250, hzn + 110)
-    c2, t2 = ring_temple(600, hzn + 100)
-    c3, t3 = gear_temple(960, hzn + 110)
     o += [c1, c2, c3]
     # banners on poles in the colours of the faiths
     for (x, c, trim, ic) in [(110, '#2b2638', '#c58bff', 'black_church'), (390, '#2b2638', '#c58bff', 'black_church'),
@@ -924,6 +1090,16 @@ def scene3():
         for k in range(5):
             o.append(P(f'M {x - 56 + k * 22},{628} L {x - 56 + k * 22 + 22},{628} L {x - 56 + k * 22 + 22},{614} Q {x - 56 + k * 22 + 11},{622} {x - 56 + k * 22},{614} Z',
                        c if k % 2 == 0 else '#ffffff', bstyle(1.8)))
+    # icons for sale, hung under the awnings
+    for (x, ic) in [(150, 'black_church'), (430, 'cult_of_the_ring'), (770, 'machine_revivalists'), (1050, 'cult_of_the_ring')]:
+        for k in (-30, 0, 30):
+            o.append(f'<path d="M {x + k},{628} L {x + k},{640}" stroke="{INK}" stroke-width="1.2"/>')
+            o.append(ICONS[ic](x + k, 650, 9))
+    # strings of paper lanterns across the plaza, lit for the evening
+    o.append(lantern_string(200, 622, 380, 622, 14, 5, 1))
+    o.append(lantern_string(820, 622, 1000, 622, 14, 5, 2))
+    o.append(lantern_string(-10, 600, 100, 622, 10, 2, 3))
+    o.append(lantern_string(1100, 622, 1210, 600, 10, 2, 4))
     # a Blue huckster preaching from a crate, with a speaking horn, under the ring banner
     o.append(P('M 520,740 L 520,712 L 580,712 L 580,740 Z', '#a8743c', bstyle(2.4)))
     o.append(person(550, 712, 0.86, 'Blue', 'wave', '#e9dfc6', '#2e6fd2', look=-10))
@@ -935,7 +1111,7 @@ def scene3():
     o.append(person(220, 768, 0.8, 'Silver', 'pray', '#4b3a7a', '#c58bff', kneel=True, robe=True, look=-20))
     o.append(person(290, 762, 0.8, 'Red', 'raise', '#2b2638', '#c58bff', look=-30))
     o.append(person(680, 770, 0.8, 'Gold', 'awe', '#f3efe6', '#2e6fd2', flip=-1, look=-20))
-    o.append(person(740, 764, 0.8, 'Green', 'pray', '#5c6b3a', '#2e6fd2', flip=-1, kneel=True))
+    o.append(person(740, 764, 0.8, 'Green', 'pray', '#5c6b3a', '#2e6fd2', flip=-1, kneel=True, tail_item='censer'))
     o.append(person(930, 766, 0.84, 'Red', 'hold', '#8a5a2b', '#7ff7ea', flip=-1, item='banner:#8a5a2b', look=-8))
     o.append(person(1000, 772, 0.8, 'Blue', 'raise', '#8a5a2b', '#7ff7ea', flip=-1, look=-30))
     o.append(person(1060, 768, 0.8, 'Black', 'read', '#5a3a22', '#7ff7ea', flip=-1, item='book'))
@@ -981,7 +1157,7 @@ def scene4():
     hzn = 520
     o.append(gradient_rect(0, 0, 1200, hzn, ['#7fb2e6', '#b9d6f0', '#ffd9c0', '#ffe9c8']))
     o.append(sky_dragon(1080, 150, 0.5, '#ffc93c', '#ffd25a', party.STYLES['bold'], flip=-1))
-    o.append(ring_band(hzn, top_side=240, top_mid=310, foot_in=170, arch_mid=190, seed=14, op=0.9))
+    o.append(ring_band(hzn, top_side=240, top_mid=310, foot_in=170, arch_mid=190, seed=14, op=0.9, view=250))
     for (x, y, sc) in [(240, 120, 0.7), (760, 90, 0.9)]:
         o.append(cloud(x, y, sc, party.STYLES['bold']))
     # land: a green valley by a lake
@@ -1000,6 +1176,17 @@ def scene4():
     o.append(dragon(1062, 582, 0.62, 'Green', pose_sit(head_angle=22, wings='folded', wing_rot=-10, tail='curl'), flip=-1, expr='closed'))
     o.append(heart(1012, 470, 9))
     o.append(heart(1028, 452, 6))
+    # dragonflies over the water
+    o.append(dragonfly(868, 600, 0.9, -10))
+    o.append(dragonfly(1150, 556, 0.8, 12))
+    # a picnic on the grass, abandoned mid-bite
+    o.append(P('M 40,700 L 200,690 L 236,724 L 70,738 Z', '#f6f1e3', bstyle(2.4)))
+    for k in range(4):
+        o.append(f'<path d="M {48 + k * 40},{699 - k * 2.5} L {78 + k * 41},{737 - k * 3}" stroke="#e2432b" stroke-width="5" opacity=".7"/>')
+    for k in range(3):
+        o.append(f'<path d="M {52 + k * 6},{706 + k * 10} L {206 + k * 10},{696 + k * 9}" stroke="#e2432b" stroke-width="5" opacity=".7"/>')
+    o.append(f'<g transform="translate(110,700)">{tail_item_svg("basket", bstyle(2.2))}</g>')
+    o.append(f'<g transform="translate(176,708)">{tail_item_svg("cup", bstyle(2.2))}</g>')
     # the two young Unphased dragons, cruising about overhead
     o.append(motion_lines([(330, 300), (380, 270), (430, 250), (470, 244)], '#e6dcff', n=3, gap=10, width=4))
     o.append(dragon(540, 236, 0.62, None, pose_fly(head_angle=-8), flip=1, rot=-12, shimmer='all', seed=41, expr='happy'))
@@ -1020,13 +1207,18 @@ def scene4():
     o.append(person(170, 776, 0.98, 'Red', 'point', '#8d98a6', '#2f4f8f', look=-34))
     o.append(person(262, 784, 0.92, 'Gold', 'awe', '#f3efe6', '#c08a1e', look=-28))
     o.append(person(330, 790, 0.58, 'Silver', 'point', '#9fd0f0', '#4b3a7a', child=True, look=-40))
-    o.append(person(880, 782, 0.96, 'White', 'awe', '#6f7b8a', '#9b2d2d', flip=-1, look=-30, robe=True))
+    # a White painter, catching the moment on canvas (the weavers' own art)
+    paint = (f'<path d="M -26,14 Q -10,4 0,10 Q 12,2 26,12" stroke="#7fb2e6" stroke-width="3" fill="none"/>'
+             f'<path d="M -22,-6 q 8,-8 16,-2 l 6,-6 l -2,9 q -8,6 -20,-1 Z" fill="#e3d2ff" stroke="{INK}" stroke-width="1.2"/>'
+             f'<path d="M 4,-14 q 8,-6 15,0 l 6,-5 l -2,8 q -8,5 -19,-3 Z" fill="#ffe2a8" stroke="{INK}" stroke-width="1.2"/>'
+             f'<path d="M -12,22 Q -12,14 -6,14 L -2,18 L 2,14 Q 8,14 8,22 Z" fill="#bfe0f7" stroke="{INK}" stroke-width="1.2"/>')
+    o.append(easel(820, 788, paint))
+    o.append(person(894, 786, 0.92, 'White', 'hold', '#6f7b8a', '#9b2d2d', flip=-1, look=-26, robe=True, item='brush'))
     o.append(person(980, 776, 0.98, 'Black', 'point', '#2f6b6b', '#e8c35a', flip=-1, look=-36))
-    o.append(person(1070, 786, 0.94, 'Green', 'raise', '#5c6b3a', '#7a4e2a', flip=-1, look=-30))
+    o.append(person(1070, 786, 0.94, 'Green', 'raise', '#5c6b3a', '#7a4e2a', flip=-1, look=-30, tail_item='parasol'))
     o.append(person(610, 790, 0.9, 'Blue', 'offer', '#efe4cc', '#2b5fa8', flip=1, look=-4))
-    for (x, y) in [(60, 760), (420, 780), (790, 790), (1150, 770)]:
-        for k in range(3):
-            o.append(f'<circle cx="{x + k * 10}" cy="{y - k * 5}" r="5" fill="{rnd.choice(["#ffb3d1", "#fff2a8", "#ffffff", "#b3d1ff"])}" stroke="{INK}" stroke-width="1.3"/>')
+    for k, (x, y) in enumerate([(60, 770), (430, 790), (790, 796), (1160, 780)]):
+        o.append(flower_tuft(x, y, 20 + k, petals=('#ffb3d1', '#fff2a8', '#b3d1ff')))
     return ''.join(o)
 
 
@@ -1053,7 +1245,7 @@ def scene5():
     o.append(glow(1080, 120, 320, '#bcd2ff').replace('.85', '.5'))
     o.append(stars(50, 15, ymax=180).replace('<circle cx="', '<circle opacity=".7" cx="', 0))
     # the real Gold (setting) and Silver (rising), so no one confuses them with Yellow and Grey
-    o.append(ring_band(hzn, top_side=236, top_mid=300, foot_in=170, arch_mid=186, seed=17, op=0.88))
+    o.append(ring_band(hzn, top_side=236, top_mid=300, foot_in=170, arch_mid=186, seed=17, op=0.88, view=60))
     o.append(sky_dragon(150, 200, 0.62, '#ffc93c', '#ffd25a', party.STYLES['bold']))
     o.append(sky_dragon(1050, 100, 0.56, '#e6edf8', '#bcd2ff', party.STYLES['bold'], flip=-1))
     # land and the great hill
@@ -1065,6 +1257,8 @@ def scene5():
     for (x, c, em) in [(300, '#f0cf2e', emblem_sun(13)), (900, '#7d838c', emblem_moon(13))]:
         o.append(limb([(x, 600), (x, 440)], 4, party.WOOD, bstyle(2)))
         o.append(banner(x, 444, 90, 36, c, '#ffffff', phase=x * 0.03, emblem=em, sty=bstyle(2.2)))
+    # sun-and-moon bunting strung across the hilltop for the festival
+    o.append(bunting(300, 452, 900, 452, 30, 16, ['#f0cf2e', '#7d838c']))
     # the Yellow and Grey dragons, side by side like heraldic supporters
     o.append(glow(600, 380, 260, '#fff2c0'))
     # each gazes up at the one it reflects: Yellow toward the setting Gold, Grey toward the rising Silver
@@ -1078,7 +1272,7 @@ def scene5():
     o.append(crowd(right, 22, ['Grey'], 0.42, ['raise', 'pray', 'awe'], outfits=['#4a4f5c', '#c9d2e0', '#e9dfc6', '#6f7b8a']))
     # everyone else, all nine colours, gathered at the foot of the hill
     front = [
-        (110, 770, 'Brown', 'point', '#7c6a4e', '#5b7a3a', 1, None),
+        (110, 770, 'Brown', 'wave', '#7c6a4e', '#5b7a3a', 1, 'drum'),
         (200, 778, 'Indigo', 'stand', '#2a2a33', '#7a2f3a', 1, None),
         (290, 786, 'Red', 'awe', '#8d98a6', '#2f4f8f', 1, None),
         (380, 792, 'Yellow', 'hold', '#7a3a2a', '#f2d16b', 1, 'banner:#f0cf2e'),
@@ -1086,13 +1280,20 @@ def scene5():
         (910, 786, 'Blue', 'point', '#efe4cc', '#2b5fa8', -1, None),
         (1000, 778, 'Green', 'awe', '#5c6b3a', '#3e5a4a', -1, None),
         (1090, 770, 'White', 'pray', '#6f7b8a', '#9b2d2d', -1, None),
-        (1160, 780, 'Black', 'stand', '#2f6b6b', '#e8c35a', -1, None),
+        (1160, 780, 'Black', 'hold', '#2f6b6b', '#e8c35a', -1, 'horn'),
     ]
     for (x, y, drag, pose, out, acc, fl, item) in front:
-        o.append(person(x, y, 0.9, drag, pose, out, acc, flip=fl, item=item, look=-22, robe=(drag in ('White', 'Grey'))))
-    for (x, y) in [(40, 760), (520, 790), (680, 790), (1180, 760)]:
-        for k in range(3):
-            o.append(f'<circle cx="{x + k * 10}" cy="{y - k * 5}" r="5" fill="{rnd.choice(["#fff2a8", "#ffffff", "#e3e8f0"])}" stroke="{INK}" stroke-width="1.3"/>')
+        o.append(person(x, y, 0.9, drag, pose, out, acc, flip=fl, item=item, look=-22 if item != 'horn' else -30, robe=(drag in ('White', 'Grey')),
+                        tail_item='lantern'))
+    for k, (x, y) in enumerate([(40, 768), (530, 796), (670, 796), (1186, 770)]):
+        o.append(flower_tuft(x, y, 40 + k, petals=('#fff2a8', '#ffffff', '#e3e8f0')))
+    # a White dragonborn on wings of light, trailing a yellow and grey streamer between the two lights
+    fx, fy = 640, 180
+    hx, hy = fly_hand(fx, fy, 0.56, 'White', flip=1)
+    for k, c in enumerate(('#f0cf2e', '#7d838c')):
+        d = f'M {hx},{hy + k * 6} C {hx - 90},{hy - 40 + k * 6} {hx - 160},{hy + 50 + k * 6} {hx - 260},{hy + 10 + k * 6}'
+        o.append(f'<path d="{d}" stroke="{INK}" stroke-width="9" fill="none" stroke-linecap="round"/><path d="{d}" stroke="{c}" stroke-width="5" fill="none" stroke-linecap="round"/>')
+    o.append(person(fx, fy, 0.56, 'White', 'fly', '#eceff4', '#9fb7d4', look=0, wings='spectral'))
     return ''.join(o)
 
 CAPTIONS = {

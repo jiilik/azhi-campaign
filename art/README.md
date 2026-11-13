@@ -20,7 +20,7 @@ Each script `chdir`s to its own folder and writes to `build/` (SVG, git-ignored)
 | `lore_panels.py` | `output/lore_1_bones.png` … `lore_5_campfire.png` and the sheet `output/lore_panels.png`: dragonborn adventurers visiting Azhi's history: the bones of Azhi (myth), the machine war, the age of faith, the twins' nest, and a campfire tale of the homunculi war (epochs PROPOSED, `canon/brainstorm-epochs.md`) (2026-11-11). |
 | `tapestries.md` | Plan for the six Tapestry Hall panels, Epochs 0–5 (a player-facing history in a White monastery), replacing the lore panels; all six decided, with render notes (2026-11-12). |
 | `tapestries.py [n…]` | `output/tapestry_0.png` … `tapestry_5.png`. With no arguments it also writes the hall sheet `output/tapestry_hall.png` and the Epoch 3 faith icons `output/icon_black_church.png`, `icon_cult_of_the_ring.png`, `icon_machine_revivalists.png` and the sheet `icons_epoch3.png` (2026-11-12). |
-| `tapestry_lib.py` | The tapestry toolkit: posable dragons (spine curve, wings, legs, expressions), dragonborn poses and props, the Unphased shimmer, the cartoon ring arch, banners, and the woven frame (border, rod, caption, fringe). |
+| `tapestry_lib.py` | The tapestry toolkit: posable dragons (spine curve, wings, legs, expressions), dragonborn poses and props (form details: sizes, Green tails, webbing, Spectral Wings in flight), the Unphased shimmer, the ring arch drawn from the real map (`data/farside_t<θ>.npz`, made by `worldgen/farside.py`), banners, and the woven frame (border, rod, caption, fringe). |
 | `azhi_cover.py` | `output/azhi_cover.png`: Azhi looming over the young world (handout cover) |
 | `svg2png.py in.svg out.png W H` | A generic SVG → PNG rasterizer used by the others |
 

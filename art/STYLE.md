@@ -23,11 +23,18 @@ The author chose this style on 2026-10-20. Use it for every cartoon unless he sp
 | Red | `#c8342b` | `#f3a37c` | `#efe4c9` |
 | Green | `#3c9a47` | `#b9e292` | `#efe4c9` |
 
+## Dragonborn by form *(Troy, 2026-11-12)*
+
+- **Red** is drawn a touch **larger** than its neighbours and **Blue** a touch **smaller** (Large and Small forms). In code, `tapestry_lib.SIZE_K`.
+- **Green: Prehensile Tail.** The tail curls up behind the figure and holds an everyday thing like a third hand: a flower, a cup, a lantern, a basket, a quill, a parasol, a censer. **Never a weapon or a shield.** *(Claude: a leafy frill along the tail and a gold cuff near the tip are the embellishment.)*
+- **Blue and Indigo** (Amphibious, Deep-Born): **webbed fingers and toes** wherever the figure is big enough to show fingers and toes.
+- **White: Spectral Wings,** wings of shimmering light (translucent white to pale blue and lilac, white ribs, shed sparkles), shown in flight.
+
 ## Recurring motifs
 
 - **Holy symbol and shield emblem:** a simple **ring** with a dot for a head, the ouroboros. It stands for Azhi.
 - **Gold dragon in the sky** = the sun (warm glow `#ffd25a`). **Silver** = the moon (cool glow `#bcd2ff`).
-- **The ring arch:** on the inner side and flanks, the far side of the world arcs across the sky as a blue band with green land patches.
+- **The ring arch:** on the inner side and flanks, the far side of the world arcs across the sky as a blue band. Draw its land from the **real map**, not made-up patches *(Troy, 2026-11-12)*: `worldgen/farside.py` ray-traces the coastlines, highlands and clouds, and `tapestry_lib.ring_band(..., view=θ)` draws them. The Lower Jaw, rising from the Inner Sea, is the landmark to look for.
 
 ## Azhi (approved design)
 

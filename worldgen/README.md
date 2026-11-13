@@ -77,3 +77,7 @@ This script drapes `img_angle.npy` on a torus mesh, downsampled 3×, with relief
 ## skyview.py
 
 Ray-traces the coloured torus from an eye on the surface, looking across the hole, to show how the far side of the ring arches across the sky at three latitudes (φ 100°, 120°, 140°) → `output/azhi_sky_day.png` and `azhi_sky_night.png` (and one image per latitude). With atmosphere: clouds on the far side and in the near sky, haze with distance, and lighting from the Gold dragon by day or the Silver dragon by night. Reference for drawing the ring arch in cartoons and tapestries (2026-11-12). Needs `build/img_angle.npy` (run `terrain.py` and `colorize.py` first).
+
+## farside.py
+
+Ray-traces the far side of the ring from the surface (the same geometry as `skyview.py`) and resamples it onto a normalized band grid, so the cartoon ring arch in the tapestries shows the map's real coastlines, highlands, snow and clouds → `art/cartoon/data/farside_t<θ>.npz` (height above sea level and cloud cover). Run `python worldgen/farside.py [θ ...]`; the default views are θ 110°, 20°, 250° and 60° (Epochs 2–5). Needs `build/E.npy` and `build/img_angle.npy` (2026-11-12).
