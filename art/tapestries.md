@@ -5,7 +5,7 @@
 - **The legend, not the DM's truth.** Secrets are simply left out, but nothing woven is false: **no misdirection**. *(Secrets to leave out are listed in `canon/brainstorm-epochs.md`: today's Black is the young Black, the living thinking machine, the buried weapons forge, Indigo's weapon secrets; Gold and Silver are only whispered about.)*
 - **Captions: brief.** A short woven title, with a line or two at most.
 - **Seven tapestries:** Epoch 0 (Azhi meets the young dragons), then Epochs 1 to 6 (the first world, the machine war, the age of faith, the twins, the homunculi war, the present day).
-- **Style:** Saturday-Morning Bold (house style). *(Open: whether to add a woven-tapestry frame or texture; Troy has said new drawing rules are coming.)*
+- **Style:** Saturday-Morning Bold, which is **the White dragonborn's favoured art style** in the world, so the monastery's tapestries are naturally drawn in it. Realistic references (such as the ray-traced ring) become cartoony when woven. *(Open: whether to add a woven-tapestry frame or texture; Troy has said new drawing rules are coming.)*
 
 ## Epoch 0: Azhi Meets the Young Dragons, in the Depths of Space and Time
 

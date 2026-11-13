@@ -2,6 +2,8 @@
 
 The author chose this style on 2026-10-20. Use it for every cartoon unless he specifies otherwise.
 
+**In the world** *(Troy, 2026-11-12)*: Saturday-Morning Bold is **the favoured art style of the White dragonborn**. In-universe images (the Tapestry Hall, murals, illustrated texts) are drawn in it because White monks and storytellers made them.
+
 ## Look
 
 - **Thick ink outlines:** `#18120e`, about 1.7 units in figure space (≈4 px at the usual 2.25× figure scale). Background shapes use 3 px.

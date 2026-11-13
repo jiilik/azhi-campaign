@@ -112,6 +112,7 @@ When a PROPOSED item is confirmed or rejected, update its status here and add a 
 - **CANON (2026-10-30). Factions** are the rules of a civilization. Some are city or nation-state factions with no tie to a dragon; others serve or oppose particular dragons. Rules for standing, debts and expulsion belong to the faction, not to a form. A dragonborn in good standing enjoys the faction's benefits; one out of favour is an outcast, and may be hunted. Working file: `canon/factions.md`.
 - **CANON (2026-10-24). The knowledge colours:** Black **hoards** knowledge, Indigo **trades** it, Yellow **gives it away**, White **teaches** it, and Grey **uncovers** it.
 - **CANON (2026-10-24). Phasing as emigration.** A dragonborn who phases must find a place in their new colour's society: staying in their old role, or starting again at the bottom. A newly phased Indigo arrives with no name and no pearls.
+- **CANON (2026-11-12). Art:** the campaign's cartoon style (Saturday-Morning Bold) is the **White dragonborn's favoured art style**, which explains in-universe images drawn in it, such as the monastery tapestries.
 - **PROPOSED.** **Gold and Silver dragonborn** are nomadic **sky-readers** who predict where the sun and moon will wander. Everyone needs them, but they belong nowhere. Philosophically they oppose Black: contentment versus questioning.
 
 ## 4. Physical World
