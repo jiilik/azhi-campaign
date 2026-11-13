@@ -2,6 +2,13 @@
 
 Newest first. One line per decision: what was decided, and why if a reason was given. Add to this log every time the author settles something, and update `canon/setting-bible.md` to match.
 
+## 2026-11-13
+
+- **Expertise** (Troy, voice): only in skills you're already proficient in. Four along the Cunning line (two on 202, one on 403, one on 604), plus **Knowledge Expertise** on Lore (210): one Expertise in Arcana, History, Investigation, Medicine, Nature or Religion.
+- **Mage spellbook** (Troy, voice): starting in the Mage Kit gives six spells (one of three predefined books) plus its three cantrips; taking the kit later gives three. The books follow the three branches: **The Junior Wizard's Primer** (straight), **Classical Control for Beginners** (toward Control; no damage), and a Lore book (draft, parked). Any spell encountered can be copied in.
+- **Spells from tiles** (Troy, voice): Mage tiles teach none; Mage-cluster edge tiles (Summoner, Sage, Alchemist) teach a few specific ones; Mystic tiles teach specific spells.
+- **Prepared spells** (Troy, voice): one per tile with mana, on both wheels; the Mage or Mystic Kit tile counts as four if it's your starting kit, one otherwise. Replaces "twice your Proficiency Bonus".
+
 ## 2026-11-12
 
 - **Animals in the tapestries** (Troy): more life, such as a black goat and a white goat grazing, or an ox with a cart. Added across Epochs 1–5 (`art/tapestries.md`). The Epoch 2 ox cart was then dropped (Troy: badly scaled).

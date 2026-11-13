@@ -72,6 +72,22 @@ These overturn parts of the brainstorm below.
    - **Intelligence casters (the Mage) learn from books, anywhere:** the Mage's tiles give **mana and the right to learn**, no spells. A world condition: the DM must make spells available to learn (libraries, scrolls, teachers).
    - **Other casters** (the Mystic, blood mages and the like) **know the spells on each tile they take**, as with techniques.
    - **Starting with the Mage Kit** (as the first tile, not multiclassing in) includes **a spellbook with a set number of spells of the player's choice**. *(Parked: how many and which; reference the SRD wizard, six level-1 spells and three cantrips.)*
+   - **The spellbook** *(Troy, voice, 2026-11-13; supersedes the parked note above)*:
+     - **Starting in the Mage Kit:** a spellbook of **six spells**, chosen as **one of three predefined books**, plus the kit's **three cantrips** *(Claude, checked: the Mage Kit already gives 3 cantrips, so no follow-up needed)*. **Taking the Mage Kit later:** a spellbook of **three spells**.
+     - The three books follow the **three branches out of the Mage** (left toward the Mystic, straight on, right toward the Herald), so a player can plan ahead:
+
+       | Book | Branch | Spells (SRD level 1) |
+       |---|---|---|
+       | **The Junior Wizard's Primer** | Straight on (Wizard) | Magic Missile, Shield, Mage Armor, Burning Hands, Thunderwave, Chromatic Orb |
+       | **Classical Control for Beginners** | Right, through Control (Summoner, Hexer) | Charm Person, Sleep, Silent Image, Disguise Self, Grease, Fog Cloud. **No damage on purpose**: Troy likes a zero-damage wizard down the Control and Summoner side. |
+       | *Lore book (name to come)* | Left, through Lore (Sage, Alchemist) | **Draft, parked for re-evaluation:** Detect Magic, Identify, Comprehend Languages, Alarm, Unseen Servant, and a sixth still open (Feather Fall rejected as not flavourful; Ray of Sickness floated for the Alchemist). |
+
+     - **Any spell the Mage encounters** in the game can be copied into the book.
+   - **Which tiles teach spells** *(Troy, voice, 2026-11-13)*:
+     - **Mage tiles teach no spells** (as above): most of a Mage's spells are found in the world.
+     - **Edge tiles of the Mage cluster may teach a few specific spells**: Summoner a couple of summoning spells; Sage and Alchemist a couple of flavourful spells that are hard to find in a library.
+     - **Mystic tiles teach specific spells**: a Mystic gets many spells straight from its tiles and needn't find any.
+   - **Prepared spells** *(Troy, voice, 2026-11-13; replaces "twice your Proficiency Bonus" below)*: **one prepared spell for each tile with mana on it, on both wheels** (count the purple diamonds; the colour wheel's ring 1 has none). The **Mage or Mystic Kit tile counts as four if it's your starting kit, one if you take it later.** The Herald Kit has no mana, so Herald casters just count their mana tiles further out.
 9. **Saving throws** *(Troy, voice, 2026-11-12)*: two proficiencies, as in the SRD.
    - **One from the starting kit,** a choice of three: the kit's own ability or either neighbour's (Herald: Cha, Dex or Int; Scout: Dex, Cha or Str; Fighter: Str, Dex or Con; Tank: Con, Str or Wis; Mystic: Wis, Con or Int; Mage: Int, Wis or Cha). Only the starting kit gives one, so multiclassing doesn't pile them up.
    - **One from the colour's ring 1,** a choice of its two abilities, so a player can avoid a double (Dex from Green and Dex from the Scout). Phasing changes it, which keeps things lively.
@@ -90,7 +106,7 @@ These overturn parts of the brainstorm below.
 
     - Every one of the 18 skills is on at least one list *(Claude, checked)*; Intimidation is on three. Nature is left off the Scout's because rangers can find it elsewhere (Green, Brown, several traits); Animal Handling went to the Fighter (replacing Perception) and the Mystic (the shaman).
     - **Duplicates** *(phasing can hand you a skill you already have)*: pick a replacement **from the same list**; if that list has nothing left, take any skill tied to the same ability. This stops players aiming for duplicates to reach skills off every list.
-    - **Expertise: back-burnered**, probably somewhere on the Cunning line.
+    - **Expertise** *(Troy, voice, 2026-11-13)*: only in a skill you're already proficient in, as in the SRD. **Four along the Cunning line**, the same as a 2024 rogue: **two on Cunning (202), one on Cunning II (403), one on Cunning III (604)**. Plus **Knowledge Expertise** on **Lore (210)**, one step off the Mage's straight line: one Expertise in **Arcana, History, Investigation, Medicine, Nature or Religion** (the 2024 wizard's list, which splits the difference between Mystic and Mage). Other sources (Knowledge Domain cleric, Scout rogue, Tasha's ranger) need no tiles of their own: builds like them already reach Cunning or Lore.
 11. **Power curves: the conclusion** *(Claude's simulation, 2026-11-12; the experiment itself was dropped to keep the repo lean)*. Twelve archetypes (six kits, six hybrids) × three strategies (grid only, species first, even split), levels 1–12, phasing at levels 5 and 10:
    - **Halving the species points on a phase was too harsh:** species-first characters held 8 of 12 points by level 12. Hence the one-ring rule.
    - **With one ring lost:** species investors hold 10 of 12, and their ability +1s and Prof. Ups keep pace with grid-only builds; they trail mainly in Attack Up (usually 1 against 2).
@@ -301,7 +317,7 @@ Levels 11–19 add 9, 0, 10, 0, 11, 0, 13, 7 and 9.
 *Spells:*
 - **The Mystic learns specific spells from its nodes**, listed in each node's description, and prepares from the spells it knows.
 - **The Mage can prepare any spell it encounters anywhere**: from a library, a found scroll, someone's notes. It doesn't need a spellbook. The limit is how many it prepares.
-- **Prepared spells = twice your Proficiency Bonus**, for both: 4 at the start, 12 at most. *(Claude: about half what 2024 casters prepare at level 20; the wizard prepares 25.)* Since PB comes from nodes anywhere, a dip prepares as many as a pure caster, which Troy accepts as matching multiclassing; the small mana pool keeps a dip in check.
+- *(Superseded 2026-11-13 by one prepared spell per mana tile; see decision 8.)* **Prepared spells = twice your Proficiency Bonus**, for both: 4 at the start, 12 at most. *(Claude: about half what 2024 casters prepare at level 20; the wizard prepares 25.)* Since PB comes from nodes anywhere, a dip prepares as many as a pure caster, which Troy accepts as matching multiclassing; the small mana pool keeps a dip in check.
 - **Spellcasting ability** is the ability of the tree you're in.
 - **Seam tiles don't teach spells**, except **specialized seam-only spells with their own mechanics**:
   - **Blood magic** (Con–Wis): spells paid for with **hit points**, each spell setting its own ability.
