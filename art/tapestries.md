@@ -1,4 +1,4 @@
-# The Tapestry Hall: a player-facing history of Azhi (PLAN, 2026-11-12)
+# The Tapestry Hall: a player-facing history of Azhi (PLAN and first renders, 2026-11-12)
 
 *(Troy, voice, 2026-11-12.)* The five lore panels (`cartoon/lore_panels.py`) are being redone as **six tapestries** hanging in a **White monastery**. Players walk through them one at a time; each tells one chapter, condensed.
 
@@ -91,3 +91,16 @@
 ## Epoch 6: no tapestry
 
 *(Troy, 2026-11-12.)* Epoch 6 is **the present**, only about **200 years** old, so the hall has no tapestry for it. The hall holds **six tapestries, Epochs 0 to 5**.
+
+## Render notes *(Claude, 2026-11-12; embellishments PROPOSED)*
+
+Drawn by `cartoon/tapestries.py` (toolkit `cartoon/tapestry_lib.py`); the hall sheet is `cartoon/output/tapestry_hall.png`.
+- **Frame:** each panel is woven, with a blue border knotted with small rings, a hanging rod with gold finials, a caption panel with the epoch number in medallions, a faint weave texture and a fringe. *(This settles the open frame question above unless Troy prefers otherwise.)*
+- **Embellishments beyond the brief.** Each can be dropped:
+  1. **Epoch 0:** of the seven hatchlings, one sits on Azhi's crown, one swings on a barbel and one lounges on its back, besides the listener, the lint-picker and the chasing pair. Also a moon with a bite out of it, a comet, a spiral galaxy, and golden curls for Azhi's voice.
+  2. **Epoch 1:** each dragon shapes its own land: White on a glacier, Red at a volcano, Blue leaping from the sea, Green lounging in a blossoming forest. Elemental glyphs circle the teaching Black, and pilgrims walk in.
+  3. **Epoch 2:** an academy city around the machine, a queue at its question slot, an answer tape, banderoles marked "?", "∴" and "!", and children.
+  4. **Epoch 3:** beams of light rise from the three temples, with small shrines and a bazaar between them. A Blue huckster with a horn and a "The Ring!" scroll stands among processions. A White monk is sketching: the weavers' own nod.
+  5. **Epoch 4:** the eggshells sit in a nest, with hearts over the nuzzling Blue and Green by a lake.
+  6. **Epoch 5:** Yellow and Grey sit back to back, their tails meeting. Each gazes up at the one it reflects: Yellow at the setting Gold, Grey at the rising Silver. Sun and moon banners fly over the slopes, where the followers raise their arms; dragonborn of all nine colours gather below.
+
