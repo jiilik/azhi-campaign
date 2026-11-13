@@ -1,10 +1,10 @@
 # The Tapestry Hall: a player-facing history of Azhi (PLAN, 2026-11-12)
 
-*(Troy, voice, 2026-11-12.)* The five lore panels (`cartoon/lore_panels.py`) are being redone as **seven tapestries** hanging in a **White monastery**. Players walk through them one at a time; each tells one chapter, condensed.
+*(Troy, voice, 2026-11-12.)* The five lore panels (`cartoon/lore_panels.py`) are being redone as **six tapestries** hanging in a **White monastery**. Players walk through them one at a time; each tells one chapter, condensed.
 
 - **The legend, not the DM's truth.** Secrets are simply left out, but nothing woven is false: **no misdirection**. *(Secrets to leave out are listed in `canon/brainstorm-epochs.md`: today's Black is the young Black, the living thinking machine, the buried weapons forge, Indigo's weapon secrets; Gold and Silver are only whispered about.)*
 - **Captions: brief.** A short woven title, with a line or two at most.
-- **Seven tapestries:** Epoch 0 (Azhi meets the young dragons), then Epochs 1 to 6 (the first world, the machine war, the age of faith, the twins, the homunculi war, the present day).
+- **Six tapestries:** Epoch 0 (Azhi meets the young dragons), then Epochs 1 to 5 (the first world, the machine war, the age of faith, the twins, the homunculi war). Epoch 6 is the present, so it has none.
 - **Style:** Saturday-Morning Bold, which is **the White dragonborn's favoured art style** in the world, so the monastery's tapestries are naturally drawn in it. Realistic references (such as the ray-traced ring) become cartoony when woven. *(Open: whether to add a woven-tapestry frame or texture; Troy has said new drawing rules are coming.)*
 
 ## Epoch 0: Azhi Meets the Young Dragons, in the Depths of Space and Time
@@ -88,6 +88,6 @@
 
 **Checked** *(Claude)*: Epoch 4 was the first mass phasing (dragonborn phased in great numbers to fill the twins' armies), and the council banned it afterwards; the Yellow and Grey conversions in Epoch 5 were a loophole in that ban. The homunculi are adult dragons, homunculi of Gold and Silver. Nothing in the scene names the young Black, so the present-day secret (that today's Black is the young one) stays out.
 
-## Epoch 6
+## Epoch 6: no tapestry
 
-*(To be planned.)*
+*(Troy, 2026-11-12.)* Epoch 6 is **the present**, only about **200 years** old, so the hall has no tapestry for it. The hall holds **six tapestries, Epochs 0 to 5**.
