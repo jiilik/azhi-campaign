@@ -4,6 +4,7 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-11-12
 
+- **Animals in the tapestries** (Troy): more life, such as a black goat and a white goat grazing, or an ox with a cart. Added across Epochs 1–5 (`art/tapestries.md`).
 - **Myth handout retired** (Troy): the Claude Doc handout is deleted; a chapter of the SRD-based players' handbook describing the world more fully will probably replace it. **Lore panels deleted**, replaced by the tapestries. **No ring arch in the Spine scene**, since from the outer equator the far side is below the horizon.
 - **The machine's orrery ring stays tilted** (Troy): the brass ring around the thinking machine's eye is the one deliberate exception to its symmetry, because rings are a theme. The machine revivalists' icon keeps it too.
 - **Tapestry fixes** (Troy): the thinking machines are built perfectly symmetric (no lopsided lights); snow caps sit on their peaks; the Epoch 1 glyphs centre over the temple; no bunting in Epoch 5 (it ran behind the dragons). Epoch 0's added planet and stardust orbit accepted.

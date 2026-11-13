@@ -408,6 +408,253 @@ def person(x, y, s, drag, pose='stand', outfit='#6f7b8a', accent='#9b2d2d', flip
     return f'<g transform="translate({x},{y}) scale({s * flip},{s})">{g}</g>'
 
 
+# ---------------------------------------------------------------- animals (2026-11-12: more life)
+def _hoof(x, y, sty, c='#3a2e26'):
+    return P(f'M {x - 3.4},{y} L {x - 2.6},{y - 4} L {x + 2.6},{y - 4} L {x + 3.4},{y} Z', c, dict(sty, stroke=sty['stroke'] * 0.6))
+
+
+def goat(x, y, s, coat='#f4f1ea', flip=1, graze=True, horn='#cbb89a'):
+    """A goat, side on, facing +x; feet at (x, y). graze: head down to the grass."""
+    sty = S(s, 3.0)
+    shade = dark(coat, .22) if coat != '#3a3640' else '#26232b'
+    o = []
+    for lx in (-14, 12):                                   # far legs
+        o.append(limb([(lx - 1, -20), (lx - 2, -10), (lx - 3, -3)], 4.2, shade, sty))
+        o.append(_hoof(lx - 3, 0, sty))
+    o.append(P('M -24,-31 Q -31,-43 -27,-47 Q -23,-39 -19,-33 Z', coat, sty))          # tail flick
+    o.append(P('M -26,-27 Q -28,-41 -10,-40 L 14,-40 Q 28,-41 28,-28 Q 28,-16 14,-17 L -12,-17 Q -26,-16 -26,-27 Z', coat, sty))
+    o.append(f'<path d="M -16,-36 Q 0,-39 16,-36" stroke="{light(coat, .35) if coat == "#3a3640" else dark(coat, .08)}" stroke-width="2.4" fill="none" stroke-linecap="round"/>')
+    for lx in (-18, 16):                                   # near legs
+        o.append(limb([(lx, -19), (lx + 1, -10), (lx, -3)], 4.8, coat, sty))
+        o.append(_hoof(lx, 0, sty))
+    head = (P('M -2,-2 Q -11,0 -13,7 Q -6,5 0,2 Z', shade, sty)                      # droopy ear
+            + P('M -6,-5 Q 3,-9 14,-4 Q 18,0 14,3.5 Q 4,6 -6,4 Q -9,0 -6,-5 Z', coat, sty)
+            + P('M 8,4 L 6,11 L 11,5 Z', coat, dict(sty, stroke=sty['stroke'] * 0.7))   # beard
+            + P('M -3,-6 Q -6,-17 -15,-19 Q -8,-12 -6,-4 Z', horn, sty)
+            + P('M 1,-7 Q -1,-17 -9,-21 Q -4,-13 -2,-6 Z', light(horn, .1), sty)
+            + f'<ellipse cx="5" cy="-2.6" rx="2.6" ry="2" fill="#f2d16b" stroke="{INK}" stroke-width="{sty["stroke"] * 0.5:.2f}"/>'
+            + f'<rect x="3.4" y="-3.1" width="3.2" height="1.1" fill="{INK}"/>'
+            + f'<circle cx="15" cy="0.5" r="0.9" fill="{INK}"/>')
+    if graze:
+        o.append(limb([(20, -33), (29, -20), (33, -12)], 9, coat, sty))
+        o.append(f'<g transform="translate(34,-9) rotate(70)">{head}</g>')
+        o.append(P('M 30,0 L 32,-7 L 35,0 M 36,0 L 39,-6 L 41,0', '#5aa64a', dict(sty, stroke=sty['stroke'] * 0.6)))
+    else:
+        o.append(limb([(20, -33), (27, -42), (31, -46)], 9, coat, sty))
+        o.append(f'<g transform="translate(34,-48) rotate(-12)">{head}</g>')
+    return f'<g transform="translate({x},{y}) scale({s * flip},{s})">{"".join(o)}</g>'
+
+
+def ox(x, y, s, coat='#a0683a', flip=1, yoke=True):
+    """An ox, side on, facing +x; feet at (x, y). Returns (svg, yoke point in the picture)."""
+    sty = S(s, 3.2)
+    shade = dark(coat, .22)
+    o = []
+    for lx in (-30, 26):
+        o.append(limb([(lx, -30), (lx - 1, -14), (lx - 2, -4)], 8, shade, sty))
+        o.append(_hoof(lx - 2, 0, sty))
+    o.append(limb([(-46, -52), (-52, -38), (-50, -24)], 3, coat, sty))                  # tail
+    o.append(P('M -54,-26 Q -50,-20 -46,-26 Q -50,-30 -54,-26 Z', '#3a2e26', sty))
+    o.append(P('M -46,-42 Q -48,-62 -28,-63 L 10,-64 Q 24,-74 36,-66 Q 50,-62 48,-44 Q 48,-29 34,-29 L -34,-29 Q -48,-28 -46,-42 Z', coat, sty))
+    o.append(f'<path d="M -36,-34 Q 0,-28 34,-34" stroke="{light(coat, .25)}" stroke-width="4" fill="none" stroke-linecap="round"/>')
+    for lx in (-38, 18):
+        o.append(limb([(lx, -32), (lx + 1, -16), (lx, -4)], 8.6, coat, sty))
+        o.append(_hoof(lx, 0, sty))
+    # head, low and forward, with wide horns
+    hx, hy = 56, -46
+    o.append(limb([(40, -56), (50, -50), (hx, hy)], 16, coat, sty))
+    o.append(P(f'M {hx - 8},{hy - 10} Q {hx + 6},{hy - 14} {hx + 14},{hy - 4} L {hx + 18},{hy + 8} Q {hx + 14},{hy + 16} {hx + 4},{hy + 14} '
+               f'Q {hx - 8},{hy + 10} {hx - 10},{hy} Z', coat, sty))
+    o.append(P(f'M {hx + 8},{hy + 4} Q {hx + 20},{hy + 2} {hx + 19},{hy + 10} Q {hx + 16},{hy + 16} {hx + 6},{hy + 14} Z', '#e9d3b2', sty))
+    o.append(f'<circle cx="{hx + 15}" cy="{hy + 9}" r="1.3" fill="{INK}"/>')
+    o.append(P(f'M {hx - 2},{hy - 10} Q {hx - 14},{hy - 20} {hx - 6},{hy - 30} Q {hx - 6},{hy - 20} {hx + 4},{hy - 12} Z', '#efe4c9', sty))   # horn
+    o.append(P(f'M {hx - 6},{hy - 6} Q {hx - 18},{hy - 8} {hx - 22},{hy - 2} Q {hx - 14},{hy - 2} {hx - 6},{hy - 1} Z', shade, sty))      # ear
+    o.append(f'<ellipse cx="{hx + 3}" cy="{hy - 3}" rx="2.4" ry="2.1" fill="#2a1f1a"/><circle cx="{hx + 3.8}" cy="{hy - 3.8}" r=".8" fill="#fff"/>')
+    yk = (34, -66)
+    if yoke:
+        o.append(limb([(yk[0] - 10, yk[1] - 2), (yk[0] + 10, yk[1] + 2)], 6, '#8a5a2b', sty))
+        o.append(limb([(yk[0] - 6, yk[1] + 2), (yk[0] - 4, yk[1] + 22)], 2.6, '#8a5a2b', sty))
+    pt = (x + yk[0] * s * flip, y + yk[1] * s)
+    return f'<g transform="translate({x},{y}) scale({s * flip},{s})">{"".join(o)}</g>', pt
+
+
+def cart(x, y, s, load='sacks', flip=1):
+    """A two-wheeled cart, side on, front to +x; wheel on the ground at (x, y). Returns (svg, shaft tip)."""
+    sty = S(s, 3.2)
+    rnd = random.Random(int(x))
+    o = []
+    # load first (behind the side boards)
+    if load == 'sacks':
+        for (cx_, cy_, r) in ((-34, -58, 13), (-12, -60, 14), (10, -58, 13), (-22, -72, 12), (2, -73, 12)):
+            o.append(P(f'M {cx_ - r},{cy_ + r * 0.7} Q {cx_ - r * 1.1},{cy_ - r * 0.6} {cx_ - r * 0.2},{cy_ - r} Q {cx_},{cy_ - r * 1.35} {cx_ + r * 0.25},{cy_ - r} '
+                       f'Q {cx_ + r * 1.1},{cy_ - r * 0.5} {cx_ + r},{cy_ + r * 0.7} Z', rnd.choice(['#d8c49a', '#e2d2ad', '#cdb688']), sty))
+    elif load == 'barrels':
+        for (cx_, cy_) in ((-30, -60), (-4, -60), (22, -60)):
+            o.append(P(f'M {cx_ - 11},{cy_ + 10} L {cx_ - 12},{cy_ - 14} Q {cx_},{cy_ - 18} {cx_ + 12},{cy_ - 14} L {cx_ + 11},{cy_ + 10} Z', '#a8743c', sty))
+            o.append(f'<path d="M {cx_ - 12},{cy_ - 6} L {cx_ + 12},{cy_ - 6} M {cx_ - 11.5},{cy_ + 4} L {cx_ + 11.5},{cy_ + 4}" stroke="{INK}" stroke-width="2"/>')
+        o.append(P('M -20,-82 L 8,-82 L 8,-74 L -20,-74 Z', '#e8c35a', sty))
+    elif load == 'parts':     # spare brass for the thinking machine
+        for (cx_, cy_, r) in ((-28, -62, 15), (6, -64, 12), (-8, -80, 9)):
+            pts = []
+            for i in range(24):
+                a = math.radians(i * 15)
+                rr = r if i % 2 else r * 0.8
+                pts.append((cx_ + rr * math.cos(a), cy_ + rr * math.sin(a)))
+            o.append(P('M ' + ' L '.join(f'{a:.1f},{b:.1f}' for a, b in pts) + ' Z', '#d4a63c', sty))
+            o.append(circ(cx_, cy_, r * 0.35, '#9a7428', sty))
+        o.append(P('M 16,-50 L 34,-50 L 34,-70 L 16,-70 Z', '#c9945a', sty))
+        o.append(circ(25, -78, 7, '#7ff7ea', sty))
+    elif load == 'flowers':
+        o.append(P('M -44,-48 Q -40,-74 -10,-78 Q 20,-80 30,-50 Z', '#e9d36a', sty))
+        for k in range(9):
+            fx, fy = -36 + k * 8 + rnd.uniform(-3, 3), -60 - rnd.uniform(0, 14)
+            o.append(circ(fx, fy, 4.6, rnd.choice(['#ffb3d1', '#ffffff', '#f0cf2e', '#c9d2e0']), dict(sty, stroke=sty['stroke'] * 0.6)))
+    elif load == 'hay':
+        o.append(P('M -48,-48 Q -46,-80 -10,-82 Q 26,-84 34,-48 Z', '#e9c66a', sty))
+        for k in range(7):
+            o.append(f'<path d="M {-40 + k * 11},{-52} q 3,-12 -2,-24" stroke="#c9a24a" stroke-width="2" fill="none"/>')
+    # bed and boards
+    o.append(P('M -52,-48 L 40,-48 L 40,-30 L -52,-30 Z', '#b07a3c', sty))
+    o.append(f'<path d="M -50,-39 L 38,-39" stroke="#8a5a2b" stroke-width="2.4"/>')
+    for k in range(5):
+        o.append(f'<path d="M {-44 + k * 20},-48 L {-44 + k * 20},-30" stroke="#8a5a2b" stroke-width="2"/>')
+    # shaft forward, to the yoke (it passes behind the ox)
+    tip = (184, -62)
+    o.append(limb([(36, -34), (90, -44), tip], 4.4, '#8a5a2b', sty))
+    # the wheel
+    wc, wr = (-6, -22), 22
+    o.append(circ(wc[0], wc[1], wr, '#8a5a2b', sty))
+    o.append(circ(wc[0], wc[1], wr - 5, 'none', dict(sty, stroke=sty['stroke'] * 0.8)))
+    for k in range(8):
+        a = math.radians(k * 45 + 10)
+        o.append(f'<path d="M {wc[0]},{wc[1]} L {wc[0] + (wr - 4) * math.cos(a):.1f},{wc[1] + (wr - 4) * math.sin(a):.1f}" stroke="#5a3a22" stroke-width="3"/>')
+    o.append(circ(wc[0], wc[1], 5, '#e8c35a', sty))
+    pt = (x + tip[0] * s * flip, y + tip[1] * s)
+    return f'<g transform="translate({x},{y}) scale({s * flip},{s})">{"".join(o)}</g>', pt
+
+
+def ox_cart(x, y, s, flip=1, load='sacks', coat='#a0683a'):
+    """An ox pulling a cart, the cart's wheel at (x, y), the ox ahead in direction flip."""
+    c, _tip = cart(x, y, s, load, flip)
+    o, _yk = ox(x + 150 * s * flip, y, s, coat, flip)
+    return c + o
+
+
+def chicken(x, y, s, colour='#f4efe6', flip=1, peck=False):
+    sty = S(s, 2.4)
+    o = [limb([(-2, -7), (-3, 0)], 1.8, '#e8a33a', dict(sty, stroke=sty['stroke'] * 0.5)),
+         limb([(3, -7), (4, 0)], 1.8, '#e8a33a', dict(sty, stroke=sty['stroke'] * 0.5))]
+    o.append(P('M -10,-13 Q -16,-24 -12,-26 Q -8,-20 -6,-16 Z', dark(colour, .15), sty))
+    o.append(P('M -11,-12 Q -11,-21 -1,-20 Q 9,-21 9,-12 Q 8,-5 0,-5 Q -10,-5 -11,-12 Z', colour, sty))
+    hx, hy = (11, -6) if peck else (7, -22)
+    o.append(limb([(4, -16), (hx - 1, hy + 3)], 6, colour, sty))
+    o.append(circ(hx, hy, 4.2, colour, sty))
+    o.append(P(f'M {hx - 2},{hy - 3.5} Q {hx - 1},{hy - 8} {hx + 1},{hy - 5} Q {hx + 2},{hy - 8} {hx + 3},{hy - 3.5} Z', '#e2432b', dict(sty, stroke=sty['stroke'] * 0.6)))
+    o.append(P(f'M {hx + 3.5},{hy - 1} L {hx + 8},{hy + (2 if peck else 0)} L {hx + 3.5},{hy + 1.5} Z', '#f0a830', dict(sty, stroke=sty['stroke'] * 0.6)))
+    o.append(f'<circle cx="{hx + 1.2}" cy="{hy - 1}" r="1" fill="{INK}"/>')
+    o.append(f'<path d="M -5,-14 Q 0,-10 5,-14" stroke="{dark(colour, .2)}" stroke-width="1.6" fill="none"/>')
+    return f'<g transform="translate({x},{y}) scale({s * flip},{s})">{"".join(o)}</g>'
+
+
+def duck(x, y, s, flip=1, drake=True):
+    """A duck afloat; the water line is at y."""
+    sty = S(s, 2.4)
+    body = '#8a7a66' if drake else '#a88e6a'
+    o = [P('M -13,-3 Q -15,-12 -4,-11 L 6,-11 Q 12,-11 12,-4 Q 10,0 0,0 L -9,0 Q -12,0 -13,-3 Z', body, sty)]
+    o.append(P('M -12,-8 L -18,-13 L -14,-6 Z', body, sty))
+    o.append(f'<path d="M -6,-8 Q 0,-5 6,-8" stroke="#f3ead2" stroke-width="2" fill="none"/>')
+    o.append(limb([(7, -10), (9, -16)], 5, '#2f7a3a' if drake else body, sty))
+    o.append(circ(10, -18, 4.4, '#2f7a3a' if drake else body, sty))
+    o.append(P('M 13,-18 L 19,-16 L 13,-15 Z', '#f0a830', dict(sty, stroke=sty['stroke'] * 0.6)))
+    o.append(f'<circle cx="11" cy="-19" r=".9" fill="{INK}"/>')
+    o.append(f'<path d="M -16,1 q 4,-2 8,0 M 6,1 q 4,-2 8,0" stroke="#e6f4ff" stroke-width="1.6" fill="none"/>')
+    return f'<g transform="translate({x},{y}) scale({s * flip},{s})">{"".join(o)}</g>'
+
+
+def sheep(x, y, s, flip=1, graze=False):
+    sty = S(s, 2.8)
+    face = '#3a3640'
+    o = []
+    for lx in (-11, 9):
+        o.append(limb([(lx, -14), (lx - 1, -2)], 2.8, '#26232b', sty))
+    pts = []
+    for i in range(14):
+        a = math.radians(i * 360 / 14)
+        pts.append((19 * math.cos(a), -21 + 11 * math.sin(a)))
+    d = f'M {pts[0][0]:.1f},{pts[0][1]:.1f} ' + ' '.join(
+        f'Q {((pts[i][0] + pts[(i + 1) % 14][0]) / 2) * 1.22:.1f},{-21 + ((pts[i][1] + pts[(i + 1) % 14][1]) / 2 + 21) * 1.3:.1f} {pts[(i + 1) % 14][0]:.1f},{pts[(i + 1) % 14][1]:.1f}'
+        for i in range(14)) + ' Z'
+    o.append(P(d, '#f6f2ea', sty))
+    for lx in (-14, 12):
+        o.append(limb([(lx, -12), (lx, -1)], 3, face, sty))
+    hx, hy = (22, -8) if graze else (21, -25)
+    o.append(P(f'M {hx - 6},{hy - 5} Q {hx + 2},{hy - 7} {hx + 8},{hy - 1} Q {hx + 6},{hy + 5} {hx - 2},{hy + 5} Q {hx - 8},{hy + 2} {hx - 6},{hy - 5} Z', face, sty))
+    o.append(P(f'M {hx - 5},{hy - 3} Q {hx - 12},{hy - 2} {hx - 13},{hy + 3} Q {hx - 8},{hy + 2} {hx - 4},{hy + 1} Z', face, sty))
+    o.append(f'<circle cx="{hx + 1}" cy="{hy - 2}" r="1.2" fill="#f2d16b"/>')
+    return f'<g transform="translate({x},{y}) scale({s * flip},{s})">{"".join(o)}</g>'
+
+
+def dog(x, y, s, coat='#c08a4a', flip=1, sniff=False):
+    sty = S(s, 2.8)
+    shade = dark(coat, .2)
+    o = []
+    for lx in (-12, 10):
+        o.append(limb([(lx, -14), (lx - 1, -2)], 4, shade, sty))
+    o.append(limb([(-17, -20), (-24, -30), (-22, -36)], 3.6, coat, sty))       # wagging tail
+    o.append(f'<path d="M -30,-30 q -3,-4 0,-8 M -27,-38 q -2,-4 1,-7" stroke="{INK}" stroke-width="1.6" fill="none"/>')
+    o.append(P('M -18,-18 Q -19,-28 -6,-27 L 8,-27 Q 18,-27 18,-18 Q 17,-11 8,-11 L -10,-11 Q -18,-11 -18,-18 Z', coat, sty))
+    for lx in (-15, 13):
+        o.append(limb([(lx, -13), (lx, -2)], 4.4, coat, sty))
+        o.append(f'<ellipse cx="{lx + 1}" cy="-1" rx="3.2" ry="1.8" fill="{coat}" stroke="{INK}" stroke-width="{sty["stroke"] * 0.6:.2f}"/>')
+    hx, hy = (24, -10) if sniff else (22, -32)
+    o.append(limb([(12, -24), (hx - 3, hy + 3)], 8, coat, sty))
+    o.append(P(f'M {hx - 6},{hy - 5} Q {hx + 2},{hy - 8} {hx + 6},{hy - 3} L {hx + 12},{hy - 1} Q {hx + 13},{hy + 4} {hx + 7},{hy + 4} Q {hx - 2},{hy + 6} {hx - 6},{hy + 2} Z', coat, sty))
+    o.append(f'<circle cx="{hx + 12}" cy="{hy}" r="1.8" fill="{INK}"/><circle cx="{hx + 2}" cy="{hy - 3}" r="1.2" fill="{INK}"/>')
+    o.append(P(f'M {hx - 3},{hy - 5} Q {hx - 9},{hy - 4} {hx - 8},{hy + 7} Q {hx - 4},{hy + 2} {hx},{hy - 2} Z', shade, sty))
+    return f'<g transform="translate({x},{y}) scale({s * flip},{s})">{"".join(o)}</g>'
+
+
+def pigeon(x, y, s, flip=1, peck=False):
+    sty = S(s, 2.2)
+    o = [limb([(-1, -5), (-1, 0)], 1.4, '#e2735a', dict(sty, stroke=sty['stroke'] * 0.5)),
+         limb([(3, -5), (3, 0)], 1.4, '#e2735a', dict(sty, stroke=sty['stroke'] * 0.5))]
+    o.append(P('M -12,-8 L -6,-10 L -4,-6 Z', '#6f7680', sty))
+    o.append(P('M -8,-8 Q -8,-15 0,-15 Q 7,-15 7,-9 Q 6,-4 0,-4 Q -7,-4 -8,-8 Z', '#9aa3ad', sty))
+    hx, hy = (9, -4) if peck else (6, -17)
+    o.append(circ(hx, hy, 3.2, '#8b939e', sty))
+    o.append(f'<path d="M {hx - 3},{hy + 3} Q {hx - 1},{hy + 6} {hx + 2},{hy + 3}" stroke="#4fa88a" stroke-width="2" fill="none"/>')
+    o.append(P(f'M {hx + 2.6},{hy - 0.6} L {hx + 6},{hy + 0.6} L {hx + 2.6},{hy + 1} Z', '#3a3640', dict(sty, stroke=0)))
+    o.append(f'<circle cx="{hx + 0.8}" cy="{hy - 0.8}" r=".8" fill="#e2735a"/>')
+    return f'<g transform="translate({x},{y}) scale({s * flip},{s})">{"".join(o)}</g>'
+
+
+def birds(spots, colour=None, s=1.0):
+    """Distant birds in flight: little ink 'm' strokes. spots: [(x, y, scale)]."""
+    c = colour or INK
+    o = ''
+    for (x, y, k) in spots:
+        k *= s
+        o += (f'<path d="M {x - 9 * k:.1f},{y:.1f} Q {x - 4.5 * k:.1f},{y - 6 * k:.1f} {x:.1f},{y:.1f} Q {x + 4.5 * k:.1f},{y - 6 * k:.1f} {x + 9 * k:.1f},{y:.1f}" '
+              f'stroke="{c}" stroke-width="{2.4 * max(k, .6):.1f}" fill="none" stroke-linecap="round" stroke-linejoin="round"/>')
+    return o
+
+
+def butterfly(x, y, s=1.0, c='#ffd34d', rot=0):
+    sty = S(s, 1.6)
+    o = (P('M 0,0 Q -10,-12 -12,-2 Q -10,4 0,0 Z', c, sty) + P('M 0,0 Q 10,-12 12,-2 Q 10,4 0,0 Z', c, sty)
+         + P('M 0,0 Q -8,8 -4,10 Q 0,8 0,0 Z', light(c, .3), sty) + P('M 0,0 Q 8,8 4,10 Q 0,8 0,0 Z', light(c, .3), sty)
+         + limb([(0, -4), (0, 6)], 1.8, INK, dict(sty, stroke=0)))
+    return f'<g transform="translate({x},{y}) rotate({rot}) scale({s})">{o}</g>'
+
+
+def leaping_fish(x, y, s=1.0, c='#f0a830', flip=1, rot=-30):
+    sty = S(s, 2.2)
+    o = (P('M -12,0 Q -2,-8 10,-2 Q 14,0 10,2 Q -2,8 -12,0 Z', c, sty)
+         + P('M -12,0 L -20,-6 L -18,0 L -20,6 Z', c, sty)
+         + f'<circle cx="6" cy="-1" r="1.2" fill="{INK}"/>')
+    return f'<g transform="translate({x},{y}) scale({s * flip},{s}) rotate({rot})">{o}</g>'
+
+
 # ---------------------------------------------------------------- scenery
 FARSIDE_UF = 0.18      # the arch's feet in the normalized band grid (worldgen/farside.py)
 

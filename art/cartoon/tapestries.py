@@ -641,6 +641,8 @@ def scene1():
         o.append(f'<path d="M {x},{y} q 8,-6 16,0 q 8,-6 16,0" stroke="#d8eeff" stroke-width="2.4" fill="none" stroke-linecap="round"/>')
     o.append(dragon(210, 556, 0.46, 'Blue', pose_fly(head_angle=-10, wings='up'), flip=1, rot=-28, expr='happy'))
     o.append(splash(168, 552, 0.62))
+    o.append(leaping_fish(70, 532, 0.8, '#f0a830', rot=-35))
+    o.append(leaping_fish(262, 524, 0.7, '#ff8a5a', flip=-1, rot=-30))
     o.append(swimmer(330, 540, 0.42, 'Blue', '#efe4cc', '#2b5fa8', flip=-1, pose='wave', look=-24))
     # rolling hills and Green's forest (right), blossoming
     o.append(P(wave(560, 14, 4, 1.1), '#7db558', bstyle(), bg=False))
@@ -675,6 +677,12 @@ def scene1():
                 continue
             spots.append((x + rnd.uniform(-8, 8), y + rnd.uniform(-4, 4)))
     o.append(crowd(spots, 6, cols7, 0.4, ['raise', 'pray', 'read', 'awe', 'raise', 'pray', 'stand']))
+    # animals: a white goat and a black goat grazing by the shore; sheep at the forest's edge; birds
+    o.append(goat(58, 676, 0.75, '#f4f1ea', graze=True))
+    o.append(goat(206, 664, 0.75, '#3a3640', flip=-1, graze=False))
+    for (x, y, gz, fl) in [(918, 680, True, 1), (962, 690, False, -1), (1000, 676, True, -1)]:
+        o.append(sheep(x, y, 0.62, flip=fl, graze=gz))
+    o.append(birds([(520, 176, 1.0), (548, 164, 0.8), (572, 180, 0.9), (760, 112, 0.8), (786, 102, 0.7)]))
     # the path and the pilgrims in front
     o.append(P('M 520,800 Q 560,750 575,740 L 625,740 Q 640,750 680,800 Z', '#e9d9b0', bstyle(2.4)))
     o.append(person(150, 790, 0.78, 'Green', 'hold', '#5c6b3a', '#7a4e2a', item='scroll', look=-20, tail_item='basket'))
@@ -864,6 +872,15 @@ def scene2():
     o.append(person(tx + 74, 714, 0.84, 'Silver', 'read', '#4b3a7a', '#f2d16b', flip=-1, item='tape'))
     o.append(person(tx + 140, 722, 0.8, 'Red', 'awe', '#8d98a6', '#2f4f8f', flip=-1, look=-12))
     o.append(person(tx + 200, 728, 0.8, 'Blue', 'point', '#efe4cc', '#2b5fa8', flip=-1, look=-30))
+    # an ox cart bringing spare brass for the machine, led by a Green (Plough and Cart)
+    o.append(ox_cart(470, 790, 0.75, load='parts', coat='#a0683a'))
+    gx_, gy_ = 690, 794
+    o.append(f'<path d="M {gx_ - 11},{gy_ - 41} Q {gx_ - 30},{gy_ - 26} {470 + 224 * 0.75},{790 - 38 * 0.75}" stroke="{INK}" stroke-width="2" fill="none"/>')
+    o.append(person(gx_, gy_, 0.9, 'Green', 'hold', '#5c6b3a', '#7a4e2a', look=-12, tail_item='scroll'))
+    # pigeons on the plaza and over the city
+    for (x, y, pk, fl) in [(372, 764, True, 1), (394, 776, False, -1), (612, 664, True, 1), (440, 780, True, -1)]:
+        o.append(pigeon(x, y, 0.9, flip=fl, peck=pk))
+    o.append(birds([(250, 470, 0.8), (276, 458, 0.7), (960, 450, 0.8)], colour='#4a4f5c'))
     # debaters and children at the front
     o.append(person(212, 792, 0.95, 'Blue', 'wave', '#e9dfc6', '#1f3f73', look=-6))
     o.append(person(296, 796, 0.95, 'Red', 'hold', '#55663a', '#7a4e2a', flip=-1, item='book'))
@@ -1108,6 +1125,12 @@ def scene3():
     o.append(person(1060, 768, 0.8, 'Black', 'read', '#5a3a22', '#7ff7ea', flip=-1, item='book'))
     back = [(x + rnd.uniform(-6, 6), 690 + rnd.uniform(-4, 6)) for x in range(110, 1100, 58) if not 500 < x < 640]
     o.append(crowd(back, 9, cols7, 0.46, ['raise', 'pray', 'stand', 'awe', 'hold']))
+    # animals: hens pecking in the square, a goat tethered by the stalls, doves round the hoop
+    o.append(chicken(424, 788, 0.85, '#f4efe6', peck=True))
+    o.append(chicken(456, 794, 0.85, '#c46b4a', flip=-1))
+    o.append(goat(852, 794, 0.7, '#f4f1ea', flip=-1, graze=False))
+    o.append(f'<path d="M 832,766 Q 818,780 806,790" stroke="{INK}" stroke-width="1.6" fill="none"/>')
+    o.append(birds([(520, 300, 0.9), (690, 286, 0.8), (664, 252, 0.7), (540, 250, 0.7)], colour='#ffffff'))
     # a White monk on the edge, quietly sketching the scene (the weavers' own)
     o.append(person(1150, 790, 0.86, 'White', 'read', '#eceff4', '#9fb7d4', flip=-1, item='scroll', robe=True, look=8))
     return ''.join(o)
@@ -1167,6 +1190,15 @@ def scene4():
     o.append(dragon(1062, 582, 0.62, 'Green', pose_sit(head_angle=22, wings='folded', wing_rot=-10, tail='curl'), flip=-1, expr='closed'))
     o.append(heart(1012, 470, 9))
     o.append(heart(1028, 452, 6))
+    # animals: a white goat and a black goat by the trees, ducks on the lake, a dog after the picnic
+    o.append(goat(40, 652, 0.7, '#f4f1ea', graze=True))
+    o.append(goat(306, 634, 0.7, '#3a3640', flip=-1, graze=False))
+    o.append(duck(1176, 624, 0.9, flip=-1))
+    o.append(duck(1146, 640, 0.9, flip=-1, drake=False))
+    o.append(duck(862, 632, 0.8))
+    o.append(butterfly(446, 742, 0.9, '#ffd34d', -10))
+    o.append(butterfly(792, 718, 0.8, '#bfe8ff', 14))
+    o.append(birds([(300, 92, 0.8), (326, 82, 0.7), (350, 96, 0.6)]))
     # dragonflies over the water
     o.append(dragonfly(868, 600, 0.9, -10))
     o.append(dragonfly(1150, 556, 0.8, 12))
@@ -1178,6 +1210,7 @@ def scene4():
         o.append(f'<path d="M {52 + k * 6},{706 + k * 10} L {206 + k * 10},{696 + k * 9}" stroke="#e2432b" stroke-width="5" opacity=".7"/>')
     o.append(f'<g transform="translate(110,700)">{tail_item_svg("basket", bstyle(2.2))}</g>')
     o.append(f'<g transform="translate(176,708)">{tail_item_svg("cup", bstyle(2.2))}</g>')
+    o.append(dog(64, 742, 0.85, '#c08a4a', sniff=True))      # nose in the picnic
     # the two young Unphased dragons, cruising about overhead
     o.append(motion_lines([(330, 300), (380, 270), (430, 250), (470, 244)], '#e6dcff', n=3, gap=10, width=4))
     o.append(dragon(540, 236, 0.62, None, pose_fly(head_angle=-8), flip=1, rot=-12, shimmer='all', seed=41, expr='happy'))
@@ -1259,6 +1292,11 @@ def scene5():
     right = [(1200 - x + rnd.uniform(-6, 6), y) for (x, y) in slots]
     o.append(crowd(left, 21, ['Yellow'], 0.42, ['raise', 'pray', 'awe'], outfits=['#7a3a2a', '#f2d16b', '#efe4cc', '#c46b4a']))
     o.append(crowd(right, 22, ['Grey'], 0.42, ['raise', 'pray', 'awe'], outfits=['#4a4f5c', '#c9d2e0', '#e9dfc6', '#6f7b8a']))
+    # animals: an ox cart of flowers arriving for the festival, goats grazing, birds flying home
+    o.append(ox_cart(1168, 642, 0.66, flip=-1, load='flowers', coat='#e9dcc4'))
+    o.append(goat(36, 616, 0.7, '#f4f1ea', graze=True))
+    o.append(goat(146, 602, 0.7, '#3a3640', flip=-1, graze=True))
+    o.append(birds([(330, 280, 0.8), (356, 268, 0.7), (380, 284, 0.6), (870, 250, 0.7)]))
     # everyone else, all nine colours, gathered at the foot of the hill
     front = [
         (110, 770, 'Brown', 'wave', '#7c6a4e', '#5b7a3a', 1, 'drum'),
