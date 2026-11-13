@@ -114,6 +114,16 @@ def leg(i, side=1):
     return o
 for i in (420, 470, 980, 1030):
     out.append(leg(i))
+# stubby little wings on the back, just behind the forelimbs (Troy, 2026-11-12: the map's Wing Spars)
+for i in (880, 930):
+    p, n = outer[i], -N[i]
+    k = w[i] / 150
+    base = p + n * 2
+    ang = math.degrees(math.atan2(n[1], n[0])) + 90 - 48 + (i - 905) * 0.25   # swept back toward the tail
+    wing = 'M 0,0 Q -14,-46 -40,-70 Q -26,-60 -18,-58 Q -22,-80 -10,-96 Q 0,-70 6,-62 Q 16,-84 34,-92 Q 30,-50 30,-2 Z'
+    out.append(f'<g transform="translate({base[0]:.1f},{base[1]:.1f}) rotate({ang:.1f}) scale({1.25 * k:.3f})">'
+               f'{P(wing, "#5b5fb0" if i == 930 else "#4a4e9c", dict(st, stroke=3.4 / (1.25 * k)))}'
+               f'<path d="M 0,0 L -18,-58 M 2,0 L 6,-62 M 4,0 L 30,-60" stroke="{LAPIS_D}" stroke-width="{3 / (1.25 * k):.2f}"/></g>')
 # body
 body = np.vstack([outer, inner[::-1]])
 out.append(P(dpath(body), LAPIS, dict(st, stroke=0)))

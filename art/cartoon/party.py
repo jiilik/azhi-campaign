@@ -193,7 +193,17 @@ def head_svg(drag, st, skin, belly, horn):
         o += f'<path d="M -1,-9.5 Q 6,-11.8 12,-8.3" stroke="{dark(skin,.5)}" stroke-width="1.7" fill="none" stroke-linecap="round"/>'
     return o
 
-def figure(x, y, s, drag, role, outfit, accent, st, flip=1, look_back=False):
+def figure(x, y, s, drag, role, outfit, accent, st, flip=1, look_back=False, tail_item='auto', wings=None, wing_scale=1.15):
+    """An adventurer. Form details (Troy, 2026-11-12; see forms.py and art/STYLE.md): Red a touch
+    larger, Blue a touch smaller; Green's prehensile tail holds an everyday thing (tail_item, never a
+    weapon or shield); Blue and Indigo hands and feet are webbed; wings='spectral' for a White
+    showing its Spectral Wings. The geometric style keeps its plain shapes."""
+    import forms
+    geo = st['geo']
+    if not geo:
+        s = s * forms.SIZE_K.get(drag, 1.0)
+    detail = not geo and s >= 0.68
+    webbed = drag in forms.WEBBED
     skin, belly = DRAGONS[drag]
     skin, belly = col(skin, st), col(belly, st)
     horn = col(HORN.get(drag, '#efe4c9'), st)
@@ -203,7 +213,8 @@ def figure(x, y, s, drag, role, outfit, accent, st, flip=1, look_back=False):
     sw = 15*T + 2; hw = 11*T + 1
     far = dark(skin, .18)
     o = [f'<ellipse cx="0" cy="0" rx="{30*max(T,0.8)}" ry="5" fill="#000" opacity=".22"/>']
-    geo = st['geo']
+    if wings == 'spectral' and not geo:
+        o.append(forms.spectral_wings((-8, sy + 6), s=wing_scale, spread=1.0, seed=int(x + y)))
     # cape / quiver
     if role in ('rogue', 'ranger'):
         cape = accent if role == 'rogue' else dark(outfit, .1)
@@ -214,10 +225,15 @@ def figure(x, y, s, drag, role, outfit, accent, st, flip=1, look_back=False):
         o.append(limb([(-6, sy-6), (-15, hipY+4)], 7, col('#6b4423', st), st))
         for k in range(3):
             o.append(f'<path d="M {-6+k*2.5},{sy-6} l -3,-6 l 4,1 Z" fill="{col("#e9e2cf", st)}"/>')
-    # tail
-    d = (f'M -4,{hipY-2} L -62,{-4} L -2,{hipY+12} Z' if geo else
-         f'M -4,{hipY-2} C -20,{hipY+2} -36,-20 -62,-4 C -36,-12 -20,{hipY+16} -2,{hipY+12} Z')
-    o.append(P(d, far, st))
+    # tail (Green's is prehensile: up and over, holding something)
+    if drag == 'Green' and not geo:
+        if tail_item == 'auto':
+            tail_item = random.Random(int(x * 7 + y * 13)).choice(forms.TAIL_ITEMS[:6])
+        o.append(forms._green_tail(hipY, sy, far, skin, st, tail_item))
+    else:
+        d = (f'M -4,{hipY-2} L -62,{-4} L -2,{hipY+12} Z' if geo else
+             f'M -4,{hipY-2} C -20,{hipY+2} -36,-20 -62,-4 C -36,-12 -20,{hipY+16} -2,{hipY+12} Z')
+        o.append(P(d, far, st))
     # back arm + back leg
     pose = {
         'fighter': ((22, sy-4), (-12, sy+16)),
@@ -228,13 +244,19 @@ def figure(x, y, s, drag, role, outfit, accent, st, flip=1, look_back=False):
     }[role]
     fh, bh = pose
     fs, bs = (6, sy+5), (-6, sy+5)
+    def elbow(sh, h):
+        return ((sh[0]+h[0])/2 - 2, (sh[1]+h[1])/2 + 6)
     def arm(sh, h, c):
-        el = ((sh[0]+h[0])/2 - 2, (sh[1]+h[1])/2 + 6)
+        el = elbow(sh, h)
         return limb([sh, h] if geo else [sh, el, h], 2.8 if geo else 7, c, st)
+    def hand(sh, h, c):
+        if geo:
+            return circ(h[0], h[1], 2.2, c, st)
+        return forms._hand(h, elbow(sh, h), c, webbed, st, detail)
     if role == 'rogue': o.append(dagger(bh, (-0.6, 1), st))
     if role == 'cleric': o.append(mace(bh, st))
     o.append(arm(bs, bh, far))
-    o.append(circ(bh[0], bh[1], 2.2 if geo else 3.8, far, st))
+    o.append(hand(bs, bh, far))
     lw = 2.8 if geo else 9
     if geo:
         o.append(limb([(-4, hipY), (-11, -2)], lw, far, st))
@@ -242,9 +264,9 @@ def figure(x, y, s, drag, role, outfit, accent, st, flip=1, look_back=False):
         o.append(P('M -15,0 L -7,-4 L -5,0 Z', far, st)); o.append(P('M 5,0 L 11,-4 L 15,0 Z', skin, st))
     else:
         o.append(limb([(-5, hipY+4), (1, hipY*0.5), (-8, -7*L), (-2, -1)], lw, far, st))
-        o.append(P('M -9,0 Q -6,-6 4,-3 L 6,0 Z', far, st))
+        o.append(forms._foot(0, far, webbed, st, detail))
         o.append(limb([(5, hipY+4), (12, hipY*0.5), (5, -7*L), (9, -1)], lw, skin, st))
-        o.append(P('M 4,0 Q 7,-6 17,-3 L 19,0 Z', skin, st))
+        o.append(forms._foot(13, skin, webbed, st, detail))
     # robe
     if role in ('wizard', 'cleric'):
         bottom = -3 if role == 'wizard' else hipY*0.35
@@ -269,6 +291,11 @@ def figure(x, y, s, drag, role, outfit, accent, st, flip=1, look_back=False):
         o.append(f'<circle cx="2" cy="{sy+10}" r="4.5" fill="none" stroke="{col(BRASS, st)}" stroke-width="2"/>')
     if not geo:
         o.append(f'<rect x="{-hw-1}" y="{hipY-3}" width="{2*hw+2}" height="4" fill="{col(LEATHER, st)}"/>')
+    if detail:   # costume details: collar, buckle and a belt pouch
+        if role != 'fighter':
+            o.append(f'<path d="M {-sw+5},{sy-2} L 0,{sy+7} L {sw-5},{sy-2}" stroke="{mix(outfit, "#ffffff", .45)}" stroke-width="2.2" fill="none"/>')
+        o.append(f'<rect x="-3" y="{hipY-4}" width="6" height="6" rx="1" fill="#e8c35a" stroke="{st["line"]}" stroke-width="1"/>')
+        o.append(P(f'M {-hw+1},{hipY-1} L {-hw+8},{hipY-1} L {-hw+8},{hipY+7} Q {-hw+4.5},{hipY+10} {-hw+1},{hipY+7} Z', col(LEATHER, st), dict(st, stroke=st['stroke']*0.6)))
     # neck + head
     hc = (10, sy - 9 - 10*Hs)
     if geo:
@@ -287,7 +314,7 @@ def figure(x, y, s, drag, role, outfit, accent, st, flip=1, look_back=False):
     if role == 'cleric': o.append(holy(fh, st))
     if role == 'rogue': o.append(dagger(fh, (1, -0.25), st))
     o.append(arm(fs, fh, skin))
-    o.append(circ(fh[0], fh[1], 2.2 if geo else 3.8, skin, st))
+    o.append(hand(fs, fh, skin))
     if role == 'ranger': o.append(bow(fh, bh, st))
     g = ''.join(o)
     return f'<g transform="translate({x},{y}) scale({s*flip},{s})">{g}</g>'
@@ -415,7 +442,7 @@ PARTY_A = [  # crossing the Spine Range under the wandering Gold
     (300, 'Blue', 'cleric', '#efe4cc', '#2b5fa8', 1, False, 0.96),
     (480, 'Silver', 'wizard', '#4b3a7a', '#f2d16b', 1, True, 1.0),
     (690, 'Red', 'fighter', '#8d98a6', '#2f4f8f', 1, False, 1.06),
-    (900, 'Green', 'rogue', '#5a3e2b', '#3d2f4f', 1, False, 0.98),
+    (935, 'Green', 'rogue', '#5a3e2b', '#3d2f4f', 1, False, 0.98),
 ]
 PARTY_B = [  # on the shore of the Inner Sea beneath the Lower Jaw
     (290, 'White', 'fighter', '#6f7b8a', '#9b2d2d', 1, False, 1.04),
@@ -462,7 +489,11 @@ def scene_sea(st):
     for _ in range(70):
         x, y = rnd.uniform(0, 1200), rnd.uniform(0, 330)
         b += f'<circle cx="{x:.0f}" cy="{y:.0f}" r="{rnd.uniform(.6, 1.8):.1f}" fill="#fff" opacity="{rnd.uniform(.4, .9):.2f}"/>'
-    b += ring_arch('M -160,640 Q 600,-420 1360,640', 64, st, op=.9)
+    if st['geo']:
+        b += ring_arch('M -160,640 Q 600,-420 1360,640', 64, st, op=.9)
+    else:   # the real far side, as in the tapestries (seen from the shore beneath the Lower Jaw)
+        import tapestry_lib
+        b += tapestry_lib.farside_ribbon((-160, 640), (600, -420), (1360, 640), 64, view=10, night=True, op=.95, sty=st)
     b += sky_dragon(880, 210, 0.95, '#e6edf8', '#bcd2ff', st, flip=-1)
     # sea
     if st['geo']:

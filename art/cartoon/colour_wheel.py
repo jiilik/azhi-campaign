@@ -39,6 +39,10 @@ WHEEL = [  # (form, label, sub, role, outfit, accent)
     ('White',  'White',  'ice',            'cleric',  '#6f7b8a', '#9b2d2d'),
 ]
 STEP = 360 / len(WHEEL)
+# Form details (Troy, 2026-11-12; art/STYLE.md): Red a touch larger and Blue a touch smaller (in
+# party.figure), webbed Blue and Indigo, Green's tail holding a flower, White's Spectral Wings.
+FORM_TAIL = {'Green': 'flower'}
+FORM_WINGS = {'White': 'spectral'}
 
 def pt(r, a_deg):
     a = math.radians(a_deg - 90)
@@ -120,7 +124,8 @@ def build():
         s = 1.12
         flip = -1 if 0 < a < 180 else 1
         feet = y + 52
-        figs.append(figure(x, feet, s, form, role, outfit, accent, st, flip=flip))
+        figs.append(figure(x, feet, s, form, role, outfit, accent, st, flip=flip,
+                           tail_item=FORM_TAIL.get(form, 'auto'), wings=FORM_WINGS.get(form)))
         labs.append(label(x, feet + 10, name, sub, big=(form in PRIMARY)))
     o += figs + labs
     # the Unphased, centre

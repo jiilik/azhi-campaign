@@ -151,7 +151,9 @@ def build(printable=False):
         x, y = pt(cw.R_FIG, a)
         flip = -1 if 0 < a < 180 else 1
         feet = y + 52
-        figs.append(figure(x, feet, 1.12, form, role, outfit, accent, st, flip=flip))
+        figs.append(figure(x, feet, 1.12, form, role, outfit, accent, st, flip=flip,
+                           tail_item=cw.FORM_TAIL.get(form, 'auto'), wings=cw.FORM_WINGS.get(form),
+                           wing_scale=0.68))   # small enough to stay inside ring 1
         labs.append(cw.label(x, feet + 10, name, sub, big=(form in cw.PRIMARY)))
     o += figs + labs
     o.append(cw.unphased(CX, CY + 95, 1.75))

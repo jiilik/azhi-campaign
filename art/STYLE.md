@@ -25,7 +25,7 @@ The author chose this style on 2026-10-20. Use it for every cartoon unless he sp
 
 ## Dragonborn by form *(Troy, 2026-11-12)*
 
-- **Red** is drawn a touch **larger** than its neighbours and **Blue** a touch **smaller** (Large and Small forms). In code, `tapestry_lib.SIZE_K`.
+- **Red** is drawn a touch **larger** than its neighbours and **Blue** a touch **smaller** (Large and Small forms). In code, all of these live in `cartoon/forms.py`, used by both `party.figure()` and `tapestry_lib.person()`.
 - **Green: Prehensile Tail.** The tail curls up behind the figure and holds an everyday thing like a third hand: a flower, a cup, a lantern, a basket, a quill, a parasol, a censer. **Never a weapon or a shield.** *(Claude: a leafy frill along the tail and a gold cuff near the tip are the embellishment.)*
 - **Blue and Indigo** (Amphibious, Deep-Born): **webbed fingers and toes** wherever the figure is big enough to show fingers and toes.
 - **White: Spectral Wings,** wings of shimmering light (translucent white to pale blue and lilac, white ribs, shed sparkles), shown in flight.

@@ -92,7 +92,7 @@ def band_grid(theta_deg, phi_deg=120):
 
 if __name__ == '__main__':
     os.makedirs(OUT, exist_ok=True)
-    thetas = [int(a) for a in sys.argv[1:]] or [110, 20, 250, 60]   # Epochs 2, 3, 4, 5
+    thetas = [int(a) for a in sys.argv[1:]] or [110, 20, 250, 60, 10]   # Epochs 2-5; the Inner Sea handout scene
     for td in thetas:
         Eg, Cg = band_grid(td)
         np.savez_compressed(os.path.join(OUT, f'farside_t{td}.npz'), E=Eg.astype(np.float16), C=Cg.astype(np.float16))

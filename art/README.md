@@ -12,16 +12,17 @@ Each script `chdir`s to its own folder and writes to `build/` (SVG, git-ignored)
 
 | Script | Output |
 |---|---|
-| `party.py` | The library: dragonborn figures, weapons, sky dragons, scenes, and four style presets. Run directly → `build/sheet_<style>.svg`. |
-| `render_style_sheets.py [styles…]` | `output/dragonborn_<style>.png`: the four-style comparison sheets (bold, chibi, storybook, geo) |
-| `make_scenes.py` | `output/dragonborn_spine.png`, `output/dragonborn_innersea.png`: the handout scenes in Bold |
-| `colour_wheel.py` | `output/colour_wheel.png`: the nine-form colour wheel of the species design (canon, 2026-10-24) (five colours, five hybrids, the Unphased, Gold and Silver watching). Hybrid colours are working values. |
+| `party.py` | The library: dragonborn figures, weapons, sky dragons, scenes, and four style presets. Run directly → `build/sheet_<style>.svg`. `figure()` draws the form details from `forms.py` (2026-11-12). |
+| `forms.py` | Dragonborn form details shared by `party.figure()` and the tapestries' `person()` (Troy, 2026-11-12): Red a touch larger, Blue a touch smaller, Green's prehensile tail holding an everyday thing, webbed Blue and Indigo hands and feet, the White form's Spectral Wings. |
+| `render_style_sheets.py [styles…]` | `output/dragonborn_<style>.png`: the four-style comparison sheets (bold, chibi, storybook, geo). A historical record of the style choice (2026-10): not re-rendered with the form details. |
+| `make_scenes.py` | `output/dragonborn_spine.png`, `output/dragonborn_innersea.png`: the handout scenes in Bold, with the form details; the Inner Sea arch shows the real far side (`data/farside_t10.npz`) (2026-11-12). |
+| `colour_wheel.py` | `output/colour_wheel.png`: the nine-form colour wheel of the species design (canon, 2026-10-24) (five colours, five hybrids, the Unphased, Gold and Silver watching). Hybrid colours are working values. Form details since 2026-11-12: the Green holds a flower in its tail, the White shows its Spectral Wings. |
 | `species_advancement.py` | `output/species_advancement.png`: the species advancement wheel: the colour wheel (no Gold or Silver) with six rings of advancement on each of the nine spokes, 54 arcs with curved text. Fill arcs in its `ARCS` table; `--print` also writes a white-page vector PDF for `canon/diagrams/print_wheels.py` (PROPOSED, 2026-11-11). |
 | `lore_panels.py` | `output/lore_1_bones.png` … `lore_5_campfire.png` and the sheet `output/lore_panels.png`: dragonborn adventurers visiting Azhi's history: the bones of Azhi (myth), the machine war, the age of faith, the twins' nest, and a campfire tale of the homunculi war (epochs PROPOSED, `canon/brainstorm-epochs.md`) (2026-11-11). |
 | `tapestries.md` | Plan for the six Tapestry Hall panels, Epochs 0–5 (a player-facing history in a White monastery), replacing the lore panels; all six decided, with render notes (2026-11-12). |
 | `tapestries.py [n…]` | `output/tapestry_0.png` … `tapestry_5.png`. With no arguments it also writes the hall sheet `output/tapestry_hall.png` and the Epoch 3 faith icons `output/icon_black_church.png`, `icon_cult_of_the_ring.png`, `icon_machine_revivalists.png` and the sheet `icons_epoch3.png` (2026-11-12). |
 | `tapestry_lib.py` | The tapestry toolkit: posable dragons (spine curve, wings, legs, expressions), dragonborn poses and props (form details: sizes, Green tails, webbing, Spectral Wings in flight), the Unphased shimmer, the ring arch drawn from the real map (`data/farside_t<θ>.npz`, made by `worldgen/farside.py`), banners, and the woven frame (border, rod, caption, fringe). |
-| `azhi_cover.py` | `output/azhi_cover.png`: Azhi looming over the young world (handout cover) |
+| `azhi_cover.py` | `output/azhi_cover.png`: Azhi looming over the young world (handout cover), with its stubby wings (2026-11-12) |
 | `svg2png.py in.svg out.png W H` | A generic SVG → PNG rasterizer used by the others |
 
 ## Drawing a dragonborn
