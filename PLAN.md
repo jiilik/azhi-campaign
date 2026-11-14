@@ -114,6 +114,8 @@ The goal is a setting-specific derivative of the D&D 5e SRD for the ring-world A
 - [ ] Art pass (Saturday-Morning Bold): seven dragon portraits, a lineup of the seven dragonborn colours, lair scenes, gazetteer spot art
   - [x] Tapestry Hall: six tapestries of the epochs (0–5) with the hall sheet and faith icons (`art/tapestries.md`, 2026-11-12)
   - [x] Stale art refreshed to the dragonborn form rules: colour wheel, species wheel, adventuring scenes, Azhi cover (2026-11-12)
+  - [x] Starting spellbook pages for the Mage Kit, one scroll each (`art/spellbooks/`, 2026-11-13)
+  - [ ] Re-render the spellbook pages once the SRD spell text is adapted to our progression and classes (no class lists, no spell-slot upcasting)
 - [ ] Export (Claude Doc → PDF or Word) and do a print test
 
 ## Backlog / Ideas *(proposed, unscheduled)*

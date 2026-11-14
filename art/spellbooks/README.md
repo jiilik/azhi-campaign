@@ -13,3 +13,5 @@ Each book is a distinct item with a set list of six spells (spells are found, no
 - **Fonts** (`fonts/`, all SIL Open Font License 1.1, from @fontsource): UnifrakturMaguntia, IM Fell English, Cinzel, Cinzel Decorative, Cormorant Garamond, Shippori Mincho, Zen Old Mincho, Marcellus.
 - **Figures** come from `art/cartoon/tapestry_lib.py`, so the dragonborn follow the form rules in `art/STYLE.md`: two heralds (Red and White) sounding horns; a Black summoner calling a cat familiar; a Yellow alchemist at the alembic.
 - The fragments of other text at the rolled edges are invented filler, not canon.
+
+**To do** *(Troy, 2026-11-13)*: the text is the unmodified SRD for now (class lists, spell-slot upcasting). When the SRD spell text is updated for our progression and classes, re-run `render.py`; the change list lives in `canon/proposed-spell-changes.md`.

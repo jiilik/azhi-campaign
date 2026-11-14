@@ -7,6 +7,8 @@
 - *(follows from Troy)* marks Claude's reading of what one of Troy's decisions requires. Troy confirms these.
 - *(Claude)* marks Claude's own idea.
 
+> **Downstream: the starting spellbook pages** *(Troy, 2026-11-13)*: `art/spellbooks/` prints the full SRD text of 18 spells (Magic Missile, Shield, Mage Armor, Burning Hands, Thunderwave, Chromatic Orb; Find Familiar, Unseen Servant, Silent Image, Fog Cloud, Color Spray, Floating Disk; Detect Magic, Identify, Illusory Script, False Life, Sleep, Grease), still with the SRD class lists and "Using a Higher-Level Spell Slot" notes. **Whenever the spell text changes to fit the progression and class rebuild (or this list is applied), re-run `python3 art/spellbooks/render.py`.** It reads `srd/07-spells` directly, so the pages pick up the new text. (Find Familiar also names Celestial, Fey and Fiend.)
+
 **Background:** `canon/audit-planes.md` (§§1–6), the planes notes in `canon/brainstorm-epochs.md`, and `canon/brainstorm-phasing.md`.
 
 **Planes today** *(Troy, 2026-11-01)*:
