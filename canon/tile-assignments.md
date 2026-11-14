@@ -39,8 +39,8 @@ Parts are named as in `canon/parts-bin.md`; the source and level are there and i
 |  |  | **Wild Companion** (Find Familiar from Wild Shape uses) | SRD Druid 2 | |
 | **318** | Hexer | **Beguiling Magic** | PHB College of Glamour 3, from memory | (Said "316" at first; 316 is Wizard.) |
 | **403** | Cunning II | **Trickery Domain spells**, part | PHB, from memory | |
-| **407** | Precision II | **Improved Combat Superiority** | PHB Battle Master 10, from memory | |
 | **405** | Mobility | **Fast Movement** (+10 Speed), tentative | SRD Barbarian 5 | Check against the speed already given: 405 has none on the tile itself; the Scout Kit gives +5 feet. Greater Sidestep is here (2026-11-14). |
+| **407** | Precision II | **Improved Combat Superiority** | PHB Battle Master 10, from memory | |
 | **415** | Vitality II | **Improved Warding Flare** | PHB Light Domain 6, from memory | |
 | **418** | **Transient** *(named 2026-11-14)* | **A Bonus Action teleport**, like *Misty Step* | SRD spell, level 2 | Probably free; cost to settle later. Keeps its Wis +1. |
 | **419** | Lore II | **Magical Secrets** | SRD Bard 10 | Also on Lore III. |
