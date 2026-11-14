@@ -119,7 +119,7 @@ def classes_and_feats():
             _, rs, i = rows(lines, i)
             for r in rs:
                 part, feat, used, pts = (r + [''] * 4)[:4]
-                names = re.findall(r"([A-Z][A-Za-z' -]+?) \(([SP](?:, [SP])?)(?:, epic)?\)", feat)
+                names = re.findall(r"([A-Z][A-Za-z' -]+?) \(([SP](?:, [SP])?)(?:, epic|, style)?\)", feat)
                 metas = []
                 for (nm, s) in names:
                     nm = nm.strip().split('. ')[-1].strip('"')
