@@ -80,7 +80,7 @@ These overturn parts of the brainstorm below.
        |---|---|---|
        | **The Junior Wizard's Primer** | Straight on (Wizard) | Magic Missile, Shield, Mage Armor, Burning Hands, Thunderwave, Chromatic Orb |
        | **Selected Summons for Novices** | Right, through Control (Summoner, Hexer) | Find Familiar, Unseen Servant, Silent Image, Fog Cloud, Color Spray, Floating Disk. **No damage on purpose**: Troy likes a zero-damage wizard down the Control and Summoner side. *(Troy, 2026-11-13; was Classical Control for Beginners: Charm Person, Sleep, Silent Image, Disguise Self, Grease, Fog Cloud.)* |
-       | *Lore book (name to come)* | Left, through Lore (Sage, Alchemist) | Detect Magic, Identify, Alarm, Unseen Servant, **Illusory Script** (writing in code and secrets, the alchemists' way), **False Life** (Troy, 2026-11-13; replaced Comprehend Languages and filled the open sixth). |
+       | **Practical Alchemy** | Left, through Lore (Sage, Alchemist) | Detect Magic, Identify, **Illusory Script** (writing in code and secrets, the alchemists' way), False Life, Sleep, Grease, Fog Cloud. *(Troy, 2026-11-13: named; Unseen Servant and Alarm dropped; Sleep, Grease and Fog Cloud added. **That's seven: one too many, to settle.**)* |
 
      - **Any spell the Mage encounters** in the game can be copied into the book.
    - **Which tiles teach spells** *(Troy, voice, 2026-11-13)*:
