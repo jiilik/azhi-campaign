@@ -16,9 +16,11 @@ import party
 from party import figure, light, dark
 
 st, INK = cw.st, cw.INK
-# Ring 1 is the base form (the colour wheel itself); rings 2-6 go outward
-# (Troy, 2026-11-11). 9 x 5 = 45 arcs beyond the base.
-FIRST, LAST = 2, 6
+# Ring 0 is the base form (the colour wheel itself), which everyone starts
+# with; rings 1-6 go outward, and the first advance buys ring 1 with its Hit
+# Die and pools (Troy, 2026-11-13; was ring 1 = base, rings 2-6).
+# 9 x 6 = 54 arcs beyond the base.
+FIRST, LAST = 1, 6
 RINGS = LAST - FIRST + 1
 R0 = cw.R_OUT + 14          # the colour wheel's outer edge (its thin outer circle)
 RW = 138                     # width of each advancement ring (three text lines)
@@ -42,8 +44,8 @@ STAT_UP = {"Red": "Str +1 or Wis +1", "Brown": "Con +1 or Str +1", "Yellow": "In
 ARCS = {}
 # A text heart (not the emoji), so it turns with the curved text.
 HEART = '<tspan fill="#d0312d" font-weight="bold">\u2665</tspan>'
-# Hit Die per colour on rings 2-6, none on ring 1 (Troy, voice, 2026-11-11).
-# Pools per arc on rings 2-6 (Troy, voice, 2026-11-11): about three
+# Hit Die per colour on rings 1-6, none on ring 0 (Troy, voice, 2026-11-11; renumbered 2026-11-13).
+# Pools per arc on rings 1-6 (Troy, voice, 2026-11-11): about three
 # quarters of a matching grid tile, so a pure caster still prefers the grid.
 STAR = '<tspan fill="#c99a06" font-weight="bold">\u2605</tspan>'   # stamina
 MANA = '<tspan fill="#5b3fb5" font-weight="bold">\u25c6</tspan>'   # mana
@@ -153,7 +155,7 @@ def build(printable=False):
         feet = y + 52
         figs.append(figure(x, feet, 1.12, form, role, outfit, accent, st, flip=flip,
                            tail_item=cw.FORM_TAIL.get(form, 'auto'), wings=cw.FORM_WINGS.get(form),
-                           wing_scale=0.68))   # small enough to stay inside ring 1
+                           wing_scale=0.68))   # small enough to stay inside ring 0
         labs.append(cw.label(x, feet + 10, name, sub, big=(form in cw.PRIMARY)))
     o += figs + labs
     o.append(cw.unphased(CX, CY + 95, 1.75))
@@ -164,9 +166,9 @@ def build(printable=False):
         p, q = pt(R0, a), pt(R_MAX, a)
         o.append(f'<line x1="{p[0]:.1f}" y1="{p[1]:.1f}" x2="{q[0]:.1f}" y2="{q[1]:.1f}" stroke="{INK}" stroke-width="6" stroke-linecap="round"/>')
     o.append(f'<circle cx="{CX}" cy="{CY}" r="{R_MAX}" fill="none" stroke="{INK}" stroke-width="6"/>')
-    # Ring numbers on the White-Red boundary: 1 is the base form.
+    # Ring numbers on the White-Red boundary: 0 is the base form.
     a = -STEP / 2
-    for k, r in [(1, (cw.R_IN + cw.R_OUT) / 2)] + [(k, R0 + (j + 0.5) * RW) for j, k in enumerate(range(FIRST, LAST + 1))]:
+    for k, r in [(0, (cw.R_IN + cw.R_OUT) / 2)] + [(k, R0 + (j + 0.5) * RW) for j, k in enumerate(range(FIRST, LAST + 1))]:
         x, y = pt(r, a)
         o.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="22" fill="#fbf4e3" stroke="{INK}" stroke-width="4"/>'
                  f'<text x="{x:.1f}" y="{y + 9:.1f}" text-anchor="middle" font-family="DejaVu Sans" '
@@ -174,12 +176,12 @@ def build(printable=False):
     # Legend
     o.append(f'<text x="{W/2}" y="{H - 40}" text-anchor="middle" font-family="DejaVu Sans" font-size="30" fill="{ink}">'
              f'<tspan fill="{sym[0]}">\u2665</tspan> Hit Die\u00a0\u00a0\u00a0\u00a0 <tspan fill="{sym[1]}">\u25c6</tspan> mana\u00a0\u00a0\u00a0\u00a0 '
-             f'<tspan fill="{sym[2]}">\u2605</tspan> stamina\u00a0\u00a0\u00a0\u00a0 (each arc, rings 2 to 6)</text>')
+             f'<tspan fill="{sym[2]}">\u2605</tspan> stamina\u00a0\u00a0\u00a0\u00a0 (each arc, rings 1 to 6)</text>')
     # Title
     o.append(f'<text x="{W/2}" y="80" text-anchor="middle" font-family="DejaVu Serif" font-weight="bold" '
              f'font-size="56" fill="{ink}">Species Advancement</text>')
     o.append(f'<text x="{W/2}" y="120" text-anchor="middle" font-family="DejaVu Serif" font-style="italic" '
-             f'font-size="24" fill="{ink2}">The colour wheel, base form (ring 1) and rings 2 to 6 on each spoke (draft, 2026-11-11; PROPOSED)</text>')
+             f'font-size="24" fill="{ink2}">The colour wheel, base form (ring 0) and rings 1 to 6 on each spoke (draft, 2026-11-13; PROPOSED)</text>')
     o.append('</svg>')
     return ''.join(o)
 
