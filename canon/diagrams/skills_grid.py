@@ -340,6 +340,15 @@ for num, label in ABILITY_UP.items():
     l1, l2, l3 = TILES[h]
     assert not l2, num
     TILES[h] = (l1, label, l3)
+# Expertise (Troy, voice, 2026-11-13): only in skills you're proficient in.
+# Four on the Cunning line (two on 202, one each on 403 and 604) and one
+# Knowledge Expertise on Lore (210): Arcana, History, Investigation,
+# Medicine, Nature or Religion.
+# Drawn as a small badge at the top of the tile; Lore's empty middle line
+# says "Know. Exp.".
+EXPERTISE = {"202": "Exp. ×2", "403": "Exp.", "604": "Exp.", "210": "Exp."}
+h = BY_NUMBER["210"]
+TILES[h] = (TILES[h][0], "Know. Exp.", TILES[h][2])
 NOPOOL = sorted((NUMBERS[h] for h in NUMBERS if h != (0, 0) and "{S}" not in
                  (TILES.get(h, ("", "", LINE3.get(h, "")))[2]) and "{M}" not in
                  (TILES.get(h, ("", "", LINE3.get(h, "")))[2])), key=int)
@@ -406,6 +415,10 @@ for q in range(-RINGS, RINGS + 1):
                                     orientation=math.pi / 6,
                                     facecolor=face, edgecolor=edge, lw=lw))
         busy = (q, r) in TILES or (q, r) in THEMES
+        badge = EXPERTISE.get(NUMBERS[(q, r)])
+        if badge and NUMBERS[(q, r)] != "210":
+            ax.text(x, y + 0.66, badge, ha="center", va="center", fontsize=5.2, weight="bold",
+                    color="#6a3fa0", zorder=3)
         if busy:  # small number at the foot of a filled tile
             ax.text(x, y - 0.68, NUMBERS[(q, r)], ha="center", va="center",
                     fontsize=5.6, weight="bold", color="#555555" if PRINT else "#8a8a8a", zorder=3)
@@ -456,7 +469,7 @@ for i, ab in enumerate(ABILITIES):
 lim = SIZE * (RINGS * 1.5 + 3.4)
 ax.set_xlim(-lim, lim)
 ax.set_ylim(-lim - 3.2, lim + 2.4)
-title = "Azhi: the Skills Grid (draft, 2026-11-11)"
+title = "Azhi: the Skills Grid (draft, 2026-11-13)"
 ax.text(0, lim + 2.0, title, ha="center",
         va="center", fontsize=15, weight="bold")
 ax.text(0, -lim - 2.0,
