@@ -196,6 +196,7 @@ The kit has 4 stamina from the start, so it needs something to spend it on. As w
 |---|---|
 | **I'm Going First!** | When you roll Initiative, spend 1 stamina for +5 to the roll, or 2 stamina for +10. No free version. |
 | **Sidestep** | *Reaction, when you're hit or fail a Dexterity save, in light or no armour.* Spend 1, 2 or 3 stamina to add 1d4, 1d8 or 1d12 to your AC **or** your Dexterity saves until the start of your next turn, including the triggering roll. |
+| **Catfall** *(Troy, voice, 2026-11-14)* | *Reaction, when you take damage from a fall.* Reduce the damage by 1d6. **Add-on:** reduce it by a further 1d6 for each stamina you spend. No cap: the stamina pool is the brake. |
 
 - **I'm Going First!**: Troy first pitched +10/+20; cut to +5/+10 so both tiers matter (+10 nearly guarantees going first). *(Claude: compare the 2024 Alert feat, which adds Proficiency Bonus to Initiative for free; watch for later combos that reward acting before foes.)*
 - **Sidestep** grew from *Fleet-Footed* (a die to AC while moving; Battle Master's Evasive Footwork, not in the SRD), reshaped to work like *Shield*. Choices made along the way:
@@ -206,6 +207,7 @@ The kit has 4 stamina from the start, so it needs something to spend it on. As w
   - It gives the Scout a real Reaction choice at the kit, where it otherwise has only Opportunity Attacks; later it competes with Deflect Attacks and Uncanny Dodge (both cut damage after a hit; Sidestep turns a hit into a miss).
   - Troy: "it gives them a bunch of dice to roll whenever they're being attacked, which is kind of fun."
 - **Counts against the triggering roll, used after it's known** *(Troy, 2026-11-11)*: like Shield, which is cast "when you are hit" and applies "including against the triggering attack". At most tables the DM announces the attack total, so the player knows the margin and picks the die (hit by 1: the d4 always works; hit by 9+: only the d12 can help).
+- **Catfall** *(Troy, voice, 2026-11-14)*: the early-level fall-damage answer. Falling deals 1d6 Bludgeoning per 10 feet, up to 20d6 (SRD), so the free 1d6 is like falling 10 feet less; each stamina buys another 1d6 (avg 3.5, a little under a level-1 *Cure Wounds* at 2 stamina). **No cap:** a starting Scout's 4 stamina reaches 5d6 (about 50 feet's worth); a deep pool can shrug off long falls, as a high-level monk's *Slow Fall* (five times monk level) does. A **Reaction**, like *Slow Fall* and *Feather Fall*. **On the Scout Kit tile, for anyone who has it** (first kit or later), so it stays a Scout signature that a Fighter or Herald reaching into the Scout's cluster doesn't pick up.
 - **Fighting styles** will get stamina add-ons later (parked 2026-11-10), giving every Scout a third way to spend stamina.
 - **Rejected:** *Precise Strike* (Claude: 1 stamina, +1d6 damage after a hit). Troy didn't like it.
 

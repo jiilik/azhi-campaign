@@ -2,6 +2,10 @@
 
 Newest first. One line per decision: what was decided, and why if a reason was given. Add to this log every time the author settles something, and update `canon/setting-bible.md` to match.
 
+## 2026-11-14
+
+- **Catfall** (Troy, voice): a Scout Kit technique, for anyone with the kit tile. Reaction when you take falling damage: reduce it by 1d6, plus 1d6 per stamina spent, no cap.
+
 ## 2026-11-13
 
 - **Starting spellbooks are distinct items** (Troy): each has a set list of six spells. Rendered one page each as unrolled scrolls (`art/spellbooks/`): the Primer as a herald's scroll, Selected Summons as a painted handscroll, Practical Alchemy as papyrus.
