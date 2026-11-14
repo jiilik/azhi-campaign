@@ -329,6 +329,11 @@ for num, name in RING2_NAMES.items():
     if num in SEAM_NAMES:
         name_tile((2 * q, 2 * r), name + " II")
         name_tile((3 * q, 3 * r), name + " III")
+# More names (Troy, voice, 2026-11-14): Mobility (405, straight out on the
+# Scout line, Greater Sidestep) and Evasion (508, reachable from Scout and
+# Fighter). Techniques themselves are listed in canon/techniques.md.
+for num, name in {"405": "Mobility", "508": "Evasion"}.items():
+    name_tile(BY_NUMBER[num], name)
 print("ring 6 II tiles:", " ".join(NUMBERS[(2 * BY_NUMBER[n][0], 2 * BY_NUMBER[n][1])] for n in RING3_NAMES))
 # Ability score +1 tiles (Troy, voice, 2026-11-12): with feats gone, these
 # are where ability increases come from. One per kit on ring 4 (clockwise of

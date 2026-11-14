@@ -196,7 +196,7 @@ The kit has 4 stamina from the start, so it needs something to spend it on. As w
 |---|---|
 | **I'm Going First!** | When you roll Initiative, spend 1 stamina for +5 to the roll, or 2 stamina for +10. No free version. |
 | **Sidestep** | *Reaction, when you're hit or fail a Dexterity save, in light or no armour.* Spend 1, 2 or 3 stamina to add 1d4, 1d8 or 1d12 to your AC **or** your Dexterity saves until the start of your next turn, including the triggering roll. |
-| **Catfall** *(Troy, voice, 2026-11-14)* | *Reaction, when you take damage from a fall.* Reduce the damage by 1d6. **Add-on:** reduce it by a further 1d6 for each stamina you spend. No cap: the stamina pool is the brake. |
+| **Superhero Landing** *(Troy, voice, 2026-11-14; first called Catfall)* | *Reaction, when you take damage from a fall.* Reduce the damage by 1d6. **Add-on:** reduce it by a further 1d6 for each stamina you spend. No cap: the stamina pool is the brake. |
 
 - **I'm Going First!**: Troy first pitched +10/+20; cut to +5/+10 so both tiers matter (+10 nearly guarantees going first). *(Claude: compare the 2024 Alert feat, which adds Proficiency Bonus to Initiative for free; watch for later combos that reward acting before foes.)*
 - **Sidestep** grew from *Fleet-Footed* (a die to AC while moving; Battle Master's Evasive Footwork, not in the SRD), reshaped to work like *Shield*. Choices made along the way:
@@ -207,7 +207,7 @@ The kit has 4 stamina from the start, so it needs something to spend it on. As w
   - It gives the Scout a real Reaction choice at the kit, where it otherwise has only Opportunity Attacks; later it competes with Deflect Attacks and Uncanny Dodge (both cut damage after a hit; Sidestep turns a hit into a miss).
   - Troy: "it gives them a bunch of dice to roll whenever they're being attacked, which is kind of fun."
 - **Counts against the triggering roll, used after it's known** *(Troy, 2026-11-11)*: like Shield, which is cast "when you are hit" and applies "including against the triggering attack". At most tables the DM announces the attack total, so the player knows the margin and picks the die (hit by 1: the d4 always works; hit by 9+: only the d12 can help).
-- **Catfall** *(Troy, voice, 2026-11-14)*: the early-level fall-damage answer. Falling deals 1d6 Bludgeoning per 10 feet, up to 20d6 (SRD), so the free 1d6 is like falling 10 feet less; each stamina buys another 1d6 (avg 3.5, a little under a level-1 *Cure Wounds* at 2 stamina). **No cap:** a starting Scout's 4 stamina reaches 5d6 (about 50 feet's worth); a deep pool can shrug off long falls, as a high-level monk's *Slow Fall* (five times monk level) does. A **Reaction**, like *Slow Fall* and *Feather Fall*. **On the Scout Kit tile, for anyone who has it** (first kit or later), so it stays a Scout signature that a Fighter or Herald reaching into the Scout's cluster doesn't pick up.
+- **Superhero Landing** *(Troy, voice, 2026-11-14; first called Catfall)*: the early-level fall-damage answer. Falling deals 1d6 Bludgeoning per 10 feet, up to 20d6 (SRD), so the free 1d6 is like falling 10 feet less; each stamina buys another 1d6 (avg 3.5, a little under a level-1 *Cure Wounds* at 2 stamina). **No cap:** a starting Scout's 4 stamina reaches 5d6 (about 50 feet's worth); a deep pool can shrug off long falls, as a high-level monk's *Slow Fall* (five times monk level) does. A **Reaction**, like *Slow Fall* and *Feather Fall*. **Renamed Superhero Landing** (Troy): tongue in cheek, even in-world, since the dragonborn surely have superhero stories of their own. **On the Scout Kit tile, for anyone who has it** (first kit or later), so it stays a Scout signature that a Fighter or Herald reaching into the Scout's cluster doesn't pick up.
 - **Fighting styles** will get stamina add-ons later (parked 2026-11-10), giving every Scout a third way to spend stamina.
 - **Rejected:** *Precise Strike* (Claude: 1 stamina, +1d6 damage after a hit). Troy didn't like it.
 
@@ -215,8 +215,8 @@ The kit has 4 stamina from the start, so it needs something to spend it on. As w
 
 | Idea | Where | Notes |
 |---|---|---|
-| **Greater Sidestep** | **ring 4, tile to be chosen** | Chains from Sidestep, like the *Invigorate* family. Adds tiers: **4 stamina for 2d8** (avg 9), **5 stamina for 2d10** (avg 11). 4 for 2d12 was judged too much. Two dice are steadier than one. |
-| **Evasion** (SRD rogue and monk, level 7) | **a deeper ring** (5 or 6), tile to be chosen | On a Dexterity save for half damage: none on a success, half on a failure. |
+| **Greater Sidestep** | **405, Mobility** *(Troy, voice, 2026-11-14)* | See the placed techniques below. |
+| **Evasion** (SRD rogue and monk, level 7) | **508, Evasion** *(Troy, voice, 2026-11-14)* | See the placed techniques below. |
 | **Riposte** | — | Troy likes it for the duellist. The Battle Master's Riposte isn't in the SRD; the nearest SRD thing is the monk's Deflect Attacks redirect. Not designed yet. |
 
 *(Claude, checked against SRD 5.2.1, 2026-11-11):* Shield (+5 AC until the start of your next turn, including against the triggering attack), Uncanny Dodge (halve the damage; the voice chat corrected Troy's "disadvantage"), Evasion (rogue and monk, level 7) and Alert's *Initiative Proficiency* all match the voice chat's descriptions.
@@ -231,13 +231,30 @@ The kit has 4 stamina from the start, so it needs something to spend it on. As w
 |---|---|---|
 | **Free Dash or Disengage** as a Bonus Action, 0 stamina | **304** (ring 3, straight out from the Scout) | Troy kept it on ring 3, not the kit. *(Claude: Cunning Action without Hide.)* |
 | **Deflect Attacks**: pure reflexes, "I'm so fast I can just deflect" | **304** | From the SRD monk (level 3). *(Claude: the SRD version reduces damage by 1d10 + Dex + monk level, so it needs a measure other than level.)* |
-| **Take Aim** (from the rogue's *Steady Aim*) | **ring 3, tile to be chosen** with the diagram; the archer's direction | Draft: free, as a Bonus Action, give up your movement this turn and your next attack has Advantage; **add-on, 1 stamina:** keep your movement. Troy likes it but finds it powerful, so it's not kit-level: ring 3 is where the archer, mover and manoeuvre Scouts split. |
-| **Uncanny Dodge**: halve an attack's damage with your Reaction | **ring 5, on the manoeuvres side** (Scout–Fighter), tile to be chosen | Troy: a self-buff that's also battlefield control. From the SRD rogue (level 5). |
+| **Take Aim** (from the rogue's *Steady Aim*) | **304, Ranger** *(Troy, voice, 2026-11-14)* | See the placed techniques below. |
+| **Uncanny Dodge** | **204, Precision** *(Troy, voice, 2026-11-14)* | See the placed techniques below. |
 | Hunter's Mark-style tracking: mark prey for Advantage on checks to find it | — | Claude's pitch; the call ended before Troy answered. |
 
 *(Claude, checked against the SRD 2026-11-10)*:
 - **Steady Aim is in SRD 5.2.1** (rogue, level 3), so its wording can be used. The voice chat said it wasn't. Its text: "As a Bonus Action, you give yourself Advantage on your next attack roll on the current turn. You can use this feature only if you haven't moved during this turn, and after you use it, your Speed is 0 until the end of the current turn." The SRD version only works **if you haven't moved yet** and applies **this turn**; the draft should match.
 - **Uncanny Dodge** (rogue, level 5) and **Deflect Attacks** (monk, level 3) are confirmed in the SRD.
+
+### Scout techniques placed *(Troy, voice, 2026-11-14, morning chores)*
+
+Listed in the text only, not on the diagram's tiles (Troy, 2026-11-13).
+
+| Technique | Tile | Text |
+|---|---|---|
+| **Take Aim** | **304, Ranger** | *Bonus Action, if you haven't moved this turn.* You have Advantage on your next attack roll this turn, and your Speed is 0 until the end of the turn. **Add-on:** for each stamina you spend, your Speed is 10 feet higher instead (1 stamina, 10 feet; 2, 20 feet; and so on). |
+| **Uncanny Dodge** | **204, Precision** | *Reaction, when an attack roll hits you.* Reduce the damage by 1d6. **Add-on:** reduce it by a further 1d6 for each stamina you spend. |
+| **Greater Sidestep** | **405, Mobility** | *Reaction, when you're hit or fail a Dexterity save, in light or no armour.* Spend 4 stamina to add 2d8, or 5 stamina to add 2d10, to your AC **or** your Dexterity saves until the start of your next turn, including the triggering roll. |
+| **Evasion** | **508, Evasion** | When you make a Dexterity saving throw to take only half damage, you take no damage if you succeed and half the damage if you fail. *(No Reaction needed.)* **Add-on:** when you fail, reduce the damage by a further 1d6 for each stamina you spend. |
+
+- **Take Aim**: everything has a stamina upgrade, and the price can scale. 1 stamina for Advantage outright was judged too strong (Advantage is worth about +4 to +5); instead stamina buys back movement, 10 feet a point, so a 35-foot Scout pays 4 to move fully. On **304** with the free Dash or Disengage and Deflect Attacks; any of them can move later if 304 gets crowded. *(Claude: it keeps Steady Aim's "if you haven't moved" condition from the SRD; the voice chat didn't revisit that.)*
+- **Uncanny Dodge**: changed from the SRD's halving to dice, like Superhero Landing, so it doesn't scale with big hits. Moved from ring 5 to **204**, the seam between Scout and Fighter, so both kits reach it in one step. (305, Skirmisher, was chosen first, then changed.)
+- **Greater Sidestep**: its own full description with only the two big tiers; no prerequisite. **405** is reachable only through the Scout Kit, 203 and 304 (checked on the grid), so anyone there already has Sidestep. (406 was chosen first; 406 keeps just its Dex +1.)
+- **Evasion**: on **508**, reachable from both the Scout and Fighter lines (its ancestors include 12 and 13). (408 was named first, then changed.) A flat "spend 4 stamina for no damage" was rejected: against big Dexterity saves (Flame Strike, Chain Lightning, Meteor Swarm's 40d6, dragon breath) it would make you nearly immune. The dice add-on keeps it honest, and it leaves your Reaction free for Uncanny Dodge or Sidestep in the same round.
+- **The damage-reduction family** (Superhero Landing, Uncanny Dodge, Evasion's add-on) all use 1d6, plus 1d6 per stamina, with no cap.
 
 ## Ideas in progress
 
