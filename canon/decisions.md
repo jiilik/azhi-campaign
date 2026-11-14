@@ -4,7 +4,7 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-11-13
 
-- **Alchemist spellbook** (Troy): the Lore book is named **Practical Alchemy**; Unseen Servant and Alarm out, Sleep, Grease and Fog Cloud in: Detect Magic, Identify, Illusory Script, False Life, Sleep, Grease, Fog Cloud (seven; one to drop).
+- **Alchemist spellbook** (Troy): the Lore book is named **Practical Alchemy**; Unseen Servant and Alarm out, Sleep and Grease in: Detect Magic, Identify, Illusory Script, False Life, Sleep, Grease (Fog Cloud was added, then dropped).
 - **Summoning spellbook** (Troy): Classical Control for Beginners becomes **Selected Summons for Novices**: Find Familiar, Unseen Servant, Silent Image, Fog Cloud, Color Spray, Floating Disk. Still no damage.
 - **Lore spellbook** (Troy): Detect Magic, Identify, Alarm, Unseen Servant, Illusory Script and False Life. Illusory Script replaces Comprehend Languages (codes and secrets fit the alchemy theme); False Life fills the sixth slot. Name still to come.
 - **Species wheel renumbered** (Troy): the base form is **ring 0** (everyone starts with it; nobody advances into it), with **six rings, 1–6,** outside it. The first advance buys ring 1 with its Hit Die and pools. Prof. Up stays on ring 3, ability +1 on ring 4, Attack Up on ring 6.
