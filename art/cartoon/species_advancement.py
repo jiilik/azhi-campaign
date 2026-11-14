@@ -21,6 +21,7 @@ st, INK = cw.st, cw.INK
 # Die and pools (Troy, 2026-11-13; was ring 1 = base, rings 2-6).
 # 9 x 6 = 54 arcs beyond the base.
 FIRST, LAST = 1, 6
+REVIEW = {'Brown': (1, 3, 5), 'Grey': (3,), 'White': (1, 6)}   # parts-bin pass, 2026-11-14
 RINGS = LAST - FIRST + 1
 R0 = cw.R_OUT + 14          # the colour wheel's outer edge (its thin outer circle)
 RW = 138                     # width of each advancement ring (three text lines)
@@ -166,6 +167,12 @@ def build(printable=False):
         p, q = pt(R0, a), pt(R_MAX, a)
         o.append(f'<line x1="{p[0]:.1f}" y1="{p[1]:.1f}" x2="{q[0]:.1f}" y2="{q[1]:.1f}" stroke="{INK}" stroke-width="6" stroke-linecap="round"/>')
     o.append(f'<circle cx="{CX}" cy="{CY}" r="{R_MAX}" fill="none" stroke="{INK}" stroke-width="6"/>')
+    # Arcs with parts assigned in the parts-bin pass, marked for review with an orange
+    # dot (Troy, 2026-11-14; the list lives in canon/tile-assignments.md).
+    for i, (form, *_rest) in enumerate(cw.WHEEL):
+        for k in REVIEW.get(form, ()):
+            x, y = pt(R0 + (k - FIRST + 0.5) * RW, i * STEP + STEP * 0.36)
+            o.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="11" fill="#f28c28" stroke="{INK}" stroke-width="3"/>')
     # Ring numbers on the White-Red boundary: 0 is the base form.
     a = -STEP / 2
     for k, r in [(0, (cw.R_IN + cw.R_OUT) / 2)] + [(k, R0 + (j + 0.5) * RW) for j, k in enumerate(range(FIRST, LAST + 1))]:

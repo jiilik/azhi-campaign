@@ -4,6 +4,7 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-11-14
 
+- **Parts-bin pass begun** (Troy, voice): parts assigned to tiles and arcs, all marked for review, in `canon/tile-assignments.md`; tiles named **Transient** (418), **Feedback** (519) and **Formation** (602). Weapon Mastery +1 on 305, 306, 307 and 613. Resistance tiles let you choose one type from a list (620: B/P/S; 624: a magical type). Cunning tiles to get mana; amounts to set.
 - **Superhero Landing** (Troy, voice; first named Catfall): a Scout Kit technique, for anyone with the kit tile. Reaction when you take falling damage: reduce it by 1d6, plus 1d6 per stamina spent, no cap.
 - **Scout techniques placed** (Troy, voice): **Take Aim** on Ranger (304), stamina buys back Speed at 10 feet a point; **Uncanny Dodge** on Precision (204), a Reaction for 1d6 off a hit plus 1d6 per stamina; **Greater Sidestep** on 405, named **Mobility**, with only the 2d8 and 2d10 tiers; **Evasion** on 508, named **Evasion**, the SRD feature plus 1d6 off per stamina after a failed save. Techniques stay in the text, not on the tiles.
 

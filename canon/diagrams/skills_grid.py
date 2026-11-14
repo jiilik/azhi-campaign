@@ -332,8 +332,14 @@ for num, name in RING2_NAMES.items():
 # More names (Troy, voice, 2026-11-14): Mobility (405, straight out on the
 # Scout line, Greater Sidestep) and Evasion (508, reachable from Scout and
 # Fighter). Techniques themselves are listed in canon/techniques.md.
-for num, name in {"405": "Mobility", "508": "Evasion"}.items():
+# Named during the parts-bin pass (Troy, voice, 2026-11-14 afternoon).
+for num, name in {"405": "Mobility", "508": "Evasion", "418": "Transient", "519": "Feedback",
+                  "602": "Formation"}.items():
     name_tile(BY_NUMBER[num], name)
+# Tiles with parts assigned in the parts-bin pass, all marked for review with
+# an orange dot (Troy, 2026-11-14). The list lives in canon/tile-assignments.md.
+REVIEW = set("201 202 204 206 207 208 209 301 302 305 306 307 308 311 312 313 314 315 316 317 318 "
+             "403 405 415 418 419 423 519 601 602 604 613 620 623 624 625 628".split())
 print("ring 6 II tiles:", " ".join(NUMBERS[(2 * BY_NUMBER[n][0], 2 * BY_NUMBER[n][1])] for n in RING3_NAMES))
 # Ability score +1 tiles (Troy, voice, 2026-11-12): with feats gone, these
 # are where ability increases come from. One per kit on ring 4 (clockwise of
@@ -415,6 +421,9 @@ for q in range(-RINGS, RINGS + 1):
                                     orientation=math.pi / 6,
                                     facecolor=face, edgecolor=edge, lw=lw))
         busy = (q, r) in TILES or (q, r) in THEMES
+        if NUMBERS.get((q, r)) in REVIEW:   # assigned in the parts-bin pass: to review
+            from matplotlib.patches import Circle
+            ax.add_patch(Circle((x + 0.56, y + 0.56), 0.1, facecolor="#f28c28", edgecolor="black", lw=0.6, zorder=4))
         if busy:  # small number at the foot of a filled tile
             ax.text(x, y - 0.68, NUMBERS[(q, r)], ha="center", va="center",
                     fontsize=5.6, weight="bold", color="#555555" if PRINT else "#8a8a8a", zorder=3)
@@ -465,12 +474,12 @@ for i, ab in enumerate(ABILITIES):
 lim = SIZE * (RINGS * 1.5 + 3.4)
 ax.set_xlim(-lim, lim)
 ax.set_ylim(-lim - 3.2, lim + 2.4)
-title = "Azhi: the Skills Grid (draft, 2026-11-13)"
+title = "Azhi: the Skills Grid (draft, 2026-11-14)"
 ax.text(0, lim + 2.0, title, ha="center",
         va="center", fontsize=15, weight="bold")
 ax.text(0, -lim - 2.0,
         "Centre and ring 1: populated (Req / name / what adds up).  Ring 2: 201-202 technique tiles.  Italic labels outside the grid: fantasy themes.\n"
-        "Prof. Up (Proficiency Bonus +1): ring 4 seams and ring 6 corners.  Attack Up (Damage Boost): rings 5 and 6.  Every tile has a Hit Die.  127 hexes in all.  PROPOSED design; see canon/brainstorm-progression.md.",
+        "Prof. Up (Proficiency Bonus +1): ring 4 seams and ring 6 corners.  Attack Up (Damage Boost): rings 5 and 6.  Every tile has a Hit Die.  Orange dot: parts assigned, to review (canon/tile-assignments.md).  127 hexes in all.  PROPOSED design; see canon/brainstorm-progression.md.",
         ha="center", va="center", fontsize=8, color="#444")
 place_line(ax, 0, -lim - 2.6, "{H} Hit Die     {S} stamina (SP)     {M} mana (MP)", zoom=0.14)
 
