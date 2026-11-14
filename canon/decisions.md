@@ -4,6 +4,7 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-11-13
 
+- **Starting spellbooks are distinct items** (Troy): each has a set list of six spells. Rendered one page each as unrolled scrolls (`art/spellbooks/`): the Primer as a herald's scroll, Selected Summons as a painted handscroll, Practical Alchemy as papyrus.
 - **Alchemist spellbook** (Troy): the Lore book is named **Practical Alchemy**; Unseen Servant and Alarm out, Sleep and Grease in: Detect Magic, Identify, Illusory Script, False Life, Sleep, Grease (Fog Cloud was added, then dropped).
 - **Summoning spellbook** (Troy): Classical Control for Beginners becomes **Selected Summons for Novices**: Find Familiar, Unseen Servant, Silent Image, Fog Cloud, Color Spray, Floating Disk. Still no damage.
 - **Lore spellbook** (Troy): Detect Magic, Identify, Alarm, Unseen Servant, Illusory Script and False Life. Illusory Script replaces Comprehend Languages (codes and secrets fit the alchemy theme); False Life fills the sixth slot. Name still to come.
