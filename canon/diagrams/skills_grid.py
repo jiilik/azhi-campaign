@@ -110,9 +110,11 @@ SEAM_TILES = set()
 # Technique tiles (Troy, 2026-11-09). Ring 2 positions: 201 is straight out
 # from the Herald, 202 the Herald-Scout seam.
 TECH_TILES = {
-    # Technique names stay in the text, not on tiles (Troy, 2026-11-09).
-    (-2, 2): ("", "Techniques", ""),
-    (-2, 1): ("", "Techniques", ""),
+    # Technique names stay in the text, not on tiles (Troy, 2026-11-09); the
+    # word "Techniques" is dropped too (Troy, 2026-11-13): players look the
+    # tile up by name in the text.
+    (-2, 2): ("", "", ""),
+    (-2, 1): ("", "", ""),
 }
 for (dq, dr), ab in zip(DIRS, ABILITIES):
     TILES[(dq, dr)] = KITS[ab]
@@ -340,15 +342,8 @@ for num, label in ABILITY_UP.items():
     l1, l2, l3 = TILES[h]
     assert not l2, num
     TILES[h] = (l1, label, l3)
-# Expertise (Troy, voice, 2026-11-13): only in skills you're proficient in.
-# Four on the Cunning line (two on 202, one each on 403 and 604) and one
-# Knowledge Expertise on Lore (210): Arcana, History, Investigation,
-# Medicine, Nature or Religion.
-# Drawn as a small badge at the top of the tile; Lore's empty middle line
-# says "Know. Exp.".
-EXPERTISE = {"202": "Exp. ×2", "403": "Exp.", "604": "Exp.", "210": "Exp."}
-h = BY_NUMBER["210"]
-TILES[h] = (TILES[h][0], "Know. Exp.", TILES[h][2])
+# Expertise (Troy, voice, 2026-11-13) is on 202, 403, 604 and Lore 210, but
+# listed only in the text, not on the tiles (Troy, 2026-11-13: too tight).
 NOPOOL = sorted((NUMBERS[h] for h in NUMBERS if h != (0, 0) and "{S}" not in
                  (TILES.get(h, ("", "", LINE3.get(h, "")))[2]) and "{M}" not in
                  (TILES.get(h, ("", "", LINE3.get(h, "")))[2])), key=int)
@@ -415,10 +410,6 @@ for q in range(-RINGS, RINGS + 1):
                                     orientation=math.pi / 6,
                                     facecolor=face, edgecolor=edge, lw=lw))
         busy = (q, r) in TILES or (q, r) in THEMES
-        badge = EXPERTISE.get(NUMBERS[(q, r)])
-        if badge and NUMBERS[(q, r)] != "210":
-            ax.text(x, y + 0.66, badge, ha="center", va="center", fontsize=5.2, weight="bold",
-                    color="#6a3fa0", zorder=3)
         if busy:  # small number at the foot of a filled tile
             ax.text(x, y - 0.68, NUMBERS[(q, r)], ha="center", va="center",
                     fontsize=5.6, weight="bold", color="#555555" if PRINT else "#8a8a8a", zorder=3)
