@@ -4,6 +4,7 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 ## 2026-11-13
 
+- **Lore spellbook** (Troy): Detect Magic, Identify, Alarm, Unseen Servant, Illusory Script and False Life. Illusory Script replaces Comprehend Languages (codes and secrets fit the alchemy theme); False Life fills the sixth slot. Name still to come.
 - **Species wheel renumbered** (Troy): the base form is **ring 0** (everyone starts with it; nobody advances into it), with **six rings, 1–6,** outside it. The first advance buys ring 1 with its Hit Die and pools. Prof. Up stays on ring 3, ability +1 on ring 4, Attack Up on ring 6.
 - **Expertise** (Troy, voice): only in skills you're already proficient in. Four along the Cunning line (two on 202, one on 403, one on 604), plus **Knowledge Expertise** on Lore (210): one Expertise in Arcana, History, Investigation, Medicine, Nature or Religion.
 - **Mage spellbook** (Troy, voice): starting in the Mage Kit gives six spells (one of three predefined books) plus its three cantrips; taking the kit later gives three. The books follow the three branches: **The Junior Wizard's Primer** (straight), **Classical Control for Beginners** (toward Control; no damage), and a Lore book (draft, parked). Any spell encountered can be copied in.
