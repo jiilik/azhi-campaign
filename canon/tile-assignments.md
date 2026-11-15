@@ -13,6 +13,7 @@ Parts are named as in `canon/parts-bin.md`; the source and level are there and i
 |  |  | **Mantle of Inspiration** (Temporary Hit Points and free movement for allies) | PHB College of Glamour 3, from memory | |
 | **202** | Cunning | **Magical Discoveries** | SRD College of Lore 6 | The Cunning tiles now give **2 mana and 3 stamina** each (2026-11-15). |
 |  |  | **Trickery Domain spells**, part | PHB Trickery Domain, from memory | Spread across the three Cunning tiles (202, 403, 604). |
+|  |  | **Fast Hands** (Bonus Action: Sleight of Hand with Thieves' Tools or to pick a pocket; or Utilize, or use a magic item) | SRD Thief 3 | 2026-11-15. |
 | **204** | Precision | **Remarkable Athlete**, without the Initiative part: Advantage on Athletics, and move on a crit | SRD Champion 3 | |
 |  |  | **Combat Superiority**, reworked to spend stamina instead of superiority dice | PHB Battle Master 3, from memory | The Combat Superiority line runs Precision, II, III (204, 407, 610). Uncanny Dodge and Retaliation moved out to ring 3 (2026-11-15). |
 | **206** | Might | **Branches of the Tree** (Reaction: pull a foe to you, stop it) | PHB Path of the World Tree 6, from memory | |
@@ -30,6 +31,7 @@ Parts are named as in `canon/parts-bin.md`; the source and level are there and i
 | **302** | Tactician | **Inspiring Movement** (Reaction: you and an ally move) | PHB College of Dance 6, from memory | |
 | **303** | Rogue | **Unarmored Defense**: 10 + Dex + Con | SRD Barbarian 1 | Also on 207; both use Dex + Con (2026-11-15). |
 |  |  | **Sneak Attack**: **1d6 free, plus 1d6 per stamina spent** | SRD Rogue 1, reworked | 2026-11-15. |
+|  |  | **Bonus Action Hide**, free (0 stamina) | SRD Rogue 2 (Cunning Action), the Hide part | 2026-11-15. Completes Cunning Action with Ranger's (304) free Dash or Disengage. |
 | **304** | Ranger | **Favored Enemy** (a free *Hunter's Mark*) | SRD Ranger 1 | 2026-11-15. Free for now; check whether it should cost stamina. |
 |  |  | **Deft Explorer** (Expertise in a skill; two languages) | SRD Ranger 2 | 2026-11-15. Ranger (304) is getting full: Take Aim is here too. |
 | **305** | Skirmisher | **Weapon Mastery** +1 | SRD Fighter 4 / 10 / 16 | One of the four extra masteries. |
@@ -63,6 +65,7 @@ Parts are named as in `canon/parts-bin.md`; the source and level are there and i
 | **419** | Lore II | **Magical Secrets** | SRD Bard 10 | Also on Lore III. |
 | **423** | Control II | **Countercharm** | SRD Bard 7 | |
 |  |  | **Mantle of Majesty** | PHB College of Glamour 6, from memory | |
+| **505** | — | **Jumper**: use Dexterity instead of Strength for jump distance | SRD Thief 3 (Second-Story Work), half | 2026-11-15. Second-Story Work's Climb Speed was tried on Ambush (404) and dropped. |
 | **506** | **Hunter** *(named 2026-11-15)* | **An additional Fighting Style** | SRD Fighter / Champion 7 | |
 |  |  | **Hunter's Lore** (learn a marked foe's defences) | SRD Hunter 3 | 2026-11-15. |
 |  |  | **Hunter's Prey** (Colossus Slayer or Horde Breaker) | SRD Hunter 3 | 2026-11-15. |
@@ -82,6 +85,7 @@ Parts are named as in `canon/parts-bin.md`; the source and level are there and i
 |  |  | **Wisdom saving throw proficiency** | | 2026-11-15. |
 | **605** | Rogue II | **Unarmored Movement** (+10 Speed, rising) | SRD Monk 2 | 2026-11-15. Stacks with Mobility (405); see the Speed balance pass. |
 |  |  | **Sneak Attack improves**: every Sneak Attack die, free and bought, becomes a **d12** | (new) | 2026-11-15. Roughly doubles damage per stamina; for the balance pass. |
+|  |  | **Cunning Strike**, with **Improved Cunning Strike folded in**: forgo Sneak Attack dice for an effect (Poison, Trip, Withdraw); a **second effect** on the same hit costs more stamina | SRD Rogue 5 and 11, reworked | 2026-11-15. With d12s, each forgone die costs about 6.5 damage instead of 3.5. |
 | **607** | Ranger II | **Know Your Enemy** (assess a foe) | PHB Battle Master 7, from memory | |
 |  |  | **Tireless** (Temporary Hit Points; less Exhaustion) | SRD Ranger 10 | 2026-11-15. |
 |  |  | **Relentless Hunter** (Concentration on the mark can't be broken) | SRD Ranger 13 | 2026-11-15. |
@@ -138,9 +142,10 @@ Parts are named as in `canon/parts-bin.md`; the source and level are there and i
 14. **Wild Companion and Primal Companion** on Shaman (312): check they don't clash.
 15. **Fey flavour**: Dreadful Strikes, Otherworldly Glamour, the Fey Wanderer spells and Fey Reinforcements need non-Fey versions.
 16. **Fade (507)** upgrades Flurry of Blows, but can be reached without Skirmisher (305), through 304 and 405.
-17. **Climb and Swim Speed on Mobility (405)** may clash with the conflict check of 2026-11-07 (`canon/brainstorm-progression.md`): movement modes belong to the forms (climbing is Green's, swimming Blue's and Indigo's), and the Scout's movement should be Speed, Dash, jumps and repositioning. Keep, or drop?
+17. ~~Climb and Swim Speed on Mobility (405)~~ **Settled 2026-11-15:** kept. The 2026-11-07 point that movement modes belong to the forms is a guideline, not a hard rule.
 18. **Ranger (304) is crowded**: Free Dash or Disengage, Deflect Attacks (both from `canon/techniques.md`), Take Aim, Favored Enemy and Deft Explorer.
-19. **Sneak Attack's d12s on Rogue II (605)**: balance pass.
+19. **Sneak Attack's d12s on Rogue II (605)**: balance pass, together with Cunning Strike's costs.
+20. **Upgrade tiles can be reached without their base tile.** Checked on the grid (2026-11-15): Rogue II (605) without Rogue (303), so Cunning Strike and the d12s can arrive with no Sneak Attack; also 407 without 204, 610 without 407, 411 without 206, 616 without 411, 415 without 208, 622 without 415, 403 without 202, 604 without 403, 623 without 312, 626 without 418, 505 without 405, and 507 without 305 (item 16). Only 607 needs 304. Needs one general rule.
 
 ## Working notes: Wild Shape and Vitality *(Troy, voice, 2026-11-15)*
 
