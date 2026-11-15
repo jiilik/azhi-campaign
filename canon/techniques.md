@@ -232,7 +232,7 @@ The kit has 4 stamina from the start, so it needs something to spend it on. As w
 | **Free Dash or Disengage** as a Bonus Action, 0 stamina | **304** (ring 3, straight out from the Scout) | Troy kept it on ring 3, not the kit. *(Claude: Cunning Action without Hide.)* |
 | **Deflect Attacks**: pure reflexes, "I'm so fast I can just deflect" | **304** | From the SRD monk (level 3). *(Claude: the SRD version reduces damage by 1d10 + Dex + monk level, so it needs a measure other than level.)* |
 | **Take Aim** (from the rogue's *Steady Aim*) | **304, Ranger** *(Troy, voice, 2026-11-14)* | See the placed techniques below. |
-| **Uncanny Dodge** | **204, Precision** *(Troy, voice, 2026-11-14)* | See the placed techniques below. |
+| **Uncanny Dodge** | **305, Skirmisher** *(Troy, voice, 2026-11-15; was 204)* | See the placed techniques below. |
 | Hunter's Mark-style tracking: mark prey for Advantage on checks to find it | — | Claude's pitch; the call ended before Troy answered. |
 
 *(Claude, checked against the SRD 2026-11-10)*:
@@ -246,12 +246,12 @@ Listed in the text only, not on the diagram's tiles (Troy, 2026-11-13).
 | Technique | Tile | Text |
 |---|---|---|
 | **Take Aim** | **304, Ranger** | *Bonus Action, if you haven't moved this turn.* You have Advantage on your next attack roll this turn, and your Speed is 0 until the end of the turn. **Add-on:** for each stamina you spend, your Speed is 10 feet higher instead (1 stamina, 10 feet; 2, 20 feet; and so on). |
-| **Uncanny Dodge** | **204, Precision** | *Reaction, when an attack roll hits you.* Reduce the damage by 1d6. **Add-on:** reduce it by a further 1d6 for each stamina you spend. |
+| **Uncanny Dodge** | **305, Skirmisher** *(moved from 204, 2026-11-15)* | *Reaction, when an attack roll hits you.* Reduce the damage by 1d6. **Add-on:** reduce it by a further 1d6 for each stamina you spend. |
 | **Greater Sidestep** | **405, Mobility** | *Reaction, when you're hit or fail a Dexterity save, in light or no armour.* Spend 4 stamina to add 2d8, or 5 stamina to add 2d10, to your AC **or** your Dexterity saves until the start of your next turn, including the triggering roll. |
 | **Evasion** | **508, Evasion** | When you make a Dexterity saving throw to take only half damage, you take no damage if you succeed and half the damage if you fail. *(No Reaction needed.)* **Add-on:** when you fail, reduce the damage by a further 1d6 for each stamina you spend. |
 
 - **Take Aim**: everything has a stamina upgrade, and the price can scale. 1 stamina for Advantage outright was judged too strong (Advantage is worth about +4 to +5); instead stamina buys back movement, 10 feet a point, so a 35-foot Scout pays 4 to move fully. On **304** with the free Dash or Disengage and Deflect Attacks; any of them can move later if 304 gets crowded. *(Claude: it keeps Steady Aim's "if you haven't moved" condition from the SRD; the voice chat didn't revisit that.)*
-- **Uncanny Dodge**: changed from the SRD's halving to dice, like Superhero Landing, so it doesn't scale with big hits. Moved from ring 5 to **204**, the seam between Scout and Fighter, so both kits reach it in one step. (305, Skirmisher, was chosen first, then changed.)
+- **Uncanny Dodge**: changed from the SRD's halving to dice, like Superhero Landing, so it doesn't scale with big hits. Moved from ring 5 to **204**, the seam between Scout and Fighter, so both kits reach it in one step. (305, Skirmisher, was chosen first, then changed.) **Moved again to Skirmisher (305)** (Troy, 2026-11-15) to uncrowd Precision; 305 is reached from Scout II (203) or Precision (204), so the Fighter still gets there through Precision.
 - **Greater Sidestep**: its own full description with only the two big tiers; no prerequisite. **405** is reachable only through the Scout Kit, 203 and 304 (checked on the grid), so anyone there already has Sidestep. (406 was chosen first; 406 keeps just its Dex +1.)
 - **Evasion**: on **508**, reachable from both the Scout and Fighter lines (its ancestors include 12 and 13). (408 was named first, then changed.) A flat "spend 4 stamina for no damage" was rejected: against big Dexterity saves (Flame Strike, Chain Lightning, Meteor Swarm's 40d6, dragon breath) it would make you nearly immune. The dice add-on keeps it honest, and it leaves your Reaction free for Uncanny Dodge or Sidestep in the same round.
 - **The damage-reduction family** (Superhero Landing, Uncanny Dodge, Evasion's add-on) all use 1d6, plus 1d6 per stamina, with no cap.

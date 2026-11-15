@@ -12,9 +12,8 @@ Parts are named as in `canon/parts-bin.md`; the source and level are there and i
 |  |  | **Mantle of Inspiration** (Temporary Hit Points and free movement for allies) | PHB College of Glamour 3, from memory | |
 | **202** | Cunning | **Magical Discoveries** | SRD College of Lore 6 | The Cunning tiles now give **2 mana and 3 stamina** each (2026-11-15). |
 |  |  | **Trickery Domain spells**, part | PHB Trickery Domain, from memory | Spread across the three Cunning tiles (202, 403, 604). |
-| **204** | Precision | **Retaliation** (a Reaction melee attack) | SRD Path of the Berserker 10 | Uncanny Dodge is already here (2026-11-14). |
-|  |  | **Remarkable Athlete**, without the Initiative part: Advantage on Athletics, and move on a crit | SRD Champion 3 | |
-|  |  | **Combat Superiority**, reworked to spend stamina instead of superiority dice | PHB Battle Master 3, from memory | Precision is crowded (Uncanny Dodge, Retaliation, Remarkable Athlete); sort it out in the balance pass. |
+| **204** | Precision | **Remarkable Athlete**, without the Initiative part: Advantage on Athletics, and move on a crit | SRD Champion 3 | |
+|  |  | **Combat Superiority**, reworked to spend stamina instead of superiority dice | PHB Battle Master 3, from memory | The Combat Superiority line runs Precision, II, III (204, 407, 610). Uncanny Dodge and Retaliation moved out to ring 3 (2026-11-15). |
 | **206** | Might | **Branches of the Tree** (Reaction: pull a foe to you, stop it) | PHB Path of the World Tree 6, from memory | |
 | **207** | Tank II | **Unarmored Defense**: 10 + Dex + Con | SRD Barbarian 1 | Same version on 303 (2026-11-15). |
 |  |  | **Danger Sense** (Advantage on Dexterity saves) | SRD Barbarian 2 | |
@@ -26,7 +25,9 @@ Parts are named as in `canon/parts-bin.md`; the source and level are there and i
 | **301** | Warlord | **Guided Strike** (+10 to an attack) | PHB War Domain 3, from memory | Becomes a Warlord ability. |
 | **302** | Tactician | **Inspiring Movement** (Reaction: you and an ally move) | PHB College of Dance 6, from memory | |
 | **305** | Skirmisher | **Weapon Mastery** +1 | SRD Fighter 4 / 10 / 16 | One of the four extra masteries. |
+|  |  | **Uncanny Dodge** (technique, `canon/techniques.md`) | SRD Rogue 5, reworked | Moved from Precision (204), 2026-11-15. Reached from Scout II (203) or Precision. |
 | **306** | Virtuoso | **Weapon Mastery** +1 | SRD Fighter | |
+|  |  | **Retaliation** (a Reaction melee attack) | SRD Path of the Berserker 10 | Moved from Precision (204), 2026-11-15. Reached from Fighter II (205) or Precision. |
 | **307** | Champion | **Weapon Mastery** +1 | SRD Fighter | |
 |  |  | **Reckless Attack** | SRD Barbarian 2 | |
 | **308** | Brute | **Intimidating Presence** (frighten a 30-foot area) | SRD Path of the Berserker 14 | |
@@ -36,7 +37,7 @@ Parts are named as in `canon/parts-bin.md`; the source and level are there and i
 | **311–318** | Blood Mage, Shaman, Oracle, Sage, Alchemist, Wizard, Summoner, Hexer | **One new cantrip each** | (Cantrip progression of the casters) | Every ring-3 tile from 311 to 318. |
 | **312** | Shaman | **Animal Speaker** | PHB Path of the Wild Heart 3, from memory | |
 |  |  | **Life Domain spells**, mostly | SRD Life Domain | |
-|  |  | **Wild Shape**, reworked (2026-11-15): **4 mana**, Bonus Action, lasts **1 hour** (spend 4 more mana to keep it going); **no Temporary Hit Points** (they moved to the Vitality tiles). Otherwise as the SRD druid. | SRD Druid 2 | Known forms and maximum CR still to settle (SRD: 4 forms to CR 1/4 at level 2, 6 to 1/2 at 4, 8 to 1 with flying at 8). |
+|  |  | **Wild Shape**, reworked (2026-11-15): **4 mana**, Bonus Action, lasts **1 hour** (spend 4 more mana to keep it going); **no Temporary Hit Points** (they moved to the Vitality tiles). Otherwise as the SRD druid: **4 known forms, up to CR 1/4, no Fly Speed**. | SRD Druid 2 | Forms grow on Shaman II (623). The SRD's middle step (6 forms to CR 1/2) is skipped. |
 |  |  | **Wild Companion** (Find Familiar from Wild Shape uses) | SRD Druid 2 | |
 | **318** | Hexer | **Beguiling Magic** | PHB College of Glamour 3, from memory | (Said "316" at first; 316 is Wizard.) |
 | **403** | Cunning II | **Trickery Domain spells**, part | PHB, from memory | |
@@ -67,7 +68,8 @@ Parts are named as in `canon/parts-bin.md`; the source and level are there and i
 | **617** | Bulwark II | **Bulwark of Force** (half cover for allies) | PHB Psi Warrior 15, from memory | |
 | **620** | — | **Resistance: choose one** of Bludgeoning, Piercing or Slashing | from **Avatar of Battle** (PHB War Domain 17, from memory) | A resistance tile: you pick one type from the tile's list. |
 | **622** | Vitality III | **Vital Reserve** improves to **12 Temporary Hit Points per mana** | new (2026-11-15) | |
-| **623** | Shaman II | **Supreme Healing** (healing dice roll their maximum) | SRD Life Domain 17 | |
+| **623** | Shaman II | **Wild Shape forms grow**: **8 known forms, up to CR 1, Fly Speed allowed** | SRD Druid 8 | 2026-11-15; check against the power curve later. |
+|  |  | **Supreme Healing** (healing dice roll their maximum) | SRD Life Domain 17 | |
 |  |  | **Beast Spells** (cast while shape-changed) | SRD Druid 18 | |
 | **624** | — | **Resistance: choose one magical damage type** (fire, poison, thunder and the like) | | A resistance tile, like 620. Keeps its Wis +1. |
 | **625** | Oracle II | **Divine Intervention** | SRD Cleric 10 | |
@@ -85,7 +87,7 @@ Parts are named as in `canon/parts-bin.md`; the source and level are there and i
 | **Blue**, several arcs | **Circle of the Sea spells**, scattered across the Blue rings | PHB Circle of the Sea, from memory | Which arcs, to settle. |
 | **Grey**, several arcs | **Circle of the Stars**, reflavoured for Grey | PHB Circle of the Stars, from memory | Which parts and arcs, to settle. |
 | **White 1** | **Channel Divinity** | SRD Cleric 2 | To be expanded within the White arcs. |
-| **White 6** | **Divine Wings** (reworked from Rage of the Gods, 2026-11-15): while your Spectral Wings are out, you have Resistance to Necrotic, Psychic and Radiant damage, and when a creature you can see falls to 0 hit points, you can cast *Revivify* on it for 5 mana. | PHB Path of the Zealot 14, from memory | No Rage needed; the flight comes from Spectral Wings itself. 5 mana is *Revivify*'s level-3 price. *(Claude: its timing, a Reaction or not, to settle.)* |
+| **White 6** | **Divine Wings** (reworked from Rage of the Gods, 2026-11-15): while your Spectral Wings are out, you have Resistance to Necrotic, Psychic and Radiant damage, and when a creature you can see falls to 0 hit points, you can take a **Reaction** to cast *Revivify* on it for 5 mana. | PHB Path of the Zealot 14, from memory | No Rage needed; the flight comes from Spectral Wings itself. 5 mana is *Revivify*'s level-3 price. A Reaction, as Rage of the Gods was (2026-11-15). |
 |  | **Blessed Strikes** | SRD Cleric 7 | |
 
 ## Open items from this pass
@@ -95,12 +97,12 @@ Parts are named as in `canon/parts-bin.md`; the source and level are there and i
 3. ~~Brutal Strike~~ **Settled 2026-11-15:** moved to Brute (308) and Brute II (615).
 4. ~~Zealous Presence~~ **Settled 2026-11-15:** renamed War Cry.
 5. ~~Rage of the Gods~~ **Settled 2026-11-15:** reworked as Divine Wings.
-6. **Wild Shape**: mostly settled 2026-11-15 (see 312). Still open: how known forms and maximum CR grow.
+6. ~~Wild Shape~~ **Settled 2026-11-15:** 4 mana; forms grow once, on Shaman II (623).
 7. **Fighting styles balance pass** (Troy asked to be reminded): extra styles now sit on 506, 511, 609 and 611, on top of the kits' styles. Check that no starting kit can reach too many.
-8. **Precision (204) is crowded**: Uncanny Dodge, Retaliation, Remarkable Athlete and Combat Superiority.
+8. ~~Precision is crowded~~ **Settled 2026-11-15:** Uncanny Dodge to Skirmisher (305), Retaliation to Virtuoso (306); Precision keeps Remarkable Athlete and Combat Superiority.
 9. ~~Unarmored Defense~~ **Settled 2026-11-15:** 10 + Dex + Con, on both 207 and 303.
 10. **Circle of the Sea (Blue) and Circle of the Stars (Grey)**: which arcs get what.
-11. **Divine Wings** (White 6): is the *Revivify* a Reaction, or free?
+11. ~~Divine Wings timing~~ **Settled 2026-11-15:** a Reaction.
 
 ## Working notes: Wild Shape and Vitality *(Troy, voice, 2026-11-15)*
 

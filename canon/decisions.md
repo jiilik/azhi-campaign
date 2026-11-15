@@ -8,6 +8,8 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 - **Wild Shape** (Troy, voice, later): costs **4 mana**, lasts **1 hour** (4 more mana sustains it), Bonus Action, otherwise as the SRD druid, but **no Temporary Hit Points**. Those move to the **Vitality line**: as a Bonus Action, spend mana for **5 / 8 / 12 Temporary Hit Points per mana** on Vitality (208), II (415) and III (622). Known forms and maximum CR still open.
 
+- **Commute, evening** (Troy, voice): Wild Shape forms grow once, on **Shaman II (623)**: 8 forms, up to CR 1, flying allowed (the SRD's middle step skipped; check the power curve later). **Divine Wings**' *Revivify* takes a **Reaction**. Precision uncrowded: **Uncanny Dodge to Skirmisher (305)**, **Retaliation to Virtuoso (306)**.
+
 ## 2026-11-14
 
 - **Parts-bin pass begun** (Troy, voice): parts assigned to tiles and arcs, all marked for review, in `canon/tile-assignments.md`; tiles named **Transient** (418), **Feedback** (519) and **Formation** (602). Weapon Mastery +1 on 305, 306, 307 and 613. Resistance tiles let you choose one type from a list (620: B/P/S; 624: a magical type). Cunning tiles to get mana; amounts to set. Later the same day: **Heroism** (512) named; extra Fighting Styles on 506, 511, 609 and 611 (balance pass to follow); Combat Superiority reworked to stamina on Precision (204), with its upgrades on 407 and 610; Circle of the Sea spells go to Blue's arcs and Circle of the Stars is reflavoured for Grey.
