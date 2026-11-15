@@ -29,6 +29,7 @@ Parts are named as in `canon/parts-bin.md`; the source and level are there and i
 | **301** | Warlord | **Guided Strike** (+10 to an attack) | PHB War Domain 3, from memory | Becomes a Warlord ability. |
 | **302** | Tactician | **Inspiring Movement** (Reaction: you and an ally move) | PHB College of Dance 6, from memory | |
 | **303** | Rogue | **Unarmored Defense**: 10 + Dex + Con | SRD Barbarian 1 | Also on 207; both use Dex + Con (2026-11-15). |
+|  |  | **Sneak Attack**: **1d6 free, plus 1d6 per stamina spent** | SRD Rogue 1, reworked | 2026-11-15. |
 | **304** | Ranger | **Favored Enemy** (a free *Hunter's Mark*) | SRD Ranger 1 | 2026-11-15. Free for now; check whether it should cost stamina. |
 |  |  | **Deft Explorer** (Expertise in a skill; two languages) | SRD Ranger 2 | 2026-11-15. Ranger (304) is getting full: Take Aim is here too. |
 | **305** | Skirmisher | **Weapon Mastery** +1 | SRD Fighter 4 / 10 / 16 | One of the four extra masteries. |
@@ -51,6 +52,7 @@ Parts are named as in `canon/parts-bin.md`; the source and level are there and i
 | **317** | Summoner | **Fey Reinforcements** (summon a spirit) | PHB Fey Wanderer 11, from memory | 2026-11-15. Needs a non-Fey flavour. Also gets the cantrip from 311–318. |
 | **318** | Hexer | **Beguiling Magic** | PHB College of Glamour 3, from memory | (Said "316" at first; 316 is Wizard.) |
 | **403** | Cunning II | **Trickery Domain spells**, part | PHB, from memory | |
+| **404** | **Ambush** *(named 2026-11-15)* | **Dread Ambusher** (Wisdom to Initiative; extra damage on the first turn) | PHB Gloom Stalker 3, from memory | 2026-11-15. Reached from Rogue (303) or Ranger (304). |
 | **405** | Mobility | **Fast Movement**: +10 feet of Speed while you aren't wearing Heavy armour | SRD Barbarian 5 | Kept, with the SRD's armour condition (2026-11-15): this is the fast tree, so conditions are fine. Greater Sidestep is here too. |
 |  |  | **Climb Speed and Swim Speed** | (new) | 2026-11-15. |
 | **407** | Precision II | **Improved Combat Superiority** | PHB Battle Master 10, from memory | |
@@ -77,7 +79,9 @@ Parts are named as in `canon/parts-bin.md`; the source and level are there and i
 | **602** | **Formation** *(named 2026-11-14)* | **Leading Evasion** (Evasion shared with nearby allies) | PHB College of Dance 14, from memory | |
 | **604** | Cunning III | **Trickery Domain spells**, part | PHB, from memory | |
 |  |  | **Nature's Veil** (Bonus Action invisibility) | SRD Ranger 14 | 2026-11-15. |
+|  |  | **Wisdom saving throw proficiency** | | 2026-11-15. |
 | **605** | Rogue II | **Unarmored Movement** (+10 Speed, rising) | SRD Monk 2 | 2026-11-15. Stacks with Mobility (405); see the Speed balance pass. |
+|  |  | **Sneak Attack improves**: every Sneak Attack die, free and bought, becomes a **d12** | (new) | 2026-11-15. Roughly doubles damage per stamina; for the balance pass. |
 | **607** | Ranger II | **Know Your Enemy** (assess a foe) | PHB Battle Master 7, from memory | |
 |  |  | **Tireless** (Temporary Hit Points; less Exhaustion) | SRD Ranger 10 | 2026-11-15. |
 |  |  | **Relentless Hunter** (Concentration on the mark can't be broken) | SRD Ranger 13 | 2026-11-15. |
@@ -97,6 +101,7 @@ Parts are named as in `canon/parts-bin.md`; the source and level are there and i
 |  |  | **Beast Spells** (cast while shape-changed) | SRD Druid 18 | |
 | **624** | — | **Resistance: choose one magical damage type** (fire, poison, thunder and the like) | | A resistance tile, like 620. Keeps its Wis +1. |
 | **625** | Oracle II | **Divine Intervention** | SRD Cleric 10 | |
+| **626** | **Teleport** *(named 2026-11-15)* | **Misty Wanderer** (*Misty Step* that brings a willing ally) | PHB Fey Wanderer 15, from memory | 2026-11-15. The upgrade to Transient's teleport: 626 is reached from 418 (checked). Reflavour without Fey. |
 | **628** | Lore III | **Magical Secrets** | SRD Bard 10 | Also on Lore II. |
 | **634** | Control III | **Guarded Mind** (psychic resistance; end Charmed or Frightened) | PHB Psi Warrior 10, from memory | |
 
@@ -133,6 +138,9 @@ Parts are named as in `canon/parts-bin.md`; the source and level are there and i
 14. **Wild Companion and Primal Companion** on Shaman (312): check they don't clash.
 15. **Fey flavour**: Dreadful Strikes, Otherworldly Glamour, the Fey Wanderer spells and Fey Reinforcements need non-Fey versions.
 16. **Fade (507)** upgrades Flurry of Blows, but can be reached without Skirmisher (305), through 304 and 405.
+17. **Climb and Swim Speed on Mobility (405)** may clash with the conflict check of 2026-11-07 (`canon/brainstorm-progression.md`): movement modes belong to the forms (climbing is Green's, swimming Blue's and Indigo's), and the Scout's movement should be Speed, Dash, jumps and repositioning. Keep, or drop?
+18. **Ranger (304) is crowded**: Free Dash or Disengage, Deflect Attacks (both from `canon/techniques.md`), Take Aim, Favored Enemy and Deft Explorer.
+19. **Sneak Attack's d12s on Rogue II (605)**: balance pass.
 
 ## Working notes: Wild Shape and Vitality *(Troy, voice, 2026-11-15)*
 
