@@ -183,7 +183,8 @@ HIT_DICE = {"201": "d6", "202": "d6", "203": "d8", "204": "d8", "205": "d10",
             "210": "d6", "211": "d4", "212": "d6"}
 # Ring 2 stamina and mana (Troy, 2026-11-09).
 POOLS = {"201": "{S}4",  # 4 from 2026-11-11 (was 3)
-          "202": "{S}4", "203": "{S}4", "204": "{S}4",
+          "202": "{M}2{S}3", "203": "{S}4",  # 202: Troy, 2026-11-15 (was {S}4)
+          "204": "{S}4",
          "205": "{S}2", "206": "{S}1", "208": "{M}2", "209": "{M}4",
          "210": "{M}4", "211": "{M}5", "212": "{M}2{S}2"}
 LINE3 = {}  # (q, r) -> line 3 for themed tiles
@@ -291,6 +292,10 @@ for num in ("509", "611"):                          # Fighter, next to the Scout
     MORE_POOLS[num] = "{S}3"
 for num in "411 616 514 617".split():               # heavy-armour seam, Tank edge
     MORE_POOLS[num] = "{S}1"
+# The Cunning line casts the Trickery spells: 2 mana and 3 stamina a tile
+# (Troy, voice, 2026-11-15; was 4 stamina).
+for num in ("403", "604"):
+    MORE_POOLS[num] = "{M}2{S}3"
 for num, pool in MORE_POOLS.items():
     h = BY_NUMBER[num]
     l1, l2, l3 = TILES[h]

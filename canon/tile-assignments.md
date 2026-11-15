@@ -10,13 +10,13 @@ Parts are named as in `canon/parts-bin.md`; the source and level are there and i
 |---|---|---|---|---|
 | **201** | Herald II | **Bardic Inspiration** | SRD Bard 1 | There's no bard class, so it lands on the Herald line. |
 |  |  | **Mantle of Inspiration** (Temporary Hit Points and free movement for allies) | PHB College of Glamour 3, from memory | |
-| **202** | Cunning | **Magical Discoveries** | SRD College of Lore 6 | Cunning will need a small mana pool to cast these (see Open items). |
+| **202** | Cunning | **Magical Discoveries** | SRD College of Lore 6 | The Cunning tiles now give **2 mana and 3 stamina** each (2026-11-15). |
 |  |  | **Trickery Domain spells**, part | PHB Trickery Domain, from memory | Spread across the three Cunning tiles (202, 403, 604). |
 | **204** | Precision | **Retaliation** (a Reaction melee attack) | SRD Path of the Berserker 10 | Uncanny Dodge is already here (2026-11-14). |
 |  |  | **Remarkable Athlete**, without the Initiative part: Advantage on Athletics, and move on a crit | SRD Champion 3 | |
 |  |  | **Combat Superiority**, reworked to spend stamina instead of superiority dice | PHB Battle Master 3, from memory | Precision is crowded (Uncanny Dodge, Retaliation, Remarkable Athlete); sort it out in the balance pass. |
 | **206** | Might | **Branches of the Tree** (Reaction: pull a foe to you, stop it) | PHB Path of the World Tree 6, from memory | |
-| **207** | Tank II | **Unarmored Defense** | SRD Barbarian 1 | |
+| **207** | Tank II | **Unarmored Defense**: 10 + Dex + Con | SRD Barbarian 1 | Same version on 303 (2026-11-15). |
 |  |  | **Danger Sense** (Advantage on Dexterity saves) | SRD Barbarian 2 | |
 | **208** | Vitality | **Warrior of the Gods** (a pool of healing dice) | PHB Path of the Zealot 3, from memory | |
 |  |  | **Warding Flare** | PHB Light Domain 3, from memory | |
@@ -28,10 +28,10 @@ Parts are named as in `canon/parts-bin.md`; the source and level are there and i
 | **306** | Virtuoso | **Weapon Mastery** +1 | SRD Fighter | |
 | **307** | Champion | **Weapon Mastery** +1 | SRD Fighter | |
 |  |  | **Reckless Attack** | SRD Barbarian 2 | |
-|  |  | **Brutal Strike** | SRD Barbarian 9 | May move to **Brute (308)** instead. |
 | **308** | Brute | **Intimidating Presence** (frighten a 30-foot area) | SRD Path of the Berserker 14 | |
 |  |  | **Improved Critical** (crit on 19–20) | SRD Champion 3 | |
-| **303** | Rogue | **Unarmored Defense** | SRD Barbarian 1 or Monk 1 | Also on 207. *Which version* (10 + Dex + Con, or 10 + Dex + Wis) to settle. |
+|  |  | **Brutal Strike** | SRD Barbarian 9 | Moved from Champion (307), 2026-11-15: it suits a brute. |
+| **303** | Rogue | **Unarmored Defense**: 10 + Dex + Con | SRD Barbarian 1 | Also on 207; both use Dex + Con (2026-11-15). |
 | **311–318** | Blood Mage, Shaman, Oracle, Sage, Alchemist, Wizard, Summoner, Hexer | **One new cantrip each** | (Cantrip progression of the casters) | Every ring-3 tile from 311 to 318. |
 | **312** | Shaman | **Animal Speaker** | PHB Path of the Wild Heart 3, from memory | |
 |  |  | **Life Domain spells**, mostly | SRD Life Domain | |
@@ -39,7 +39,7 @@ Parts are named as in `canon/parts-bin.md`; the source and level are there and i
 |  |  | **Wild Companion** (Find Familiar from Wild Shape uses) | SRD Druid 2 | |
 | **318** | Hexer | **Beguiling Magic** | PHB College of Glamour 3, from memory | (Said "316" at first; 316 is Wizard.) |
 | **403** | Cunning II | **Trickery Domain spells**, part | PHB, from memory | |
-| **405** | Mobility | **Fast Movement** (+10 Speed), tentative | SRD Barbarian 5 | Check against the speed already given: 405 has none on the tile itself; the Scout Kit gives +5 feet. Greater Sidestep is here (2026-11-14). |
+| **405** | Mobility | **Fast Movement**: +10 feet of Speed while you aren't wearing Heavy armour | SRD Barbarian 5 | Kept, with the SRD's armour condition (2026-11-15): this is the fast tree, so conditions are fine. Greater Sidestep is here too. |
 | **407** | Precision II | **Improved Combat Superiority** | PHB Battle Master 10, from memory | |
 | **415** | Vitality II | **Improved Warding Flare** | PHB Light Domain 6, from memory | |
 | **418** | **Transient** *(named 2026-11-14)* | **A Bonus Action teleport**, like *Misty Step* | SRD spell, level 2 | Probably free; cost to settle later. Keeps its Wis +1. |
@@ -50,7 +50,7 @@ Parts are named as in `canon/parts-bin.md`; the source and level are there and i
 | **511** | — | **An additional Fighting Style** | SRD Champion 7 | |
 | **512** | **Heroism** *(named 2026-11-14)* | **Heroic Warrior** (Heroic Inspiration each turn) | SRD Champion 10 | |
 | **519** | **Feedback** *(named 2026-11-14)* | **Blessed Healer** (heal yourself when you heal others) | SRD Life Domain 6 | |
-| **601** | Warlord II | **Zealous Presence** (a war cry: Advantage for many allies) | PHB Path of the Zealot 10, from memory | **Rename**: the effect suits the Warlord, the name doesn't. |
+| **601** | Warlord II | **War Cry** (was Zealous Presence: Advantage for many allies) | PHB Path of the Zealot 10, from memory | Renamed 2026-11-15. |
 |  |  | **Superior Inspiration** | SRD Bard 18 | |
 | **602** | **Formation** *(named 2026-11-14)* | **Leading Evasion** (Evasion shared with nearby allies) | PHB College of Dance 14, from memory | |
 | **607** | Ranger II | **Know Your Enemy** (assess a foe) | PHB Battle Master 7, from memory | |
@@ -60,8 +60,8 @@ Parts are named as in `canon/parts-bin.md`; the source and level are there and i
 |  |  | **An additional Fighting Style** | SRD Champion 7 | |
 | **604** | Cunning III | **Trickery Domain spells**, part | PHB, from memory | |
 | **613** | Champion II | **Weapon Mastery** +1 | SRD Fighter | The fourth extra mastery. |
-|  |  | **Improved Brutal Strike** | SRD Barbarian 13 / 17 | May move to **Brute II** instead. |
 | **615** | Brute II | **Superior Critical** (crit on 18–20) | SRD Champion 15 | |
+|  |  | **Improved Brutal Strike** | SRD Barbarian 13 / 17 | Moved from Champion II (613), 2026-11-15. |
 | **617** | Bulwark II | **Bulwark of Force** (half cover for allies) | PHB Psi Warrior 15, from memory | |
 | **620** | — | **Resistance: choose one** of Bludgeoning, Piercing or Slashing | from **Avatar of Battle** (PHB War Domain 17, from memory) | A resistance tile: you pick one type from the tile's list. |
 | **623** | Shaman II | **Supreme Healing** (healing dice roll their maximum) | SRD Life Domain 17 | |
@@ -82,18 +82,18 @@ Parts are named as in `canon/parts-bin.md`; the source and level are there and i
 | **Blue**, several arcs | **Circle of the Sea spells**, scattered across the Blue rings | PHB Circle of the Sea, from memory | Which arcs, to settle. |
 | **Grey**, several arcs | **Circle of the Stars**, reflavoured for Grey | PHB Circle of the Stars, from memory | Which parts and arcs, to settle. |
 | **White 1** | **Channel Divinity** | SRD Cleric 2 | To be expanded within the White arcs. |
-| **White 6** | **Rage of the Gods** (flight, resistances, prevent an ally's death) | PHB Path of the Zealot 14, from memory | **Adjust**: White doesn't rage (Rage is Brown's), so this needs reworking. |
+| **White 6** | **Divine Wings** (reworked from Rage of the Gods, 2026-11-15): while your Spectral Wings are out, you have Resistance to Necrotic, Psychic and Radiant damage, and when a creature you can see falls to 0 hit points, you can cast *Revivify* on it for 5 mana. | PHB Path of the Zealot 14, from memory | No Rage needed; the flight comes from Spectral Wings itself. 5 mana is *Revivify*'s level-3 price. *(Claude: its timing, a Reaction or not, to settle.)* |
 |  | **Blessed Strikes** | SRD Cleric 7 | |
 
 ## Open items from this pass
 
-1. **Cunning needs mana** to use Magical Discoveries and the Trickery Domain spells. Troy: give the Cunning tiles (202, 403, 604) "enough mana to be able to use them". Today they have 4 stamina each and no mana. Amounts to be set.
-2. **Fast Movement on 405**: check how much speed the Scout line already gives before keeping +10.
-3. **Brutal Strike and Improved Brutal Strike** may move from Champion (307, 613) to Brute (308) and Brute II.
-4. **Zealous Presence on 601** needs a Warlord name.
-5. **Rage of the Gods on White 6** needs reworking without Rage.
+1. ~~Cunning needs mana~~ **Settled 2026-11-15:** 202, 403 and 604 give 2 mana and 3 stamina each.
+2. ~~Fast Movement on 405~~ **Settled 2026-11-15:** kept, +10 feet, not in Heavy armour.
+3. ~~Brutal Strike~~ **Settled 2026-11-15:** moved to Brute (308) and Brute II (615).
+4. ~~Zealous Presence~~ **Settled 2026-11-15:** renamed War Cry.
+5. ~~Rage of the Gods~~ **Settled 2026-11-15:** reworked as Divine Wings.
 6. **Wild Shape** is to be reworked.
 7. **Fighting styles balance pass** (Troy asked to be reminded): extra styles now sit on 506, 511, 609 and 611, on top of the kits' styles. Check that no starting kit can reach too many.
 8. **Precision (204) is crowded**: Uncanny Dodge, Retaliation, Remarkable Athlete and Combat Superiority.
-9. **Unarmored Defense on 303**: which version.
+9. ~~Unarmored Defense~~ **Settled 2026-11-15:** 10 + Dex + Con, on both 207 and 303.
 10. **Circle of the Sea (Blue) and Circle of the Stars (Grey)**: which arcs get what.
