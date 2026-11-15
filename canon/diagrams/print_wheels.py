@@ -1,11 +1,12 @@
 """Printable progression wheels (Troy, 2026-11-11) -> progression-wheels-print.pdf.
 
-Two US Letter pages, in colour, for scribbling on and for explaining the
+Two US Letter pages of wheels, in colour, then the tile and arc details, for scribbling on and for explaining the
 progression rules to a reviewer:
   1. the skills grid (skills_grid.py -> skills-grid.pdf)
   2. the species advancement wheel (art/cartoon/species_advancement.py --print,
      white page -> art/cartoon/output/species_advancement.pdf)
 Both are regenerated first, then each is scaled to fit its page.
+Then the details of every tile and arc (print_details.py, Troy, 2026-11-15).
 
 Usage: python3 canon/diagrams/print_wheels.py
 """
@@ -36,6 +37,11 @@ for src in (os.path.join(HERE, "skills-grid.pdf"),
     page.mediabox.upper_right = (W, H)
     blank = out.add_blank_page(W, H)
     blank.merge_page(page)
+subprocess.run([sys.executable, os.path.join(HERE, "print_details.py")], check=True)
+details = os.path.join(HERE, "_details.pdf")
+for page in PdfReader(details).pages:
+    out.add_page(page)
 dest = os.path.join(HERE, "progression-wheels-print.pdf")
 out.write(dest)
+os.remove(details)
 print(dest)
