@@ -12,6 +12,16 @@ Newest first. One line per decision: what was decided, and why if a reason was g
 
 - **Parts-bin pass, part 3** (Troy, voice): monk parts (Flurry of Blows on Skirmisher 305; Unarmored Movement on Rogue II 605; Uncanny Metabolism on Green 1; Stunning Strike on Precision II 407; Acrobatic Movement on 608, named **Acrobat**; Open Hand Technique reflavoured on 507, named **Fade**, as Flurry's upgrade); Smite on Might (206) with upgrades on Might II and III, Smite of Protection on Bulwark (309); resistance tiles 509 (a physical type, stacks with 620) and 515 (any type); ranger parts (Favored Enemy and Deft Explorer on 304; Climb and Swim Speed on 405; Tireless and Relentless Hunter on 607; Nature's Veil on 604; 506 named **Hunter** with Hunter's Lore and Hunter's Prey; Defensive Tactics on 507; Primal Companion on Shaman 312; 510 named **Beasts** with Exceptional Training); Wild Companion's *Find Familiar* costs 2 mana; Fey Wanderer parts on the Mystic line (Dreadful Strikes on the Mystic Kit; Otherworldly Glamour and the Fey Wanderer spells on 209; Fey Reinforcements on Summoner 317), all to be reflavoured without Fey. All REVIEW, in `canon/tile-assignments.md`.
 
+- **Open-items sweep** (Troy, voice):
+  - **Upgrade rule:** an upgrade taken without its base tile gives nothing from that part (the tile still gives its Hit Die and pools). No path can guarantee the base; planning is the player's job. Applies to every upgrade line.
+  - **Favored Enemy:** *Hunter's Mark* for 1 stamina, as often as you like.
+  - **Companions:** Wild Companion and Primal Companion don't clash. Exceptional Training moves from 510 to **520**, which is named **Beasts**; 510 is unnamed again.
+  - **Fey becomes Mystic** in the parts' names (Mystic Wanderer spells, Mystic Reinforcements).
+  - **Deft Explorer** moves from Ranger (304) to Scout II (203).
+  - **Speed:** Unarmored Movement is a fixed +10, with no armour and no shield.
+  - **Sneak Attack d12s:** no cap; test in the munchkin playtest.
+  - **Fighting styles:** all four extra styles stay; at most about three apply at once.
+  - **Wild Shape curve:** fine as it stands.
 - **Hexer line pools** (Troy, voice): 318, 424, 529, 530, 635 and 636 all give **1 mana and 3 stamina**. 318, 424, 530 and 636 were 4 stamina; 529 and 635 already were 1 mana and 3 stamina. Each now counts toward prepared spells (one per mana tile).
 - **Parts-bin pass, part 5** (Troy, voice): **Bonus Action Hide**, free, on Rogue (303). **Cunning Strike** on Rogue II (605), with Improved Cunning Strike folded in (a second effect costs more stamina). **Fast Hands** on Cunning (202). **Dexterity jumps** (Second-Story Work's Jumper) on 505. Second-Story Work's Climb Speed was put on Ambush (404) and then dropped. **Mobility (405) keeps its Climb and Swim Speed**: the 2026-11-07 point that movement modes belong to the forms is a guideline, not a hard rule. All REVIEW.
 - **Parts-bin pass, part 4** (Troy, voice): 626 named **Teleport**, with Misty Wanderer; 404 named **Ambush**, with Dread Ambusher; Cunning III (604) gives Wisdom save proficiency; **Sneak Attack** on Rogue (303) is 1d6 free plus 1d6 per stamina, and on Rogue II (605) every Sneak Attack die becomes a d12. All REVIEW.

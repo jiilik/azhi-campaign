@@ -8,12 +8,13 @@ Parts are named as in `canon/parts-bin.md`; the source and level are there and i
 
 | Tile | Name | Assigned | Source | Notes |
 |---|---|---|---|---|
-| **15** | Mystic Kit | **Dreadful Strikes** (extra Psychic damage) | PHB Fey Wanderer 3, from memory | 2026-11-15. Fey Wanderer parts on the Mystic line are reflavoured: there is no Fey on Azhi. |
+| **15** | Mystic Kit | **Dreadful Strikes** (extra Psychic damage) | PHB Fey Wanderer 3, from memory | 2026-11-15. Fey Wanderer parts are reflavoured: there is no Fey on Azhi, so **Fey becomes Mystic** (Troy, voice). |
 | **201** | Herald II | **Bardic Inspiration** | SRD Bard 1 | There's no bard class, so it lands on the Herald line. |
 |  |  | **Mantle of Inspiration** (Temporary Hit Points and free movement for allies) | PHB College of Glamour 3, from memory | |
 | **202** | Cunning | **Magical Discoveries** | SRD College of Lore 6 | The Cunning tiles now give **2 mana and 3 stamina** each (2026-11-15). |
 |  |  | **Trickery Domain spells**, part | PHB Trickery Domain, from memory | Spread across the three Cunning tiles (202, 403, 604). |
 |  |  | **Fast Hands** (Bonus Action: Sleight of Hand with Thieves' Tools or to pick a pocket; or Utilize, or use a magic item) | SRD Thief 3 | 2026-11-15. |
+| **203** | Scout II | **Deft Explorer** (Expertise in a skill; two languages) | SRD Ranger 2 | Moved from Ranger (304), 2026-11-15, to uncrowd it. |
 | **204** | Precision | **Remarkable Athlete**, without the Initiative part: Advantage on Athletics, and move on a crit | SRD Champion 3 | |
 |  |  | **Combat Superiority**, reworked to spend stamina instead of superiority dice | PHB Battle Master 3, from memory | The Combat Superiority line runs Precision, II, III (204, 407, 610). Uncanny Dodge and Retaliation moved out to ring 3 (2026-11-15). |
 | **206** | Might | **Branches of the Tree** (Reaction: pull a foe to you, stop it) | PHB Path of the World Tree 6, from memory | |
@@ -26,14 +27,13 @@ Parts are named as in `canon/parts-bin.md`; the source and level are there and i
 | **209** | Mystic II | **Light Domain spells**, most of them | PHB Light Domain, from memory | |
 |  |  | **Radiance of the Dawn** | PHB Light Domain 3, from memory | |
 |  |  | **Otherworldly Glamour** (Wisdom added to Charisma checks; a skill) | PHB Fey Wanderer 3, from memory | 2026-11-15, reflavoured. |
-|  |  | **Fey Wanderer spells** made available | PHB Fey Wanderer 3, from memory | 2026-11-15, reflavoured. 209 is heavy (Light Domain spells too); Troy is fine with that. |
+|  |  | **Mystic Wanderer spells** *(was Fey Wanderer spells)* made available | PHB Fey Wanderer 3, from memory | 2026-11-15, reflavoured. 209 is heavy (Light Domain spells too); Troy is fine with that. |
 | **301** | Warlord | **Guided Strike** (+10 to an attack) | PHB War Domain 3, from memory | Becomes a Warlord ability. |
 | **302** | Tactician | **Inspiring Movement** (Reaction: you and an ally move) | PHB College of Dance 6, from memory | |
 | **303** | Rogue | **Unarmored Defense**: 10 + Dex + Con | SRD Barbarian 1 | Also on 207; both use Dex + Con (2026-11-15). |
 |  |  | **Sneak Attack**: **1d6 free, plus 1d6 per stamina spent** | SRD Rogue 1, reworked | 2026-11-15. |
 |  |  | **Bonus Action Hide**, free (0 stamina) | SRD Rogue 2 (Cunning Action), the Hide part | 2026-11-15. Completes Cunning Action with Ranger's (304) free Dash or Disengage. |
-| **304** | Ranger | **Favored Enemy** (a free *Hunter's Mark*) | SRD Ranger 1 | 2026-11-15. Free for now; check whether it should cost stamina. |
-|  |  | **Deft Explorer** (Expertise in a skill; two languages) | SRD Ranger 2 | 2026-11-15. Ranger (304) is getting full: Take Aim is here too. |
+| **304** | Ranger | **Favored Enemy**: cast *Hunter's Mark* for **1 stamina** (instead of the expected 2), as often as you like; still Concentration | SRD Ranger 1, reworked | 2026-11-15. The SRD gives two free castings per Long Rest, rising to six. |
 | **305** | Skirmisher | **Weapon Mastery** +1 | SRD Fighter 4 / 10 / 16 | One of the four extra masteries. |
 |  |  | **Uncanny Dodge** (technique, `canon/techniques.md`) | SRD Rogue 5, reworked | Moved from Precision (204), 2026-11-15. Reached from Scout II (203) or Precision. |
 |  |  | **Flurry of Blows** | SRD Monk 2 (Monk's Focus) | 2026-11-15. Costs a Focus Point in the SRD; probably stamina here. Upgraded on 507. |
@@ -51,7 +51,7 @@ Parts are named as in `canon/parts-bin.md`; the source and level are there and i
 |  |  | **Wild Shape**, reworked (2026-11-15): **4 mana**, Bonus Action, lasts **1 hour** (spend 4 more mana to keep it going); **no Temporary Hit Points** (they moved to the Vitality tiles). Otherwise as the SRD druid: **4 known forms, up to CR 1/4, no Fly Speed**. | SRD Druid 2 | Forms grow on Shaman II (623). The SRD's middle step (6 forms to CR 1/2) is skipped. |
 |  |  | **Wild Companion**: cast *Find Familiar* for **2 mana** (its level-1 price, not Wild Shape's 4) | SRD Druid 2 | Cost set 2026-11-15. |
 |  |  | **Primal Companion** (a beast of land, sea or sky) | PHB Beast Master 3, from memory | 2026-11-15. Check it doesn't clash with Wild Companion (a separate familiar). Shaman (312) is crowded. |
-| **317** | Summoner | **Fey Reinforcements** (summon a spirit) | PHB Fey Wanderer 11, from memory | 2026-11-15. Needs a non-Fey flavour. Also gets the cantrip from 311–318. |
+| **317** | Summoner | **Mystic Reinforcements** *(was Fey Reinforcements)* (summon a spirit) | PHB Fey Wanderer 11, from memory | 2026-11-15. Its spell, *Summon Fey*, is PHB only (not in the SRD), so it needs its own text. Also gets the cantrip from 311–318. |
 | **318** | Hexer | **Beguiling Magic** | PHB College of Glamour 3, from memory | (Said "316" at first; 316 is Wizard.) |
 | **403** | Cunning II | **Trickery Domain spells**, part | PHB, from memory | |
 | **404** | **Ambush** *(named 2026-11-15)* | **Dread Ambusher** (Wisdom to Initiative; extra damage on the first turn) | PHB Gloom Stalker 3, from memory | 2026-11-15. Reached from Rogue (303) or Ranger (304). |
@@ -69,23 +69,23 @@ Parts are named as in `canon/parts-bin.md`; the source and level are there and i
 | **506** | **Hunter** *(named 2026-11-15)* | **An additional Fighting Style** | SRD Fighter / Champion 7 | |
 |  |  | **Hunter's Lore** (learn a marked foe's defences) | SRD Hunter 3 | 2026-11-15. |
 |  |  | **Hunter's Prey** (Colossus Slayer or Horde Breaker) | SRD Hunter 3 | 2026-11-15. |
-| **507** | **Fade** *(named 2026-11-15)* | **Open Hand Technique**, reflavoured so it isn't monk-specific: Flurry of Blows also topples, pushes or denies Reactions | SRD Warrior of the Open Hand 3 | 2026-11-15. The upgrade to Flurry (305). *Check:* 507 is reached from 405 or 406, so a Scout can arrive via 304 and 405 without Flurry. |
+| **507** | **Fade** *(named 2026-11-15)* | **Open Hand Technique**, reflavoured so it isn't monk-specific: Flurry of Blows also topples, pushes or denies Reactions | SRD Warrior of the Open Hand 3 | 2026-11-15. The upgrade to Flurry (305). 507 can be reached without 305; under the upgrade rule (item 20) it then does nothing. |
 |  |  | **Defensive Tactics** | SRD Hunter 7 | 2026-11-15. |
 | **509** | — | **Resistance: choose one physical type** (Bludgeoning, Piercing or Slashing) | | 2026-11-15. Stacks with 620: taking both gives two types. |
-| **510** | **Beasts** *(named 2026-11-15)* | **Exceptional Training** (better commands; Force damage) | PHB Beast Master 7, from memory | 2026-11-15. Keeps its Attack Up. |
 | **511** | — | **An additional Fighting Style** | SRD Champion 7 | |
 | **512** | **Heroism** *(named 2026-11-14)* | **Heroic Warrior** (Heroic Inspiration each turn) | SRD Champion 10 | |
 | **515** | — | **Resistance: choose any one damage type** | | 2026-11-15. Next to Bulwark, so a tank can resist what it fears most. |
 | **519** | **Feedback** *(named 2026-11-14)* | **Blessed Healer** (heal yourself when you heal others) | SRD Life Domain 6 | |
+| **520** | **Beasts** *(named 2026-11-15)* | **Exceptional Training** (better commands; Force damage) | PHB Beast Master 7, from memory | 2026-11-15. Moved from 510, which is on the Fighter side and out of the Shaman's reach. 520 is reached from 416 or 417; Shaman (312) leads there through 416 (checked). |
 | **601** | Warlord II | **War Cry** (was Zealous Presence: Advantage for many allies) | PHB Path of the Zealot 10, from memory | Renamed 2026-11-15. |
 |  |  | **Superior Inspiration** | SRD Bard 18 | |
 | **602** | **Formation** *(named 2026-11-14)* | **Leading Evasion** (Evasion shared with nearby allies) | PHB College of Dance 14, from memory | |
 | **604** | Cunning III | **Trickery Domain spells**, part | PHB, from memory | |
 |  |  | **Nature's Veil** (Bonus Action invisibility) | SRD Ranger 14 | 2026-11-15. |
 |  |  | **Wisdom saving throw proficiency** | | 2026-11-15. |
-| **605** | Rogue II | **Unarmored Movement** (+10 Speed, rising) | SRD Monk 2 | 2026-11-15. Stacks with Mobility (405); see the Speed balance pass. |
+| **605** | Rogue II | **Unarmored Movement**: **+10 Speed, fixed**, with no armour and no shield | SRD Monk 2, reworked | 2026-11-15. The SRD's rise with level (to +30) is dropped. Stacks with Mobility (405). |
 |  |  | **Sneak Attack improves**: every Sneak Attack die, free and bought, becomes a **d12** | (new) | 2026-11-15. Roughly doubles damage per stamina; for the balance pass. |
-|  |  | **Cunning Strike**, with **Improved Cunning Strike folded in**: forgo Sneak Attack dice for an effect (Poison, Trip, Withdraw); a **second effect** on the same hit costs more stamina | SRD Rogue 5 and 11, reworked | 2026-11-15. With d12s, each forgone die costs about 6.5 damage instead of 3.5. |
+|  |  | **Cunning Strike**, with **Improved Cunning Strike folded in**: forgo Sneak Attack dice for an effect (Poison, Trip, Withdraw); a **second effect** on the same hit costs more stamina | SRD Rogue 5 and 11, reworked | 2026-11-15. With d12s, each forgone die costs about 6.5 damage instead of 3.5. **No cap** on stamina per hit: left for the munchkin playtest. |
 | **607** | Ranger II | **Know Your Enemy** (assess a foe) | PHB Battle Master 7, from memory | |
 |  |  | **Tireless** (Temporary Hit Points; less Exhaustion) | SRD Ranger 10 | 2026-11-15. |
 |  |  | **Relentless Hunter** (Concentration on the mark can't be broken) | SRD Ranger 13 | 2026-11-15. |
@@ -105,7 +105,7 @@ Parts are named as in `canon/parts-bin.md`; the source and level are there and i
 |  |  | **Beast Spells** (cast while shape-changed) | SRD Druid 18 | |
 | **624** | — | **Resistance: choose one magical damage type** (fire, poison, thunder and the like) | | A resistance tile, like 620. Keeps its Wis +1. |
 | **625** | Oracle II | **Divine Intervention** | SRD Cleric 10 | |
-| **626** | **Teleport** *(named 2026-11-15)* | **Misty Wanderer** (*Misty Step* that brings a willing ally) | PHB Fey Wanderer 15, from memory | 2026-11-15. The upgrade to Transient's teleport: 626 is reached from 418 (checked). Reflavour without Fey. |
+| **626** | **Teleport** *(named 2026-11-15)* | **Misty Wanderer** (*Misty Step* that brings a willing ally) | PHB Fey Wanderer 15, from memory | 2026-11-15. The upgrade to Transient's teleport: 626 is reached from 418 (checked). Mystic, not Fey. |
 | **628** | Lore III | **Magical Secrets** | SRD Bard 10 | Also on Lore II. |
 | **634** | Control III | **Guarded Mind** (psychic resistance; end Charmed or Frightened) | PHB Psi Warrior 10, from memory | |
 
@@ -132,20 +132,21 @@ Parts are named as in `canon/parts-bin.md`; the source and level are there and i
 4. ~~Zealous Presence~~ **Settled 2026-11-15:** renamed War Cry.
 5. ~~Rage of the Gods~~ **Settled 2026-11-15:** reworked as Divine Wings.
 6. ~~Wild Shape~~ **Settled 2026-11-15:** 4 mana; forms grow once, on Shaman II (623).
-7. **Fighting styles balance pass** (Troy asked to be reminded): extra styles now sit on 506, 511, 609 and 611, on top of the kits' styles. Check that no starting kit can reach too many.
+7. ~~Fighting styles balance pass~~ **Settled 2026-11-15:** all four extra styles stay (506, 511, 609, 611). Many styles exclude each other, so at most about three apply at once.
 8. ~~Precision is crowded~~ **Settled 2026-11-15:** Uncanny Dodge to Skirmisher (305), Retaliation to Virtuoso (306); Precision keeps Remarkable Athlete and Combat Superiority.
 9. ~~Unarmored Defense~~ **Settled 2026-11-15:** 10 + Dex + Con, on both 207 and 303.
 10. **Circle of the Sea (Blue) and Circle of the Stars (Grey)**: which arcs get what.
 11. ~~Divine Wings timing~~ **Settled 2026-11-15:** a Reaction.
-12. **Speed balance pass**: how many speed tiles a character can reach (Mobility 405, Unarmored Movement 605, the Scout Kit's +5) and whether it breaks anything.
-13. **Favored Enemy (304)**: free for now; check whether it should cost stamina.
-14. **Wild Companion and Primal Companion** on Shaman (312): check they don't clash.
-15. **Fey flavour**: Dreadful Strikes, Otherworldly Glamour, the Fey Wanderer spells and Fey Reinforcements need non-Fey versions.
-16. **Fade (507)** upgrades Flurry of Blows, but can be reached without Skirmisher (305), through 304 and 405.
+12. ~~Speed balance pass~~ **Settled 2026-11-15:** the top is about 55 feet (30 + 5 kit + 10 Mobility + 10 Unarmored Movement), 110 with the free Dash; the SRD monk reaches 60. Unarmored Movement stays at a fixed +10, with no armour or shield.
+13. ~~Favored Enemy~~ **Settled 2026-11-15:** *Hunter's Mark* for 1 stamina, as often as you like.
+14. ~~Wild and Primal Companion~~ **Settled 2026-11-15:** no clash. Wild Companion is a cheap *Find Familiar* (a scout that can't attack); Primal Companion is a combat beast. Exceptional Training moved from 510 to 520 (Beasts), within the Shaman's reach.
+15. ~~Fey flavour~~ **Settled 2026-11-15:** Fey becomes Mystic (Mystic Wanderer spells, Mystic Reinforcements). Still to write: Mystic Reinforcements' summon, since *Summon Fey* isn't in the SRD.
+16. ~~Fade (507) without Skirmisher (305)~~ **Settled 2026-11-15** by item 20.
 17. ~~Climb and Swim Speed on Mobility (405)~~ **Settled 2026-11-15:** kept. The 2026-11-07 point that movement modes belong to the forms is a guideline, not a hard rule.
-18. **Ranger (304) is crowded**: Free Dash or Disengage, Deflect Attacks (both from `canon/techniques.md`), Take Aim, Favored Enemy and Deft Explorer.
-19. **Sneak Attack's d12s on Rogue II (605)**: balance pass, together with Cunning Strike's costs.
-20. **Upgrade tiles can be reached without their base tile.** Checked on the grid (2026-11-15): Rogue II (605) without Rogue (303), so Cunning Strike and the d12s can arrive with no Sneak Attack; also 407 without 204, 610 without 407, 411 without 206, 616 without 411, 415 without 208, 622 without 415, 403 without 202, 604 without 403, 623 without 312, 626 without 418, 505 without 405, and 507 without 305 (item 16). Only 607 needs 304. Needs one general rule.
+18. ~~Ranger (304) is crowded~~ **Settled 2026-11-15:** Deft Explorer moved to Scout II (203).
+19. **Sneak Attack's d12s on Rogue II (605)**: no cap on stamina per hit for now (Troy, 2026-11-15: "let's break it"). Test in the munchkin playtest, with Cunning Strike's costs. 5 stamina gives 6d12 (about 39) against an SRD level-11 rogue's 6d6 (about 21).
+20. ~~Upgrade tiles can be reached without their base tile~~ **Settled 2026-11-15, general rule:** no path can guarantee the base, so an upgrade taken without its base gives **nothing from that part**; the tile still gives its Hit Die and pools. Planning for this is the player's job. (Grid check: 605 without 303; 407 without 204; 610 without 407; 411 without 206; 616 without 411; 415 without 208; 622 without 415; 403 without 202; 604 without 403; 623 without 312; 626 without 418; 505 without 405; 507 without 305; 520 without 312. Only 607 needs 304.)
+21. **Wild Shape curve** checked 2026-11-15, fine: Shaman (312) at level 3 at the earliest (SRD CR 1/4 forms at level 2); Shaman II (623) at level 6 at the earliest (SRD CR 1 and flying at level 8), but rushing skips Prof. Up and Attack Up tiles, and Wild Shape has no Temporary Hit Points.
 
 ## Working notes: Wild Shape and Vitality *(Troy, voice, 2026-11-15)*
 
