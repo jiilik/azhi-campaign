@@ -296,6 +296,10 @@ for num in "411 616 514 617".split():               # heavy-armour seam, Tank ed
 # (Troy, voice, 2026-11-15; was 4 stamina).
 for num in ("403", "604"):
     MORE_POOLS[num] = "{M}2{S}3"
+# The Hexer line gets some mana: 1 mana and 3 stamina a tile, like 529 and
+# 635 already had (Troy, voice, 2026-11-15; 318, 424, 530 and 636 were 4 stamina).
+for num in "318 424 529 530 635 636".split():
+    MORE_POOLS[num] = "{M}1{S}3"
 for num, pool in MORE_POOLS.items():
     h = BY_NUMBER[num]
     l1, l2, l3 = TILES[h]
