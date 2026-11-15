@@ -343,7 +343,7 @@ for num, name in {"405": "Mobility", "508": "Evasion", "418": "Transient", "519"
     name_tile(BY_NUMBER[num], name)
 # Tiles with parts assigned in the parts-bin pass, all marked for review with
 # an orange dot (Troy, 2026-11-14). The list lives in canon/tile-assignments.md.
-REVIEW = set("201 202 204 206 207 208 209 301 302 305 306 307 308 311 312 313 314 315 316 317 318 "
+REVIEW = set("201 202 204 206 207 208 209 301 302 305 306 307 308 311 312 313 314 315 316 317 318 622 "
              "303 403 405 407 415 418 419 423 506 511 512 519 601 602 604 607 609 610 611 613 615 617 620 623 624 625 628 634".split())
 print("ring 6 II tiles:", " ".join(NUMBERS[(2 * BY_NUMBER[n][0], 2 * BY_NUMBER[n][1])] for n in RING3_NAMES))
 # Ability score +1 tiles (Troy, voice, 2026-11-12): with feats gone, these
