@@ -485,15 +485,21 @@ for i, ab in enumerate(ABILITIES):
 
 lim = SIZE * (RINGS * 1.5 + 3.4)
 ax.set_xlim(-lim, lim)
-ax.set_ylim(-lim - 3.2, lim + 2.4)
+ax.set_ylim(-lim - 4.6, lim + 2.4)
 title = "Azhi: the Skills Grid (draft, 2026-11-14)"
 ax.text(0, lim + 2.0, title, ha="center",
         va="center", fontsize=15, weight="bold")
-ax.text(0, -lim - 2.0,
-        "Centre and ring 1: populated (Req / name / what adds up).  Ring 2: 201-202 technique tiles.  Italic labels outside the grid: fantasy themes.\n"
-        "Prof. Up (Proficiency Bonus +1): ring 4 seams and ring 6 corners.  Attack Up (Damage Boost): rings 5 and 6.  Every tile has a Hit Die.  Orange dot: parts assigned, to review (canon/tile-assignments.md).  127 hexes in all.  PROPOSED design; see canon/brainstorm-progression.md.",
-        ha="center", va="center", fontsize=8, color="#444")
-place_line(ax, 0, -lim - 2.6, "{H} Hit Die     {S} stamina (SP)     {M} mana (MP)", zoom=0.14)
+# The caption is wrapped to the grid's width, so it can't widen the figure
+# and shrink the grid on a printed page (Troy, 2026-11-15).
+import textwrap
+CAPTION = ("Centre and ring 1: populated (Req / name / what adds up).  Ring 2: 201-202 technique tiles.  "
+           "Italic labels outside the grid: fantasy themes.  Prof. Up (Proficiency Bonus +1): ring 4 seams and "
+           "ring 6 corners.  Attack Up (Damage Boost): rings 5 and 6.  Every tile has a Hit Die.  Orange dot: parts "
+           "assigned, to review (canon/tile-assignments.md).  127 hexes in all.  PROPOSED design; see "
+           "canon/brainstorm-progression.md.")
+ax.text(0, -lim - 2.2, "\n".join(textwrap.wrap(CAPTION, 120)),
+        ha="center", va="top", fontsize=8, color="#444", linespacing=1.4)
+place_line(ax, 0, -lim - 1.75, "{H} Hit Die     {S} stamina (SP)     {M} mana (MP)", zoom=0.14)
 
 here = os.path.dirname(os.path.abspath(__file__))
 stem = os.path.join(here, "skills-grid" + ("-mono" if PRINT else ""))
