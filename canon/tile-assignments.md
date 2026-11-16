@@ -75,8 +75,11 @@ Parts are named as in `canon/parts-bin.md`; the source and level are there and i
 | **511** | — | **An additional Fighting Style** | SRD Champion 7 | |
 | **512** | **Heroism** *(named 2026-11-14)* | **Heroic Warrior** (Heroic Inspiration each turn) | SRD Champion 10 | |
 | **515** | — | **Resistance: choose any one damage type** | | 2026-11-15. Next to Bulwark, so a tank can resist what it fears most. |
+| **518** | **Bloodletter** *(named 2026-11-15)* | *Idea:* pay for spells with your own hit points; convert hit points to Mana | (new) | 2026-11-15. A Mystic Kit player can reach it. Watch for a loop with Vital Reserve (Mana to Temporary Hit Points, 208/415/622). |
 | **519** | **Feedback** *(named 2026-11-14)* | **Blessed Healer** (heal yourself when you heal others) | SRD Life Domain 6 | |
 | **520** | **Beasts** *(named 2026-11-15)* | **Exceptional Training** (better commands; Force damage) | PHB Beast Master 7, from memory | 2026-11-15. Moved from 510, which is on the Fighter side and out of the Shaman's reach. 520 is reached from 416 or 417; Shaman (312) leads there through 416 (checked). |
+| **522** | **Displace** *(named 2026-11-15)* | *Idea:* forced teleportation | (new) | 2026-11-15. Next to Transient (*Misty Step*, *Blur*-like spells). |
+| **525** | **Shatter** *(named 2026-11-15)* | *Idea:* learn the *Shatter* spell here | SRD spell, level 2 | 2026-11-15. The damage-magic corner, between Evoke and Infuse. |
 | **601** | Warlord II | **War Cry** (was Zealous Presence: Advantage for many allies) | PHB Path of the Zealot 10, from memory | Renamed 2026-11-15. |
 |  |  | **Superior Inspiration** | SRD Bard 18 | |
 | **602** | **Formation** *(named 2026-11-14)* | **Leading Evasion** (Evasion shared with nearby allies) | PHB College of Dance 14, from memory | |
@@ -99,6 +102,7 @@ Parts are named as in `canon/parts-bin.md`; the source and level are there and i
 |  |  | **Improved Brutal Strike** | SRD Barbarian 13 / 17 | Moved from Champion II (613), 2026-11-15. |
 | **617** | Bulwark II | **Bulwark of Force** (half cover for allies) | PHB Psi Warrior 15, from memory | |
 | **620** | — | **Resistance: choose one** of Bludgeoning, Piercing or Slashing | from **Avatar of Battle** (PHB War Domain 17, from memory) | A resistance tile: you pick one type from the tile's list. |
+| **620** | **Deathless** *(named 2026-11-15)* | *Idea:* a character with this tile **can't be forcibly phased** at 0 hit points | (new) | 2026-11-15. The can't-be-killed fantasy, reached via Colossus or Regen. |
 | **622** | Vitality III | **Vital Reserve** improves to **12 Temporary Hit Points per Mana** | new (2026-11-15) | |
 | **623** | Shaman II | **Wild Shape forms grow**: **8 known forms, up to CR 1, Fly Speed allowed** | SRD Druid 8 | 2026-11-15; check against the power curve later. |
 |  |  | **Supreme Healing** (healing dice roll their maximum) | SRD Life Domain 17 | |
@@ -107,6 +111,7 @@ Parts are named as in `canon/parts-bin.md`; the source and level are there and i
 | **625** | Oracle II | **Divine Intervention** | SRD Cleric 10 | |
 | **626** | **Teleport** *(named 2026-11-15)* | **Misty Wanderer** (*Misty Step* that brings a willing ally) | PHB Fey Wanderer 15, from memory | 2026-11-15. The upgrade to Transient's teleport: 626 is reached from 418 (checked). Mystic, not Fey. |
 | **628** | Lore III | **Magical Secrets** | SRD Bard 10 | Also on Lore II. |
+| **630** | **Overload** *(named 2026-11-15)* | *Idea:* massive-damage magic that **feeds back on the caster** | (new) | 2026-11-15. |
 | **634** | Control III | **Guarded Mind** (psychic resistance; end Charmed or Frightened) | PHB Psi Warrior 10, from memory | |
 
 ## Species wheel
