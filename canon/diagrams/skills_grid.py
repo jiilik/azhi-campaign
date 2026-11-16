@@ -355,6 +355,12 @@ for num, name in {"401": "Leader", "402": "Marshal", "406": "Sword Dancer", "408
                   "502": "Warmaster", "509": "Swordmaster", "511": "Pit Fighter",
                   "516": "Colossus", "521": "Prophet"}.items():
     name_tile(BY_NUMBER[num], name)
+# Naming pass, part 2 (Troy, voice, 2026-11-15).
+for num, name in {"420": "Enchant", "421": "Evoke", "422": "Conjure", "424": "Charm",
+                  "501": "General", "503": "Manoeuvre", "504": "Assassin", "505": "Agility",
+                  "510": "Riposte", "513": "Mounted", "514": "Stalwart", "515": "Unbreakable",
+                  "517": "Regen", "526": "Invoke", "612": "Deflect", "618": "Unyielding"}.items():
+    name_tile(BY_NUMBER[num], name)
 print("ring 6 II tiles:", " ".join(NUMBERS[(2 * BY_NUMBER[n][0], 2 * BY_NUMBER[n][1])] for n in RING3_NAMES))
 # Ability score +1 tiles (Troy, voice, 2026-11-12): with feats gone, these
 # are where ability increases come from. One per kit on ring 4 (clockwise of
