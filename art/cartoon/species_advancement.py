@@ -157,7 +157,7 @@ def build(printable=False):
         figs.append(figure(x, feet, 1.12, form, role, outfit, accent, st, flip=flip,
                            tail_item=cw.FORM_TAIL.get(form, 'auto'), wings=cw.FORM_WINGS.get(form),
                            wing_scale=0.68))   # small enough to stay inside ring 0
-        labs.append(cw.label(x, feet + 10, name, sub, big=(form in cw.PRIMARY)))
+        labs.append(cw.label(x, feet + 10, name, '', big=(form in cw.PRIMARY)))  # no subtitles (Troy, 2026-11-15)
     o += figs + labs
     # About the size of the Blue figure on the wheel (1.12 x Blue's 0.93), since the
     # Unphased are a touch smaller (Troy, 2026-11-15; was 1.75).
@@ -177,12 +177,12 @@ def build(printable=False):
                  f'<text x="{x:.1f}" y="{y + 9:.1f}" text-anchor="middle" font-family="DejaVu Sans" '
                  f'font-weight="bold" font-size="26" fill="{INK}">{k}</text>')
     # Legend
-    o.append(f'<text x="{W/2}" y="{H - 40}" text-anchor="middle" font-family="DejaVu Sans" font-size="30" fill="{ink}">'
+    o.append(f'<text x="{W/2}" y="{H - 40}" text-anchor="middle" font-family="DejaVu Sans" font-size="54" fill="{ink}">'
              f'<tspan fill="{sym[0]}">\u2665</tspan> Hit Die\u00a0\u00a0\u00a0\u00a0 <tspan fill="{sym[1]}">\u25c6</tspan> mana\u00a0\u00a0\u00a0\u00a0 '
              f'<tspan fill="{sym[2]}">\u2605</tspan> stamina</text>')
     # Title
-    o.append(f'<text x="{W/2}" y="80" text-anchor="middle" font-family="DejaVu Serif" font-weight="bold" '
-             f'font-size="56" fill="{ink}">Species Advancement</text>')
+    o.append(f'<text x="{W/2}" y="96" text-anchor="middle" font-family="DejaVu Serif" font-weight="bold" '
+             f'font-size="88" fill="{ink}">Species Advancement</text>')
     o.append('</svg>')
     return ''.join(o)
 
