@@ -43,6 +43,7 @@ Parts are named as in `canon/parts-bin.md`; the source and level are there and i
 |  |  | **Improved Critical** (crit on 19–20) | SRD Champion 3 | |
 |  |  | **Brutal Strike** | SRD Barbarian 9 | Moved from Champion (307), 2026-11-15: it suits a brute. |
 | **309** | Bulwark | **Smite of Protection** (half cover for allies) | SRD Oath of Devotion 15 | 2026-11-15, to be reflavoured. |
+|  |  | **Vital Smite**. Draft: *You throw everything you have into one blow, heedless of what it costs your body. Before you make an attack roll, you can spend one of your Hit Dice: roll it and add the number rolled to the attack roll. If the attack hits, it's a Critical Hit.* | (new) | 2026-11-15 (Troy). A Hit Die traded for a crit, on a tile with no Stamina, between the Fighter and Tank Kits (reached from Might 206 or Tank II 207). A Critical Hit doubles all damage dice (SRD), Smite's included: the intended nova. *(Claude: the Hit Die also makes the hit likelier, by about +5 on a d10.)* |
 | **311–318** | Blood Mage, Shaman, Oracle, Sage, Alchemist, Wizard, Summoner, Hexer | **One new cantrip each** | (Cantrip progression of the casters) | Every ring-3 tile from 311 to 318. |
 | **312** | Shaman | **Animal Speaker** | PHB Path of the Wild Heart 3, from memory | |
 |  |  | **Life Domain spells**, mostly | SRD Life Domain | |
