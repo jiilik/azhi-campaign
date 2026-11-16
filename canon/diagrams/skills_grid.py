@@ -347,6 +347,14 @@ for num, name in {"405": "Mobility", "508": "Evasion", "418": "Transient", "519"
                   "506": "Hunter", "507": "Fade", "520": "Beasts", "608": "Acrobat",
                   "626": "Teleport", "404": "Ambush"}.items():
     name_tile(BY_NUMBER[num], name)
+# Naming pass, rings 4 to 6 (Troy, voice, 2026-11-15). The ability +1 and
+# Attack Up labels are what a tile gives, not its name.
+for num, name in {"401": "Leader", "402": "Marshal", "406": "Sword Dancer", "408": "Flourish",
+                  "409": "Gladiator", "410": "Knight", "412": "Unmovable", "413": "Titan",
+                  "414": "Leech", "416": "Healer", "417": "Seer",
+                  "502": "Warmaster", "509": "Swordmaster", "511": "Pit Fighter",
+                  "516": "Colossus", "521": "Prophet"}.items():
+    name_tile(BY_NUMBER[num], name)
 print("ring 6 II tiles:", " ".join(NUMBERS[(2 * BY_NUMBER[n][0], 2 * BY_NUMBER[n][1])] for n in RING3_NAMES))
 # Ability score +1 tiles (Troy, voice, 2026-11-12): with feats gone, these
 # are where ability increases come from. One per kit on ring 4 (clockwise of
@@ -390,6 +398,7 @@ def wedge(q, r):
 PRINT = "--mono" in sys.argv
 
 fig, ax = plt.subplots(figsize=(11, 12.4))
+NAME_TEXTS = []  # tile names, shrunk to fit their hex once the limits are set
 ax.set_aspect("equal")
 ax.axis("off")
 
@@ -438,9 +447,8 @@ for q in range(-RINGS, RINGS + 1):
             l1, l2, l3 = TILES[(q, r)]
             if l1 and not l1.startswith("Req") and (q, r) != (0, 0):
                 # Top line: the tile's look-up name (Troy, 2026-11-11).
-                ax.text(x, y + 0.36, l1, ha="center", va="center",
-                        fontsize=7.4 if len(l1) <= 9 else (6.2 if len(l1) <= 11 else 5.4),
-                        weight="bold", zorder=3)
+                NAME_TEXTS.append(ax.text(x, y + 0.36, l1, ha="center", va="center",
+                        fontsize=7.4, weight="bold", zorder=3))
                 ax.text(x, y, l2, ha="center", va="center", fontsize=6.8, zorder=3)
             else:
                 ax.text(x, y + 0.36, l1, ha="center", va="center", fontsize=6.6, color="#444", zorder=3)
@@ -485,6 +493,18 @@ ax.text(0, lim + 0.9, title, ha="center",
 # No caption (Troy, voice, 2026-11-15): the tile descriptions explain the grid.
 place_line(ax, 0, -lim - 0.55, "{H} Hit Die     {M} Mana     {S} Stamina", zoom=0.14)
 
+# Shrink each tile name to fit its hex (Troy, 2026-11-15: long names such as
+# Warmaster and Swordmaster overflowed). Allowed width: the hex's width at the
+# name's height, less a margin.
+fig.canvas.draw()  # apply the equal aspect before measuring
+renderer = fig.canvas.get_renderer()
+x0 = ax.transData.transform((0, 0))[0]
+unit_px = ax.transData.transform((1, 0))[0] - x0
+room = (2 * (SIZE * 0.97 - 0.36 / math.sqrt(3)) - 0.2) * unit_px
+for t in NAME_TEXTS:
+    w = t.get_window_extent(renderer).width
+    if w > room:
+        t.set_fontsize(t.get_fontsize() * room / w)
 here = os.path.dirname(os.path.abspath(__file__))
 stem = os.path.join(here, "skills-grid" + ("-mono" if PRINT else ""))
 fig.savefig(stem + ".png", dpi=200, bbox_inches="tight")
