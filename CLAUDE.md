@@ -25,6 +25,7 @@ You are helping **Troy** (the author and DM) build **Azhi**, a D&D campaign sett
 - **No "racist dragons".** Colour differences are elemental opposition and policy disputes, never superiority or prejudice.
 - **Art:** use **Saturday-Morning Bold** unless Troy says otherwise. Draw it with the code in `art/cartoon/`. See `art/STYLE.md`.
 - **Spelling:** Canadian (colour, favourite, flavour).
+- **Stamina and mana:** write them out in prose; on charts and tiles use the gold ★ (stamina) and purple ◆ (mana). Never "SP" or "MP" (Troy, 2026-11-15).
 - **SRD licence:** CC BY 4.0. Keep `ATTRIBUTION.md` and the attribution statement in any compiled document.
 
 ## File map

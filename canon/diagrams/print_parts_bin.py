@@ -146,7 +146,7 @@ def level_for(part, table):
 def techniques():
     lines = open(os.path.join(CANON, 'parts-bin-techniques.md')).read().split('\n')
     o = ['<h1 class="br">Techniques</h1><p class="lede">Parts for the stamina system. <b>Trigger</b>: A action, BA Bonus Action, R Reaction, Hit a rider on a hit. '
-         '<b>Cost</b>: at-will or SP (stamina). <b>Home</b>: where on the skills grid it might live. These are tagged with where they were proposed in November; '
+         '<b>Cost</b>: at-will or stamina. <b>Home</b>: where on the skills grid it might live. These are tagged with where they were proposed in November; '
          'the placed techniques are in <i>canon/techniques.md</i>.</p>']
     i, section, count = 0, '', 0
     while i < len(lines):
@@ -174,8 +174,8 @@ def techniques():
                 o.append(entry(clean(part), [src, lv, f'{trig} · {cost} · {tgt}', f'Home: {clean(home)}', f'{pts} pts'], clean(note)))
                 count += 1
             continue
-        if ln.startswith('| Level (SP)'):
-            o.append('<h3>Bard spells that could become techniques <small>(SP cost = the spell’s mana price)</small></h3>')
+        if ln.startswith('| Level (stamina)'):
+            o.append('<h3>Bard spells that could become techniques <small>(stamina cost = the spell’s mana price)</small></h3>')
             _, rs, i = rows(lines, i)
             for r in rs:
                 lv, ref, magic = (r + [''] * 3)[:3]

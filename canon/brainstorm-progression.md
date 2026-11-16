@@ -296,23 +296,23 @@ Levels 11–19 add 9, 0, 10, 0, 11, 0, 13, 7 and 9.
 - **A starting kit is a whole level 1.** Taking a kit later (multiclassing) gives a **reduced version worth about one regular hex**. **For now, a second kit gives everything**; it gets trimmed later.
 
 *Two pools* (replacing "mana only"):
-- **Stamina (SP)** fuels martial techniques; **mana (MP)** fuels spells. **Separate pools**, so going deep in the martial side and dipping one Mage tile doesn't give a huge casting pool. Stamina is the body's fuel and mana the mind's. Names from video games; abbreviations at most two characters, for the tiles.
-- **A shared martial pool**, like 4th Edition: warlord commands, Battle Master-style manoeuvres and monk techniques all draw on SP.
-- **Costs:** a martial technique costs **1 SP**; spells cost mana on the **2014 DMG spell points variant's prices, for now**: levels 1–9 cost 2, 3, 5, 6, 7, 9, 10, 11 and 13. *(Claude: levels 1–5 match the SRD sorcerer's slot costs; levels 6–9 are only the variant's numbers, no text, and worth revisiting before publication. The nova limit is still open.)* *(Claude, voice: one technique is about half a level 1 spell, so a point of either pool is worth about the same.)*
+- **Stamina** fuels martial techniques; **mana** fuels spells. **Separate pools**, so going deep in the martial side and dipping one Mage tile doesn't give a huge casting pool. Stamina is the body's fuel and mana the mind's. Names from video games. On the tiles they're written ★ and ◆; no other abbreviations (Troy, 2026-11-15).
+- **A shared martial pool**, like 4th Edition: warlord commands, Battle Master-style manoeuvres and monk techniques all draw on stamina.
+- **Costs:** a martial technique costs **1 stamina**; spells cost mana on the **2014 DMG spell points variant's prices, for now**: levels 1–9 cost 2, 3, 5, 6, 7, 9, 10, 11 and 13. *(Claude: levels 1–5 match the SRD sorcerer's slot costs; levels 6–9 are only the variant's numbers, no text, and worth revisiting before publication. The nova limit is still open.)* *(Claude, voice: one technique is about half a level 1 spell, so a point of either pool is worth about the same.)*
 - **Recovery:** **all on a Long Rest**. On a **Short Rest, each pool recovers points equal to your Proficiency Bonus**. This rule goes **in the rules text, not on a tile**, and must be written up. Better short-rest recovery can come as nodes later.
-- **SP and MP go on line 3** of a tile, since they add up across tiles. **Symbols** *(Troy, 2026-11-07; glyphs changed 2026-11-11)*: red ♥ Hit Die, gold ★ stamina, purple ◆ mana, the same on the skills grid and the species wheel. (They replaced the ❤️ ⭐ 📜 emoji, which can't turn to follow the species wheel's curved text.)
+- **Stamina and mana go on line 3** of a tile, since they add up across tiles. **Symbols** *(Troy, 2026-11-07; glyphs changed 2026-11-11)*: red ♥ Hit Die, gold ★ stamina, purple ◆ mana, the same on the skills grid and the species wheel. (They replaced the ❤️ ⭐ 📜 emoji, which can't turn to follow the species wheel's curved text.)
 - **At-wills** *(superseded 2026-11-07 by **techniques**, which can have a free use, a stamina use or both; see `canon/techniques.md`)*: free martial features that cost no stamina, the martial equivalent of cantrips. Named for 4th Edition, so players understand at once. **Designed later**, as part of the larger system.
 
 *The kits:*
 
 | Kit | Line 3 | Also in the kit (description, not the tile) |
 |---|---|---|
-| **Herald** (Cha) | d6 SP4 | **No fighting style** (Troy, 2026-11-10: Protection would make it a frontliner). Knows every technique its kit tile teaches (Troy, 2026-11-09; was "3 techniques from its list") ("the masters of this"); light armour; **Weapon Mastery with 1 weapon** (Troy, 2026-11-07, so techniques never need to copy masteries; about +3 points, to about 15). **Command and control, not a caster.** Inspiration becomes something to spend SP on, designed with the at-wills. |
-| **Scout** (Dex) | d8 SP4 +5ft | **Fighting style: one of Archery, Dueling or Two-Weapon Fighting** (Troy, 2026-11-10). Knows every technique its kit tile teaches (was 2 from a list; Troy, 2026-11-09); light armour; Martial weapons with the Finesse, Light or ranged property; Weapon Mastery with 2 weapons (what the rogue and ranger share). **+5 ft Speed**. Bonus Action Dash and Disengage are saved for **ring 3**, whose middle is movement. |
-| **Fighter** (Str) | d10 SP2 | **Fighting style: any one of the six** (Troy, 2026-11-10). Knows every technique its kit tile teaches (was 1 from a list; Troy, 2026-11-09); light and medium armour, Shields; Martial weapons; **Weapon Mastery with 3 weapons**. Heavy armour comes on its first branch toward Constitution. |
-| **Tank** (Con) | d12 | **Hit points are its pool**, so no SP or MP. **Fighting style: Defense or Protection; Weapon Mastery with 1 weapon** (Troy, 2026-11-10: for a heavy maul or the like). Light and medium armour, Shields; Martial weapons (so it can head for the heavy-armour seam); **Second Wind** (moved from the Fighter). |
-| **Mystic** (Wis) | d8 MP4 | 2 cantrips; light armour (leathers and the like). |
-| **Mage** (Int) | d4 MP5 | 3 cantrips; no armour; **rituals**. |
+| **Herald** (Cha) | d6, 4 stamina | **No fighting style** (Troy, 2026-11-10: Protection would make it a frontliner). Knows every technique its kit tile teaches (Troy, 2026-11-09; was "3 techniques from its list") ("the masters of this"); light armour; **Weapon Mastery with 1 weapon** (Troy, 2026-11-07, so techniques never need to copy masteries; about +3 points, to about 15). **Command and control, not a caster.** Inspiration becomes something to spend stamina on, designed with the at-wills. |
+| **Scout** (Dex) | d8, 4 stamina +5ft | **Fighting style: one of Archery, Dueling or Two-Weapon Fighting** (Troy, 2026-11-10). Knows every technique its kit tile teaches (was 2 from a list; Troy, 2026-11-09); light armour; Martial weapons with the Finesse, Light or ranged property; Weapon Mastery with 2 weapons (what the rogue and ranger share). **+5 ft Speed**. Bonus Action Dash and Disengage are saved for **ring 3**, whose middle is movement. |
+| **Fighter** (Str) | d10, 2 stamina | **Fighting style: any one of the six** (Troy, 2026-11-10). Knows every technique its kit tile teaches (was 1 from a list; Troy, 2026-11-09); light and medium armour, Shields; Martial weapons; **Weapon Mastery with 3 weapons**. Heavy armour comes on its first branch toward Constitution. |
+| **Tank** (Con) | d12 | **Hit points are its pool**, so no stamina or mana. **Fighting style: Defense or Protection; Weapon Mastery with 1 weapon** (Troy, 2026-11-10: for a heavy maul or the like). Light and medium armour, Shields; Martial weapons (so it can head for the heavy-armour seam); **Second Wind** (moved from the Fighter). |
+| **Mystic** (Wis) | d8, 4 mana | 2 cantrips; light armour (leathers and the like). |
+| **Mage** (Int) | d4, 5 mana | 3 cantrips; no armour; **rituals**. |
 
 *Spells:*
 - **The Mystic learns specific spells from its nodes**, listed in each node's description, and prepares from the spells it knows.
@@ -324,7 +324,7 @@ Levels 11–19 add 9, 0, 10, 0, 11, 0, 13, 7 and 9.
   - **Summoning** (Int–Cha): **mana to summon, stamina to control**.
 - **Battle Master-style manoeuvres** sit on the **Dex–Str seam**, with the fighting styles.
 
-*Tally* *(Claude's rough count on the parts-bin scale; checked 2026-11-07)*: each SP or MP point 1, an at-will or cantrip 2, four prepared spells about 4.
+*Tally* *(Claude's rough count on the parts-bin scale; checked 2026-11-07)*: each stamina or mana point 1, an at-will or cantrip 2, four prepared spells about 4.
 
 | Kit | Points | 2024 level 1 for comparison (without saves, skills and Simple weapons) |
 |---|---|---|
@@ -337,7 +337,7 @@ Levels 11–19 add 9, 0, 10, 0, 11, 0, 13, 7 and 9.
 
 **Revalued (Troy, voice, 2026-11-07):** **mana is worth 2 points per point**; **stamina stays at 1** ("like half spells"). That moves the Mage to about **19** and the Mystic to about **22**. Troy briefly gave the Herald 2 mana and a cantrip, then **withdrew it**: the Herald stays a pure commander at about **12** until the techniques are designed. Its catch-up has to be **learned**, since the skills grid is what survives phasing. **Next:** design what stamina buys, as one system unifying monk techniques, manoeuvres, bardic inspiration and the warlord (`canon/parts-bin-techniques.md`).
 
-Before the revaluation, every kit was below the 2024 level 1 it replaces, and the Herald and Mage are about half the Tank. Either SP, MP and at-wills are worth more than 1–2 points each, or the casters and the Herald need more. *Open:* the Mystic could take an "order" choice like the 2024 cleric's Divine Order and druid's Primal Order: martial (weapons, armour) or mystic (an extra cantrip, Wisdom to lore checks). Raised by Claude when the call ran out; not decided.
+Before the revaluation, every kit was below the 2024 level 1 it replaces, and the Herald and Mage are about half the Tank. Either stamina, mana and at-wills are worth more than 1–2 points each, or the casters and the Herald need more. *Open:* the Mystic could take an "order" choice like the 2024 cleric's Divine Order and druid's Primal Order: martial (weapons, armour) or mystic (an extra cantrip, Wisdom to lore checks). Raised by Claude when the call ran out; not decided.
 
 **Fantasies for ring 1 and its seams** *(Troy, 2026-11-07; fantasy first, features later)*. Going round the ring:
 

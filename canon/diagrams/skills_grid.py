@@ -97,7 +97,7 @@ def dist(q, r):
 # Populated tiles: (q, r) -> (line1, line2, line3)
 TILES = {(0, 0): ("All kits", "PB +2", "")}
 # Line 3 symbols (Troy, 2026-11-07; glyphs 2026-11-11): HEART = Hit Die,
-# STAR = stamina (SP), DIAMOND = mana (MP). Written {H}, {S}, {M}.
+# STAR = stamina, DIAMOND = mana. Written {H}, {S}, {M}.
 KITS = {
     "Cha": ("Req Cha 13", "Herald Kit", "{H}d6 {S}4"),
     "Dex": ("Req Dex 13", "Scout Kit", "{H}d8 {S}4 +5ft"),
