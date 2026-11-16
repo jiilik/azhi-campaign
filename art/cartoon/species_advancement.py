@@ -13,6 +13,7 @@ import os, sys, math, random, subprocess
 HERE = os.path.dirname(os.path.abspath(__file__)); os.chdir(HERE); sys.path.insert(0, HERE)
 import colour_wheel as cw
 import party
+import forms
 from party import figure, light, dark
 
 st, INK = cw.st, cw.INK
@@ -158,8 +159,10 @@ def build(printable=False):
                            wing_scale=0.68))   # small enough to stay inside ring 0
         labs.append(cw.label(x, feet + 10, name, sub, big=(form in cw.PRIMARY)))
     o += figs + labs
-    o.append(cw.unphased(CX, CY + 95, 1.75))
-    o.append(cw.label(CX, CY + 112, 'Unphased', 'all colours, none settled', big=True))
+    # About the size of the Blue figure on the wheel (1.12 x Blue's 0.93), since the
+    # Unphased are a touch smaller (Troy, 2026-11-15; was 1.75).
+    o.append(cw.unphased(CX, CY + 95, 1.12 * forms.SIZE_K['Blue']))
+    o.append(cw.label(CX, CY + 112, 'Unphased', '', big=True))
     # Nine radial lines, drawn over the rings
     for i in range(len(cw.WHEEL)):
         a = i * STEP - STEP / 2
@@ -176,12 +179,10 @@ def build(printable=False):
     # Legend
     o.append(f'<text x="{W/2}" y="{H - 40}" text-anchor="middle" font-family="DejaVu Sans" font-size="30" fill="{ink}">'
              f'<tspan fill="{sym[0]}">\u2665</tspan> Hit Die\u00a0\u00a0\u00a0\u00a0 <tspan fill="{sym[1]}">\u25c6</tspan> mana\u00a0\u00a0\u00a0\u00a0 '
-             f'<tspan fill="{sym[2]}">\u2605</tspan> stamina\u00a0\u00a0\u00a0\u00a0 (each arc, rings 1 to 6)</text>')
+             f'<tspan fill="{sym[2]}">\u2605</tspan> stamina</text>')
     # Title
     o.append(f'<text x="{W/2}" y="80" text-anchor="middle" font-family="DejaVu Serif" font-weight="bold" '
              f'font-size="56" fill="{ink}">Species Advancement</text>')
-    o.append(f'<text x="{W/2}" y="120" text-anchor="middle" font-family="DejaVu Serif" font-style="italic" '
-             f'font-size="24" fill="{ink2}">The colour wheel, base form (ring 0) and rings 1 to 6 on each spoke (draft, 2026-11-13; PROPOSED)</text>')
     o.append('</svg>')
     return ''.join(o)
 

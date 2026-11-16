@@ -58,7 +58,7 @@ def wedge(a0, a1, fill):
 def label(x, y, name, sub, big=False):
     fs, fs2 = (30, 17) if big else (24, 15)
     w = max(len(name)*fs*0.62, len(sub)*fs2*0.56) + 26
-    h = fs + fs2 + 16
+    h = fs + fs2 + 16 if sub else fs + 14   # no subtitle: a shorter box
     o = (f'<rect x="{x-w/2:.1f}" y="{y:.1f}" width="{w:.1f}" height="{h}" rx="12" fill="#fbf4e3" '
          f'stroke="{INK}" stroke-width="3"/>')
     o += (f'<text x="{x:.1f}" y="{y+fs+3:.1f}" text-anchor="middle" font-family="DejaVu Sans" '

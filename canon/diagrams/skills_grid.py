@@ -479,7 +479,7 @@ for (dq, dr), ab in zip(DIRS, ABILITIES):
 lim = SIZE * (math.sqrt(3) * (RINGS + 1) + 0.3)  # just past the Strength / Intelligence labels
 ax.set_xlim(-EDGE_X - 0.1, EDGE_X + 0.1)
 ax.set_ylim(-lim - 3.6, lim + 1.4)
-title = "Azhi: the Skills Grid (draft, 2026-11-14)"
+title = "Character Advancement"  # matches "Species Advancement" (Troy, 2026-11-15)
 ax.text(0, lim + 0.9, title, ha="center",
         va="center", fontsize=15, weight="bold")
 # No caption (Troy, voice, 2026-11-15): the tile descriptions explain the grid.
