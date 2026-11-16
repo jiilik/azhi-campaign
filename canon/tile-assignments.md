@@ -15,7 +15,7 @@ Parts are named as in `canon/parts-bin.md`; the source and level are there and i
 | **203** | Scout II | **Deft Explorer**: *You gain Expertise in one skill you're proficient in but lack Expertise in. You also learn two languages of your choice.* | SRD Ranger 2 | Moved from Ranger (304), 2026-11-15, to uncrowd it. Kept 2026-11-15; **Scout II needs more parts later**. |
 | **204** | **Gambits** *(was Precision, renamed 2026-11-15)* | **Gambits** (was Combat Superiority). Draft: *You learn three gambits of your choice. To use one, spend 1 Stamina and roll a d8, applied as the gambit describes. If it calls for a saving throw, the DC is 8 plus your Strength or Dexterity modifier plus your Proficiency Bonus.* | The Battle Master's system (PHB 3, from memory), in our own words | 2026-11-15: none of the PHB's wording (no "superiority", no "manoeuvres"). The line runs Gambits, II, III (204, 407, 610). *(Claude, not decided: II could raise the die to a d10 and III to a d12, with more gambits learned on each.)* |
 | **205** | Fighter II | **Action Surge**: *on your turn, you can take one additional action, except the Magic action*, for **4 Stamina** | SRD Fighter 2, reworked | 2026-11-15. The Fighter's signature: 205 is reached only from the Fighter Kit. A pure fighter has exactly 4 Stamina here (kit 2 + Fighter II 2) and a Short Rest returns 2, so about one surge per rest, close to the SRD's once per Short Rest. |
-| **206** | Might | *(empty: the free Divine Smite was dropped 2026-11-15; the smite progression is being designed)* | | |
+| **206** | Might | **Smite** (the section's core rule). Draft: *Right after you hit with a melee weapon, you can add Smite dice to the damage, up to your Proficiency Bonus in dice. You pay for each die with a fuel you've unlocked.* Might unlocks **health**: pay a die by spending a **Hit Die** (roll it as the Smite die) or by the **blood price** (lose hit points equal to the die's maximum). | (new) | 2026-11-15. Replaces the free *Divine Smite*. Fuels by edge: Stamina on the Fighter edge (Knight, 410), health in the middle, Mana with health on the Blood Mage edge (later). *Open:* the blood price (die's maximum or average?) and whether it can drop you to 0. |
 | **207** | Tank II | **Unarmored Defense**: 10 + Dex + Con | SRD Barbarian 1 | Same version on 303 (2026-11-15). |
 |  |  | **Danger Sense** (Advantage on Dexterity saves) | SRD Barbarian 2 | |
 | **208** | Vitality | **Vital Reserve** *(Claude's working name)*: as a Bonus Action, spend Mana for **5 Temporary Hit Points per Mana** | new (2026-11-15), from Wild Shape's Temporary Hit Points | Rises to 8 per Mana on Vitality II and 12 on Vitality III. |
@@ -43,7 +43,8 @@ Parts are named as in `canon/parts-bin.md`; the source and level are there and i
 |  |  | **Improved Critical** (crit on 19–20) | SRD Champion 3 | |
 |  |  | **Brutal Strike** | SRD Barbarian 9 | Moved from Champion (307), 2026-11-15: it suits a brute. |
 | **309** | Bulwark | **Smite of Protection** (half cover for allies) | SRD Oath of Devotion 15 | 2026-11-15, to be reflavoured. |
-|  |  | **Vital Smite**. Draft: *You throw everything you have into one blow, heedless of what it costs your body. Before you make an attack roll, you can spend one of your Hit Dice: roll it and add the number rolled to the attack roll. If the attack hits, it's a Critical Hit.* | (new) | 2026-11-15 (Troy). A Hit Die traded for a crit, on a tile with no Stamina, between the Fighter and Tank Kits (reached from Might 206 or Tank II 207). A Critical Hit doubles all damage dice (SRD), Smite's included: the intended nova. *(Claude: the Hit Die also makes the hit likelier, by about +5 on a d10.)* |
+|  |  | **Guardian** *(working name)*. Draft: *Reaction, when a creature you can see hits an ally within 5 feet of you: make one melee attack against that creature.* | (new) | 2026-11-15. Bulwark is about defence. *Idea (Troy):* Bulwark could spend Hit Dice or hit points on defence the way the smites spend them on damage. |
+| **310** | Juggernaut | **Vital Smite**. Draft: *You throw everything you have into one blow, heedless of what it costs your body. Before you make an attack roll, you can spend one of your Hit Dice: roll it and add the number rolled to the attack roll. If the attack hits, it's a Critical Hit.* | (new) | 2026-11-15 (Troy). A Hit Die traded for a crit. Moved from Bulwark (309) 2026-11-15: the run-through-walls recklessness belongs to the Juggernaut. 310 is reached only from Tank II (207). A Critical Hit doubles all damage dice (SRD), Smite's included: the intended nova. *(Claude: the Hit Die also makes the hit likelier, by about +5 on a d10.)* |
 | **311–318** | Blood Mage, Shaman, Oracle, Sage, Alchemist, Wizard, Summoner, Hexer | **One new cantrip each** | (Cantrip progression of the casters) | Every ring-3 tile from 311 to 318. |
 | **312** | Shaman | **Animal Speaker** | PHB Path of the Wild Heart 3, from memory | |
 |  |  | **Life Domain spells**, mostly | SRD Life Domain | |
@@ -59,6 +60,8 @@ Parts are named as in `canon/parts-bin.md`; the source and level are there and i
 |  |  | **Climb Speed and Swim Speed** | (new) | 2026-11-15. |
 | **407** | Gambits II | **Improved Gambits** (was Improved Combat Superiority) | PHB Battle Master 10, from memory | |
 |  |  | **Stunning Strike** | SRD Monk 5 | 2026-11-15. |
+| **410** | Knight | **Disciplined Smite**: pay for Smite dice with **Stamina, 1 Stamina per d8**, at no cost in health | (new) | 2026-11-15. The Fighter edge. Same rate as the SRD's *Divine Smite* (2d8 from a 2-Mana slot); smaller dice than Hit Dice, the price of not bleeding. |
+| **411** | Might II | **Cleaving**: *when your melee attack drops a creature to 0 hit points, the damage left over carries on to another creature within 5 feet of it.* | (new) | 2026-11-15. |
 | **415** | Vitality II | **Vital Reserve** improves to **8 Temporary Hit Points per Mana** | new (2026-11-15) | |
 |  |  | **Improved Warding Flare** | PHB Light Domain 6, from memory | |
 | **418** | **Transient** *(named 2026-11-14)* | **A Bonus Action teleport**, like *Misty Step* | SRD spell, level 2 | Probably free; cost to settle later. Keeps its Wis +1. |
@@ -74,6 +77,7 @@ Parts are named as in `canon/parts-bin.md`; the source and level are there and i
 | **509** | — | **Resistance: choose one physical type** (Bludgeoning, Piercing or Slashing) | | 2026-11-15. Stacks with 620: taking both gives two types. |
 | **511** | — | **An additional Fighting Style** | SRD Champion 7 | |
 | **512** | **Heroism** *(named 2026-11-14)* | **Heroic Warrior** (Heroic Inspiration each turn) | SRD Champion 10 | |
+| **513** | Mounted | **Charging Smite**: *if you moved at least 20 feet toward the target this turn, mounted or on foot, one Smite die is free.* | (new) | 2026-11-15. |
 | **515** | — | **Resistance: choose any one damage type** | | 2026-11-15. Next to Bulwark, so a tank can resist what it fears most. |
 | **518** | **Bloodletter** *(named 2026-11-15)* | *Idea:* pay for spells with your own hit points; convert hit points to Mana | (new) | 2026-11-15. A Mystic Kit player can reach it. Watch for a loop with Vital Reserve (Mana to Temporary Hit Points, 208/415/622). |
 | **519** | **Feedback** *(named 2026-11-14)* | **Blessed Healer** (heal yourself when you heal others) | SRD Life Domain 6 | |
@@ -98,6 +102,7 @@ Parts are named as in `canon/parts-bin.md`; the source and level are there and i
 | **611** | Virtuoso II | **Studied Attacks** (Advantage after a miss) | SRD Fighter 13 | |
 |  |  | **An additional Fighting Style** | SRD Champion 7 | |
 | **613** | Champion II | **Weapon Mastery** +1 | SRD Fighter | The fourth extra mastery. |
+| **614** | Legend | **Legendary Smite**: Stamina-paid Smite dice become **d12s** | (new) | 2026-11-15. Upgrades Disciplined Smite (410). |
 | **615** | Brute II | **Superior Critical** (crit on 18–20) | SRD Champion 15 | |
 |  |  | **Improved Brutal Strike** | SRD Barbarian 13 / 17 | Moved from Champion II (613), 2026-11-15. |
 | **617** | Bulwark II | **Bulwark of Force** (half cover for allies) | PHB Psi Warrior 15, from memory | |
