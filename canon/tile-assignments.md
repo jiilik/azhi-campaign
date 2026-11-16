@@ -8,15 +8,13 @@ Parts are named as in `canon/parts-bin.md`; the source and level are there and i
 
 | Tile | Name | Assigned | Source | Notes |
 |---|---|---|---|---|
-| **15** | Mystic Kit | **Dreadful Strikes** (extra Psychic damage) | PHB Fey Wanderer 3, from memory | 2026-11-15. Fey Wanderer parts are reflavoured: there is no Fey on Azhi, so **Fey becomes Mystic** (Troy, voice). |
-| **201** | Herald II | **Bardic Inspiration** | SRD Bard 1 | There's no bard class, so it lands on the Herald line. |
-|  |  | **Mantle of Inspiration** (Temporary Hit Points and free movement for allies) | PHB College of Glamour 3, from memory | |
-| **202** | Cunning | **Magical Discoveries** | SRD College of Lore 6 | The Cunning tiles now give **2 Mana and 3 Stamina** each (2026-11-15). |
-|  |  | **Trickery Domain spells**, part | PHB Trickery Domain, from memory | Spread across the three Cunning tiles (202, 403, 604). |
+| **201** | Herald II | **Bardic Inspiration**, paid with Stamina: **1 Stamina for a d6, or 2 Stamina for a d12** | SRD Bard 1, reworked | There's no bard class, so it lands on the Herald line. 2026-11-15: Stamina replaces the uses per Long Rest and the die's growth with level (d6 to d12 by level 15). |
+|  |  | **Mantle of Inspiration**, paid with Stamina. Draft: *Bonus Action. Spend 1 Stamina and roll a d6, or 2 Stamina and roll a d12. Choose up to your Charisma modifier (minimum one) in creatures you can see within 60 feet. Each gains Temporary Hit Points equal to the roll, and can immediately take a Reaction to move up to its Speed without provoking Opportunity Attacks.* | PHB College of Glamour 3, reworked, from memory | 2026-11-15. Temporary Hit Points equal to the roll, not twice it: at level 2, twice would let a Herald nova the whole party. |
+| **202** | Cunning | **Spells: *Charm Person* and *Disguise Self*** (level 1) | SRD spells; the Trickery Domain's list, from memory | The Cunning tiles give **2 Mana and 3 Stamina** each, for Arcane Trickster-style casting. 2026-11-15: Magical Discoveries dropped. |
 |  |  | **Fast Hands** (Bonus Action: Sleight of Hand with Thieves' Tools or to pick a pocket; or Utilize, or use a magic item) | SRD Thief 3 | 2026-11-15. |
-| **203** | Scout II | **Deft Explorer** (Expertise in a skill; two languages) | SRD Ranger 2 | Moved from Ranger (304), 2026-11-15, to uncrowd it. |
-| **204** | Precision | **Remarkable Athlete**, without the Initiative part: Advantage on Athletics, and move on a crit | SRD Champion 3 | |
-|  |  | **Combat Superiority**, reworked to spend Stamina instead of superiority dice | PHB Battle Master 3, from memory | The Combat Superiority line runs Precision, II, III (204, 407, 610). Uncanny Dodge and Retaliation moved out to ring 3 (2026-11-15). |
+| **203** | Scout II | **Deft Explorer**: *You gain Expertise in one skill you're proficient in but lack Expertise in. You also learn two languages of your choice.* | SRD Ranger 2 | Moved from Ranger (304), 2026-11-15, to uncrowd it. Kept 2026-11-15; **Scout II needs more parts later**. |
+| **204** | **Gambits** *(was Precision, renamed 2026-11-15)* | **Gambits** (was Combat Superiority). Draft: *You learn three gambits of your choice. To use one, spend 1 Stamina and roll a d8, applied as the gambit describes. If it calls for a saving throw, the DC is 8 plus your Strength or Dexterity modifier plus your Proficiency Bonus.* | The Battle Master's system (PHB 3, from memory), in our own words | 2026-11-15: none of the PHB's wording (no "superiority", no "manoeuvres"). The line runs Gambits, II, III (204, 407, 610). *(Claude, not decided: II could raise the die to a d10 and III to a d12, with more gambits learned on each.)* |
+| **205** | Fighter II | **Action Surge**: *on your turn, you can take one additional action, except the Magic action*, for **4 Stamina** | SRD Fighter 2, reworked | 2026-11-15. The Fighter's signature: 205 is reached only from the Fighter Kit. A pure fighter has exactly 4 Stamina here (kit 2 + Fighter II 2) and a Short Rest returns 2, so about one surge per rest, close to the SRD's once per Short Rest. |
 | **206** | Might | **Branches of the Tree** (Reaction: pull a foe to you, stop it) | PHB Path of the World Tree 6, from memory | |
 |  |  | **Smite** (a free *Divine Smite*, from Paladin's Smite) | SRD Paladin 2 | 2026-11-15. Upgrades on **Might II (411)** and **Might III (616)**. |
 | **207** | Tank II | **Unarmored Defense**: 10 + Dex + Con | SRD Barbarian 1 | Same version on 303 (2026-11-15). |
@@ -35,10 +33,11 @@ Parts are named as in `canon/parts-bin.md`; the source and level are there and i
 |  |  | **Bonus Action Hide**, free (0 Stamina) | SRD Rogue 2 (Cunning Action), the Hide part | 2026-11-15. Completes Cunning Action with Ranger's (304) free Dash or Disengage. |
 | **304** | Ranger | **Favored Enemy**: cast *Hunter's Mark* for **1 Stamina** (instead of the expected 2), as often as you like; still Concentration | SRD Ranger 1, reworked | 2026-11-15. The SRD gives two free castings per Long Rest, rising to six. |
 | **305** | Skirmisher | **Weapon Mastery** +1 | SRD Fighter 4 / 10 / 16 | One of the four extra masteries. |
-|  |  | **Uncanny Dodge** (technique, `canon/techniques.md`) | SRD Rogue 5, reworked | Moved from Precision (204), 2026-11-15. Reached from Scout II (203) or Precision. |
+|  |  | **Uncanny Dodge** (technique, `canon/techniques.md`) | SRD Rogue 5, reworked | Moved from 204 (Precision, now Gambits), 2026-11-15. Reached from Scout II (203) or Gambits (204). |
 |  |  | **Flurry of Blows** | SRD Monk 2 (Monk's Focus) | 2026-11-15. Costs a Focus Point in the SRD; probably Stamina here. Upgraded on 507. |
 | **306** | Virtuoso | **Weapon Mastery** +1 | SRD Fighter | |
-|  |  | **Retaliation** (a Reaction melee attack) | SRD Path of the Berserker 10 | Moved from Precision (204), 2026-11-15. Reached from Fighter II (205) or Precision. |
+|  |  | **Remarkable Athlete**: *You have Advantage on Strength (Athletics) checks. Also, right after you score a Critical Hit, you can move up to half your Speed without provoking Opportunity Attacks.* | SRD Champion 3, without the Initiative part | Moved from 204, 2026-11-15. |
+|  |  | **Retaliation** (a Reaction melee attack) | SRD Path of the Berserker 10 | Moved from 204 (Precision, now Gambits), 2026-11-15. Reached from Fighter II (205) or Gambits (204). |
 | **307** | Champion | **Weapon Mastery** +1 | SRD Fighter | |
 |  |  | **Reckless Attack** | SRD Barbarian 2 | |
 | **308** | Brute | **Intimidating Presence** (frighten a 30-foot area) | SRD Path of the Berserker 14 | |
@@ -53,11 +52,12 @@ Parts are named as in `canon/parts-bin.md`; the source and level are there and i
 |  |  | **Primal Companion** (a beast of land, sea or sky) | PHB Beast Master 3, from memory | 2026-11-15. Check it doesn't clash with Wild Companion (a separate familiar). Shaman (312) is crowded. |
 | **317** | Summoner | **Mystic Reinforcements** *(was Fey Reinforcements)* (summon a spirit) | PHB Fey Wanderer 11, from memory | 2026-11-15. Its spell, *Summon Fey*, is PHB only (not in the SRD), so it needs its own text. Also gets the cantrip from 311–318. |
 | **318** | Hexer | **Beguiling Magic** | PHB College of Glamour 3, from memory | (Said "316" at first; 316 is Wizard.) |
-| **403** | Cunning II | **Trickery Domain spells**, part | PHB, from memory | |
+|  |  | **Dreadful Strikes**: **+1d4 Psychic damage on every physical strike** (weapon or Unarmed Strike), every hit | PHB Fey Wanderer 3, reworked, from memory | Moved from the Mystic Kit (15), 2026-11-15. Every hit, not once per turn: Hexers rarely make several attacks. Pairs with *Shillelagh*. Fey Wanderer parts are reflavoured (Fey becomes Mystic). |
+| **403** | Cunning II | **Spells: *Invisibility* and *Pass without Trace*** (level 2, 3 Mana each) | SRD spells | 2026-11-15. Castable with Cunning's Mana too (2 + 2). |
 | **404** | **Ambush** *(named 2026-11-15)* | **Dread Ambusher** (Wisdom to Initiative; extra damage on the first turn) | PHB Gloom Stalker 3, from memory | 2026-11-15. Reached from Rogue (303) or Ranger (304). |
 | **405** | Mobility | **Fast Movement**: +10 feet of Speed while you aren't wearing Heavy armour | SRD Barbarian 5 | Kept, with the SRD's armour condition (2026-11-15): this is the fast tree, so conditions are fine. Greater Sidestep is here too. |
 |  |  | **Climb Speed and Swim Speed** | (new) | 2026-11-15. |
-| **407** | Precision II | **Improved Combat Superiority** | PHB Battle Master 10, from memory | |
+| **407** | Gambits II | **Improved Gambits** (was Improved Combat Superiority) | PHB Battle Master 10, from memory | |
 |  |  | **Stunning Strike** | SRD Monk 5 | 2026-11-15. |
 | **415** | Vitality II | **Vital Reserve** improves to **8 Temporary Hit Points per Mana** | new (2026-11-15) | |
 |  |  | **Improved Warding Flare** | PHB Light Domain 6, from memory | |
@@ -83,7 +83,7 @@ Parts are named as in `canon/parts-bin.md`; the source and level are there and i
 | **601** | Warlord II | **War Cry** (was Zealous Presence: Advantage for many allies) | PHB Path of the Zealot 10, from memory | Renamed 2026-11-15. |
 |  |  | **Superior Inspiration** | SRD Bard 18 | |
 | **602** | **Formation** *(named 2026-11-14)* | **Leading Evasion** (Evasion shared with nearby allies) | PHB College of Dance 14, from memory | |
-| **604** | Cunning III | **Trickery Domain spells**, part | PHB, from memory | |
+| **604** | Cunning III | **Spells: *Hypnotic Pattern* and *Nondetection*** (level 3, 5 Mana each) | SRD spells | 2026-11-15. The three Cunning tiles give 6 Mana together. The Trickery list's level 4 and 5 spells aren't placed: a rogue-like caster tops out at level 4 spells. |
 |  |  | **Nature's Veil** (Bonus Action invisibility) | SRD Ranger 14 | 2026-11-15. |
 |  |  | **Wisdom saving throw proficiency** | | 2026-11-15. |
 | **605** | Rogue II | **Unarmored Movement**: **+10 Speed, fixed**, with no armour and no shield | SRD Monk 2, reworked | 2026-11-15. The SRD's rise with level (to +30) is dropped. Stacks with Mobility (405). |
@@ -94,7 +94,7 @@ Parts are named as in `canon/parts-bin.md`; the source and level are there and i
 |  |  | **Relentless Hunter** (Concentration on the mark can't be broken) | SRD Ranger 13 | 2026-11-15. |
 | **608** | **Acrobat** *(named 2026-11-15)* | **Acrobatic Movement** (walls and water) | SRD Monk 9 | 2026-11-15. Fits: 608 is reached from Fade (507) or Hunter (506), on the Scout line. |
 | **609** | Skirmisher II | **An additional Fighting Style** | SRD Champion 7 | |
-| **610** | Precision III | **Ultimate Combat Superiority** | PHB Battle Master 18, from memory | |
+| **610** | Gambits III | **Ultimate Gambits** (was Ultimate Combat Superiority) | PHB Battle Master 18, from memory | |
 | **611** | Virtuoso II | **Studied Attacks** (Advantage after a miss) | SRD Fighter 13 | |
 |  |  | **An additional Fighting Style** | SRD Champion 7 | |
 | **613** | Champion II | **Weapon Mastery** +1 | SRD Fighter | The fourth extra mastery. |

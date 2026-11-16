@@ -322,7 +322,8 @@ for num, name in RING3_NAMES.items():
 # evoke the two ring-3 subclasses beyond them, and carry on as II (ring 4)
 # and III (ring 6) along the seam rays.
 RING2_NAMES = {"201": "Herald II", "202": "Cunning", "203": "Scout II",
-               "204": "Precision", "205": "Fighter II", "206": "Might",
+               "204": "Gambits",  # was Precision (Troy, 2026-11-15)
+               "205": "Fighter II", "206": "Might",
                "207": "Tank II", "208": "Vitality", "209": "Mystic II",
                "210": "Lore", "211": "Mage II", "212": "Control"}
 SEAM_NAMES = {"202", "204", "206", "208", "210", "212"}
