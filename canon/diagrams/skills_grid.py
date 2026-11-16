@@ -462,44 +462,45 @@ for q in range(-RINGS, RINGS + 1):
             if (q, r) in LINE3:
                 place_line(ax, x, y - 0.36, LINE3[(q, r)])
 
-# Ability labels outside the grid
+# Ability labels outside the grid (Troy, 2026-11-15): Strength and
+# Intelligence centred above and below; the other four tucked into the
+# corners, flush with the grid's left or right edge, so the page can be
+# narrow and the grid big. The fantasy-theme labels were dropped.
+NAMES = {"Cha": "CHARISMA", "Dex": "DEXTERITY", "Str": "STRENGTH",
+         "Con": "CONSTITUTION", "Wis": "WISDOM", "Int": "INTELLIGENCE"}
+EDGE_X = SIZE * (1.5 * RINGS + 0.97)          # the grid's outer left/right edge
+CORNER = {"Dex": (-1, 1), "Con": (1, 1), "Cha": (-1, -1), "Wis": (1, -1)}
 for (dq, dr), ab in zip(DIRS, ABILITIES):
-    x, y = to_xy(dq * (RINGS + 1.55), dr * (RINGS + 1.55))
-    name = {"Cha": "CHARISMA", "Dex": "DEXTERITY", "Str": "STRENGTH",
-            "Con": "CONSTITUTION", "Wis": "WISDOM", "Int": "INTELLIGENCE"}[ab]
-    ax.text(x, y, name, ha="center", va="center", fontsize=11, weight="bold", color="black" if PRINT else EDGE[ab])
+    colour = "black" if PRINT else EDGE[ab]
+    if ab in CORNER:
+        sx, sy = CORNER[ab]
+        # The three outermost columns on that side, so the label clears the hexes
+        # beside Ranger II and Acrobat.
+        ys = [to_xy(q, r)[1] for (q, r) in NUMBERS if q * sx >= RINGS - 2]
+        y = (max(ys) + SIZE * 0.84 + 0.35) if sy > 0 else (min(ys) - SIZE * 0.84 - 0.35)
+        ax.text(sx * EDGE_X, y, NAMES[ab], ha="left" if sx < 0 else "right", va="center",
+                fontsize=11, weight="bold", color=colour)
+    else:
+        x, y = to_xy(dq * (RINGS + 1.0), dr * (RINGS + 1.0))
+        ax.text(x, y, NAMES[ab], ha="center", va="center", fontsize=11, weight="bold", color=colour)
 
-# Fantasy themes outside ring 6 (Troy, 2026-11-09): each kit's middle
-# theme under its ability name, each seam's theme beyond the ring's side.
-for i, ab in enumerate(ABILITIES):
-    dq, dr = DIRS[i]
-    x, y = to_xy(dq * (RINGS + 1.55), dr * (RINGS + 1.55))
-    ax.text(x, y - 0.45, ", ".join(s for s in MIDDLE[ab] if s), ha="center",
-            va="center", fontsize=7.5, style="italic", color="#555")
-    nq, nr = DIRS[(i + 1) % 6]
-    nxt = ABILITIES[(i + 1) % 6]
-    f = (RINGS + 2.5) / 2
-    x, y = to_xy((dq + nq) * f, (dr + nr) * f)
-    ax.text(x, y, "\n".join(s for s in SEAM[(ab, nxt)] if s), ha="center",
-            va="center", fontsize=7.5, style="italic", color="#555")
-
-lim = SIZE * (RINGS * 1.5 + 3.4)
-ax.set_xlim(-lim, lim)
-ax.set_ylim(-lim - 4.6, lim + 2.4)
+lim = SIZE * (math.sqrt(3) * (RINGS + 1) + 0.3)  # just past the Strength / Intelligence labels
+ax.set_xlim(-EDGE_X - 0.1, EDGE_X + 0.1)
+ax.set_ylim(-lim - 3.6, lim + 1.4)
 title = "Azhi: the Skills Grid (draft, 2026-11-14)"
-ax.text(0, lim + 2.0, title, ha="center",
+ax.text(0, lim + 0.9, title, ha="center",
         va="center", fontsize=15, weight="bold")
 # The caption is wrapped to the grid's width, so it can't widen the figure
 # and shrink the grid on a printed page (Troy, 2026-11-15).
 import textwrap
 CAPTION = ("Centre and ring 1: populated (Req / name / what adds up).  Ring 2: 201-202 technique tiles.  "
-           "Italic labels outside the grid: fantasy themes.  Prof. Up (Proficiency Bonus +1): ring 4 seams and "
+           "Prof. Up (Proficiency Bonus +1): ring 4 seams and "
            "ring 6 corners.  Attack Up (Damage Boost): rings 5 and 6.  Every tile has a Hit Die.  Orange dot: parts "
            "assigned, to review (canon/tile-assignments.md).  127 hexes in all.  PROPOSED design; see "
            "canon/brainstorm-progression.md.")
-ax.text(0, -lim - 2.2, "\n".join(textwrap.wrap(CAPTION, 120)),
+ax.text(0, -lim - 0.95, "\n".join(textwrap.wrap(CAPTION, 110)),
         ha="center", va="top", fontsize=8, color="#444", linespacing=1.4)
-place_line(ax, 0, -lim - 1.75, "{H} Hit Die     {S} stamina (SP)     {M} mana (MP)", zoom=0.14)
+place_line(ax, 0, -lim - 0.55, "{H} Hit Die     {S} stamina (SP)     {M} mana (MP)", zoom=0.14)
 
 here = os.path.dirname(os.path.abspath(__file__))
 stem = os.path.join(here, "skills-grid" + ("-mono" if PRINT else ""))
