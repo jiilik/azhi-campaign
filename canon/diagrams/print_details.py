@@ -52,7 +52,7 @@ TECHNIQUES = {
     '201': 'the Invigorate family (Invigorate, Greater Invigorate, Reinvigorate); Momentum',
     '202': 'On Me!, Scatter!',
     '12': 'I’m Going First!, Sidestep, Superhero Landing',
-    '304': 'Free Dash or Disengage (Bonus Action, 0 stamina); Deflect Attacks; Take Aim',
+    '304': 'Free Dash or Disengage (Bonus Action, 0 Stamina); Deflect Attacks; Take Aim',
     '305': 'Uncanny Dodge',
     '405': 'Greater Sidestep',
     '508': 'Evasion',
@@ -89,7 +89,7 @@ def numbers(l3):
             out.append(m.group(3).replace('ft', ' ft') .replace('  ', ' ') + ' Speed')
         else:
             k, v = m.group(1), m.group(2)
-            out.append({'H': f'Hit Die {v}', 'M': f'{v} mana', 'S': f'{v} stamina'}[k])
+            out.append({'H': f'Hit Die {v}', 'M': f'{v} Mana', 'S': f'{v} Stamina'}[k])
     return out
 
 
@@ -191,7 +191,7 @@ def build():
                        aparts.get((form, 0))))
         m, s = sa.POOL[form]
         for k in range(sa.FIRST, sa.LAST + 1):
-            nums = [f'Hit Die {sa.HIT_DIE[form]}'] + ([f'{m} mana'] if m else []) + ([f'{s} stamina'] if s else [])
+            nums = [f'Hit Die {sa.HIT_DIE[form]}'] + ([f'{m} Mana'] if m else []) + ([f'{s} Stamina'] if s else [])
             extra = sa.STAT_UP[form] if k == 4 else sa.FIXED.get(k, '')
             if extra:
                 nums.append(f'<b>{html.escape(extra)}</b>')

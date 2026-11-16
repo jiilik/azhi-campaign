@@ -483,7 +483,7 @@ title = "Character Advancement"  # matches "Species Advancement" (Troy, 2026-11-
 ax.text(0, lim + 0.9, title, ha="center",
         va="center", fontsize=15, weight="bold")
 # No caption (Troy, voice, 2026-11-15): the tile descriptions explain the grid.
-place_line(ax, 0, -lim - 0.55, "{H} Hit Die     {M} mana     {S} stamina", zoom=0.14)
+place_line(ax, 0, -lim - 0.55, "{H} Hit Die     {M} Mana     {S} Stamina", zoom=0.14)
 
 here = os.path.dirname(os.path.abspath(__file__))
 stem = os.path.join(here, "skills-grid" + ("-mono" if PRINT else ""))

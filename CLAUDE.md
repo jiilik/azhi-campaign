@@ -25,7 +25,7 @@ You are helping **Troy** (the author and DM) build **Azhi**, a D&D campaign sett
 - **No "racist dragons".** Colour differences are elemental opposition and policy disputes, never superiority or prejudice.
 - **Art:** use **Saturday-Morning Bold** unless Troy says otherwise. Draw it with the code in `art/cartoon/`. See `art/STYLE.md`.
 - **Spelling:** Canadian (colour, favourite, flavour).
-- **Stamina and mana:** write them out in prose; on charts and tiles use the gold ★ (stamina) and purple ◆ (mana). Never "SP" or "MP" (Troy, 2026-11-15).
+- **Stamina and Mana:** always capitalized, as the SRD capitalizes Focus Points, Sorcery Points and Speed (ordinary English, such as "running low on stamina", stays lower-case). Write them out in prose; on charts and tiles use the gold ★ (Stamina) and purple ◆ (Mana). Never "SP" or "MP" (Troy, 2026-11-15).
 - **SRD licence:** CC BY 4.0. Keep `ATTRIBUTION.md` and the attribution statement in any compiled document.
 
 ## File map
@@ -49,8 +49,8 @@ You are helping **Troy** (the author and DM) build **Azhi**, a D&D campaign sett
 | `canon/diagrams/` | The skills grid diagram: `skills_grid.py` draws `skills-grid.png`, `.svg` and `.pdf` (`--mono` for a greyscale copy); `print_wheels.py` makes `progression-wheels-print.pdf`, both wheels in colour on two Letter pages, then every tile (by number) and arc (by colour, then ring) with its details from `print_details.py` (2026-11-15), for scribbling and reviews; `print_parts_bin.py` makes `parts-bin-print.pdf`, every parts-bin entry with source, level and a ruled line for pencil review (2026-11-14); edit its TILES and THEMES as the grid is designed (2026-11-07). |
 | `canon/tile-assignments.md` | Parts from the parts bin assigned to grid tiles and species-wheel arcs, all REVIEW (Troy, 2026-11-14). |
 | `canon/parts-bin.md` | Every SRD and PHB class and feat broken into parts, each with a best-guess points score on the Character Origins scale, a tree guess and a totals check (PROPOSED, tentative, 2026-11-05). |
-| `canon/parts-bin-techniques.md` | Technique parts for one stamina system: monk, Battle Master manoeuvres, 4e warlord ideas and the bard, each with trigger, cost, target and a home on the skills grid (PROPOSED, 2026-11-07). |
-| `canon/techniques.md` | Designed techniques (stamina system) as stat blocks with stackable stamina add-ons; the generic Attack Up tile (PROPOSED, 2026-11-07). |
+| `canon/parts-bin-techniques.md` | Technique parts for one Stamina system: monk, Battle Master manoeuvres, 4e warlord ideas and the bard, each with trigger, cost, target and a home on the skills grid (PROPOSED, 2026-11-07). |
+| `canon/techniques.md` | Designed techniques (Stamina system) as stat blocks with stackable Stamina add-ons; the generic Attack Up tile (PROPOSED, 2026-11-07). |
 | `canon/proposed-feat-changes.md` | Feat-by-feat clashes with the personality traits (SUPERSEDED 2026-11-05 by extended traits). |
 | `canon/audit-planes.md` | Report: everything in the SRD (and well-known non-SRD subclasses) that depends on other planes (2026-10-31). |
 | `canon/proposed-monster-changes.md` | Running list of proposed changes to the SRD monsters, each with its reason, to apply in one pass if accepted (PROPOSED, 2026-11-01). |

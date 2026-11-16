@@ -49,7 +49,7 @@ The goal is a setting-specific derivative of the D&D 5e SRD for the ring-world A
   - [x] Classes broken into parts, and every part scored: `canon/parts-bin.md` (2026-11-05)
   - [ ] **Two-tree progression** (exploring, `canon/brainstorm-progression.md`): all nine first questions answered 2026-11-05.
     - [ ] **Next (agreed 2026-11-05): build a couple of test paths** from `canon/parts-bin.md` to test the concept: milestone depth against the 2024 power curve.
-    - [ ] Polish the phasing tree's 33 roots; mana costs for spell levels 6–9 and the nova limit
+    - [ ] Polish the phasing tree's 33 roots; Mana costs for spell levels 6–9 and the nova limit
   - [ ] Troy answers the design questions (§3 of the working file)
   - [ ] Design the extended traits from the toolbox, reworded
   - [ ] Replace the feat hooks in the classes and other chapters (§2 of the working file)

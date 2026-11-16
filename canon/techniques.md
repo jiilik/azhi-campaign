@@ -1,13 +1,13 @@
 # Techniques
 
-**Status: PROPOSED** (opened 2026-11-07). Designed techniques for the stamina system, written as stat blocks. The parts they're built from are in `canon/parts-bin-techniques.md`. Decisions are Troy's (voice, 2026-11-07) unless marked *(Claude)*.
+**Status: PROPOSED** (opened 2026-11-07). Designed techniques for the Stamina system, written as stat blocks. The parts they're built from are in `canon/parts-bin-techniques.md`. Decisions are Troy's (voice, 2026-11-07) unless marked *(Claude)*.
 
 ## How techniques work *(Troy, 2026-11-07)*
 
-- **"Technique" is the umbrella term.** A technique can have a **free** use, a **stamina** use, or both. The word "at-will" is no longer used for a separate kind of thing; free techniques are the stamina side's equivalent of cantrips.
+- **"Technique" is the umbrella term.** A technique can have a **free** use, a **Stamina** use, or both. The word "at-will" is no longer used for a separate kind of thing; free techniques are the Stamina side's equivalent of cantrips.
 - **Kits give techniques from a list.** The Herald picks **three**, the Scout **two** and the Fighter **one**, each from their kit's technique list. *(Superseded 2026-11-09 for all kits: you know every technique on each tile you take; see "Where techniques are learned".)* Each kit needs its own list. *(Claude: build each list from the kit's own section of the parts-bin distribution table plus its neighbouring seams.)*
-- **Stat block, like a spell's:** timing (action, Bonus Action or Reaction), range, targets, the free effect, then the stamina add-ons.
-- **Add-ons:** each technique can offer **several ways to spend stamina**, each with its own cost. You **stack whichever you want** on one use, **with no overall cap**, to keep the rules simple. The small pools limit it naturally. An add-on can be bought **once** unless the technique says otherwise.
+- **Stat block, like a spell's:** timing (action, Bonus Action or Reaction), range, targets, the free effect, then the Stamina add-ons.
+- **Add-ons:** each technique can offer **several ways to spend Stamina**, each with its own cost. You **stack whichever you want** on one use, **with no overall cap**, to keep the rules simple. The small pools limit it naturally. An add-on can be bought **once** unless the technique says otherwise.
 - **Reactions** in a technique can be used **"at any time"**, even on another creature's turn, with no other trigger. Reactions are a scarce resource (one per round), and choosing when to spend one is the skill: a Herald holding a Reaction for *Scatter!* gives up its Opportunity Attack.
 - **Weapon Mastery comes first:** every kit with weapons now has at least one mastery, so the basic riders (Push, Topple, Slow and the rest) come from masteries. **Techniques must not copy them.** Free techniques at the Dex–Str seam are things like moving a character after a hit, or a little extra damage of a particular type.
 
@@ -35,7 +35,7 @@
 
 **The Herald path** *(Troy, 2026-11-09)*:
 - A Herald **always knows every technique taught on each tile it takes**, the kit included. There is no picking from a list, and **no preparation** like a spellcaster's.
-- **The real choices** are **how to spend stamina** and **how to progress down the tree**. They're tacticians: they need to know **when to use which play**.
+- **The real choices** are **how to spend Stamina** and **how to progress down the tree**. They're tacticians: they need to know **when to use which play**.
 - **Not a crazy number to manage**, but they get more interesting deeper in the tree.
 - This **replaces "the Herald picks three techniques from its kit list"**.
 - **The Herald Kit teaches *Rally* and the coaching set** (Troy, 2026-11-09): four plays at the start. **Momentum goes on 201.**
@@ -49,7 +49,7 @@
 - **Consequences** *(Claude, voice)*:
   - Each kit's cone holds **only its own Attack Up** (the ring-5 corner straight out from it). The neighbouring corners are just out of reach. So a second boost means taking a second kit and going five deep there, and four boosts means four kits each five deep: Troy's munchkin case.
   - The **Prof. Up tiles** on the ring-4 seams sit inside the cones of both neighbouring kits.
-- **Attack Ups are rare** *(Troy)*: most characters get one, a dedicated multiclasser two. That's rarer than cantrip scaling in the 2024 rules, which goes by total level (levels 5, 11 and 17), so every caster gets all three steps. Pools (stamina, mana) grow wherever you go, so **most power will come from deeper pools and better techniques, not extra dice**.
+- **Attack Ups are rare** *(Troy)*: most characters get one, a dedicated multiclasser two. That's rarer than cantrip scaling in the 2024 rules, which goes by total level (levels 5, 11 and 17), so every caster gets all three steps. Pools (Stamina, Mana) grow wherever you go, so **most power will come from deeper pools and better techniques, not extra dice**.
 - *(Claude, from memory, not checked)* Wizards of the Coast has said most campaigns stay below level 10, and D&D Beyond's data showed most characters at levels 1–5. So the level-11 step barely comes up at most tables.
 
 ## Generic tiles *(Troy, 2026-11-07)*
@@ -83,11 +83,11 @@ Two kinds of tile are scattered across the whole skills grid and stack no matter
 - **Timing:** Bonus Action.
 - **Range:** one ally who can hear you.
 - **Free effect:** the ally moves 5 feet towards you. This costs it no movement and doesn't provoke Opportunity Attacks.
-- **Stamina add-ons** (1 stamina each; each can be bought once):
+- **Stamina add-ons** (1 Stamina each; each can be bought once):
   - **Reaction:** use it as a Reaction, at any time.
   - **Everyone:** it affects every ally who can hear you.
   - **Further:** the move is 10 feet instead of 5.
-- *Full cost: 3 stamina for a Reaction that moves the whole party 10 feet.*
+- *Full cost: 3 Stamina for a Reaction that moves the whole party 10 feet.*
 
 ### Scatter!
 
@@ -96,7 +96,7 @@ Two kinds of tile are scattered across the whole skills grid and stack no matter
 - **Timing:** Bonus Action.
 - **Range:** one ally who can hear you.
 - **Free effect:** the ally moves 5 feet away from you. This costs it no movement and doesn't provoke Opportunity Attacks.
-- **Stamina add-ons** (1 stamina each; each can be bought once):
+- **Stamina add-ons** (1 Stamina each; each can be bought once):
   - **Reaction:** use it as a Reaction, at any time.
   - **Everyone:** it affects every ally who can hear you.
   - **Further:** the move is 10 feet instead of 5. *(Troy limited this to one purchase: it's free movement, multiplied by the party's size.)*
@@ -115,14 +115,14 @@ Two kinds of tile are scattered across the whole skills grid and stack no matter
 - **Timing:** Bonus Action.
 - **Range:** one ally who can hear you.
 - **Free effect:** the ally adds a d4 to its next roll of that kind before the end of its next turn.
-- **Stamina add-ons** (1 stamina each; each can be bought once):
+- **Stamina add-ons** (1 Stamina each; each can be bought once):
   - **Reaction:** use it as a Reaction, at any time, even after the ally has rolled.
   - **Everyone:** it affects every ally who can hear you.
   - **Bigger die:** a d6 instead of a d4.
 - **Balance** *(discussed, Troy: "reasonable", it doesn't unbalance anything)*:
   - The Bonus Action is the free version's cost, and it competes with *On Me!*, *Scatter!* and the rest. Outside combat it's free to use, like Guidance, which nobody casts in combat anyway.
-  - *There's an Opening!* with the Reaction add-on, for 1 stamina, is roughly a Bardic Inspiration die. A 2024 bard gives one as a Bonus Action, a d6 the ally adds after failing a d20 Test, as many times as its Charisma modifier per Long Rest, with Short Rest recovery from level 5. A Herald with 4 stamina and a PB top-up on a Short Rest gets about as many.
-  - **Resolved (voice, 2026-11-09):** the bigger-die add-on stays at 1 stamina on *There's an Opening!* too. The Reaction add-on is the strong part: the ally misses, you shout, and it hits after all. Troy: "a fair trade". The free Bonus Action version is a gamble that the ally will need it; stamina buys the certainty of waiting for the miss.
+  - *There's an Opening!* with the Reaction add-on, for 1 Stamina, is roughly a Bardic Inspiration die. A 2024 bard gives one as a Bonus Action, a d6 the ally adds after failing a d20 Test, as many times as its Charisma modifier per Long Rest, with Short Rest recovery from level 5. A Herald with 4 Stamina and a PB top-up on a Short Rest gets about as many.
+  - **Resolved (voice, 2026-11-09):** the bigger-die add-on stays at 1 Stamina on *There's an Opening!* too. The Reaction add-on is the strong part: the ally misses, you shout, and it hits after all. Troy: "a fair trade". The free Bonus Action version is a gamble that the ally will need it; Stamina buys the certainty of waiting for the miss.
 - *(Claude; checked against the SRD 2026-11-09)* The 2024 *Guidance* takes an action, lasts up to a minute with Concentration, and adds 1d4 to every check with one chosen skill. These techniques give one roll each instead.
 
 ### Invigorate
@@ -131,9 +131,9 @@ Two kinds of tile are scattered across the whole skills grid and stack no matter
 
 - **Timing:** Bonus Action.
 - **Range:** one ally who can hear you.
-- **Cost:** 1 stamina. **No free version.**
-- **Effect:** the ally **takes a Bonus Action right away**, on your turn. You trade your Bonus Action, plus 1 stamina, for theirs.
-- **No restriction on spells** *(Troy)*. The stamina is the real cost: renewable but expensive, especially early, like half a spell.
+- **Cost:** 1 Stamina. **No free version.**
+- **Effect:** the ally **takes a Bonus Action right away**, on your turn. You trade your Bonus Action, plus 1 Stamina, for theirs.
+- **No restriction on spells** *(Troy)*. The Stamina is the real cost: renewable but expensive, especially early, like half a spell.
 - *(Claude)* "Right away" keeps it safe: the ally can't save it for its own turn and take two Bonus Actions there, which is where two *Flurries of Blows* or two Bonus Action spells would break.
 
 ### Greater Invigorate
@@ -142,7 +142,7 @@ Two kinds of tile are scattered across the whole skills grid and stack no matter
 
 - **Timing:** action.
 - **Range:** one ally who can hear you.
-- **Cost:** 2 stamina. **No free version.** It's more powerful than *Invigorate*, since it gives one character two actions in a round.
+- **Cost:** 2 Stamina. **No free version.** It's more powerful than *Invigorate*, since it gives one character two actions in a round.
 - **Effect:** the ally **takes an action right away**, on your turn, **without spending its Reaction**.
 - **No add-ons** for now; Troy is happy with the plain balance.
 - *(Claude)* The closest comparison is the Fighter's Action Surge. The ally acts on your turn, so it never has two actions in its own turn. The case to watch is a caster ally casting two big spells in one round.
@@ -153,7 +153,7 @@ Two kinds of tile are scattered across the whole skills grid and stack no matter
 
 - **Timing:** Reaction.
 - **Range:** one ally who can hear you.
-- **Cost:** 1 stamina. No free version.
+- **Cost:** 1 Stamina. No free version.
 - **Effect:** the ally **regains its Reaction**. But it can't use it until **another creature moves or takes its turn**.
 - *(Why the delay; Troy gamed it out:)* Otherwise a fighter could make an Opportunity Attack, and a Herald could immediately restore its Reaction for a second one against the same foe. *(Claude: strictly, the trigger has already passed, but the delay makes it explicit.)*
 
@@ -163,25 +163,25 @@ Two kinds of tile are scattered across the whole skills grid and stack no matter
 
 - **Timing:** Bonus Action.
 - **Range:** allies who can hear you.
-- **Cost:** 1 stamina for the first ally, **plus 1 for each additional ally**, with no limit. *(Troy: at first level, four allies is your whole pool.)*
+- **Cost:** 1 Stamina for the first ally, **plus 1 for each additional ally**, with no limit. *(Troy: at first level, four allies is your whole pool.)*
 - **Effect:** each ally spends one of its **Hit Point Dice**, rolls it, adds its Constitution modifier, and regains that many Hit Points right away.
-- **Balance** *(discussed; Troy happy)*: 1 stamina should be about half a level 1 spell. *Healing Word* (checked against the SRD 2026-11-09) is a Bonus Action at 60 feet that heals one creature 2d4 plus the caster's modifier, about 8 at first level. Rally heals about 6–7 with a d8 Hit Die, a bit over half of that. It also spends one of the ally's Hit Point Dice, which it would otherwise use on a Short Rest, and that brings it close to half.
+- **Balance** *(discussed; Troy happy)*: 1 Stamina should be about half a level 1 spell. *Healing Word* (checked against the SRD 2026-11-09) is a Bonus Action at 60 feet that heals one creature 2d4 plus the caster's modifier, about 8 at first level. Rally heals about 6–7 with a d8 Hit Die, a bit over half of that. It also spends one of the ally's Hit Point Dice, which it would otherwise use on a Short Rest, and that brings it close to half.
 - **It picks up a downed ally** *(Troy, voice, 2026-11-09)*: since it replicates healing magic, it works on an ally at 0 Hit Points, as *Healing Word* and *Cure Wounds* do. The ally spends a Hit Point Die and gets back up.
 - **First home for healing on the grid.** Healing had none after the cleric was dropped.
 
 ### Momentum *(formerly Mark the Target; briefly "Again!")*
 
-*Herald technique (voice, 2026-11-09). Reworked by Troy from the Mark the Target draft. **Named Momentum by Troy (2026-11-09)**, replacing Claude's working name "Again!". Flavour (Troy): the Herald is cheering, "Again! Hit it again!", pouring stamina into the momentum.*
+*Herald technique (voice, 2026-11-09). Reworked by Troy from the Mark the Target draft. **Named Momentum by Troy (2026-11-09)**, replacing Claude's working name "Again!". Flavour (Troy): the Herald is cheering, "Again! Hit it again!", pouring Stamina into the momentum.*
 
 - **Timing:** action. It works **like an attack cantrip**: you use your action for one attack, melee or ranged.
-- **Mark:** on a hit, you can spend **1 stamina** to mark the foe.
+- **Mark:** on a hit, you can spend **1 Stamina** to mark the foe.
 - **Effect:** the **next attack that deals damage** to the marked foe, from anyone, deals an **extra 1d12**.
-- **Sustaining:** each time the marked foe is hit, you can spend **another stamina** to keep the mark, so the next hit also gains 1d12, and so on. Paying is **free: no action or Reaction**. If a hit lands and you don't pay, the mark ends. **No time limit**: it lasts as long as you keep paying.
+- **Sustaining:** each time the marked foe is hit, you can spend **another Stamina** to keep the mark, so the next hit also gains 1d12, and so on. Paying is **free: no action or Reaction**. If a hit lands and you don't pay, the mark ends. **No time limit**: it lasts as long as you keep paying.
 - **No Attack Up scaling.** That solves the double-dipping problem.
 - **Balance** *(discussed)*:
-  - Two stamina should do about a level 1 spell's damage, 10–14 (*Magic Missile* about 10, *Guiding Bolt* about 14). So **1 stamina is worth about 2d6**.
+  - Two Stamina should do about a level 1 spell's damage, 10–14 (*Magic Missile* about 10, *Guiding Bolt* about 14). So **1 Stamina is worth about 2d6**.
   - Troy chose a **d12** for easier accounting: it averages 6.5 against 7 for 2d6, but it's swingier.
-  - Pouring the whole pool into one round is **a deliberate nova at the cost of all your resources**. Early on, 4 stamina won't last a round at a five-player table, especially with a monk making many attacks.
+  - Pouring the whole pool into one round is **a deliberate nova at the cost of all your resources**. Early on, 4 Stamina won't last a round at a five-player table, especially with a monk making many attacks.
 - *(Superseded draft, 2026-11-09: charges equal to 1 + Attack Ups, 1d6 each, ending at the start of your next turn.)*
 
 ## Scout techniques (in progress)
@@ -190,26 +190,26 @@ Two kinds of tile are scattered across the whole skills grid and stack no matter
 
 ### Scout Kit (12) *(Troy, voice, 2026-11-11, evening commute)*
 
-The kit has 4 stamina from the start, so it needs something to spend it on. As with the Herald, you know every technique on the tile, so each one has to be worth having for an archer, a duellist and a two-weapon fighter alike: about the Scout itself (speed, reflexes), not a weapon. Starting kit flavours the build: a manoeuvres character who starts from the Scout Kit has *I'm Going First!*; the same build from the Fighter Kit doesn't.
+The kit has 4 Stamina from the start, so it needs something to spend it on. As with the Herald, you know every technique on the tile, so each one has to be worth having for an archer, a duellist and a two-weapon fighter alike: about the Scout itself (speed, reflexes), not a weapon. Starting kit flavours the build: a manoeuvres character who starts from the Scout Kit has *I'm Going First!*; the same build from the Fighter Kit doesn't.
 
 | Technique | Text |
 |---|---|
-| **I'm Going First!** | When you roll Initiative, spend 1 stamina for +5 to the roll, or 2 stamina for +10. No free version. |
-| **Sidestep** | *Reaction, when you're hit or fail a Dexterity save, in light or no armour.* Spend 1, 2 or 3 stamina to add 1d4, 1d8 or 1d12 to your AC **or** your Dexterity saves until the start of your next turn, including the triggering roll. |
-| **Superhero Landing** *(Troy, voice, 2026-11-14; first called Catfall)* | *Reaction, when you take damage from a fall.* Reduce the damage by 1d6. **Add-on:** reduce it by a further 1d6 for each stamina you spend. No cap: the stamina pool is the brake. |
+| **I'm Going First!** | When you roll Initiative, spend 1 Stamina for +5 to the roll, or 2 Stamina for +10. No free version. |
+| **Sidestep** | *Reaction, when you're hit or fail a Dexterity save, in light or no armour.* Spend 1, 2 or 3 Stamina to add 1d4, 1d8 or 1d12 to your AC **or** your Dexterity saves until the start of your next turn, including the triggering roll. |
+| **Superhero Landing** *(Troy, voice, 2026-11-14; first called Catfall)* | *Reaction, when you take damage from a fall.* Reduce the damage by 1d6. **Add-on:** reduce it by a further 1d6 for each Stamina you spend. No cap: the Stamina pool is the brake. |
 
 - **I'm Going First!**: Troy first pitched +10/+20; cut to +5/+10 so both tiers matter (+10 nearly guarantees going first). *(Claude: compare the 2024 Alert feat, which adds Proficiency Bonus to Initiative for free; watch for later combos that reward acting before foes.)*
 - **Sidestep** grew from *Fleet-Footed* (a die to AC while moving; Battle Master's Evasive Footwork, not in the SRD), reshaped to work like *Shield*. Choices made along the way:
-  - **Shield-like:** a Reaction when hit, lasting until the start of your next turn. Averages 2.5, 4.5 and 6.5; at 2 stamina (about one level-1 spell) the d8's 4.5 sits just under Shield's +5.
+  - **Shield-like:** a Reaction when hit, lasting until the start of your next turn. Averages 2.5, 4.5 and 6.5; at 2 Stamina (about one level-1 spell) the d8's 4.5 sits just under Shield's +5.
   - **Light or no armour only**, so heavily armoured builds can't dip for it.
   - **AC or Dexterity saves, chosen per use**, both lasting the same time so the two are worth the same.
   - **Named Sidestep**, because *Evasion* is already an SRD feature.
   - It gives the Scout a real Reaction choice at the kit, where it otherwise has only Opportunity Attacks; later it competes with Deflect Attacks and Uncanny Dodge (both cut damage after a hit; Sidestep turns a hit into a miss).
   - Troy: "it gives them a bunch of dice to roll whenever they're being attacked, which is kind of fun."
 - **Counts against the triggering roll, used after it's known** *(Troy, 2026-11-11)*: like Shield, which is cast "when you are hit" and applies "including against the triggering attack". At most tables the DM announces the attack total, so the player knows the margin and picks the die (hit by 1: the d4 always works; hit by 9+: only the d12 can help).
-- **Superhero Landing** *(Troy, voice, 2026-11-14; first called Catfall)*: the early-level fall-damage answer. Falling deals 1d6 Bludgeoning per 10 feet, up to 20d6 (SRD), so the free 1d6 is like falling 10 feet less; each stamina buys another 1d6 (avg 3.5, a little under a level-1 *Cure Wounds* at 2 stamina). **No cap:** a starting Scout's 4 stamina reaches 5d6 (about 50 feet's worth); a deep pool can shrug off long falls, as a high-level monk's *Slow Fall* (five times monk level) does. A **Reaction**, like *Slow Fall* and *Feather Fall*. **Renamed Superhero Landing** (Troy): tongue in cheek, even in-world, since the dragonborn surely have superhero stories of their own. **On the Scout Kit tile, for anyone who has it** (first kit or later), so it stays a Scout signature that a Fighter or Herald reaching into the Scout's cluster doesn't pick up.
-- **Fighting styles** will get stamina add-ons later (parked 2026-11-10), giving every Scout a third way to spend stamina.
-- **Rejected:** *Precise Strike* (Claude: 1 stamina, +1d6 damage after a hit). Troy didn't like it.
+- **Superhero Landing** *(Troy, voice, 2026-11-14; first called Catfall)*: the early-level fall-damage answer. Falling deals 1d6 Bludgeoning per 10 feet, up to 20d6 (SRD), so the free 1d6 is like falling 10 feet less; each Stamina buys another 1d6 (avg 3.5, a little under a level-1 *Cure Wounds* at 2 Stamina). **No cap:** a starting Scout's 4 Stamina reaches 5d6 (about 50 feet's worth); a deep pool can shrug off long falls, as a high-level monk's *Slow Fall* (five times monk level) does. A **Reaction**, like *Slow Fall* and *Feather Fall*. **Renamed Superhero Landing** (Troy): tongue in cheek, even in-world, since the dragonborn surely have superhero stories of their own. **On the Scout Kit tile, for anyone who has it** (first kit or later), so it stays a Scout signature that a Fighter or Herald reaching into the Scout's cluster doesn't pick up.
+- **Fighting styles** will get Stamina add-ons later (parked 2026-11-10), giving every Scout a third way to spend Stamina.
+- **Rejected:** *Precise Strike* (Claude: 1 Stamina, +1d6 damage after a hit). Troy didn't like it.
 
 **Upgrades and deeper ideas:**
 
@@ -229,7 +229,7 @@ The kit has 4 stamina from the start, so it needs something to spend it on. As w
 
 | Idea | Where | Notes |
 |---|---|---|
-| **Free Dash or Disengage** as a Bonus Action, 0 stamina | **304** (ring 3, straight out from the Scout) | Troy kept it on ring 3, not the kit. *(Claude: Cunning Action without Hide.)* |
+| **Free Dash or Disengage** as a Bonus Action, 0 Stamina | **304** (ring 3, straight out from the Scout) | Troy kept it on ring 3, not the kit. *(Claude: Cunning Action without Hide.)* |
 | **Deflect Attacks**: pure reflexes, "I'm so fast I can just deflect" | **304** | From the SRD monk (level 3). *(Claude: the SRD version reduces damage by 1d10 + Dex + monk level, so it needs a measure other than level.)* |
 | **Take Aim** (from the rogue's *Steady Aim*) | **304, Ranger** *(Troy, voice, 2026-11-14)* | See the placed techniques below. |
 | **Uncanny Dodge** | **305, Skirmisher** *(Troy, voice, 2026-11-15; was 204)* | See the placed techniques below. |
@@ -245,16 +245,16 @@ Listed in the text only, not on the diagram's tiles (Troy, 2026-11-13).
 
 | Technique | Tile | Text |
 |---|---|---|
-| **Take Aim** | **304, Ranger** | *Bonus Action, if you haven't moved this turn.* You have Advantage on your next attack roll this turn, and your Speed is 0 until the end of the turn. **Add-on:** for each stamina you spend, your Speed is 10 feet higher instead (1 stamina, 10 feet; 2, 20 feet; and so on). |
-| **Uncanny Dodge** | **305, Skirmisher** *(moved from 204, 2026-11-15)* | *Reaction, when an attack roll hits you.* Reduce the damage by 1d6. **Add-on:** reduce it by a further 1d6 for each stamina you spend. |
-| **Greater Sidestep** | **405, Mobility** | *Reaction, when you're hit or fail a Dexterity save, in light or no armour.* Spend 4 stamina to add 2d8, or 5 stamina to add 2d10, to your AC **or** your Dexterity saves until the start of your next turn, including the triggering roll. |
-| **Evasion** | **508, Evasion** | When you make a Dexterity saving throw to take only half damage, you take no damage if you succeed and half the damage if you fail. *(No Reaction needed.)* **Add-on:** when you fail, reduce the damage by a further 1d6 for each stamina you spend. |
+| **Take Aim** | **304, Ranger** | *Bonus Action, if you haven't moved this turn.* You have Advantage on your next attack roll this turn, and your Speed is 0 until the end of the turn. **Add-on:** for each Stamina you spend, your Speed is 10 feet higher instead (1 Stamina, 10 feet; 2, 20 feet; and so on). |
+| **Uncanny Dodge** | **305, Skirmisher** *(moved from 204, 2026-11-15)* | *Reaction, when an attack roll hits you.* Reduce the damage by 1d6. **Add-on:** reduce it by a further 1d6 for each Stamina you spend. |
+| **Greater Sidestep** | **405, Mobility** | *Reaction, when you're hit or fail a Dexterity save, in light or no armour.* Spend 4 Stamina to add 2d8, or 5 Stamina to add 2d10, to your AC **or** your Dexterity saves until the start of your next turn, including the triggering roll. |
+| **Evasion** | **508, Evasion** | When you make a Dexterity saving throw to take only half damage, you take no damage if you succeed and half the damage if you fail. *(No Reaction needed.)* **Add-on:** when you fail, reduce the damage by a further 1d6 for each Stamina you spend. |
 
-- **Take Aim**: everything has a stamina upgrade, and the price can scale. 1 stamina for Advantage outright was judged too strong (Advantage is worth about +4 to +5); instead stamina buys back movement, 10 feet a point, so a 35-foot Scout pays 4 to move fully. On **304** with the free Dash or Disengage and Deflect Attacks; any of them can move later if 304 gets crowded. *(Claude: it keeps Steady Aim's "if you haven't moved" condition from the SRD; the voice chat didn't revisit that.)*
+- **Take Aim**: everything has a Stamina upgrade, and the price can scale. 1 Stamina for Advantage outright was judged too strong (Advantage is worth about +4 to +5); instead Stamina buys back movement, 10 feet a point, so a 35-foot Scout pays 4 to move fully. On **304** with the free Dash or Disengage and Deflect Attacks; any of them can move later if 304 gets crowded. *(Claude: it keeps Steady Aim's "if you haven't moved" condition from the SRD; the voice chat didn't revisit that.)*
 - **Uncanny Dodge**: changed from the SRD's halving to dice, like Superhero Landing, so it doesn't scale with big hits. Moved from ring 5 to **204**, the seam between Scout and Fighter, so both kits reach it in one step. (305, Skirmisher, was chosen first, then changed.) **Moved again to Skirmisher (305)** (Troy, 2026-11-15) to uncrowd Precision; 305 is reached from Scout II (203) or Precision (204), so the Fighter still gets there through Precision.
 - **Greater Sidestep**: its own full description with only the two big tiers; no prerequisite. **405** is reachable only through the Scout Kit, 203 and 304 (checked on the grid), so anyone there already has Sidestep. (406 was chosen first; 406 keeps just its Dex +1.)
-- **Evasion**: on **508**, reachable from both the Scout and Fighter lines (its ancestors include 12 and 13). (408 was named first, then changed.) A flat "spend 4 stamina for no damage" was rejected: against big Dexterity saves (Flame Strike, Chain Lightning, Meteor Swarm's 40d6, dragon breath) it would make you nearly immune. The dice add-on keeps it honest, and it leaves your Reaction free for Uncanny Dodge or Sidestep in the same round.
-- **The damage-reduction family** (Superhero Landing, Uncanny Dodge, Evasion's add-on) all use 1d6, plus 1d6 per stamina, with no cap.
+- **Evasion**: on **508**, reachable from both the Scout and Fighter lines (its ancestors include 12 and 13). (408 was named first, then changed.) A flat "spend 4 Stamina for no damage" was rejected: against big Dexterity saves (Flame Strike, Chain Lightning, Meteor Swarm's 40d6, dragon breath) it would make you nearly immune. The dice add-on keeps it honest, and it leaves your Reaction free for Uncanny Dodge or Sidestep in the same round.
+- **The damage-reduction family** (Superhero Landing, Uncanny Dodge, Evasion's add-on) all use 1d6, plus 1d6 per Stamina, with no cap.
 
 ## Ideas in progress
 
@@ -264,5 +264,5 @@ Listed in the text only, not on the diagram's tiles (Troy, 2026-11-13).
   - **Hold the line:** allies near you gain a bonus to AC.
   - **Battle plan:** the whole party adds a bonus to Initiative.
   - **Hammer and anvil:** when you hit, an ally next to the target deals some damage too.
-- **Strike Now!** *(Claude's pitch; replaced by* Greater Invigorate *on 2026-11-09)*: give up one of your attacks so an ally makes one with its Reaction, the warlord's signature move. Troy noted the action-economy cost: your attack plus the ally's Reaction. *(Claude)* If the ally declines, nothing happens and no stamina is spent.
+- **Strike Now!** *(Claude's pitch; replaced by* Greater Invigorate *on 2026-11-09)*: give up one of your attacks so an ally makes one with its Reaction, the warlord's signature move. Troy noted the action-economy cost: your attack plus the ally's Reaction. *(Claude)* If the ally declines, nothing happens and no Stamina is spent.
 

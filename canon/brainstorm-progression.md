@@ -68,8 +68,8 @@ These overturn parts of the brainstorm below.
 6. **Points per level** *(Troy, voice)*: **one point per level-up**, spent on either wheel. An **Unphased** character can't spend on the colour wheel, so their points go to the skills grid (no banking).
 7. **No ability cap** *(Troy, voice)*: ignore the 20 cap; it won't matter in practice (a focused build tops out at 21, still +5). *(Claude, checked against SRD 5.2.1:)* items such as Gauntlets of Ogre Power set a score (19) and do nothing if yours is already that high; the manuals and tomes add 2, to a maximum of 30.
 8. **Spells** *(Troy, voice, 2026-11-12)*:
-   - **No spell-level gates.** A character can cast any spell they have access to if they have the mana; early on, a big spell would blow the whole pool.
-   - **Intelligence casters (the Mage) learn from books, anywhere:** the Mage's tiles give **mana and the right to learn**, no spells. A world condition: the DM must make spells available to learn (libraries, scrolls, teachers).
+   - **No spell-level gates.** A character can cast any spell they have access to if they have the Mana; early on, a big spell would blow the whole pool.
+   - **Intelligence casters (the Mage) learn from books, anywhere:** the Mage's tiles give **Mana and the right to learn**, no spells. A world condition: the DM must make spells available to learn (libraries, scrolls, teachers).
    - **Other casters** (the Mystic, blood mages and the like) **know the spells on each tile they take**, as with techniques.
    - **Starting with the Mage Kit** (as the first tile, not multiclassing in) includes **a spellbook with a set number of spells of the player's choice**. *(Parked: how many and which; reference the SRD wizard, six level-1 spells and three cantrips.)*
    - **The spellbook** *(Troy, voice, 2026-11-13; supersedes the parked note above)*:
@@ -87,7 +87,7 @@ These overturn parts of the brainstorm below.
      - **Mage tiles teach no spells** (as above): most of a Mage's spells are found in the world.
      - **Edge tiles of the Mage cluster may teach a few specific spells**: Summoner a couple of summoning spells; Sage and Alchemist a couple of flavourful spells that are hard to find in a library.
      - **Mystic tiles teach specific spells**: a Mystic gets many spells straight from its tiles and needn't find any.
-   - **Prepared spells** *(Troy, voice, 2026-11-13; replaces "twice your Proficiency Bonus" below)*: **one prepared spell for each tile with mana on it, on both wheels** (count the purple diamonds; the species wheel's base form, ring 0, has none). The **Mage or Mystic Kit tile counts as four if it's your starting kit, one if you take it later.** The Herald Kit has no mana, so Herald casters just count their mana tiles further out.
+   - **Prepared spells** *(Troy, voice, 2026-11-13; replaces "twice your Proficiency Bonus" below)*: **one prepared spell for each tile with Mana on it, on both wheels** (count the purple diamonds; the species wheel's base form, ring 0, has none). The **Mage or Mystic Kit tile counts as four if it's your starting kit, one if you take it later.** The Herald Kit has no Mana, so Herald casters just count their Mana tiles further out.
 9. **Saving throws** *(Troy, voice, 2026-11-12)*: two proficiencies, as in the SRD.
    - **One from the starting kit,** a choice of three: the kit's own ability or either neighbour's (Herald: Cha, Dex or Int; Scout: Dex, Cha or Str; Fighter: Str, Dex or Con; Tank: Con, Str or Wis; Mystic: Wis, Con or Int; Mage: Int, Wis or Cha). Only the starting kit gives one, so multiclassing doesn't pile them up.
    - **One from the colour's base form (ring 0 since 2026-11-13; was ring 1),** a choice of its two abilities, so a player can avoid a double (Dex from Green and Dex from the Scout). Phasing changes it, which keeps things lively.
@@ -168,13 +168,13 @@ These overturn parts of the brainstorm below.
 - **Hit Dice filled tile by tile, Herald–Scout side** *(Troy, voice, 2026-11-11)*. **d6:** 302, 402, 502, 503, 504, 602, 603, 605. **d8:** 303, 305, 404, 406, 505, 507, 508, 509, 606, 608, 609, 611. This settles the odd-ring seam hexes on the Cha–Dex seam (302 d6 / 303 d8, 503–504 d6) and fills the Herald and Scout wedges between the rays. **d10, Fighter side** *(same session)*: 306, 308, 408, 410, 510, 512, 513, 514, 612, 614, 615, 617 (510 and 614 are Attack Ups and now show their d10). **Tank, Mystic and Mage sides** *(same session)*: d12 on 309, 311, 412, 414, 515, 517, 618, 620; d10 on 518, 519, 621, 623; d8 on 312, 314, 416, 418, 520, 522, 624, 626; d6 on 523, 524, 528, 529, 627, 629, 633, 635; d4 on 315, 317, 420, 422, 525, 527, 630, 632. **Last four:** d6 on 318, 424, 530, 636 (the Mage–Herald side). **Every tile now has a Hit Die.**
 - Special tiles off the rays, such as 510 and 614, have no Hit Die.
 
-**Ring 2 stamina and mana** *(Troy, 2026-11-09)*: 201, 202, 203, 204: +3 stamina. 205, 206: +2 stamina. 207: none (the Tank's pool is hit points). 208: +2 mana. 209: +3 mana. 210: +4 mana. 211: +5 mana. 212: +2 mana and +2 stamina (the summoner: mana to summon, stamina to control).
+**Ring 2 Stamina and Mana** *(Troy, 2026-11-09)*: 201, 202, 203, 204: +3 Stamina. 205, 206: +2 Stamina. 207: none (the Tank's pool is hit points). 208: +2 Mana. 209: +3 Mana. 210: +4 Mana. 211: +5 Mana. 212: +2 Mana and +2 Stamina (the summoner: Mana to summon, Stamina to control).
 
-*Calibration (Claude)*: after two tiles on a straight path, the Herald has 7 stamina (a full caster at level 2: 6), the Mystic 7 mana (6), and the Mage 10 mana (6), the furthest ahead. The Scout has 7 stamina (a half caster: 4) and the Fighter 4 (a one-third caster: 2). Every path is front-loaded against the curves, but a full caster reaches 14 at level 3, so these are within reach.
+*Calibration (Claude)*: after two tiles on a straight path, the Herald has 7 Stamina (a full caster at level 2: 6), the Mystic 7 Mana (6), and the Mage 10 Mana (6), the furthest ahead. The Scout has 7 Stamina (a half caster: 4) and the Fighter 4 (a one-third caster: 2). Every path is front-loaded against the curves, but a full caster reaches 14 at level 3, so these are within reach.
 
 **Pool sizes by ring** *(Troy, 2026-11-09)*: with linear progression, each ring is about one level. So a path such as 11 → 201 → 301 → 424 → 529 → 634 should hold about the pool of a level 6 caster.
 
-*Reference (Claude, computed from the SRD wizard's slot table at our mana prices, 2026-11-09):*
+*Reference (Claude, computed from the SRD wizard's slot table at our Mana prices, 2026-11-09):*
 
 | Level | Slots (levels 1–9) | Mana | Gain |
 |---|---|---|---|
@@ -192,20 +192,20 @@ These overturn parts of the brainstorm below.
 
 Levels 11–19 add 9, 0, 10, 0, 11, 0, 13, 7 and 9.
 
-**Mage wedge mana, the reference curve** *(Troy, voice, 2026-11-11)*: the Mage is the strongest user of mana, and the other wedges are priced against it.
-- **5 mana a tile** across the Mage wedge: 16, 211, 315, 316, 317, 420, 421, 422, 524, 525, 526, 527, 629, 630, 631, 632. The straight line (16 → 211 → 316 → 421 → 526 → 631) reaches 5, 10, 15, 20, 25, 30, against the wizard's 4, 6, 14, 17, 27, 32: a little ahead early, 2 short at ring 6, and smoother.
-- **Summoner seam (Int–Cha):** 2 mana and 2 stamina on 212, 423, 634; 4 mana and 1 stamina on 528, 633 (Mage side); 1 mana and 3 stamina on 529, 635 (Herald side).
-- **Herald line, 4 stamina a tile:** 201 raised from 3 to 4; 301, 401, 501, 601 and the Herald edge 318, 424, 530, 636 get 4. The straight line reaches 24 at ring 6, against the Mage's 30; Troy: that gap is fine.
-- **Mystic wedge, 4 mana a tile** *(same evening)*: 209 (raised from 3), 312–314, 416–418, 519–523, 623–627, and the Wis–Int seam's 419 and 628. The straight line reaches 24 at ring 6, like the Herald's stamina. The Mystic also gets powers that don't run on mana, such as something like the druid's Wild Shape. *(Claude, to revisit when designing the Mystic's powers: shape-changing may overlap the Green form, which holds the druid fantasy.)*
+**Mage wedge Mana, the reference curve** *(Troy, voice, 2026-11-11)*: the Mage is the strongest user of Mana, and the other wedges are priced against it.
+- **5 Mana a tile** across the Mage wedge: 16, 211, 315, 316, 317, 420, 421, 422, 524, 525, 526, 527, 629, 630, 631, 632. The straight line (16 → 211 → 316 → 421 → 526 → 631) reaches 5, 10, 15, 20, 25, 30, against the wizard's 4, 6, 14, 17, 27, 32: a little ahead early, 2 short at ring 6, and smoother.
+- **Summoner seam (Int–Cha):** 2 Mana and 2 Stamina on 212, 423, 634; 4 Mana and 1 Stamina on 528, 633 (Mage side); 1 Mana and 3 Stamina on 529, 635 (Herald side).
+- **Herald line, 4 Stamina a tile:** 201 raised from 3 to 4; 301, 401, 501, 601 and the Herald edge 318, 424, 530, 636 get 4. The straight line reaches 24 at ring 6, against the Mage's 30; Troy: that gap is fine.
+- **Mystic wedge, 4 Mana a tile** *(same evening)*: 209 (raised from 3), 312–314, 416–418, 519–523, 623–627, and the Wis–Int seam's 419 and 628. The straight line reaches 24 at ring 6, like the Herald's Stamina. The Mystic also gets powers that don't run on Mana, such as something like the druid's Wild Shape. *(Claude, to revisit when designing the Mystic's powers: shape-changing may overlap the Green form, which holds the druid fantasy.)*
 - **Stamina, Herald–Scout–Fighter side** *(same evening)*:
-  - **4 stamina:** the Herald side of the Herald–Scout seam (202 raised from 3, 302, 402, 403, 502, 503, 602, 603, 604); *(2026-11-15: the Cunning tiles 202, 403 and 604 changed to 2 mana and 3 stamina, so they can cast the Trickery spells.)* the whole Scout wedge (203 raised from 3, 303–305, 404–406, 504–508, 605–609); and the Scout–Fighter seam where the Battle Master will live (204 raised from 3, 407, 610), so it has a resource to spend.
-  - **2 stamina:** the Fighter wedge (306–308, 408–410, 510–513, 612–615), with **3** on 509 and 611 next to the Scout.
-  - **1 stamina:** the heavy-armour seam (206 lowered from 2, 411, 616) and the Tank edge (514, 617). Troy: the heavy-armoured Tank is an immovable wall and doesn't need much stamina.
-  - Straight lines at ring 6: Mage 30 mana; Herald, Scout and Mystic 24; Fighter 12.
-  - **12-tile maximums** *(Claude, solver, checked by Troy 2026-11-11)*: 60 mana (Mage Kit alone), 48 stamina (Herald Kit alone, e.g. 11, 201–601, 202–602, 603; the Scout can reach 48 too), 12d12 Hit Dice (Tank Kit alone). Against a level-12 character: wizard 73 mana, full caster 73, barbarian 12d12. Troy is happy with this first-pass balance check.
+  - **4 Stamina:** the Herald side of the Herald–Scout seam (202 raised from 3, 302, 402, 403, 502, 503, 602, 603, 604); *(2026-11-15: the Cunning tiles 202, 403 and 604 changed to 2 Mana and 3 Stamina, so they can cast the Trickery spells.)* the whole Scout wedge (203 raised from 3, 303–305, 404–406, 504–508, 605–609); and the Scout–Fighter seam where the Battle Master will live (204 raised from 3, 407, 610), so it has a resource to spend.
+  - **2 Stamina:** the Fighter wedge (306–308, 408–410, 510–513, 612–615), with **3** on 509 and 611 next to the Scout.
+  - **1 Stamina:** the heavy-armour seam (206 lowered from 2, 411, 616) and the Tank edge (514, 617). Troy: the heavy-armoured Tank is an immovable wall and doesn't need much Stamina.
+  - Straight lines at ring 6: Mage 30 Mana; Herald, Scout and Mystic 24; Fighter 12.
+  - **12-tile maximums** *(Claude, solver, checked by Troy 2026-11-11)*: 60 Mana (Mage Kit alone), 48 Stamina (Herald Kit alone, e.g. 11, 201–601, 202–602, 603; the Scout can reach 48 too), 12d12 Hit Dice (Tank Kit alone). Against a level-12 character: wizard 73 Mana, full caster 73, barbarian 12d12. Troy is happy with this first-pass balance check.
   - **Later: munchkin playtest** *(Troy)*: once the tiles are fully populated, Claude builds munchkins to find what breaks. Not before.
   - **No pool at all:** only the Constitution stripe, 14, 207, 309, 310, 412, 413, 515, 516, 618, 619. *(Troy: the Tank's massive bag of hit points is its resource.)*
-- **Mana into the Tank side** (the Con–Wis seam, monk and blood magic): 2 mana on 415, 622, 518, 621; 1 mana on 311, 414, 517, 620, for a martial character who needs a little magic in their punches.
+- **Mana into the Tank side** (the Con–Wis seam, monk and blood magic): 2 Mana on 415, 622, 518, 621; 1 Mana on 311, 414, 517, 620, for a martial character who needs a little magic in their punches.
 
 
 - **Herald branch:** about the same pool as a caster. It replaces the bard.
@@ -222,13 +222,13 @@ Levels 11–19 add 9, 0, 10, 0, 11, 0, 13, 7 and 9.
 | **Scout** (half caster, SRD ranger) | 4 | 4 | 6 | 6 | 14 | 14 | 27 |
 | **Fighter** (one-third caster, Eldritch Knight; not in the SRD, from memory) | 2* | 2 | 4 | 6 | 6 | 6 | 17 |
 
-*The kits already match: Herald 4, Scout 4, Fighter 2 (the Fighter's 2 is above the one-third curve, which starts at level 3). The jumps come at the odd levels that open a new spell level. The Mage Kit's 5 mana is one above level 1.
+*The kits already match: Herald 4, Scout 4, Fighter 2 (the Fighter's 2 is above the one-third curve, which starts at level 3). The jumps come at the odd levels that open a new spell level. The Mage Kit's 5 Mana is one above level 1.
 
 **Fighting styles return** *(Troy, voice, 2026-11-10)*:
 - **Fighting styles are kept**, the one feat-like thing to survive the scrapping of feats, but **called fighting styles, not feats**, as in the 2014 rules.
 - **The six 2014 SRD styles, verbatim**, in their own section: `srd/05-fighting-styles/fighting-styles.md`, with a source note for copyright tracking. They are Archery, Defense, Dueling, Great Weapon Fighting, Protection and Two-Weapon Fighting. *(Claude, checked: SRD 5.2.1 has only four of them; Dueling and Protection are 2014 SRD or Player's Handbook only. Using the 2014 text for all six is Troy's explicit exception to the "no 2014 rules" standing rule.)* More styles may be added later from other sources, including reworded ones.
 - **Tiles grant them**, with the choice written in the tile's description (like Weapon Mastery). Kits: **Scout** one of Archery, Dueling or Two-Weapon Fighting; **Fighter** any one; **Tank** Defense or Protection; **Herald** none. **More styles further out**, especially along the manoeuvres seam (Scout–Fighter).
-- **Parked:** stamina add-ons that improve a fighting style, to give branches something to spend stamina on deeper in the tree.
+- **Parked:** Stamina add-ons that improve a fighting style, to give branches something to spend Stamina on deeper in the tree.
 - *(Claude, rules notes)*:
   - The 2014 *Great Weapon Fighting* rerolls 1s and 2s; the 2024 version treats them as 3s, slightly weaker (Troy caught this in voice).
   - The 2014 *Two-Weapon Fighting* says "the second attack"; under the 2024 rules that means the extra attack from the Light property.
@@ -282,7 +282,7 @@ Levels 11–19 add 9, 0, 10, 0, 11, 0, 13, 7 and 9.
 
 **Ring 1, part 2 (voice, 2026-11-07)** *(Troy unless marked)*:
 - **Mage Kit Hit Die: d4.** *(Claude: below anything in the 2024 classes, so the Mage needs a strong signature.)*
-- **Line 3 lists what adds up:** a player circles the tiles taken and totals line 3 to get Hit Dice, and so on. Things that don't need quick adding live on the character sheet and in the full kit text. For ring 1, line 3 is just the Hit Die. *(Claude: deeper rings may add mana, Sneak Attack dice or extra attacks; the centre tile counts once, however many kits you take.)*
+- **Line 3 lists what adds up:** a player circles the tiles taken and totals line 3 to get Hit Dice, and so on. Things that don't need quick adding live on the character sheet and in the full kit text. For ring 1, line 3 is just the Hit Die. *(Claude: deeper rings may add Mana, Sneak Attack dice or extra attacks; the centre tile counts once, however many kits you take.)*
 - **Starting equipment and gold** leave the grid; they'll be handled in a character creation section.
 - **Saving throws move to the form tree.** Each form gives its saves, so they change when you phase, and multiclassing can't pile them up. **The Unphased get their own saves** at the centre of the wheel. *To do:* assign saves to every form when we work on the wheel.
 - **Skills:** D&D skills are learned, so they belong on the skills grid, gained as you progress. **Ring 1 gives no skills.** **The traits keep their skills for now**, since moving them would mean rebalancing every trait. *To do:* perhaps move some skills out of the traits later. *(Troy floated moving skills out of the forms too; not settled.)*
@@ -295,36 +295,36 @@ Levels 11–19 add 9, 0, 10, 0, 11, 0, 13, 7 and 9.
 - **Every hex is worth about the same**, so a dip into another part of the grid grows a character as much as anything else.
 - **A starting kit is a whole level 1.** Taking a kit later (multiclassing) gives a **reduced version worth about one regular hex**. **For now, a second kit gives everything**; it gets trimmed later.
 
-*Two pools* (replacing "mana only"):
-- **Stamina** fuels martial techniques; **mana** fuels spells. **Separate pools**, so going deep in the martial side and dipping one Mage tile doesn't give a huge casting pool. Stamina is the body's fuel and mana the mind's. Names from video games. On the tiles they're written ★ and ◆; no other abbreviations (Troy, 2026-11-15).
-- **A shared martial pool**, like 4th Edition: warlord commands, Battle Master-style manoeuvres and monk techniques all draw on stamina.
-- **Costs:** a martial technique costs **1 stamina**; spells cost mana on the **2014 DMG spell points variant's prices, for now**: levels 1–9 cost 2, 3, 5, 6, 7, 9, 10, 11 and 13. *(Claude: levels 1–5 match the SRD sorcerer's slot costs; levels 6–9 are only the variant's numbers, no text, and worth revisiting before publication. The nova limit is still open.)* *(Claude, voice: one technique is about half a level 1 spell, so a point of either pool is worth about the same.)*
+*Two pools* (replacing "Mana only"):
+- **Stamina** fuels martial techniques; **Mana** fuels spells. **Separate pools**, so going deep in the martial side and dipping one Mage tile doesn't give a huge casting pool. Stamina is the body's fuel and Mana the mind's. Names from video games. On the tiles they're written ★ and ◆; no other abbreviations (Troy, 2026-11-15).
+- **A shared martial pool**, like 4th Edition: warlord commands, Battle Master-style manoeuvres and monk techniques all draw on Stamina.
+- **Costs:** a martial technique costs **1 Stamina**; spells cost Mana on the **2014 DMG spell points variant's prices, for now**: levels 1–9 cost 2, 3, 5, 6, 7, 9, 10, 11 and 13. *(Claude: levels 1–5 match the SRD sorcerer's slot costs; levels 6–9 are only the variant's numbers, no text, and worth revisiting before publication. The nova limit is still open.)* *(Claude, voice: one technique is about half a level 1 spell, so a point of either pool is worth about the same.)*
 - **Recovery:** **all on a Long Rest**. On a **Short Rest, each pool recovers points equal to your Proficiency Bonus**. This rule goes **in the rules text, not on a tile**, and must be written up. Better short-rest recovery can come as nodes later.
-- **Stamina and mana go on line 3** of a tile, since they add up across tiles. **Symbols** *(Troy, 2026-11-07; glyphs changed 2026-11-11)*: red ♥ Hit Die, gold ★ stamina, purple ◆ mana, the same on the skills grid and the species wheel. (They replaced the ❤️ ⭐ 📜 emoji, which can't turn to follow the species wheel's curved text.)
-- **At-wills** *(superseded 2026-11-07 by **techniques**, which can have a free use, a stamina use or both; see `canon/techniques.md`)*: free martial features that cost no stamina, the martial equivalent of cantrips. Named for 4th Edition, so players understand at once. **Designed later**, as part of the larger system.
+- **Stamina and Mana go on line 3** of a tile, since they add up across tiles. **Symbols** *(Troy, 2026-11-07; glyphs changed 2026-11-11)*: red ♥ Hit Die, gold ★ Stamina, purple ◆ Mana, the same on the skills grid and the species wheel. (They replaced the ❤️ ⭐ 📜 emoji, which can't turn to follow the species wheel's curved text.)
+- **At-wills** *(superseded 2026-11-07 by **techniques**, which can have a free use, a Stamina use or both; see `canon/techniques.md`)*: free martial features that cost no Stamina, the martial equivalent of cantrips. Named for 4th Edition, so players understand at once. **Designed later**, as part of the larger system.
 
 *The kits:*
 
 | Kit | Line 3 | Also in the kit (description, not the tile) |
 |---|---|---|
-| **Herald** (Cha) | d6, 4 stamina | **No fighting style** (Troy, 2026-11-10: Protection would make it a frontliner). Knows every technique its kit tile teaches (Troy, 2026-11-09; was "3 techniques from its list") ("the masters of this"); light armour; **Weapon Mastery with 1 weapon** (Troy, 2026-11-07, so techniques never need to copy masteries; about +3 points, to about 15). **Command and control, not a caster.** Inspiration becomes something to spend stamina on, designed with the at-wills. |
-| **Scout** (Dex) | d8, 4 stamina +5ft | **Fighting style: one of Archery, Dueling or Two-Weapon Fighting** (Troy, 2026-11-10). Knows every technique its kit tile teaches (was 2 from a list; Troy, 2026-11-09); light armour; Martial weapons with the Finesse, Light or ranged property; Weapon Mastery with 2 weapons (what the rogue and ranger share). **+5 ft Speed**. Bonus Action Dash and Disengage are saved for **ring 3**, whose middle is movement. |
-| **Fighter** (Str) | d10, 2 stamina | **Fighting style: any one of the six** (Troy, 2026-11-10). Knows every technique its kit tile teaches (was 1 from a list; Troy, 2026-11-09); light and medium armour, Shields; Martial weapons; **Weapon Mastery with 3 weapons**. Heavy armour comes on its first branch toward Constitution. |
-| **Tank** (Con) | d12 | **Hit points are its pool**, so no stamina or mana. **Fighting style: Defense or Protection; Weapon Mastery with 1 weapon** (Troy, 2026-11-10: for a heavy maul or the like). Light and medium armour, Shields; Martial weapons (so it can head for the heavy-armour seam); **Second Wind** (moved from the Fighter). |
-| **Mystic** (Wis) | d8, 4 mana | 2 cantrips; light armour (leathers and the like). |
-| **Mage** (Int) | d4, 5 mana | 3 cantrips; no armour; **rituals**. |
+| **Herald** (Cha) | d6, 4 Stamina | **No fighting style** (Troy, 2026-11-10: Protection would make it a frontliner). Knows every technique its kit tile teaches (Troy, 2026-11-09; was "3 techniques from its list") ("the masters of this"); light armour; **Weapon Mastery with 1 weapon** (Troy, 2026-11-07, so techniques never need to copy masteries; about +3 points, to about 15). **Command and control, not a caster.** Inspiration becomes something to spend Stamina on, designed with the at-wills. |
+| **Scout** (Dex) | d8, 4 Stamina +5ft | **Fighting style: one of Archery, Dueling or Two-Weapon Fighting** (Troy, 2026-11-10). Knows every technique its kit tile teaches (was 2 from a list; Troy, 2026-11-09); light armour; Martial weapons with the Finesse, Light or ranged property; Weapon Mastery with 2 weapons (what the rogue and ranger share). **+5 ft Speed**. Bonus Action Dash and Disengage are saved for **ring 3**, whose middle is movement. |
+| **Fighter** (Str) | d10, 2 Stamina | **Fighting style: any one of the six** (Troy, 2026-11-10). Knows every technique its kit tile teaches (was 1 from a list; Troy, 2026-11-09); light and medium armour, Shields; Martial weapons; **Weapon Mastery with 3 weapons**. Heavy armour comes on its first branch toward Constitution. |
+| **Tank** (Con) | d12 | **Hit points are its pool**, so no Stamina or Mana. **Fighting style: Defense or Protection; Weapon Mastery with 1 weapon** (Troy, 2026-11-10: for a heavy maul or the like). Light and medium armour, Shields; Martial weapons (so it can head for the heavy-armour seam); **Second Wind** (moved from the Fighter). |
+| **Mystic** (Wis) | d8, 4 Mana | 2 cantrips; light armour (leathers and the like). |
+| **Mage** (Int) | d4, 5 Mana | 3 cantrips; no armour; **rituals**. |
 
 *Spells:*
 - **The Mystic learns specific spells from its nodes**, listed in each node's description, and prepares from the spells it knows.
 - **The Mage can prepare any spell it encounters anywhere**: from a library, a found scroll, someone's notes. It doesn't need a spellbook. The limit is how many it prepares.
-- *(Superseded 2026-11-13 by one prepared spell per mana tile; see decision 8.)* **Prepared spells = twice your Proficiency Bonus**, for both: 4 at the start, 12 at most. *(Claude: about half what 2024 casters prepare at level 20; the wizard prepares 25.)* Since PB comes from nodes anywhere, a dip prepares as many as a pure caster, which Troy accepts as matching multiclassing; the small mana pool keeps a dip in check.
+- *(Superseded 2026-11-13 by one prepared spell per Mana tile; see decision 8.)* **Prepared spells = twice your Proficiency Bonus**, for both: 4 at the start, 12 at most. *(Claude: about half what 2024 casters prepare at level 20; the wizard prepares 25.)* Since PB comes from nodes anywhere, a dip prepares as many as a pure caster, which Troy accepts as matching multiclassing; the small Mana pool keeps a dip in check.
 - **Spellcasting ability** is the ability of the tree you're in.
 - **Seam tiles don't teach spells**, except **specialized seam-only spells with their own mechanics**:
   - **Blood magic** (Con–Wis): spells paid for with **hit points**, each spell setting its own ability.
-  - **Summoning** (Int–Cha): **mana to summon, stamina to control**.
+  - **Summoning** (Int–Cha): **Mana to summon, Stamina to control**.
 - **Battle Master-style manoeuvres** sit on the **Dex–Str seam**, with the fighting styles.
 
-*Tally* *(Claude's rough count on the parts-bin scale; checked 2026-11-07)*: each stamina or mana point 1, an at-will or cantrip 2, four prepared spells about 4.
+*Tally* *(Claude's rough count on the parts-bin scale; checked 2026-11-07)*: each Stamina or Mana point 1, an at-will or cantrip 2, four prepared spells about 4.
 
 | Kit | Points | 2024 level 1 for comparison (without saves, skills and Simple weapons) |
 |---|---|---|
@@ -335,9 +335,9 @@ Levels 11–19 add 9, 0, 10, 0, 11, 0, 13, 7 and 9.
 | Mage | about 14 | Wizard about 29 |
 | Herald | about 12 | Bard about 31 |
 
-**Revalued (Troy, voice, 2026-11-07):** **mana is worth 2 points per point**; **stamina stays at 1** ("like half spells"). That moves the Mage to about **19** and the Mystic to about **22**. Troy briefly gave the Herald 2 mana and a cantrip, then **withdrew it**: the Herald stays a pure commander at about **12** until the techniques are designed. Its catch-up has to be **learned**, since the skills grid is what survives phasing. **Next:** design what stamina buys, as one system unifying monk techniques, manoeuvres, bardic inspiration and the warlord (`canon/parts-bin-techniques.md`).
+**Revalued (Troy, voice, 2026-11-07):** **Mana is worth 2 points per point**; **Stamina stays at 1** ("like half spells"). That moves the Mage to about **19** and the Mystic to about **22**. Troy briefly gave the Herald 2 Mana and a cantrip, then **withdrew it**: the Herald stays a pure commander at about **12** until the techniques are designed. Its catch-up has to be **learned**, since the skills grid is what survives phasing. **Next:** design what Stamina buys, as one system unifying monk techniques, manoeuvres, bardic inspiration and the warlord (`canon/parts-bin-techniques.md`).
 
-Before the revaluation, every kit was below the 2024 level 1 it replaces, and the Herald and Mage are about half the Tank. Either stamina, mana and at-wills are worth more than 1–2 points each, or the casters and the Herald need more. *Open:* the Mystic could take an "order" choice like the 2024 cleric's Divine Order and druid's Primal Order: martial (weapons, armour) or mystic (an extra cantrip, Wisdom to lore checks). Raised by Claude when the call ran out; not decided.
+Before the revaluation, every kit was below the 2024 level 1 it replaces, and the Herald and Mage are about half the Tank. Either Stamina, Mana and at-wills are worth more than 1–2 points each, or the casters and the Herald need more. *Open:* the Mystic could take an "order" choice like the 2024 cleric's Divine Order and druid's Primal Order: martial (weapons, armour) or mystic (an extra cantrip, Wisdom to lore checks). Raised by Claude when the call ran out; not decided.
 
 **Fantasies for ring 1 and its seams** *(Troy, 2026-11-07; fantasy first, features later)*. Going round the ring:
 
@@ -395,10 +395,10 @@ Before the revaluation, every kit was below the 2024 level 1 it replaces, and th
 - **No breath weapons** (already retired, 2026-10-30). Azhi's dragonborn aren't the SRD's; breath weapons may come back later, but not now.
 - **Linear cost** per ring for now (replacing the Fibonacci idea). **Renumbered (Troy, 2026-11-13):** the base form is **ring 0**, which everyone starts with (unless Unphased) and nobody buys; **six rings, 1–6,** go outward, so the **first advance buys ring 1** with its Hit Die and pools: **9 × 6 = 54 arcs** to fill. Prof. Up stays on ring 3, the ability +1 on ring 4 and Attack Up on ring 6, so six points here reach Attack Up, as six deep on the grid does. *(Was: base form ring 1, rings 2–6, 45 arcs.)* Basically on-the-rails progression; if we ever branch, we split rings.
 - **Progress points** *(Troy, 2026-11-11)*: each level-up gives **one progress point**, invested either here or on the skills grid. Each is **six deep**: this wheel linear, the grid flexible (dipping into several kits). **Six deep in either should give about the same power**, so neither path misses Attack Up or Prof. Up.
-- **Fixed on every spoke:** **Prof. Up on ring 3**, **Attack Up on ring 6**. Hit Dice, stamina and mana to be added next.
+- **Fixed on every spoke:** **Prof. Up on ring 3**, **Attack Up on ring 6**. Hit Dice, Stamina and Mana to be added next.
 - **Hit Dice** *(Troy, voice, 2026-11-11)*: **none on the base form** (ring 0); rings 1–6 give a Hit Die, **one die per colour**, the **same die all the way out** the spoke (for now). Big dice are fine: a Mage may buy hit points here, because it sacrifices Mage progress to do it. **Dice per colour** *(Troy, voice)*: **Brown d12** (the huge, unshakeable farmer), **Red d10** (Strength, Large), **Yellow d8** (on the back of its Constitution), **Green d8** (splitting Dex and Con), **White d8**, **Blue d6**, **Indigo d6**, **Black d6**, **Grey d6**. No d4s.
-- **Mana and stamina** *(Troy, voice, 2026-11-11)*: few ways to spend pools on this wheel itself, but some builds get spells from the grid. A colour's arc gives **about three quarters** of a matching grid tile, so a pure Mage still prefers the grid while a Black Mage gains without losing progress. Per arc, rings 1–6: **Red** 3 stamina; **Brown** 1 mana, 1 stamina (plant growth for the farmers); **Yellow** 3 mana, 1 stamina (the perfect Yellow takes the Alchemist); **Green** 2 and 2 (rangers); **Blue** and **Indigo** 2 mana, 2 stamina (raised from 1 mana so their d6 is paid for; a summoner option); **Black** and **Grey** 4 mana; **White** 3 mana, 1 stamina.
-  - **Balance:** the bigger the Hit Die, the smaller the pool. Pool value per arc (mana ×2): Brown 3 and Red 3; Yellow 7, Green 6, White 7; Blue 6, Indigo 6, Black 8, Grey 8. *(Claude: six deep on a skills-grid main line also gives one of each, Attack Up on ring 5 and Prof. Up on ring 6.)*
+- **Mana and Stamina** *(Troy, voice, 2026-11-11)*: few ways to spend pools on this wheel itself, but some builds get spells from the grid. A colour's arc gives **about three quarters** of a matching grid tile, so a pure Mage still prefers the grid while a Black Mage gains without losing progress. Per arc, rings 1–6: **Red** 3 Stamina; **Brown** 1 Mana, 1 Stamina (plant growth for the farmers); **Yellow** 3 Mana, 1 Stamina (the perfect Yellow takes the Alchemist); **Green** 2 and 2 (rangers); **Blue** and **Indigo** 2 Mana, 2 Stamina (raised from 1 Mana so their d6 is paid for; a summoner option); **Black** and **Grey** 4 Mana; **White** 3 Mana, 1 Stamina.
+  - **Balance:** the bigger the Hit Die, the smaller the pool. Pool value per arc (Mana ×2): Brown 3 and Red 3; Yellow 7, Green 6, White 7; Blue 6, Indigo 6, Black 8, Grey 8. *(Claude: six deep on a skills-grid main line also gives one of each, Attack Up on ring 5 and Prof. Up on ring 6.)*
 - **Open:** choices per ring; what the Unphased do with form points; how points accumulate.
 - **Diagram:** `art/cartoon/species_advancement.py` → `output/species_advancement.png`. The colour wheel (unchanged in `colour_wheel.py`) without Gold and Silver, six concentric rings, nine radial lines; arc text follows the arc. Fill arcs in its `ARCS` table.
 
@@ -431,7 +431,7 @@ Following Troy's Rage and Sneak Attack examples, each SRD class feature is eithe
 
 ## 4. Questions this raises *(Claude)*
 
-**All nine had a first answer on 2026-11-05.** Still open: how the phasing tree's 33 roots work, the mana costs for spell levels 6–9 and the nova limit, and canon text that scales by character level.
+**All nine had a first answer on 2026-11-05.** Still open: how the phasing tree's 33 roots work, the Mana costs for spell levels 6–9 and the nova limit, and canon text that scales by character level.
 
 To be taken **one at a time** (Troy, 2026-11-05).
 
@@ -457,9 +457,9 @@ To be taken **one at a time** (Troy, 2026-11-05).
    - **Learned and natural magic in one character** *(Troy)*: learned magic, like the wizard's, on the experience tree, and natural magic on the phasing tree, both in the same character.
    - **Some magic may sit outside the trees** *(Troy)*. A warlock's pact is thematically more like **membership in a faction** than a skill or ability.
    - **No warlock equivalent on either tree, for now** *(Troy)*. That avoids disentangling Pact Magic from the lore, the biggest source of problems. The pact-as-faction idea is parked.
-   - **A mana pool instead of spell slots** *(Troy, 2026-11-05, direction)*: eschew spell slots; gain mana through different branches. It keeps things simple. Troy recalls a variant like it in the 2014 DMG.
+   - **A Mana pool instead of spell slots** *(Troy, 2026-11-05, direction)*: eschew spell slots; gain Mana through different branches. It keeps things simple. Troy recalls a variant like it in the 2014 DMG.
      - *(Claude)* The 2014 DMG did have a spell points variant, but it isn't in either SRD, so its text and tables can't be used. The SRD has an open basis instead: the sorcerer's **Creating Spell Slots** table prices slots in Sorcery Points (level 1: 2, level 2: 3, level 3: 5, level 4: 6, level 5: 7). Costs for levels 6–9 would be ours to set.
-     - *(Claude)* The usual risk of a mana pool is the nova: spending everything on the highest-level spell again and again. A common fix is to allow each spell of level 6 or higher only once per Long Rest. To decide later.
+     - *(Claude)* The usual risk of a Mana pool is the nova: spending everything on the highest-level spell again and again. A common fix is to allow each spell of level 6 or higher only once per Long Rest. To decide later.
    - **Spell lists** *(Troy, 2026-11-05)*: **a curated list per casting branch** (option A; the others were the teaching dragon's list and one shared list). But there must be **ways to short-circuit** it, like the bard's Magical Secrets.
      - *(Claude, PROPOSED)* Short-circuit nodes:
        - **Secrets nodes:** prepare spells from another branch's list. The SRD 5.2 bard's *Magical Secrets* (level 10) is the model; it's in the parts bin.

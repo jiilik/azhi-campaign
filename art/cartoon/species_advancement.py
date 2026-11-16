@@ -178,8 +178,8 @@ def build(printable=False):
                  f'font-weight="bold" font-size="26" fill="{INK}">{k}</text>')
     # Legend
     o.append(f'<text x="{W/2}" y="{H - 40}" text-anchor="middle" font-family="DejaVu Sans" font-size="54" fill="{ink}">'
-             f'<tspan fill="{sym[0]}">\u2665</tspan> Hit Die\u00a0\u00a0\u00a0\u00a0 <tspan fill="{sym[1]}">\u25c6</tspan> mana\u00a0\u00a0\u00a0\u00a0 '
-             f'<tspan fill="{sym[2]}">\u2605</tspan> stamina</text>')
+             f'<tspan fill="{sym[0]}">\u2665</tspan> Hit Die\u00a0\u00a0\u00a0\u00a0 <tspan fill="{sym[1]}">\u25c6</tspan> Mana\u00a0\u00a0\u00a0\u00a0 '
+             f'<tspan fill="{sym[2]}">\u2605</tspan> Stamina</text>')
     # Title
     o.append(f'<text x="{W/2}" y="96" text-anchor="middle" font-family="DejaVu Serif" font-weight="bold" '
              f'font-size="88" fill="{ink}">Species Advancement</text>')
