@@ -347,8 +347,7 @@ for num, name in {"405": "Mobility", "508": "Evasion", "418": "Transient", "519"
                   "506": "Hunter", "507": "Fade", "520": "Beasts", "608": "Acrobat",
                   "626": "Teleport", "404": "Ambush"}.items():
     name_tile(BY_NUMBER[num], name)
-# Naming pass, rings 4 to 6 (Troy, voice, 2026-11-15). The ability +1 and
-# Attack Up labels are what a tile gives, not its name.
+# Naming pass, rings 4 to 6 (Troy, voice, 2026-11-15).
 for num, name in {"401": "Leader", "402": "Marshal", "406": "Sword Dancer", "408": "Flourish",
                   "409": "Gladiator", "410": "Knight", "412": "Unmovable", "413": "Titan",
                   "414": "Leech", "416": "Healer", "417": "Seer",
