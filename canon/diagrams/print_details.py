@@ -20,6 +20,10 @@ import os
 import re
 import sys
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import tile_points as TP  # noqa: E402  (temporary, for balancing)
+POINTS = {}
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(os.path.dirname(HERE))
 CARTOON = os.path.join(ROOT, 'art', 'cartoon')
@@ -113,10 +117,12 @@ def assignments():
     lines = open(os.path.join(ROOT, 'canon', 'tile-assignments.md')).read().split('\n')
     tiles, cur = {}, None
     for r in table(lines, '| Tile | Name'):
-        m = re.match(r'\*\*(\d+)\*\*', r[0])
-        if m:
-            cur = m.group(1)
-        tiles.setdefault(cur, []).append((r[2], r[3], r[4]))
+        m = re.match(r'\*\*(\d+)(?:–(\d+))?\*\*', r[0])
+        if m:  # a single tile, or a range such as 311–318 (every tile in it)
+            lo, hi = int(m.group(1)), int(m.group(2) or m.group(1))
+            cur = [str(n) for n in range(lo, hi + 1)]
+        for t in cur:
+            tiles.setdefault(t, []).append((r[2], r[3], r[4]))
     arcs, cur = {}, None
     for r in table(lines, '| Arc | Assigned'):
         m = re.match(r'\*\*(\w+)(?: (\d))?\*\*', r[0])
@@ -175,6 +181,14 @@ def build():
             facts.append('<b>Expertise:</b> ' + EXPERTISE[num])
         if num in TECHNIQUES:
             facts.append('<b>Techniques:</b> ' + html.escape(TECHNIQUES[num]))
+        # Rough points, for balancing (temporary; canon/diagrams/tile_points.py).
+        if num != '0':
+            tot, items, unscored = TP.tile_points(num, l2, l3, [p[0] for p in tparts.get(num, [])], numbers)
+            facts.append('<span class="pts">Points ≈ ' + TP.fmt(tot) + '</span> <span class="ptsb">('
+                         + ', '.join(f'{html.escape(k)} {TP.fmt(v)}' for k, v in items) + ')</span>')
+            for u in unscored:
+                print('unscored part on', num, ':', u[:60], file=sys.stderr)
+            POINTS[num] = tot
         o.append(entry(title, facts, tparts.get(num), 'kit' if num in KITS else ''))
 
     sa = wheel()
@@ -192,10 +206,20 @@ def build():
         m, s = sa.POOL[form]
         for k in range(sa.FIRST, sa.LAST + 1):
             nums = [f'Hit Die {sa.HIT_DIE[form]}'] + ([f'{m} Mana'] if m else []) + ([f'{s} Stamina'] if s else [])
+            pitems = [(sa.HIT_DIE[form], TP.HIT_DIE[sa.HIT_DIE[form]])] + ([(f'{m} Mana', m * TP.MANA), ('prepared spell', TP.PREPARED)] if m else []) + ([(f'{s} Stamina', s * TP.STAMINA)] if s else [])
+            pitems += [('Prof. Up', TP.PROF_UP)] if k == 3 else [('Attack Up', TP.ATTACK_UP)] if k == 6 else [('ability +1', TP.ABILITY_UP)] if k == 4 else []
+            for text, _, _ in aparts.get((form, k), []):
+                hit = TP.part_points(TP.ARC_PARTS.get((form, k), {}), text)
+                if hit:
+                    pitems.append(hit)
+                else:
+                    print('unscored part on', form, k, ':', text[:60], file=sys.stderr)
             extra = sa.STAT_UP[form] if k == 4 else sa.FIXED.get(k, '')
             if extra:
                 nums.append(f'<b>{html.escape(extra)}</b>')
-            o.append(entry(f'<span class="n">{html.escape(name)} {k}</span>', [' · '.join(nums)], aparts.get((form, k))))
+            ptxt = ('<span class="pts">Points ≈ ' + TP.fmt(sum(v for _, v in pitems)) + '</span> <span class="ptsb">('
+                    + ', '.join(f'{html.escape(str(k_))} {TP.fmt(v)}' for k_, v in pitems) + ')</span>')
+            o.append(entry(f'<span class="n">{html.escape(name)} {k}</span>', [' · '.join(nums), ptxt], aparts.get((form, k))))
     return ''.join(o)
 
 
@@ -218,6 +242,8 @@ ul{margin:1pt 0 0 12pt;padding:0}
 li{margin:1pt 0}
 .src{font:italic 7.6pt 'DejaVu Serif',serif;color:#555}
 .kit{background:#f4f1e8}
+.pts{font:bold 8.2pt 'DejaVu Sans',sans-serif;color:#1d5c8a}
+.ptsb{font:7.4pt 'DejaVu Sans',sans-serif;color:#557}
 .lede{font-size:8.6pt;color:#444;margin:0 0 6pt}
 '''
 
@@ -228,7 +254,7 @@ def main():
     lede = ('<p class="lede">Generated 2026-11-15 from skills_grid.py, species_advancement.py, canon/techniques.md, '
             'canon/brainstorm-progression.md, canon/decisions.md and canon/tile-assignments.md. PROPOSED design; every part is REVIEW. '
             '<b>Prof. Up:</b> Proficiency Bonus +1. <b>Attack Up:</b> one extra attack with the Attack action, or one extra cantrip damage die. '
-            '<b>Upgrade rule:</b> an upgrade taken without its base tile gives nothing from that part. A starting kit gives everything listed; '
+            '<b>Points ≈</b> (blue): a rough balancing score on the Character Origins scale, REVIEW parts included; temporary (tile_points.py). <b>Upgrade rule:</b> an upgrade taken without its base tile gives nothing from that part. A starting kit gives everything listed; '
             'a later kit gives no save or skills.</p>')
     # Two columns: split the h1 sections so each heading spans the page.
     parts = body.split('<h1')
