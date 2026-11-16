@@ -347,11 +347,6 @@ for num, name in {"405": "Mobility", "508": "Evasion", "418": "Transient", "519"
                   "506": "Hunter", "507": "Fade", "520": "Beasts", "608": "Acrobat",
                   "626": "Teleport", "404": "Ambush"}.items():
     name_tile(BY_NUMBER[num], name)
-# Tiles with parts assigned in the parts-bin pass, all marked for review with
-# an orange dot (Troy, 2026-11-14). The list lives in canon/tile-assignments.md.
-REVIEW = set("201 202 204 206 207 208 209 301 302 305 306 307 308 311 312 313 314 315 316 317 318 622 "
-             "303 403 405 407 415 418 419 423 506 511 512 519 601 602 604 607 609 610 611 613 615 617 620 623 624 625 628 634 "
-             "15 304 309 317 411 507 509 515 605 608 616 404 626 505 203 520".split())
 print("ring 6 II tiles:", " ".join(NUMBERS[(2 * BY_NUMBER[n][0], 2 * BY_NUMBER[n][1])] for n in RING3_NAMES))
 # Ability score +1 tiles (Troy, voice, 2026-11-12): with feats gone, these
 # are where ability increases come from. One per kit on ring 4 (clockwise of
@@ -433,9 +428,6 @@ for q in range(-RINGS, RINGS + 1):
                                     orientation=math.pi / 6,
                                     facecolor=face, edgecolor=edge, lw=lw))
         busy = (q, r) in TILES or (q, r) in THEMES
-        if NUMBERS.get((q, r)) in REVIEW:   # assigned in the parts-bin pass: to review
-            from matplotlib.patches import Circle
-            ax.add_patch(Circle((x + 0.56, y + 0.56), 0.1, facecolor="#f28c28", edgecolor="black", lw=0.6, zorder=4))
         if busy:  # small number at the foot of a filled tile
             ax.text(x, y - 0.68, NUMBERS[(q, r)], ha="center", va="center",
                     fontsize=5.6, weight="bold", color="#555555" if PRINT else "#8a8a8a", zorder=3)
@@ -490,16 +482,7 @@ ax.set_ylim(-lim - 3.6, lim + 1.4)
 title = "Azhi: the Skills Grid (draft, 2026-11-14)"
 ax.text(0, lim + 0.9, title, ha="center",
         va="center", fontsize=15, weight="bold")
-# The caption is wrapped to the grid's width, so it can't widen the figure
-# and shrink the grid on a printed page (Troy, 2026-11-15).
-import textwrap
-CAPTION = ("Centre and ring 1: populated (Req / name / what adds up).  Ring 2: 201-202 technique tiles.  "
-           "Prof. Up (Proficiency Bonus +1): ring 4 seams and "
-           "ring 6 corners.  Attack Up (Damage Boost): rings 5 and 6.  Every tile has a Hit Die.  Orange dot: parts "
-           "assigned, to review (canon/tile-assignments.md).  127 hexes in all.  PROPOSED design; see "
-           "canon/brainstorm-progression.md.")
-ax.text(0, -lim - 0.95, "\n".join(textwrap.wrap(CAPTION, 110)),
-        ha="center", va="top", fontsize=8, color="#444", linespacing=1.4)
+# No caption (Troy, voice, 2026-11-15): the tile descriptions explain the grid.
 place_line(ax, 0, -lim - 0.55, "{H} Hit Die     {S} stamina (SP)     {M} mana (MP)", zoom=0.14)
 
 here = os.path.dirname(os.path.abspath(__file__))

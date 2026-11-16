@@ -1,6 +1,6 @@
 # Tile Assignments: Parts Bin to Grid and Wheel
 
-**Status: every entry here is REVIEW** (Troy, voice, 2026-11-14). Troy is going through the printed parts bin (`canon/diagrams/parts-bin-print.pdf`) and dropping parts onto tiles of the skills grid and arcs of the species wheel, "hoping everything loosely balances once everything's assigned". Expect holes, and tiles with too many points; both get fixed in a later pass. Tiles that have something assigned carry an **orange review dot** on the diagrams.
+**Status: every entry here is REVIEW** (Troy, voice, 2026-11-14). Troy is going through the printed parts bin (`canon/diagrams/parts-bin-print.pdf`) and dropping parts onto tiles of the skills grid and arcs of the species wheel, "hoping everything loosely balances once everything's assigned". Expect holes, and tiles with too many points; both get fixed in a later pass. *(The orange review dots on the diagrams were dropped, Troy, 2026-11-15; this file is the record.)*
 
 Parts are named as in `canon/parts-bin.md`; the source and level are there and in the printout. Assignments here say *where* a part goes, not its final wording: most will be reworded for Azhi.
 
