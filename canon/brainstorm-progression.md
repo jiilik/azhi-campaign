@@ -409,6 +409,18 @@ Before the revaluation, every kit was below the 2024 level 1 it replaces, and th
 3. **Two counters** (tentative, 2026-11-05) need rethinking: refunded form points mean a phase no longer zeroes a count.
 4. **Extended traits as a tech tree with 33 anchors** (2026-11-05): the 24 traits now root the personality tree and the 9 forms the form tree.
 
+### Archetype review *(Troy, voice, 2026-11-17; brainstorming unless marked)*
+
+Claude searched for common D&D builds and compared them with the grid (2026-11-16). Most of the list (Sentinel, Jack of All Trades, Shield Master, poisoner and so on) are **class features of archetypes we already have**, to be placed on tiles later. Three looked like gaps in the wheel itself:
+
+1. **The gish** (a fighter who casts spells). Strength sits opposite Intelligence, so there's no line between them. **Troy: that's okay.** It stays a two-kit build, provided tiles are balanced well enough that taking from the far side of the wheel doesn't cost progression.
+2. **The archer.** It fits the Ranger path without rework. **To do:** make sure the Ranger line gets enough archer features (Sharpshooter and the like). Logged in `PLAN.md`.
+3. **The unarmed brawler** (monk, grappler, wrestler). It depends on several abilities: the monk on Dexterity and Wisdom, the wrestler on Strength and Constitution. Its parts are scattered (Flurry of Blows on Skirmisher, Stunning Strike on Gambits II; Martial Arts isn't placed). **Idea, not a decision:** carve out part of the Strength–Constitution seam for the brawler, in the middle of the seam, and push the smites over toward the Fighter side, instead of the heavy-armour, high-AC builds there now. Raised now because the smites are still being designed.
+
+Other archetypes:
+- **Necromancer and tinker** go to a new idea, the **Forbidden Arts**: off-grid tiles of banned lore (`canon/brainstorm-forbidden-arts.md`). The Blood Mage already carries some necromantic flavour (draining health), though not the raise-an-army kind.
+- **Spiritualist** (Pathfinder's medium bound to a ghost): nothing on the grid talks to the dead. The Shaman's spirits are animal spirits. **Idea:** the Oracle's knowledge could come from ghosts. Not everyone phases: a person can be **utterly destroyed**. *(Claude: ghosts could be what's left of the utterly destroyed.)*
+
 ## 2. Parts the SRD already has *(Claude)*
 
 - **The threshold of 13** is the SRD's multiclassing prerequisite: "a score of at least 13 in the primary ability of the new class". An entry node is the same rule, applied to every character.

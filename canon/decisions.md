@@ -2,6 +2,10 @@
 
 Newest first. One line per decision: what was decided, and why if a reason was given. Add to this log every time the author settles something, and update `canon/setting-bible.md` to match.
 
+## 2026-11-17
+
+- **Archetype review** (Troy, voice, 2026-11-17): the **gish stays a two-kit build** (Strength opposite Intelligence is fine if tiles are balanced). **To do:** archer features on the Ranger line. Brainstorming only: an unarmed-brawler section in the middle of the Strength–Constitution seam, with the smites pushed toward the Fighter side; a spiritualist via the Oracle. New brainstorm: **the Forbidden Arts**, off-grid tiles of banned lore learned by DM dispensation (necromancy, tinkering, homunculi, forced phasing, the elemental planes, planar magic; *Wish* never a tile). See `canon/brainstorm-progression.md` and `canon/brainstorm-forbidden-arts.md`.
+
 ## 2026-11-15
 
 - **Parts-bin open items settled** (Troy, voice): Cunning tiles (202, 403, 604) give **2 mana and 3 stamina** each; **Unarmored Defense** is 10 + Dex + Con on both 207 and 303; Zealous Presence on 601 renamed **War Cry**; **Fast Movement** kept on Mobility (405), +10 feet, not in Heavy armour; **Brutal Strike** and **Improved Brutal Strike** moved to Brute (308) and Brute II (615); Rage of the Gods on White 6 reworked as **Divine Wings** (while Spectral Wings are out: resist Necrotic, Psychic and Radiant; cast *Revivify* on a falling creature for 5 mana).
