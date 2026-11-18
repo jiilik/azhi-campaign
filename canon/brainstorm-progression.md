@@ -423,33 +423,41 @@ Other archetypes:
 
 ### Smites, a fresh start *(Troy, voice, 2026-11-17; brainstorming, not yet applied to the tiles)*
 
-Troy set aside the earlier smite design (2026-11-15, REVIEW parts in `canon/tile-assignments.md`) to start again. Everything here is Troy's unless marked *(Claude)*.
+Troy set aside the earlier smite design (2026-11-15, REVIEW parts in `canon/tile-assignments.md`) to start again. Two voice sessions the same evening. Everything here is Troy's unless marked *(Claude)*.
 
-**The idea:** **Smite dice are the convertible resource of the Strength–Constitution edge**, as Sorcery Points are for the sorcerer. Several tiles each add a way to **buy** dice and ways to **spend** them; a character who stacks the tiles can pay with many small things for one big nova, at a rising cost.
+**The idea:** **Smite dice are the convertible resource of the Strength–Constitution edge**, as Sorcery Points are for the sorcerer. Tiles each add a way to **buy** dice or to **spend** them. **Dice are converted instantly**: bought at the moment they're spent, never banked. A character who stacks the tiles can pay with many small things for one big nova.
 
 **The ladder (the Might line):**
-- **Might (206):** buy **one Smite die for 1 Stamina**: a **d8**. This is the benchmark price. *(Claude: the same rate as Divine Smite, 2d8 for a 2-Mana slot. A level 1 damage spell averages about 9 to 11.)*
-- **Might II (411):** the die becomes a **d10**.
-- **Might III (616):** the die becomes a **d12**.
+- **Might (206):** buy **one Smite die for 1 Stamina**: a **d8**. The benchmark price. *(Claude: the same rate as Divine Smite, 2d8 for a 2-Mana slot.)*
+- **Might II (411):** the die becomes a **d10**; and buy a die by giving up your **Bonus Action**, your **Reaction**, or both (one die each).
+- **Might III (616):** the die becomes a **d12**; and buy a die by **spending a Hit Die**. (On Might III's own d10 Hit Die, a d10 buys a d12: the best trade on the ladder.)
 
 **Ways to buy dice:**
+- **Stamina** (Might), **Bonus Action and Reaction** (Might II), **Hit Dice** (Might III).
 - **Unmovable (412):** give up **half your Speed for one die**, or **all of it for two**.
-- **Brute (308):** give up **2 AC (until your next turn) for one die**: the mirror of Bulwark. Going nova can cost you all your AC, a big risk if you expect to be hit.
-- **Focus (514, renamed from Stalwart):** give up your **Bonus Action** or your **Reaction** for a die.
+- **Brute (308):** give up **2 AC** (until your next turn) **for one die**, **at most 4 AC (two dice)**. The mirror of Bulwark.
+- **Reckless (513, renamed from Mounted):** take **one level of Exhaustion for four dice**. *(Claude: in the SRD, each level is −2 to every d20 Test and −5 feet of Speed, level 6 is death, and a Long Rest removes only one level.)*
+- **Knight (410):** *Reaction, when an ally within 5 feet of you is hit: you take the hit instead, and gain one free Smite die.* Your AC doesn't help: you take the hit no matter what. "Might be a little bit broken, but let's run with it." **Knight also gives heavy armour proficiency**, for characters who came up the Tank Kit line.
 
 **Ways to spend dice:**
 - **Damage**, on a hit.
-- **Bulwark (309):** spend a die for **+2 AC until your next turn**, stacking with as many dice as you have, "almost like buying a *Shield* spell". *(Claude: Shield gives +5 for 2 Mana.)*
-- **Action Surge:** perhaps buy one with Smite dice. *(Claude: at the benchmark, 4 Stamina, its price on Fighter II, is four dice.)* Not settled.
+- **Bulwark (309):** **+2 AC per die until your next turn**, **at most +4 AC (two dice)**, "almost like buying a *Shield* spell".
+- **Focus (514, renamed from Stalwart),** the guarded mirror of Reckless: if you **haven't attacked this turn**, take your **action** to turn Smite dice into **healing for yourself**: each die heals what it rolls, with nothing added.
+- **Unyielding (618):** add Smite dice to **one saving throw**, bought right then, against that one effect only.
+- **Unbreakable (515):** when you're hit, buy dice right then and **reduce the damage** by what they roll.
+- **Action Surge:** perhaps bought with Smite dice. *(Claude: at the benchmark, 4 Stamina is four dice.)* Not settled.
 
-**Rejected:** +3 AC per die on Bulwark II (617), because with Brute's 2 AC per die it loops: give up 2 AC, buy a die, turn it into 3 AC. *(Claude: Brute 2 and Bulwark 2 are an exact mirror, so they don't loop.)* Bulwark II is open again.
+**Other parts of the section:**
+- **Reckless (513)** also gets **Reckless Attack** (SRD Barbarian 2), kept separate from Smite. *(Claude: Reckless Attack is already on Champion, 307. Move it, or have it twice?)*
+- **The Juggernaut line is not part of the Smite economy:** it's the tankiest of tanks, who soak and soak. Everything north of it can be. **Juggernaut II (619) gets a d20 Hit Die**, the first on the grid.
 
-**The Juggernaut line is not part of the Smite economy:** it's the tankiest of tanks, who soak and soak. Everything north of that line can be. **Juggernaut II (619) gets a d20 Hit Die**, the first on the grid.
+**Rejected:** +3 AC per die on Bulwark II (617): with Brute it loops (give up 2 AC, buy a die, turn it into 3 AC). Rerolling low Smite dice while reckless: too much arithmetic. Banking unspent dice until your next turn: dice convert instantly instead.
+
+**The nova, and the real problem** *(Claude's arithmetic)*: the whole wedge is about 15 tiles. With 15 Hit Dice at d12 plus Exhaustion, AC, Speed and the action trades, one hit could carry 25 or more d12s, about 160 damage, and twice that on a crit. Troy: still not enough to kill an adult dragon, so it's fine. **The real problem is time at the table:** working out which resources to convert. *(Claude: a Smite tracker card, with a box to tick for each way to pay, so the player plans the nova before their turn.)*
 
 **Open:**
 - Whether this replaces the 2026-11-15 smite parts (Smite on 206, Disciplined Smite 410, Charging Smite 513, Legendary Smite 614, Vital Smite 310, Guardian 309, Cleaving 411).
 - What Bulwark II (617) and Brute II (615) get.
-- More ways to spend dice.
 
 ## 2. Parts the SRD already has *(Claude)*
 
