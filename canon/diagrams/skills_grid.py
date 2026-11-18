@@ -308,7 +308,8 @@ for num, pool in MORE_POOLS.items():
 # on the top line; elsewhere the top line is the tile's look-up name. Ring 3
 # names the subclass fantasies; each gets a "II" tile straight out on ring 6.
 RING3_NAMES = {"301": "Warlord", "302": "Tactician", "303": "Rogue",
-               "304": "Ranger", "305": "Skirmisher", "306": "Virtuoso",
+               "304": "Ranger", "305": "Martial Arts",  # was Skirmisher (Troy, 2026-11-17)
+               "306": "Virtuoso",
                "307": "Champion", "308": "Brute", "309": "Bulwark",
                "310": "Juggernaut", "311": "Blood Mage", "312": "Shaman",
                "313": "Oracle", "314": "Sage", "315": "Alchemist",
@@ -349,7 +350,8 @@ for num, name in {"405": "Mobility", "508": "Evasion", "418": "Transient", "519"
                   "626": "Teleport", "404": "Ambush"}.items():
     name_tile(BY_NUMBER[num], name)
 # Naming pass, rings 4 to 6 (Troy, voice, 2026-11-15).
-for num, name in {"401": "Leader", "402": "Marshal", "406": "Sword Dancer", "408": "Flourish",
+for num, name in {"401": "Leader", "402": "Marshal", "406": "Fisticuffs",  # was Sword Dancer (2026-11-17)
+                   "408": "Flourish",
                   "409": "Gladiator", "410": "Knight", "412": "Unmovable", "413": "Titan",
                   "414": "Leech", "416": "Healer", "417": "Seer",
                   "502": "Warmaster", "509": "Swordmaster", "511": "Pit Fighter",

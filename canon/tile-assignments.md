@@ -31,10 +31,10 @@ Parts are named as in `canon/parts-bin.md`; the source and level are there and i
 |  |  | **Sneak Attack**: **1d6 free, plus 1d6 per Stamina spent** | SRD Rogue 1, reworked | 2026-11-15. |
 |  |  | **Bonus Action Hide**, free (0 Stamina) | SRD Rogue 2 (Cunning Action), the Hide part | 2026-11-15. Completes Cunning Action with Ranger's (304) free Dash or Disengage. |
 | **304** | Ranger | **Favored Enemy**: cast *Hunter's Mark* for **1 Stamina** (instead of the expected 2), as often as you like; still Concentration | SRD Ranger 1, reworked | 2026-11-15. The SRD gives two free castings per Long Rest, rising to six. |
-| **305** | Skirmisher | **Weapon Mastery** +1 | SRD Fighter 4 / 10 / 16 | One of the four extra masteries. |
+| **305** | **Martial Arts** *(was Skirmisher, renamed 2026-11-17)* | **Grappling**, from the *Grappler* feat (without its +1): *Punch and Grab* (an Unarmed Strike can deal damage and grapple, once per turn), *Attack Advantage* against a creature you grapple, *Fast Wrestler* (no extra movement to move a grappled creature your size or smaller) | SRD *Grappler* feat | 2026-11-17. The unarmed fighter (monk, grappler, wrestler) lives on the Dexterity–Strength edge: 305, 406 and 609. Its Weapon Mastery moved to Virtuoso (306). |
 |  |  | **Uncanny Dodge** (technique, `canon/techniques.md`) | SRD Rogue 5, reworked | Moved from 204 (Precision, now Gambits), 2026-11-15. Reached from Scout II (203) or Gambits (204). |
 |  |  | **Flurry of Blows** | SRD Monk 2 (Monk's Focus) | 2026-11-15. Costs a Focus Point in the SRD; probably Stamina here. Upgraded on 507. |
-| **306** | Virtuoso | **Weapon Mastery** +1 | SRD Fighter | |
+| **306** | Virtuoso | **Weapon Mastery** +2 (two extra masteries) | SRD Fighter | 2026-11-17: the second moved here from 305. A signature of Virtuoso, as two Fighting Styles are of Virtuoso II. |
 |  |  | **Remarkable Athlete**: *You have Advantage on Strength (Athletics) checks. Also, right after you score a Critical Hit, you can move up to half your Speed without provoking Opportunity Attacks.* | SRD Champion 3, without the Initiative part | Moved from 204, 2026-11-15. |
 |  |  | **Retaliation** (a Reaction melee attack) | SRD Path of the Berserker 10 | Moved from 204 (Precision, now Gambits), 2026-11-15. Reached from Fighter II (205) or Gambits (204). |
 | **307** | Champion | **Weapon Mastery** +1 | SRD Fighter | |
@@ -58,6 +58,7 @@ Parts are named as in `canon/parts-bin.md`; the source and level are there and i
 | **404** | **Ambush** *(named 2026-11-15)* | **Dread Ambusher** (Wisdom to Initiative; extra damage on the first turn) | PHB Gloom Stalker 3, from memory | 2026-11-15. Reached from Rogue (303) or Ranger (304). |
 | **405** | Mobility | **Fast Movement**: +10 feet of Speed while you aren't wearing Heavy armour | SRD Barbarian 5 | Kept, with the SRD's armour condition (2026-11-15): this is the fast tree, so conditions are fine. Greater Sidestep is here too. |
 |  |  | **Climb Speed and Swim Speed** | (new) | 2026-11-15. |
+| **406** | **Fisticuffs** *(was Sword Dancer, renamed 2026-11-17)* | **Martial Arts**: a bigger unarmed damage die, Dexterity for Unarmed Strikes, and a Bonus Action Unarmed Strike | SRD Monk 1 | 2026-11-17. **Balance pass to come** to fit it to Stamina. Its Bonus Action strike competes with Flurry of Blows (305): the player chooses each turn. |
 | **407** | Gambits II | **Improved Gambits** (was Improved Combat Superiority) | PHB Battle Master 10, from memory | |
 |  |  | **Stunning Strike** | SRD Monk 5 | 2026-11-15. |
 | **410** | Knight | **Disciplined Smite**: pay for Smite dice with **Stamina, 1 Stamina per d8**, at no cost in health | (new) | 2026-11-15. The Fighter edge. Same rate as the SRD's *Divine Smite* (2d8 from a 2-Mana slot); smaller dice than Hit Dice, the price of not bleeding. |
@@ -97,10 +98,10 @@ Parts are named as in `canon/parts-bin.md`; the source and level are there and i
 |  |  | **Tireless** (Temporary Hit Points; less Exhaustion) | SRD Ranger 10 | 2026-11-15. |
 |  |  | **Relentless Hunter** (Concentration on the mark can't be broken) | SRD Ranger 13 | 2026-11-15. |
 | **608** | **Acrobat** *(named 2026-11-15)* | **Acrobatic Movement** (walls and water) | SRD Monk 9 | 2026-11-15. Fits: 608 is reached from Fade (507) or Hunter (506), on the Scout line. |
-| **609** | Skirmisher II | **An additional Fighting Style** | SRD Champion 7 | |
+| **609** | **Martial Arts II** *(was Skirmisher II, renamed 2026-11-17)* | **Improved grappling** (to be designed) | (new) | 2026-11-17. Its Fighting Style moved to Virtuoso II (611). |
 | **610** | Gambits III | **Ultimate Gambits** (was Ultimate Combat Superiority) | PHB Battle Master 18, from memory | |
 | **611** | Virtuoso II | **Studied Attacks** (Advantage after a miss) | SRD Fighter 13 | |
-|  |  | **An additional Fighting Style** | SRD Champion 7 | |
+|  |  | **Two additional Fighting Styles** | SRD Champion 7 | 2026-11-17: the second moved here from 609, as the tile's signature. Many styles exclude each other. |
 | **613** | Champion II | **Weapon Mastery** +1 | SRD Fighter | The fourth extra mastery. |
 | **614** | Legend | **Legendary Smite**: Stamina-paid Smite dice become **d12s** | (new) | 2026-11-15. Upgrades Disciplined Smite (410). |
 | **615** | Brute II | **Superior Critical** (crit on 18–20) | SRD Champion 15 | |

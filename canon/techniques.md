@@ -232,7 +232,7 @@ The kit has 4 Stamina from the start, so it needs something to spend it on. As w
 | **Free Dash or Disengage** as a Bonus Action, 0 Stamina | **304** (ring 3, straight out from the Scout) | Troy kept it on ring 3, not the kit. *(Claude: Cunning Action without Hide.)* |
 | **Deflect Attacks**: pure reflexes, "I'm so fast I can just deflect" | **304** | From the SRD monk (level 3). *(Claude: the SRD version reduces damage by 1d10 + Dex + monk level, so it needs a measure other than level.)* |
 | **Take Aim** (from the rogue's *Steady Aim*) | **304, Ranger** *(Troy, voice, 2026-11-14)* | See the placed techniques below. |
-| **Uncanny Dodge** | **305, Skirmisher** *(Troy, voice, 2026-11-15; was 204)* | See the placed techniques below. |
+| **Uncanny Dodge** | **305, Martial Arts** *(Troy, voice, 2026-11-15; was 204; the tile was Skirmisher until 2026-11-17)* | See the placed techniques below. |
 | Hunter's Mark-style tracking: mark prey for Advantage on checks to find it | — | Claude's pitch; the call ended before Troy answered. |
 
 *(Claude, checked against the SRD 2026-11-10)*:
@@ -246,7 +246,7 @@ Listed in the text only, not on the diagram's tiles (Troy, 2026-11-13).
 | Technique | Tile | Text |
 |---|---|---|
 | **Take Aim** | **304, Ranger** | *Bonus Action, if you haven't moved this turn.* You have Advantage on your next attack roll this turn, and your Speed is 0 until the end of the turn. **Add-on:** for each Stamina you spend, your Speed is 10 feet higher instead (1 Stamina, 10 feet; 2, 20 feet; and so on). |
-| **Uncanny Dodge** | **305, Skirmisher** *(moved from 204, 2026-11-15)* | *Reaction, when an attack roll hits you.* Reduce the damage by 1d6. **Add-on:** reduce it by a further 1d6 for each Stamina you spend. |
+| **Uncanny Dodge** | **305, Martial Arts** *(moved from 204, 2026-11-15; the tile was Skirmisher until 2026-11-17)* | *Reaction, when an attack roll hits you.* Reduce the damage by 1d6. **Add-on:** reduce it by a further 1d6 for each Stamina you spend. |
 | **Greater Sidestep** | **405, Mobility** | *Reaction, when you're hit or fail a Dexterity save, in light or no armour.* Spend 4 Stamina to add 2d8, or 5 Stamina to add 2d10, to your AC **or** your Dexterity saves until the start of your next turn, including the triggering roll. |
 | **Evasion** | **508, Evasion** | When you make a Dexterity saving throw to take only half damage, you take no damage if you succeed and half the damage if you fail. *(No Reaction needed.)* **Add-on:** when you fail, reduce the damage by a further 1d6 for each Stamina you spend. |
 
