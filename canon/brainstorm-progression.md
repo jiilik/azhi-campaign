@@ -421,6 +421,36 @@ Other archetypes:
 - **Necromancer and tinker** go to a new idea, the **Forbidden Arts**: off-grid tiles of banned lore (`canon/brainstorm-forbidden-arts.md`). The Blood Mage already carries some necromantic flavour (draining health), though not the raise-an-army kind.
 - **Spiritualist** (Pathfinder's medium bound to a ghost): nothing on the grid talks to the dead. The Shaman's spirits are animal spirits. **Idea:** the Oracle's knowledge could come from ghosts. Not everyone phases: a person can be **utterly destroyed**. *(Claude: ghosts could be what's left of the utterly destroyed.)*
 
+### Smites, a fresh start *(Troy, voice, 2026-11-17; brainstorming, not yet applied to the tiles)*
+
+Troy set aside the earlier smite design (2026-11-15, REVIEW parts in `canon/tile-assignments.md`) to start again. Everything here is Troy's unless marked *(Claude)*.
+
+**The idea:** **Smite dice are the convertible resource of the Strength–Constitution edge**, as Sorcery Points are for the sorcerer. Several tiles each add a way to **buy** dice and ways to **spend** them; a character who stacks the tiles can pay with many small things for one big nova, at a rising cost.
+
+**The ladder (the Might line):**
+- **Might (206):** buy **one Smite die for 1 Stamina**: a **d8**. This is the benchmark price. *(Claude: the same rate as Divine Smite, 2d8 for a 2-Mana slot. A level 1 damage spell averages about 9 to 11.)*
+- **Might II (411):** the die becomes a **d10**.
+- **Might III (616):** the die becomes a **d12**.
+
+**Ways to buy dice:**
+- **Unmovable (412):** give up **half your Speed for one die**, or **all of it for two**.
+- **Brute (308):** give up **2 AC (until your next turn) for one die**: the mirror of Bulwark. Going nova can cost you all your AC, a big risk if you expect to be hit.
+- **Focus (514, renamed from Stalwart):** give up your **Bonus Action** or your **Reaction** for a die.
+
+**Ways to spend dice:**
+- **Damage**, on a hit.
+- **Bulwark (309):** spend a die for **+2 AC until your next turn**, stacking with as many dice as you have, "almost like buying a *Shield* spell". *(Claude: Shield gives +5 for 2 Mana.)*
+- **Action Surge:** perhaps buy one with Smite dice. *(Claude: at the benchmark, 4 Stamina, its price on Fighter II, is four dice.)* Not settled.
+
+**Rejected:** +3 AC per die on Bulwark II (617), because with Brute's 2 AC per die it loops: give up 2 AC, buy a die, turn it into 3 AC. *(Claude: Brute 2 and Bulwark 2 are an exact mirror, so they don't loop.)* Bulwark II is open again.
+
+**The Juggernaut line is not part of the Smite economy:** it's the tankiest of tanks, who soak and soak. Everything north of that line can be. **Juggernaut II (619) gets a d20 Hit Die**, the first on the grid.
+
+**Open:**
+- Whether this replaces the 2026-11-15 smite parts (Smite on 206, Disciplined Smite 410, Charging Smite 513, Legendary Smite 614, Vital Smite 310, Guardian 309, Cleaving 411).
+- What Bulwark II (617) and Brute II (615) get.
+- More ways to spend dice.
+
 ## 2. Parts the SRD already has *(Claude)*
 
 - **The threshold of 13** is the SRD's multiclassing prerequisite: "a score of at least 13 in the primary ability of the new class". An entry node is the same rule, applied to every character.
