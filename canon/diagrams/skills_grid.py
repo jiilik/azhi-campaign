@@ -223,6 +223,9 @@ for i in range(6):
         RAY_TILES[(m * (dq + nq), m * (dr + nr))] = seam_hd
 # Juggernaut II: a d20 Hit Die, the tankiest of tanks (Troy, 2026-11-17).
 RAY_TILES[BY_NUMBER["619"]] = "d20"
+# The rest of the Juggernaut line: two Hit Dice a tile (Troy, 2026-11-18).
+for num, hd in {"310": "d12+d4", "413": "d12+d6", "516": "d12+d8"}.items():
+    RAY_TILES[BY_NUMBER[num]] = hd
 for h, hd in RAY_TILES.items():
     if h in TILES:
         l1, l2, l3 = TILES[h]

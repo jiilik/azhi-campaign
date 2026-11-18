@@ -455,8 +455,7 @@ Troy set aside the earlier smite design (2026-11-15, REVIEW parts in `canon/tile
 
 **The nova, and the real problem** *(Claude's arithmetic)*: the whole wedge is about 15 tiles. With 15 Hit Dice at d12 plus Exhaustion, AC, Speed and the action trades, one hit could carry 25 or more d12s, about 160 damage, and twice that on a crit. Troy: still not enough to kill an adult dragon, so it's fine. **The real problem is time at the table:** working out which resources to convert. *(Claude: a Smite tracker card, with a box to tick for each way to pay, so the player plans the nova before their turn.)*
 
-**Open:**
-- What Bulwark II (617) and Brute II (615) get.
+**Settled 2026-11-18** (Troy, voice): Bulwark II spends dice on an adjacent ally's AC; Brute II gets nothing more; Action Surge isn't bought with dice; no tracker card. The wedge is **APPROVED**: see `canon/decisions.md` and `canon/tile-assignments.md`.
 
 ## 2. Parts the SRD already has *(Claude)*
 

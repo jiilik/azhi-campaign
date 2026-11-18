@@ -141,14 +141,15 @@ def part_html(parts):
     o = []
     for what, src, note in parts:
         meta = ' · '.join(x for x in (clean(src), clean(note)) if x)
-        o.append(f'<li>{clean(what)}' + (f'<div class="src">{meta}</div>' if meta else '') + '</li>')
+        tag = '' if 'APPROVED' in note else ' <span class="rev">REVIEW</span>'
+        o.append(f'<li>{clean(what)}{tag}' + (f'<div class="src">{meta}</div>' if meta else '') + '</li>')
     return '<ul>' + ''.join(o) + '</ul>'
 
 
 def entry(title, facts, parts, cls=''):
     body = ''.join(f'<div class="f">{f}</div>' for f in facts)
     if parts:
-        body += '<div class="lab">Parts (REVIEW)</div>' + part_html(parts)
+        body += '<div class="lab">Parts</div>' + part_html(parts)
     return f'<div class="e {cls}"><div class="t">{title}</div>{body}</div>'
 
 
@@ -242,6 +243,7 @@ ul{margin:1pt 0 0 12pt;padding:0}
 li{margin:1pt 0}
 .src{font:italic 7.6pt 'DejaVu Serif',serif;color:#555}
 .kit{background:#f4f1e8}
+.rev{font:bold 6.6pt 'DejaVu Sans',sans-serif;color:#c46a12}
 .pts{font:bold 8.2pt 'DejaVu Sans',sans-serif;color:#1d5c8a}
 .ptsb{font:7.4pt 'DejaVu Sans',sans-serif;color:#557}
 .lede{font-size:8.6pt;color:#444;margin:0 0 6pt}

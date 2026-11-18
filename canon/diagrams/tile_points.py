@@ -16,7 +16,9 @@ Part values come from canon/parts-bin.md where the part is listed; new or
 reworked parts are Claude's estimates.
 """
 
-HIT_DIE = {'d4': -4, 'd6': 0, 'd8': 4, 'd10': 8, 'd12': 12, 'd20': 20}  # d20: +2 average per 4 points
+HIT_DIE = {'d4': -4, 'd6': 0, 'd8': 4, 'd10': 8, 'd12': 12, 'd20': 28}  # 4 points per +1 average
+# A second Hit Die on one tile (the Juggernaut line): 4 points per point of its average.
+EXTRA_HIT_DIE = {'d4': 10, 'd6': 14, 'd8': 18}
 STAMINA, MANA, PREPARED = 1, 2, 1
 PROF_UP, ATTACK_UP, ABILITY_UP, EXPERTISE, TECHNIQUE = 8, 16, 4, 2.5, 2
 
@@ -46,8 +48,8 @@ PARTS = {
     '412': {'Planted': 3},
     '514': {'Second breath': 4},
     '618': {'saving throw': 4},
-    '619': {'d20 Hit Die': 0},
-    '207': {'Unarmored Defense': 4, 'Danger Sense': 3},
+    '619': {'d20 Hit Die': 0, 'Chain Taunt': 4},
+    '207': {'Unarmored Defense': 4, 'Danger Sense': 3, 'Rope-a-dope': 4},
     '208': {'Vital Reserve': 4, 'Warrior of the Gods': 5, 'Warding Flare': 5},
     '209': {'Light Domain': 6, 'Radiance of the Dawn': 5, 'Otherworldly Glamour': 3, 'Mystic Wanderer': 4},
     '301': {'Guided Strike': 4},
@@ -59,8 +61,10 @@ PARTS = {
     '306': {'Weapon Mastery': 2, 'Remarkable Athlete': 3, 'Retaliation': 5},
     '307': {'Weapon Mastery': 1},
     '308': {'Intimidating Presence': 6, 'Improved Critical': 4, 'Brutal Strike': 6, 'with AC': 3},
-    '309': {'Smite of Protection': 3, 'on AC': 4},
-    '310': {},
+    '309': {'on AC': 4},
+    '310': {'Taunt': 5, 'Hit Dice': 0},
+    '413': {'Hit Dice': 0, 'Powerful Build': 2},
+    '516': {'Hit Dice': 0, 'Colossal': 5},
     '312': {'Animal Speaker': 2, 'Life Domain': 6, 'Wild Shape': 10, 'Wild Companion': 3, 'Primal Companion': 12},
     '317': {'Mystic Reinforcements': 4},
     '318': {'Beguiling Magic': 6, 'Dreadful Strikes': 5},
@@ -98,7 +102,7 @@ PARTS = {
     '611': {'Studied Attacks': 3, 'Fighting Styles': 10},
     '613': {'Weapon Mastery': 1},
     '615': {'Superior Critical': 3, 'Improved Brutal Strike': 3},
-    '617': {'Bulwark of Force': 3},
+    '617': {'Bulwark of Force': 3, 'adjacent ally': 4},
     '620': {'Resistance': 3, 'forcibly phased': 6},
     '622': {'Vital Reserve': 2},
     '623': {'Wild Shape forms grow': 6, 'Supreme Healing': 4, 'Beast Spells': 3},
@@ -124,10 +128,13 @@ def tile_points(num, l2, l3, parts, numbers_fn):
     """(total, breakdown list, unscored parts) for one grid tile."""
     import re
     items = []
-    for m in re.finditer(r'\{([HMS])\}(\d+|d\d+)', l3):
+    for m in re.finditer(r'\{([HMS])\}(\d+|d\d+(?:\+d\d+)?)', l3):
         k, v = m.groups()
         if k == 'H':
-            items.append((f'{v}', HIT_DIE[v]))
+            main, _, extra = v.partition('+')
+            items.append((f'{main}', HIT_DIE[main]))
+            if extra:
+                items.append((f'extra {extra}', EXTRA_HIT_DIE[extra]))
         elif k == 'S':
             items.append((f'{v} Stamina', int(v) * STAMINA))
         else:
