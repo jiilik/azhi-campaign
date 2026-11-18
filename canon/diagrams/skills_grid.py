@@ -221,6 +221,8 @@ for i in range(6):
     seam_hd = HIT_DICE[NUMBERS[(dq + nq, dr + nr)]]
     for m in (2, 3):
         RAY_TILES[(m * (dq + nq), m * (dr + nr))] = seam_hd
+# Juggernaut II: a d20 Hit Die, the tankiest of tanks (Troy, 2026-11-17).
+RAY_TILES[BY_NUMBER["619"]] = "d20"
 for h, hd in RAY_TILES.items():
     if h in TILES:
         l1, l2, l3 = TILES[h]
@@ -360,7 +362,8 @@ for num, name in {"401": "Leader", "402": "Marshal", "406": "Fisticuffs",  # was
 # Naming pass, part 2 (Troy, voice, 2026-11-15).
 for num, name in {"420": "Enchant", "421": "Evoke", "422": "Conjure", "424": "Charm",
                   "501": "General", "503": "Manoeuvre", "504": "Assassin", "505": "Agility",
-                  "510": "Riposte", "513": "Mounted", "514": "Stalwart", "515": "Unbreakable",
+                  "510": "Riposte", "513": "Reckless", "514": "Focus",  # were Mounted and Stalwart (2026-11-17)
+                   "515": "Unbreakable",
                   "517": "Regen", "526": "Invoke", "612": "Deflect", "618": "Unyielding"}.items():
     name_tile(BY_NUMBER[num], name)
 # Naming pass, part 3 (Troy, voice, 2026-11-15): every tile is now named.

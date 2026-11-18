@@ -421,7 +421,7 @@ Other archetypes:
 - **Necromancer and tinker** go to a new idea, the **Forbidden Arts**: off-grid tiles of banned lore (`canon/brainstorm-forbidden-arts.md`). The Blood Mage already carries some necromantic flavour (draining health), though not the raise-an-army kind.
 - **Spiritualist** (Pathfinder's medium bound to a ghost): nothing on the grid talks to the dead. The Shaman's spirits are animal spirits. **Idea:** the Oracle's knowledge could come from ghosts. Not everyone phases: a person can be **utterly destroyed**. *(Claude: ghosts could be what's left of the utterly destroyed.)*
 
-### Smites, a fresh start *(Troy, voice, 2026-11-17; brainstorming, not yet applied to the tiles)*
+### Smites, a fresh start *(Troy, voice, 2026-11-17; **applied to the tiles the same evening**, replacing the 2026-11-15 smite parts; see `canon/tile-assignments.md`)*
 
 Troy set aside the earlier smite design (2026-11-15, REVIEW parts in `canon/tile-assignments.md`) to start again. Two voice sessions the same evening. Everything here is Troy's unless marked *(Claude)*.
 
@@ -448,7 +448,7 @@ Troy set aside the earlier smite design (2026-11-15, REVIEW parts in `canon/tile
 - **Action Surge:** perhaps bought with Smite dice. *(Claude: at the benchmark, 4 Stamina is four dice.)* Not settled.
 
 **Other parts of the section:**
-- **Reckless (513)** also gets **Reckless Attack** (SRD Barbarian 2), kept separate from Smite. *(Claude: Reckless Attack is already on Champion, 307. Move it, or have it twice?)*
+- **Reckless (513)** also gets **Reckless Attack** (SRD Barbarian 2), kept separate from Smite. Moved from Champion (307) (Troy, 2026-11-17).
 - **The Juggernaut line is not part of the Smite economy:** it's the tankiest of tanks, who soak and soak. Everything north of it can be. **Juggernaut II (619) gets a d20 Hit Die**, the first on the grid.
 
 **Rejected:** +3 AC per die on Bulwark II (617): with Brute it loops (give up 2 AC, buy a die, turn it into 3 AC). Rerolling low Smite dice while reckless: too much arithmetic. Banking unspent dice until your next turn: dice convert instantly instead.
@@ -456,7 +456,6 @@ Troy set aside the earlier smite design (2026-11-15, REVIEW parts in `canon/tile
 **The nova, and the real problem** *(Claude's arithmetic)*: the whole wedge is about 15 tiles. With 15 Hit Dice at d12 plus Exhaustion, AC, Speed and the action trades, one hit could carry 25 or more d12s, about 160 damage, and twice that on a crit. Troy: still not enough to kill an adult dragon, so it's fine. **The real problem is time at the table:** working out which resources to convert. *(Claude: a Smite tracker card, with a box to tick for each way to pay, so the player plans the nova before their turn.)*
 
 **Open:**
-- Whether this replaces the 2026-11-15 smite parts (Smite on 206, Disciplined Smite 410, Charging Smite 513, Legendary Smite 614, Vital Smite 310, Guardian 309, Cleaving 411).
 - What Bulwark II (617) and Brute II (615) get.
 
 ## 2. Parts the SRD already has *(Claude)*

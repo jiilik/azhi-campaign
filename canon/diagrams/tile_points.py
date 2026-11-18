@@ -16,7 +16,7 @@ Part values come from canon/parts-bin.md where the part is listed; new or
 reworked parts are Claude's estimates.
 """
 
-HIT_DIE = {'d4': -4, 'd6': 0, 'd8': 4, 'd10': 8, 'd12': 12}
+HIT_DIE = {'d4': -4, 'd6': 0, 'd8': 4, 'd10': 8, 'd12': 12, 'd20': 20}  # d20: +2 average per 4 points
 STAMINA, MANA, PREPARED = 1, 2, 1
 PROF_UP, ATTACK_UP, ABILITY_UP, EXPERTISE, TECHNIQUE = 8, 16, 4, 2.5, 2
 
@@ -42,6 +42,11 @@ PARTS = {
     '204': {'Gambits': 12},
     '205': {'Action Surge': 9},
     '206': {'Smite': 6},
+    '616': {'d12': 3},
+    '412': {'Planted': 3},
+    '514': {'Second breath': 4},
+    '618': {'saving throw': 4},
+    '619': {'d20 Hit Die': 0},
     '207': {'Unarmored Defense': 4, 'Danger Sense': 3},
     '208': {'Vital Reserve': 4, 'Warrior of the Gods': 5, 'Warding Flare': 5},
     '209': {'Light Domain': 6, 'Radiance of the Dawn': 5, 'Otherworldly Glamour': 3, 'Mystic Wanderer': 4},
@@ -52,10 +57,10 @@ PARTS = {
     '305': {'Grappling': 3, 'Uncanny Dodge': 6, 'Flurry of Blows': 4},
     '406': {'Martial Arts': 10},
     '306': {'Weapon Mastery': 2, 'Remarkable Athlete': 3, 'Retaliation': 5},
-    '307': {'Weapon Mastery': 1, 'Reckless Attack': 6},
-    '308': {'Intimidating Presence': 6, 'Improved Critical': 4, 'Brutal Strike': 6},
-    '309': {'Smite of Protection': 3, 'Guardian': 5},
-    '310': {'Vital Smite': 6},
+    '307': {'Weapon Mastery': 1},
+    '308': {'Intimidating Presence': 6, 'Improved Critical': 4, 'Brutal Strike': 6, 'with AC': 3},
+    '309': {'Smite of Protection': 3, 'on AC': 4},
+    '310': {},
     '312': {'Animal Speaker': 2, 'Life Domain': 6, 'Wild Shape': 10, 'Wild Companion': 3, 'Primal Companion': 12},
     '317': {'Mystic Reinforcements': 4},
     '318': {'Beguiling Magic': 6, 'Dreadful Strikes': 5},
@@ -63,8 +68,8 @@ PARTS = {
     '404': {'Dread Ambusher': 6},
     '405': {'Fast Movement': 3, 'Climb Speed': 3},
     '407': {'Improved Gambits': 3, 'Stunning Strike': 8},
-    '410': {'Disciplined Smite': 6},
-    '411': {'Cleaving': 4},
+    '410': {'Take the hit': 5, 'Heavy armour': 4},
+    '411': {'d10': 4},
     '415': {'Vital Reserve': 2, 'Improved Warding Flare': 3},
     '418': {'teleport': 5},
     '419': {'Magical Secrets': 6},
@@ -75,8 +80,8 @@ PARTS = {
     '509': {'Resistance': 3},
     '511': {'Fighting Style': 5},
     '512': {'Heroic Warrior': 6},
-    '513': {'Charging Smite': 3},
-    '515': {'Resistance': 3},
+    '513': {'Exhaustion': 4, 'Reckless Attack': 6},
+    '515': {'Resistance': 3, 'damage reduction': 4},
     '518': {'hit points to Mana': 4},
     '519': {'Blessed Healer': 3},
     '520': {'Exceptional Training': 3},
@@ -92,7 +97,6 @@ PARTS = {
     '610': {'Ultimate Gambits': 3},
     '611': {'Studied Attacks': 3, 'Fighting Styles': 10},
     '613': {'Weapon Mastery': 1},
-    '614': {'Legendary Smite': 4},
     '615': {'Superior Critical': 3, 'Improved Brutal Strike': 3},
     '617': {'Bulwark of Force': 3},
     '620': {'Resistance': 3, 'forcibly phased': 6},
@@ -145,6 +149,8 @@ def tile_points(num, l2, l3, parts, numbers_fn):
         items.append((f'Expertise ×{n}', n * EXPERTISE))
     unscored = []
     for text in parts:
+        if text.startswith('*(empty'):
+            continue
         hit = part_points(PARTS.get(num, {}), text)
         if hit:
             items.append(hit)
