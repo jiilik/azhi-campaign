@@ -409,6 +409,10 @@ Before the revaluation, every kit was below the 2024 level 1 it replaces, and th
 3. **Two counters** (tentative, 2026-11-05) need rethinking: refunded form points mean a phase no longer zeroes a count.
 4. **Extended traits as a tech tree with 33 anchors** (2026-11-05): the 24 traits now root the personality tree and the 9 forms the form tree.
 
+### Level *(Troy, 2026-11-19)*
+
+**Wherever a rule refers to your level, it means the total of your tiles on the skills grid and your steps on the species wheel.**
+
 ### Archetype review *(Troy, voice, 2026-11-17; brainstorming unless marked)*
 
 Claude searched for common D&D builds and compared them with the grid (2026-11-16). Most of the list (Sentinel, Jack of All Trades, Shield Master, poisoner and so on) are **class features of archetypes we already have**, to be placed on tiles later. Three looked like gaps in the wheel itself:

@@ -2,6 +2,12 @@
 
 Newest first. One line per decision: what was decided, and why if a reason was given. Add to this log every time the author settles something, and update `canon/setting-bible.md` to match.
 
+## 2026-11-19
+
+- **Colossal accepted** (Troy, voice): triggered when you take damage (a Reaction, so optional; out of combat, prick your thumb); +5 feet of reach while enlarged; otherwise *Enlarge* reads as the SRD has it, 1d4 included, so players who know the rules read it that way.
+- **More parts for the wedge**, REVIEW: Unmovable (412) can't be moved against its will and is immune to Prone; Focus (514) has Advantage on Concentration saves; Unyielding (618) drops to 1 hit point instead of 0, every time, if it had more than 1; Legend (614) frightens everyone within 60 feet who sees or hears its first hit after Initiative (Wisdom save, DC 8 + Str + Proficiency Bonus, repeated each turn; ends if you're Incapacitated). Legend's kill tally is parked.
+- **Rule: "level" means the total of your tiles on the skills grid and steps on the species wheel**, wherever a rule refers to level (Troy). *Standard wording:* where the SRD has a feature with the same effect, use its words verbatim (Troy).
+
 ## 2026-11-18
 
 - **The Strength–Constitution wedge approved** (Troy, voice): the whole Smite system (206, 411, 616, 412, 308's AC trade, 309, 410, 513, 514, 515's damage reduction, 618) and the Juggernaut line are **APPROVED**, no longer REVIEW. Additions: **Bulwark II (617)** spends Smite dice on an adjacent ally's AC (+2 a die, at most +4 an ally). **Smite of Protection dropped** (no auras on the grid). **Brute II** gets no smite part (its two crit features are plenty); **Action Surge** stays the Fighter's signature, not bought with dice; **no Smite tracker**, it's up to the players.
